@@ -1738,3 +1738,72 @@
 [2023-06-16 01:38:14] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-1.2.7.tar.gz]
 [2023-06-16 01:38:14] INFO root fetch - main [MainThread]: End processing [memento-scorecard]: success
 [2023-06-16 01:38:14] INFO root fetch - main [MainThread]: Store serial: [18523478]
+[2023-06-16 01:43:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523478]
+[2023-06-16 01:43:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 01:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fern-moneykit
+[2023-06-16 01:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: async-fm
+[2023-06-16 01:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-06-16 01:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fair-async-rlock
+[2023-06-16 01:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dorado
+[2023-06-16 01:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odin
+[2023-06-16 01:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-hot-reloading
+[2023-06-16 01:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eSEESminiPy
+[2023-06-16 01:43:23] WARNING root fetch - processPackages [fern-moneykit]: Skipping, unable to determine old version
+[2023-06-16 01:43:23] INFO root fetch - processPackages [fair-async-rlock]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-16 01:43:23] INFO root fetch - main [MainThread]: End processing [fern-moneykit] error
+[2023-06-16 01:43:23] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-06-16 01:43:23] INFO root fetch - processPackages [async-fm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-16 01:43:23] INFO root fetch - processPackages [odin]: New version: [2.8.1] Old Version: [2.8]
+[2023-06-16 01:43:23] INFO root fetch - processPackages [coiled]: New version: [0.7.6.dev9] Old Version: [0.7.6.dev8]
+[2023-06-16 01:43:23] INFO root fetch - processPackages [eSEESminiPy]: New version: [0.0.81] Old Version: [0.0.80]
+[2023-06-16 01:43:23] INFO root fetch - processPackages [pytest-hot-reloading]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2023-06-16 01:43:23] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/28/c3/25ec9324622ba0dd720edcd3809a1c623c162133d247d2e22790624c723b/dorado-2.0.6.dev97.tar.gz
+[2023-06-16 01:43:23] INFO root fetch - processPackages [fair-async-rlock]: Downloading https://files.pythonhosted.org/packages/4c/f0/eb7e3914791e54f904d21c7ee1f80d828bb9042fc1d71b825dc30a1dfb69/fair_async_rlock-1.0.2.tar.gz
+[2023-06-16 01:43:23] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/9b/1a/d3ed5fa8f7ff31c912c287481792d4dde702182cc6a2cd5b8fa71c49013b/coiled-0.7.6.dev8.tar.gz
+[2023-06-16 01:43:23] INFO root fetch - processPackages [odin]: Downloading https://files.pythonhosted.org/packages/23/12/6d0070b78312fd5f1249979da59e7f52e832f9848db09e537ccdb5336d1d/odin-2.8.tar.gz
+[2023-06-16 01:43:23] INFO root fetch - processPackages [eSEESminiPy]: Downloading https://files.pythonhosted.org/packages/0d/a4/cedb799fa2a8dd87c6cd4ab53533aef0fced35ab9d9f0e6fe3a4b3df0264/eSEESminiPy-0.0.80-py3-none-any.whl
+[2023-06-16 01:43:23] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/b9/2e/854512bc2085bd5738d74bd4b50e4a958e43ee3e802999c5402e429e6030/dorado-2.0.6.dev99.tar.gz
+[2023-06-16 01:43:23] INFO root fetch - processPackages [pytest-hot-reloading]: Downloading https://files.pythonhosted.org/packages/e4/5b/b21ca99696c5ab5cb314309b08159429cff22c10e2868133b7689f7babd5/pytest_hot_reloading-0.1.0a5.tar.gz
+[2023-06-16 01:43:23] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/05/28/a33d4ee3421eb21cf1a92c3a09c615ca44e2fcba23371082b0d9384efe41/coiled-0.7.6.dev9.tar.gz
+[2023-06-16 01:43:23] INFO root fetch - processPackages [async-fm]: Downloading https://files.pythonhosted.org/packages/53/22/1961d3003a3514993aadd1025a5b2d30e568e6f4d48eed25b3fe0c471563/async_fm-0.0.4.tar.gz
+[2023-06-16 01:43:23] INFO root fetch - processPackages [fair-async-rlock]: Downloading https://files.pythonhosted.org/packages/05/40/fa2ab3cccf2b710aaa9d44326646f22deebca953e22f1e143aaf86117664/fair_async_rlock-1.0.3.tar.gz
+[2023-06-16 01:43:23] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-06-16 01:43:23] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230616/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-06-16 01:43:23] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-16 01:43:23] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.6.dev8.tar.gz tmp/coiled-0.7.6.dev9.tar.gz --markdown 20230616/c/coiled/0.7.6.dev8-0.7.6.dev9/diff.md --exclude *.pyd
+[2023-06-16 01:43:24] INFO root fetch - processPackages [fair-async-rlock]: executing diffoscope
+[2023-06-16 01:43:24] INFO root fetch - processPackages [fair-async-rlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fair_async_rlock-1.0.2.tar.gz tmp/fair_async_rlock-1.0.3.tar.gz --markdown 20230616/f/fair-async-rlock/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-16 01:43:24] INFO root fetch - processPackages [eSEESminiPy]: Downloading https://files.pythonhosted.org/packages/5f/27/2b1b68b579e96c19aed7a59fb96edc9e94251a080c21f76ba86da6c8b0e7/eSEESminiPy-0.0.81-py3-none-any.whl
+[2023-06-16 01:43:24] INFO root fetch - processPackages [async-fm]: Downloading https://files.pythonhosted.org/packages/71/f4/6746a842ae25f4b1d6c3851d667fd0e3c389a82e0962cbc02df4f0c85948/async_fm-0.0.5.tar.gz
+[2023-06-16 01:43:24] INFO root fetch - processPackages [odin]: Downloading https://files.pythonhosted.org/packages/c0/6a/8632e883494fda34c935a3fbb242170da87b30a75e6074bd2287efdc8ecc/odin-2.8.1.tar.gz
+[2023-06-16 01:43:24] INFO root fetch - processPackages [pytest-hot-reloading]: Downloading https://files.pythonhosted.org/packages/bb/93/0c62341fb42f0810b0c23025e10aa6048f7daba83fadcab366621fdfab44/pytest_hot_reloading-0.1.0a6.tar.gz
+[2023-06-16 01:43:24] INFO root fetch - processPackages [eSEESminiPy]: executing diffoscope
+[2023-06-16 01:43:24] INFO root fetch - processPackages [eSEESminiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eSEESminiPy-0.0.80-py3-none-any.whl.zip tmp/eSEESminiPy-0.0.81-py3-none-any.whl.zip --markdown 20230616/e/eSEESminiPy/0.0.80-0.0.81/diff.md --exclude *.pyd
+[2023-06-16 01:43:24] INFO root fetch - processPackages [odin]: executing diffoscope
+[2023-06-16 01:43:24] INFO root fetch - processPackages [odin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odin-2.8.tar.gz tmp/odin-2.8.1.tar.gz --markdown 20230616/o/odin/2.8-2.8.1/diff.md --exclude *.pyd
+[2023-06-16 01:43:24] INFO root fetch - processPackages [async-fm]: executing diffoscope
+[2023-06-16 01:43:24] INFO root fetch - processPackages [async-fm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_fm-0.0.4.tar.gz tmp/async_fm-0.0.5.tar.gz --markdown 20230616/a/async-fm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-16 01:43:24] INFO root fetch - processPackages [pytest-hot-reloading]: executing diffoscope
+[2023-06-16 01:43:24] INFO root fetch - processPackages [pytest-hot-reloading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_hot_reloading-0.1.0a5.tar.gz tmp/pytest_hot_reloading-0.1.0a6.tar.gz --markdown 20230616/p/pytest-hot-reloading/0.1.0a5-0.1.0a6/diff.md --exclude *.pyd
+[2023-06-16 01:43:25] INFO root fetch - processPackages [fair-async-rlock]: Remove: archive file [/home/abi/fetcher/tmp/fair_async_rlock-1.0.2.tar.gz]
+[2023-06-16 01:43:25] INFO root fetch - processPackages [fair-async-rlock]: Remove: archive file [/home/abi/fetcher/tmp/fair_async_rlock-1.0.3.tar.gz]
+[2023-06-16 01:43:25] INFO root fetch - main [MainThread]: End processing [fair-async-rlock]: success
+[2023-06-16 01:43:25] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.6.dev8.tar.gz]
+[2023-06-16 01:43:25] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.6.dev9.tar.gz]
+[2023-06-16 01:43:25] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-16 01:43:25] INFO root fetch - processPackages [eSEESminiPy]: Remove: archive file [/home/abi/fetcher/tmp/eSEESminiPy-0.0.80-py3-none-any.whl.zip]
+[2023-06-16 01:43:25] INFO root fetch - processPackages [eSEESminiPy]: Remove: archive file [/home/abi/fetcher/tmp/eSEESminiPy-0.0.81-py3-none-any.whl.zip]
+[2023-06-16 01:43:25] INFO root fetch - main [MainThread]: End processing [eSEESminiPy]: success
+[2023-06-16 01:43:25] INFO root fetch - processPackages [async-fm]: Remove: archive file [/home/abi/fetcher/tmp/async_fm-0.0.4.tar.gz]
+[2023-06-16 01:43:25] INFO root fetch - processPackages [async-fm]: Remove: archive file [/home/abi/fetcher/tmp/async_fm-0.0.5.tar.gz]
+[2023-06-16 01:43:25] INFO root fetch - main [MainThread]: End processing [async-fm]: success
+[2023-06-16 01:43:25] INFO root fetch - processPackages [pytest-hot-reloading]: Remove: archive file [/home/abi/fetcher/tmp/pytest_hot_reloading-0.1.0a5.tar.gz]
+[2023-06-16 01:43:25] INFO root fetch - processPackages [pytest-hot-reloading]: Remove: archive file [/home/abi/fetcher/tmp/pytest_hot_reloading-0.1.0a6.tar.gz]
+[2023-06-16 01:43:25] INFO root fetch - main [MainThread]: End processing [pytest-hot-reloading]: success
+[2023-06-16 01:43:25] INFO root fetch - processPackages [odin]: Remove: archive file [/home/abi/fetcher/tmp/odin-2.8.tar.gz]
+[2023-06-16 01:43:25] INFO root fetch - processPackages [odin]: Remove: archive file [/home/abi/fetcher/tmp/odin-2.8.1.tar.gz]
+[2023-06-16 01:43:25] INFO root fetch - main [MainThread]: End processing [odin]: success
+[2023-06-16 01:43:27] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev97.tar.gz]
+[2023-06-16 01:43:27] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev99.tar.gz]
+[2023-06-16 01:43:27] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-06-16 01:43:27] INFO root fetch - main [MainThread]: Store serial: [18523504]
