@@ -1558,3 +1558,71 @@
 [2023-06-16 01:22:38] INFO root fetch - processPackages [distribute-compute-config]: Remove: archive file [/home/abi/fetcher/tmp/distribute_compute_config-0.14.5.tar.gz]
 [2023-06-16 01:22:38] INFO root fetch - main [MainThread]: End processing [distribute-compute-config]: success
 [2023-06-16 01:22:38] INFO root fetch - main [MainThread]: Store serial: [18523374]
+[2023-06-16 01:27:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523374]
+[2023-06-16 01:27:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-16 01:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simages
+[2023-06-16 01:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuroshape
+[2023-06-16 01:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-16 01:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dreamsim
+[2023-06-16 01:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ds-test-pypi
+[2023-06-16 01:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: schematicpy
+[2023-06-16 01:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: numerical-py
+[2023-06-16 01:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyproject-fmt
+[2023-06-16 01:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FlyBaseDownloads
+[2023-06-16 01:27:48] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.365] Old Version: [0.3.364]
+[2023-06-16 01:27:48] INFO root fetch - processPackages [neuroshape]: New version: [0.0.4.3.2] Old Version: [0.0.4.3.1]
+[2023-06-16 01:27:48] WARNING root fetch - processPackages [ds-test-pypi]: Skipping, unable to determine old version
+[2023-06-16 01:27:48] WARNING root fetch - processPackages [dreamsim]: Skipping, unable to determine old version
+[2023-06-16 01:27:48] INFO root fetch - main [MainThread]: End processing [ds-test-pypi] error
+[2023-06-16 01:27:48] INFO root fetch - main [MainThread]: End processing [dreamsim] error
+[2023-06-16 01:27:48] INFO root fetch - processPackages [simages]: New version: [23.0.2] Old Version: [23.0.1]
+[2023-06-16 01:27:48] INFO root fetch - processPackages [numerical-py]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-06-16 01:27:48] INFO root fetch - processPackages [pyproject-fmt]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-16 01:27:48] INFO root fetch - processPackages [schematicpy]: New version: [23.6.1] Old Version: [23.1.1]
+[2023-06-16 01:27:48] INFO root fetch - processPackages [FlyBaseDownloads]: New version: [1.0.4.6] Old Version: [1.0.4.5]
+[2023-06-16 01:27:48] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/54/49/c9dec70e45cdbfb48225b620a103fb2777846f317a602e6d69cd1ac0e897/pepperize.cdk-ses-smtp-credentials-0.3.364.tar.gz
+[2023-06-16 01:27:49] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-16 01:27:49] INFO root fetch - processPackages [simages]: Downloading https://files.pythonhosted.org/packages/16/02/2dfebf26984c996f2a51a33ac40e1e79aadd73fa9b134823933343d18437/simages-23.0.1-py3-none-any.whl
+[2023-06-16 01:27:49] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/04/8b/e3239b9e6a559ecebbef549ddfccde1c3e50d6ce14c78ba2f6970eff0abc/FlyBaseDownloads-1.0.4.5.tar.gz
+[2023-06-16 01:27:49] WARNING root fetch - processPackages [simages]: Skipping package: exceeds size limit 14722763>=10485760
+[2023-06-16 01:27:49] INFO root fetch - main [MainThread]: End processing [simages] error
+[2023-06-16 01:27:49] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/6e/23/3033c12bcc52378fa4f8dee233e5ec9e93c5d34f658532c5e2f1a5c12c83/neuroshape-0.0.4.3.1.tar.gz
+[2023-06-16 01:27:49] INFO root fetch - processPackages [pyproject-fmt]: Downloading https://files.pythonhosted.org/packages/35/69/dddb1f19c09b3ba9eaccf8dabaa49a95feba94b64cecc4eead8ac0481c43/pyproject_fmt-0.9.1.tar.gz
+[2023-06-16 01:27:49] INFO root fetch - processPackages [schematicpy]: Downloading https://files.pythonhosted.org/packages/93/e3/21cf5486f3c3c378e871fdb1ef5d0eb525b0274b295fe257e0247e69fef0/schematicpy-23.1.1.tar.gz
+[2023-06-16 01:27:49] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/7e/6c/f2cead43b6a6671722671012823751413a35fb967ae59cfd2a86965b649a/pepperize.cdk-ses-smtp-credentials-0.3.365.tar.gz
+[2023-06-16 01:27:49] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/ce/e7/cf48ee66ddd6817393da11ef2fb0e917b1e1c2c5c7e620792bd78222ddaf/numerical_py-1.0.0.tar.gz
+[2023-06-16 01:27:49] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-16 01:27:49] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.364.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.365.tar.gz --markdown 20230616/p/pepperize.cdk-ses-smtp-credentials/0.3.364-0.3.365/diff.md --exclude *.pyd
+[2023-06-16 01:27:49] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/f5/a2/76d37324ce43fbeb88145eeb779211e235326d38a636e462b588ae4c31ce/FlyBaseDownloads-1.0.4.6.tar.gz
+[2023-06-16 01:27:49] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-16 01:27:49] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.9.tar.gz tmp/numerical_py-1.0.0.tar.gz --markdown 20230616/n/numerical-py/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-16 01:27:49] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/00/63/3f8b6f8d7a661592e8aa1fd82cb0ba85cd452954b029ad33c574ef2500db/neuroshape-0.0.4.3.2.tar.gz
+[2023-06-16 01:27:49] INFO root fetch - processPackages [FlyBaseDownloads]: executing diffoscope
+[2023-06-16 01:27:49] INFO root fetch - processPackages [FlyBaseDownloads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyBaseDownloads-1.0.4.5.tar.gz tmp/FlyBaseDownloads-1.0.4.6.tar.gz --markdown 20230616/F/FlyBaseDownloads/1.0.4.5-1.0.4.6/diff.md --exclude *.pyd
+[2023-06-16 01:27:49] INFO root fetch - processPackages [schematicpy]: Downloading https://files.pythonhosted.org/packages/d6/7f/85a4177a7e750db99f0deed3fefecb5eeed5ea196ffdac87ded47c54a677/schematicpy-23.6.1.tar.gz
+[2023-06-16 01:27:49] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-06-16 01:27:49] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.4.3.1.tar.gz tmp/neuroshape-0.0.4.3.2.tar.gz --markdown 20230616/n/neuroshape/0.0.4.3.1-0.0.4.3.2/diff.md --exclude *.pyd
+[2023-06-16 01:27:49] INFO root fetch - processPackages [pyproject-fmt]: Downloading https://files.pythonhosted.org/packages/53/81/eacf5ff8bc8ddc3b4bc20db588f8896a25c7fbef31cd7807204c1143ffeb/pyproject_fmt-0.9.2.tar.gz
+[2023-06-16 01:27:49] INFO root fetch - processPackages [schematicpy]: executing diffoscope
+[2023-06-16 01:27:49] INFO root fetch - processPackages [schematicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schematicpy-23.1.1.tar.gz tmp/schematicpy-23.6.1.tar.gz --markdown 20230616/s/schematicpy/23.1.1-23.6.1/diff.md --exclude *.pyd
+[2023-06-16 01:27:49] INFO root fetch - processPackages [pyproject-fmt]: executing diffoscope
+[2023-06-16 01:27:49] INFO root fetch - processPackages [pyproject-fmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_fmt-0.9.1.tar.gz tmp/pyproject_fmt-0.9.2.tar.gz --markdown 20230616/p/pyproject-fmt/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-16 01:27:50] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-16 01:27:50] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-1.0.0.tar.gz]
+[2023-06-16 01:27:50] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-16 01:27:50] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.364.tar.gz]
+[2023-06-16 01:27:50] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.365.tar.gz]
+[2023-06-16 01:27:50] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-16 01:27:50] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.4.5.tar.gz]
+[2023-06-16 01:27:50] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.4.6.tar.gz]
+[2023-06-16 01:27:50] INFO root fetch - main [MainThread]: End processing [FlyBaseDownloads]: success
+[2023-06-16 01:27:50] INFO root fetch - processPackages [pyproject-fmt]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_fmt-0.9.1.tar.gz]
+[2023-06-16 01:27:50] INFO root fetch - processPackages [pyproject-fmt]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_fmt-0.9.2.tar.gz]
+[2023-06-16 01:27:50] INFO root fetch - main [MainThread]: End processing [pyproject-fmt]: success
+[2023-06-16 01:27:50] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.3.1.tar.gz]
+[2023-06-16 01:27:50] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.3.2.tar.gz]
+[2023-06-16 01:27:50] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
+[2023-06-16 01:27:51] INFO root fetch - processPackages [schematicpy]: Remove: archive file [/home/abi/fetcher/tmp/schematicpy-23.1.1.tar.gz]
+[2023-06-16 01:27:51] INFO root fetch - processPackages [schematicpy]: Remove: archive file [/home/abi/fetcher/tmp/schematicpy-23.6.1.tar.gz]
+[2023-06-16 01:27:51] INFO root fetch - main [MainThread]: End processing [schematicpy]: success
+[2023-06-16 01:27:51] INFO root fetch - main [MainThread]: Store serial: [18523418]
