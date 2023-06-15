@@ -1,0 +1,186 @@
+[2023-06-16 00:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18522677]
+[2023-06-16 00:02:47] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-16 00:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalkpy
+[2023-06-16 00:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: topology
+[2023-06-16 00:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-update
+[2023-06-16 00:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-06-16 00:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jobmanager
+[2023-06-16 00:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: estela
+[2023-06-16 00:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-skill-personal
+[2023-06-16 00:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neon-skill-speed-test
+[2023-06-16 00:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cijoe-pkg-qemu
+[2023-06-16 00:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-sops-secrets
+[2023-06-16 00:02:48] INFO root fetch - processPackages [topology]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-16 00:02:48] INFO root fetch - processPackages [jobmanager]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-16 00:02:48] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230615.21.56.839638] Old Version: [20230615.21.19.364056]
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-update]: New version: [0.3.3a2] Old Version: [0.3.3a1]
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-speed-test]: New version: [0.5.2a2] Old Version: [0.5.2a1]
+[2023-06-16 00:02:48] INFO root fetch - processPackages [chalkpy]: New version: [2.8.0] Old Version: [2.7.9]
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-personal]: New version: [0.3.1a3] Old Version: [0.3.1a2]
+[2023-06-16 00:02:48] INFO root fetch - processPackages [estela]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-16 00:02:48] INFO root fetch - processPackages [cijoe-pkg-qemu]: New version: [6.1.9] Old Version: [6.1.8]
+[2023-06-16 00:02:48] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-16 00:02:48] INFO root fetch - processPackages [jobmanager]: Downloading https://files.pythonhosted.org/packages/89/dc/82a1ffbba6874036de8954238d85618861ecf6090b024035312ef28c42f3/jobmanager-0.4.1.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/5e/3d/6931fce9f1a078a81c0cf8dc79252ed7bb1fe9ad765bb195a76f279356db/certora-cli-alpha-master-20230615.21.19.364056.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/0e/b8/e8f7ed7d26f2f8def786675b9026090c3e21d62fabc6dcd238813e74b47d/chalkpy-2.7.9.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [topology]: Downloading https://files.pythonhosted.org/packages/dd/96/b4190968b52f86f80b282593466bb8ad26e374e8f8607f0a797e2eb28d2e/topology-1.9.8.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [estela]: Downloading https://files.pythonhosted.org/packages/6c/13/9b043580c6d76a45f52ff5b29cb25d8f51121dd3d17f797879c32d1ebb31/estela-0.2.2.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-update]: Downloading https://files.pythonhosted.org/packages/56/9c/d5c4d410eb72eb54b06480975459c3561cf2a69a47e800236ae88d7f22e4/neon_skill_update-0.3.3a1-py3-none-any.whl
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-personal]: Downloading https://files.pythonhosted.org/packages/2c/b6/d8a14138a1c1444db7f65f84da03faabbb9427037ed4b0b048ef744f38b3/neon_skill_personal-0.3.1a2-py3-none-any.whl
+[2023-06-16 00:02:48] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39408329>=10485760
+[2023-06-16 00:02:48] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: backrefs
+[2023-06-16 00:02:48] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-16 00:02:48] INFO root fetch - processPackages [cijoe-pkg-qemu]: Downloading https://files.pythonhosted.org/packages/ed/a4/5f878bddf207f71dd8b17766b3a1aa7f9e29b4e7ba6ce8bfc60b1f4c11d8/cijoe-pkg-qemu-6.1.8.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-speed-test]: Downloading https://files.pythonhosted.org/packages/9a/a0/2333027b6878f2e812fc5f0eaa9b7d770c58a79978b6813599f120a59ed4/neon_skill_speed_test-0.5.2a1-py3-none-any.whl
+[2023-06-16 00:02:48] INFO root fetch - processPackages [backrefs]: New version: [5.5] Old Version: [5.4]
+[2023-06-16 00:02:48] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [jobmanager]: Downloading https://files.pythonhosted.org/packages/6f/98/5653c508156e3c53e64e4186f0c61839bb2a473f0e937aae53857babf6e2/jobmanager-0.4.2.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [backrefs]: Downloading https://files.pythonhosted.org/packages/52/2f/62b896dc50e960e6f46933c3b4961ca135fbf577e87136c7d7ef2e6fc603/backrefs-5.4.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [estela]: Downloading https://files.pythonhosted.org/packages/5b/61/92bb37b66c4708fdf71af7d8d40167a0efbc4442d6fccc876eb7f5960006/estela-0.2.3.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/c2/39/af90eee9157c7344b07163772aa33e6aaac9b346557b56c10ed6aaba0a2f/chalkpy-2.8.0.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-update]: Downloading https://files.pythonhosted.org/packages/8f/8c/81b1f8775af3219beec82ce3df38f13977c13d1d50f25c8971e3d0312724/neon-skill-update-0.3.3a2.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-personal]: Downloading https://files.pythonhosted.org/packages/2c/a5/6376554ba92f804ee89e9261087b2343c54b33c50a7ca4027dd20cc56710/neon-skill-personal-0.3.1a3.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-speed-test]: Downloading https://files.pythonhosted.org/packages/92/ac/e5470d6002703a9cba04823597f13331b8c577ea2f1a2512742496deefa8/neon-skill-speed_test-0.5.2a2.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [topology]: Downloading https://files.pythonhosted.org/packages/61/f4/3e28568b6ffab388b093c61fc876581492fa20e290e7794dc8ebd553fc86/topology-1.9.9.tar.gz
+[2023-06-16 00:02:48] INFO root fetch - processPackages [estela]: executing diffoscope
+[2023-06-16 00:02:48] INFO root fetch - processPackages [estela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estela-0.2.2.tar.gz tmp/estela-0.2.3.tar.gz --markdown 20230616/e/estela/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-16 00:02:48] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-16 00:02:48] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.7.9.tar.gz tmp/chalkpy-2.8.0.tar.gz --markdown 20230616/c/chalkpy/2.7.9-2.8.0/diff.md --exclude *.pyd
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-update]: executing diffoscope
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_update-0.3.3a1-py3-none-any.whl.zip tmp/neon-skill-update-0.3.3a2.tar.gz --markdown 20230616/n/neon-skill-update/0.3.3a1-0.3.3a2/diff.md --exclude *.pyd
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-personal]: executing diffoscope
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-personal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_personal-0.3.1a2-py3-none-any.whl.zip tmp/neon-skill-personal-0.3.1a3.tar.gz --markdown 20230616/n/neon-skill-personal/0.3.1a2-0.3.1a3/diff.md --exclude *.pyd
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-speed-test]: executing diffoscope
+[2023-06-16 00:02:48] INFO root fetch - processPackages [neon-skill-speed-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_speed_test-0.5.2a1-py3-none-any.whl.zip tmp/neon-skill-speed_test-0.5.2a2.tar.gz --markdown 20230616/n/neon-skill-speed-test/0.5.2a1-0.5.2a2/diff.md --exclude *.pyd
+[2023-06-16 00:02:48] INFO root fetch - processPackages [jobmanager]: executing diffoscope
+[2023-06-16 00:02:48] INFO root fetch - processPackages [jobmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jobmanager-0.4.1.tar.gz tmp/jobmanager-0.4.2.tar.gz --markdown 20230616/j/jobmanager/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-16 00:02:48] INFO root fetch - processPackages [topology]: executing diffoscope
+[2023-06-16 00:02:48] INFO root fetch - processPackages [topology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topology-1.9.8.tar.gz tmp/topology-1.9.9.tar.gz --markdown 20230616/t/topology/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-16 00:02:49] INFO root fetch - processPackages [cijoe-pkg-qemu]: Downloading https://files.pythonhosted.org/packages/e1/b6/b1074015c36d67f4e730f2b3ab85a2e13f77db2e1fc837ad23b2b0ae1418/cijoe-pkg-qemu-6.1.9.tar.gz
+[2023-06-16 00:02:49] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-16 00:02:49] INFO root fetch - processPackages [cijoe-pkg-qemu]: executing diffoscope
+[2023-06-16 00:02:49] INFO root fetch - processPackages [cijoe-pkg-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cijoe-pkg-qemu-6.1.8.tar.gz tmp/cijoe-pkg-qemu-6.1.9.tar.gz --markdown 20230616/c/cijoe-pkg-qemu/6.1.8-6.1.9/diff.md --exclude *.pyd
+[2023-06-16 00:02:49] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-16 00:02:49] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230616/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-16 00:02:49] INFO root fetch - processPackages [backrefs]: Downloading https://files.pythonhosted.org/packages/b2/43/7c6ee65155a6241a74b186d0fa66f0337a563ce3b2ff65bd50810946a858/backrefs-5.5.tar.gz
+[2023-06-16 00:02:49] INFO root fetch - processPackages [backrefs]: executing diffoscope
+[2023-06-16 00:02:49] INFO root fetch - processPackages [backrefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backrefs-5.4.tar.gz tmp/backrefs-5.5.tar.gz --markdown 20230616/b/backrefs/5.4-5.5/diff.md --exclude *.pyd
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-personal]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_personal-0.3.1a2-py3-none-any.whl.zip]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-personal]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-personal-0.3.1a3.tar.gz]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-personal]: Start processing: tcare-sbvalidator
+[2023-06-16 00:02:50] INFO root fetch - main [MainThread]: End processing [neon-skill-personal]: success
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-speed-test]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_speed_test-0.5.2a1-py3-none-any.whl.zip]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-speed-test]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-speed_test-0.5.2a2.tar.gz]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-speed-test]: Start processing: gad-common-utils
+[2023-06-16 00:02:50] INFO root fetch - main [MainThread]: End processing [neon-skill-speed-test]: success
+[2023-06-16 00:02:50] INFO root fetch - processPackages [tcare-sbvalidator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [gad-common-utils]: New version: [0.27] Old Version: [0.26]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [gad-common-utils]: Downloading https://files.pythonhosted.org/packages/5a/7e/d751f737db4c5aeddd7e67a2173c83b6eeece2ac99343221e8e72593c62c/gad_common_utils-0.26.tar.gz
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-update]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_update-0.3.3a1-py3-none-any.whl.zip]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-update]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-update-0.3.3a2.tar.gz]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-update]: Start processing: motion-python
+[2023-06-16 00:02:50] INFO root fetch - main [MainThread]: End processing [neon-skill-update]: success
+[2023-06-16 00:02:50] INFO root fetch - processPackages [tcare-sbvalidator]: Downloading https://files.pythonhosted.org/packages/b2/02/026be432180934bd537c76780246eedfb3f813cc53259e3cad20d88b1e60/tcare_sbvalidator-0.0.8.tar.gz
+[2023-06-16 00:02:50] INFO root fetch - processPackages [motion-python]: New version: [0.1.65] Old Version: [0.1.64]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/7d/c1/8ff3145460b7513bf1555d3b06bab8965dce89f747326462ad7834dcd7ee/motion_python-0.1.64.tar.gz
+[2023-06-16 00:02:50] INFO root fetch - processPackages [jobmanager]: Remove: archive file [/home/abi/fetcher/tmp/jobmanager-0.4.1.tar.gz]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [jobmanager]: Remove: archive file [/home/abi/fetcher/tmp/jobmanager-0.4.2.tar.gz]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [jobmanager]: Start processing: neon-skill-caffeinewiz
+[2023-06-16 00:02:50] INFO root fetch - main [MainThread]: End processing [jobmanager]: success
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-caffeinewiz]: New version: [0.3.2a3] Old Version: [0.3.2a2]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [tcare-sbvalidator]: Downloading https://files.pythonhosted.org/packages/c6/42/8263377fcc49b705be8f8c4cf9e1f21a0ab47ae885e23f8d264f0671f528/tcare_sbvalidator-0.0.9.tar.gz
+[2023-06-16 00:02:50] INFO root fetch - processPackages [gad-common-utils]: Downloading https://files.pythonhosted.org/packages/94/78/0e8e3e4fdfa22269d945b8a49a59cdd87cf5615681493f322cf19b3dcd03/gad_common_utils-0.27.tar.gz
+[2023-06-16 00:02:50] INFO root fetch - processPackages [tcare-sbvalidator]: executing diffoscope
+[2023-06-16 00:02:50] INFO root fetch - processPackages [tcare-sbvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcare_sbvalidator-0.0.8.tar.gz tmp/tcare_sbvalidator-0.0.9.tar.gz --markdown 20230616/t/tcare-sbvalidator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 00:02:50] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/fa/8d/d1260687b1959ce16c8ec3393c69481564dee1987dc65b91b9ec45cba0dd/motion_python-0.1.65.tar.gz
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-caffeinewiz]: Downloading https://files.pythonhosted.org/packages/c7/43/d9da3da7e3a05a56fe35f6e5f0484564b2057fde6c859d39a3242db46b82/neon_skill_caffeinewiz-0.3.2a2-py3-none-any.whl
+[2023-06-16 00:02:50] INFO root fetch - processPackages [estela]: Remove: archive file [/home/abi/fetcher/tmp/estela-0.2.2.tar.gz]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [estela]: Remove: archive file [/home/abi/fetcher/tmp/estela-0.2.3.tar.gz]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [estela]: Start processing: spinneroo
+[2023-06-16 00:02:50] INFO root fetch - main [MainThread]: End processing [estela]: success
+[2023-06-16 00:02:50] INFO root fetch - processPackages [gad-common-utils]: executing diffoscope
+[2023-06-16 00:02:50] INFO root fetch - processPackages [gad-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gad_common_utils-0.26.tar.gz tmp/gad_common_utils-0.27.tar.gz --markdown 20230616/g/gad-common-utils/0.26-0.27/diff.md --exclude *.pyd
+[2023-06-16 00:02:50] WARNING root fetch - processPackages [spinneroo]: Skipping, unable to determine old version
+[2023-06-16 00:02:50] INFO root fetch - processPackages [spinneroo]: Start processing: neon-skill-data-controls
+[2023-06-16 00:02:50] INFO root fetch - main [MainThread]: End processing [spinneroo] error
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-data-controls]: New version: [1.0.1a1] Old Version: [1.0.0]
+[2023-06-16 00:02:50] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-06-16 00:02:50] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.64.tar.gz tmp/motion_python-0.1.65.tar.gz --markdown 20230616/m/motion-python/0.1.64-0.1.65/diff.md --exclude *.pyd
+[2023-06-16 00:02:50] INFO root fetch - processPackages [neon-skill-caffeinewiz]: Downloading https://files.pythonhosted.org/packages/6e/6a/0e65f9049dd3ebfa80c2d519c70850049e8c12b3b8e2f2536abeb27d0e8e/neon-skill-caffeinewiz-0.3.2a3.tar.gz
+[2023-06-16 00:02:51] INFO root fetch - processPackages [neon-skill-data-controls]: Downloading https://files.pythonhosted.org/packages/e5/16/472e3735ac916afc85d43319c62eb4d42e5a0d0330d043cf7ddf2df47bd6/neon_skill_data_controls-1.0.0-py3-none-any.whl
+[2023-06-16 00:02:51] INFO root fetch - processPackages [neon-skill-caffeinewiz]: executing diffoscope
+[2023-06-16 00:02:51] INFO root fetch - processPackages [neon-skill-caffeinewiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_caffeinewiz-0.3.2a2-py3-none-any.whl.zip tmp/neon-skill-caffeinewiz-0.3.2a3.tar.gz --markdown 20230616/n/neon-skill-caffeinewiz/0.3.2a2-0.3.2a3/diff.md --exclude *.pyd
+[2023-06-16 00:02:51] INFO root fetch - processPackages [cijoe-pkg-qemu]: Remove: archive file [/home/abi/fetcher/tmp/cijoe-pkg-qemu-6.1.8.tar.gz]
+[2023-06-16 00:02:51] INFO root fetch - processPackages [cijoe-pkg-qemu]: Remove: archive file [/home/abi/fetcher/tmp/cijoe-pkg-qemu-6.1.9.tar.gz]
+[2023-06-16 00:02:51] INFO root fetch - processPackages [cijoe-pkg-qemu]: Start processing: tcare-sbvalidator
+[2023-06-16 00:02:51] INFO root fetch - main [MainThread]: End processing [cijoe-pkg-qemu]: success
+[2023-06-16 00:02:51] INFO root fetch - processPackages [topology]: Remove: archive file [/home/abi/fetcher/tmp/topology-1.9.8.tar.gz]
+[2023-06-16 00:02:51] INFO root fetch - processPackages [topology]: Remove: archive file [/home/abi/fetcher/tmp/topology-1.9.9.tar.gz]
+[2023-06-16 00:02:51] INFO root fetch - processPackages [topology]: Start processing: neon-skill-user-settings
+[2023-06-16 00:02:51] INFO root fetch - main [MainThread]: End processing [topology]: success
+[2023-06-16 00:02:51] INFO root fetch - processPackages [tcare-sbvalidator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 00:02:51] INFO root fetch - processPackages [neon-skill-user-settings]: New version: [0.5.2a2] Old Version: [0.5.2a1]
+[2023-06-16 00:02:51] INFO root fetch - processPackages [neon-skill-data-controls]: Downloading https://files.pythonhosted.org/packages/5d/fb/2418d75320b24c01ff96af59dd0ecd6595d0d5a1f6b9ef6581f237aa3666/neon-skill-data_controls-1.0.1a1.tar.gz
+[2023-06-16 00:02:51] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-16 00:02:51] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-16 00:02:51] INFO root fetch - processPackages [cdk-sops-secrets]: Start processing: semvecpy
+[2023-06-16 00:02:51] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-16 00:02:51] INFO root fetch - processPackages [tcare-sbvalidator]: executing diffoscope
+[2023-06-16 00:02:51] INFO root fetch - processPackages [tcare-sbvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcare_sbvalidator-0.0.8.tar.gz tmp/tcare_sbvalidator-0.0.9.tar.gz --markdown 20230616/t/tcare-sbvalidator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 00:02:51] INFO root fetch - processPackages [neon-skill-data-controls]: executing diffoscope
+[2023-06-16 00:02:51] INFO root fetch - processPackages [semvecpy]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-16 00:02:51] INFO root fetch - processPackages [neon-skill-data-controls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_data_controls-1.0.0-py3-none-any.whl.zip tmp/neon-skill-data_controls-1.0.1a1.tar.gz --markdown 20230616/n/neon-skill-data-controls/1.0.0-1.0.1a1/diff.md --exclude *.pyd
+[2023-06-16 00:02:51] INFO root fetch - processPackages [neon-skill-user-settings]: Downloading https://files.pythonhosted.org/packages/47/10/897fc76c2487926746d1d5a56784df7584a7d2e876fa39888316f16cecd1/neon_skill_user_settings-0.5.2a1-py3-none-any.whl
+[2023-06-16 00:02:51] INFO root fetch - processPackages [semvecpy]: Downloading https://files.pythonhosted.org/packages/75/5a/8c5308287ddefda7ed4ccb9bf1fe38892cc72dd7db245ebf7e6b1a03de25/semvecpy-0.1.6.tar.gz
+[2023-06-16 00:02:51] INFO root fetch - processPackages [neon-skill-user-settings]: Downloading https://files.pythonhosted.org/packages/eb/f9/37503c420e34c0b3f41009c59d886dbb5726c31006bbb57d3ce3944ab1f5/neon-skill-user_settings-0.5.2a2.tar.gz
+[2023-06-16 00:02:51] INFO root fetch - processPackages [neon-skill-user-settings]: executing diffoscope
+[2023-06-16 00:02:51] INFO root fetch - processPackages [neon-skill-user-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_user_settings-0.5.2a1-py3-none-any.whl.zip tmp/neon-skill-user_settings-0.5.2a2.tar.gz --markdown 20230616/n/neon-skill-user-settings/0.5.2a1-0.5.2a2/diff.md --exclude *.pyd
+[2023-06-16 00:02:51] INFO root fetch - processPackages [tcare-sbvalidator]: Remove: archive file [/home/abi/fetcher/tmp/tcare_sbvalidator-0.0.8.tar.gz]
+[2023-06-16 00:02:51] INFO root fetch - processPackages [tcare-sbvalidator]: Remove: archive file [/home/abi/fetcher/tmp/tcare_sbvalidator-0.0.9.tar.gz]
+[2023-06-16 00:02:51] INFO root fetch - processPackages [tcare-sbvalidator]: Start processing: numerical-py
+[2023-06-16 00:02:51] INFO root fetch - main [MainThread]: End processing [tcare-sbvalidator]: success
+[2023-06-16 00:02:51] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 00:02:51] INFO root fetch - processPackages [semvecpy]: Downloading https://files.pythonhosted.org/packages/f8/ee/62d99136d82b49c4cfe33ee428021c29dbfd8e1a0804754f0a5a19cd5496/semvecpy-0.1.8.tar.gz
+[2023-06-16 00:02:51] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-16 00:02:52] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-16 00:02:52] INFO root fetch - processPackages [semvecpy]: executing diffoscope
+[2023-06-16 00:02:52] INFO root fetch - processPackages [semvecpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semvecpy-0.1.6.tar.gz tmp/semvecpy-0.1.8.tar.gz --markdown 20230616/s/semvecpy/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-16 00:02:52] ERROR root fetch - processPackages [tcare-sbvalidator]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/tcare_sbvalidator-0.0.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/tcare_sbvalidator-0.0.9.tar.gz: No such file or directory
+
+[2023-06-16 00:02:52] INFO root fetch - processPackages [tcare-sbvalidator]: Start processing: gradio
+[2023-06-16 00:02:52] INFO root fetch - main [MainThread]: End processing [tcare-sbvalidator] error
+[2023-06-16 00:02:52] INFO root fetch - processPackages [gradio]: New version: [3.9.1] Old Version: [3.9]
+[2023-06-16 00:02:52] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-16 00:02:52] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230616/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 00:02:52] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/b2/2d/f8dc88b392cdaac54b5bf6b56af321211f705494f4a0b2a1589717c06ff5/gradio-3.9.tar.gz
+[2023-06-16 00:02:52] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 12444246>=10485760
+[2023-06-16 00:02:52] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2023-06-16 00:02:52] INFO root fetch - processPackages [neon-skill-caffeinewiz]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_caffeinewiz-0.3.2a2-py3-none-any.whl.zip]
+[2023-06-16 00:02:52] INFO root fetch - processPackages [neon-skill-caffeinewiz]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-caffeinewiz-0.3.2a3.tar.gz]
+[2023-06-16 00:02:52] INFO root fetch - main [MainThread]: End processing [neon-skill-caffeinewiz]: success
+[2023-06-16 00:02:52] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.64.tar.gz]
+[2023-06-16 00:02:52] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.65.tar.gz]
+[2023-06-16 00:02:52] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-06-16 00:02:52] INFO root fetch - processPackages [gad-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gad_common_utils-0.26.tar.gz]
+[2023-06-16 00:02:52] INFO root fetch - processPackages [gad-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gad_common_utils-0.27.tar.gz]
+[2023-06-16 00:02:52] INFO root fetch - main [MainThread]: End processing [gad-common-utils]: success
+[2023-06-16 00:02:52] INFO root fetch - processPackages [neon-skill-data-controls]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_data_controls-1.0.0-py3-none-any.whl.zip]
+[2023-06-16 00:02:52] INFO root fetch - processPackages [neon-skill-data-controls]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-data_controls-1.0.1a1.tar.gz]
+[2023-06-16 00:02:52] INFO root fetch - main [MainThread]: End processing [neon-skill-data-controls]: success
+[2023-06-16 00:02:52] INFO root fetch - processPackages [neon-skill-user-settings]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_user_settings-0.5.2a1-py3-none-any.whl.zip]
+[2023-06-16 00:02:52] INFO root fetch - processPackages [neon-skill-user-settings]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-user_settings-0.5.2a2.tar.gz]
+[2023-06-16 00:02:52] INFO root fetch - main [MainThread]: End processing [neon-skill-user-settings]: success
+[2023-06-16 00:02:53] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-16 00:02:53] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-16 00:02:53] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-16 00:02:53] INFO root fetch - processPackages [semvecpy]: Remove: archive file [/home/abi/fetcher/tmp/semvecpy-0.1.6.tar.gz]
+[2023-06-16 00:02:53] INFO root fetch - processPackages [semvecpy]: Remove: archive file [/home/abi/fetcher/tmp/semvecpy-0.1.8.tar.gz]
+[2023-06-16 00:02:53] INFO root fetch - main [MainThread]: End processing [semvecpy]: success
+[2023-06-16 00:02:53] INFO root fetch - processPackages [backrefs]: Remove: archive file [/home/abi/fetcher/tmp/backrefs-5.4.tar.gz]
+[2023-06-16 00:02:53] INFO root fetch - processPackages [backrefs]: Remove: archive file [/home/abi/fetcher/tmp/backrefs-5.5.tar.gz]
+[2023-06-16 00:02:53] INFO root fetch - main [MainThread]: End processing [backrefs]: success
+[2023-06-16 00:02:57] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.7.9.tar.gz]
+[2023-06-16 00:02:57] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.8.0.tar.gz]
+[2023-06-16 00:02:57] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-16 00:02:57] INFO root fetch - main [MainThread]: Store serial: [18522753]
