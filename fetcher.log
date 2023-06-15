@@ -1831,3 +1831,45 @@
 [2023-06-16 01:48:37] INFO root fetch - processPackages [sharktopoda-client]: Remove: archive file [/home/abi/fetcher/tmp/sharktopoda_client-0.3.0.tar.gz]
 [2023-06-16 01:48:37] INFO root fetch - main [MainThread]: End processing [sharktopoda-client]: success
 [2023-06-16 01:48:37] INFO root fetch - main [MainThread]: Store serial: [18523513]
+[2023-06-16 01:53:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523513]
+[2023-06-16 01:53:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-16 01:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kangforecast
+[2023-06-16 01:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clown-sort
+[2023-06-16 01:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-mock
+[2023-06-16 01:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-phal-plugin-core-updater
+[2023-06-16 01:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataquality
+[2023-06-16 01:53:47] WARNING root fetch - processPackages [kangforecast]: Skipping, unable to determine old version
+[2023-06-16 01:53:47] INFO root fetch - processPackages [clown-sort]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-16 01:53:47] INFO root fetch - main [MainThread]: End processing [kangforecast] error
+[2023-06-16 01:53:47] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: New version: [1.2.1a1] Old Version: [1.2.0]
+[2023-06-16 01:53:47] INFO root fetch - processPackages [pytest-mock]: New version: [3.9.0] Old Version: [3.8.2]
+[2023-06-16 01:53:47] INFO root fetch - processPackages [dataquality]: New version: [0.8.9] Old Version: [0.8.8a0]
+[2023-06-16 01:53:47] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/dd/87/094ba813c0f630d08655e5e85dd3ba57b4507e7642bb7e65c119157ae2f0/neon_phal_plugin_core_updater-1.2.0-py3-none-any.whl
+[2023-06-16 01:53:47] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/ec/c0/a67c048905f2c652971d55ff82c30b8a749cfdd800d5119bb8accf3770bc/dataquality-0.8.8a0.tar.gz
+[2023-06-16 01:53:47] INFO root fetch - processPackages [pytest-mock]: Downloading https://files.pythonhosted.org/packages/b6/78/4094a83dcd41e94f4c7e830983aef9089aaf6b3412da600a566cb04de1a5/pytest-mock-3.8.2.tar.gz
+[2023-06-16 01:53:48] INFO root fetch - processPackages [clown-sort]: Downloading https://files.pythonhosted.org/packages/51/52/af5064b8ffc7971a4e28e627400aff30f49d9870130c7174854aa920de08/clown_sort-1.7.0.tar.gz
+[2023-06-16 01:53:48] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/91/1e/b93106f778087ce05e7c356ffd9a6a6062c6e62a84bf3f9d4eb655b16850/dataquality-0.8.9.tar.gz
+[2023-06-16 01:53:48] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/d4/9a/6582c9a692eff7249205a086ba7f98b5ad74c2d969aba7b883830cc8aa3e/neon-phal-plugin-core-updater-1.2.1a1.tar.gz
+[2023-06-16 01:53:48] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-06-16 01:53:48] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.8.8a0.tar.gz tmp/dataquality-0.8.9.tar.gz --markdown 20230616/d/dataquality/0.8.8a0-0.8.9/diff.md --exclude *.pyd
+[2023-06-16 01:53:48] INFO root fetch - processPackages [pytest-mock]: Downloading https://files.pythonhosted.org/packages/10/9f/b5404f025c6002172d88e7dfce6c3e5da2b56e2683f703df1343d53ff5c3/pytest-mock-3.9.0.tar.gz
+[2023-06-16 01:53:48] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: executing diffoscope
+[2023-06-16 01:53:48] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_core_updater-1.2.0-py3-none-any.whl.zip tmp/neon-phal-plugin-core-updater-1.2.1a1.tar.gz --markdown 20230616/n/neon-phal-plugin-core-updater/1.2.0-1.2.1a1/diff.md --exclude *.pyd
+[2023-06-16 01:53:48] INFO root fetch - processPackages [clown-sort]: Downloading https://files.pythonhosted.org/packages/95/ea/4c6306c0486b77ccaf03971a92e8a354bb74545585455ae6153e7ac8531d/clown_sort-1.7.1.tar.gz
+[2023-06-16 01:53:48] INFO root fetch - processPackages [clown-sort]: executing diffoscope
+[2023-06-16 01:53:48] INFO root fetch - processPackages [clown-sort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clown_sort-1.7.0.tar.gz tmp/clown_sort-1.7.1.tar.gz --markdown 20230616/c/clown-sort/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-16 01:53:48] INFO root fetch - processPackages [pytest-mock]: executing diffoscope
+[2023-06-16 01:53:48] INFO root fetch - processPackages [pytest-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-mock-3.8.2.tar.gz tmp/pytest-mock-3.9.0.tar.gz --markdown 20230616/p/pytest-mock/3.8.2-3.9.0/diff.md --exclude *.pyd
+[2023-06-16 01:53:49] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Remove: archive file [/home/abi/fetcher/tmp/neon_phal_plugin_core_updater-1.2.0-py3-none-any.whl.zip]
+[2023-06-16 01:53:49] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-core-updater-1.2.1a1.tar.gz]
+[2023-06-16 01:53:49] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-core-updater]: success
+[2023-06-16 01:53:49] INFO root fetch - processPackages [clown-sort]: Remove: archive file [/home/abi/fetcher/tmp/clown_sort-1.7.0.tar.gz]
+[2023-06-16 01:53:49] INFO root fetch - processPackages [clown-sort]: Remove: archive file [/home/abi/fetcher/tmp/clown_sort-1.7.1.tar.gz]
+[2023-06-16 01:53:49] INFO root fetch - main [MainThread]: End processing [clown-sort]: success
+[2023-06-16 01:53:49] INFO root fetch - processPackages [pytest-mock]: Remove: archive file [/home/abi/fetcher/tmp/pytest-mock-3.8.2.tar.gz]
+[2023-06-16 01:53:49] INFO root fetch - processPackages [pytest-mock]: Remove: archive file [/home/abi/fetcher/tmp/pytest-mock-3.9.0.tar.gz]
+[2023-06-16 01:53:49] INFO root fetch - main [MainThread]: End processing [pytest-mock]: success
+[2023-06-16 01:53:50] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.8a0.tar.gz]
+[2023-06-16 01:53:50] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.9.tar.gz]
+[2023-06-16 01:53:50] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-06-16 01:53:50] INFO root fetch - main [MainThread]: Store serial: [18523531]
