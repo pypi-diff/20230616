@@ -762,3 +762,72 @@
 [2023-06-16 00:29:11] INFO root fetch - processPackages [toil]: Remove: archive file [/home/abi/fetcher/tmp/toil-5.9.2.tar.gz]
 [2023-06-16 00:29:11] INFO root fetch - main [MainThread]: End processing [toil]: success
 [2023-06-16 00:29:11] INFO root fetch - main [MainThread]: Store serial: [18523009]
+[2023-06-16 00:34:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523009]
+[2023-06-16 00:34:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 00:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-activation
+[2023-06-16 00:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lektor-git-timestamp
+[2023-06-16 00:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alanapy
+[2023-06-16 00:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nemo-toolkit
+[2023-06-16 00:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mercury-sync
+[2023-06-16 00:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FlyBaseDownloads
+[2023-06-16 00:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hmrf
+[2023-06-16 00:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metamist
+[2023-06-16 00:34:22] INFO root fetch - processPackages [torch-activation]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 00:34:22] INFO root fetch - processPackages [lektor-git-timestamp]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-06-16 00:34:22] INFO root fetch - processPackages [nemo-toolkit]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-16 00:34:22] INFO root fetch - processPackages [FlyBaseDownloads]: New version: [1.0.4.1] Old Version: [1.0.4]
+[2023-06-16 00:34:22] INFO root fetch - processPackages [mercury-sync]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-16 00:34:22] INFO root fetch - processPackages [hmrf]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-16 00:34:22] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/22/29/1d4a5b1ca816abfa02c757e67487ff8ed49eb030748ba28161fdbabef56d/mercury-sync-0.1.5.tar.gz
+[2023-06-16 00:34:22] WARNING root fetch - processPackages [alanapy]: Skipping, unable to determine old version
+[2023-06-16 00:34:22] INFO root fetch - main [MainThread]: End processing [alanapy] error
+[2023-06-16 00:34:22] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/9d/ea/5278ca7cb6a976018831f9a52c26791809cb1f3b7106887df10173bd7346/FlyBaseDownloads-1.0.4.tar.gz
+[2023-06-16 00:34:22] INFO root fetch - processPackages [metamist]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-06-16 00:34:22] INFO root fetch - processPackages [lektor-git-timestamp]: Downloading https://files.pythonhosted.org/packages/1a/f0/cc0528a6ba41c07f590360fe1d1da265d87274a68e614fb9e88e92575283/lektor-git-timestamp-1.0.0b1.tar.gz
+[2023-06-16 00:34:22] INFO root fetch - processPackages [torch-activation]: Downloading https://files.pythonhosted.org/packages/a0/91/32edcdd41108a886d5ef2adb465a734bdd3051168c192b27ba7cbfe196c7/torch_activation-0.1.0.tar.gz
+[2023-06-16 00:34:22] INFO root fetch - processPackages [nemo-toolkit]: Downloading https://files.pythonhosted.org/packages/c1/76/a35799c73142f06c16d6609269792ecd580c5ea8c7b2f7ecb3d3c9c499d0/nemo_toolkit-1.8.2.tar.gz
+[2023-06-16 00:34:22] INFO root fetch - processPackages [hmrf]: Downloading https://files.pythonhosted.org/packages/8c/7e/f99de45f0c999c7da20d8799e6d0aa559e9df2a1cc3feb1792554adbf475/hmrf-0.0.1.tar.gz
+[2023-06-16 00:34:22] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/b6/d9/b4dd0f7fcc45f152f52d49641db23d98a3395f066e6346361533c21b5efb/mercury-sync-0.1.6.tar.gz
+[2023-06-16 00:34:22] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/f8/35/01aa88cc8b5df01788927571e1412ac8a5e003b8fb330d084df7a840761b/FlyBaseDownloads-1.0.4.1.tar.gz
+[2023-06-16 00:34:22] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/ac/60/56822b99f0f48228af8aff63daa4eb60c972a97e597dd44f9c8ed173c72b/metamist-6.0.3.tar.gz
+[2023-06-16 00:34:22] INFO root fetch - processPackages [FlyBaseDownloads]: executing diffoscope
+[2023-06-16 00:34:22] INFO root fetch - processPackages [FlyBaseDownloads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyBaseDownloads-1.0.4.tar.gz tmp/FlyBaseDownloads-1.0.4.1.tar.gz --markdown 20230616/F/FlyBaseDownloads/1.0.4-1.0.4.1/diff.md --exclude *.pyd
+[2023-06-16 00:34:22] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-16 00:34:22] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.1.5.tar.gz tmp/mercury-sync-0.1.6.tar.gz --markdown 20230616/m/mercury-sync/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-16 00:34:22] INFO root fetch - processPackages [hmrf]: Downloading https://files.pythonhosted.org/packages/85/40/fc275a3f7a5134532bcc129b4066f424db3ce5891f294db4b2320a42aae7/hmrf-0.1.0.tar.gz
+[2023-06-16 00:34:23] INFO root fetch - processPackages [lektor-git-timestamp]: Downloading https://files.pythonhosted.org/packages/a7/54/8caefe4109856d8a84d0754ee9639db7442748eeb48502f6fbb23a0f8cd5/lektor_git_timestamp-1.0.0b2.tar.gz
+[2023-06-16 00:34:23] INFO root fetch - processPackages [torch-activation]: Downloading https://files.pythonhosted.org/packages/22/75/f6e5034c1a31b92de31c5f6a729aa113c28c664c0ace7a7c0f301a916c19/torch_activation-0.1.1.tar.gz
+[2023-06-16 00:34:23] INFO root fetch - processPackages [hmrf]: executing diffoscope
+[2023-06-16 00:34:23] INFO root fetch - processPackages [hmrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmrf-0.0.1.tar.gz tmp/hmrf-0.1.0.tar.gz --markdown 20230616/h/hmrf/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-16 00:34:23] INFO root fetch - processPackages [torch-activation]: executing diffoscope
+[2023-06-16 00:34:23] INFO root fetch - processPackages [torch-activation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_activation-0.1.0.tar.gz tmp/torch_activation-0.1.1.tar.gz --markdown 20230616/t/torch-activation/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 00:34:23] INFO root fetch - processPackages [lektor-git-timestamp]: executing diffoscope
+[2023-06-16 00:34:23] INFO root fetch - processPackages [lektor-git-timestamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektor-git-timestamp-1.0.0b1.tar.gz tmp/lektor_git_timestamp-1.0.0b2.tar.gz --markdown 20230616/l/lektor-git-timestamp/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-06-16 00:34:23] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/67/cf/9805cc8de56613508606168f6fafd48adf177d86b88a4759b0b662b37810/metamist-6.0.4.tar.gz
+[2023-06-16 00:34:23] INFO root fetch - processPackages [metamist]: executing diffoscope
+[2023-06-16 00:34:23] INFO root fetch - processPackages [metamist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamist-6.0.3.tar.gz tmp/metamist-6.0.4.tar.gz --markdown 20230616/m/metamist/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-06-16 00:34:23] INFO root fetch - processPackages [nemo-toolkit]: Downloading https://files.pythonhosted.org/packages/da/14/3b31383aa733c1ec34788bab970e733f30ef5de2b8e1eda5bb9ff8fc1693/nemo_toolkit-1.9.0.tar.gz
+[2023-06-16 00:34:24] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.4.tar.gz]
+[2023-06-16 00:34:24] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.4.1.tar.gz]
+[2023-06-16 00:34:24] INFO root fetch - main [MainThread]: End processing [FlyBaseDownloads]: success
+[2023-06-16 00:34:24] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.1.5.tar.gz]
+[2023-06-16 00:34:24] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.1.6.tar.gz]
+[2023-06-16 00:34:24] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-16 00:34:24] INFO root fetch - processPackages [hmrf]: Remove: archive file [/home/abi/fetcher/tmp/hmrf-0.0.1.tar.gz]
+[2023-06-16 00:34:24] INFO root fetch - processPackages [hmrf]: Remove: archive file [/home/abi/fetcher/tmp/hmrf-0.1.0.tar.gz]
+[2023-06-16 00:34:24] INFO root fetch - main [MainThread]: End processing [hmrf]: success
+[2023-06-16 00:34:24] INFO root fetch - processPackages [lektor-git-timestamp]: Remove: archive file [/home/abi/fetcher/tmp/lektor-git-timestamp-1.0.0b1.tar.gz]
+[2023-06-16 00:34:24] INFO root fetch - processPackages [lektor-git-timestamp]: Remove: archive file [/home/abi/fetcher/tmp/lektor_git_timestamp-1.0.0b2.tar.gz]
+[2023-06-16 00:34:24] INFO root fetch - main [MainThread]: End processing [lektor-git-timestamp]: success
+[2023-06-16 00:34:24] INFO root fetch - processPackages [torch-activation]: Remove: archive file [/home/abi/fetcher/tmp/torch_activation-0.1.0.tar.gz]
+[2023-06-16 00:34:24] INFO root fetch - processPackages [torch-activation]: Remove: archive file [/home/abi/fetcher/tmp/torch_activation-0.1.1.tar.gz]
+[2023-06-16 00:34:24] INFO root fetch - main [MainThread]: End processing [torch-activation]: success
+[2023-06-16 00:34:24] INFO root fetch - processPackages [nemo-toolkit]: executing diffoscope
+[2023-06-16 00:34:24] INFO root fetch - processPackages [nemo-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo_toolkit-1.8.2.tar.gz tmp/nemo_toolkit-1.9.0.tar.gz --markdown 20230616/n/nemo-toolkit/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-16 00:34:27] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.0.3.tar.gz]
+[2023-06-16 00:34:27] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.0.4.tar.gz]
+[2023-06-16 00:34:27] INFO root fetch - main [MainThread]: End processing [metamist]: success
+[2023-06-16 00:34:47] INFO root fetch - processPackages [nemo-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/nemo_toolkit-1.8.2.tar.gz]
+[2023-06-16 00:34:47] INFO root fetch - processPackages [nemo-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/nemo_toolkit-1.9.0.tar.gz]
+[2023-06-16 00:34:47] INFO root fetch - main [MainThread]: End processing [nemo-toolkit]: success
+[2023-06-16 00:34:47] INFO root fetch - main [MainThread]: Store serial: [18523036]
