@@ -1807,3 +1807,27 @@
 [2023-06-16 01:43:27] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev99.tar.gz]
 [2023-06-16 01:43:27] INFO root fetch - main [MainThread]: End processing [dorado]: success
 [2023-06-16 01:43:27] INFO root fetch - main [MainThread]: Store serial: [18523504]
+[2023-06-16 01:48:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523504]
+[2023-06-16 01:48:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-16 01:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RLxHC
+[2023-06-16 01:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sharktopoda-client
+[2023-06-16 01:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csdid
+[2023-06-16 01:48:36] INFO root fetch - processPackages [sharktopoda-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-16 01:48:36] INFO root fetch - processPackages [csdid]: New version: [0.2.1] Old Version: [0.1.82]
+[2023-06-16 01:48:36] WARNING root fetch - processPackages [RLxHC]: Skipping, unable to determine old version
+[2023-06-16 01:48:36] INFO root fetch - main [MainThread]: End processing [RLxHC] error
+[2023-06-16 01:48:36] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/7d/4d/a35cf4d1b3f86af091107c0d41b1a8426512b27f752f0488dc3ef2174307/csdid-0.1.82.tar.gz
+[2023-06-16 01:48:36] INFO root fetch - processPackages [sharktopoda-client]: Downloading https://files.pythonhosted.org/packages/62/92/3bbc57dbf621fa4e8147b6f0ab4a1435c2e5108b6bf50a709804d88107d8/sharktopoda_client-0.2.0.tar.gz
+[2023-06-16 01:48:36] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/ba/c1/e23d373343e6626e0e753f37a665a1f714d4f8ad7e5d86f61aaa44e06caf/csdid-0.2.1.tar.gz
+[2023-06-16 01:48:36] INFO root fetch - processPackages [sharktopoda-client]: Downloading https://files.pythonhosted.org/packages/95/1c/824b9e080fc379adeffe77afad43fd65fd1eb7056264e89b204be453454f/sharktopoda_client-0.3.0.tar.gz
+[2023-06-16 01:48:36] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-16 01:48:36] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.82.tar.gz tmp/csdid-0.2.1.tar.gz --markdown 20230616/c/csdid/0.1.82-0.2.1/diff.md --exclude *.pyd
+[2023-06-16 01:48:36] INFO root fetch - processPackages [sharktopoda-client]: executing diffoscope
+[2023-06-16 01:48:36] INFO root fetch - processPackages [sharktopoda-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharktopoda_client-0.2.0.tar.gz tmp/sharktopoda_client-0.3.0.tar.gz --markdown 20230616/s/sharktopoda-client/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-16 01:48:37] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.82.tar.gz]
+[2023-06-16 01:48:37] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.2.1.tar.gz]
+[2023-06-16 01:48:37] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-16 01:48:37] INFO root fetch - processPackages [sharktopoda-client]: Remove: archive file [/home/abi/fetcher/tmp/sharktopoda_client-0.2.0.tar.gz]
+[2023-06-16 01:48:37] INFO root fetch - processPackages [sharktopoda-client]: Remove: archive file [/home/abi/fetcher/tmp/sharktopoda_client-0.3.0.tar.gz]
+[2023-06-16 01:48:37] INFO root fetch - main [MainThread]: End processing [sharktopoda-client]: success
+[2023-06-16 01:48:37] INFO root fetch - main [MainThread]: Store serial: [18523513]
