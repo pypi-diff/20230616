@@ -1402,3 +1402,72 @@
 [2023-06-16 01:07:01] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.3.tar.gz]
 [2023-06-16 01:07:01] INFO root fetch - main [MainThread]: End processing [aind-data-transfer]: success
 [2023-06-16 01:07:01] INFO root fetch - main [MainThread]: Store serial: [18523301]
+[2023-06-16 01:12:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523301]
+[2023-06-16 01:12:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 01:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Sella
+[2023-06-16 01:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognitopy
+[2023-06-16 01:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FlyBaseDownloads
+[2023-06-16 01:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Ma-rin
+[2023-06-16 01:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optframe
+[2023-06-16 01:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataquality
+[2023-06-16 01:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moptipy
+[2023-06-16 01:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: strawberry-graphql-django
+[2023-06-16 01:12:10] INFO root fetch - processPackages [cognitopy]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-16 01:12:10] INFO root fetch - processPackages [Sella]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-16 01:12:10] INFO root fetch - processPackages [optframe]: New version: [5.0.8rc0] Old Version: [5.0.7rc0]
+[2023-06-16 01:12:10] WARNING root fetch - processPackages [Ma-rin]: Skipping, unable to determine old version
+[2023-06-16 01:12:10] INFO root fetch - processPackages [FlyBaseDownloads]: New version: [1.0.4.5] Old Version: [1.0.4.4]
+[2023-06-16 01:12:10] INFO root fetch - main [MainThread]: End processing [Ma-rin] error
+[2023-06-16 01:12:10] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-16 01:12:10] INFO root fetch - processPackages [dataquality]: New version: [0.8.9] Old Version: [0.8.8a0]
+[2023-06-16 01:12:10] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/09/a2/ba9e7a55b6433a0c574b2f76edd8ddadc6f2b974ce08c1d3354a1fee41dc/FlyBaseDownloads-1.0.4.4.tar.gz
+[2023-06-16 01:12:10] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/ec/c0/a67c048905f2c652971d55ff82c30b8a749cfdd800d5119bb8accf3770bc/dataquality-0.8.8a0.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [strawberry-graphql-django]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-16 01:12:11] INFO root fetch - processPackages [optframe]: Downloading https://files.pythonhosted.org/packages/a2/fc/c8df60b2e6172933046e94d536b21f3a084a2d1cc645f485b1d411deaf92/optframe-5.0.7rc0.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [cognitopy]: Downloading https://files.pythonhosted.org/packages/5d/78/ae08e9451a1823e00cbb8d81056205d9eb11f86827abd49be12f51e88e78/cognitopy-0.0.1.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/be/7f/5279c5a66253c3acc29a2b1baa2ae5e5c13f14d8ed5e613af26af0568f80/moptipy-0.9.8.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [Sella]: Downloading https://files.pythonhosted.org/packages/07/2b/0199a6a19862c2af2ee79cada1614823d6c7484a833a994f0cecfb797947/Sella-2.3.0.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/91/1e/b93106f778087ce05e7c356ffd9a6a6062c6e62a84bf3f9d4eb655b16850/dataquality-0.8.9.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [strawberry-graphql-django]: Downloading https://files.pythonhosted.org/packages/84/8d/02584438b57b9d8c0141a779dd091b2f10126fe1f369ea1852d45afa3eec/strawberry_graphql_django-0.9.4.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/04/8b/e3239b9e6a559ecebbef549ddfccde1c3e50d6ce14c78ba2f6970eff0abc/FlyBaseDownloads-1.0.4.5.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-06-16 01:12:11] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.8.8a0.tar.gz tmp/dataquality-0.8.9.tar.gz --markdown 20230616/d/dataquality/0.8.8a0-0.8.9/diff.md --exclude *.pyd
+[2023-06-16 01:12:11] INFO root fetch - processPackages [cognitopy]: Downloading https://files.pythonhosted.org/packages/ed/a9/31066e61164201f5304784f2b55988884ee4f4404ff82a0cc87466b008b4/cognitopy-1.0.0.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [FlyBaseDownloads]: executing diffoscope
+[2023-06-16 01:12:11] INFO root fetch - processPackages [FlyBaseDownloads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyBaseDownloads-1.0.4.4.tar.gz tmp/FlyBaseDownloads-1.0.4.5.tar.gz --markdown 20230616/F/FlyBaseDownloads/1.0.4.4-1.0.4.5/diff.md --exclude *.pyd
+[2023-06-16 01:12:11] INFO root fetch - processPackages [strawberry-graphql-django]: Downloading https://files.pythonhosted.org/packages/34/c7/6761d3816f5a7cf02928b5d035b4ed20b4e6d2a12ec6a4cf9400ce4d7cbb/strawberry_graphql_django-0.9.5.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [cognitopy]: executing diffoscope
+[2023-06-16 01:12:11] INFO root fetch - processPackages [cognitopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognitopy-0.0.1.tar.gz tmp/cognitopy-1.0.0.tar.gz --markdown 20230616/c/cognitopy/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-16 01:12:11] INFO root fetch - processPackages [Sella]: Downloading https://files.pythonhosted.org/packages/29/f9/736fa3297507d24933cd8af630c4dcdbedd26c7d4962fce4d2459b843bd2/Sella-2.3.1.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [optframe]: Downloading https://files.pythonhosted.org/packages/f2/1e/442ae5d3abe358f8f91a01aa005c4fbe610a166d6349cf13da36c98bf462/optframe-5.0.8rc0.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [strawberry-graphql-django]: executing diffoscope
+[2023-06-16 01:12:11] INFO root fetch - processPackages [strawberry-graphql-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_graphql_django-0.9.4.tar.gz tmp/strawberry_graphql_django-0.9.5.tar.gz --markdown 20230616/s/strawberry-graphql-django/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-16 01:12:11] INFO root fetch - processPackages [Sella]: executing diffoscope
+[2023-06-16 01:12:11] INFO root fetch - processPackages [Sella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sella-2.3.0.tar.gz tmp/Sella-2.3.1.tar.gz --markdown 20230616/S/Sella/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-16 01:12:11] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-06-16 01:12:11] INFO root fetch - processPackages [optframe]: executing diffoscope
+[2023-06-16 01:12:11] INFO root fetch - processPackages [optframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optframe-5.0.7rc0.tar.gz tmp/optframe-5.0.8rc0.tar.gz --markdown 20230616/o/optframe/5.0.7rc0-5.0.8rc0/diff.md --exclude *.pyd
+[2023-06-16 01:12:12] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-06-16 01:12:12] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.8.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230616/m/moptipy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-16 01:12:12] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.4.4.tar.gz]
+[2023-06-16 01:12:12] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.4.5.tar.gz]
+[2023-06-16 01:12:12] INFO root fetch - main [MainThread]: End processing [FlyBaseDownloads]: success
+[2023-06-16 01:12:12] INFO root fetch - processPackages [cognitopy]: Remove: archive file [/home/abi/fetcher/tmp/cognitopy-0.0.1.tar.gz]
+[2023-06-16 01:12:12] INFO root fetch - processPackages [cognitopy]: Remove: archive file [/home/abi/fetcher/tmp/cognitopy-1.0.0.tar.gz]
+[2023-06-16 01:12:12] INFO root fetch - main [MainThread]: End processing [cognitopy]: success
+[2023-06-16 01:12:12] INFO root fetch - processPackages [strawberry-graphql-django]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_graphql_django-0.9.4.tar.gz]
+[2023-06-16 01:12:12] INFO root fetch - processPackages [strawberry-graphql-django]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_graphql_django-0.9.5.tar.gz]
+[2023-06-16 01:12:12] INFO root fetch - main [MainThread]: End processing [strawberry-graphql-django]: success
+[2023-06-16 01:12:13] INFO root fetch - processPackages [optframe]: Remove: archive file [/home/abi/fetcher/tmp/optframe-5.0.7rc0.tar.gz]
+[2023-06-16 01:12:13] INFO root fetch - processPackages [optframe]: Remove: archive file [/home/abi/fetcher/tmp/optframe-5.0.8rc0.tar.gz]
+[2023-06-16 01:12:13] INFO root fetch - main [MainThread]: End processing [optframe]: success
+[2023-06-16 01:12:13] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.8a0.tar.gz]
+[2023-06-16 01:12:13] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.9.tar.gz]
+[2023-06-16 01:12:13] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-06-16 01:12:13] INFO root fetch - processPackages [Sella]: Remove: archive file [/home/abi/fetcher/tmp/Sella-2.3.0.tar.gz]
+[2023-06-16 01:12:13] INFO root fetch - processPackages [Sella]: Remove: archive file [/home/abi/fetcher/tmp/Sella-2.3.1.tar.gz]
+[2023-06-16 01:12:13] INFO root fetch - main [MainThread]: End processing [Sella]: success
+[2023-06-16 01:12:14] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.8.tar.gz]
+[2023-06-16 01:12:14] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-06-16 01:12:14] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-06-16 01:12:14] INFO root fetch - main [MainThread]: Store serial: [18523334]
