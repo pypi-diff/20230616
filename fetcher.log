@@ -399,3 +399,96 @@
 [2023-06-16 00:13:27] INFO root fetch - processPackages [dxpy]: Remove: archive file [/home/abi/fetcher/tmp/dxpy-v0.83.0.tar.gz]
 [2023-06-16 00:13:27] INFO root fetch - main [MainThread]: End processing [dxpy]: success
 [2023-06-16 00:13:27] INFO root fetch - main [MainThread]: Store serial: [18522832]
+[2023-06-16 00:18:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18522832]
+[2023-06-16 00:18:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-16 00:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hf-hub-ctranslate2
+[2023-06-16 00:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: routeml
+[2023-06-16 00:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tcare-sbvalidator
+[2023-06-16 00:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-openevse-http
+[2023-06-16 00:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mercury-sync
+[2023-06-16 00:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-skill-fallback-llm
+[2023-06-16 00:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bookio-fetchfox
+[2023-06-16 00:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: argtoml
+[2023-06-16 00:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kanglib
+[2023-06-16 00:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: compute-strings-data
+[2023-06-16 00:18:36] INFO root fetch - processPackages [hf-hub-ctranslate2]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-16 00:18:36] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-16 00:18:36] INFO root fetch - processPackages [tcare-sbvalidator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 00:18:36] INFO root fetch - processPackages [mercury-sync]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-16 00:18:36] INFO root fetch - processPackages [neon-skill-fallback-llm]: New version: [0.0.3a2] Old Version: [0.0.3a1]
+[2023-06-16 00:18:36] INFO root fetch - processPackages [routeml]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-16 00:18:36] INFO root fetch - processPackages [python-openevse-http]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 00:18:36] INFO root fetch - processPackages [kanglib]: New version: [0.4] Old Version: [0.3]
+[2023-06-16 00:18:36] INFO root fetch - processPackages [compute-strings-data]: New version: [0.1.3] Old Version: [0.0.1]
+[2023-06-16 00:18:36] INFO root fetch - processPackages [argtoml]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-16 00:18:36] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/4d/cf/7e63ca226d183cb6c528a11d392bee73699f63e3dc593d8dfebc1e3e02b5/bookio_fetchfox-0.9.2.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [tcare-sbvalidator]: Downloading https://files.pythonhosted.org/packages/b2/02/026be432180934bd537c76780246eedfb3f813cc53259e3cad20d88b1e60/tcare_sbvalidator-0.0.8.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [argtoml]: Downloading https://files.pythonhosted.org/packages/dc/c6/9a156104536595d2afd7d61f084fb34d33bde29dbcc169068a4ab1d54ac4/argtoml-0.1.2.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [routeml]: Downloading https://files.pythonhosted.org/packages/84/45/4e346ea76e016a2092b7794341a12ea40d8d294f53c4b28fc28e1092762a/routeml-0.8.0.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/9e/8e/29a608d9c6dcb4f1c769f78fe8954818ea30525b9f503cebd8fae5cd671c/mercury-sync-0.1.4.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [hf-hub-ctranslate2]: Downloading https://files.pythonhosted.org/packages/1a/01/7925cca22218c0402491066244cc28a3526941c2498bc62f295e8d4b49ae/hf_hub_ctranslate2-2.0.8.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [routeml]: Downloading https://files.pythonhosted.org/packages/8b/dc/ff05900f5f3e0d24ccb806cdf5a7ce37eb0a4c9c2e971f2a45a74fc3ce8f/routeml-0.9.0.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [tcare-sbvalidator]: Downloading https://files.pythonhosted.org/packages/c6/42/8263377fcc49b705be8f8c4cf9e1f21a0ab47ae885e23f8d264f0671f528/tcare_sbvalidator-0.0.9.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [neon-skill-fallback-llm]: Downloading https://files.pythonhosted.org/packages/10/9c/9cf14948b7ef54ec1fe1435359325bd70224ae240e3210bde7af908b3e6d/neon_skill_fallback_llm-0.0.3a1-py3-none-any.whl
+[2023-06-16 00:18:36] INFO root fetch - processPackages [python-openevse-http]: Downloading https://files.pythonhosted.org/packages/5a/f7/2c12172b51d308725864d7ad56eb5596e88863392fc72315db61157b026c/python-openevse-http-0.1.8.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [routeml]: executing diffoscope
+[2023-06-16 00:18:36] INFO root fetch - processPackages [routeml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routeml-0.8.0.tar.gz tmp/routeml-0.9.0.tar.gz --markdown 20230616/r/routeml/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 00:18:36] INFO root fetch - processPackages [tcare-sbvalidator]: executing diffoscope
+[2023-06-16 00:18:36] INFO root fetch - processPackages [tcare-sbvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcare_sbvalidator-0.0.8.tar.gz tmp/tcare_sbvalidator-0.0.9.tar.gz --markdown 20230616/t/tcare-sbvalidator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 00:18:36] INFO root fetch - processPackages [kanglib]: Downloading https://files.pythonhosted.org/packages/eb/3b/3edc0f25ad62f67a74d61499eb263ac40e62e5d4e8a801619936e6a16f7e/kanglib-0.3.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [compute-strings-data]: Downloading https://files.pythonhosted.org/packages/82/d6/a390b22d44393a291e954bbe901bd1e1323b59faaa2023a04a0e663d0e3c/compute-strings-data-0.0.1.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/22/29/1d4a5b1ca816abfa02c757e67487ff8ed49eb030748ba28161fdbabef56d/mercury-sync-0.1.5.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [argtoml]: Downloading https://files.pythonhosted.org/packages/d4/17/25e44e846c7656e9a297430146f60b5e8c395de0f1885f009984871492c7/argtoml-0.1.3.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/13/4b/02409b738c71a05a843a34a3e12242dac9495889f7de3e4c9e7d0aac10b0/bookio_fetchfox-0.9.3.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-16 00:18:36] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.1.4.tar.gz tmp/mercury-sync-0.1.5.tar.gz --markdown 20230616/m/mercury-sync/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-16 00:18:36] INFO root fetch - processPackages [argtoml]: executing diffoscope
+[2023-06-16 00:18:36] INFO root fetch - processPackages [argtoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argtoml-0.1.2.tar.gz tmp/argtoml-0.1.3.tar.gz --markdown 20230616/a/argtoml/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-16 00:18:36] INFO root fetch - processPackages [hf-hub-ctranslate2]: Downloading https://files.pythonhosted.org/packages/00/f6/98fd106b8ff1ed6d58ab53a08db7b48b2cb4bcd37feb7a93b9d5df045c0f/hf_hub_ctranslate2-2.0.9.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-16 00:18:36] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.9.2.tar.gz tmp/bookio_fetchfox-0.9.3.tar.gz --markdown 20230616/b/bookio-fetchfox/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-16 00:18:36] INFO root fetch - processPackages [kanglib]: Downloading https://files.pythonhosted.org/packages/81/a5/f3475743fa4875c7e6bfec06908fd4dca1bc3ba17746e5803d6c4529231f/kanglib-0.4.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [neon-skill-fallback-llm]: Downloading https://files.pythonhosted.org/packages/1f/4c/daf0f70da1035fafadb79250500e7eb6c773493709c08fe546923541fc50/neon-skill-fallback_llm-0.0.3a2.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [kanglib]: executing diffoscope
+[2023-06-16 00:18:36] INFO root fetch - processPackages [kanglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanglib-0.3.tar.gz tmp/kanglib-0.4.tar.gz --markdown 20230616/k/kanglib/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-16 00:18:36] INFO root fetch - processPackages [python-openevse-http]: Downloading https://files.pythonhosted.org/packages/41/8b/0000dc08b8e7a57cdd1469a3d5804d1250c6454ccd5a9f3c6bb1cf755b1f/python-openevse-http-0.1.9.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [compute-strings-data]: Downloading https://files.pythonhosted.org/packages/09/e0/13e775380ad0bed37c08a1c8496ce5ef906c2af2745119dde0a53a29997b/compute-strings-data-0.1.3.tar.gz
+[2023-06-16 00:18:36] INFO root fetch - processPackages [hf-hub-ctranslate2]: executing diffoscope
+[2023-06-16 00:18:36] INFO root fetch - processPackages [hf-hub-ctranslate2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hf_hub_ctranslate2-2.0.8.tar.gz tmp/hf_hub_ctranslate2-2.0.9.tar.gz --markdown 20230616/h/hf-hub-ctranslate2/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-16 00:18:37] INFO root fetch - processPackages [neon-skill-fallback-llm]: executing diffoscope
+[2023-06-16 00:18:37] INFO root fetch - processPackages [neon-skill-fallback-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_fallback_llm-0.0.3a1-py3-none-any.whl.zip tmp/neon-skill-fallback_llm-0.0.3a2.tar.gz --markdown 20230616/n/neon-skill-fallback-llm/0.0.3a1-0.0.3a2/diff.md --exclude *.pyd
+[2023-06-16 00:18:37] INFO root fetch - processPackages [python-openevse-http]: executing diffoscope
+[2023-06-16 00:18:37] INFO root fetch - processPackages [python-openevse-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-openevse-http-0.1.8.tar.gz tmp/python-openevse-http-0.1.9.tar.gz --markdown 20230616/p/python-openevse-http/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 00:18:37] INFO root fetch - processPackages [compute-strings-data]: executing diffoscope
+[2023-06-16 00:18:37] INFO root fetch - processPackages [compute-strings-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compute-strings-data-0.0.1.tar.gz tmp/compute-strings-data-0.1.3.tar.gz --markdown 20230616/c/compute-strings-data/0.0.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-16 00:18:37] INFO root fetch - processPackages [tcare-sbvalidator]: Remove: archive file [/home/abi/fetcher/tmp/tcare_sbvalidator-0.0.8.tar.gz]
+[2023-06-16 00:18:37] INFO root fetch - processPackages [tcare-sbvalidator]: Remove: archive file [/home/abi/fetcher/tmp/tcare_sbvalidator-0.0.9.tar.gz]
+[2023-06-16 00:18:37] INFO root fetch - main [MainThread]: End processing [tcare-sbvalidator]: success
+[2023-06-16 00:18:38] INFO root fetch - processPackages [routeml]: Remove: archive file [/home/abi/fetcher/tmp/routeml-0.8.0.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - processPackages [routeml]: Remove: archive file [/home/abi/fetcher/tmp/routeml-0.9.0.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - main [MainThread]: End processing [routeml]: success
+[2023-06-16 00:18:38] INFO root fetch - processPackages [argtoml]: Remove: archive file [/home/abi/fetcher/tmp/argtoml-0.1.2.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - processPackages [argtoml]: Remove: archive file [/home/abi/fetcher/tmp/argtoml-0.1.3.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - main [MainThread]: End processing [argtoml]: success
+[2023-06-16 00:18:38] INFO root fetch - processPackages [kanglib]: Remove: archive file [/home/abi/fetcher/tmp/kanglib-0.3.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - processPackages [kanglib]: Remove: archive file [/home/abi/fetcher/tmp/kanglib-0.4.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - main [MainThread]: End processing [kanglib]: success
+[2023-06-16 00:18:38] INFO root fetch - processPackages [hf-hub-ctranslate2]: Remove: archive file [/home/abi/fetcher/tmp/hf_hub_ctranslate2-2.0.8.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - processPackages [hf-hub-ctranslate2]: Remove: archive file [/home/abi/fetcher/tmp/hf_hub_ctranslate2-2.0.9.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - main [MainThread]: End processing [hf-hub-ctranslate2]: success
+[2023-06-16 00:18:38] INFO root fetch - processPackages [neon-skill-fallback-llm]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_fallback_llm-0.0.3a1-py3-none-any.whl.zip]
+[2023-06-16 00:18:38] INFO root fetch - processPackages [neon-skill-fallback-llm]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-fallback_llm-0.0.3a2.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - main [MainThread]: End processing [neon-skill-fallback-llm]: success
+[2023-06-16 00:18:38] INFO root fetch - processPackages [compute-strings-data]: Remove: archive file [/home/abi/fetcher/tmp/compute-strings-data-0.0.1.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - processPackages [compute-strings-data]: Remove: archive file [/home/abi/fetcher/tmp/compute-strings-data-0.1.3.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - main [MainThread]: End processing [compute-strings-data]: success
+[2023-06-16 00:18:38] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.2.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.3.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-16 00:18:38] INFO root fetch - processPackages [python-openevse-http]: Remove: archive file [/home/abi/fetcher/tmp/python-openevse-http-0.1.8.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - processPackages [python-openevse-http]: Remove: archive file [/home/abi/fetcher/tmp/python-openevse-http-0.1.9.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - main [MainThread]: End processing [python-openevse-http]: success
+[2023-06-16 00:18:38] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.1.4.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.1.5.tar.gz]
+[2023-06-16 00:18:38] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-16 00:18:38] INFO root fetch - main [MainThread]: Store serial: [18522865]
