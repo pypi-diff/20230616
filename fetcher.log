@@ -184,3 +184,120 @@
 [2023-06-16 00:02:57] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.8.0.tar.gz]
 [2023-06-16 00:02:57] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-06-16 00:02:57] INFO root fetch - main [MainThread]: Store serial: [18522753]
+[2023-06-16 00:08:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18522753]
+[2023-06-16 00:08:08] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-external
+[2023-06-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-archive
+[2023-06-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsonmathpy
+[2023-06-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-skill-spelling
+[2023-06-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deltafi
+[2023-06-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyfi
+[2023-06-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-null
+[2023-06-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wetterdienst
+[2023-06-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-http
+[2023-06-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: schemaser
+[2023-06-16 00:08:08] INFO root fetch - processPackages [neon-skill-spelling]: New version: [0.1.1a1] Old Version: [0.1.0]
+[2023-06-16 00:08:08] INFO root fetch - processPackages [deltafi]: New version: [1.0.0rc7] Old Version: [1.0.0rc6]
+[2023-06-16 00:08:08] INFO root fetch - processPackages [jsonmathpy]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-16 00:08:08] INFO root fetch - processPackages [pulumi-null]: New version: [0.0.1a1686861024] Old Version: [0.0.1]
+[2023-06-16 00:08:08] INFO root fetch - processPackages [pulumi-archive]: New version: [0.0.1a1686861008] Old Version: [0.0.1]
+[2023-06-16 00:08:08] INFO root fetch - processPackages [pulumi-external]: New version: [0.0.1a1686861021] Old Version: [0.0.1]
+[2023-06-16 00:08:08] WARNING root fetch - processPackages [schemaser]: Skipping, unable to determine old version
+[2023-06-16 00:08:08] INFO root fetch - processPackages [schemaser]: Start processing: trainingImages-ferretdragon
+[2023-06-16 00:08:08] INFO root fetch - main [MainThread]: End processing [schemaser] error
+[2023-06-16 00:08:08] INFO root fetch - processPackages [hyfi]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-16 00:08:08] INFO root fetch - processPackages [wetterdienst]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-16 00:08:08] INFO root fetch - processPackages [pulumi-http]: New version: [0.0.1a1686858465] Old Version: [0.0.1]
+[2023-06-16 00:08:08] WARNING root fetch - processPackages [trainingImages-ferretdragon]: Skipping, unable to determine old version
+[2023-06-16 00:08:08] INFO root fetch - processPackages [trainingImages-ferretdragon]: Start processing: remlalib
+[2023-06-16 00:08:08] INFO root fetch - main [MainThread]: End processing [trainingImages-ferretdragon] error
+[2023-06-16 00:08:09] INFO root fetch - processPackages [remlalib]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-16 00:08:09] INFO root fetch - processPackages [neon-skill-spelling]: Downloading https://files.pythonhosted.org/packages/d9/86/3ecea6c92413bacadd8b05b2030607c47896e7d9d5e31b97b19131757fcc/neon_skill_spelling-0.1.0-py3-none-any.whl
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/78/62/f3507dd9786858f6154528e893e2006f841dc4b4d9cea8fe2ab1f1069201/pulumi_null-0.0.1.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/da/79/738e406dc26402ba51afc103ff22585849b65dff7b4653c3cef74e901ea8/pulumi_external-0.0.1.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [jsonmathpy]: Downloading https://files.pythonhosted.org/packages/76/7d/d45f9fe7deb0542067a6fff15f7ec96e54ca823f854a699a1deda5fa73ac/jsonmathpy-2.0.5.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/f4/6c/3b3c6fc23ecd2371ee7fa57b5556ca3691eef34153ff42a42df9f4bc4bd9/pulumi_archive-0.0.1.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/aa/e8/cc2a84e39620c5abd2efc7bf123936c08bf0d8819ba63f0820f2aa1ac51e/deltafi-1.0.0rc6.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/e7/a4/f5fcafb5352b8e49170c931fc6b177dc52d8f724c85b0588d33c8830ea01/pulumi_http-0.0.1.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [wetterdienst]: Downloading https://files.pythonhosted.org/packages/78/63/b1277e512023f32d07e5f1100acb1a89b8df6544f68710d48e7c999ddfe7/wetterdienst-0.8.0.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/f7/7c/b8a975ac49b2a45cae33edfc8d3970aa325e25520e604cd462feb83b3cf0/hyfi-0.5.1.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [remlalib]: Downloading https://files.pythonhosted.org/packages/0b/de/a149fe2f348e5a45b4a4e189b470e2089fc6872d35c3c7ad1bd8be4d519d/remlalib-1.1.4.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [neon-skill-spelling]: Downloading https://files.pythonhosted.org/packages/a6/39/a1ffef49038b8149a3857fcc67f483e3ef916e0b01d63d961dc8119b898f/neon-skill-spelling-0.1.1a1.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/6c/3e/6b47fe3f22987a6557532a41b737cb86fad8b352b2fbae4bad3ed756c94e/pulumi_archive-0.0.1a1686861008.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/6e/ac/5a660921e635a8b28143dad40e8c4f392f5857cc723639fee81d7d4ecc5a/pulumi_null-0.0.1a1686861024.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [jsonmathpy]: Downloading https://files.pythonhosted.org/packages/ca/87/8dc8ccfe89d595a7fcaa4c4e72a793510d8251c06f620de78b03c600e4bb/jsonmathpy-2.0.6.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/05/ef/1a5e738c1526b4be969c9e68104a424c52ee2134501521cd5d65927a2cae/pulumi_external-0.0.1a1686861021.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [jsonmathpy]: executing diffoscope
+[2023-06-16 00:08:09] INFO root fetch - processPackages [jsonmathpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonmathpy-2.0.5.tar.gz tmp/jsonmathpy-2.0.6.tar.gz --markdown 20230616/j/jsonmathpy/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/e7/45/f0616af715a3e46a61e51c63d5ea8bf36ad3fe905e3bcd15d3bff7a50bbe/pulumi_http-0.0.1a1686858465.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/fd/fa/eeacee91e89092fc1bcb39e5ef31122389460f2835df78c35cbc42bb5d22/deltafi-1.0.0rc7.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/dd/7e/82ceeb2b1e66e72f1813e81aa79e8ac59cf295cb4770cda3e217dd9823b9/hyfi-0.6.0.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [neon-skill-spelling]: executing diffoscope
+[2023-06-16 00:08:09] INFO root fetch - processPackages [neon-skill-spelling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_spelling-0.1.0-py3-none-any.whl.zip tmp/neon-skill-spelling-0.1.1a1.tar.gz --markdown 20230616/n/neon-skill-spelling/0.1.0-0.1.1a1/diff.md --exclude *.pyd
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.0.1.tar.gz tmp/pulumi_archive-0.0.1a1686861008.tar.gz --markdown 20230616/p/pulumi-archive/0.0.1-0.0.1a1686861008/diff.md --exclude *.pyd
+[2023-06-16 00:08:09] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-16 00:08:09] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.5.1.tar.gz tmp/hyfi-0.6.0.tar.gz --markdown 20230616/h/hyfi/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-null]: executing diffoscope
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-null]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_null-0.0.1.tar.gz tmp/pulumi_null-0.0.1a1686861024.tar.gz --markdown 20230616/p/pulumi-null/0.0.1-0.0.1a1686861024/diff.md --exclude *.pyd
+[2023-06-16 00:08:09] INFO root fetch - processPackages [wetterdienst]: Downloading https://files.pythonhosted.org/packages/93/c1/a193d03f936306ba30a17b6df7557fb21eb06ece6da61b94796737ad977a/wetterdienst-0.9.0.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-external]: executing diffoscope
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_external-0.0.1.tar.gz tmp/pulumi_external-0.0.1a1686861021.tar.gz --markdown 20230616/p/pulumi-external/0.0.1-0.0.1a1686861021/diff.md --exclude *.pyd
+[2023-06-16 00:08:09] INFO root fetch - processPackages [remlalib]: Downloading https://files.pythonhosted.org/packages/05/15/be2a485f491ef00e6471a73a9aee00a9eafac9def9b3677ef520cde27750/remlalib-1.1.5.tar.gz
+[2023-06-16 00:08:09] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-06-16 00:08:09] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-1.0.0rc6.tar.gz tmp/deltafi-1.0.0rc7.tar.gz --markdown 20230616/d/deltafi/1.0.0rc6-1.0.0rc7/diff.md --exclude *.pyd
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-http]: executing diffoscope
+[2023-06-16 00:08:09] INFO root fetch - processPackages [pulumi-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_http-0.0.1.tar.gz tmp/pulumi_http-0.0.1a1686858465.tar.gz --markdown 20230616/p/pulumi-http/0.0.1-0.0.1a1686858465/diff.md --exclude *.pyd
+[2023-06-16 00:08:09] INFO root fetch - processPackages [remlalib]: executing diffoscope
+[2023-06-16 00:08:09] INFO root fetch - processPackages [remlalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remlalib-1.1.4.tar.gz tmp/remlalib-1.1.5.tar.gz --markdown 20230616/r/remlalib/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-16 00:08:09] INFO root fetch - processPackages [wetterdienst]: executing diffoscope
+[2023-06-16 00:08:09] INFO root fetch - processPackages [wetterdienst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wetterdienst-0.8.0.tar.gz tmp/wetterdienst-0.9.0.tar.gz --markdown 20230616/w/wetterdienst/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 00:08:10] INFO root fetch - processPackages [neon-skill-spelling]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_spelling-0.1.0-py3-none-any.whl.zip]
+[2023-06-16 00:08:10] INFO root fetch - processPackages [neon-skill-spelling]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-spelling-0.1.1a1.tar.gz]
+[2023-06-16 00:08:10] INFO root fetch - processPackages [neon-skill-spelling]: Start processing: neon-skill-local-music
+[2023-06-16 00:08:10] INFO root fetch - main [MainThread]: End processing [neon-skill-spelling]: success
+[2023-06-16 00:08:10] INFO root fetch - processPackages [neon-skill-local-music]: New version: [0.3.1a1] Old Version: [0.3.0a1]
+[2023-06-16 00:08:11] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/fe/b2/05c106f138546b12d33ae527c9dcc43302131b061367cbfdcab8d81ca9a9/neon_skill_local_music-0.3.0a1-py3-none-any.whl
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.0.1.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.0.1a1686861021.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pulumi-external]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-16 00:08:11] INFO root fetch - main [MainThread]: End processing [pulumi-external]: success
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.0.1.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.0.1a1686858465.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - main [MainThread]: End processing [pulumi-http]: success
+[2023-06-16 00:08:11] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.0rc6.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.0rc7.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.0.1.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.0.1a1686861024.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - main [MainThread]: End processing [pulumi-null]: success
+[2023-06-16 00:08:11] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/4c/33/e97b0bb919d9f75bd8dfd050f8b97279368075b6e87abd6641b36e1e623b/neon-skill-local_music-0.3.1a1.tar.gz
+[2023-06-16 00:08:11] INFO root fetch - processPackages [jsonmathpy]: Remove: archive file [/home/abi/fetcher/tmp/jsonmathpy-2.0.5.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - processPackages [jsonmathpy]: Remove: archive file [/home/abi/fetcher/tmp/jsonmathpy-2.0.6.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - main [MainThread]: End processing [jsonmathpy]: success
+[2023-06-16 00:08:11] INFO root fetch - processPackages [remlalib]: Remove: archive file [/home/abi/fetcher/tmp/remlalib-1.1.4.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - processPackages [remlalib]: Remove: archive file [/home/abi/fetcher/tmp/remlalib-1.1.5.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - main [MainThread]: End processing [remlalib]: success
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.0.1.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.0.1a1686861008.tar.gz]
+[2023-06-16 00:08:11] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-16 00:08:11] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230616/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 00:08:11] INFO root fetch - processPackages [neon-skill-local-music]: executing diffoscope
+[2023-06-16 00:08:11] INFO root fetch - processPackages [neon-skill-local-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_local_music-0.3.0a1-py3-none-any.whl.zip tmp/neon-skill-local_music-0.3.1a1.tar.gz --markdown 20230616/n/neon-skill-local-music/0.3.0a1-0.3.1a1/diff.md --exclude *.pyd
+[2023-06-16 00:08:12] INFO root fetch - processPackages [neon-skill-local-music]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_local_music-0.3.0a1-py3-none-any.whl.zip]
+[2023-06-16 00:08:12] INFO root fetch - processPackages [neon-skill-local-music]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-local_music-0.3.1a1.tar.gz]
+[2023-06-16 00:08:12] INFO root fetch - main [MainThread]: End processing [neon-skill-local-music]: success
+[2023-06-16 00:08:12] INFO root fetch - processPackages [wetterdienst]: Remove: archive file [/home/abi/fetcher/tmp/wetterdienst-0.8.0.tar.gz]
+[2023-06-16 00:08:12] INFO root fetch - processPackages [wetterdienst]: Remove: archive file [/home/abi/fetcher/tmp/wetterdienst-0.9.0.tar.gz]
+[2023-06-16 00:08:12] INFO root fetch - main [MainThread]: End processing [wetterdienst]: success
+[2023-06-16 00:08:12] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-16 00:08:12] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-16 00:08:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-16 00:08:13] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.5.1.tar.gz]
+[2023-06-16 00:08:13] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.6.0.tar.gz]
+[2023-06-16 00:08:13] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-16 00:08:13] INFO root fetch - main [MainThread]: Store serial: [18522796]
