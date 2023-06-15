@@ -1873,3 +1873,86 @@
 [2023-06-16 01:53:50] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.9.tar.gz]
 [2023-06-16 01:53:50] INFO root fetch - main [MainThread]: End processing [dataquality]: success
 [2023-06-16 01:53:50] INFO root fetch - main [MainThread]: Store serial: [18523531]
+[2023-06-16 01:58:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523531]
+[2023-06-16 01:58:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-16 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unitcell
+[2023-06-16 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tox
+[2023-06-16 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: navigator-auth
+[2023-06-16 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anomalo
+[2023-06-16 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eng-syl
+[2023-06-16 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: d20-orm
+[2023-06-16 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: honeybee-ph
+[2023-06-16 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fern-moneykit
+[2023-06-16 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: txZMQ-ng
+[2023-06-16 01:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-mock
+[2023-06-16 01:58:58] INFO root fetch - processPackages [anomalo]: New version: [0.9.1] Old Version: [0.16.1]
+[2023-06-16 01:58:58] INFO root fetch - processPackages [txZMQ-ng]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-16 01:58:58] WARNING root fetch - processPackages [unitcell]: Skipping, unable to determine old version
+[2023-06-16 01:58:58] INFO root fetch - main [MainThread]: End processing [unitcell] error
+[2023-06-16 01:58:58] INFO root fetch - processPackages [eng-syl]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-06-16 01:58:58] INFO root fetch - processPackages [navigator-auth]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-16 01:58:58] INFO root fetch - processPackages [pytest-mock]: New version: [3.9.0] Old Version: [3.8.2]
+[2023-06-16 01:58:58] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-16 01:58:58] INFO root fetch - processPackages [fern-moneykit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-16 01:58:58] INFO root fetch - processPackages [honeybee-ph]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-16 01:58:58] INFO root fetch - processPackages [tox]: New version: [4.6.1] Old Version: [4.6.0]
+[2023-06-16 01:58:59] INFO root fetch - processPackages [pytest-mock]: Downloading https://files.pythonhosted.org/packages/b6/78/4094a83dcd41e94f4c7e830983aef9089aaf6b3412da600a566cb04de1a5/pytest-mock-3.8.2.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [anomalo]: Downloading https://files.pythonhosted.org/packages/1a/83/bd7bc9e568d00c04c69a08e655a1faef3808a725f2405dcc3fa3c30241d7/anomalo-0.16.1.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [txZMQ-ng]: Downloading https://files.pythonhosted.org/packages/fc/a2/5c6929d0c3429cc2c7f93d9b8c2ac3b78b7cf51bf0592aabf06bb0502558/txZMQ-ng-1.0.2.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [navigator-auth]: Downloading https://files.pythonhosted.org/packages/11/ab/fc4540608b301c1af879d33f94411296510f5d4c79b84df4ecd87163e1f2/navigator_auth-0.8.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-16 01:58:59] INFO root fetch - processPackages [tox]: Downloading https://files.pythonhosted.org/packages/68/76/06f36b366d5be74a1c870e381db14d7231ee140cbd859125e8d81da4ae55/tox-4.6.0.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [eng-syl]: Downloading https://files.pythonhosted.org/packages/d4/97/c47faf6f0f16d98029cbcfcfecd6925065c05a026f880ea6db562c0c6df1/eng-syl-3.0.4.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [fern-moneykit]: Downloading https://files.pythonhosted.org/packages/0b/3c/40466cc4d847e81083823f21dbaa2697066dd78d89b59e0721e435bc3a5d/fern_moneykit-0.0.4.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/df/b8/fda4cf01d94f48d6d3083d5708571ff82cc12c33ab31021c75eae52fddf7/honeybee-ph-1.9.0.tar.gz
+[2023-06-16 01:58:59] WARNING root fetch - processPackages [eng-syl]: Skipping package: exceeds size limit 73385193>=10485760
+[2023-06-16 01:58:59] INFO root fetch - main [MainThread]: End processing [eng-syl] error
+[2023-06-16 01:58:59] INFO root fetch - processPackages [pytest-mock]: Downloading https://files.pythonhosted.org/packages/10/9f/b5404f025c6002172d88e7dfce6c3e5da2b56e2683f703df1343d53ff5c3/pytest-mock-3.9.0.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [anomalo]: Downloading https://files.pythonhosted.org/packages/06/12/a9adddb6b6a8f48c880b11455c332b98ce780fb64aed4ca4d2c86ddc922a/anomalo-0.9.1.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [txZMQ-ng]: Downloading https://files.pythonhosted.org/packages/43/b7/5bf9093d883a06a29eb9abc414f94310654957ecf29697863b3f8af58273/txZMQ-ng-1.0.3.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [fern-moneykit]: Downloading https://files.pythonhosted.org/packages/b6/37/f5222f3a37be0d127066c63c5976139aa1b732a1f937ec67954fbf3d5161/fern_moneykit-0.0.5.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [tox]: Downloading https://files.pythonhosted.org/packages/12/1f/eee0b32985ff5fd052783c39d990062a7474ae4d8ee6e8795117a94f16b1/tox-4.6.1.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [navigator-auth]: Downloading https://files.pythonhosted.org/packages/ec/d0/7fa7d8be8d034df0d3019c4bcf77b089efd827ae153d10efcdda7dcf0cc1/navigator_auth-0.8.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-16 01:58:59] INFO root fetch - processPackages [pytest-mock]: executing diffoscope
+[2023-06-16 01:58:59] INFO root fetch - processPackages [pytest-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-mock-3.8.2.tar.gz tmp/pytest-mock-3.9.0.tar.gz --markdown 20230616/p/pytest-mock/3.8.2-3.9.0/diff.md --exclude *.pyd
+[2023-06-16 01:58:59] INFO root fetch - processPackages [anomalo]: executing diffoscope
+[2023-06-16 01:58:59] INFO root fetch - processPackages [anomalo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anomalo-0.16.1.tar.gz tmp/anomalo-0.9.1.tar.gz --markdown 20230616/a/anomalo/0.16.1-0.9.1/diff.md --exclude *.pyd
+[2023-06-16 01:58:59] INFO root fetch - processPackages [txZMQ-ng]: executing diffoscope
+[2023-06-16 01:58:59] INFO root fetch - processPackages [txZMQ-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txZMQ-ng-1.0.2.tar.gz tmp/txZMQ-ng-1.0.3.tar.gz --markdown 20230616/t/txZMQ-ng/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-16 01:58:59] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [fern-moneykit]: executing diffoscope
+[2023-06-16 01:58:59] INFO root fetch - processPackages [fern-moneykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_moneykit-0.0.4.tar.gz tmp/fern_moneykit-0.0.5.tar.gz --markdown 20230616/f/fern-moneykit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-16 01:58:59] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/ac/3b/94670944c4a0e9844a88bedad8d71fd687fa1d4179f07d807acb90be0100/honeybee-ph-1.9.1.tar.gz
+[2023-06-16 01:58:59] INFO root fetch - processPackages [tox]: executing diffoscope
+[2023-06-16 01:58:59] INFO root fetch - processPackages [tox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox-4.6.0.tar.gz tmp/tox-4.6.1.tar.gz --markdown 20230616/t/tox/4.6.0-4.6.1/diff.md --exclude *.pyd
+[2023-06-16 01:58:59] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-16 01:58:59] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230616/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-16 01:58:59] INFO root fetch - processPackages [honeybee-ph]: executing diffoscope
+[2023-06-16 01:58:59] INFO root fetch - processPackages [honeybee-ph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-ph-1.9.0.tar.gz tmp/honeybee-ph-1.9.1.tar.gz --markdown 20230616/h/honeybee-ph/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-16 01:59:00] INFO root fetch - processPackages [navigator-auth]: executing diffoscope
+[2023-06-16 01:59:00] INFO root fetch - processPackages [navigator-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_auth-0.8.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_auth-0.8.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230616/n/navigator-auth/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-16 01:59:00] INFO root fetch - processPackages [anomalo]: Remove: archive file [/home/abi/fetcher/tmp/anomalo-0.16.1.tar.gz]
+[2023-06-16 01:59:00] INFO root fetch - processPackages [anomalo]: Remove: archive file [/home/abi/fetcher/tmp/anomalo-0.9.1.tar.gz]
+[2023-06-16 01:59:00] INFO root fetch - main [MainThread]: End processing [anomalo]: success
+[2023-06-16 01:59:01] INFO root fetch - processPackages [pytest-mock]: Remove: archive file [/home/abi/fetcher/tmp/pytest-mock-3.8.2.tar.gz]
+[2023-06-16 01:59:01] INFO root fetch - processPackages [pytest-mock]: Remove: archive file [/home/abi/fetcher/tmp/pytest-mock-3.9.0.tar.gz]
+[2023-06-16 01:59:01] INFO root fetch - main [MainThread]: End processing [pytest-mock]: success
+[2023-06-16 01:59:01] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-16 01:59:01] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-16 01:59:01] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-16 01:59:01] INFO root fetch - processPackages [honeybee-ph]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-ph-1.9.0.tar.gz]
+[2023-06-16 01:59:01] INFO root fetch - processPackages [honeybee-ph]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-ph-1.9.1.tar.gz]
+[2023-06-16 01:59:01] INFO root fetch - main [MainThread]: End processing [honeybee-ph]: success
+[2023-06-16 01:59:01] INFO root fetch - processPackages [txZMQ-ng]: Remove: archive file [/home/abi/fetcher/tmp/txZMQ-ng-1.0.2.tar.gz]
+[2023-06-16 01:59:01] INFO root fetch - processPackages [txZMQ-ng]: Remove: archive file [/home/abi/fetcher/tmp/txZMQ-ng-1.0.3.tar.gz]
+[2023-06-16 01:59:01] INFO root fetch - main [MainThread]: End processing [txZMQ-ng]: success
+[2023-06-16 01:59:01] INFO root fetch - processPackages [navigator-auth]: Remove: archive file [/home/abi/fetcher/tmp/navigator_auth-0.8.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-16 01:59:01] INFO root fetch - processPackages [navigator-auth]: Remove: archive file [/home/abi/fetcher/tmp/navigator_auth-0.8.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-16 01:59:01] INFO root fetch - main [MainThread]: End processing [navigator-auth]: success
+[2023-06-16 01:59:03] INFO root fetch - processPackages [tox]: Remove: archive file [/home/abi/fetcher/tmp/tox-4.6.0.tar.gz]
+[2023-06-16 01:59:03] INFO root fetch - processPackages [tox]: Remove: archive file [/home/abi/fetcher/tmp/tox-4.6.1.tar.gz]
+[2023-06-16 01:59:03] INFO root fetch - main [MainThread]: End processing [tox]: success
+[2023-06-16 01:59:03] INFO root fetch - processPackages [fern-moneykit]: Remove: archive file [/home/abi/fetcher/tmp/fern_moneykit-0.0.4.tar.gz]
+[2023-06-16 01:59:03] INFO root fetch - processPackages [fern-moneykit]: Remove: archive file [/home/abi/fetcher/tmp/fern_moneykit-0.0.5.tar.gz]
+[2023-06-16 01:59:03] INFO root fetch - main [MainThread]: End processing [fern-moneykit]: success
+[2023-06-16 01:59:03] INFO root fetch - main [MainThread]: Store serial: [18523563]
