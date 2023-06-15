@@ -301,3 +301,101 @@
 [2023-06-16 00:08:13] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.6.0.tar.gz]
 [2023-06-16 00:08:13] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-06-16 00:08:13] INFO root fetch - main [MainThread]: Store serial: [18522796]
+[2023-06-16 00:13:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18522796]
+[2023-06-16 00:13:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-16 00:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-spelling
+[2023-06-16 00:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tcare-sbvalidator
+[2023-06-16 00:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pantsbuild.pants.testutil
+[2023-06-16 00:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pantsbuild.pants
+[2023-06-16 00:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: props2yaml
+[2023-06-16 00:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: argtoml
+[2023-06-16 00:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hubspot3
+[2023-06-16 00:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iambic-core
+[2023-06-16 00:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dxpy
+[2023-06-16 00:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mkdpdf
+[2023-06-16 00:13:22] INFO root fetch - processPackages [pantsbuild.pants.testutil]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-06-16 00:13:22] INFO root fetch - processPackages [props2yaml]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 00:13:22] INFO root fetch - processPackages [neon-skill-spelling]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-06-16 00:13:22] INFO root fetch - processPackages [tcare-sbvalidator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 00:13:22] INFO root fetch - processPackages [hubspot3]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-06-16 00:13:22] INFO root fetch - processPackages [iambic-core]: New version: [0.9.6] Old Version: [0.9.1]
+[2023-06-16 00:13:22] INFO root fetch - processPackages [dxpy]: New version: [v0.83.0] Old Version: [v0.82.1]
+[2023-06-16 00:13:22] INFO root fetch - processPackages [argtoml]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 00:13:22] INFO root fetch - processPackages [mkdpdf]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-16 00:13:22] INFO root fetch - processPackages [pantsbuild.pants]: New version: [2.9.2rc0] Old Version: [2.9.2]
+[2023-06-16 00:13:22] INFO root fetch - processPackages [mkdpdf]: Downloading https://files.pythonhosted.org/packages/cd/9a/29d47c4cbb095564fd90f3d8cfa04533427894f857fbf123ac6e88a3ca35/mkdpdf-0.2.5.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [argtoml]: Downloading https://files.pythonhosted.org/packages/51/93/47373e8c83b6acc91eec86dfc7fb83b69f9de7a3e9e2836151348fb46a94/argtoml-0.1.1.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [pantsbuild.pants]: Downloading https://files.pythonhosted.org/packages/9d/fb/48c0150109e3f3706e9104d71fa88777a017fbbdb74c6e6fe4890559df4a/pantsbuild.pants-2.9.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-16 00:13:22] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Downloading https://files.pythonhosted.org/packages/4e/7d/aeafade716239bdbf6323e1aa8cab40ec135933628cd8b4f30180462f909/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl
+[2023-06-16 00:13:22] INFO root fetch - processPackages [neon-skill-spelling]: Downloading https://files.pythonhosted.org/packages/a6/39/a1ffef49038b8149a3857fcc67f483e3ef916e0b01d63d961dc8119b898f/neon-skill-spelling-0.1.1a1.tar.gz
+[2023-06-16 00:13:22] WARNING root fetch - processPackages [pantsbuild.pants]: Skipping package: exceeds size limit 43333544>=10485760
+[2023-06-16 00:13:22] INFO root fetch - processPackages [pantsbuild.pants]: Start processing: dedeshot
+[2023-06-16 00:13:22] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants] error
+[2023-06-16 00:13:22] INFO root fetch - processPackages [tcare-sbvalidator]: Downloading https://files.pythonhosted.org/packages/b2/02/026be432180934bd537c76780246eedfb3f813cc53259e3cad20d88b1e60/tcare_sbvalidator-0.0.8.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [dedeshot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 00:13:22] INFO root fetch - processPackages [props2yaml]: Downloading https://files.pythonhosted.org/packages/83/3d/bb5a94d8e8186b9087322d5d55631c2c1406ca32c0015d29203d524ee756/props2yaml-0.1.1.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [dxpy]: Downloading https://files.pythonhosted.org/packages/da/c1/174d4396e4ed9e1599913ab138dd60bb0845968c53b606cbb55673ffc3ba/dxpy-v0.82.1.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/85/99/3d446cd7fc0dbac1fb0db510ba1166ec14ebeebdebd6ceb5631a3e2c010a/iambic_core-0.9.1.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [hubspot3]: Downloading https://files.pythonhosted.org/packages/25/01/0643304fb0a0dd14f40cd5f2087c794cfd5a4e7c494c9b27fc5d7a856f23/hubspot3-3.2.8.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [argtoml]: Downloading https://files.pythonhosted.org/packages/dc/c6/9a156104536595d2afd7d61f084fb34d33bde29dbcc169068a4ab1d54ac4/argtoml-0.1.2.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [mkdpdf]: Downloading https://files.pythonhosted.org/packages/86/91/81d702cde8ca3ec586c9b03741a334cd8c08f5e5d878f370563d352acfd7/mkdpdf-0.2.6.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [dedeshot]: Downloading https://files.pythonhosted.org/packages/2b/14/2a18cdb5b8e8e2f13a3136a9ee759b553c9789411dfb3633cbee5748dcd8/dedeshot-0.0.1.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [neon-skill-spelling]: Downloading https://files.pythonhosted.org/packages/a9/ee/99dd19e562e6f6389f81b09c45316d2bbca06215c129a6d42c380f83d825/neon-skill-spelling-0.1.1a2.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Downloading https://files.pythonhosted.org/packages/99/3d/05b882eb653f3774a6e1520e5e16ce1c59df3737b664846d8bde71c8a2c1/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl
+[2023-06-16 00:13:22] INFO root fetch - processPackages [tcare-sbvalidator]: Downloading https://files.pythonhosted.org/packages/c6/42/8263377fcc49b705be8f8c4cf9e1f21a0ab47ae885e23f8d264f0671f528/tcare_sbvalidator-0.0.9.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [argtoml]: executing diffoscope
+[2023-06-16 00:13:22] INFO root fetch - processPackages [argtoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argtoml-0.1.1.tar.gz tmp/argtoml-0.1.2.tar.gz --markdown 20230616/a/argtoml/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 00:13:22] INFO root fetch - processPackages [props2yaml]: Downloading https://files.pythonhosted.org/packages/f0/be/06c5a9c84e051726a028d92efe3abf168c44b41e15b4844b5f099f92fa41/props2yaml-0.1.2.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [mkdpdf]: executing diffoscope
+[2023-06-16 00:13:22] INFO root fetch - processPackages [mkdpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdpdf-0.2.5.tar.gz tmp/mkdpdf-0.2.6.tar.gz --markdown 20230616/m/mkdpdf/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-16 00:13:22] INFO root fetch - processPackages [pantsbuild.pants.testutil]: executing diffoscope
+[2023-06-16 00:13:22] INFO root fetch - processPackages [pantsbuild.pants.testutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip --markdown 20230616/p/pantsbuild.pants.testutil/2.9.2-2.9.2rc0/diff.md --exclude *.pyd
+[2023-06-16 00:13:22] INFO root fetch - processPackages [dxpy]: Downloading https://files.pythonhosted.org/packages/27/9d/337f1f9230dda5237debb2fccdfe26003921246cb5bf0c4ab58a9e3e07a5/dxpy-v0.83.0.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [tcare-sbvalidator]: executing diffoscope
+[2023-06-16 00:13:22] INFO root fetch - processPackages [tcare-sbvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcare_sbvalidator-0.0.8.tar.gz tmp/tcare_sbvalidator-0.0.9.tar.gz --markdown 20230616/t/tcare-sbvalidator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 00:13:22] INFO root fetch - processPackages [neon-skill-spelling]: executing diffoscope
+[2023-06-16 00:13:22] INFO root fetch - processPackages [neon-skill-spelling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-spelling-0.1.1a1.tar.gz tmp/neon-skill-spelling-0.1.1a2.tar.gz --markdown 20230616/n/neon-skill-spelling/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-06-16 00:13:22] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/9e/25/21eeb36df4421605a4e9a0f3f4ff71207d35463557f2a464b38aa3200082/iambic_core-0.9.6.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [dxpy]: executing diffoscope
+[2023-06-16 00:13:22] INFO root fetch - processPackages [dxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxpy-v0.82.1.tar.gz tmp/dxpy-v0.83.0.tar.gz --markdown 20230616/d/dxpy/v0.82.1-v0.83.0/diff.md --exclude *.pyd
+[2023-06-16 00:13:22] INFO root fetch - processPackages [dedeshot]: Downloading https://files.pythonhosted.org/packages/b9/d0/c20091b21aa20040a6142a0a62c804b14474668caba7956c6a24f2f5bbd6/dedeshot-0.0.2.tar.gz
+[2023-06-16 00:13:22] INFO root fetch - processPackages [props2yaml]: executing diffoscope
+[2023-06-16 00:13:22] INFO root fetch - processPackages [props2yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/props2yaml-0.1.1.tar.gz tmp/props2yaml-0.1.2.tar.gz --markdown 20230616/p/props2yaml/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 00:13:23] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-06-16 00:13:23] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.9.1.tar.gz tmp/iambic_core-0.9.6.tar.gz --markdown 20230616/i/iambic-core/0.9.1-0.9.6/diff.md --exclude *.pyd
+[2023-06-16 00:13:23] INFO root fetch - processPackages [dedeshot]: executing diffoscope
+[2023-06-16 00:13:23] INFO root fetch - processPackages [dedeshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dedeshot-0.0.1.tar.gz tmp/dedeshot-0.0.2.tar.gz --markdown 20230616/d/dedeshot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 00:13:23] INFO root fetch - processPackages [hubspot3]: Downloading https://files.pythonhosted.org/packages/7b/82/c950673652b2adf198ccd7fd15e1d83782ddd8fd9cd12bebe3fd65ad72b8/hubspot3-3.2.9.tar.gz
+[2023-06-16 00:13:23] INFO root fetch - processPackages [hubspot3]: executing diffoscope
+[2023-06-16 00:13:23] INFO root fetch - processPackages [hubspot3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubspot3-3.2.8.tar.gz tmp/hubspot3-3.2.9.tar.gz --markdown 20230616/h/hubspot3/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-06-16 00:13:24] INFO root fetch - processPackages [argtoml]: Remove: archive file [/home/abi/fetcher/tmp/argtoml-0.1.1.tar.gz]
+[2023-06-16 00:13:24] INFO root fetch - processPackages [argtoml]: Remove: archive file [/home/abi/fetcher/tmp/argtoml-0.1.2.tar.gz]
+[2023-06-16 00:13:24] INFO root fetch - main [MainThread]: End processing [argtoml]: success
+[2023-06-16 00:13:24] INFO root fetch - processPackages [mkdpdf]: Remove: archive file [/home/abi/fetcher/tmp/mkdpdf-0.2.5.tar.gz]
+[2023-06-16 00:13:24] INFO root fetch - processPackages [mkdpdf]: Remove: archive file [/home/abi/fetcher/tmp/mkdpdf-0.2.6.tar.gz]
+[2023-06-16 00:13:24] INFO root fetch - main [MainThread]: End processing [mkdpdf]: success
+[2023-06-16 00:13:24] INFO root fetch - processPackages [tcare-sbvalidator]: Remove: archive file [/home/abi/fetcher/tmp/tcare_sbvalidator-0.0.8.tar.gz]
+[2023-06-16 00:13:24] INFO root fetch - processPackages [tcare-sbvalidator]: Remove: archive file [/home/abi/fetcher/tmp/tcare_sbvalidator-0.0.9.tar.gz]
+[2023-06-16 00:13:24] INFO root fetch - main [MainThread]: End processing [tcare-sbvalidator]: success
+[2023-06-16 00:13:24] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Remove: archive file [/home/abi/fetcher/tmp/pantsbuild.pants.testutil-2.9.2-py37.py38.py39-none-any.whl.zip]
+[2023-06-16 00:13:24] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Remove: archive file [/home/abi/fetcher/tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip]
+[2023-06-16 00:13:24] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants.testutil]: success
+[2023-06-16 00:13:24] INFO root fetch - processPackages [props2yaml]: Remove: archive file [/home/abi/fetcher/tmp/props2yaml-0.1.1.tar.gz]
+[2023-06-16 00:13:24] INFO root fetch - processPackages [props2yaml]: Remove: archive file [/home/abi/fetcher/tmp/props2yaml-0.1.2.tar.gz]
+[2023-06-16 00:13:24] INFO root fetch - main [MainThread]: End processing [props2yaml]: success
+[2023-06-16 00:13:24] INFO root fetch - processPackages [neon-skill-spelling]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-spelling-0.1.1a1.tar.gz]
+[2023-06-16 00:13:24] INFO root fetch - processPackages [neon-skill-spelling]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-spelling-0.1.1a2.tar.gz]
+[2023-06-16 00:13:24] INFO root fetch - main [MainThread]: End processing [neon-skill-spelling]: success
+[2023-06-16 00:13:24] INFO root fetch - processPackages [dedeshot]: Remove: archive file [/home/abi/fetcher/tmp/dedeshot-0.0.1.tar.gz]
+[2023-06-16 00:13:24] INFO root fetch - processPackages [dedeshot]: Remove: archive file [/home/abi/fetcher/tmp/dedeshot-0.0.2.tar.gz]
+[2023-06-16 00:13:24] INFO root fetch - main [MainThread]: End processing [dedeshot]: success
+[2023-06-16 00:13:25] INFO root fetch - processPackages [hubspot3]: Remove: archive file [/home/abi/fetcher/tmp/hubspot3-3.2.8.tar.gz]
+[2023-06-16 00:13:25] INFO root fetch - processPackages [hubspot3]: Remove: archive file [/home/abi/fetcher/tmp/hubspot3-3.2.9.tar.gz]
+[2023-06-16 00:13:25] INFO root fetch - main [MainThread]: End processing [hubspot3]: success
+[2023-06-16 00:13:25] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.1.tar.gz]
+[2023-06-16 00:13:25] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.6.tar.gz]
+[2023-06-16 00:13:25] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-06-16 00:13:27] INFO root fetch - processPackages [dxpy]: Remove: archive file [/home/abi/fetcher/tmp/dxpy-v0.82.1.tar.gz]
+[2023-06-16 00:13:27] INFO root fetch - processPackages [dxpy]: Remove: archive file [/home/abi/fetcher/tmp/dxpy-v0.83.0.tar.gz]
+[2023-06-16 00:13:27] INFO root fetch - main [MainThread]: End processing [dxpy]: success
+[2023-06-16 00:13:27] INFO root fetch - main [MainThread]: Store serial: [18522832]
