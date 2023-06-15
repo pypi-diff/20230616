@@ -1014,3 +1014,75 @@
 [2023-06-16 00:45:51] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
 [2023-06-16 00:45:51] INFO root fetch - main [MainThread]: End processing [anyscale]: success
 [2023-06-16 00:45:51] INFO root fetch - main [MainThread]: Store serial: [18523110]
+[2023-06-16 00:50:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523110]
+[2023-06-16 00:51:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-16 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FlyBaseDownloads
+[2023-06-16 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-skill-wikipedia
+[2023-06-16 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-recipes
+[2023-06-16 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deltafi
+[2023-06-16 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strawberry-django-plus
+[2023-06-16 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrademacher
+[2023-06-16 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openreview-py
+[2023-06-16 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-chat-foto
+[2023-06-16 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nuclia
+[2023-06-16 00:51:00] INFO root fetch - processPackages [pyrademacher]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-16 00:51:00] INFO root fetch - processPackages [deltafi]: New version: [1.0.1rc1686869272397] Old Version: [1.0.0rc7]
+[2023-06-16 00:51:00] INFO root fetch - processPackages [openreview-py]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-16 00:51:00] INFO root fetch - processPackages [neon-skill-recipes]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2023-06-16 00:51:00] INFO root fetch - processPackages [FlyBaseDownloads]: New version: [1.0.4.3] Old Version: [1.0.4.2]
+[2023-06-16 00:51:01] INFO root fetch - processPackages [neon-skill-wikipedia]: New version: [0.4.2a1] Old Version: [0.4.1a0]
+[2023-06-16 00:51:01] INFO root fetch - processPackages [strawberry-django-plus]: New version: [3.0.0] Old Version: [2.6.4]
+[2023-06-16 00:51:01] WARNING root fetch - processPackages [streamlit-chat-foto]: Skipping, unable to determine old version
+[2023-06-16 00:51:01] INFO root fetch - main [MainThread]: End processing [streamlit-chat-foto] error
+[2023-06-16 00:51:01] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/92/f1/022ef21be7c858252e799eb574513836d4db4676af5763c9fd9e0a48ece5/FlyBaseDownloads-1.0.4.2.tar.gz
+[2023-06-16 00:51:01] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/fd/fa/eeacee91e89092fc1bcb39e5ef31122389460f2835df78c35cbc42bb5d22/deltafi-1.0.0rc7.tar.gz
+[2023-06-16 00:51:01] ERROR root fetch - processPackages [nuclia]: Unable to get metadata: No such project 'nuclia'
+[2023-06-16 00:51:01] INFO root fetch - main [MainThread]: End processing [nuclia] error
+[2023-06-16 00:51:01] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/02/12/6b35c4f5c1445a0947c03a2d92b9549033a7c04b9cb4afb639778d7fb131/pyrademacher-0.9.8.tar.gz
+[2023-06-16 00:51:01] INFO root fetch - processPackages [neon-skill-recipes]: Downloading https://files.pythonhosted.org/packages/b6/db/306722ec547e896cc5803668b12bfb8b90d0d6cdd5d888f43b401b9143b9/neon_skill_recipes-0.0.1a5-py3-none-any.whl
+[2023-06-16 00:51:01] INFO root fetch - processPackages [openreview-py]: Downloading https://files.pythonhosted.org/packages/10/f4/9df8095c8b89ddd8bd719a3dc3103e5af2355f785ae02f6e48d670c055e2/openreview_py-1.8.1-py2.py3-none-any.whl
+[2023-06-16 00:51:01] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/76/45/737c160ff1f3591c097de2d3a2f232ae992380c20f45816d0acd7614638c/strawberry_django_plus-2.6.4.tar.gz
+[2023-06-16 00:51:01] INFO root fetch - processPackages [neon-skill-wikipedia]: Downloading https://files.pythonhosted.org/packages/5e/aa/01fc94a41d9b29be9b333dcf0351351a5cf481424113c3c095d8463e3587/neon_skill_wikipedia-0.4.1a0-py3-none-any.whl
+[2023-06-16 00:51:01] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/65/66/6fd2188a57484dc2dd01241cc600ea2bb05ca8b4f10a68936c71235e4a87/FlyBaseDownloads-1.0.4.3.tar.gz
+[2023-06-16 00:51:01] INFO root fetch - processPackages [FlyBaseDownloads]: executing diffoscope
+[2023-06-16 00:51:01] INFO root fetch - processPackages [FlyBaseDownloads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyBaseDownloads-1.0.4.2.tar.gz tmp/FlyBaseDownloads-1.0.4.3.tar.gz --markdown 20230616/F/FlyBaseDownloads/1.0.4.2-1.0.4.3/diff.md --exclude *.pyd
+[2023-06-16 00:51:01] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/cf/dc/3f8da219275fff0ad23dacd1d2aaf621c6194fe7b50fbe3cabd334941e58/deltafi-1.0.1rc1686869272397.tar.gz
+[2023-06-16 00:51:01] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/97/06/40b8c17bb8a3a79653e7c9fa154c89fb8e4e1122553a6f696919593d2fa9/pyrademacher-0.9.9.tar.gz
+[2023-06-16 00:51:01] INFO root fetch - processPackages [neon-skill-recipes]: Downloading https://files.pythonhosted.org/packages/4a/4d/ada21dbdb5ef88e85d089280d9e84f48026a8dd1722d0da33f013f43e7b2/neon-skill-recipes-0.0.1a6.tar.gz
+[2023-06-16 00:51:01] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/73/d1/baf6c1784910e9c04fa2f8ea300d51ad48514ce4845947c9dca63e0081d4/strawberry_django_plus-3.0.0.tar.gz
+[2023-06-16 00:51:01] INFO root fetch - processPackages [neon-skill-recipes]: executing diffoscope
+[2023-06-16 00:51:01] INFO root fetch - processPackages [neon-skill-recipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_recipes-0.0.1a5-py3-none-any.whl.zip tmp/neon-skill-recipes-0.0.1a6.tar.gz --markdown 20230616/n/neon-skill-recipes/0.0.1a5-0.0.1a6/diff.md --exclude *.pyd
+[2023-06-16 00:51:01] INFO root fetch - processPackages [pyrademacher]: executing diffoscope
+[2023-06-16 00:51:01] INFO root fetch - processPackages [pyrademacher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrademacher-0.9.8.tar.gz tmp/pyrademacher-0.9.9.tar.gz --markdown 20230616/p/pyrademacher/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-16 00:51:01] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-06-16 00:51:01] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-1.0.0rc7.tar.gz tmp/deltafi-1.0.1rc1686869272397.tar.gz --markdown 20230616/d/deltafi/1.0.0rc7-1.0.1rc1686869272397/diff.md --exclude *.pyd
+[2023-06-16 00:51:01] INFO root fetch - processPackages [strawberry-django-plus]: executing diffoscope
+[2023-06-16 00:51:01] INFO root fetch - processPackages [strawberry-django-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_plus-2.6.4.tar.gz tmp/strawberry_django_plus-3.0.0.tar.gz --markdown 20230616/s/strawberry-django-plus/2.6.4-3.0.0/diff.md --exclude *.pyd
+[2023-06-16 00:51:01] INFO root fetch - processPackages [openreview-py]: Downloading https://files.pythonhosted.org/packages/3f/ec/bddbdcce1143acd580ad90e5c6a9772c052772bcf7982d3d4d5957087e38/openreview_py-1.9.0-py2.py3-none-any.whl
+[2023-06-16 00:51:01] INFO root fetch - processPackages [neon-skill-wikipedia]: Downloading https://files.pythonhosted.org/packages/2c/94/6641a8ee8442bb89d04533c0b739c259751172f9410f2fe71eead4aa7d46/neon-skill-wikipedia-0.4.2a1.tar.gz
+[2023-06-16 00:51:01] INFO root fetch - processPackages [neon-skill-wikipedia]: executing diffoscope
+[2023-06-16 00:51:01] INFO root fetch - processPackages [neon-skill-wikipedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_wikipedia-0.4.1a0-py3-none-any.whl.zip tmp/neon-skill-wikipedia-0.4.2a1.tar.gz --markdown 20230616/n/neon-skill-wikipedia/0.4.1a0-0.4.2a1/diff.md --exclude *.pyd
+[2023-06-16 00:51:02] INFO root fetch - processPackages [openreview-py]: executing diffoscope
+[2023-06-16 00:51:02] INFO root fetch - processPackages [openreview-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openreview_py-1.8.1-py2.py3-none-any.whl.zip tmp/openreview_py-1.9.0-py2.py3-none-any.whl.zip --markdown 20230616/o/openreview-py/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-16 00:51:02] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.0rc7.tar.gz]
+[2023-06-16 00:51:02] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.1rc1686869272397.tar.gz]
+[2023-06-16 00:51:02] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-06-16 00:51:02] INFO root fetch - processPackages [neon-skill-recipes]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_recipes-0.0.1a5-py3-none-any.whl.zip]
+[2023-06-16 00:51:02] INFO root fetch - processPackages [neon-skill-recipes]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-recipes-0.0.1a6.tar.gz]
+[2023-06-16 00:51:02] INFO root fetch - main [MainThread]: End processing [neon-skill-recipes]: success
+[2023-06-16 00:51:03] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.4.2.tar.gz]
+[2023-06-16 00:51:03] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.4.3.tar.gz]
+[2023-06-16 00:51:03] INFO root fetch - main [MainThread]: End processing [FlyBaseDownloads]: success
+[2023-06-16 00:51:03] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.8.tar.gz]
+[2023-06-16 00:51:03] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.9.tar.gz]
+[2023-06-16 00:51:03] INFO root fetch - main [MainThread]: End processing [pyrademacher]: success
+[2023-06-16 00:51:03] INFO root fetch - processPackages [strawberry-django-plus]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_plus-2.6.4.tar.gz]
+[2023-06-16 00:51:03] INFO root fetch - processPackages [strawberry-django-plus]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_plus-3.0.0.tar.gz]
+[2023-06-16 00:51:03] INFO root fetch - main [MainThread]: End processing [strawberry-django-plus]: success
+[2023-06-16 00:51:04] INFO root fetch - processPackages [openreview-py]: Remove: archive file [/home/abi/fetcher/tmp/openreview_py-1.8.1-py2.py3-none-any.whl.zip]
+[2023-06-16 00:51:04] INFO root fetch - processPackages [openreview-py]: Remove: archive file [/home/abi/fetcher/tmp/openreview_py-1.9.0-py2.py3-none-any.whl.zip]
+[2023-06-16 00:51:04] INFO root fetch - main [MainThread]: End processing [openreview-py]: success
+[2023-06-16 00:51:04] INFO root fetch - processPackages [neon-skill-wikipedia]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_wikipedia-0.4.1a0-py3-none-any.whl.zip]
+[2023-06-16 00:51:04] INFO root fetch - processPackages [neon-skill-wikipedia]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-wikipedia-0.4.2a1.tar.gz]
+[2023-06-16 00:51:04] INFO root fetch - main [MainThread]: End processing [neon-skill-wikipedia]: success
+[2023-06-16 00:51:04] INFO root fetch - main [MainThread]: Store serial: [18523151]
