@@ -606,3 +606,159 @@
 [2023-06-16 00:23:54] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
 [2023-06-16 00:23:54] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
 [2023-06-16 00:23:54] INFO root fetch - main [MainThread]: Store serial: [18522922]
+[2023-06-16 00:29:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18522922]
+[2023-06-16 00:29:05] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-16 00:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-alerts
+[2023-06-16 00:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hmrf
+[2023-06-16 00:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trainingimages
+[2023-06-16 00:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tree-sitter-apertium
+[2023-06-16 00:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: compute-strings-data
+[2023-06-16 00:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: satori-playbook-validator
+[2023-06-16 00:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vernum
+[2023-06-16 00:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kanglib
+[2023-06-16 00:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: toil
+[2023-06-16 00:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vernum
+[2023-06-16 00:29:05] INFO root fetch - processPackages [tree-sitter-apertium]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-16 00:29:05] INFO root fetch - processPackages [vernum]: New version: [3.0.0] Old Version: [2.2.2]
+[2023-06-16 00:29:05] WARNING root fetch - processPackages [hmrf]: Skipping, unable to determine old version
+[2023-06-16 00:29:05] INFO root fetch - processPackages [vernum]: New version: [3.0.0] Old Version: [2.2.2]
+[2023-06-16 00:29:05] INFO root fetch - processPackages [hmrf]: Start processing: numerical-py
+[2023-06-16 00:29:05] WARNING root fetch - processPackages [trainingimages]: Skipping, unable to determine old version
+[2023-06-16 00:29:05] INFO root fetch - processPackages [kanglib]: New version: [0.5] Old Version: [0.4]
+[2023-06-16 00:29:05] INFO root fetch - main [MainThread]: End processing [hmrf] error
+[2023-06-16 00:29:05] INFO root fetch - processPackages [neon-skill-alerts]: New version: [1.5.2a2] Old Version: [1.5.2a1]
+[2023-06-16 00:29:05] INFO root fetch - processPackages [compute-strings-data]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-16 00:29:05] INFO root fetch - processPackages [trainingimages]: Start processing: rotki-content-hash
+[2023-06-16 00:29:05] INFO root fetch - main [MainThread]: End processing [trainingimages] error
+[2023-06-16 00:29:05] INFO root fetch - processPackages [satori-playbook-validator]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-16 00:29:05] INFO root fetch - processPackages [toil]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-06-16 00:29:05] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 00:29:05] INFO root fetch - processPackages [rotki-content-hash]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 00:29:05] INFO root fetch - processPackages [compute-strings-data]: Downloading https://files.pythonhosted.org/packages/09/e0/13e775380ad0bed37c08a1c8496ce5ef906c2af2745119dde0a53a29997b/compute-strings-data-0.1.3.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [kanglib]: Downloading https://files.pythonhosted.org/packages/81/a5/f3475743fa4875c7e6bfec06908fd4dca1bc3ba17746e5803d6c4529231f/kanglib-0.4.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [rotki-content-hash]: Downloading https://files.pythonhosted.org/packages/58/31/31f13bd6495f87ca8bb568121d032d6df6bbc17ac617d38b2d877c7915d1/rotki-content-hash-0.0.1.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [vernum]: Downloading https://files.pythonhosted.org/packages/9e/9d/be23cb0fe0ea7011f97563f7caf1822b9b9c209f350abc3927291f6c9711/vernum-2.2.2.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [vernum]: Downloading https://files.pythonhosted.org/packages/9e/9d/be23cb0fe0ea7011f97563f7caf1822b9b9c209f350abc3927291f6c9711/vernum-2.2.2.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [tree-sitter-apertium]: Downloading https://files.pythonhosted.org/packages/23/70/762cd77a1c1730831ab8dad311cb05b9cf694239ba858637c778307a4d4e/tree-sitter-apertium-0.1.4.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [neon-skill-alerts]: Downloading https://files.pythonhosted.org/packages/38/3f/7fb825f1b25fd385d1a364f3554f71d69aeb3e2456c13c25218c96a93dbe/neon_skill_alerts-1.5.2a1-py3-none-any.whl
+[2023-06-16 00:29:05] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/47/54/60c5ec879531ffaeed8bda58e8304fbc4cb71a7d17f806958937a1234e9c/satori_playbook_validator-2.1.1.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [toil]: Downloading https://files.pythonhosted.org/packages/dc/cb/ef7e0a3f1ccf1343c5dadee5f5e4ca7a34f0c5727970f0e9444e96a71874/toil-5.9.1.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [compute-strings-data]: Downloading https://files.pythonhosted.org/packages/03/a9/2c52ddcec64c2dbb5ca16acc8860d331a418e40fab8aef5c83e2cc0389d1/compute-strings-data-0.1.4.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [kanglib]: Downloading https://files.pythonhosted.org/packages/07/74/e23141921f22e1a3449edd05eef3b6b9c67b4e7e155c131db644e1957c18/kanglib-0.5.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-16 00:29:05] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230616/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 00:29:05] INFO root fetch - processPackages [vernum]: Downloading https://files.pythonhosted.org/packages/e3/5c/5c70d631c03dc1a896b02b00339e54f423903c9429c7a5a64138a10bd0ca/vernum-3.0.0.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [vernum]: Downloading https://files.pythonhosted.org/packages/e3/5c/5c70d631c03dc1a896b02b00339e54f423903c9429c7a5a64138a10bd0ca/vernum-3.0.0.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [compute-strings-data]: executing diffoscope
+[2023-06-16 00:29:05] INFO root fetch - processPackages [kanglib]: executing diffoscope
+[2023-06-16 00:29:05] INFO root fetch - processPackages [compute-strings-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compute-strings-data-0.1.3.tar.gz tmp/compute-strings-data-0.1.4.tar.gz --markdown 20230616/c/compute-strings-data/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-16 00:29:05] INFO root fetch - processPackages [kanglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanglib-0.4.tar.gz tmp/kanglib-0.5.tar.gz --markdown 20230616/k/kanglib/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-16 00:29:05] INFO root fetch - processPackages [rotki-content-hash]: Downloading https://files.pythonhosted.org/packages/4f/4f/0ee27951645c5bb1e15dbb812a126f505534bafde167038616abc4d61b9f/rotki-content-hash-0.0.2.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [vernum]: executing diffoscope
+[2023-06-16 00:29:05] INFO root fetch - processPackages [vernum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vernum-2.2.2.tar.gz tmp/vernum-3.0.0.tar.gz --markdown 20230616/v/vernum/2.2.2-3.0.0/diff.md --exclude *.pyd
+[2023-06-16 00:29:05] INFO root fetch - processPackages [vernum]: executing diffoscope
+[2023-06-16 00:29:05] INFO root fetch - processPackages [vernum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vernum-2.2.2.tar.gz tmp/vernum-3.0.0.tar.gz --markdown 20230616/v/vernum/2.2.2-3.0.0/diff.md --exclude *.pyd
+[2023-06-16 00:29:05] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/9b/29/0a2b25d99521be9d59a5e5deec31421b3764adf269afd5d1bfddcda80688/satori_playbook_validator-2.1.2.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [rotki-content-hash]: executing diffoscope
+[2023-06-16 00:29:05] INFO root fetch - processPackages [rotki-content-hash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotki-content-hash-0.0.1.tar.gz tmp/rotki-content-hash-0.0.2.tar.gz --markdown 20230616/r/rotki-content-hash/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 00:29:05] INFO root fetch - processPackages [satori-playbook-validator]: executing diffoscope
+[2023-06-16 00:29:05] INFO root fetch - processPackages [satori-playbook-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_playbook_validator-2.1.1.tar.gz tmp/satori_playbook_validator-2.1.2.tar.gz --markdown 20230616/s/satori-playbook-validator/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-16 00:29:05] INFO root fetch - processPackages [neon-skill-alerts]: Downloading https://files.pythonhosted.org/packages/e3/aa/6f91b9372dd47dd9d63cd4bbf6104f4a0d515b20cfbc3c1919cab66107ad/neon-skill-alerts-1.5.2a2.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [tree-sitter-apertium]: Downloading https://files.pythonhosted.org/packages/dc/a1/008a20822ce82639aa424c34620449cbd12d57dfff0362f0810b86d732f2/tree-sitter-apertium-0.1.5.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [tree-sitter-apertium]: executing diffoscope
+[2023-06-16 00:29:05] INFO root fetch - processPackages [tree-sitter-apertium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-sitter-apertium-0.1.4.tar.gz tmp/tree-sitter-apertium-0.1.5.tar.gz --markdown 20230616/t/tree-sitter-apertium/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-16 00:29:05] INFO root fetch - processPackages [toil]: Downloading https://files.pythonhosted.org/packages/cd/cb/d5088e31a3123265c9ab79307d6d421766fd7610e825725f20b3566d68f0/toil-5.9.2.tar.gz
+[2023-06-16 00:29:05] INFO root fetch - processPackages [neon-skill-alerts]: executing diffoscope
+[2023-06-16 00:29:05] INFO root fetch - processPackages [neon-skill-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_alerts-1.5.2a1-py3-none-any.whl.zip tmp/neon-skill-alerts-1.5.2a2.tar.gz --markdown 20230616/n/neon-skill-alerts/1.5.2a1-1.5.2a2/diff.md --exclude *.pyd
+[2023-06-16 00:29:06] INFO root fetch - processPackages [toil]: executing diffoscope
+[2023-06-16 00:29:06] INFO root fetch - processPackages [toil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toil-5.9.1.tar.gz tmp/toil-5.9.2.tar.gz --markdown 20230616/t/toil/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-06-16 00:29:06] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-16 00:29:06] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-16 00:29:06] INFO root fetch - processPackages [numerical-py]: Start processing: pz-rail
+[2023-06-16 00:29:06] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-16 00:29:06] INFO root fetch - processPackages [pz-rail]: New version: [0.99.0] Old Version: [0.98.5]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [kanglib]: Remove: archive file [/home/abi/fetcher/tmp/kanglib-0.4.tar.gz]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [kanglib]: Remove: archive file [/home/abi/fetcher/tmp/kanglib-0.5.tar.gz]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [kanglib]: Start processing: coiled
+[2023-06-16 00:29:07] INFO root fetch - main [MainThread]: End processing [kanglib]: success
+[2023-06-16 00:29:07] INFO root fetch - processPackages [pz-rail]: Downloading https://files.pythonhosted.org/packages/a5/ac/a095adc9c7cbef4d2a74689599870c702bc837c0b954ecfbfbadd6fb4dc5/pz-rail-0.98.5.tar.gz
+[2023-06-16 00:29:07] INFO root fetch - processPackages [coiled]: New version: [0.7.6.dev8] Old Version: [0.7.6.dev7]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/f8/e3/6d548438e4cf3a72d017682dbcd9f7844af3b506976fc0f200f110b2841c/coiled-0.7.6.dev7.tar.gz
+[2023-06-16 00:29:07] WARNING root fetch - processPackages [pz-rail]: Skipping package: exceeds size limit 49754364>=10485760
+[2023-06-16 00:29:07] INFO root fetch - processPackages [pz-rail]: Start processing: FlyBaseDownloads
+[2023-06-16 00:29:07] INFO root fetch - main [MainThread]: End processing [pz-rail] error
+[2023-06-16 00:29:07] INFO root fetch - processPackages [vernum]: Remove: archive file [/home/abi/fetcher/tmp/vernum-2.2.2.tar.gz]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [vernum]: Remove: archive file [/home/abi/fetcher/tmp/vernum-3.0.0.tar.gz]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [vernum]: Start processing: general-superstaq
+[2023-06-16 00:29:07] INFO root fetch - main [MainThread]: End processing [vernum]: success
+[2023-06-16 00:29:07] INFO root fetch - processPackages [FlyBaseDownloads]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [general-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [compute-strings-data]: Remove: archive file [/home/abi/fetcher/tmp/compute-strings-data-0.1.3.tar.gz]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [compute-strings-data]: Remove: archive file [/home/abi/fetcher/tmp/compute-strings-data-0.1.4.tar.gz]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [compute-strings-data]: Start processing: qiskit-superstaq
+[2023-06-16 00:29:07] INFO root fetch - main [MainThread]: End processing [compute-strings-data]: success
+[2023-06-16 00:29:07] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-2.1.1.tar.gz]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-2.1.2.tar.gz]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [satori-playbook-validator]: Start processing: cirq-superstaq
+[2023-06-16 00:29:07] INFO root fetch - main [MainThread]: End processing [satori-playbook-validator]: success
+[2023-06-16 00:29:07] INFO root fetch - processPackages [vernum]: Start processing: SupermarQ
+[2023-06-16 00:29:07] INFO root fetch - main [MainThread]: End processing [vernum]: success
+[2023-06-16 00:29:07] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/38/32/825868c02bfb2fd092795fa0d9cc22f38e3bd211c5277cc2c27d1cb797e6/FlyBaseDownloads-1.0.3.tar.gz
+[2023-06-16 00:29:07] INFO root fetch - processPackages [qiskit-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/87/05/cd59ba3d55d20ac1221d7dbd1216dc5e2bfecd1d1bbdafcc4e49114575ae/general_superstaq-0.3.8-py3-none-any.whl
+[2023-06-16 00:29:07] INFO root fetch - processPackages [neon-skill-alerts]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_alerts-1.5.2a1-py3-none-any.whl.zip]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [neon-skill-alerts]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-alerts-1.5.2a2.tar.gz]
+[2023-06-16 00:29:07] INFO root fetch - main [MainThread]: End processing [neon-skill-alerts]: success
+[2023-06-16 00:29:07] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/9b/1a/d3ed5fa8f7ff31c912c287481792d4dde702182cc6a2cd5b8fa71c49013b/coiled-0.7.6.dev8.tar.gz
+[2023-06-16 00:29:07] INFO root fetch - processPackages [cirq-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [SupermarQ]: New version: [0.3.31] Old Version: [0.3.30]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/9d/ea/5278ca7cb6a976018831f9a52c26791809cb1f3b7106887df10173bd7346/FlyBaseDownloads-1.0.4.tar.gz
+[2023-06-16 00:29:07] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-16 00:29:07] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.6.dev7.tar.gz tmp/coiled-0.7.6.dev8.tar.gz --markdown 20230616/c/coiled/0.7.6.dev7-0.7.6.dev8/diff.md --exclude *.pyd
+[2023-06-16 00:29:07] INFO root fetch - processPackages [rotki-content-hash]: Remove: archive file [/home/abi/fetcher/tmp/rotki-content-hash-0.0.1.tar.gz]
+[2023-06-16 00:29:07] INFO root fetch - processPackages [rotki-content-hash]: Remove: archive file [/home/abi/fetcher/tmp/rotki-content-hash-0.0.2.tar.gz]
+[2023-06-16 00:29:07] INFO root fetch - main [MainThread]: End processing [rotki-content-hash]: success
+[2023-06-16 00:29:07] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/33/d9/9afdc846fffea309c28e8f6c909c0db105ac4da2afb792672fef85880186/qiskit_superstaq-0.3.8-py3-none-any.whl
+[2023-06-16 00:29:07] INFO root fetch - processPackages [FlyBaseDownloads]: executing diffoscope
+[2023-06-16 00:29:07] INFO root fetch - processPackages [FlyBaseDownloads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyBaseDownloads-1.0.3.tar.gz tmp/FlyBaseDownloads-1.0.4.tar.gz --markdown 20230616/F/FlyBaseDownloads/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-16 00:29:07] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/24/23/2e53aa7d71a86e1b918795598b7e648a3c8b392493d0399d085b8a34a69f/cirq_superstaq-0.3.8-py3-none-any.whl
+[2023-06-16 00:29:07] INFO root fetch - processPackages [SupermarQ]: Downloading https://files.pythonhosted.org/packages/28/2f/55f8349423857e24caa139633e8b6500b2bb5bad829421fc93377b1eb4b5/SupermarQ-0.3.30-py3-none-any.whl
+[2023-06-16 00:29:07] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/06/a8/93bc82c36803b1fdfe08be69e96d149fb909954aab455e01b4163459073b/qiskit_superstaq-0.3.9-py3-none-any.whl
+[2023-06-16 00:29:08] INFO root fetch - processPackages [SupermarQ]: Downloading https://files.pythonhosted.org/packages/9e/83/cbe8e170bc9352b3dfdb81c442170fa3dc2bd0ccfc1cd7415c2a98297826/SupermarQ-0.3.31-py3-none-any.whl
+[2023-06-16 00:29:08] INFO root fetch - processPackages [qiskit-superstaq]: executing diffoscope
+[2023-06-16 00:29:08] INFO root fetch - processPackages [qiskit-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_superstaq-0.3.8-py3-none-any.whl.zip tmp/qiskit_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230616/q/qiskit-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-16 00:29:08] INFO root fetch - processPackages [SupermarQ]: executing diffoscope
+[2023-06-16 00:29:08] INFO root fetch - processPackages [SupermarQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SupermarQ-0.3.30-py3-none-any.whl.zip tmp/SupermarQ-0.3.31-py3-none-any.whl.zip --markdown 20230616/S/SupermarQ/0.3.30-0.3.31/diff.md --exclude *.pyd
+[2023-06-16 00:29:08] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/d3/61/5004f0f681b41698dc740d5c70e69d5eef3be2a6bb1c9b142d04914b67ff/general_superstaq-0.3.9-py3-none-any.whl
+[2023-06-16 00:29:08] INFO root fetch - processPackages [general-superstaq]: executing diffoscope
+[2023-06-16 00:29:08] INFO root fetch - processPackages [general-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_superstaq-0.3.8-py3-none-any.whl.zip tmp/general_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230616/g/general-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-16 00:29:08] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/5f/d7/90cf6503b553892d091d3ad8ba050b2ec5744880829c43fa4090da82ce8b/cirq_superstaq-0.3.9-py3-none-any.whl
+[2023-06-16 00:29:08] INFO root fetch - processPackages [cirq-superstaq]: executing diffoscope
+[2023-06-16 00:29:08] INFO root fetch - processPackages [cirq-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_superstaq-0.3.8-py3-none-any.whl.zip tmp/cirq_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230616/c/cirq-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-16 00:29:08] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.3.tar.gz]
+[2023-06-16 00:29:08] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.4.tar.gz]
+[2023-06-16 00:29:08] INFO root fetch - main [MainThread]: End processing [FlyBaseDownloads]: success
+[2023-06-16 00:29:08] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.6.dev7.tar.gz]
+[2023-06-16 00:29:08] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.6.dev8.tar.gz]
+[2023-06-16 00:29:08] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-16 00:29:09] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.3.8-py3-none-any.whl.zip]
+[2023-06-16 00:29:09] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.3.9-py3-none-any.whl.zip]
+[2023-06-16 00:29:09] INFO root fetch - main [MainThread]: End processing [qiskit-superstaq]: success
+[2023-06-16 00:29:09] INFO root fetch - processPackages [SupermarQ]: Remove: archive file [/home/abi/fetcher/tmp/SupermarQ-0.3.30-py3-none-any.whl.zip]
+[2023-06-16 00:29:09] INFO root fetch - processPackages [SupermarQ]: Remove: archive file [/home/abi/fetcher/tmp/SupermarQ-0.3.31-py3-none-any.whl.zip]
+[2023-06-16 00:29:09] INFO root fetch - main [MainThread]: End processing [SupermarQ]: success
+[2023-06-16 00:29:09] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.3.8-py3-none-any.whl.zip]
+[2023-06-16 00:29:09] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.3.9-py3-none-any.whl.zip]
+[2023-06-16 00:29:09] INFO root fetch - main [MainThread]: End processing [general-superstaq]: success
+[2023-06-16 00:29:09] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.3.8-py3-none-any.whl.zip]
+[2023-06-16 00:29:09] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.3.9-py3-none-any.whl.zip]
+[2023-06-16 00:29:09] INFO root fetch - main [MainThread]: End processing [cirq-superstaq]: success
+[2023-06-16 00:29:10] INFO root fetch - processPackages [tree-sitter-apertium]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-apertium-0.1.4.tar.gz]
+[2023-06-16 00:29:10] INFO root fetch - processPackages [tree-sitter-apertium]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-apertium-0.1.5.tar.gz]
+[2023-06-16 00:29:10] INFO root fetch - main [MainThread]: End processing [tree-sitter-apertium]: success
+[2023-06-16 00:29:11] INFO root fetch - processPackages [toil]: Remove: archive file [/home/abi/fetcher/tmp/toil-5.9.1.tar.gz]
+[2023-06-16 00:29:11] INFO root fetch - processPackages [toil]: Remove: archive file [/home/abi/fetcher/tmp/toil-5.9.2.tar.gz]
+[2023-06-16 00:29:11] INFO root fetch - main [MainThread]: End processing [toil]: success
+[2023-06-16 00:29:11] INFO root fetch - main [MainThread]: Store serial: [18523009]
