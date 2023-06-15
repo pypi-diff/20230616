@@ -925,3 +925,92 @@
 [2023-06-16 00:40:30] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4598.tar.gz]
 [2023-06-16 00:40:30] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-06-16 00:40:30] INFO root fetch - main [MainThread]: Store serial: [18523074]
+[2023-06-16 00:45:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523074]
+[2023-06-16 00:45:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-16 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-instructions
+[2023-06-16 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Shimmy
+[2023-06-16 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lassen
+[2023-06-16 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-skill-translation
+[2023-06-16 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sapiopylib
+[2023-06-16 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-skill-synonyms
+[2023-06-16 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-skill-messaging
+[2023-06-16 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FlyBaseDownloads
+[2023-06-16 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datadm
+[2023-06-16 00:45:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anyscale
+[2023-06-16 00:45:40] INFO root fetch - processPackages [lassen]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 00:45:40] INFO root fetch - processPackages [sapiopylib]: New version: [2023.6.8.142] Old Version: [2023.6.7.141]
+[2023-06-16 00:45:40] INFO root fetch - processPackages [FlyBaseDownloads]: New version: [1.0.4.2] Old Version: [1.0.4.1]
+[2023-06-16 00:45:40] INFO root fetch - processPackages [neon-skill-messaging]: New version: [0.0.2a4] Old Version: [0.0.2a3]
+[2023-06-16 00:45:40] INFO root fetch - processPackages [neon-skill-instructions]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-06-16 00:45:40] INFO root fetch - processPackages [neon-skill-synonyms]: New version: [0.1.1a3] Old Version: [0.1.1a2]
+[2023-06-16 00:45:40] INFO root fetch - processPackages [neon-skill-translation]: New version: [0.3.1a1] Old Version: [0.3.0]
+[2023-06-16 00:45:40] INFO root fetch - processPackages [Shimmy]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-16 00:45:40] INFO root fetch - processPackages [neon-skill-messaging]: Downloading https://files.pythonhosted.org/packages/17/ae/3a70339233e1b5b06ea2ee3d28309abd5e4b26c0a866c7a7fbc2b0ce1fa3/neon-skill-messaging-0.0.2a3.tar.gz
+[2023-06-16 00:45:40] INFO root fetch - processPackages [lassen]: Downloading https://files.pythonhosted.org/packages/34/7e/783c3626e21ff3af691a697693f7f89f4aa1542c7e75cac89bdccf407694/lassen-0.1.1.tar.gz
+[2023-06-16 00:45:40] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-16 00:45:40] INFO root fetch - processPackages [datadm]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-16 00:45:40] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/f8/35/01aa88cc8b5df01788927571e1412ac8a5e003b8fb330d084df7a840761b/FlyBaseDownloads-1.0.4.1.tar.gz
+[2023-06-16 00:45:40] INFO root fetch - processPackages [neon-skill-instructions]: Downloading https://files.pythonhosted.org/packages/c3/d5/bdca062b94ed486d735ecda98ba7a9643300878580be166a326b67a45cf1/neon-skill-instructions-0.1.1a1.tar.gz
+[2023-06-16 00:45:40] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/1b/07/ea50d0246258f4b3186eb8d3d92795f6fe46cd32145579dd2c28c046aeed/sapiopylib-2023.6.7.141.tar.gz
+[2023-06-16 00:45:40] INFO root fetch - processPackages [neon-skill-translation]: Downloading https://files.pythonhosted.org/packages/56/1a/719c2da0f6594519462cc2dd051803b9114a9ca4d1f35393616fe616618a/neon_skill_translation-0.3.0-py3-none-any.whl
+[2023-06-16 00:45:40] INFO root fetch - processPackages [neon-skill-synonyms]: Downloading https://files.pythonhosted.org/packages/ff/7e/e4d835bd3eaad389cb894edd3cf776df5def07e8b64133775e147e6caf1f/neon_skill_synonyms-0.1.1a2-py3-none-any.whl
+[2023-06-16 00:45:40] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2023-06-16 00:45:40] INFO root fetch - processPackages [Shimmy]: Downloading https://files.pythonhosted.org/packages/08/7a/6d9246ccaa766e2d5b39aa84197e1042c37313a0b51a4a5f5f0dee402f46/Shimmy-1.0.1.tar.gz
+[2023-06-16 00:45:40] INFO root fetch - processPackages [neon-skill-messaging]: Downloading https://files.pythonhosted.org/packages/42/95/ccb287095d94433f3f3a4555032b198d6fff5490d3ec071eba2d76acea3c/neon-skill-messaging-0.0.2a4.tar.gz
+[2023-06-16 00:45:40] INFO root fetch - processPackages [lassen]: Downloading https://files.pythonhosted.org/packages/ce/3c/6b077ac98dafc69f5f71497b55b8e48bafe2aa781c73a964948e2e5bb39c/lassen-0.1.2.tar.gz
+[2023-06-16 00:45:41] INFO root fetch - processPackages [datadm]: Downloading https://files.pythonhosted.org/packages/29/85/3b70ed09e81eee5939d241831456bb19d8e5afef373da8bf7dbc7b829a12/datadm-0.2.2.tar.gz
+[2023-06-16 00:45:41] WARNING root fetch - processPackages [datadm]: Skipping package: exceeds size limit 12223159>=10485760
+[2023-06-16 00:45:41] INFO root fetch - main [MainThread]: End processing [datadm] error
+[2023-06-16 00:45:41] INFO root fetch - processPackages [lassen]: executing diffoscope
+[2023-06-16 00:45:41] INFO root fetch - processPackages [lassen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lassen-0.1.1.tar.gz tmp/lassen-0.1.2.tar.gz --markdown 20230616/l/lassen/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 00:45:41] INFO root fetch - processPackages [FlyBaseDownloads]: Downloading https://files.pythonhosted.org/packages/92/f1/022ef21be7c858252e799eb574513836d4db4676af5763c9fd9e0a48ece5/FlyBaseDownloads-1.0.4.2.tar.gz
+[2023-06-16 00:45:41] INFO root fetch - processPackages [neon-skill-instructions]: Downloading https://files.pythonhosted.org/packages/95/09/addba4c3837588264e1ee7096989828b45d9b52572ac4c4f7cfb8e03f5cc/neon-skill-instructions-0.1.1a2.tar.gz
+[2023-06-16 00:45:41] INFO root fetch - processPackages [neon-skill-messaging]: executing diffoscope
+[2023-06-16 00:45:41] INFO root fetch - processPackages [neon-skill-messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-messaging-0.0.2a3.tar.gz tmp/neon-skill-messaging-0.0.2a4.tar.gz --markdown 20230616/n/neon-skill-messaging/0.0.2a3-0.0.2a4/diff.md --exclude *.pyd
+[2023-06-16 00:45:41] INFO root fetch - processPackages [neon-skill-translation]: Downloading https://files.pythonhosted.org/packages/6b/c5/d24bf82e7ea43d506b9cbc017f6b940e32a1d8e88aeda1095acfd03f11af/neon-skill-translation-0.3.1a1.tar.gz
+[2023-06-16 00:45:41] INFO root fetch - processPackages [neon-skill-synonyms]: Downloading https://files.pythonhosted.org/packages/7c/91/89a8d0441ffd90c1f7618f7d3f8ef601545a1cb042088462e69827a7a0e8/neon-skill-synonyms-0.1.1a3.tar.gz
+[2023-06-16 00:45:41] INFO root fetch - processPackages [FlyBaseDownloads]: executing diffoscope
+[2023-06-16 00:45:41] INFO root fetch - processPackages [FlyBaseDownloads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyBaseDownloads-1.0.4.1.tar.gz tmp/FlyBaseDownloads-1.0.4.2.tar.gz --markdown 20230616/F/FlyBaseDownloads/1.0.4.1-1.0.4.2/diff.md --exclude *.pyd
+[2023-06-16 00:45:41] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/f4/da/c79ae7f0ee7083983c606c6c253386df58d4d999762c7f147d1b90d17fbe/sapiopylib-2023.6.8.142.tar.gz
+[2023-06-16 00:45:41] INFO root fetch - processPackages [neon-skill-instructions]: executing diffoscope
+[2023-06-16 00:45:41] INFO root fetch - processPackages [neon-skill-instructions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-instructions-0.1.1a1.tar.gz tmp/neon-skill-instructions-0.1.1a2.tar.gz --markdown 20230616/n/neon-skill-instructions/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-06-16 00:45:41] INFO root fetch - processPackages [Shimmy]: Downloading https://files.pythonhosted.org/packages/e2/7f/179552666186755ec26a966bbc61d82fab8b01864020713697bf43cc797a/Shimmy-1.1.0.tar.gz
+[2023-06-16 00:45:41] INFO root fetch - processPackages [neon-skill-translation]: executing diffoscope
+[2023-06-16 00:45:41] INFO root fetch - processPackages [neon-skill-translation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_translation-0.3.0-py3-none-any.whl.zip tmp/neon-skill-translation-0.3.1a1.tar.gz --markdown 20230616/n/neon-skill-translation/0.3.0-0.3.1a1/diff.md --exclude *.pyd
+[2023-06-16 00:45:41] INFO root fetch - processPackages [neon-skill-synonyms]: executing diffoscope
+[2023-06-16 00:45:41] INFO root fetch - processPackages [Shimmy]: executing diffoscope
+[2023-06-16 00:45:41] INFO root fetch - processPackages [Shimmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shimmy-1.0.1.tar.gz tmp/Shimmy-1.1.0.tar.gz --markdown 20230616/S/Shimmy/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-16 00:45:41] INFO root fetch - processPackages [neon-skill-synonyms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_synonyms-0.1.1a2-py3-none-any.whl.zip tmp/neon-skill-synonyms-0.1.1a3.tar.gz --markdown 20230616/n/neon-skill-synonyms/0.1.1a2-0.1.1a3/diff.md --exclude *.pyd
+[2023-06-16 00:45:41] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2023-06-16 00:45:41] INFO root fetch - processPackages [sapiopylib]: executing diffoscope
+[2023-06-16 00:45:41] INFO root fetch - processPackages [sapiopylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiopylib-2023.6.7.141.tar.gz tmp/sapiopylib-2023.6.8.142.tar.gz --markdown 20230616/s/sapiopylib/2023.6.7.141-2023.6.8.142/diff.md --exclude *.pyd
+[2023-06-16 00:45:41] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2023-06-16 00:45:41] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20230616/a/anyscale/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-16 00:45:42] INFO root fetch - processPackages [lassen]: Remove: archive file [/home/abi/fetcher/tmp/lassen-0.1.1.tar.gz]
+[2023-06-16 00:45:42] INFO root fetch - processPackages [lassen]: Remove: archive file [/home/abi/fetcher/tmp/lassen-0.1.2.tar.gz]
+[2023-06-16 00:45:42] INFO root fetch - main [MainThread]: End processing [lassen]: success
+[2023-06-16 00:45:42] INFO root fetch - processPackages [neon-skill-synonyms]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_synonyms-0.1.1a2-py3-none-any.whl.zip]
+[2023-06-16 00:45:42] INFO root fetch - processPackages [neon-skill-synonyms]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-synonyms-0.1.1a3.tar.gz]
+[2023-06-16 00:45:42] INFO root fetch - main [MainThread]: End processing [neon-skill-synonyms]: success
+[2023-06-16 00:45:42] INFO root fetch - processPackages [neon-skill-translation]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_translation-0.3.0-py3-none-any.whl.zip]
+[2023-06-16 00:45:42] INFO root fetch - processPackages [neon-skill-translation]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-translation-0.3.1a1.tar.gz]
+[2023-06-16 00:45:42] INFO root fetch - main [MainThread]: End processing [neon-skill-translation]: success
+[2023-06-16 00:45:42] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.4.1.tar.gz]
+[2023-06-16 00:45:42] INFO root fetch - processPackages [FlyBaseDownloads]: Remove: archive file [/home/abi/fetcher/tmp/FlyBaseDownloads-1.0.4.2.tar.gz]
+[2023-06-16 00:45:42] INFO root fetch - main [MainThread]: End processing [FlyBaseDownloads]: success
+[2023-06-16 00:45:42] INFO root fetch - processPackages [neon-skill-messaging]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-messaging-0.0.2a3.tar.gz]
+[2023-06-16 00:45:42] INFO root fetch - processPackages [neon-skill-messaging]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-messaging-0.0.2a4.tar.gz]
+[2023-06-16 00:45:42] INFO root fetch - main [MainThread]: End processing [neon-skill-messaging]: success
+[2023-06-16 00:45:43] INFO root fetch - processPackages [neon-skill-instructions]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-instructions-0.1.1a1.tar.gz]
+[2023-06-16 00:45:43] INFO root fetch - processPackages [neon-skill-instructions]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-instructions-0.1.1a2.tar.gz]
+[2023-06-16 00:45:43] INFO root fetch - main [MainThread]: End processing [neon-skill-instructions]: success
+[2023-06-16 00:45:43] INFO root fetch - processPackages [Shimmy]: Remove: archive file [/home/abi/fetcher/tmp/Shimmy-1.0.1.tar.gz]
+[2023-06-16 00:45:43] INFO root fetch - processPackages [Shimmy]: Remove: archive file [/home/abi/fetcher/tmp/Shimmy-1.1.0.tar.gz]
+[2023-06-16 00:45:43] INFO root fetch - main [MainThread]: End processing [Shimmy]: success
+[2023-06-16 00:45:44] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2023.6.7.141.tar.gz]
+[2023-06-16 00:45:44] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2023.6.8.142.tar.gz]
+[2023-06-16 00:45:44] INFO root fetch - main [MainThread]: End processing [sapiopylib]: success
+[2023-06-16 00:45:51] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.98.tar.gz]
+[2023-06-16 00:45:51] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
+[2023-06-16 00:45:51] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2023-06-16 00:45:51] INFO root fetch - main [MainThread]: Store serial: [18523110]
