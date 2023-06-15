@@ -1489,3 +1489,72 @@
 [2023-06-16 01:17:27] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.3.tar.gz]
 [2023-06-16 01:17:27] INFO root fetch - main [MainThread]: End processing [faker-file]: success
 [2023-06-16 01:17:27] INFO root fetch - main [MainThread]: Store serial: [18523346]
+[2023-06-16 01:22:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523346]
+[2023-06-16 01:22:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 01:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: distribute-compute-config
+[2023-06-16 01:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-16 01:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numerical-py
+[2023-06-16 01:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: awsiotsdk
+[2023-06-16 01:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: numerical-py
+[2023-06-16 01:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dagger-io
+[2023-06-16 01:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simages
+[2023-06-16 01:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: memento-scorecard
+[2023-06-16 01:22:35] INFO root fetch - processPackages [distribute-compute-config]: New version: [0.14.5] Old Version: [0.14.4]
+[2023-06-16 01:22:35] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 01:22:35] INFO root fetch - processPackages [dagger-io]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-16 01:22:35] INFO root fetch - processPackages [numerical-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 01:22:35] INFO root fetch - processPackages [simages]: New version: [23.0.1] Old Version: [23.0.0]
+[2023-06-16 01:22:35] INFO root fetch - processPackages [awsiotsdk]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-16 01:22:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.364] Old Version: [0.3.363]
+[2023-06-16 01:22:35] INFO root fetch - processPackages [memento-scorecard]: New version: [0.7.2] Old Version: [0.2.7]
+[2023-06-16 01:22:35] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-16 01:22:35] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/1d/de/1646bfffd31b37c02f76dd709f9c00e9f79df74282ab8379237197ee3794/numerical_py-0.0.8.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [distribute-compute-config]: Downloading https://files.pythonhosted.org/packages/a8/77/c62bddb3a79022eb2030d93f5934c7bd73d4d69c556c034a8e489d38deec/distribute_compute_config-0.14.4.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [awsiotsdk]: Downloading https://files.pythonhosted.org/packages/93/56/39ae6e2d1eb926f7614b21b2823865546e4f442bbaa4c9ef61e51ca441ec/awsiotsdk-1.9.2.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [numerical-py]: Downloading https://files.pythonhosted.org/packages/95/1d/7677791c6175f40bd4a70e667ae838300671845f99330142d2e9a3d9f7f8/numerical_py-0.0.9.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [simages]: Downloading https://files.pythonhosted.org/packages/71/05/4ace80ed0c35247957424a88b7c2c5a282152e4357e8f75af683533ec2c7/simages-23.0.0.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/a3/aa/6941210a5431cdf43cc7300757ac95b1b96c6a5bf5a2cf5088e50ca4f3b8/memento-scorecard-0.2.7.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-16 01:22:36] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230616/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 01:22:36] INFO root fetch - processPackages [numerical-py]: executing diffoscope
+[2023-06-16 01:22:36] INFO root fetch - processPackages [numerical-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerical_py-0.0.8.tar.gz tmp/numerical_py-0.0.9.tar.gz --markdown 20230616/n/numerical-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 01:22:36] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/3c/f3/422ff0ae6da7bd0ad3565df6655e8b8c86f60829e03e21e5eb38aad01409/dagger_io-0.6.1.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/82/ed/58b9a5c1db3614f15f80656d4fef451f70dd945f085af897e56590f0cbf1/pepperize.cdk-ses-smtp-credentials-0.3.363.tar.gz
+[2023-06-16 01:22:36] WARNING root fetch - processPackages [simages]: Skipping package: exceeds size limit 27266034>=10485760
+[2023-06-16 01:22:36] INFO root fetch - main [MainThread]: End processing [simages] error
+[2023-06-16 01:22:36] INFO root fetch - processPackages [distribute-compute-config]: Downloading https://files.pythonhosted.org/packages/af/dc/6838625a8c623d1cffccd321c3e9b774052ee9c03ff72f1a75907757befb/distribute_compute_config-0.14.5.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/75/0f/8af4295b4952c80cca839b352ec91fc9d20c0e79ebb261b24ff4e2c0e629/memento-scorecard-0.7.2.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [awsiotsdk]: Downloading https://files.pythonhosted.org/packages/40/77/ae34bf438d0ab7e9b0c3bd541aa710e116096199e8a4624b509f1e7b846c/awsiotsdk-1.9.3.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [memento-scorecard]: executing diffoscope
+[2023-06-16 01:22:36] INFO root fetch - processPackages [memento-scorecard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memento-scorecard-0.2.7.tar.gz tmp/memento-scorecard-0.7.2.tar.gz --markdown 20230616/m/memento-scorecard/0.2.7-0.7.2/diff.md --exclude *.pyd
+[2023-06-16 01:22:36] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/54/49/c9dec70e45cdbfb48225b620a103fb2777846f317a602e6d69cd1ac0e897/pepperize.cdk-ses-smtp-credentials-0.3.364.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/16/8d/1579825bb884e6fe8823f3f7c426e25778ca042599bde0781fb621fa6cc6/dagger_io-0.6.2.tar.gz
+[2023-06-16 01:22:36] INFO root fetch - processPackages [dagger-io]: executing diffoscope
+[2023-06-16 01:22:36] INFO root fetch - processPackages [dagger-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagger_io-0.6.1.tar.gz tmp/dagger_io-0.6.2.tar.gz --markdown 20230616/d/dagger-io/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-16 01:22:36] INFO root fetch - processPackages [awsiotsdk]: executing diffoscope
+[2023-06-16 01:22:36] INFO root fetch - processPackages [awsiotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsiotsdk-1.9.2.tar.gz tmp/awsiotsdk-1.9.3.tar.gz --markdown 20230616/a/awsiotsdk/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-16 01:22:36] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-16 01:22:36] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.363.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.364.tar.gz --markdown 20230616/p/pepperize.cdk-ses-smtp-credentials/0.3.363-0.3.364/diff.md --exclude *.pyd
+[2023-06-16 01:22:36] INFO root fetch - processPackages [distribute-compute-config]: executing diffoscope
+[2023-06-16 01:22:36] INFO root fetch - processPackages [distribute-compute-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distribute_compute_config-0.14.4.tar.gz tmp/distribute_compute_config-0.14.5.tar.gz --markdown 20230616/d/distribute-compute-config/0.14.4-0.14.5/diff.md --exclude *.pyd
+[2023-06-16 01:22:37] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.8.tar.gz]
+[2023-06-16 01:22:37] INFO root fetch - processPackages [numerical-py]: Remove: archive file [/home/abi/fetcher/tmp/numerical_py-0.0.9.tar.gz]
+[2023-06-16 01:22:37] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-16 01:22:37] INFO root fetch - main [MainThread]: End processing [numerical-py]: success
+[2023-06-16 01:22:37] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-0.2.7.tar.gz]
+[2023-06-16 01:22:37] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-0.7.2.tar.gz]
+[2023-06-16 01:22:37] INFO root fetch - main [MainThread]: End processing [memento-scorecard]: success
+[2023-06-16 01:22:37] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.363.tar.gz]
+[2023-06-16 01:22:37] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.364.tar.gz]
+[2023-06-16 01:22:37] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-16 01:22:37] INFO root fetch - processPackages [dagger-io]: Remove: archive file [/home/abi/fetcher/tmp/dagger_io-0.6.1.tar.gz]
+[2023-06-16 01:22:37] INFO root fetch - processPackages [dagger-io]: Remove: archive file [/home/abi/fetcher/tmp/dagger_io-0.6.2.tar.gz]
+[2023-06-16 01:22:37] INFO root fetch - main [MainThread]: End processing [dagger-io]: success
+[2023-06-16 01:22:38] INFO root fetch - processPackages [awsiotsdk]: Remove: archive file [/home/abi/fetcher/tmp/awsiotsdk-1.9.2.tar.gz]
+[2023-06-16 01:22:38] INFO root fetch - processPackages [awsiotsdk]: Remove: archive file [/home/abi/fetcher/tmp/awsiotsdk-1.9.3.tar.gz]
+[2023-06-16 01:22:38] INFO root fetch - main [MainThread]: End processing [awsiotsdk]: success
+[2023-06-16 01:22:38] INFO root fetch - processPackages [distribute-compute-config]: Remove: archive file [/home/abi/fetcher/tmp/distribute_compute_config-0.14.4.tar.gz]
+[2023-06-16 01:22:38] INFO root fetch - processPackages [distribute-compute-config]: Remove: archive file [/home/abi/fetcher/tmp/distribute_compute_config-0.14.5.tar.gz]
+[2023-06-16 01:22:38] INFO root fetch - main [MainThread]: End processing [distribute-compute-config]: success
+[2023-06-16 01:22:38] INFO root fetch - main [MainThread]: Store serial: [18523374]
