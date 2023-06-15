@@ -1286,3 +1286,119 @@
 [2023-06-16 01:01:45] INFO root fetch - processPackages [navigator-auth]: Remove: archive file [/home/abi/fetcher/tmp/navigator_auth-0.8.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-16 01:01:45] INFO root fetch - main [MainThread]: End processing [navigator-auth]: success
 [2023-06-16 01:01:45] INFO root fetch - main [MainThread]: Store serial: [18523262]
+[2023-06-16 01:06:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523262]
+[2023-06-16 01:06:55] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proceso
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt-cu101
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr-nightly
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: groundlight
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duckietown-world-ente
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: labbench
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ssm-ps-template
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rclone-python
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llamabot
+[2023-06-16 01:06:55] INFO root fetch - processPackages [duckietown-world-ente]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-06-16 01:06:55] INFO root fetch - processPackages [labbench]: New version: [0.26.0] Old Version: [0.25.0]
+[2023-06-16 01:06:55] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 01:06:55] INFO root fetch - processPackages [groundlight]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ssm-ps-template]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-16 01:06:55] INFO root fetch - processPackages [proceso]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-16 01:06:55] INFO root fetch - processPackages [rclone-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-16 01:06:55] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230614] Old Version: [1.5.0.dev20230608]
+[2023-06-16 01:06:55] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230615] Old Version: [0.7.0b20230614]
+[2023-06-16 01:06:55] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230615] Old Version: [0.7.0b20230614]
+[2023-06-16 01:06:55] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/50/6f/7f62d8c34568c2154746754467e50bca463c9a2775de4507b0a9761bb901/flwr_nightly-1.5.0.dev20230608.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/63/aa/e1b9b8471886412cf110dc24f4134fea127450ffda27a7069faf38d44137/tmnt-cu101-0.7.0b20230614.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/a3/f2/bb0b6b9037f3514f2c43bb836db6ad3ff3d1c062433cf1963f7bf00d1d14/tmnt-0.7.0b20230614.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [duckietown-world-ente]: Downloading https://files.pythonhosted.org/packages/6b/75/71e653fcae35f37fe6ccb8f460445d13323bcaaa720443db4987a1a6dd93/duckietown-world-ente-7.0.1.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [proceso]: Downloading https://files.pythonhosted.org/packages/08/5b/2f46b3ed80167bdf13ac5d1776e25db575e4de7d2771b49f6905f9f2ade0/proceso-0.0.7.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ssm-ps-template]: Downloading https://files.pythonhosted.org/packages/a5/08/39a5acf5fba81985afed3b72b56c42d53865acc5d2bddd1fca3efa9d7754/ssm-ps-template-2.3.1.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [rclone-python]: Downloading https://files.pythonhosted.org/packages/38/4c/95a33214d204f4bfde6bcaadb45fb36bc21e70ded62d1a88d00b7743f958/rclone-python-0.1.5.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [groundlight]: Downloading https://files.pythonhosted.org/packages/d7/c1/82a53bad44b3e74c2579a8e95d5d8877dcac65e04e752ec535e2449dc2ae/groundlight-0.8.0.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/34/13/ebfd7447193f05b8e45bec193cb1207c9ffe496ad53b278f18f8a05e043e/flwr_nightly-1.5.0.dev20230614.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [labbench]: Downloading https://files.pythonhosted.org/packages/28/93/33c3d54aac8270918c741a0975b30f4456490121c0e711f7cd8d2fcc140b/labbench-0.25.0.tar.gz
+[2023-06-16 01:06:55] WARNING root fetch - processPackages [duckietown-world-ente]: Skipping package: exceeds size limit 55765739>=10485760
+[2023-06-16 01:06:55] INFO root fetch - processPackages [duckietown-world-ente]: Start processing: aind-data-transfer
+[2023-06-16 01:06:55] INFO root fetch - main [MainThread]: End processing [duckietown-world-ente] error
+[2023-06-16 01:06:55] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-06-16 01:06:55] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230608.tar.gz tmp/flwr_nightly-1.5.0.dev20230614.tar.gz --markdown 20230616/f/flwr-nightly/1.5.0.dev20230608-1.5.0.dev20230614/diff.md --exclude *.pyd
+[2023-06-16 01:06:55] INFO root fetch - processPackages [aind-data-transfer]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-16 01:06:55] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/69/fa/5225b177cd9250d8c201b76d2df3896698e6ec77ad978907c3a3a2208aea/tmnt-0.7.0b20230615.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/51/c9/1d827600d9a2e25417027b2c8ef27b9a9f0d2108153e7a41b45ee98c0d01/tmnt-cu101-0.7.0b20230615.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [proceso]: Downloading https://files.pythonhosted.org/packages/8b/38/f4f261f08a366c11c34b42cf8d634ec040e59080214bcd0cc299bd1a5ae4/proceso-0.0.9.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ssm-ps-template]: Downloading https://files.pythonhosted.org/packages/48/fe/173f1e59885192a9bcdbca88153591c568072fedc5c3bf5aae6f7434cf4e/ssm-ps-template-2.3.2.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [proceso]: executing diffoscope
+[2023-06-16 01:06:55] INFO root fetch - processPackages [proceso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proceso-0.0.7.tar.gz tmp/proceso-0.0.9.tar.gz --markdown 20230616/p/proceso/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ssm-ps-template]: executing diffoscope
+[2023-06-16 01:06:55] INFO root fetch - processPackages [ssm-ps-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssm-ps-template-2.3.1.tar.gz tmp/ssm-ps-template-2.3.2.tar.gz --markdown 20230616/s/ssm-ps-template/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-16 01:06:55] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-16 01:06:55] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230614.tar.gz tmp/tmnt-0.7.0b20230615.tar.gz --markdown 20230616/t/tmnt/0.7.0b20230614-0.7.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 01:06:55] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-16 01:06:55] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230614.tar.gz tmp/tmnt-cu101-0.7.0b20230615.tar.gz --markdown 20230616/t/tmnt-cu101/0.7.0b20230614-0.7.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 01:06:55] INFO root fetch - processPackages [groundlight]: Downloading https://files.pythonhosted.org/packages/3a/df/76ee87a63f1fc0c43e8f923ccbd7cc4cd09452b2a87ab397f93766cda801/groundlight-0.9.0.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [aind-data-transfer]: Downloading https://files.pythonhosted.org/packages/c6/c0/d43cf5b63152fa04e14114f721f196be5dd4bdfdd260c46ab01f94dbc621/aind-data-transfer-0.9.2.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [rclone-python]: Downloading https://files.pythonhosted.org/packages/76/9f/860a01b5c709cd4fe7ff5a06557d3b70179741cbbb76c0ba212f7968f4c1/rclone-python-0.1.6.tar.gz
+[2023-06-16 01:06:55] INFO root fetch - processPackages [rclone-python]: executing diffoscope
+[2023-06-16 01:06:55] INFO root fetch - processPackages [rclone-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclone-python-0.1.5.tar.gz tmp/rclone-python-0.1.6.tar.gz --markdown 20230616/r/rclone-python/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-16 01:06:56] INFO root fetch - processPackages [groundlight]: executing diffoscope
+[2023-06-16 01:06:56] INFO root fetch - processPackages [groundlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groundlight-0.8.0.tar.gz tmp/groundlight-0.9.0.tar.gz --markdown 20230616/g/groundlight/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 01:06:56] INFO root fetch - processPackages [labbench]: Downloading https://files.pythonhosted.org/packages/89/8d/713be35ee6a2feb425795c55d59b211588dc2d43d7f50b8c34314b23599b/labbench-0.26.0.tar.gz
+[2023-06-16 01:06:56] INFO root fetch - processPackages [labbench]: executing diffoscope
+[2023-06-16 01:06:56] INFO root fetch - processPackages [labbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labbench-0.25.0.tar.gz tmp/labbench-0.26.0.tar.gz --markdown 20230616/l/labbench/0.25.0-0.26.0/diff.md --exclude *.pyd
+[2023-06-16 01:06:56] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-06-16 01:06:56] INFO root fetch - processPackages [aind-data-transfer]: Downloading https://files.pythonhosted.org/packages/ee/dc/9a630eab65d1c84402e0889b488d378cf516a68beee16401bf6e0c916cff/aind-data-transfer-0.9.3.tar.gz
+[2023-06-16 01:06:56] INFO root fetch - processPackages [aind-data-transfer]: executing diffoscope
+[2023-06-16 01:06:56] INFO root fetch - processPackages [aind-data-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-transfer-0.9.2.tar.gz tmp/aind-data-transfer-0.9.3.tar.gz --markdown 20230616/a/aind-data-transfer/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-16 01:06:56] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-06-16 01:06:56] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230616/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 01:06:57] INFO root fetch - processPackages [proceso]: Remove: archive file [/home/abi/fetcher/tmp/proceso-0.0.7.tar.gz]
+[2023-06-16 01:06:57] INFO root fetch - processPackages [proceso]: Remove: archive file [/home/abi/fetcher/tmp/proceso-0.0.9.tar.gz]
+[2023-06-16 01:06:57] INFO root fetch - processPackages [proceso]: Start processing: coiled
+[2023-06-16 01:06:57] INFO root fetch - main [MainThread]: End processing [proceso]: success
+[2023-06-16 01:06:57] INFO root fetch - processPackages [coiled]: New version: [0.7.6.dev9] Old Version: [0.7.6.dev8]
+[2023-06-16 01:06:57] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/9b/1a/d3ed5fa8f7ff31c912c287481792d4dde702182cc6a2cd5b8fa71c49013b/coiled-0.7.6.dev8.tar.gz
+[2023-06-16 01:06:57] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230614.tar.gz]
+[2023-06-16 01:06:57] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230615.tar.gz]
+[2023-06-16 01:06:57] INFO root fetch - processPackages [tmnt]: Start processing: schem
+[2023-06-16 01:06:57] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-16 01:06:57] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230614.tar.gz]
+[2023-06-16 01:06:57] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230615.tar.gz]
+[2023-06-16 01:06:57] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-16 01:06:57] INFO root fetch - processPackages [schem]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-16 01:06:57] INFO root fetch - processPackages [schem]: Downloading https://files.pythonhosted.org/packages/42/66/1f4d8683198245612ee7a5e2a5765967f8071b00874015ec0001a1923ae1/schem-0.9.6.tar.gz
+[2023-06-16 01:06:57] INFO root fetch - processPackages [rclone-python]: Remove: archive file [/home/abi/fetcher/tmp/rclone-python-0.1.5.tar.gz]
+[2023-06-16 01:06:57] INFO root fetch - processPackages [rclone-python]: Remove: archive file [/home/abi/fetcher/tmp/rclone-python-0.1.6.tar.gz]
+[2023-06-16 01:06:57] INFO root fetch - main [MainThread]: End processing [rclone-python]: success
+[2023-06-16 01:06:57] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/05/28/a33d4ee3421eb21cf1a92c3a09c615ca44e2fcba23371082b0d9384efe41/coiled-0.7.6.dev9.tar.gz
+[2023-06-16 01:06:57] INFO root fetch - processPackages [schem]: Downloading https://files.pythonhosted.org/packages/f9/61/b544fd79215110646193a4202e32076a3acdc4c3eb43e51932fc774a93a5/schem-0.9.7.tar.gz
+[2023-06-16 01:06:57] INFO root fetch - processPackages [ssm-ps-template]: Remove: archive file [/home/abi/fetcher/tmp/ssm-ps-template-2.3.1.tar.gz]
+[2023-06-16 01:06:57] INFO root fetch - processPackages [ssm-ps-template]: Remove: archive file [/home/abi/fetcher/tmp/ssm-ps-template-2.3.2.tar.gz]
+[2023-06-16 01:06:57] INFO root fetch - main [MainThread]: End processing [ssm-ps-template]: success
+[2023-06-16 01:06:57] INFO root fetch - processPackages [schem]: executing diffoscope
+[2023-06-16 01:06:57] INFO root fetch - processPackages [schem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schem-0.9.6.tar.gz tmp/schem-0.9.7.tar.gz --markdown 20230616/s/schem/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-16 01:06:57] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-16 01:06:57] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.6.dev8.tar.gz tmp/coiled-0.7.6.dev9.tar.gz --markdown 20230616/c/coiled/0.7.6.dev8-0.7.6.dev9/diff.md --exclude *.pyd
+[2023-06-16 01:06:57] INFO root fetch - processPackages [labbench]: Remove: archive file [/home/abi/fetcher/tmp/labbench-0.25.0.tar.gz]
+[2023-06-16 01:06:57] INFO root fetch - processPackages [labbench]: Remove: archive file [/home/abi/fetcher/tmp/labbench-0.26.0.tar.gz]
+[2023-06-16 01:06:57] INFO root fetch - main [MainThread]: End processing [labbench]: success
+[2023-06-16 01:06:58] INFO root fetch - processPackages [groundlight]: Remove: archive file [/home/abi/fetcher/tmp/groundlight-0.8.0.tar.gz]
+[2023-06-16 01:06:58] INFO root fetch - processPackages [groundlight]: Remove: archive file [/home/abi/fetcher/tmp/groundlight-0.9.0.tar.gz]
+[2023-06-16 01:06:58] INFO root fetch - main [MainThread]: End processing [groundlight]: success
+[2023-06-16 01:06:58] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-06-16 01:06:58] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-06-16 01:06:58] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-06-16 01:06:58] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230608.tar.gz]
+[2023-06-16 01:06:58] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230614.tar.gz]
+[2023-06-16 01:06:58] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-06-16 01:06:59] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.6.dev8.tar.gz]
+[2023-06-16 01:06:59] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.6.dev9.tar.gz]
+[2023-06-16 01:06:59] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-16 01:06:59] INFO root fetch - processPackages [schem]: Remove: archive file [/home/abi/fetcher/tmp/schem-0.9.6.tar.gz]
+[2023-06-16 01:06:59] INFO root fetch - processPackages [schem]: Remove: archive file [/home/abi/fetcher/tmp/schem-0.9.7.tar.gz]
+[2023-06-16 01:06:59] INFO root fetch - main [MainThread]: End processing [schem]: success
+[2023-06-16 01:07:01] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.2.tar.gz]
+[2023-06-16 01:07:01] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.3.tar.gz]
+[2023-06-16 01:07:01] INFO root fetch - main [MainThread]: End processing [aind-data-transfer]: success
+[2023-06-16 01:07:01] INFO root fetch - main [MainThread]: Store serial: [18523301]
