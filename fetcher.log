@@ -1626,3 +1626,46 @@
 [2023-06-16 01:27:51] INFO root fetch - processPackages [schematicpy]: Remove: archive file [/home/abi/fetcher/tmp/schematicpy-23.6.1.tar.gz]
 [2023-06-16 01:27:51] INFO root fetch - main [MainThread]: End processing [schematicpy]: success
 [2023-06-16 01:27:51] INFO root fetch - main [MainThread]: Store serial: [18523418]
+[2023-06-16 01:32:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523418]
+[2023-06-16 01:33:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-16 01:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: txZMQ-ng
+[2023-06-16 01:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: topometry
+[2023-06-16 01:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: memento-scorecard
+[2023-06-16 01:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: griptape
+[2023-06-16 01:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: topometry
+[2023-06-16 01:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arrgh
+[2023-06-16 01:33:00] INFO root fetch - processPackages [memento-scorecard]: New version: [0.8.1] Old Version: [0.7.2]
+[2023-06-16 01:33:00] WARNING root fetch - processPackages [arrgh]: Skipping, unable to determine old version
+[2023-06-16 01:33:00] INFO root fetch - main [MainThread]: End processing [arrgh] error
+[2023-06-16 01:33:00] INFO root fetch - processPackages [topometry]: New version: [0.2.0.6] Old Version: [0.2.0.5]
+[2023-06-16 01:33:00] INFO root fetch - processPackages [griptape]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-16 01:33:00] INFO root fetch - processPackages [topometry]: New version: [0.2.0.6] Old Version: [0.2.0.5]
+[2023-06-16 01:33:00] WARNING root fetch - processPackages [txZMQ-ng]: Skipping, unable to determine old version
+[2023-06-16 01:33:00] INFO root fetch - main [MainThread]: End processing [txZMQ-ng] error
+[2023-06-16 01:33:00] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/75/0f/8af4295b4952c80cca839b352ec91fc9d20c0e79ebb261b24ff4e2c0e629/memento-scorecard-0.7.2.tar.gz
+[2023-06-16 01:33:00] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/8b/3f/81f116f271d639bd608b4016c2ad2a719e4dc2c04c5999953c2940e9afcc/memento-scorecard-0.8.1.tar.gz
+[2023-06-16 01:33:00] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/b2/b8/cc0f5ca4711c5710e136a079ddf6ce490af82a90e445f8fa9e13947b14e5/topometry-0.2.0.5.tar.gz
+[2023-06-16 01:33:00] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/b2/b8/cc0f5ca4711c5710e136a079ddf6ce490af82a90e445f8fa9e13947b14e5/topometry-0.2.0.5.tar.gz
+[2023-06-16 01:33:00] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/61/6a/bcf2cf6048e3abdc73de35cbae9b02a4d5a43d68bdd51e246ecddb0472b1/griptape-0.9.0.tar.gz
+[2023-06-16 01:33:00] INFO root fetch - processPackages [memento-scorecard]: executing diffoscope
+[2023-06-16 01:33:00] INFO root fetch - processPackages [memento-scorecard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memento-scorecard-0.7.2.tar.gz tmp/memento-scorecard-0.8.1.tar.gz --markdown 20230616/m/memento-scorecard/0.7.2-0.8.1/diff.md --exclude *.pyd
+[2023-06-16 01:33:00] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/e9/5a/a666faf4ee60862e14d77354aeee4fbe18ff301ce65b38c1cd096e0c0f52/topometry-0.2.0.6.tar.gz
+[2023-06-16 01:33:00] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/e9/5a/a666faf4ee60862e14d77354aeee4fbe18ff301ce65b38c1cd096e0c0f52/topometry-0.2.0.6.tar.gz
+[2023-06-16 01:33:00] INFO root fetch - processPackages [topometry]: executing diffoscope
+[2023-06-16 01:33:00] INFO root fetch - processPackages [topometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topometry-0.2.0.5.tar.gz tmp/topometry-0.2.0.6.tar.gz --markdown 20230616/t/topometry/0.2.0.5-0.2.0.6/diff.md --exclude *.pyd
+[2023-06-16 01:33:00] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/d3/e7/7c06c5c2173f5e68123d3bdeb9f89c59f9548675ab8e244c9a62bd4cf34d/griptape-0.9.1.tar.gz
+[2023-06-16 01:33:00] INFO root fetch - processPackages [topometry]: executing diffoscope
+[2023-06-16 01:33:00] INFO root fetch - processPackages [topometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topometry-0.2.0.5.tar.gz tmp/topometry-0.2.0.6.tar.gz --markdown 20230616/t/topometry/0.2.0.5-0.2.0.6/diff.md --exclude *.pyd
+[2023-06-16 01:33:00] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-06-16 01:33:00] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.9.0.tar.gz tmp/griptape-0.9.1.tar.gz --markdown 20230616/g/griptape/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-16 01:33:01] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-0.7.2.tar.gz]
+[2023-06-16 01:33:01] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-0.8.1.tar.gz]
+[2023-06-16 01:33:01] INFO root fetch - main [MainThread]: End processing [memento-scorecard]: success
+[2023-06-16 01:33:01] INFO root fetch - processPackages [topometry]: Remove: archive file [/home/abi/fetcher/tmp/topometry-0.2.0.5.tar.gz]
+[2023-06-16 01:33:01] INFO root fetch - processPackages [topometry]: Remove: archive file [/home/abi/fetcher/tmp/topometry-0.2.0.6.tar.gz]
+[2023-06-16 01:33:01] INFO root fetch - main [MainThread]: End processing [topometry]: success
+[2023-06-16 01:33:01] INFO root fetch - main [MainThread]: End processing [topometry]: success
+[2023-06-16 01:33:02] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.0.tar.gz]
+[2023-06-16 01:33:02] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.1.tar.gz]
+[2023-06-16 01:33:02] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-06-16 01:33:02] INFO root fetch - main [MainThread]: Store serial: [18523453]
