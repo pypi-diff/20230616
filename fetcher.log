@@ -831,3 +831,97 @@
 [2023-06-16 00:34:47] INFO root fetch - processPackages [nemo-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/nemo_toolkit-1.9.0.tar.gz]
 [2023-06-16 00:34:47] INFO root fetch - main [MainThread]: End processing [nemo-toolkit]: success
 [2023-06-16 00:34:47] INFO root fetch - main [MainThread]: Store serial: [18523036]
+[2023-06-16 00:39:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523036]
+[2023-06-16 00:39:56] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-16 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-audio-record
+[2023-06-16 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rotki-content-hash
+[2023-06-16 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prefect
+[2023-06-16 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EnergyCapSdk
+[2023-06-16 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-skill-instructions
+[2023-06-16 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-skill-custom-conversation
+[2023-06-16 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bluetooth-data-tools
+[2023-06-16 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataquality
+[2023-06-16 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neon-skill-audio-record
+[2023-06-16 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlit-chat-foto
+[2023-06-16 00:39:56] INFO root fetch - processPackages [neon-skill-audio-record]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-06-16 00:39:56] INFO root fetch - processPackages [neon-skill-instructions]: New version: [0.1.1a1] Old Version: [0.1.0]
+[2023-06-16 00:39:56] INFO root fetch - processPackages [neon-skill-audio-record]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-06-16 00:39:56] INFO root fetch - processPackages [neon-skill-custom-conversation]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2023-06-16 00:39:56] WARNING root fetch - processPackages [streamlit-chat-foto]: Skipping, unable to determine old version
+[2023-06-16 00:39:56] INFO root fetch - processPackages [streamlit-chat-foto]: Start processing: neon-skill-messaging
+[2023-06-16 00:39:56] INFO root fetch - main [MainThread]: End processing [streamlit-chat-foto] error
+[2023-06-16 00:39:56] INFO root fetch - processPackages [rotki-content-hash]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-16 00:39:56] INFO root fetch - processPackages [bluetooth-data-tools]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-16 00:39:56] INFO root fetch - processPackages [dataquality]: New version: [0.8.9] Old Version: [0.8.8a0]
+[2023-06-16 00:39:57] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4598] Old Version: [8.2304.4591]
+[2023-06-16 00:39:57] INFO root fetch - processPackages [prefect]: New version: [2.9.0] Old Version: [2.82]
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-messaging]: New version: [0.0.2a3] Old Version: [0.0.2a2]
+[2023-06-16 00:39:57] INFO root fetch - processPackages [rotki-content-hash]: Downloading https://files.pythonhosted.org/packages/4f/4f/0ee27951645c5bb1e15dbb812a126f505534bafde167038616abc4d61b9f/rotki-content-hash-0.0.2.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/ec/c0/a67c048905f2c652971d55ff82c30b8a749cfdd800d5119bb8accf3770bc/dataquality-0.8.8a0.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-instructions]: Downloading https://files.pythonhosted.org/packages/08/62/5f1c67ccc4d182d8f97d30cc717230f15183194fbd78cec2eb00b2db1d9c/neon_skill_instructions-0.1.0-py3-none-any.whl
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-audio-record]: Downloading https://files.pythonhosted.org/packages/e4/fa/0b7c4e0dab46f99bf9c215b2963bcbcca85a12090157a49a5d56732519b3/neon-skill-audio_record-0.1.1a1.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/a0/9f/1a9e0de56d88b522472bd3e0dedf2b64c1bd5beb3429f299d5c4308a836f/EnergyCapSdk-8.2304.4591.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-custom-conversation]: Downloading https://files.pythonhosted.org/packages/36/b5/e48cbec9a8357af8533bb491a3467d2505395808a98c9770e3f23f8b731a/neon_skill_custom_conversation-0.0.1a7-py3-none-any.whl
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-messaging]: Downloading https://files.pythonhosted.org/packages/72/57/debe98ac087a40ecbef8b02afadef8cf328a2e6c8a2f4fc402c91d2162b5/neon_skill_messaging-0.0.2a2-py3-none-any.whl
+[2023-06-16 00:39:57] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/91/1e/b93106f778087ce05e7c356ffd9a6a6062c6e62a84bf3f9d4eb655b16850/dataquality-0.8.9.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/f5/da/551e6c1321517d4a601ed6e63c755082cb8db240a8534a12c2d1c733e4f0/bluetooth_data_tools-1.1.0.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-audio-record]: Downloading https://files.pythonhosted.org/packages/e4/fa/0b7c4e0dab46f99bf9c215b2963bcbcca85a12090157a49a5d56732519b3/neon-skill-audio_record-0.1.1a1.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [rotki-content-hash]: Downloading https://files.pythonhosted.org/packages/de/13/8da7f1df598a37235c8283118ca568ac9b611f27db3e4ea25294961f17b4/rotki-content-hash-0.0.3.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/20/bd/9580e89a911969805904dd984258f2250f96726fbb91373970a41c36aab3/prefect-2.82.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-06-16 00:39:57] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.8.8a0.tar.gz tmp/dataquality-0.8.9.tar.gz --markdown 20230616/d/dataquality/0.8.8a0-0.8.9/diff.md --exclude *.pyd
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-instructions]: Downloading https://files.pythonhosted.org/packages/c3/d5/bdca062b94ed486d735ecda98ba7a9643300878580be166a326b67a45cf1/neon-skill-instructions-0.1.1a1.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [rotki-content-hash]: executing diffoscope
+[2023-06-16 00:39:57] INFO root fetch - processPackages [rotki-content-hash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotki-content-hash-0.0.2.tar.gz tmp/rotki-content-hash-0.0.3.tar.gz --markdown 20230616/r/rotki-content-hash/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-16 00:39:57] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/68/b3/975e5a3d9862be07861bbe6bbc59ff425ed5f37338a17384c0490f342d18/EnergyCapSdk-8.2304.4598.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-audio-record]: Downloading https://files.pythonhosted.org/packages/3c/ed/e7b77cb49b0781eb7396430de68e0f9315f31a18bde0eb49837fd1c2ccf8/neon-skill-audio_record-0.1.1a2.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/51/1a/75a9d4424f4e8c7cd826d414031211a19160612796396fe541af7b564e05/bluetooth_data_tools-1.2.0.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-audio-record]: Downloading https://files.pythonhosted.org/packages/3c/ed/e7b77cb49b0781eb7396430de68e0f9315f31a18bde0eb49837fd1c2ccf8/neon-skill-audio_record-0.1.1a2.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-custom-conversation]: Downloading https://files.pythonhosted.org/packages/bf/dc/b61d1c227ade7322711f13ab72748c437abf0fe63790206f9b5419de0107/neon-skill-custom_conversation-0.0.1a8.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-06-16 00:39:57] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2304.4591.tar.gz tmp/EnergyCapSdk-8.2304.4598.tar.gz --markdown 20230616/E/EnergyCapSdk/8.2304.4591-8.2304.4598/diff.md --exclude *.pyd
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-instructions]: executing diffoscope
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-instructions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_instructions-0.1.0-py3-none-any.whl.zip tmp/neon-skill-instructions-0.1.1a1.tar.gz --markdown 20230616/n/neon-skill-instructions/0.1.0-0.1.1a1/diff.md --exclude *.pyd
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-messaging]: Downloading https://files.pythonhosted.org/packages/17/ae/3a70339233e1b5b06ea2ee3d28309abd5e4b26c0a866c7a7fbc2b0ce1fa3/neon-skill-messaging-0.0.2a3.tar.gz
+[2023-06-16 00:39:57] INFO root fetch - processPackages [bluetooth-data-tools]: executing diffoscope
+[2023-06-16 00:39:57] INFO root fetch - processPackages [bluetooth-data-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_data_tools-1.1.0.tar.gz tmp/bluetooth_data_tools-1.2.0.tar.gz --markdown 20230616/b/bluetooth-data-tools/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-audio-record]: executing diffoscope
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-audio-record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-audio_record-0.1.1a1.tar.gz tmp/neon-skill-audio_record-0.1.1a2.tar.gz --markdown 20230616/n/neon-skill-audio-record/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-audio-record]: executing diffoscope
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-audio-record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-audio_record-0.1.1a1.tar.gz tmp/neon-skill-audio_record-0.1.1a2.tar.gz --markdown 20230616/n/neon-skill-audio-record/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-custom-conversation]: executing diffoscope
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-custom-conversation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_custom_conversation-0.0.1a7-py3-none-any.whl.zip tmp/neon-skill-custom_conversation-0.0.1a8.tar.gz --markdown 20230616/n/neon-skill-custom-conversation/0.0.1a7-0.0.1a8/diff.md --exclude *.pyd
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-messaging]: executing diffoscope
+[2023-06-16 00:39:57] INFO root fetch - processPackages [neon-skill-messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_messaging-0.0.2a2-py3-none-any.whl.zip tmp/neon-skill-messaging-0.0.2a3.tar.gz --markdown 20230616/n/neon-skill-messaging/0.0.2a2-0.0.2a3/diff.md --exclude *.pyd
+[2023-06-16 00:39:57] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/52/49/e4a42ea984b987b634f492725a5484b96da5a97fda925a3d37ff0821ecae/prefect-2.9.0.tar.gz
+[2023-06-16 00:39:58] INFO root fetch - processPackages [rotki-content-hash]: Remove: archive file [/home/abi/fetcher/tmp/rotki-content-hash-0.0.2.tar.gz]
+[2023-06-16 00:39:58] INFO root fetch - processPackages [rotki-content-hash]: Remove: archive file [/home/abi/fetcher/tmp/rotki-content-hash-0.0.3.tar.gz]
+[2023-06-16 00:39:58] INFO root fetch - main [MainThread]: End processing [rotki-content-hash]: success
+[2023-06-16 00:39:58] INFO root fetch - processPackages [prefect]: executing diffoscope
+[2023-06-16 00:39:58] INFO root fetch - processPackages [prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-2.82.tar.gz tmp/prefect-2.9.0.tar.gz --markdown 20230616/p/prefect/2.82-2.9.0/diff.md --exclude *.pyd
+[2023-06-16 00:39:59] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.1.0.tar.gz]
+[2023-06-16 00:39:59] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.2.0.tar.gz]
+[2023-06-16 00:39:59] INFO root fetch - main [MainThread]: End processing [bluetooth-data-tools]: success
+[2023-06-16 00:39:59] INFO root fetch - processPackages [neon-skill-instructions]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_instructions-0.1.0-py3-none-any.whl.zip]
+[2023-06-16 00:39:59] INFO root fetch - processPackages [neon-skill-instructions]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-instructions-0.1.1a1.tar.gz]
+[2023-06-16 00:39:59] INFO root fetch - main [MainThread]: End processing [neon-skill-instructions]: success
+[2023-06-16 00:39:59] INFO root fetch - processPackages [neon-skill-messaging]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_messaging-0.0.2a2-py3-none-any.whl.zip]
+[2023-06-16 00:39:59] INFO root fetch - processPackages [neon-skill-messaging]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-messaging-0.0.2a3.tar.gz]
+[2023-06-16 00:39:59] INFO root fetch - main [MainThread]: End processing [neon-skill-messaging]: success
+[2023-06-16 00:39:59] INFO root fetch - processPackages [neon-skill-custom-conversation]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_custom_conversation-0.0.1a7-py3-none-any.whl.zip]
+[2023-06-16 00:39:59] INFO root fetch - processPackages [neon-skill-custom-conversation]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-custom_conversation-0.0.1a8.tar.gz]
+[2023-06-16 00:39:59] INFO root fetch - main [MainThread]: End processing [neon-skill-custom-conversation]: success
+[2023-06-16 00:39:59] INFO root fetch - processPackages [neon-skill-audio-record]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-audio_record-0.1.1a1.tar.gz]
+[2023-06-16 00:39:59] INFO root fetch - processPackages [neon-skill-audio-record]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-audio_record-0.1.1a2.tar.gz]
+[2023-06-16 00:39:59] INFO root fetch - main [MainThread]: End processing [neon-skill-audio-record]: success
+[2023-06-16 00:39:59] INFO root fetch - main [MainThread]: End processing [neon-skill-audio-record]: success
+[2023-06-16 00:39:59] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.8a0.tar.gz]
+[2023-06-16 00:39:59] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.9.tar.gz]
+[2023-06-16 00:39:59] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-06-16 00:40:17] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.82.tar.gz]
+[2023-06-16 00:40:17] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.9.0.tar.gz]
+[2023-06-16 00:40:17] INFO root fetch - main [MainThread]: End processing [prefect]: success
+[2023-06-16 00:40:30] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4591.tar.gz]
+[2023-06-16 00:40:30] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4598.tar.gz]
+[2023-06-16 00:40:30] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-06-16 00:40:30] INFO root fetch - main [MainThread]: Store serial: [18523074]
