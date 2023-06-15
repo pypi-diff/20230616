@@ -1086,3 +1086,113 @@
 [2023-06-16 00:51:04] INFO root fetch - processPackages [neon-skill-wikipedia]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-wikipedia-0.4.2a1.tar.gz]
 [2023-06-16 00:51:04] INFO root fetch - main [MainThread]: End processing [neon-skill-wikipedia]: success
 [2023-06-16 00:51:04] INFO root fetch - main [MainThread]: Store serial: [18523151]
+[2023-06-16 00:56:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523151]
+[2023-06-16 00:56:15] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-16 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytboss
+[2023-06-16 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataquality
+[2023-06-16 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-launcher
+[2023-06-16 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognitopy
+[2023-06-16 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-skill-camera
+[2023-06-16 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqrack
+[2023-06-16 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cmd-queue
+[2023-06-16 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: JupiterMag
+[2023-06-16 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-monitor-ingestion
+[2023-06-16 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-all-out
+[2023-06-16 00:56:15] WARNING root fetch - processPackages [cognitopy]: Skipping, unable to determine old version
+[2023-06-16 00:56:15] INFO root fetch - processPackages [cognitopy]: Start processing: pytest-env
+[2023-06-16 00:56:15] INFO root fetch - main [MainThread]: End processing [cognitopy] error
+[2023-06-16 00:56:16] INFO root fetch - processPackages [azure-monitor-ingestion]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-16 00:56:16] INFO root fetch - processPackages [JupiterMag]: New version: [1.1.2] Old Version: [1.0.9]
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pytboss]: New version: [2023.6.1] Old Version: [2023.6.0]
+[2023-06-16 00:56:16] INFO root fetch - processPackages [fastapi-all-out]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-16 00:56:16] INFO root fetch - processPackages [neon-skill-launcher]: New version: [0.4.1a3] Old Version: [0.4.1a2]
+[2023-06-16 00:56:16] INFO root fetch - processPackages [dataquality]: New version: [0.8.9] Old Version: [0.8.8a0]
+[2023-06-16 00:56:16] INFO root fetch - processPackages [neon-skill-camera]: New version: [0.2.1a1] Old Version: [0.2.0]
+[2023-06-16 00:56:16] INFO root fetch - processPackages [cmd-queue]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pytest-env]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-16 00:56:16] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/ec/c0/a67c048905f2c652971d55ff82c30b8a749cfdd800d5119bb8accf3770bc/dataquality-0.8.8a0.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pytboss]: Downloading https://files.pythonhosted.org/packages/53/5f/42795312072dd48a4997241cbb20650d75cfb92fecfb44ad1f587a9cd648/pytboss-2023.6.0.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pytest-env]: Downloading https://files.pythonhosted.org/packages/a3/10/2be3d3ef39212ee94407779260311a6d48e5d484aa4597308c6037878089/pytest_env-0.8.1.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [azure-monitor-ingestion]: Downloading https://files.pythonhosted.org/packages/8c/c8/404575e0f1882d2ace0a6eb62228ad18cd20ed0869848e50fc0c24025aed/azure-monitor-ingestion-1.0.1.zip
+[2023-06-16 00:56:16] INFO root fetch - processPackages [neon-skill-launcher]: Downloading https://files.pythonhosted.org/packages/7b/4d/6fbf11803e0e8054fd8f5878e0855066f6067a2d96c94ea4ad63fa335844/neon_skill_launcher-0.4.1a2-py3-none-any.whl
+[2023-06-16 00:56:16] INFO root fetch - processPackages [fastapi-all-out]: Downloading https://files.pythonhosted.org/packages/b3/e4/2364f504c2bc94dea4c86977a3353df91280728e8dbad456879f617c4126/fastapi_all_out-0.3.0.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/91/1e/b93106f778087ce05e7c356ffd9a6a6062c6e62a84bf3f9d4eb655b16850/dataquality-0.8.9.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [neon-skill-camera]: Downloading https://files.pythonhosted.org/packages/de/f4/44db619a7ca5d0d75d1ec47d021d6c6358bee8e78b500631aca4f306394f/neon_skill_camera-0.2.0-py3-none-any.whl
+[2023-06-16 00:56:16] INFO root fetch - processPackages [cmd-queue]: Downloading https://files.pythonhosted.org/packages/e0/50/bbb5f7f5b44908cff532ea36d860dc81ba265b0686c1a5b7549ccc311f71/cmd_queue-0.1.8-py3-none-any.whl
+[2023-06-16 00:56:16] INFO root fetch - processPackages [JupiterMag]: Downloading https://files.pythonhosted.org/packages/2d/43/dd0ec03eb20e7f9ed129693fc1a3e9aeee8f4467141ca8da495ed6f032f3/JupiterMag-1.0.9-py3-none-any.whl
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-06-16 00:56:16] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.8.8a0.tar.gz tmp/dataquality-0.8.9.tar.gz --markdown 20230616/d/dataquality/0.8.8a0-0.8.9/diff.md --exclude *.pyd
+[2023-06-16 00:56:16] WARNING root fetch - processPackages [JupiterMag]: Skipping package: exceeds size limit 12733952>=10485760
+[2023-06-16 00:56:16] INFO root fetch - processPackages [JupiterMag]: Start processing: nsj-rest-lib
+[2023-06-16 00:56:16] INFO root fetch - main [MainThread]: End processing [JupiterMag] error
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pytboss]: Downloading https://files.pythonhosted.org/packages/e0/ab/c9e9f67595ccb10bf9e35209974e484d6149ce7f6f2b048c226dfb9342d8/pytboss-2023.6.1.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pytest-env]: Downloading https://files.pythonhosted.org/packages/8a/33/c298eab42c425911ce26f6cd0eff93fc54bc5c4feb517df42b7c775f562f/pytest_env-0.8.2.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [nsj-rest-lib]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pytest-env]: executing diffoscope
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pytest-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_env-0.8.1.tar.gz tmp/pytest_env-0.8.2.tar.gz --markdown 20230616/p/pytest-env/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-16 00:56:16] INFO root fetch - processPackages [neon-skill-launcher]: Downloading https://files.pythonhosted.org/packages/97/e3/397a9e2eab244020fce2a4fa0807bfeee0fabd56eaa6eb408c5f371ee7c8/neon-skill-launcher-0.4.1a3.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pytboss]: executing diffoscope
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pytboss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytboss-2023.6.0.tar.gz tmp/pytboss-2023.6.1.tar.gz --markdown 20230616/p/pytboss/2023.6.0-2023.6.1/diff.md --exclude *.pyd
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [fastapi-all-out]: Downloading https://files.pythonhosted.org/packages/5b/1f/9a2f51c50c50428789c19b175d847b18fdff43a91f88d199673fd415e324/fastapi_all_out-0.4.0.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [azure-monitor-ingestion]: Downloading https://files.pythonhosted.org/packages/d4/6e/8e99b73ae86e2cc73649750532727bbca1305109ccb405d3d5bec842348d/azure-monitor-ingestion-1.0.2.zip
+[2023-06-16 00:56:16] INFO root fetch - processPackages [neon-skill-camera]: Downloading https://files.pythonhosted.org/packages/d9/3e/0f2860fcda810c996d7c787c71b0675c1c3eaf3dbf6611bd4bdc26884f32/neon-skill-camera-0.2.1a1.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-16 00:56:16] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230616/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-16 00:56:16] INFO root fetch - processPackages [neon-skill-launcher]: executing diffoscope
+[2023-06-16 00:56:16] INFO root fetch - processPackages [neon-skill-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_launcher-0.4.1a2-py3-none-any.whl.zip tmp/neon-skill-launcher-0.4.1a3.tar.gz --markdown 20230616/n/neon-skill-launcher/0.4.1a2-0.4.1a3/diff.md --exclude *.pyd
+[2023-06-16 00:56:16] INFO root fetch - processPackages [fastapi-all-out]: executing diffoscope
+[2023-06-16 00:56:16] INFO root fetch - processPackages [fastapi-all-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_all_out-0.3.0.tar.gz tmp/fastapi_all_out-0.4.0.tar.gz --markdown 20230616/f/fastapi-all-out/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-16 00:56:16] INFO root fetch - processPackages [azure-monitor-ingestion]: executing diffoscope
+[2023-06-16 00:56:16] INFO root fetch - processPackages [azure-monitor-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-monitor-ingestion-1.0.1.zip tmp/azure-monitor-ingestion-1.0.2.zip --markdown 20230616/a/azure-monitor-ingestion/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-16 00:56:16] INFO root fetch - processPackages [cmd-queue]: Downloading https://files.pythonhosted.org/packages/fc/f6/2b6b069a477cc3f33c599afa3d877e072f005716649e73d8e6a4976a618a/cmd_queue-0.1.9-py3-none-any.whl
+[2023-06-16 00:56:16] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/e3/12/b1f77bde1071e60dc4bc23c80fb559221b53d35b2835efbe6d6eeb2bce14/nsj_rest_lib-1.0.1.tar.gz
+[2023-06-16 00:56:16] INFO root fetch - processPackages [neon-skill-camera]: executing diffoscope
+[2023-06-16 00:56:16] INFO root fetch - processPackages [neon-skill-camera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_camera-0.2.0-py3-none-any.whl.zip tmp/neon-skill-camera-0.2.1a1.tar.gz --markdown 20230616/n/neon-skill-camera/0.2.0-0.2.1a1/diff.md --exclude *.pyd
+[2023-06-16 00:56:16] INFO root fetch - processPackages [cmd-queue]: executing diffoscope
+[2023-06-16 00:56:16] INFO root fetch - processPackages [cmd-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmd_queue-0.1.8-py3-none-any.whl.zip tmp/cmd_queue-0.1.9-py3-none-any.whl.zip --markdown 20230616/c/cmd-queue/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 00:56:17] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/9a/52/3c537da222de0c3eff075dd79b38cb4d462b44d0f28760237621991fbceb/nsj_rest_lib-1.1.0.tar.gz
+[2023-06-16 00:56:17] INFO root fetch - processPackages [nsj-rest-lib]: executing diffoscope
+[2023-06-16 00:56:17] INFO root fetch - processPackages [nsj-rest-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_rest_lib-1.0.1.tar.gz tmp/nsj_rest_lib-1.1.0.tar.gz --markdown 20230616/n/nsj-rest-lib/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-16 00:56:17] INFO root fetch - processPackages [pytest-env]: Remove: archive file [/home/abi/fetcher/tmp/pytest_env-0.8.1.tar.gz]
+[2023-06-16 00:56:17] INFO root fetch - processPackages [pytest-env]: Remove: archive file [/home/abi/fetcher/tmp/pytest_env-0.8.2.tar.gz]
+[2023-06-16 00:56:17] INFO root fetch - processPackages [pytest-env]: Start processing: weni-rp-apps
+[2023-06-16 00:56:17] INFO root fetch - main [MainThread]: End processing [pytest-env]: success
+[2023-06-16 00:56:17] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.5.0a2] Old Version: [2.5.0a1]
+[2023-06-16 00:56:18] INFO root fetch - processPackages [neon-skill-launcher]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_launcher-0.4.1a2-py3-none-any.whl.zip]
+[2023-06-16 00:56:18] INFO root fetch - processPackages [neon-skill-launcher]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-launcher-0.4.1a3.tar.gz]
+[2023-06-16 00:56:18] INFO root fetch - main [MainThread]: End processing [neon-skill-launcher]: success
+[2023-06-16 00:56:18] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/49/57/3dbf6abfdddd2b7bd71ec1ab832851ad164cdd63dbe5d8b2e652d147c730/weni_rp_apps-2.5.0a1.tar.gz
+[2023-06-16 00:56:18] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/c0/69/9bc0e16fd2d606c648b5d1f267cab808a229389ba2fb82857aa9f7733db0/weni_rp_apps-2.5.0a2.tar.gz
+[2023-06-16 00:56:18] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-16 00:56:18] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-16 00:56:18] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-16 00:56:18] INFO root fetch - processPackages [neon-skill-camera]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_camera-0.2.0-py3-none-any.whl.zip]
+[2023-06-16 00:56:18] INFO root fetch - processPackages [neon-skill-camera]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-camera-0.2.1a1.tar.gz]
+[2023-06-16 00:56:18] INFO root fetch - main [MainThread]: End processing [neon-skill-camera]: success
+[2023-06-16 00:56:18] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-06-16 00:56:18] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.5.0a1.tar.gz tmp/weni_rp_apps-2.5.0a2.tar.gz --markdown 20230616/w/weni-rp-apps/2.5.0a1-2.5.0a2/diff.md --exclude *.pyd
+[2023-06-16 00:56:18] INFO root fetch - processPackages [pytboss]: Remove: archive file [/home/abi/fetcher/tmp/pytboss-2023.6.0.tar.gz]
+[2023-06-16 00:56:18] INFO root fetch - processPackages [pytboss]: Remove: archive file [/home/abi/fetcher/tmp/pytboss-2023.6.1.tar.gz]
+[2023-06-16 00:56:18] INFO root fetch - main [MainThread]: End processing [pytboss]: success
+[2023-06-16 00:56:18] INFO root fetch - processPackages [cmd-queue]: Remove: archive file [/home/abi/fetcher/tmp/cmd_queue-0.1.8-py3-none-any.whl.zip]
+[2023-06-16 00:56:18] INFO root fetch - processPackages [cmd-queue]: Remove: archive file [/home/abi/fetcher/tmp/cmd_queue-0.1.9-py3-none-any.whl.zip]
+[2023-06-16 00:56:18] INFO root fetch - main [MainThread]: End processing [cmd-queue]: success
+[2023-06-16 00:56:18] INFO root fetch - processPackages [azure-monitor-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/azure-monitor-ingestion-1.0.1.zip]
+[2023-06-16 00:56:18] INFO root fetch - processPackages [azure-monitor-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/azure-monitor-ingestion-1.0.2.zip]
+[2023-06-16 00:56:18] INFO root fetch - main [MainThread]: End processing [azure-monitor-ingestion]: success
+[2023-06-16 00:56:18] INFO root fetch - processPackages [fastapi-all-out]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_all_out-0.3.0.tar.gz]
+[2023-06-16 00:56:18] INFO root fetch - processPackages [fastapi-all-out]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_all_out-0.4.0.tar.gz]
+[2023-06-16 00:56:18] INFO root fetch - main [MainThread]: End processing [fastapi-all-out]: success
+[2023-06-16 00:56:18] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-1.0.1.tar.gz]
+[2023-06-16 00:56:18] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-1.1.0.tar.gz]
+[2023-06-16 00:56:18] INFO root fetch - main [MainThread]: End processing [nsj-rest-lib]: success
+[2023-06-16 00:56:19] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.8a0.tar.gz]
+[2023-06-16 00:56:19] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.9.tar.gz]
+[2023-06-16 00:56:19] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-06-16 00:56:20] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.5.0a1.tar.gz]
+[2023-06-16 00:56:20] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.5.0a2.tar.gz]
+[2023-06-16 00:56:20] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-06-16 00:56:20] INFO root fetch - main [MainThread]: Store serial: [18523200]
