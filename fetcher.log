@@ -18610,3 +18610,147 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 11:04:22] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.0b20230615.tar.gz]
 [2023-06-16 11:04:22] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
 [2023-06-16 11:04:22] INFO root fetch - main [MainThread]: Store serial: [18529800]
+[2023-06-16 11:09:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18529800]
+[2023-06-16 11:09:34] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-16 11:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PenguLogger
+[2023-06-16 11:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.multimodal
+[2023-06-16 11:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: artus
+[2023-06-16 11:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.timeseries
+[2023-06-16 11:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon
+[2023-06-16 11:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.eda
+[2023-06-16 11:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.cloud
+[2023-06-16 11:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-notification-sdk-preview
+[2023-06-16 11:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quickfix-ch
+[2023-06-16 11:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: taipy-core
+[2023-06-16 11:09:34] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.744] Old Version: [0.1.741]
+[2023-06-16 11:09:34] WARNING root fetch - processPackages [quickfix-ch]: Skipping, unable to determine old version
+[2023-06-16 11:09:34] INFO root fetch - processPackages [quickfix-ch]: Start processing: pytest-rabbitmq
+[2023-06-16 11:09:34] INFO root fetch - main [MainThread]: End processing [quickfix-ch] error
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230615] Old Version: [0.2.1b20230614]
+[2023-06-16 11:09:34] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/03/c2/f670f32cfafcf8a3a179d75fefb22813f9faaa6cff3d2ab8592f676c0069/lusid-notification-sdk-preview-0.1.741.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/f5/12/dcb15d8a5f6247bc9be81da483b1987ea7b8b6ad5c9202f2dd5b6152bd93/autogluon.cloud-0.2.1b20230614.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [PenguLogger]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 11:09:34] INFO root fetch - processPackages [artus]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-16 11:09:34] INFO root fetch - processPackages [taipy-core]: New version: [2.3.0.dev4] Old Version: [2.3.0.dev3]
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.8.0b20230616] Old Version: [0.8.0b20230615]
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon.eda]: New version: [0.8.0b20230616] Old Version: [0.8.0b20230615]
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.8.0b20230616] Old Version: [0.8.0b20230615]
+[2023-06-16 11:09:34] INFO root fetch - processPackages [pytest-rabbitmq]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon]: New version: [0.8.0b20230616] Old Version: [0.8.0b20230615]
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/08/e2/4d844b0ceb187814b5c3ca3ac914d0336f928d91dc900117f9d51ed7d055/autogluon.cloud-0.2.1b20230615.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/4d/6f/b6a2c04a710bdd131cc585d0b3afa94a6e66ce8da51b7e1ee07e1456a266/lusid-notification-sdk-preview-0.1.744.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [taipy-core]: Downloading https://files.pythonhosted.org/packages/b0/92/5454ea824034a3bedd4d64e669b039dd75ad689df1d540e0ca11bfce221e/taipy-core-2.3.0.dev3.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [PenguLogger]: Downloading https://files.pythonhosted.org/packages/81/bd/485fdf0260ad7144b26bca3f4ee46e1f18ccf1c86f8ca90c79da864cf2b1/PenguLogger-0.1.1-py3-none-any.whl
+[2023-06-16 11:09:34] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-06-16 11:09:34] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.741.tar.gz tmp/lusid-notification-sdk-preview-0.1.744.tar.gz --markdown 20230616/l/lusid-notification-sdk-preview/0.1.741-0.1.744/diff.md --exclude *.pyd
+[2023-06-16 11:09:34] INFO root fetch - processPackages [artus]: Downloading https://files.pythonhosted.org/packages/61/65/b9fd32403e4270a95cb1810a72c5821a4de8d713fd67e62af85d927fea4d/artus-0.2.3.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/64/a1/a8a8e3434ac8e022c488af687746d09b422099ba65c2b661511918be2032/autogluon.timeseries-0.8.0b20230615.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [pytest-rabbitmq]: Downloading https://files.pythonhosted.org/packages/3d/0e/117594b49050707f8d15f130d37760991aca6e4590c89a37ec0a56f6c875/pytest-rabbitmq-3.0.0.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/9e/fe/429d983dd934dccd3e02326ee10d67bc487bcc66636e55295ecc9907588c/autogluon.multimodal-0.8.0b20230615.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230614.tar.gz tmp/autogluon.cloud-0.2.1b20230615.tar.gz --markdown 20230616/a/autogluon.cloud/0.2.1b20230614-0.2.1b20230615/diff.md --exclude *.pyd
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/6a/71/b01e345695bc0c08ceafed40a665a696dab5bb83d132d25cb02c0a7a11ff/autogluon.eda-0.8.0b20230615.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/2c/12/9f682429194d1fe9f4825cf65efef1f1d194a55abefe8790d92833babfa3/autogluon-0.8.0b20230615.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [taipy-core]: Downloading https://files.pythonhosted.org/packages/d8/02/887fbe760dd43e1f095476125e2c5cc4d7d0ec0c06c5c425ea2102961d7b/taipy-core-2.3.0.dev4.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [PenguLogger]: Downloading https://files.pythonhosted.org/packages/0f/d9/c08b88a79d6b23a1715b0174b6086bdb2391231711742fcd33eacb3c22be/PenguLogger-0.1.2.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [artus]: Downloading https://files.pythonhosted.org/packages/aa/5e/4f7976fde002821565a000caf8d9a6f87eb6745ce611360b3651f505da6c/artus-0.3.0.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/78/73/eca47a66c3f426ac13ab08385367c87a64195b6cff338e166dbe4379bc3c/autogluon.timeseries-0.8.0b20230616.tar.gz
+[2023-06-16 11:09:34] INFO root fetch - processPackages [pytest-rabbitmq]: Downloading https://files.pythonhosted.org/packages/2f/69/03b5fb4885493e3fdca0be0fa985a07261d74cc04c38a13fcc088e80b6e9/pytest-rabbitmq-3.0.1.tar.gz
+[2023-06-16 11:09:35] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/87/8c/c43db44f95b1dce41e2f0f06b85170e7e98334400486ce45342972628992/autogluon.multimodal-0.8.0b20230616.tar.gz
+[2023-06-16 11:09:35] INFO root fetch - processPackages [taipy-core]: executing diffoscope
+[2023-06-16 11:09:35] INFO root fetch - processPackages [taipy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-core-2.3.0.dev3.tar.gz tmp/taipy-core-2.3.0.dev4.tar.gz --markdown 20230616/t/taipy-core/2.3.0.dev3-2.3.0.dev4/diff.md --exclude *.pyd
+[2023-06-16 11:09:35] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/7a/d1/e84ec62bb4bd037af1a0586750346d47707e3d3a23fa671891e545a1c40a/autogluon.eda-0.8.0b20230616.tar.gz
+[2023-06-16 11:09:35] INFO root fetch - processPackages [PenguLogger]: executing diffoscope
+[2023-06-16 11:09:35] INFO root fetch - processPackages [PenguLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PenguLogger-0.1.1-py3-none-any.whl.zip tmp/PenguLogger-0.1.2.tar.gz --markdown 20230616/P/PenguLogger/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 11:09:35] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-06-16 11:09:35] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.8.0b20230615.tar.gz tmp/autogluon.timeseries-0.8.0b20230616.tar.gz --markdown 20230616/a/autogluon.timeseries/0.8.0b20230615-0.8.0b20230616/diff.md --exclude *.pyd
+[2023-06-16 11:09:35] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/90/dc/c603d198740afb358e82e3783296d8ada0f9c170140889f487f05f0e7c3f/autogluon-0.8.0b20230616.tar.gz
+[2023-06-16 11:09:35] INFO root fetch - processPackages [artus]: executing diffoscope
+[2023-06-16 11:09:35] INFO root fetch - processPackages [artus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artus-0.2.3.tar.gz tmp/artus-0.3.0.tar.gz --markdown 20230616/a/artus/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-16 11:09:35] INFO root fetch - processPackages [pytest-rabbitmq]: executing diffoscope
+[2023-06-16 11:09:35] INFO root fetch - processPackages [pytest-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-rabbitmq-3.0.0.tar.gz tmp/pytest-rabbitmq-3.0.1.tar.gz --markdown 20230616/p/pytest-rabbitmq/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-16 11:09:35] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-06-16 11:09:35] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.8.0b20230615.tar.gz tmp/autogluon.eda-0.8.0b20230616.tar.gz --markdown 20230616/a/autogluon.eda/0.8.0b20230615-0.8.0b20230616/diff.md --exclude *.pyd
+[2023-06-16 11:09:35] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-06-16 11:09:35] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.8.0b20230615.tar.gz tmp/autogluon-0.8.0b20230616.tar.gz --markdown 20230616/a/autogluon/0.8.0b20230615-0.8.0b20230616/diff.md --exclude *.pyd
+[2023-06-16 11:09:35] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-06-16 11:09:35] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.8.0b20230615.tar.gz tmp/autogluon.multimodal-0.8.0b20230616.tar.gz --markdown 20230616/a/autogluon.multimodal/0.8.0b20230615-0.8.0b20230616/diff.md --exclude *.pyd
+[2023-06-16 11:09:36] INFO root fetch - processPackages [PenguLogger]: Remove: archive file [/home/abi/fetcher/tmp/PenguLogger-0.1.1-py3-none-any.whl.zip]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [PenguLogger]: Remove: archive file [/home/abi/fetcher/tmp/PenguLogger-0.1.2.tar.gz]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [PenguLogger]: Start processing: blackboardsync
+[2023-06-16 11:09:36] INFO root fetch - main [MainThread]: End processing [PenguLogger]: success
+[2023-06-16 11:09:36] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230614.tar.gz]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230615.tar.gz]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [autogluon.cloud]: Start processing: pytk-net
+[2023-06-16 11:09:36] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-06-16 11:09:36] INFO root fetch - processPackages [pytk-net]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-16 11:09:36] WARNING root fetch - processPackages [blackboardsync]: Skipping, unable to determine old version
+[2023-06-16 11:09:36] INFO root fetch - processPackages [blackboardsync]: Start processing: pankmer
+[2023-06-16 11:09:36] INFO root fetch - main [MainThread]: End processing [blackboardsync] error
+[2023-06-16 11:09:36] INFO root fetch - processPackages [pankmer]: New version: [0.9.0] Old Version: [0.12.9]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/ee/98/dc6f6e14a0e2ca7e802890e49490318636814f50305eafbc4ff7b11933b0/pytk_net-0.2.0.tar.gz
+[2023-06-16 11:09:36] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/41/87/fce9d1a8959a27bb05cfca623e68aca4d19eafc5c4da6e03569dd3bd8afd/pankmer-0.12.9.tar.gz
+[2023-06-16 11:09:36] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/ec/87/885615746e80d9141ab39f7997ee1ac00677e583de2ddcd9b167d76993a6/pankmer-0.9.0.tar.gz
+[2023-06-16 11:09:36] INFO root fetch - processPackages [pankmer]: executing diffoscope
+[2023-06-16 11:09:36] INFO root fetch - processPackages [pankmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pankmer-0.12.9.tar.gz tmp/pankmer-0.9.0.tar.gz --markdown 20230616/p/pankmer/0.12.9-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 11:09:36] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.0b20230615.tar.gz]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.0b20230616.tar.gz]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [autogluon]: Start processing: mindinsight
+[2023-06-16 11:09:36] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-06-16 11:09:36] INFO root fetch - processPackages [pytest-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pytest-rabbitmq-3.0.0.tar.gz]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [pytest-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pytest-rabbitmq-3.0.1.tar.gz]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [pytest-rabbitmq]: Start processing: autopahe
+[2023-06-16 11:09:36] INFO root fetch - main [MainThread]: End processing [pytest-rabbitmq]: success
+[2023-06-16 11:09:36] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/8c/96/e81c7e7999ba2e8e693c95a1dfe4784aec09b4ab3a711f95bd9f33fa5c39/pytk_net-0.2.1.tar.gz
+[2023-06-16 11:09:36] INFO root fetch - processPackages [autopahe]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [autopahe]: Downloading https://files.pythonhosted.org/packages/87/2d/308c09b6bec5902759223162328e69021b04c8119d69b0a89ab8be8d740c/autopahe-0.2.0.tar.gz
+[2023-06-16 11:09:36] INFO root fetch - processPackages [mindinsight]: New version: [2.0.0rc1] Old Version: [2.0.0a0]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.0b20230615.tar.gz]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.0b20230616.tar.gz]
+[2023-06-16 11:09:36] INFO root fetch - processPackages [autogluon.eda]: Start processing: stauth
+[2023-06-16 11:09:36] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-06-16 11:09:37] INFO root fetch - processPackages [pytk-net]: executing diffoscope
+[2023-06-16 11:09:37] INFO root fetch - processPackages [pytk-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytk_net-0.2.0.tar.gz tmp/pytk_net-0.2.1.tar.gz --markdown 20230616/p/pytk-net/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-16 11:09:37] INFO root fetch - processPackages [autopahe]: Downloading https://files.pythonhosted.org/packages/f6/b1/3dde41d69c05c79c72f1ffc21afa7d4d36e3110710b52eea74c19a805e67/autopahe-1.0.0.tar.gz
+[2023-06-16 11:09:37] INFO root fetch - processPackages [stauth]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 11:09:37] INFO root fetch - processPackages [mindinsight]: Downloading https://files.pythonhosted.org/packages/09/13/8bb4c52f6e6e5dac97b0c6b686eccb6de02e643575a507edefceeeaea9b2/mindinsight-2.0.0a0-py3-none-any.whl
+[2023-06-16 11:09:37] INFO root fetch - processPackages [autopahe]: executing diffoscope
+[2023-06-16 11:09:37] INFO root fetch - processPackages [autopahe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopahe-0.2.0.tar.gz tmp/autopahe-1.0.0.tar.gz --markdown 20230616/a/autopahe/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-16 11:09:37] INFO root fetch - processPackages [stauth]: Downloading https://files.pythonhosted.org/packages/e6/01/b771d2629c628c34b96a54ee36c85245c7b06e592c1b7ce0f0e3c0a506ec/stauth-0.1.8.tar.gz
+[2023-06-16 11:09:37] INFO root fetch - processPackages [artus]: Remove: archive file [/home/abi/fetcher/tmp/artus-0.2.3.tar.gz]
+[2023-06-16 11:09:37] INFO root fetch - processPackages [artus]: Remove: archive file [/home/abi/fetcher/tmp/artus-0.3.0.tar.gz]
+[2023-06-16 11:09:37] INFO root fetch - main [MainThread]: End processing [artus]: success
+[2023-06-16 11:09:37] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.0b20230615.tar.gz]
+[2023-06-16 11:09:37] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.0b20230616.tar.gz]
+[2023-06-16 11:09:37] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-06-16 11:09:37] INFO root fetch - processPackages [stauth]: Downloading https://files.pythonhosted.org/packages/74/8e/43995a5ac867d5a8a8db30867a6410fa5f8c681161710c23124f88fb10c4/stauth-0.1.9.tar.gz
+[2023-06-16 11:09:37] INFO root fetch - processPackages [taipy-core]: Remove: archive file [/home/abi/fetcher/tmp/taipy-core-2.3.0.dev3.tar.gz]
+[2023-06-16 11:09:37] INFO root fetch - processPackages [taipy-core]: Remove: archive file [/home/abi/fetcher/tmp/taipy-core-2.3.0.dev4.tar.gz]
+[2023-06-16 11:09:37] INFO root fetch - main [MainThread]: End processing [taipy-core]: success
+[2023-06-16 11:09:37] INFO root fetch - processPackages [stauth]: executing diffoscope
+[2023-06-16 11:09:37] INFO root fetch - processPackages [stauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stauth-0.1.8.tar.gz tmp/stauth-0.1.9.tar.gz --markdown 20230616/s/stauth/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 11:09:38] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.741.tar.gz]
+[2023-06-16 11:09:38] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.744.tar.gz]
+[2023-06-16 11:09:38] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-06-16 11:09:38] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.0b20230615.tar.gz]
+[2023-06-16 11:09:38] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.0b20230616.tar.gz]
+[2023-06-16 11:09:38] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-06-16 11:09:38] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.12.9.tar.gz]
+[2023-06-16 11:09:38] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.9.0.tar.gz]
+[2023-06-16 11:09:38] INFO root fetch - main [MainThread]: End processing [pankmer]: success
+[2023-06-16 11:09:38] INFO root fetch - processPackages [autopahe]: Remove: archive file [/home/abi/fetcher/tmp/autopahe-0.2.0.tar.gz]
+[2023-06-16 11:09:38] INFO root fetch - processPackages [autopahe]: Remove: archive file [/home/abi/fetcher/tmp/autopahe-1.0.0.tar.gz]
+[2023-06-16 11:09:38] INFO root fetch - main [MainThread]: End processing [autopahe]: success
+[2023-06-16 11:09:38] INFO root fetch - processPackages [stauth]: Remove: archive file [/home/abi/fetcher/tmp/stauth-0.1.8.tar.gz]
+[2023-06-16 11:09:38] INFO root fetch - processPackages [stauth]: Remove: archive file [/home/abi/fetcher/tmp/stauth-0.1.9.tar.gz]
+[2023-06-16 11:09:38] INFO root fetch - main [MainThread]: End processing [stauth]: success
+[2023-06-16 11:09:39] INFO root fetch - processPackages [mindinsight]: Downloading https://files.pythonhosted.org/packages/57/fc/a2d1ec83b53e302816ffa0aa8bd3054f3b0c4df5c01464bd43d863de052b/mindinsight-2.0.0rc1-py3-none-any.whl
+[2023-06-16 11:09:39] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.2.0.tar.gz]
+[2023-06-16 11:09:39] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.2.1.tar.gz]
+[2023-06-16 11:09:39] INFO root fetch - main [MainThread]: End processing [pytk-net]: success
+[2023-06-16 11:09:40] INFO root fetch - processPackages [mindinsight]: executing diffoscope
+[2023-06-16 11:09:40] INFO root fetch - processPackages [mindinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindinsight-2.0.0a0-py3-none-any.whl.zip tmp/mindinsight-2.0.0rc1-py3-none-any.whl.zip --markdown 20230616/m/mindinsight/2.0.0a0-2.0.0rc1/diff.md --exclude *.pyd
+[2023-06-16 11:10:36] INFO root fetch - processPackages [mindinsight]: Remove: archive file [/home/abi/fetcher/tmp/mindinsight-2.0.0a0-py3-none-any.whl.zip]
+[2023-06-16 11:10:36] INFO root fetch - processPackages [mindinsight]: Remove: archive file [/home/abi/fetcher/tmp/mindinsight-2.0.0rc1-py3-none-any.whl.zip]
+[2023-06-16 11:10:36] INFO root fetch - main [MainThread]: End processing [mindinsight]: success
+[2023-06-16 11:10:36] INFO root fetch - main [MainThread]: Store serial: [18529856]
