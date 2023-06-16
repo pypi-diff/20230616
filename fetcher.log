@@ -21102,3 +21102,335 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 13:03:17] INFO root fetch - processPackages [pyavd]: Remove: archive file [/home/abi/fetcher/tmp/pyavd-4.0.0a2.dev2-py3-none-any.whl.zip]
 [2023-06-16 13:03:17] INFO root fetch - main [MainThread]: End processing [pyavd]: success
 [2023-06-16 13:03:17] INFO root fetch - main [MainThread]: Store serial: [18530826]
+[2023-06-16 13:08:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530826]
+[2023-06-16 13:08:29] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-16 13:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codeforlife-portal
+[2023-06-16 13:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cfl-common
+[2023-06-16 13:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2023-06-16 13:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-access-sdk
+[2023-06-16 13:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyfi
+[2023-06-16 13:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-science-toolkit
+[2023-06-16 13:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oasislmf
+[2023-06-16 13:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mkdocs-caption
+[2023-06-16 13:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tablite
+[2023-06-16 13:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datatonic-pipeline-components
+[2023-06-16 13:08:29] INFO root fetch - processPackages [data-science-toolkit]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-16 13:08:29] WARNING root fetch - processPackages [datatonic-pipeline-components]: Skipping, unable to determine old version
+[2023-06-16 13:08:29] INFO root fetch - processPackages [datatonic-pipeline-components]: Start processing: oasislmf
+[2023-06-16 13:08:29] INFO root fetch - main [MainThread]: End processing [datatonic-pipeline-components] error
+[2023-06-16 13:08:29] INFO root fetch - processPackages [hyfi]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-06-16 13:08:29] INFO root fetch - processPackages [tablite]: New version: [2023.6.dev6] Old Version: [2023.6.dev5]
+[2023-06-16 13:08:29] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-06-16 13:08:29] INFO root fetch - processPackages [mkdocs-caption]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-16 13:08:29] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230616110406] Old Version: [2.1.1.dev20230615203219]
+[2023-06-16 13:08:29] INFO root fetch - processPackages [oasislmf]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-16 13:08:29] INFO root fetch - processPackages [oasislmf]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-16 13:08:29] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-06-16 13:08:29] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-16 13:08:29] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2c/14/182a782356f624c8d2291893dbd99ced88a86a1fa20b7797d531e93ee3e1/hyfi-0.6.2.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/45/a7/13d8d1cc80a21c46a3b60377d03e6c4f80781e5310a0d9f4c15bcc606dc5/localstack-core-2.1.1.dev20230615203219.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [data-science-toolkit]: Downloading https://files.pythonhosted.org/packages/84/4d/ac456a5be9595af5e681e30c22ead40345f8f4f3b5e00c04d960b6a46738/data-science-toolkit-0.1.2.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/a6/ab/45657291419c43d4947b9cdecb6c9716293001edcf7717bd5a8e1c350df4/oasislmf-1.9.0.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [mkdocs-caption]: Downloading https://files.pythonhosted.org/packages/c5/69/0eb70e83af58aa0236f56e128f1062efdabcc1e8741caea8fd85d991208b/mkdocs_caption-0.0.2.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/a6/ab/45657291419c43d4947b9cdecb6c9716293001edcf7717bd5a8e1c350df4/oasislmf-1.9.0.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/f2/64/5ab978b8120de7ae692d018c5199869b5ead5f2b93f66d07692255bf9db8/tablite-2023.6.dev5-py3-none-any.whl
+[2023-06-16 13:08:29] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-16 13:08:29] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230616/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-16 13:08:29] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/62/bb/30dc12d946e56ad26af524a0f62f82de321dd822f71915f4c253adfb0133/hyfi-0.7.0.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d5/b8/960fca7dfdca8258940152339dfaffcd2ff6e026857519edb95a8ee30119/localstack-core-2.1.1.dev20230616110406.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-16 13:08:29] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.6.2.tar.gz tmp/hyfi-0.7.0.tar.gz --markdown 20230616/h/hyfi/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-06-16 13:08:29] INFO root fetch - processPackages [data-science-toolkit]: Downloading https://files.pythonhosted.org/packages/38/2f/44e4cb9c1e800b0a319c8801b4913bcb954e51268d493544859da85ecfd7/data-science-toolkit-0.1.3.tar.gz
+[2023-06-16 13:08:29] INFO root fetch - processPackages [mkdocs-caption]: Downloading https://files.pythonhosted.org/packages/81/b0/a7bc4683b2955da08bcb0edb719b6679102b8bd4a0dafbe4e64528a88083/mkdocs_caption-0.0.3.tar.gz
+[2023-06-16 13:08:30] INFO root fetch - processPackages [data-science-toolkit]: executing diffoscope
+[2023-06-16 13:08:30] INFO root fetch - processPackages [data-science-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-science-toolkit-0.1.2.tar.gz tmp/data-science-toolkit-0.1.3.tar.gz --markdown 20230616/d/data-science-toolkit/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-16 13:08:30] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/c0/a2/f54598bb29c68df6576f5c673975a6a6302c1490bb92ebfb5c0dafe8e6c4/oasislmf-1.9.1.tar.gz
+[2023-06-16 13:08:30] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/c0/a2/f54598bb29c68df6576f5c673975a6a6302c1490bb92ebfb5c0dafe8e6c4/oasislmf-1.9.1.tar.gz
+[2023-06-16 13:08:30] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/99/5b/c27fa855b2fd3abf4771f0e8d819bdaa59d57066de072c01c7c851995a28/tablite-2023.6.dev6-py3-none-any.whl
+[2023-06-16 13:08:30] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2023-06-16 13:08:30] INFO root fetch - processPackages [mkdocs-caption]: executing diffoscope
+[2023-06-16 13:08:30] INFO root fetch - processPackages [mkdocs-caption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_caption-0.0.2.tar.gz tmp/mkdocs_caption-0.0.3.tar.gz --markdown 20230616/m/mkdocs-caption/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-16 13:08:30] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2023-06-16 13:08:30] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2023.6.dev5-py3-none-any.whl.zip tmp/tablite-2023.6.dev6-py3-none-any.whl.zip --markdown 20230616/t/tablite/2023.6.dev5-2023.6.dev6/diff.md --exclude *.pyd
+[2023-06-16 13:08:30] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-16 13:08:30] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230615203219.tar.gz tmp/localstack-core-2.1.1.dev20230616110406.tar.gz --markdown 20230616/l/localstack-core/2.1.1.dev20230615203219-2.1.1.dev20230616110406/diff.md --exclude *.pyd
+[2023-06-16 13:08:30] INFO root fetch - processPackages [oasislmf]: executing diffoscope
+[2023-06-16 13:08:30] INFO root fetch - processPackages [oasislmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasislmf-1.9.0.tar.gz tmp/oasislmf-1.9.1.tar.gz --markdown 20230616/o/oasislmf/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-16 13:08:30] INFO root fetch - processPackages [oasislmf]: executing diffoscope
+[2023-06-16 13:08:30] INFO root fetch - processPackages [oasislmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasislmf-1.9.0.tar.gz tmp/oasislmf-1.9.1.tar.gz --markdown 20230616/o/oasislmf/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-16 13:08:30] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2023-06-16 13:08:30] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20230616/c/cfl-common/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-06-16 13:08:31] INFO root fetch - processPackages [data-science-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/data-science-toolkit-0.1.2.tar.gz]
+[2023-06-16 13:08:31] INFO root fetch - processPackages [data-science-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/data-science-toolkit-0.1.3.tar.gz]
+[2023-06-16 13:08:31] INFO root fetch - processPackages [data-science-toolkit]: Start processing: oasislmf
+[2023-06-16 13:08:31] INFO root fetch - main [MainThread]: End processing [data-science-toolkit]: success
+[2023-06-16 13:08:31] INFO root fetch - processPackages [oasislmf]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-16 13:08:31] INFO root fetch - processPackages [oasislmf]: executing diffoscope
+[2023-06-16 13:08:31] INFO root fetch - processPackages [oasislmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasislmf-1.9.0.tar.gz tmp/oasislmf-1.9.1.tar.gz --markdown 20230616/o/oasislmf/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-16 13:08:31] INFO root fetch - processPackages [mkdocs-caption]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_caption-0.0.2.tar.gz]
+[2023-06-16 13:08:31] INFO root fetch - processPackages [mkdocs-caption]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_caption-0.0.3.tar.gz]
+[2023-06-16 13:08:31] INFO root fetch - processPackages [mkdocs-caption]: Start processing: oasislmf
+[2023-06-16 13:08:31] INFO root fetch - main [MainThread]: End processing [mkdocs-caption]: success
+[2023-06-16 13:08:31] INFO root fetch - processPackages [oasislmf]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-16 13:08:31] INFO root fetch - processPackages [oasislmf]: executing diffoscope
+[2023-06-16 13:08:31] INFO root fetch - processPackages [oasislmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasislmf-1.9.0.tar.gz tmp/oasislmf-1.9.1.tar.gz --markdown 20230616/o/oasislmf/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-16 13:08:32] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.6.dev5-py3-none-any.whl.zip]
+[2023-06-16 13:08:32] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.6.dev6-py3-none-any.whl.zip]
+[2023-06-16 13:08:32] INFO root fetch - processPackages [tablite]: Start processing: oarepo-model-builder-multilingual
+[2023-06-16 13:08:32] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2023-06-16 13:08:32] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: New version: [3.0.1] Old Version: [2.0.8]
+[2023-06-16 13:08:32] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/2a/0d/2eeed3eb1a9f15416cf7eb5d1a2e63c28b44a4ceb31a77470a9441f0b7e8/oarepo-model-builder-multilingual-2.0.8.tar.gz
+[2023-06-16 13:08:32] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-06-16 13:08:32] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-06-16 13:08:32] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: weaviate-client
+[2023-06-16 13:08:32] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-16 13:08:32] INFO root fetch - processPackages [weaviate-client]: New version: [3.9.0b0] Old Version: [3.9.0.dev2]
+[2023-06-16 13:08:32] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2023-06-16 13:08:32] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2023-06-16 13:08:32] INFO root fetch - processPackages [cfl-common]: Start processing: idoctorai
+[2023-06-16 13:08:32] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2023-06-16 13:08:32] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2023-06-16 13:08:32] INFO root fetch - processPackages [idoctorai]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-16 13:08:32] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/a1/d9/328d2c6aed8e363c094bd43587cfa8ef629314f963f835f1c60669d65a0f/idoctorai-0.4.0.tar.gz
+[2023-06-16 13:08:32] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/a8/cb/8ca3061906481a9a6997baefa6ecc800dcaed0f08e1c84c55c609182fe2b/weaviate-client-3.9.0.dev2.tar.gz
+[2023-06-16 13:08:32] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/af/14/8b087e2816921af08bed7a666207b750374f05b9a99b79b9d5761b0d264f/oarepo-model-builder-multilingual-3.0.1.tar.gz
+[2023-06-16 13:08:32] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.6.2.tar.gz]
+[2023-06-16 13:08:32] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.7.0.tar.gz]
+[2023-06-16 13:08:32] INFO root fetch - processPackages [hyfi]: Start processing: Pyara
+[2023-06-16 13:08:32] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-16 13:08:32] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: executing diffoscope
+[2023-06-16 13:08:32] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-multilingual-2.0.8.tar.gz tmp/oarepo-model-builder-multilingual-3.0.1.tar.gz --markdown 20230616/o/oarepo-model-builder-multilingual/2.0.8-3.0.1/diff.md --exclude *.pyd
+[2023-06-16 13:08:32] INFO root fetch - processPackages [Pyara]: New version: [0.1.26] Old Version: [0.1.25]
+[2023-06-16 13:08:32] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/b2/65/f0da8fb3668e745d6c3a07ab3af99148b76e3689d2ecb45949c21f856476/idoctorai-0.4.1.tar.gz
+[2023-06-16 13:08:32] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/95/4f/1abc055cf5f2eaf85b2b835822c34c6864a87cb86f2104a7805b8520a4ad/Pyara-0.1.25.tar.gz
+[2023-06-16 13:08:32] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-16 13:08:32] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.4.0.tar.gz tmp/idoctorai-0.4.1.tar.gz --markdown 20230616/i/idoctorai/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-16 13:08:32] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/10/6b/0e242b95dd9ee12ed89f4af97e7bd0c82317c708e5a1de27406f7832d4e2/weaviate-client-3.9.0b0.tar.gz
+[2023-06-16 13:08:32] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2023-06-16 13:08:32] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate-client-3.9.0.dev2.tar.gz tmp/weaviate-client-3.9.0b0.tar.gz --markdown 20230616/w/weaviate-client/3.9.0.dev2-3.9.0b0/diff.md --exclude *.pyd
+[2023-06-16 13:08:33] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/5f/2a/8ce1c12b01a068594439f2aecadb925e4d6d0195b9901b797904e7f4eb91/Pyara-0.1.26.tar.gz
+[2023-06-16 13:08:33] INFO root fetch - processPackages [Pyara]: executing diffoscope
+[2023-06-16 13:08:33] INFO root fetch - processPackages [Pyara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyara-0.1.25.tar.gz tmp/Pyara-0.1.26.tar.gz --markdown 20230616/P/Pyara/0.1.25-0.1.26/diff.md --exclude *.pyd
+[2023-06-16 13:08:33] INFO root fetch - processPackages [oasislmf]: Remove: archive file [/home/abi/fetcher/tmp/oasislmf-1.9.0.tar.gz]
+[2023-06-16 13:08:33] INFO root fetch - processPackages [oasislmf]: Remove: archive file [/home/abi/fetcher/tmp/oasislmf-1.9.1.tar.gz]
+[2023-06-16 13:08:33] INFO root fetch - processPackages [oasislmf]: Start processing: betby
+[2023-06-16 13:08:33] INFO root fetch - main [MainThread]: End processing [oasislmf]: success
+[2023-06-16 13:08:33] INFO root fetch - processPackages [betby]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-16 13:08:33] INFO root fetch - processPackages [betby]: Downloading https://files.pythonhosted.org/packages/e8/80/bf8cca536844fd611697e1aa05ab7b8b6351cef3be545e3d0eb15ab6445f/betby-0.2.7.tar.gz
+[2023-06-16 13:08:33] INFO root fetch - processPackages [betby]: Downloading https://files.pythonhosted.org/packages/a1/d3/2db65b3634bd4353bf60cc4e6971ae213ae63f19ff7841041df0c3b138db/betby-0.2.8.tar.gz
+[2023-06-16 13:08:33] INFO root fetch - processPackages [betby]: executing diffoscope
+[2023-06-16 13:08:33] INFO root fetch - processPackages [betby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betby-0.2.7.tar.gz tmp/betby-0.2.8.tar.gz --markdown 20230616/b/betby/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-16 13:08:33] INFO root fetch - processPackages [oasislmf]: Start processing: pyreason
+[2023-06-16 13:08:33] INFO root fetch - main [MainThread]: End processing [oasislmf]: success
+[2023-06-16 13:08:33] INFO root fetch - processPackages [pyreason]: New version: [1.8.0] Old Version: [1.6.0]
+[2023-06-16 13:08:33] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/bc/ec/83010e538530fcbe19080cb5a4de7a8436c6323c7cb20534f126f3565889/pyreason-1.6.0.tar.gz
+[2023-06-16 13:08:33] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/cf/b3/b5aa0290dc3906bbb8f4a4c5f15d7667805ed7bb3b7996f1a06ff2f25807/pyreason-1.8.0.tar.gz
+[2023-06-16 13:08:33] INFO root fetch - processPackages [pyreason]: executing diffoscope
+[2023-06-16 13:08:33] INFO root fetch - processPackages [pyreason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreason-1.6.0.tar.gz tmp/pyreason-1.8.0.tar.gz --markdown 20230616/p/pyreason/1.6.0-1.8.0/diff.md --exclude *.pyd
+[2023-06-16 13:08:34] ERROR root fetch - processPackages [oasislmf]: Diffoscope failed: gzip: tmp/oasislmf-1.9.1.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/oasislmf-1.9.1.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-16 13:08:34] INFO root fetch - main [MainThread]: End processing [oasislmf] error
+[2023-06-16 13:08:34] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.0.tar.gz]
+[2023-06-16 13:08:34] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.1.tar.gz]
+[2023-06-16 13:08:34] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-16 13:08:34] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-multilingual-2.0.8.tar.gz]
+[2023-06-16 13:08:34] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-multilingual-3.0.1.tar.gz]
+[2023-06-16 13:08:34] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-multilingual]: success
+[2023-06-16 13:08:34] ERROR root fetch - processPackages [oasislmf]: Diffoscope failed: gzip: tmp/oasislmf-1.9.1.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/oasislmf-1.9.1.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-16 13:08:34] INFO root fetch - main [MainThread]: End processing [oasislmf] error
+[2023-06-16 13:08:34] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.25.tar.gz]
+[2023-06-16 13:08:34] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.26.tar.gz]
+[2023-06-16 13:08:34] INFO root fetch - main [MainThread]: End processing [Pyara]: success
+[2023-06-16 13:08:34] INFO root fetch - processPackages [betby]: Remove: archive file [/home/abi/fetcher/tmp/betby-0.2.7.tar.gz]
+[2023-06-16 13:08:34] INFO root fetch - processPackages [betby]: Remove: archive file [/home/abi/fetcher/tmp/betby-0.2.8.tar.gz]
+[2023-06-16 13:08:34] INFO root fetch - main [MainThread]: End processing [betby]: success
+[2023-06-16 13:08:35] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2023-06-16 13:08:35] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20230616/c/codeforlife-portal/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-06-16 13:08:35] INFO root fetch - processPackages [pyreason]: Remove: archive file [/home/abi/fetcher/tmp/pyreason-1.6.0.tar.gz]
+[2023-06-16 13:08:35] INFO root fetch - processPackages [pyreason]: Remove: archive file [/home/abi/fetcher/tmp/pyreason-1.8.0.tar.gz]
+[2023-06-16 13:08:35] INFO root fetch - main [MainThread]: End processing [pyreason]: success
+[2023-06-16 13:08:35] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0.dev2.tar.gz]
+[2023-06-16 13:08:35] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0b0.tar.gz]
+[2023-06-16 13:08:35] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2023-06-16 13:08:38] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230615203219.tar.gz]
+[2023-06-16 13:08:38] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230616110406.tar.gz]
+[2023-06-16 13:08:38] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-16 13:08:40] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2023-06-16 13:08:40] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2023-06-16 13:08:40] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2023-06-16 13:08:40] INFO root fetch - main [MainThread]: Store serial: [18530886]
