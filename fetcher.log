@@ -9946,3 +9946,95 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 04:23:26] INFO root fetch - processPackages [g42cloudsdkvpc]: Remove: archive file [/home/abi/fetcher/tmp/g42cloudsdkvpc-0.0.7b0-py2.py3-none-any.whl.zip]
 [2023-06-16 04:23:26] INFO root fetch - main [MainThread]: End processing [g42cloudsdkvpc]: success
 [2023-06-16 04:23:26] INFO root fetch - main [MainThread]: Store serial: [18526313]
+[2023-06-16 04:28:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526313]
+[2023-06-16 04:28:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-16 04:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quao
+[2023-06-16 04:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-chat-foto
+[2023-06-16 04:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spider-st
+[2023-06-16 04:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shawn
+[2023-06-16 04:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zephony
+[2023-06-16 04:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llamabot
+[2023-06-16 04:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: numpy-illustrated
+[2023-06-16 04:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pit30m
+[2023-06-16 04:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rattail
+[2023-06-16 04:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybuc
+[2023-06-16 04:28:35] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-16 04:28:35] INFO root fetch - processPackages [shawn]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 04:28:35] INFO root fetch - processPackages [numpy-illustrated]: New version: [0.3.1] Old Version: [0.3]
+[2023-06-16 04:28:35] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 04:28:35] WARNING root fetch - processPackages [streamlit-chat-foto]: Skipping, unable to determine old version
+[2023-06-16 04:28:35] INFO root fetch - processPackages [streamlit-chat-foto]: Start processing: odoo-addon-sql-export
+[2023-06-16 04:28:35] INFO root fetch - main [MainThread]: End processing [streamlit-chat-foto] error
+[2023-06-16 04:28:35] INFO root fetch - processPackages [pit30m]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 04:28:35] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 04:28:35] INFO root fetch - processPackages [zephony]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-06-16 04:28:35] INFO root fetch - processPackages [pybuc]: New version: [0.9.10] Old Version: [0.8.10]
+[2023-06-16 04:28:35] INFO root fetch - processPackages [quao]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-16 04:28:35] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [pybuc]: Downloading https://files.pythonhosted.org/packages/ff/a6/647d6e38a6519bf2966722e1789589d0e50eea7a6376967ab7afbc093f70/pybuc-0.8.10.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [odoo-addon-sql-export]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.7]
+[2023-06-16 04:28:35] INFO root fetch - processPackages [numpy-illustrated]: Downloading https://files.pythonhosted.org/packages/6d/8b/c5f4cd1ddd197f4f59d02930f0a9968b022499d4523da2490beb04ee7a2c/numpy-illustrated-0.3.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [shawn]: Downloading https://files.pythonhosted.org/packages/ad/f6/34c2492d1cfc99cb046403bc6dabfce5400386c141887ab282149b99b04c/shawn-0.1.1.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/25/fc/2c8476b699dbf95d4bb27f4b9ef0f67ea923406f77570aae30d0a99459aa/zephony-0.8.1.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [pit30m]: Downloading https://files.pythonhosted.org/packages/90/cd/19776cbac127a2a52ab31ad79505b453349fbca24ba3e9e07ce6a2b9aca8/pit30m-0.0.1.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/fc/34/001f26877eefc819431b2d8bf99c89bb2458fd2deaeb0eec092a882a09c1/quao-0.2.3.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-06-16 04:28:35] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230616/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 04:28:35] INFO root fetch - processPackages [pybuc]: Downloading https://files.pythonhosted.org/packages/36/ff/435775953f489894dbc63700890c9984ecc56774ee84cef35a35acadf8b2/pybuc-0.9.10.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [odoo-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/0d/42/427cb6912db4388d0ccf754f975a501d048e51e04faba46ae9ffaeae0e59/odoo_addon_sql_export-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-16 04:28:35] WARNING root fetch - processPackages [shawn]: Skipping package: exceeds size limit 34149526>=10485760
+[2023-06-16 04:28:35] INFO root fetch - main [MainThread]: End processing [shawn] error
+[2023-06-16 04:28:35] INFO root fetch - processPackages [pybuc]: executing diffoscope
+[2023-06-16 04:28:35] INFO root fetch - processPackages [pybuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuc-0.8.10.tar.gz tmp/pybuc-0.9.10.tar.gz --markdown 20230616/p/pybuc/0.8.10-0.9.10/diff.md --exclude *.pyd
+[2023-06-16 04:28:35] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-06-16 04:28:35] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230616/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-16 04:28:35] INFO root fetch - processPackages [numpy-illustrated]: Downloading https://files.pythonhosted.org/packages/50/42/7c4870f49d95783950a0b3330b1ab0d9505384cecb604ada5fd17a3490a1/numpy-illustrated-0.3.1.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [numpy-illustrated]: executing diffoscope
+[2023-06-16 04:28:35] INFO root fetch - processPackages [numpy-illustrated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpy-illustrated-0.3.tar.gz tmp/numpy-illustrated-0.3.1.tar.gz --markdown 20230616/n/numpy-illustrated/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-06-16 04:28:35] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/a0/97/97ee33d23bbeafd6063dcc5586406b4ed51a15385c72436b1efe3cc09c88/quao-0.2.4.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [pit30m]: Downloading https://files.pythonhosted.org/packages/9a/35/47a7e7920bb5f285ae0f5b018a9a4752a93aecaad782e24f3868df164514/pit30m-0.0.2.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/35/3c/05ea992af0402117582743352f4731daf63ced4594fe71f3aa7cda19cc44/zephony-0.9.1.tar.gz
+[2023-06-16 04:28:35] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-16 04:28:35] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.3.tar.gz tmp/quao-0.2.4.tar.gz --markdown 20230616/q/quao/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-16 04:28:36] INFO root fetch - processPackages [pit30m]: executing diffoscope
+[2023-06-16 04:28:36] INFO root fetch - processPackages [pit30m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pit30m-0.0.1.tar.gz tmp/pit30m-0.0.2.tar.gz --markdown 20230616/p/pit30m/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 04:28:36] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-16 04:28:36] INFO root fetch - processPackages [odoo-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/71/02/4a30c4d8081977ca0848bfaada85c9547ff14277fad6fa23bf344eb78d42/odoo_addon_sql_export-16.0.1.0.1-py3-none-any.whl
+[2023-06-16 04:28:36] INFO root fetch - processPackages [zephony]: executing diffoscope
+[2023-06-16 04:28:36] INFO root fetch - processPackages [zephony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zephony-0.8.1.tar.gz tmp/zephony-0.9.1.tar.gz --markdown 20230616/z/zephony/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-06-16 04:28:36] INFO root fetch - processPackages [odoo-addon-sql-export]: executing diffoscope
+[2023-06-16 04:28:36] INFO root fetch - processPackages [odoo-addon-sql-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sql_export-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_sql_export-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-sql-export/16.0.1.0.0.7-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-16 04:28:36] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-16 04:28:36] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230616/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 04:28:36] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-06-16 04:28:36] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-06-16 04:28:36] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-06-16 04:28:37] INFO root fetch - processPackages [numpy-illustrated]: Remove: archive file [/home/abi/fetcher/tmp/numpy-illustrated-0.3.tar.gz]
+[2023-06-16 04:28:37] INFO root fetch - processPackages [numpy-illustrated]: Remove: archive file [/home/abi/fetcher/tmp/numpy-illustrated-0.3.1.tar.gz]
+[2023-06-16 04:28:37] INFO root fetch - main [MainThread]: End processing [numpy-illustrated]: success
+[2023-06-16 04:28:37] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-0.8.1.tar.gz]
+[2023-06-16 04:28:37] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-0.9.1.tar.gz]
+[2023-06-16 04:28:37] INFO root fetch - main [MainThread]: End processing [zephony]: success
+[2023-06-16 04:28:38] INFO root fetch - processPackages [odoo-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sql_export-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-16 04:28:38] INFO root fetch - processPackages [odoo-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sql_export-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-16 04:28:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-sql-export]: success
+[2023-06-16 04:28:38] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.3.tar.gz]
+[2023-06-16 04:28:38] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.4.tar.gz]
+[2023-06-16 04:28:38] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-16 04:28:39] INFO root fetch - processPackages [pit30m]: Remove: archive file [/home/abi/fetcher/tmp/pit30m-0.0.1.tar.gz]
+[2023-06-16 04:28:39] INFO root fetch - processPackages [pit30m]: Remove: archive file [/home/abi/fetcher/tmp/pit30m-0.0.2.tar.gz]
+[2023-06-16 04:28:39] INFO root fetch - main [MainThread]: End processing [pit30m]: success
+[2023-06-16 04:28:39] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.8.10.tar.gz]
+[2023-06-16 04:28:39] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.9.10.tar.gz]
+[2023-06-16 04:28:39] INFO root fetch - main [MainThread]: End processing [pybuc]: success
+[2023-06-16 04:28:41] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.98.tar.gz]
+[2023-06-16 04:28:41] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.99.tar.gz]
+[2023-06-16 04:28:41] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-06-16 04:28:48] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-16 04:28:48] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-16 04:28:48] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-16 04:28:48] INFO root fetch - main [MainThread]: Store serial: [18526346]
