@@ -2348,3 +2348,168 @@
 [2023-06-16 02:14:53] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
 [2023-06-16 02:14:53] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
 [2023-06-16 02:14:53] INFO root fetch - main [MainThread]: Store serial: [18523706]
+[2023-06-16 02:19:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523706]
+[2023-06-16 02:20:02] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-16 02:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-events-notify
+[2023-06-16 02:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdk8s
+[2023-06-16 02:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: topometry
+[2023-06-16 02:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytorch-ignite
+[2023-06-16 02:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zxkane.cdk-construct-simple-nat
+[2023-06-16 02:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2023-06-16 02:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huma-signals
+[2023-06-16 02:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-common
+[2023-06-16 02:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arrgh
+[2023-06-16 02:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchmultimodal-nightly
+[2023-06-16 02:20:02] INFO root fetch - processPackages [cdktf-cdk8s]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-16 02:20:02] INFO root fetch - processPackages [topometry]: New version: [0.2.0.8] Old Version: [0.2.0.7]
+[2023-06-16 02:20:02] INFO root fetch - processPackages [arrgh]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-16 02:20:02] INFO root fetch - processPackages [huma-signals]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-16 02:20:02] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2023-06-16 02:20:02] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-16 02:20:02] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-16 02:20:02] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/40/1b/7f42d3c54611f3f2b2941ce7ba742d607b114d1f30e11f4d01b4333e70c2/topometry-0.2.0.7.tar.gz
+[2023-06-16 02:20:02] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-16 02:20:02] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/01/2c/28f0b5f8f77c2e17b5216b8b80c46d60b1d59933aba59ea93febac06723e/cdktf-cdk8s-0.5.8.tar.gz
+[2023-06-16 02:20:02] INFO root fetch - processPackages [torchmultimodal-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-16 02:20:02] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/8e/42/0a609d15782dbbbc9ed11adae4b6947cb95d90050b2993420f854023f40d/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz
+[2023-06-16 02:20:02] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-16 02:20:02] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2023-06-16 02:20:02] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230616] Old Version: [0.5.0.dev20230615]
+[2023-06-16 02:20:02] INFO root fetch - processPackages [arrgh]: Downloading https://files.pythonhosted.org/packages/21/5a/938cd7714f27fbcdc22cb0ba8f2488caaf973577faf14bc69135d1417228/arrgh-0.0.1.tar.gz
+[2023-06-16 02:20:02] INFO root fetch - processPackages [huma-signals]: Downloading https://files.pythonhosted.org/packages/8b/6f/b78535318796bfdcf8bc7ac4ce244c8127946be2467b5ff36d857fb7c3d2/huma_signals-0.4.0.tar.gz
+[2023-06-16 02:20:02] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/5b/2b/d54d68a84df8790c1e57d3933908064c5374b1633bd49b3faaa42291b5d3/pytorch-ignite-0.5.0.dev20230615.tar.gz
+[2023-06-16 02:20:02] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/e8/3b/a177b041c22f741484d2597a6e9b7d66cb3c2f2fb06c3a029d4cc4b0317a/cdktf-cdk8s-0.5.9.tar.gz
+[2023-06-16 02:20:03] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/d8/ef/43f73be1bccd85bfcbb0bc73841183ac2fe2143f6c4435878266d1eb3995/topometry-0.2.0.8.tar.gz
+[2023-06-16 02:20:03] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2023-06-16 02:20:03] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-06-16 02:20:03] INFO root fetch - processPackages [torchmultimodal-nightly]: Downloading https://files.pythonhosted.org/packages/42/c8/411994c16e1a23385696591b1dd41dc1bf10e77371e97784e6415e4caac2/torchmultimodal_nightly-2023.6.8-py39-none-any.whl
+[2023-06-16 02:20:03] INFO root fetch - processPackages [cdktf-cdk8s]: executing diffoscope
+[2023-06-16 02:20:03] INFO root fetch - processPackages [cdktf-cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdk8s-0.5.8.tar.gz tmp/cdktf-cdk8s-0.5.9.tar.gz --markdown 20230616/c/cdktf-cdk8s/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-16 02:20:03] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-16 02:20:03] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/b9/f8/6046aa2afc88718422d134f2f5818c383b5e88aa849c8a4d74a3c1bf370e/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz
+[2023-06-16 02:20:03] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2023-06-16 02:20:03] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20230616/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2023-06-16 02:20:03] INFO root fetch - processPackages [arrgh]: Downloading https://files.pythonhosted.org/packages/d9/6e/58751b087ac207324f00ce41dbd8acda3370a77feec56687afd11917796e/arrgh-1.0.0.tar.gz
+[2023-06-16 02:20:03] INFO root fetch - processPackages [huma-signals]: Downloading https://files.pythonhosted.org/packages/b2/fd/8a15a1518aab9eeb84460ad88c89f5a034ed276d6f12d0c551f913cc602b/huma_signals-0.4.1.tar.gz
+[2023-06-16 02:20:03] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/93/8f/8045f1fdb8a5044fe319ea99446e81e15daae25578ffe8d7e137af05dd47/pytorch-ignite-0.5.0.dev20230616.tar.gz
+[2023-06-16 02:20:03] INFO root fetch - processPackages [topometry]: executing diffoscope
+[2023-06-16 02:20:03] INFO root fetch - processPackages [topometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topometry-0.2.0.7.tar.gz tmp/topometry-0.2.0.8.tar.gz --markdown 20230616/t/topometry/0.2.0.7-0.2.0.8/diff.md --exclude *.pyd
+[2023-06-16 02:20:03] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-16 02:20:03] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230616/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-16 02:20:03] INFO root fetch - processPackages [arrgh]: executing diffoscope
+[2023-06-16 02:20:03] INFO root fetch - processPackages [arrgh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrgh-0.0.1.tar.gz tmp/arrgh-1.0.0.tar.gz --markdown 20230616/a/arrgh/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-16 02:20:03] INFO root fetch - processPackages [huma-signals]: executing diffoscope
+[2023-06-16 02:20:03] INFO root fetch - processPackages [huma-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huma_signals-0.4.0.tar.gz tmp/huma_signals-0.4.1.tar.gz --markdown 20230616/h/huma-signals/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-16 02:20:03] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: executing diffoscope
+[2023-06-16 02:20:03] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz --markdown 20230616/z/zxkane.cdk-construct-simple-nat/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-16 02:20:03] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-06-16 02:20:03] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-06-16 02:20:03] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230615.tar.gz tmp/pytorch-ignite-0.5.0.dev20230616.tar.gz --markdown 20230616/p/pytorch-ignite/0.5.0.dev20230615-0.5.0.dev20230616/diff.md --exclude *.pyd
+[2023-06-16 02:20:03] INFO root fetch - processPackages [torchmultimodal-nightly]: Downloading https://files.pythonhosted.org/packages/cd/ef/09bc025f468361505611d73ee3564b322af2a59d2ad52a0d2758c4978209/torchmultimodal_nightly-2023.6.9-py39-none-any.whl
+[2023-06-16 02:20:03] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-06-16 02:20:03] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230616/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-16 02:20:03] INFO root fetch - processPackages [torchmultimodal-nightly]: executing diffoscope
+[2023-06-16 02:20:03] INFO root fetch - processPackages [torchmultimodal-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmultimodal_nightly-2023.6.8-py39-none-any.whl.zip tmp/torchmultimodal_nightly-2023.6.9-py39-none-any.whl.zip --markdown 20230616/t/torchmultimodal-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-16 02:20:04] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2023-06-16 02:20:04] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2023-06-16 02:20:04] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Start processing: pepperize.cdk-github
+[2023-06-16 02:20:04] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2023-06-16 02:20:04] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 02:20:04] INFO root fetch - processPackages [topometry]: Remove: archive file [/home/abi/fetcher/tmp/topometry-0.2.0.7.tar.gz]
+[2023-06-16 02:20:04] INFO root fetch - processPackages [topometry]: Remove: archive file [/home/abi/fetcher/tmp/topometry-0.2.0.8.tar.gz]
+[2023-06-16 02:20:04] INFO root fetch - processPackages [topometry]: Start processing: coiled
+[2023-06-16 02:20:04] INFO root fetch - main [MainThread]: End processing [topometry]: success
+[2023-06-16 02:20:05] INFO root fetch - processPackages [coiled]: New version: [0.7.6.dev9] Old Version: [0.7.6.dev8]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.5.8.tar.gz]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.5.9.tar.gz]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdktf-cdk8s]: Start processing: d20-orm
+[2023-06-16 02:20:05] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
+[2023-06-16 02:20:05] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-common]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-06-16 02:20:05] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-16 02:20:05] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/9b/1a/d3ed5fa8f7ff31c912c287481792d4dde702182cc6a2cd5b8fa71c49013b/coiled-0.7.6.dev8.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [huma-signals]: Remove: archive file [/home/abi/fetcher/tmp/huma_signals-0.4.0.tar.gz]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [huma-signals]: Remove: archive file [/home/abi/fetcher/tmp/huma_signals-0.4.1.tar.gz]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [huma-signals]: Start processing: cdklabs.appsync-utils
+[2023-06-16 02:20:05] INFO root fetch - main [MainThread]: End processing [huma-signals]: success
+[2023-06-16 02:20:05] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [arrgh]: Remove: archive file [/home/abi/fetcher/tmp/arrgh-0.0.1.tar.gz]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [arrgh]: Remove: archive file [/home/abi/fetcher/tmp/arrgh-1.0.0.tar.gz]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [arrgh]: Start processing: fastapi-cruddy-framework
+[2023-06-16 02:20:05] INFO root fetch - main [MainThread]: End processing [arrgh]: success
+[2023-06-16 02:20:05] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/05/28/a33d4ee3421eb21cf1a92c3a09c615ca44e2fcba23371082b0d9384efe41/coiled-0.7.6.dev9.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [fastapi-cruddy-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-06-16 02:20:05] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230616/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-16 02:20:05] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.6.dev8.tar.gz tmp/coiled-0.7.6.dev9.tar.gz --markdown 20230616/c/coiled/0.7.6.dev8-0.7.6.dev9/diff.md --exclude *.pyd
+[2023-06-16 02:20:05] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-16 02:20:05] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230616/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230616/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-events-notify]: Start processing: a-bigelow.cdk-eventbridge-partner-processors
+[2023-06-16 02:20:05] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-06-16 02:20:05] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/35/25/12d956cf6a12e9b80d068639448c3168dced8b09421e2bcc9d836834b0b0/fastapi_cruddy_framework-0.0.8.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Downloading https://files.pythonhosted.org/packages/48/a8/263041f72e28e48a61da3038506e6dff7e193f0a9a99659f5af5f290f46f/a-bigelow.cdk-eventbridge-partner-processors-0.0.98.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [torchmultimodal-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchmultimodal_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [torchmultimodal-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchmultimodal_nightly-2023.6.9-py39-none-any.whl.zip]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [torchmultimodal-nightly]: Start processing: cdk-budibase
+[2023-06-16 02:20:05] INFO root fetch - main [MainThread]: End processing [torchmultimodal-nightly]: success
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/62/dc/735d9d12ecb4f45fbeec425ce346e9dda4180273b7b8a3b7d1bd7c2aaf3d/cdk-budibase-0.0.8.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20230616/c/cdklabs.appsync-utils/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 02:20:05] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz]
+[2023-06-16 02:20:05] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz]
+[2023-06-16 02:20:05] INFO root fetch - main [MainThread]: End processing [zxkane.cdk-construct-simple-nat]: success
+[2023-06-16 02:20:05] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Downloading https://files.pythonhosted.org/packages/30/d0/0f99b15dece1c9b0a7f7827179d38814c1186e463612d88b29c6737b4b2e/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: executing diffoscope
+[2023-06-16 02:20:05] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.98.tar.gz tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz --markdown 20230616/a/a-bigelow.cdk-eventbridge-partner-processors/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/da/f5/b8a55cb7b91c83756a41eda4ae26245020499ddf771f27b33c7dc1a4ce2d/cdk-budibase-0.0.9.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/42/cf/ab76e6d9347a6ad42b9fa537b6285bf61f469bcc21324b6fd6ca9edfba97/fastapi_cruddy_framework-0.0.9.tar.gz
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2023-06-16 02:20:05] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.8.tar.gz tmp/cdk-budibase-0.0.9.tar.gz --markdown 20230616/c/cdk-budibase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 02:20:06] INFO root fetch - processPackages [fastapi-cruddy-framework]: executing diffoscope
+[2023-06-16 02:20:06] INFO root fetch - processPackages [fastapi-cruddy-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cruddy_framework-0.0.8.tar.gz tmp/fastapi_cruddy_framework-0.0.9.tar.gz --markdown 20230616/f/fastapi-cruddy-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 02:20:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2023-06-16 02:20:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2023-06-16 02:20:06] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-06-16 02:20:06] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.6.dev8.tar.gz]
+[2023-06-16 02:20:06] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.6.dev9.tar.gz]
+[2023-06-16 02:20:06] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-16 02:20:07] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.8.tar.gz]
+[2023-06-16 02:20:07] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.9.tar.gz]
+[2023-06-16 02:20:07] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
+[2023-06-16 02:20:07] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2023-06-16 02:20:07] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2023-06-16 02:20:07] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2023-06-16 02:20:08] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.8.tar.gz]
+[2023-06-16 02:20:08] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.9.tar.gz]
+[2023-06-16 02:20:08] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2023-06-16 02:20:08] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230615.tar.gz]
+[2023-06-16 02:20:08] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230616.tar.gz]
+[2023-06-16 02:20:08] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-06-16 02:20:08] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-06-16 02:20:08] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-06-16 02:20:08] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-06-16 02:20:09] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Remove: archive file [/home/abi/fetcher/tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.98.tar.gz]
+[2023-06-16 02:20:09] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Remove: archive file [/home/abi/fetcher/tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz]
+[2023-06-16 02:20:09] INFO root fetch - main [MainThread]: End processing [a-bigelow.cdk-eventbridge-partner-processors]: success
+[2023-06-16 02:20:59] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-16 02:20:59] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-16 02:20:59] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-16 02:20:59] INFO root fetch - main [MainThread]: Store serial: [18523761]
