@@ -9359,3 +9359,96 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 03:45:59] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-2.0.0b1.tar.gz]
 [2023-06-16 03:45:59] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
 [2023-06-16 03:45:59] INFO root fetch - main [MainThread]: Store serial: [18526079]
+[2023-06-16 03:51:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526079]
+[2023-06-16 03:51:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-16 03:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-apl
+[2023-06-16 03:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manifast
+[2023-06-16 03:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-wordpress
+[2023-06-16 03:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airunner
+[2023-06-16 03:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dorado
+[2023-06-16 03:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openi
+[2023-06-16 03:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openi-beta
+[2023-06-16 03:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2023-06-16 03:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pypi-changes
+[2023-06-16 03:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jquants-api-client
+[2023-06-16 03:51:08] INFO root fetch - processPackages [manifast]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 03:51:08] INFO root fetch - processPackages [pypi-changes]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-16 03:51:08] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-16 03:51:08] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-06-16 03:51:08] INFO root fetch - processPackages [openi]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-16 03:51:08] INFO root fetch - processPackages [jquants-api-client]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-16 03:51:08] INFO root fetch - processPackages [openi-beta]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-16 03:51:08] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 03:51:08] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.837] Old Version: [0.0.836]
+[2023-06-16 03:51:08] INFO root fetch - processPackages [yplib]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-06-16 03:51:08] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/28/c3/25ec9324622ba0dd720edcd3809a1c623c162133d247d2e22790624c723b/dorado-2.0.6.dev97.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/3b/3e/fe8004a633fb93b68bd4925060b96966fcc1479601abe888648909ce135e/openi-0.0.1.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/88/85/0f4706906fa1fbae97228971a5a77714ac9f4cea266c63231333736f1849/openi-beta-0.0.9.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e0/1c/362e1eb73ec6814777c5fd945bb412a03a2c198374d16ce4efd41dbfa489/yplib-1.4.5.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/e6/e7/5672e125544ca611fa088046408728250f89c854258b075dcca60b09401e/nbdev-apl-0.0.836.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/81/64/b9fb5b4730295428c2c14d9aa6a89eba2dc6f59a264f7ee694a6733b622d/manifast-0.0.8.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [jquants-api-client]: Downloading https://files.pythonhosted.org/packages/8f/50/8d97adc00651d4c831639d91f61831bef6439e941d8cb152127e6810e3d1/jquants_api_client-1.2.0.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [pypi-changes]: Downloading https://files.pythonhosted.org/packages/66/ee/be6bbc0e840f903d68bc4123788b7cb1582092e3875eb7103730ea23d01c/pypi_changes-1.2.0.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/b9/2e/854512bc2085bd5738d74bd4b50e4a958e43ee3e802999c5402e429e6030/dorado-2.0.6.dev99.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-06-16 03:51:09] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230616/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-06-16 03:51:09] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/10/93/3c7701daaea202717c4a47eebb0846ff043ab23133fc7e72e9af352f94f8/openi-beta-0.1.0.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/aa/42/8ac806326204b28f4f48f82087dad3ec5236ecac93e09ee2841ec97d0f2b/nbdev-apl-0.0.837.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/5d/b6/495a6c2f70a3536d316f6f3bfbfa22bb12b47dc2344338c923edce69cf3d/yplib-1.4.6.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/eb/18/3a1019e00689d34e9b638ed22ca15c9e8b28fb3a6ed43fc88e53ffd4d11a/openi-1.0.0.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [pypi-changes]: Downloading https://files.pythonhosted.org/packages/db/28/f65f213e2c69f1537508694d0b05c0677cce79de8d29ff0c463a89e63f8f/pypi_changes-1.2.1.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [openi]: executing diffoscope
+[2023-06-16 03:51:09] INFO root fetch - processPackages [openi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-0.0.1.tar.gz tmp/openi-1.0.0.tar.gz --markdown 20230616/o/openi/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-16 03:51:09] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-16 03:51:09] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230616/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 03:51:09] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-06-16 03:51:09] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230616/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-16 03:51:09] INFO root fetch - processPackages [pypi-changes]: executing diffoscope
+[2023-06-16 03:51:09] INFO root fetch - processPackages [pypi-changes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_changes-1.2.0.tar.gz tmp/pypi_changes-1.2.1.tar.gz --markdown 20230616/p/pypi-changes/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-16 03:51:09] INFO root fetch - processPackages [jquants-api-client]: Downloading https://files.pythonhosted.org/packages/28/4e/19717cb44900aef9ddd21903d6be3a47f39e87b45a2dccb2d8087ce2a7b8/jquants_api_client-1.3.0.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-06-16 03:51:09] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-0.0.9.tar.gz tmp/openi-beta-0.1.0.tar.gz --markdown 20230616/o/openi-beta/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-16 03:51:09] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/57/ba/b199fd85bb13cb9c3846d1f9b76e0d143d4ef55451056b4cc69a454abf2e/manifast-0.0.9.tar.gz
+[2023-06-16 03:51:09] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-16 03:51:09] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 03:51:09] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.836.tar.gz tmp/nbdev-apl-0.0.837.tar.gz --markdown 20230616/n/nbdev-apl/0.0.836-0.0.837/diff.md --exclude *.pyd
+[2023-06-16 03:51:09] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.4.5.tar.gz tmp/yplib-1.4.6.tar.gz --markdown 20230616/y/yplib/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-06-16 03:51:09] INFO root fetch - processPackages [jquants-api-client]: executing diffoscope
+[2023-06-16 03:51:09] INFO root fetch - processPackages [jquants-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jquants_api_client-1.2.0.tar.gz tmp/jquants_api_client-1.3.0.tar.gz --markdown 20230616/j/jquants-api-client/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-16 03:51:09] INFO root fetch - processPackages [manifast]: executing diffoscope
+[2023-06-16 03:51:09] INFO root fetch - processPackages [manifast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifast-0.0.8.tar.gz tmp/manifast-0.0.9.tar.gz --markdown 20230616/m/manifast/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 03:51:10] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-0.0.1.tar.gz]
+[2023-06-16 03:51:10] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-1.0.0.tar.gz]
+[2023-06-16 03:51:10] INFO root fetch - main [MainThread]: End processing [openi]: success
+[2023-06-16 03:51:11] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-16 03:51:11] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.4.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.5.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-06-16 03:51:11] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.836.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.837.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-16 03:51:11] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.4.5.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.4.6.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 03:51:11] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.0.9.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.1.0.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-06-16 03:51:11] INFO root fetch - processPackages [jquants-api-client]: Remove: archive file [/home/abi/fetcher/tmp/jquants_api_client-1.2.0.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - processPackages [jquants-api-client]: Remove: archive file [/home/abi/fetcher/tmp/jquants_api_client-1.3.0.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - main [MainThread]: End processing [jquants-api-client]: success
+[2023-06-16 03:51:11] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.8.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.9.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - main [MainThread]: End processing [manifast]: success
+[2023-06-16 03:51:11] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev97.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev99.tar.gz]
+[2023-06-16 03:51:11] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-06-16 03:51:12] INFO root fetch - processPackages [pypi-changes]: Remove: archive file [/home/abi/fetcher/tmp/pypi_changes-1.2.0.tar.gz]
+[2023-06-16 03:51:12] INFO root fetch - processPackages [pypi-changes]: Remove: archive file [/home/abi/fetcher/tmp/pypi_changes-1.2.1.tar.gz]
+[2023-06-16 03:51:12] INFO root fetch - main [MainThread]: End processing [pypi-changes]: success
+[2023-06-16 03:51:12] INFO root fetch - main [MainThread]: Store serial: [18526113]
