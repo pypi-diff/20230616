@@ -16513,3 +16513,119 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 09:58:31] INFO root fetch - processPackages [recnetpy]: Remove: archive file [/home/abi/fetcher/tmp/recnetpy-0.1.49.tar.gz]
 [2023-06-16 09:58:31] INFO root fetch - main [MainThread]: End processing [recnetpy]: success
 [2023-06-16 09:58:31] INFO root fetch - main [MainThread]: Store serial: [18528909]
+[2023-06-16 10:03:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528909]
+[2023-06-16 10:03:40] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-16 10:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2023-06-16 10:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bagbag
+[2023-06-16 10:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyNihongo
+[2023-06-16 10:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heyang-test
+[2023-06-16 10:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-release-channel
+[2023-06-16 10:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finflo
+[2023-06-16 10:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: subtr-actor-py
+[2023-06-16 10:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: struct-bias
+[2023-06-16 10:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-shopfloor
+[2023-06-16 10:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addons-oca-wms
+[2023-06-16 10:03:40] WARNING root fetch - processPackages [heyang-test]: Skipping, unable to determine old version
+[2023-06-16 10:03:40] INFO root fetch - processPackages [heyang-test]: Start processing: bytetrade-recommend-model-sdk
+[2023-06-16 10:03:40] INFO root fetch - main [MainThread]: End processing [heyang-test] error
+[2023-06-16 10:03:40] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: New version: [16.0.2.3.0.1] Old Version: [16.0.2.3.0]
+[2023-06-16 10:03:40] INFO root fetch - processPackages [struct-bias]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-16 10:03:40] INFO root fetch - processPackages [subtr-actor-py]: New version: [0.1.4] Old Version: [0.1.1]
+[2023-06-16 10:03:40] INFO root fetch - processPackages [odoo14-addons-oca-wms]: New version: [14.0.20230615.0] Old Version: [14.0.20230526.1]
+[2023-06-16 10:03:40] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-06-16 10:03:40] INFO root fetch - processPackages [finflo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-16 10:03:40] INFO root fetch - processPackages [odoo14-addon-shopfloor]: New version: [14.0.2.9.3.dev1] Old Version: [14.0.2.9.2]
+[2023-06-16 10:03:40] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-06-16 10:03:40] INFO root fetch - processPackages [struct-bias]: Downloading https://files.pythonhosted.org/packages/22/e7/cd19a35aa276123b1dcb431935fdbf52cdaa0c06e64f78eeba9f9957ae66/struct-bias-1.2.1.tar.gz
+[2023-06-16 10:03:40] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/04/d4/473c3170b2653947ae4fdf747350d5d9da37102ff9e555728fe31155c998/finflo-2.0.8.tar.gz
+[2023-06-16 10:03:40] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/36/9e/f385eb12e904ee5747453d03077fc0eb59112ba7f9218ed56bd0942118aa/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl
+[2023-06-16 10:03:40] INFO root fetch - processPackages [cg]: New version: [36.2.3] Old Version: [36.2.2]
+[2023-06-16 10:03:40] ERROR root fetch - processPackages [PyNihongo]: Unable to get metadata: No such project 'PyNihongo'
+[2023-06-16 10:03:40] INFO root fetch - processPackages [PyNihongo]: Start processing: llmfuncs
+[2023-06-16 10:03:40] INFO root fetch - main [MainThread]: End processing [PyNihongo] error
+[2023-06-16 10:03:40] WARNING root fetch - processPackages [llmfuncs]: Skipping, unable to determine old version
+[2023-06-16 10:03:40] INFO root fetch - processPackages [llmfuncs]: Start processing: mem-visualize
+[2023-06-16 10:03:40] INFO root fetch - main [MainThread]: End processing [llmfuncs] error
+[2023-06-16 10:03:40] INFO root fetch - processPackages [subtr-actor-py]: Downloading https://files.pythonhosted.org/packages/f2/d3/cbe0ef85de2f55086c9d09c4fda9e94d2c7038e20fddba9ca901f7a4495e/subtr_actor_py-0.1.1.tar.gz
+[2023-06-16 10:03:40] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/67/1f/29199fade80bbd6b8a8b0c7a32f88ca7c20e6e0c20a2c583f8e8822362bc/odoo_addon_stock_release_channel-16.0.2.3.0-py3-none-any.whl
+[2023-06-16 10:03:40] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-06-16 10:03:40] WARNING root fetch - processPackages [mem-visualize]: Skipping, unable to determine old version
+[2023-06-16 10:03:40] INFO root fetch - processPackages [mem-visualize]: Start processing: ccdt
+[2023-06-16 10:03:40] INFO root fetch - main [MainThread]: End processing [mem-visualize] error
+[2023-06-16 10:03:40] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/7a/46/c94a9a5a7412d5bedb50d96b71536c1bb6b5265a0c340975d8cfe934f934/bytetrade-recommend-model-sdk-0.0.17.tar.gz
+[2023-06-16 10:03:41] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-16 10:03:41] INFO root fetch - processPackages [odoo14-addons-oca-wms]: Downloading https://files.pythonhosted.org/packages/a8/4d/5bdb3b5fa5a24ef9d97068c8d19e09bf7546e7fb5745b5c3b76d00d9c949/odoo14_addons_oca_wms-14.0.20230526.1-py3-none-any.whl
+[2023-06-16 10:03:41] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-06-16 10:03:41] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/4e/4f/b71ae3814a883b44539a3b550c1656bd3c1414a442f6176ea79d3e8326d8/cg-36.2.2.tar.gz
+[2023-06-16 10:03:41] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/40/e8/4b7f6115bba0ea96ebfecb1bb6d71600dd4ce22684bab44f67536bec77c9/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl
+[2023-06-16 10:03:41] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/cc/e5/9200013d5fdb9d58e796c4748484e51997a114364e5fea45f180325456db/finflo-2.0.9.tar.gz
+[2023-06-16 10:03:41] INFO root fetch - processPackages [subtr-actor-py]: Downloading https://files.pythonhosted.org/packages/17/a1/9a565d5ec0bb600e0b652472a031e925c10901d04f4c0134972330d1aab4/subtr_actor_py-0.1.4.tar.gz
+[2023-06-16 10:03:41] INFO root fetch - processPackages [struct-bias]: Downloading https://files.pythonhosted.org/packages/0b/fb/6497fe81308a456b107bcb6c02061db3dccded940fd7846be97afd17cb26/struct-bias-1.2.2.tar.gz
+[2023-06-16 10:03:41] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/ea/fb/05228079ce9247b549e1e302cb9bbe7f332028db91c449d73746a36ae078/odoo_addon_stock_release_channel-16.0.2.3.0.1-py3-none-any.whl
+[2023-06-16 10:03:41] INFO root fetch - processPackages [odoo14-addon-shopfloor]: executing diffoscope
+[2023-06-16 10:03:41] INFO root fetch - processPackages [odoo14-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-shopfloor/14.0.2.9.2-14.0.2.9.3.dev1/diff.md --exclude *.pyd
+[2023-06-16 10:03:41] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-06-16 10:03:41] INFO root fetch - processPackages [finflo]: executing diffoscope
+[2023-06-16 10:03:41] INFO root fetch - processPackages [finflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finflo-2.0.8.tar.gz tmp/finflo-2.0.9.tar.gz --markdown 20230616/f/finflo/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-16 10:03:41] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-06-16 10:03:41] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/0e/f8/f50149750f66e81afb86fdca850425507e6103f5ca65b5fae3601a1cf7ee/bytetrade-recommend-model-sdk-0.0.18.tar.gz
+[2023-06-16 10:03:41] INFO root fetch - processPackages [struct-bias]: executing diffoscope
+[2023-06-16 10:03:41] INFO root fetch - processPackages [struct-bias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struct-bias-1.2.1.tar.gz tmp/struct-bias-1.2.2.tar.gz --markdown 20230616/s/struct-bias/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-16 10:03:41] INFO root fetch - processPackages [subtr-actor-py]: executing diffoscope
+[2023-06-16 10:03:41] INFO root fetch - processPackages [subtr-actor-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subtr_actor_py-0.1.1.tar.gz tmp/subtr_actor_py-0.1.4.tar.gz --markdown 20230616/s/subtr-actor-py/0.1.1-0.1.4/diff.md --exclude *.pyd
+[2023-06-16 10:03:41] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-16 10:03:41] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230616/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-06-16 10:03:41] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-16 10:03:41] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230616/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-16 10:03:41] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-06-16 10:03:41] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.0.17.tar.gz tmp/bytetrade-recommend-model-sdk-0.0.18.tar.gz --markdown 20230616/b/bytetrade-recommend-model-sdk/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-06-16 10:03:41] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: executing diffoscope
+[2023-06-16 10:03:41] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel-16.0.2.3.0-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel-16.0.2.3.0.1-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-stock-release-channel/16.0.2.3.0-16.0.2.3.0.1/diff.md --exclude *.pyd
+[2023-06-16 10:03:41] INFO root fetch - processPackages [odoo14-addons-oca-wms]: Downloading https://files.pythonhosted.org/packages/5f/47/7f0586f69b45b58e858f386280e7be6de560294e83c6b905339dc0de3c6c/odoo14_addons_oca_wms-14.0.20230615.0-py3-none-any.whl
+[2023-06-16 10:03:41] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b6/8f/c0e4b054b4552a0a50c1571fe07379df92b1b4289f901b6b6a952cef8095/cg-36.2.3.tar.gz
+[2023-06-16 10:03:41] INFO root fetch - processPackages [odoo14-addons-oca-wms]: executing diffoscope
+[2023-06-16 10:03:41] INFO root fetch - processPackages [odoo14-addons-oca-wms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_wms-14.0.20230526.1-py3-none-any.whl.zip tmp/odoo14_addons_oca_wms-14.0.20230615.0-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addons-oca-wms/14.0.20230526.1-14.0.20230615.0/diff.md --exclude *.pyd
+[2023-06-16 10:03:41] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-16 10:03:41] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.2.2.tar.gz tmp/cg-36.2.3.tar.gz --markdown 20230616/c/cg/36.2.2-36.2.3/diff.md --exclude *.pyd
+[2023-06-16 10:03:42] INFO root fetch - processPackages [subtr-actor-py]: Remove: archive file [/home/abi/fetcher/tmp/subtr_actor_py-0.1.1.tar.gz]
+[2023-06-16 10:03:42] INFO root fetch - processPackages [subtr-actor-py]: Remove: archive file [/home/abi/fetcher/tmp/subtr_actor_py-0.1.4.tar.gz]
+[2023-06-16 10:03:42] INFO root fetch - processPackages [subtr-actor-py]: Start processing: memv-package-nhunh
+[2023-06-16 10:03:42] INFO root fetch - main [MainThread]: End processing [subtr-actor-py]: success
+[2023-06-16 10:03:42] WARNING root fetch - processPackages [memv-package-nhunh]: Skipping, unable to determine old version
+[2023-06-16 10:03:42] INFO root fetch - processPackages [memv-package-nhunh]: Start processing: nonebot-plugin-auto-teenstudy
+[2023-06-16 10:03:42] INFO root fetch - main [MainThread]: End processing [memv-package-nhunh] error
+[2023-06-16 10:03:42] INFO root fetch - processPackages [nonebot-plugin-auto-teenstudy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 10:03:43] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.17.tar.gz]
+[2023-06-16 10:03:43] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.18.tar.gz]
+[2023-06-16 10:03:43] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Start processing: autopahe
+[2023-06-16 10:03:43] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-06-16 10:03:43] WARNING root fetch - processPackages [autopahe]: Skipping, unable to determine old version
+[2023-06-16 10:03:43] INFO root fetch - main [MainThread]: End processing [autopahe] error
+[2023-06-16 10:03:43] INFO root fetch - processPackages [nonebot-plugin-auto-teenstudy]: Downloading https://files.pythonhosted.org/packages/4a/e3/e9ea0ef6f3366a945a004614aae7d29310d56865fb22fcd6420cc703914a/nonebot_plugin_auto_teenstudy-0.1.8.tar.gz
+[2023-06-16 10:03:43] INFO root fetch - processPackages [odoo14-addons-oca-wms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_wms-14.0.20230526.1-py3-none-any.whl.zip]
+[2023-06-16 10:03:43] INFO root fetch - processPackages [odoo14-addons-oca-wms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_wms-14.0.20230615.0-py3-none-any.whl.zip]
+[2023-06-16 10:03:43] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-wms]: success
+[2023-06-16 10:03:43] WARNING root fetch - processPackages [nonebot-plugin-auto-teenstudy]: Skipping package: exceeds size limit 14330465>=10485760
+[2023-06-16 10:03:43] INFO root fetch - processPackages [struct-bias]: Remove: archive file [/home/abi/fetcher/tmp/struct-bias-1.2.1.tar.gz]
+[2023-06-16 10:03:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-auto-teenstudy] error
+[2023-06-16 10:03:43] INFO root fetch - processPackages [struct-bias]: Remove: archive file [/home/abi/fetcher/tmp/struct-bias-1.2.2.tar.gz]
+[2023-06-16 10:03:43] INFO root fetch - main [MainThread]: End processing [struct-bias]: success
+[2023-06-16 10:03:43] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-06-16 10:03:43] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-06-16 10:03:43] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-16 10:03:43] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.3.0-py3-none-any.whl.zip]
+[2023-06-16 10:03:43] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.3.0.1-py3-none-any.whl.zip]
+[2023-06-16 10:03:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel]: success
+[2023-06-16 10:03:43] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.8.tar.gz]
+[2023-06-16 10:03:43] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.9.tar.gz]
+[2023-06-16 10:03:43] INFO root fetch - main [MainThread]: End processing [finflo]: success
+[2023-06-16 10:03:44] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl.zip]
+[2023-06-16 10:03:44] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip]
+[2023-06-16 10:03:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
+[2023-06-16 10:03:44] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-06-16 10:03:44] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-06-16 10:03:44] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-16 10:03:52] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.2.tar.gz]
+[2023-06-16 10:03:52] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.3.tar.gz]
+[2023-06-16 10:03:52] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-16 10:03:52] INFO root fetch - main [MainThread]: Store serial: [18528970]
