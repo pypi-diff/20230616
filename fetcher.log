@@ -19441,3 +19441,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 11:37:38] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
 [2023-06-16 11:37:38] INFO root fetch - main [MainThread]: End processing [seaplane]: success
 [2023-06-16 11:37:38] INFO root fetch - main [MainThread]: Store serial: [18530142]
+[2023-06-16 11:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530142]
+[2023-06-16 11:42:47] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-16 11:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thipstercli
+[2023-06-16 11:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-16 11:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spiderx
+[2023-06-16 11:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openedx-scorm-xblock
+[2023-06-16 11:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biosmoother
+[2023-06-16 11:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dramatiq-kafka
+[2023-06-16 11:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ozgursozluk
+[2023-06-16 11:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2023-06-16 11:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: currentscape
+[2023-06-16 11:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sunpeek
+[2023-06-16 11:42:47] INFO root fetch - processPackages [thipstercli]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-16 11:42:47] INFO root fetch - processPackages [biosmoother]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-16 11:42:47] INFO root fetch - processPackages [currentscape]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-16 11:42:47] WARNING root fetch - processPackages [dramatiq-kafka]: Skipping, unable to determine old version
+[2023-06-16 11:42:47] INFO root fetch - processPackages [dramatiq-kafka]: Start processing: bagbag
+[2023-06-16 11:42:47] INFO root fetch - main [MainThread]: End processing [dramatiq-kafka] error
+[2023-06-16 11:42:47] INFO root fetch - processPackages [kfish]: New version: [99.0.202306160655] Old Version: [99.0.202306160654]
+[2023-06-16 11:42:47] INFO root fetch - processPackages [kcli]: New version: [99.0.202306160938] Old Version: [99.0.202306160653]
+[2023-06-16 11:42:47] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/2f/94/e7487218c99b2360a4ba8d2e899b799a5352c39eb482dcf97f469c099a2a/thipstercli-0.2.2.tar.gz
+[2023-06-16 11:42:47] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-06-16 11:42:47] WARNING root fetch - processPackages [ozgursozluk]: Skipping, unable to determine old version
+[2023-06-16 11:42:47] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d2/31/a90b4e0a9fa61a4febc06ad78810b88a051fae34bac1280b0224c9715ec6/kcli-99.0.202306160653-py3-none-any.whl
+[2023-06-16 11:42:47] INFO root fetch - processPackages [ozgursozluk]: Start processing: CSET
+[2023-06-16 11:42:47] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/98/20/5f3030caef446bcde39cb3f41d4b98a69328a60b57ef57b75b3bb2b05abd/currentscape-1.0.2.tar.gz
+[2023-06-16 11:42:47] INFO root fetch - main [MainThread]: End processing [ozgursozluk] error
+[2023-06-16 11:42:47] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/63/6c/2f3ca45dd184689a91f3478a56845eaed1096ab7c129bbab241b93f1c18a/kfish-99.0.202306160654-py3-none-any.whl
+[2023-06-16 11:42:47] INFO root fetch - processPackages [openedx-scorm-xblock]: New version: [9.5.1] Old Version: [9.5.0]
+[2023-06-16 11:42:47] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-06-16 11:42:47] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-16 11:42:47] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-06-16 11:42:47] INFO root fetch - processPackages [biosmoother]: Downloading https://files.pythonhosted.org/packages/05/db/ec50b91794959c3904fce2c3d5e95c8d39a86d8049e884583594381a62f8/biosmoother-0.3.2.tar.gz
+[2023-06-16 11:42:47] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/99/cc/41c466b93f51a2db711f0deda0ae456db44052beba43cb6f6382a2b824b6/kfish-99.0.202306160655-py3-none-any.whl
+[2023-06-16 11:42:47] INFO root fetch - processPackages [CSET]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-16 11:42:48] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-16 11:42:48] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306160654-py3-none-any.whl.zip tmp/kfish-99.0.202306160655-py3-none-any.whl.zip --markdown 20230616/k/kfish/99.0.202306160654-99.0.202306160655/diff.md --exclude *.pyd
+[2023-06-16 11:42:48] INFO root fetch - processPackages [openedx-scorm-xblock]: Downloading https://files.pythonhosted.org/packages/e3/b4/d43a782ea02b47b5eefc762dae36a6021e42032a36a850745b1cf01bd738/openedx-scorm-xblock-9.5.0.tar.gz
+[2023-06-16 11:42:48] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-06-16 11:42:48] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ae/57/edade65cf8439626637b1aa2ec7c58173df286c12be0c2c07a5523b13072/kcli-99.0.202306160938-py3-none-any.whl
+[2023-06-16 11:42:48] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/df/d0/96585ad5065b7fa71adbac9d5ac17abad309d8c4a47db05c542d90b5f7e8/currentscape-1.0.3.tar.gz
+[2023-06-16 11:42:48] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/04/71/46efbf2b237a5495e081b9e445d754ee1de515c4c5313aff3e93f025f703/thipstercli-0.3.0.tar.gz
+[2023-06-16 11:42:48] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-06-16 11:42:48] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-06-16 11:42:48] INFO root fetch - processPackages [CSET]: Downloading https://files.pythonhosted.org/packages/ee/c3/af6d89c2466997860ca9f3ae3e4a259766343f7649cc867d6b6973954052/CSET-0.1.0.tar.gz
+[2023-06-16 11:42:48] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-16 11:42:48] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.2.2.tar.gz tmp/thipstercli-0.3.0.tar.gz --markdown 20230616/t/thipstercli/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-16 11:42:48] INFO root fetch - processPackages [currentscape]: executing diffoscope
+[2023-06-16 11:42:48] INFO root fetch - processPackages [currentscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currentscape-1.0.2.tar.gz tmp/currentscape-1.0.3.tar.gz --markdown 20230616/c/currentscape/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-16 11:42:48] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-16 11:42:48] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306160653-py3-none-any.whl.zip tmp/kcli-99.0.202306160938-py3-none-any.whl.zip --markdown 20230616/k/kcli/99.0.202306160653-99.0.202306160938/diff.md --exclude *.pyd
+[2023-06-16 11:42:48] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-16 11:42:48] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230616/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-06-16 11:42:48] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-06-16 11:42:48] INFO root fetch - processPackages [biosmoother]: Downloading https://files.pythonhosted.org/packages/f5/b3/8b9b793d261d347aac2e1ef9c67fbb20ce958769958698bde60d31a15a70/biosmoother-0.3.3-py3-none-any.whl
+[2023-06-16 11:42:48] INFO root fetch - processPackages [biosmoother]: executing diffoscope
+[2023-06-16 11:42:48] INFO root fetch - processPackages [biosmoother]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosmoother-0.3.2.tar.gz tmp/biosmoother-0.3.3-py3-none-any.whl.zip --markdown 20230616/b/biosmoother/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-16 11:42:48] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-06-16 11:42:48] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-06-16 11:42:48] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230616/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-06-16 11:42:48] INFO root fetch - processPackages [openedx-scorm-xblock]: Downloading https://files.pythonhosted.org/packages/b4/71/1866eff725c2b94c444e36e05d94532b0c1fb7a1ac90ffe02b632e6da806/openedx-scorm-xblock-9.5.1.tar.gz
+[2023-06-16 11:42:48] INFO root fetch - processPackages [CSET]: Downloading https://files.pythonhosted.org/packages/a4/10/1e514d8959eaca24b5c98920f0d387b8c4f2857da6d7b8df1af3692aadb5/CSET-0.2.0.tar.gz
+[2023-06-16 11:42:48] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-06-16 11:42:48] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230616/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 11:42:48] INFO root fetch - processPackages [CSET]: executing diffoscope
+[2023-06-16 11:42:48] INFO root fetch - processPackages [CSET]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CSET-0.1.0.tar.gz tmp/CSET-0.2.0.tar.gz --markdown 20230616/C/CSET/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-16 11:42:48] INFO root fetch - processPackages [openedx-scorm-xblock]: executing diffoscope
+[2023-06-16 11:42:48] INFO root fetch - processPackages [openedx-scorm-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-scorm-xblock-9.5.0.tar.gz tmp/openedx-scorm-xblock-9.5.1.tar.gz --markdown 20230616/o/openedx-scorm-xblock/9.5.0-9.5.1/diff.md --exclude *.pyd
+[2023-06-16 11:42:49] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306160654-py3-none-any.whl.zip]
+[2023-06-16 11:42:49] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306160655-py3-none-any.whl.zip]
+[2023-06-16 11:42:49] INFO root fetch - processPackages [kfish]: Start processing: fastsession
+[2023-06-16 11:42:49] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-16 11:42:49] INFO root fetch - processPackages [fastsession]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-16 11:42:49] INFO root fetch - processPackages [fastsession]: Downloading https://files.pythonhosted.org/packages/57/e4/97ee449e73fbf004c3c9a1f9efa5cfb5ccb302b737bf5103dbea0700c9ac/fastsession-0.1.2.tar.gz
+[2023-06-16 11:42:49] INFO root fetch - processPackages [fastsession]: Downloading https://files.pythonhosted.org/packages/f5/87/6b67ff4b600b2b3ff82bf0112df4a8b7a569686e4aa90a0da0450400a995/fastsession-0.2.0.tar.gz
+[2023-06-16 11:42:49] INFO root fetch - processPackages [fastsession]: executing diffoscope
+[2023-06-16 11:42:49] INFO root fetch - processPackages [fastsession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsession-0.1.2.tar.gz tmp/fastsession-0.2.0.tar.gz --markdown 20230616/f/fastsession/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-16 11:42:49] INFO root fetch - processPackages [biosmoother]: Remove: archive file [/home/abi/fetcher/tmp/biosmoother-0.3.2.tar.gz]
+[2023-06-16 11:42:49] INFO root fetch - processPackages [biosmoother]: Remove: archive file [/home/abi/fetcher/tmp/biosmoother-0.3.3-py3-none-any.whl.zip]
+[2023-06-16 11:42:49] INFO root fetch - main [MainThread]: End processing [biosmoother]: success
+[2023-06-16 11:42:50] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.2.2.tar.gz]
+[2023-06-16 11:42:50] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.3.0.tar.gz]
+[2023-06-16 11:42:50] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-06-16 11:42:50] INFO root fetch - processPackages [CSET]: Remove: archive file [/home/abi/fetcher/tmp/CSET-0.1.0.tar.gz]
+[2023-06-16 11:42:50] INFO root fetch - processPackages [CSET]: Remove: archive file [/home/abi/fetcher/tmp/CSET-0.2.0.tar.gz]
+[2023-06-16 11:42:50] INFO root fetch - main [MainThread]: End processing [CSET]: success
+[2023-06-16 11:42:50] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.8-py3-none-any.whl.zip]
+[2023-06-16 11:42:50] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.9-py3-none-any.whl.zip]
+[2023-06-16 11:42:50] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-06-16 11:42:50] INFO root fetch - processPackages [openedx-scorm-xblock]: Remove: archive file [/home/abi/fetcher/tmp/openedx-scorm-xblock-9.5.0.tar.gz]
+[2023-06-16 11:42:50] INFO root fetch - processPackages [openedx-scorm-xblock]: Remove: archive file [/home/abi/fetcher/tmp/openedx-scorm-xblock-9.5.1.tar.gz]
+[2023-06-16 11:42:50] INFO root fetch - main [MainThread]: End processing [openedx-scorm-xblock]: success
+[2023-06-16 11:42:50] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-06-16 11:42:50] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-06-16 11:42:50] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-06-16 11:42:50] INFO root fetch - processPackages [fastsession]: Remove: archive file [/home/abi/fetcher/tmp/fastsession-0.1.2.tar.gz]
+[2023-06-16 11:42:50] INFO root fetch - processPackages [fastsession]: Remove: archive file [/home/abi/fetcher/tmp/fastsession-0.2.0.tar.gz]
+[2023-06-16 11:42:50] INFO root fetch - main [MainThread]: End processing [fastsession]: success
+[2023-06-16 11:42:51] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-06-16 11:42:51] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-06-16 11:42:51] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-16 11:42:51] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.2.tar.gz]
+[2023-06-16 11:42:51] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.3.tar.gz]
+[2023-06-16 11:42:51] INFO root fetch - main [MainThread]: End processing [currentscape]: success
+[2023-06-16 11:42:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306160653-py3-none-any.whl.zip]
+[2023-06-16 11:42:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306160938-py3-none-any.whl.zip]
+[2023-06-16 11:42:57] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-16 11:42:57] INFO root fetch - main [MainThread]: Store serial: [18530175]
