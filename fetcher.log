@@ -13980,3 +13980,132 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 08:30:04] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230616.tar.gz]
 [2023-06-16 08:30:04] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-06-16 08:30:04] INFO root fetch - main [MainThread]: Store serial: [18527998]
+[2023-06-16 08:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527998]
+[2023-06-16 08:35:13] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-16 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-rma
+[2023-06-16 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-rma
+[2023-06-16 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BaseDT
+[2023-06-16 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nerfvis
+[2023-06-16 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heaserver
+[2023-06-16 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qh3
+[2023-06-16 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyfi
+[2023-06-16 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xxtest0616
+[2023-06-16 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: test-rest-api
+[2023-06-16 08:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: geolink2oereb
+[2023-06-16 08:35:13] INFO root fetch - processPackages [BaseDT]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-16 08:35:13] INFO root fetch - processPackages [odoo-addon-rma]: New version: [15.0.1.1.3.9] Old Version: [15.0.1.1.3.7]
+[2023-06-16 08:35:13] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.7.dev9] Old Version: [14.0.3.2.7.dev7]
+[2023-06-16 08:35:13] INFO root fetch - processPackages [nerfvis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 08:35:13] INFO root fetch - processPackages [geolink2oereb]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-16 08:35:13] WARNING root fetch - processPackages [qh3]: Skipping, unable to determine old version
+[2023-06-16 08:35:13] INFO root fetch - processPackages [hyfi]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-16 08:35:13] INFO root fetch - processPackages [qh3]: Start processing: scoamp
+[2023-06-16 08:35:13] INFO root fetch - main [MainThread]: End processing [qh3] error
+[2023-06-16 08:35:13] WARNING root fetch - processPackages [xxtest0616]: Skipping, unable to determine old version
+[2023-06-16 08:35:13] INFO root fetch - processPackages [xxtest0616]: Start processing: scoamppro
+[2023-06-16 08:35:13] INFO root fetch - main [MainThread]: End processing [xxtest0616] error
+[2023-06-16 08:35:13] INFO root fetch - processPackages [test-rest-api]: New version: [0.0.0.0.33] Old Version: [0.0.0.0.32]
+[2023-06-16 08:35:13] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-06-16 08:35:13] WARNING root fetch - processPackages [scoamppro]: Skipping, unable to determine old version
+[2023-06-16 08:35:13] INFO root fetch - processPackages [scoamppro]: Start processing: pyxdi
+[2023-06-16 08:35:13] INFO root fetch - main [MainThread]: End processing [scoamppro] error
+[2023-06-16 08:35:13] INFO root fetch - processPackages [nerfvis]: Downloading https://files.pythonhosted.org/packages/52/91/e991e9e223980ac306babbe433274ae32fa86476c8f1226be5e53f1eee75/nerfvis-0.1.8.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [scoamp]: New version: [0.3.0a2] Old Version: [0.3.0]
+[2023-06-16 08:35:13] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/32/b7/f53be1191e130d60d8464def017cdd66f96736aaad2a10eb63498745e345/hyfi-0.6.1.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [pyxdi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-16 08:35:13] INFO root fetch - processPackages [test-rest-api]: Downloading https://files.pythonhosted.org/packages/5f/80/d69ff927d6d8da15eea089ebcd7988206f2d3ba221ec0ef72d373bf19a52/test_rest_api-0.0.0.0.32.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/bf/93/43f39bc9947f7439732d180bbdb189acbb6f86440a4e0e399513aee499f3/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl
+[2023-06-16 08:35:13] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/6c/b5/14e63f1b8ce754fe88450f5223d79fd3baf3a8c50f57456f0dd1280f27f7/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl
+[2023-06-16 08:35:13] INFO root fetch - processPackages [pyxdi]: Downloading https://files.pythonhosted.org/packages/27/55/a1b5b4bd6e45d73ca7a025ca1ff8928b16ffa69b07f64f6da6e526f48042/pyxdi-0.8.0.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [BaseDT]: Downloading https://files.pythonhosted.org/packages/06/b6/52e5d17082c96b76f0a01ddff30c00e749d349542802cd459b4902f92c38/BaseDT-0.0.7.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [geolink2oereb]: Downloading https://files.pythonhosted.org/packages/c9/05/f30d9913488bf424ff9e91f8a8748077b200d48411a6dbfc83fc2d3faded/geolink2oereb-0.1.3.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/14/c1/7e37ed9218789e1fd49edd2a55fa778aa0ce5e949c724eba1defe0cb3517/scoamp-0.3.0-py3-none-any.whl
+[2023-06-16 08:35:13] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [pyxdi]: Downloading https://files.pythonhosted.org/packages/35/d0/d7f47f282bd060c3329acec77ca2b7e3c82658406503d58ac50d045ea3ee/pyxdi-0.9.0.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2c/14/182a782356f624c8d2291893dbd99ced88a86a1fa20b7797d531e93ee3e1/hyfi-0.6.2.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [test-rest-api]: Downloading https://files.pythonhosted.org/packages/be/51/7cb68f7846019bbdc8f994378031bf0e3ddb087a4ec3c2abb2e0668e3adf/test_rest_api-0.0.0.0.33.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-06-16 08:35:13] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230616/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-06-16 08:35:13] INFO root fetch - processPackages [nerfvis]: Downloading https://files.pythonhosted.org/packages/5f/0a/bacc31f9d22336334016226eee1db89d2428052b46526028fdf91a4c048f/nerfvis-0.1.9.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/f9/9b/23ecb9fbb7a6da74409255c802ad2e3e9bab955954232cffbb4181794938/odoo14_addon_rma-14.0.3.2.7.dev9-py3-none-any.whl
+[2023-06-16 08:35:13] INFO root fetch - processPackages [BaseDT]: Downloading https://files.pythonhosted.org/packages/6c/aa/df7b11f2fd0cbd1b33d37a515cc980649804f7cad134d2d9a82f1e35bda9/BaseDT-0.0.8.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [pyxdi]: executing diffoscope
+[2023-06-16 08:35:13] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/0e/eb/a882607f70208462586250dbf56e8a180403ebd59754d9e0b4afe44d00a3/scoamp-0.3.0a2-py3-none-any.whl
+[2023-06-16 08:35:13] INFO root fetch - processPackages [pyxdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxdi-0.8.0.tar.gz tmp/pyxdi-0.9.0.tar.gz --markdown 20230616/p/pyxdi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 08:35:13] INFO root fetch - processPackages [geolink2oereb]: Downloading https://files.pythonhosted.org/packages/38/e8/48e397ec45f52cda4591853ab0a32b20ad11b55f8f4dd0ae5ed7dcb9612d/geolink2oereb-0.1.4.tar.gz
+[2023-06-16 08:35:13] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-16 08:35:13] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.6.1.tar.gz tmp/hyfi-0.6.2.tar.gz --markdown 20230616/h/hyfi/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-16 08:35:13] INFO root fetch - processPackages [test-rest-api]: executing diffoscope
+[2023-06-16 08:35:13] INFO root fetch - processPackages [test-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_rest_api-0.0.0.0.32.tar.gz tmp/test_rest_api-0.0.0.0.33.tar.gz --markdown 20230616/t/test-rest-api/0.0.0.0.32-0.0.0.0.33/diff.md --exclude *.pyd
+[2023-06-16 08:35:13] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/c2/07/339470c5901da506b8003ae1c4ce2977880011325e58d90a15ccd12f4f57/odoo_addon_rma-15.0.1.1.3.9-py3-none-any.whl
+[2023-06-16 08:35:13] INFO root fetch - processPackages [BaseDT]: executing diffoscope
+[2023-06-16 08:35:13] INFO root fetch - processPackages [BaseDT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BaseDT-0.0.7.tar.gz tmp/BaseDT-0.0.8.tar.gz --markdown 20230616/B/BaseDT/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-16 08:35:14] INFO root fetch - processPackages [nerfvis]: executing diffoscope
+[2023-06-16 08:35:14] INFO root fetch - processPackages [nerfvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerfvis-0.1.8.tar.gz tmp/nerfvis-0.1.9.tar.gz --markdown 20230616/n/nerfvis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 08:35:14] INFO root fetch - processPackages [geolink2oereb]: executing diffoscope
+[2023-06-16 08:35:14] INFO root fetch - processPackages [geolink2oereb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolink2oereb-0.1.3.tar.gz tmp/geolink2oereb-0.1.4.tar.gz --markdown 20230616/g/geolink2oereb/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-16 08:35:14] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2023-06-16 08:35:14] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.7.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-rma/14.0.3.2.7.dev7-14.0.3.2.7.dev9/diff.md --exclude *.pyd
+[2023-06-16 08:35:14] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2023-06-16 08:35:14] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl.zip tmp/odoo_addon_rma-15.0.1.1.3.9-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-rma/15.0.1.1.3.7-15.0.1.1.3.9/diff.md --exclude *.pyd
+[2023-06-16 08:35:14] INFO root fetch - processPackages [scoamp]: executing diffoscope
+[2023-06-16 08:35:14] INFO root fetch - processPackages [scoamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamp-0.3.0-py3-none-any.whl.zip tmp/scoamp-0.3.0a2-py3-none-any.whl.zip --markdown 20230616/s/scoamp/0.3.0-0.3.0a2/diff.md --exclude *.pyd
+[2023-06-16 08:35:15] INFO root fetch - processPackages [pyxdi]: Remove: archive file [/home/abi/fetcher/tmp/pyxdi-0.8.0.tar.gz]
+[2023-06-16 08:35:15] INFO root fetch - processPackages [pyxdi]: Remove: archive file [/home/abi/fetcher/tmp/pyxdi-0.9.0.tar.gz]
+[2023-06-16 08:35:15] INFO root fetch - processPackages [pyxdi]: Start processing: uat-breeze-connect
+[2023-06-16 08:35:15] INFO root fetch - main [MainThread]: End processing [pyxdi]: success
+[2023-06-16 08:35:15] INFO root fetch - processPackages [uat-breeze-connect]: New version: [1.0.14rc9] Old Version: [1.0.14rc8]
+[2023-06-16 08:35:15] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/9b/03/dd802566421dcd9465f7af95ae902df105cf90c68269ed72f09fe15e456c/uat-breeze-connect-1.0.14rc8.tar.gz
+[2023-06-16 08:35:15] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.0-py3-none-any.whl.zip]
+[2023-06-16 08:35:15] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.0a2-py3-none-any.whl.zip]
+[2023-06-16 08:35:15] INFO root fetch - processPackages [scoamp]: Start processing: fastgenerateapi
+[2023-06-16 08:35:15] INFO root fetch - main [MainThread]: End processing [scoamp]: success
+[2023-06-16 08:35:15] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-16 08:35:15] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.6.1.tar.gz]
+[2023-06-16 08:35:15] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.6.2.tar.gz]
+[2023-06-16 08:35:15] INFO root fetch - processPackages [hyfi]: Start processing: MMEdu
+[2023-06-16 08:35:15] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-16 08:35:15] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/34/e4/e509fc4d17a73a88fa2f6e16ee3cce6859b4a4db5da819936a3070c65e20/fastgenerateapi-0.0.3.tar.gz
+[2023-06-16 08:35:16] INFO root fetch - processPackages [MMEdu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 08:35:16] INFO root fetch - processPackages [BaseDT]: Remove: archive file [/home/abi/fetcher/tmp/BaseDT-0.0.7.tar.gz]
+[2023-06-16 08:35:16] INFO root fetch - processPackages [BaseDT]: Remove: archive file [/home/abi/fetcher/tmp/BaseDT-0.0.8.tar.gz]
+[2023-06-16 08:35:16] INFO root fetch - main [MainThread]: End processing [BaseDT]: success
+[2023-06-16 08:35:16] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/85/e6/316aacb290fbe4ecb39fb9afbd06c44dd7de75f21614e5cd8e91e43358e9/uat-breeze-connect-1.0.14rc9.tar.gz
+[2023-06-16 08:35:16] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/a1/6f/788a9f7ab8dc0edb9f160404c4c50dec2eaaaa93722ad84d3465ec55bbb3/fastgenerateapi-0.0.4.tar.gz
+[2023-06-16 08:35:16] INFO root fetch - processPackages [uat-breeze-connect]: executing diffoscope
+[2023-06-16 08:35:16] INFO root fetch - processPackages [uat-breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uat-breeze-connect-1.0.14rc8.tar.gz tmp/uat-breeze-connect-1.0.14rc9.tar.gz --markdown 20230616/u/uat-breeze-connect/1.0.14rc8-1.0.14rc9/diff.md --exclude *.pyd
+[2023-06-16 08:35:16] INFO root fetch - processPackages [MMEdu]: Downloading https://files.pythonhosted.org/packages/ab/1e/588ba9856221eb0f1fdb52ad1f4ec1112510c4d8806e8ce3fe35dc706347/MMEdu-0.1.8.tar.gz
+[2023-06-16 08:35:16] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-06-16 08:35:16] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.3.tar.gz tmp/fastgenerateapi-0.0.4.tar.gz --markdown 20230616/f/fastgenerateapi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-16 08:35:16] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-06-16 08:35:16] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-06-16 08:35:16] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-06-16 08:35:16] INFO root fetch - processPackages [MMEdu]: Downloading https://files.pythonhosted.org/packages/47/39/353c28206b6bb14419b0637ed054cdda8882895e90995b407e8ac6891b0e/MMEdu-0.1.9.tar.gz
+[2023-06-16 08:35:16] INFO root fetch - processPackages [MMEdu]: executing diffoscope
+[2023-06-16 08:35:16] INFO root fetch - processPackages [MMEdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MMEdu-0.1.8.tar.gz tmp/MMEdu-0.1.9.tar.gz --markdown 20230616/M/MMEdu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 08:35:16] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl.zip]
+[2023-06-16 08:35:16] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-15.0.1.1.3.9-py3-none-any.whl.zip]
+[2023-06-16 08:35:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2023-06-16 08:35:16] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl.zip]
+[2023-06-16 08:35:16] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.7.dev9-py3-none-any.whl.zip]
+[2023-06-16 08:35:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2023-06-16 08:35:17] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat-breeze-connect-1.0.14rc8.tar.gz]
+[2023-06-16 08:35:17] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat-breeze-connect-1.0.14rc9.tar.gz]
+[2023-06-16 08:35:17] INFO root fetch - main [MainThread]: End processing [uat-breeze-connect]: success
+[2023-06-16 08:35:17] INFO root fetch - processPackages [test-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/test_rest_api-0.0.0.0.32.tar.gz]
+[2023-06-16 08:35:17] INFO root fetch - processPackages [test-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/test_rest_api-0.0.0.0.33.tar.gz]
+[2023-06-16 08:35:17] INFO root fetch - main [MainThread]: End processing [test-rest-api]: success
+[2023-06-16 08:35:17] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.3.tar.gz]
+[2023-06-16 08:35:17] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.4.tar.gz]
+[2023-06-16 08:35:17] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-06-16 08:35:17] INFO root fetch - processPackages [MMEdu]: Remove: archive file [/home/abi/fetcher/tmp/MMEdu-0.1.8.tar.gz]
+[2023-06-16 08:35:17] INFO root fetch - processPackages [MMEdu]: Remove: archive file [/home/abi/fetcher/tmp/MMEdu-0.1.9.tar.gz]
+[2023-06-16 08:35:17] INFO root fetch - main [MainThread]: End processing [MMEdu]: success
+[2023-06-16 08:35:18] INFO root fetch - processPackages [nerfvis]: Remove: archive file [/home/abi/fetcher/tmp/nerfvis-0.1.8.tar.gz]
+[2023-06-16 08:35:18] INFO root fetch - processPackages [nerfvis]: Remove: archive file [/home/abi/fetcher/tmp/nerfvis-0.1.9.tar.gz]
+[2023-06-16 08:35:18] INFO root fetch - main [MainThread]: End processing [nerfvis]: success
+[2023-06-16 08:35:19] INFO root fetch - processPackages [geolink2oereb]: Remove: archive file [/home/abi/fetcher/tmp/geolink2oereb-0.1.3.tar.gz]
+[2023-06-16 08:35:19] INFO root fetch - processPackages [geolink2oereb]: Remove: archive file [/home/abi/fetcher/tmp/geolink2oereb-0.1.4.tar.gz]
+[2023-06-16 08:35:19] INFO root fetch - main [MainThread]: End processing [geolink2oereb]: success
+[2023-06-16 08:35:19] INFO root fetch - main [MainThread]: Store serial: [18528053]
