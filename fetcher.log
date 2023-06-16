@@ -15667,3 +15667,138 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 09:23:00] INFO root fetch - processPackages [decore-Base]: Remove: archive file [/home/abi/fetcher/tmp/decore_Base-0.0.20.tar.gz]
 [2023-06-16 09:23:00] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
 [2023-06-16 09:23:00] INFO root fetch - main [MainThread]: Store serial: [18528516]
+[2023-06-16 09:28:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528516]
+[2023-06-16 09:28:10] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-16 09:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-stock-picking-package-preparation
+[2023-06-16 09:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-stock-return-request
+[2023-06-16 09:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-stock-picking-package-preparation
+[2023-06-16 09:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xxtest0616v1
+[2023-06-16 09:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: farm-haystack
+[2023-06-16 09:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: savant-rs
+[2023-06-16 09:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kompiler
+[2023-06-16 09:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: struct-bias
+[2023-06-16 09:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: k8s-deployment-status
+[2023-06-16 09:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proteinshake
+[2023-06-16 09:28:10] INFO root fetch - processPackages [odoo12-addon-stock-picking-package-preparation]: New version: [12.0.1.0.3.99.dev4] Old Version: [12.0.1.0.3.99.dev3]
+[2023-06-16 09:28:10] INFO root fetch - processPackages [kompiler]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-16 09:28:10] INFO root fetch - processPackages [odoo13-addon-stock-picking-package-preparation]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2023-06-16 09:28:10] INFO root fetch - processPackages [proteinshake]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-16 09:28:10] INFO root fetch - processPackages [struct-bias]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-16 09:28:10] WARNING root fetch - processPackages [xxtest0616v1]: Skipping, unable to determine old version
+[2023-06-16 09:28:10] INFO root fetch - processPackages [xxtest0616v1]: Start processing: alteia
+[2023-06-16 09:28:10] INFO root fetch - main [MainThread]: End processing [xxtest0616v1] error
+[2023-06-16 09:28:10] INFO root fetch - processPackages [k8s-deployment-status]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 09:28:10] INFO root fetch - processPackages [farm-haystack]: New version: [1.9.1rc1] Old Version: [1.9.1]
+[2023-06-16 09:28:10] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: New version: [12.0.1.0.2.99.dev9] Old Version: [12.0.1.0.2.99.dev8]
+[2023-06-16 09:28:10] INFO root fetch - processPackages [struct-bias]: Downloading https://files.pythonhosted.org/packages/b4/cd/0c3b4ae49c7a06a697a96bbeb203df51c50dec44ecb24060ca699733a4e0/struct-bias-1.2.0.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [alteia]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-06-16 09:28:10] INFO root fetch - processPackages [farm-haystack]: Downloading https://files.pythonhosted.org/packages/94/11/cf9836569f3576a61cd8186a2e448a3c7cd443ac2711bcebab600878af41/farm_haystack-1.9.1.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-16 09:28:10] INFO root fetch - processPackages [odoo12-addon-stock-picking-package-preparation]: Downloading https://files.pythonhosted.org/packages/fe/da/05b506f6a50da67c2200d18e271cb766ebe958f35d25b1f398376cad025e/odoo12_addon_stock_picking_package_preparation-12.0.1.0.3.99.dev3-py3-none-any.whl
+[2023-06-16 09:28:10] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: Downloading https://files.pythonhosted.org/packages/a0/f8/420749911a392eddb386633f25d0071f927fd5efcdc09fd12fdf39d75836/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev8-py3-none-any.whl
+[2023-06-16 09:28:10] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/c4/00/2644997dc31784c2debfbda253c475ca3463024586165f400ebc3871aaba/savant_rs-0.1.7.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [kompiler]: Downloading https://files.pythonhosted.org/packages/bd/fa/106a8954964d28f13c38f31e4a3bdad4a0a26d6fa70f9a0a9acf580c7348/kompiler-1.2.0.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [k8s-deployment-status]: Downloading https://files.pythonhosted.org/packages/ce/7c/f463bfd8cde6e918c89facc34e549a0e9545e1f531f1e8e5f418478351e8/k8s_deployment_status-0.0.1.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [odoo13-addon-stock-picking-package-preparation]: Downloading https://files.pythonhosted.org/packages/46/cc/902990e3408bc3484126be4ea1ab359defd1f1971d97051c8200bcef7043/odoo13_addon_stock_picking_package_preparation-13.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-16 09:28:10] INFO root fetch - processPackages [proteinshake]: Downloading https://files.pythonhosted.org/packages/f8/c4/cb58349aeaf80a33b8cd177d045ca8dd36c9b0b1e59d98c79146575bb55c/proteinshake-0.3.8.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [alteia]: Downloading https://files.pythonhosted.org/packages/cd/b6/e5442c8692c8f1a55c6c5b8d8ea6e1c145a0afcaac0b686962a29c7fee4d/alteia-2.7.0.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [struct-bias]: Downloading https://files.pythonhosted.org/packages/22/e7/cd19a35aa276123b1dcb431935fdbf52cdaa0c06e64f78eeba9f9957ae66/struct-bias-1.2.1.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [struct-bias]: executing diffoscope
+[2023-06-16 09:28:10] INFO root fetch - processPackages [struct-bias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struct-bias-1.2.0.tar.gz tmp/struct-bias-1.2.1.tar.gz --markdown 20230616/s/struct-bias/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-16 09:28:10] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/14/6f/20424ad55aaad55bea7d3a27e5a0cc5fe726f0b4507b2b6f406d79e8015a/savant_rs-0.1.9.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [farm-haystack]: Downloading https://files.pythonhosted.org/packages/25/8b/e5381a7ecd8fa8e72c2cfdfe68539c09350180493bee16fb3b800a487c96/farm_haystack-1.9.1rc1.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: Downloading https://files.pythonhosted.org/packages/6e/d2/f7113ddf9a3f34ebf18d0ee65a73918ddf0d8b8357678f927a6d48af1a1e/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev9-py3-none-any.whl
+[2023-06-16 09:28:10] INFO root fetch - processPackages [kompiler]: Downloading https://files.pythonhosted.org/packages/12/f6/4b33e16d3efe8172400d6c85506f2b08ca5065dd750dd310d687996155c6/kompiler-1.2.1.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-06-16 09:28:10] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230616/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 09:28:10] INFO root fetch - processPackages [odoo13-addon-stock-picking-package-preparation]: Downloading https://files.pythonhosted.org/packages/59/93/918ad64b45869d0685a650cde2809c84f33dce77ebd68c71ad4c3d80d170/odoo13_addon_stock_picking_package_preparation-13.0.1.0.1.dev9-py3-none-any.whl
+[2023-06-16 09:28:10] INFO root fetch - processPackages [k8s-deployment-status]: Downloading https://files.pythonhosted.org/packages/c1/36/100eb750b4a06de87296345b67f273dd07aa7b008ad5cd43dd76f4aa0852/k8s_deployment_status-0.0.2.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [kompiler]: executing diffoscope
+[2023-06-16 09:28:10] INFO root fetch - processPackages [kompiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kompiler-1.2.0.tar.gz tmp/kompiler-1.2.1.tar.gz --markdown 20230616/k/kompiler/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-16 09:28:10] INFO root fetch - processPackages [odoo12-addon-stock-picking-package-preparation]: Downloading https://files.pythonhosted.org/packages/30/3b/42abf7f5fc0bb2164618f780a8439653eced52d7dee28376df5abb5336dd/odoo12_addon_stock_picking_package_preparation-12.0.1.0.3.99.dev4-py3-none-any.whl
+[2023-06-16 09:28:10] INFO root fetch - processPackages [proteinshake]: Downloading https://files.pythonhosted.org/packages/01/f3/4ce96d888eabb6aab564caaf0fbd0b1047bf8faa4b8137849b659320b6a0/proteinshake-0.3.9.tar.gz
+[2023-06-16 09:28:10] INFO root fetch - processPackages [k8s-deployment-status]: executing diffoscope
+[2023-06-16 09:28:10] INFO root fetch - processPackages [k8s-deployment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8s_deployment_status-0.0.1.tar.gz tmp/k8s_deployment_status-0.0.2.tar.gz --markdown 20230616/k/k8s-deployment-status/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 09:28:11] INFO root fetch - processPackages [alteia]: Downloading https://files.pythonhosted.org/packages/b0/09/060b329b9780bd1336da78bb1177795d3651c0724347fbf230bb24bd80c3/alteia-2.8.0.tar.gz
+[2023-06-16 09:28:11] INFO root fetch - processPackages [farm-haystack]: executing diffoscope
+[2023-06-16 09:28:11] INFO root fetch - processPackages [farm-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/farm_haystack-1.9.1.tar.gz tmp/farm_haystack-1.9.1rc1.tar.gz --markdown 20230616/f/farm-haystack/1.9.1-1.9.1rc1/diff.md --exclude *.pyd
+[2023-06-16 09:28:11] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: executing diffoscope
+[2023-06-16 09:28:11] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-stock-return-request/12.0.1.0.2.99.dev8-12.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:28:11] INFO root fetch - processPackages [odoo13-addon-stock-picking-package-preparation]: executing diffoscope
+[2023-06-16 09:28:11] INFO root fetch - processPackages [odoo13-addon-stock-picking-package-preparation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_stock_picking_package_preparation-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_stock_picking_package_preparation-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo13-addon-stock-picking-package-preparation/13.0.1.0.1.dev8-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:28:11] INFO root fetch - processPackages [alteia]: executing diffoscope
+[2023-06-16 09:28:11] INFO root fetch - processPackages [alteia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alteia-2.7.0.tar.gz tmp/alteia-2.8.0.tar.gz --markdown 20230616/a/alteia/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-06-16 09:28:11] INFO root fetch - processPackages [odoo12-addon-stock-picking-package-preparation]: executing diffoscope
+[2023-06-16 09:28:11] INFO root fetch - processPackages [odoo12-addon-stock-picking-package-preparation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_picking_package_preparation-12.0.1.0.3.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_stock_picking_package_preparation-12.0.1.0.3.99.dev4-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-stock-picking-package-preparation/12.0.1.0.3.99.dev3-12.0.1.0.3.99.dev4/diff.md --exclude *.pyd
+[2023-06-16 09:28:11] INFO root fetch - processPackages [proteinshake]: executing diffoscope
+[2023-06-16 09:28:11] INFO root fetch - processPackages [proteinshake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinshake-0.3.8.tar.gz tmp/proteinshake-0.3.9.tar.gz --markdown 20230616/p/proteinshake/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-16 09:28:12] INFO root fetch - processPackages [struct-bias]: Remove: archive file [/home/abi/fetcher/tmp/struct-bias-1.2.0.tar.gz]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [struct-bias]: Remove: archive file [/home/abi/fetcher/tmp/struct-bias-1.2.1.tar.gz]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [struct-bias]: Start processing: savant-rs-etcd-dynamic-state
+[2023-06-16 09:28:12] INFO root fetch - main [MainThread]: End processing [struct-bias]: success
+[2023-06-16 09:28:12] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: New version: [0.1.30] Old Version: [0.1.29]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/00/a3/386aefa03dad732ecf2235aa7d6436c0999f16dc3f59dc6017a2a9e676cc/savant_rs_etcd_dynamic_state-0.1.29-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-16 09:28:12] INFO root fetch - processPackages [kompiler]: Remove: archive file [/home/abi/fetcher/tmp/kompiler-1.2.0.tar.gz]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [kompiler]: Remove: archive file [/home/abi/fetcher/tmp/kompiler-1.2.1.tar.gz]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [kompiler]: Start processing: ar-filters
+[2023-06-16 09:28:12] INFO root fetch - main [MainThread]: End processing [kompiler]: success
+[2023-06-16 09:28:12] INFO root fetch - processPackages [k8s-deployment-status]: Remove: archive file [/home/abi/fetcher/tmp/k8s_deployment_status-0.0.1.tar.gz]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [k8s-deployment-status]: Remove: archive file [/home/abi/fetcher/tmp/k8s_deployment_status-0.0.2.tar.gz]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [k8s-deployment-status]: Start processing: langconv
+[2023-06-16 09:28:12] INFO root fetch - main [MainThread]: End processing [k8s-deployment-status]: success
+[2023-06-16 09:28:12] INFO root fetch - processPackages [ar-filters]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [langconv]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [ar-filters]: Downloading https://files.pythonhosted.org/packages/e0/cc/9bc81661d688496442e49788b9c71354a7093e3d2bd14992c08a1be51d3c/ar_filters-0.0.4.tar.gz
+[2023-06-16 09:28:12] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev8-py3-none-any.whl.zip]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev9-py3-none-any.whl.zip]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: Start processing: EssaySummarizer
+[2023-06-16 09:28:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-return-request]: success
+[2023-06-16 09:28:12] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/af/53/f6ad256b4c467ef75810c880cb46c5a2ed394340ed9c3698513aee041d23/savant_rs_etcd_dynamic_state-0.1.30-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-16 09:28:12] INFO root fetch - processPackages [langconv]: Downloading https://files.pythonhosted.org/packages/6c/25/5bc59cd5e2a5a4da6d149b0504bbdfd85c3fbae9963ee4d0820ed5fb6f5a/langconv-0.1.0.tar.gz
+[2023-06-16 09:28:12] INFO root fetch - processPackages [odoo13-addon-stock-picking-package-preparation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_stock_picking_package_preparation-13.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [odoo13-addon-stock-picking-package-preparation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_stock_picking_package_preparation-13.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-06-16 09:28:12] INFO root fetch - processPackages [odoo13-addon-stock-picking-package-preparation]: Start processing: v-quantum-annealing
+[2023-06-16 09:28:12] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-picking-package-preparation]: success
+[2023-06-16 09:28:12] WARNING root fetch - processPackages [EssaySummarizer]: Skipping, unable to determine old version
+[2023-06-16 09:28:12] INFO root fetch - main [MainThread]: End processing [EssaySummarizer] error
+[2023-06-16 09:28:13] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 09:28:13] INFO root fetch - processPackages [ar-filters]: Downloading https://files.pythonhosted.org/packages/53/a6/b2d8d67b2becb4a814602ad595bce147be555b24ade89de128fadc8d8a1a/ar_filters-0.0.5.tar.gz
+[2023-06-16 09:28:13] INFO root fetch - processPackages [ar-filters]: executing diffoscope
+[2023-06-16 09:28:13] INFO root fetch - processPackages [ar-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_filters-0.0.4.tar.gz tmp/ar_filters-0.0.5.tar.gz --markdown 20230616/a/ar-filters/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-16 09:28:13] INFO root fetch - processPackages [langconv]: Downloading https://files.pythonhosted.org/packages/d6/68/142a986a36b478fc04504926b94ea71d85d582d7dbd6c65eb7c20e8374a2/langconv-0.2.0.tar.gz
+[2023-06-16 09:28:13] INFO root fetch - processPackages [proteinshake]: Remove: archive file [/home/abi/fetcher/tmp/proteinshake-0.3.8.tar.gz]
+[2023-06-16 09:28:13] INFO root fetch - processPackages [proteinshake]: Remove: archive file [/home/abi/fetcher/tmp/proteinshake-0.3.9.tar.gz]
+[2023-06-16 09:28:13] INFO root fetch - main [MainThread]: End processing [proteinshake]: success
+[2023-06-16 09:28:13] INFO root fetch - processPackages [langconv]: executing diffoscope
+[2023-06-16 09:28:13] INFO root fetch - processPackages [langconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langconv-0.1.0.tar.gz tmp/langconv-0.2.0.tar.gz --markdown 20230616/l/langconv/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-16 09:28:13] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-06-16 09:28:13] INFO root fetch - processPackages [alteia]: Remove: archive file [/home/abi/fetcher/tmp/alteia-2.7.0.tar.gz]
+[2023-06-16 09:28:13] INFO root fetch - processPackages [alteia]: Remove: archive file [/home/abi/fetcher/tmp/alteia-2.8.0.tar.gz]
+[2023-06-16 09:28:13] INFO root fetch - main [MainThread]: End processing [alteia]: success
+[2023-06-16 09:28:13] INFO root fetch - processPackages [odoo12-addon-stock-picking-package-preparation]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_picking_package_preparation-12.0.1.0.3.99.dev3-py3-none-any.whl.zip]
+[2023-06-16 09:28:13] INFO root fetch - processPackages [odoo12-addon-stock-picking-package-preparation]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_picking_package_preparation-12.0.1.0.3.99.dev4-py3-none-any.whl.zip]
+[2023-06-16 09:28:13] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-picking-package-preparation]: success
+[2023-06-16 09:28:13] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-06-16 09:28:13] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.7.tar.gz]
+[2023-06-16 09:28:13] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.9.tar.gz]
+[2023-06-16 09:28:13] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-06-16 09:28:13] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-06-16 09:28:13] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230616/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 09:28:13] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: executing diffoscope
+[2023-06-16 09:28:13] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs_etcd_dynamic_state-0.1.29-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/savant_rs_etcd_dynamic_state-0.1.30-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230616/s/savant-rs-etcd-dynamic-state/0.1.29-0.1.30/diff.md --exclude *.pyd
+[2023-06-16 09:28:14] INFO root fetch - processPackages [farm-haystack]: Remove: archive file [/home/abi/fetcher/tmp/farm_haystack-1.9.1.tar.gz]
+[2023-06-16 09:28:14] INFO root fetch - processPackages [farm-haystack]: Remove: archive file [/home/abi/fetcher/tmp/farm_haystack-1.9.1rc1.tar.gz]
+[2023-06-16 09:28:14] INFO root fetch - main [MainThread]: End processing [farm-haystack]: success
+[2023-06-16 09:28:15] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-06-16 09:28:15] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-06-16 09:28:15] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-06-16 09:28:15] INFO root fetch - processPackages [langconv]: Remove: archive file [/home/abi/fetcher/tmp/langconv-0.1.0.tar.gz]
+[2023-06-16 09:28:15] INFO root fetch - processPackages [langconv]: Remove: archive file [/home/abi/fetcher/tmp/langconv-0.2.0.tar.gz]
+[2023-06-16 09:28:15] INFO root fetch - main [MainThread]: End processing [langconv]: success
+[2023-06-16 09:28:15] INFO root fetch - processPackages [ar-filters]: Remove: archive file [/home/abi/fetcher/tmp/ar_filters-0.0.4.tar.gz]
+[2023-06-16 09:28:15] INFO root fetch - processPackages [ar-filters]: Remove: archive file [/home/abi/fetcher/tmp/ar_filters-0.0.5.tar.gz]
+[2023-06-16 09:28:15] INFO root fetch - main [MainThread]: End processing [ar-filters]: success
+[2023-06-16 09:29:15] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.29-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-16 09:29:15] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.30-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-16 09:29:15] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
+[2023-06-16 09:29:15] INFO root fetch - main [MainThread]: Store serial: [18528598]
