@@ -13296,3 +13296,78 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 07:49:24] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
 [2023-06-16 07:49:24] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-06-16 07:49:24] INFO root fetch - main [MainThread]: Store serial: [18527725]
+[2023-06-16 07:54:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527725]
+[2023-06-16 07:54:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 07:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-partner-pricelist-search
+[2023-06-16 07:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kasa-crypt
+[2023-06-16 07:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-partner-contact
+[2023-06-16 07:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shakenfist-agent
+[2023-06-16 07:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nestedaccess
+[2023-06-16 07:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-pos-order-mgmt
+[2023-06-16 07:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mttf
+[2023-06-16 07:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-serve
+[2023-06-16 07:54:34] INFO root fetch - processPackages [kasa-crypt]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-16 07:54:34] INFO root fetch - processPackages [nestedaccess]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: New version: [16.0.20230615.1] Old Version: [16.0.20230526.0]
+[2023-06-16 07:54:34] INFO root fetch - processPackages [shakenfist-agent]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo14-addon-pos-order-mgmt]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-16 07:54:34] INFO root fetch - processPackages [mttf]: New version: [0.9.202209080909] Old Version: [0.9.202209080905]
+[2023-06-16 07:54:34] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-16 07:54:34] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/c1/3c/f6ab1bec13e2b50f9d63ba0bd80f421d2fa6b09ddd0c0899d3aae444ac5b/nestedaccess-0.1.4.tar.gz
+[2023-06-16 07:54:34] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-06-16 07:54:34] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/1b/9d/8e86760dedc977eaad2d9a2b5c4b27400c70f0c4ec38ab513b7cf312f996/shakenfist-agent-0.3.8.tar.gz
+[2023-06-16 07:54:34] INFO root fetch - processPackages [kasa-crypt]: Downloading https://files.pythonhosted.org/packages/38/20/fac32a624aa3ed4ae653902e7ca4506dfe829c29ec25ae68b20e4c8754b8/kasa_crypt-0.1.4.tar.gz
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/59/02/912a31dd876136d681684213f9425dcf0bb4616d3aabc993e66ed7fbaab7/odoo_addons_oca_partner_contact-16.0.20230526.0-py3-none-any.whl
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo14-addon-pos-order-mgmt]: Downloading https://files.pythonhosted.org/packages/36/15/1ded65c2952e3009f1a94e52bbd0f3a2ba0d131cc9eae236bbe76d3e5d1a/odoo14_addon_pos_order_mgmt-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Downloading https://files.pythonhosted.org/packages/45/d9/c213c7070650387a90dd048fa151ba1f0838533cc330a5d4d43436001a7d/odoo_addon_partner_pricelist_search-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-16 07:54:34] INFO root fetch - processPackages [mttf]: Downloading https://files.pythonhosted.org/packages/46/76/a3f3cca5ba9d0c3c9dc77aa83159d75cd4087c9f02eafc456281b40187d2/mttf-0.9.202209080905-py3-none-any.whl
+[2023-06-16 07:54:34] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/5b/f4/5bc504c84c7cff6d1a31d7da3c4d67a786630e077f6841f63c15f8fa64ab/nestedaccess-0.1.5.tar.gz
+[2023-06-16 07:54:34] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-06-16 07:54:34] INFO root fetch - processPackages [kasa-crypt]: Downloading https://files.pythonhosted.org/packages/ac/36/6cae0da1e2f0b960ca8632c4b9fbc4a490cb565517d6f4759f874fe5e8c8/kasa_crypt-0.1.5.tar.gz
+[2023-06-16 07:54:34] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/8d/79/f656d2ef8da79e62fd60458bb773a4d9d04d1881176e7901f83dd4119e6c/shakenfist-agent-0.3.9.tar.gz
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/78/ac/f5b8a756a7533b61aa5cc62a5b177ebb5d83b0d1786ea5f95bf283d934bc/odoo_addons_oca_partner_contact-16.0.20230615.1-py3-none-any.whl
+[2023-06-16 07:54:34] INFO root fetch - processPackages [kasa-crypt]: executing diffoscope
+[2023-06-16 07:54:34] INFO root fetch - processPackages [kasa-crypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kasa_crypt-0.1.4.tar.gz tmp/kasa_crypt-0.1.5.tar.gz --markdown 20230616/k/kasa-crypt/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Downloading https://files.pythonhosted.org/packages/82/2b/87dfaf63d2fc9d3fd78cdbe4f1de9bc9a685285fa21f5db9032330c0a1fb/odoo_addon_partner_pricelist_search-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-16 07:54:34] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-16 07:54:34] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.1.4.tar.gz tmp/nestedaccess-0.1.5.tar.gz --markdown 20230616/n/nestedaccess/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-16 07:54:34] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-16 07:54:34] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230616/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: executing diffoscope
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_partner_contact-16.0.20230526.0-py3-none-any.whl.zip tmp/odoo_addons_oca_partner_contact-16.0.20230615.1-py3-none-any.whl.zip --markdown 20230616/o/odoo-addons-oca-partner-contact/16.0.20230526.0-16.0.20230615.1/diff.md --exclude *.pyd
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo14-addon-pos-order-mgmt]: Downloading https://files.pythonhosted.org/packages/45/e5/018d0a1d3a8df3194632ae084b7b77933f2010da744d2e150daefb72f307/odoo14_addon_pos_order_mgmt-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: executing diffoscope
+[2023-06-16 07:54:34] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_pricelist_search-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_partner_pricelist_search-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-partner-pricelist-search/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-16 07:54:34] INFO root fetch - processPackages [shakenfist-agent]: executing diffoscope
+[2023-06-16 07:54:34] INFO root fetch - processPackages [shakenfist-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-agent-0.3.8.tar.gz tmp/shakenfist-agent-0.3.9.tar.gz --markdown 20230616/s/shakenfist-agent/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-16 07:54:34] INFO root fetch - processPackages [mttf]: Downloading https://files.pythonhosted.org/packages/4e/1f/febde16f6cd22109dd73e3b250fb39d4192f526fdd62dd802a839a67b695/mttf-0.9.202209080909-py3-none-any.whl
+[2023-06-16 07:54:35] INFO root fetch - processPackages [odoo14-addon-pos-order-mgmt]: executing diffoscope
+[2023-06-16 07:54:35] INFO root fetch - processPackages [odoo14-addon-pos-order-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_order_mgmt-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_pos_order_mgmt-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-pos-order-mgmt/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-06-16 07:54:35] INFO root fetch - processPackages [mttf]: executing diffoscope
+[2023-06-16 07:54:35] INFO root fetch - processPackages [mttf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mttf-0.9.202209080905-py3-none-any.whl.zip tmp/mttf-0.9.202209080909-py3-none-any.whl.zip --markdown 20230616/m/mttf/0.9.202209080905-0.9.202209080909/diff.md --exclude *.pyd
+[2023-06-16 07:54:36] INFO root fetch - processPackages [kasa-crypt]: Remove: archive file [/home/abi/fetcher/tmp/kasa_crypt-0.1.4.tar.gz]
+[2023-06-16 07:54:36] INFO root fetch - processPackages [kasa-crypt]: Remove: archive file [/home/abi/fetcher/tmp/kasa_crypt-0.1.5.tar.gz]
+[2023-06-16 07:54:36] INFO root fetch - main [MainThread]: End processing [kasa-crypt]: success
+[2023-06-16 07:54:36] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20230526.0-py3-none-any.whl.zip]
+[2023-06-16 07:54:36] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20230615.1-py3-none-any.whl.zip]
+[2023-06-16 07:54:36] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-partner-contact]: success
+[2023-06-16 07:54:36] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.1.4.tar.gz]
+[2023-06-16 07:54:36] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.1.5.tar.gz]
+[2023-06-16 07:54:36] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-16 07:54:36] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.8.tar.gz]
+[2023-06-16 07:54:36] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.9.tar.gz]
+[2023-06-16 07:54:36] INFO root fetch - main [MainThread]: End processing [shakenfist-agent]: success
+[2023-06-16 07:54:36] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_pricelist_search-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-16 07:54:36] INFO root fetch - processPackages [odoo-addon-partner-pricelist-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_pricelist_search-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-16 07:54:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-pricelist-search]: success
+[2023-06-16 07:54:36] INFO root fetch - processPackages [odoo14-addon-pos-order-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_order_mgmt-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-06-16 07:54:36] INFO root fetch - processPackages [odoo14-addon-pos-order-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_order_mgmt-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-06-16 07:54:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-order-mgmt]: success
+[2023-06-16 07:54:36] INFO root fetch - processPackages [mttf]: Remove: archive file [/home/abi/fetcher/tmp/mttf-0.9.202209080905-py3-none-any.whl.zip]
+[2023-06-16 07:54:36] INFO root fetch - processPackages [mttf]: Remove: archive file [/home/abi/fetcher/tmp/mttf-0.9.202209080909-py3-none-any.whl.zip]
+[2023-06-16 07:54:36] INFO root fetch - main [MainThread]: End processing [mttf]: success
+[2023-06-16 07:54:36] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-06-16 07:54:36] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-06-16 07:54:36] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-16 07:54:36] INFO root fetch - main [MainThread]: Store serial: [18527746]
