@@ -11987,3 +11987,51 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 06:27:23] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.1.0rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-06-16 06:27:23] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
 [2023-06-16 06:27:23] INFO root fetch - main [MainThread]: Store serial: [18527194]
+[2023-06-16 06:32:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527194]
+[2023-06-16 06:32:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-16 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-copilot
+[2023-06-16 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-signing
+[2023-06-16 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kangforecast
+[2023-06-16 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Metadata-Magic
+[2023-06-16 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-redisdb
+[2023-06-16 06:32:32] INFO root fetch - processPackages [openai-copilot]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-16 06:32:32] INFO root fetch - processPackages [flask-signing]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-16 06:32:32] INFO root fetch - processPackages [kangforecast]: New version: [0.2] Old Version: [0.1]
+[2023-06-16 06:32:32] INFO root fetch - processPackages [Metadata-Magic]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-16 06:32:32] INFO root fetch - processPackages [flask-signing]: Downloading https://files.pythonhosted.org/packages/54/59/5c0ea6a5acd22d1f9dfa0fca4bd98d48a996a5db256c70ba99b36e5e402e/flask_signing-0.4.1.tar.gz
+[2023-06-16 06:32:32] INFO root fetch - processPackages [cdk-redisdb]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-06-16 06:32:32] INFO root fetch - processPackages [Metadata-Magic]: Downloading https://files.pythonhosted.org/packages/b5/dc/d623ef5dc9e0075b643464249b638a68a640e9f70dd282f38aac928fdae3/Metadata_Magic-0.4.3-py3-none-any.whl
+[2023-06-16 06:32:32] INFO root fetch - processPackages [openai-copilot]: Downloading https://files.pythonhosted.org/packages/48/1e/8682e268597b7d87650bc23e439befb99acbdb8aadf7f5f3dfe6c7b7eebc/openai_copilot-0.2.1.tar.gz
+[2023-06-16 06:32:32] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/09/b3/bf1b46741a2dcd0f85affffa8297c839190680d6b961aa5216cdfc26d967/kangforecast-0.1.tar.gz
+[2023-06-16 06:32:32] INFO root fetch - processPackages [flask-signing]: Downloading https://files.pythonhosted.org/packages/d0/fd/9fa85dd1deb8d8fc859c440639ea0efdf2d7498ae0565d338ef43891a366/flask_signing-0.5.0.tar.gz
+[2023-06-16 06:32:32] INFO root fetch - processPackages [flask-signing]: executing diffoscope
+[2023-06-16 06:32:32] INFO root fetch - processPackages [flask-signing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_signing-0.4.1.tar.gz tmp/flask_signing-0.5.0.tar.gz --markdown 20230616/f/flask-signing/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-16 06:32:32] INFO root fetch - processPackages [cdk-redisdb]: Downloading https://files.pythonhosted.org/packages/2e/e2/189110c714e9ed38e733074feaaf9d957bf64d14b0676fea17434339ceb0/cdk-redisdb-0.0.29.tar.gz
+[2023-06-16 06:32:32] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/61/a0/71370f03a9b57bbba4954c454f68d94fc16019bec6259e22a467955e6061/kangforecast-0.2.tar.gz
+[2023-06-16 06:32:32] INFO root fetch - processPackages [Metadata-Magic]: Downloading https://files.pythonhosted.org/packages/00/62/374b7c61db765769b23371da8a9ecae341264656c64014324c51bdbb713e/Metadata_Magic-0.4.4-py3-none-any.whl
+[2023-06-16 06:32:32] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-16 06:32:32] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.1.tar.gz tmp/kangforecast-0.2.tar.gz --markdown 20230616/k/kangforecast/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-16 06:32:32] INFO root fetch - processPackages [openai-copilot]: Downloading https://files.pythonhosted.org/packages/67/b1/8629bb07dd93bc5328737e3b01e4de8dbc153849f5fe0386cc46c17d844a/openai_copilot-0.2.2.tar.gz
+[2023-06-16 06:32:32] INFO root fetch - processPackages [Metadata-Magic]: executing diffoscope
+[2023-06-16 06:32:32] INFO root fetch - processPackages [Metadata-Magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Metadata_Magic-0.4.3-py3-none-any.whl.zip tmp/Metadata_Magic-0.4.4-py3-none-any.whl.zip --markdown 20230616/M/Metadata-Magic/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-16 06:32:32] INFO root fetch - processPackages [openai-copilot]: executing diffoscope
+[2023-06-16 06:32:32] INFO root fetch - processPackages [openai-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_copilot-0.2.1.tar.gz tmp/openai_copilot-0.2.2.tar.gz --markdown 20230616/o/openai-copilot/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-16 06:32:32] INFO root fetch - processPackages [cdk-redisdb]: Downloading https://files.pythonhosted.org/packages/68/aa/65a2bcfb45037b351bb8dfdbf7b0c470fafc2a030674d4dd1f846148f9f7/cdk-redisdb-0.0.30.tar.gz
+[2023-06-16 06:32:33] INFO root fetch - processPackages [cdk-redisdb]: executing diffoscope
+[2023-06-16 06:32:33] INFO root fetch - processPackages [cdk-redisdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-redisdb-0.0.29.tar.gz tmp/cdk-redisdb-0.0.30.tar.gz --markdown 20230616/c/cdk-redisdb/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-06-16 06:32:33] INFO root fetch - processPackages [flask-signing]: Remove: archive file [/home/abi/fetcher/tmp/flask_signing-0.4.1.tar.gz]
+[2023-06-16 06:32:33] INFO root fetch - processPackages [flask-signing]: Remove: archive file [/home/abi/fetcher/tmp/flask_signing-0.5.0.tar.gz]
+[2023-06-16 06:32:33] INFO root fetch - main [MainThread]: End processing [flask-signing]: success
+[2023-06-16 06:32:33] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.1.tar.gz]
+[2023-06-16 06:32:33] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.2.tar.gz]
+[2023-06-16 06:32:33] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-16 06:32:34] INFO root fetch - processPackages [openai-copilot]: Remove: archive file [/home/abi/fetcher/tmp/openai_copilot-0.2.1.tar.gz]
+[2023-06-16 06:32:34] INFO root fetch - processPackages [openai-copilot]: Remove: archive file [/home/abi/fetcher/tmp/openai_copilot-0.2.2.tar.gz]
+[2023-06-16 06:32:34] INFO root fetch - main [MainThread]: End processing [openai-copilot]: success
+[2023-06-16 06:32:34] INFO root fetch - processPackages [Metadata-Magic]: Remove: archive file [/home/abi/fetcher/tmp/Metadata_Magic-0.4.3-py3-none-any.whl.zip]
+[2023-06-16 06:32:34] INFO root fetch - processPackages [Metadata-Magic]: Remove: archive file [/home/abi/fetcher/tmp/Metadata_Magic-0.4.4-py3-none-any.whl.zip]
+[2023-06-16 06:32:34] INFO root fetch - main [MainThread]: End processing [Metadata-Magic]: success
+[2023-06-16 06:32:34] INFO root fetch - processPackages [cdk-redisdb]: Remove: archive file [/home/abi/fetcher/tmp/cdk-redisdb-0.0.29.tar.gz]
+[2023-06-16 06:32:34] INFO root fetch - processPackages [cdk-redisdb]: Remove: archive file [/home/abi/fetcher/tmp/cdk-redisdb-0.0.30.tar.gz]
+[2023-06-16 06:32:34] INFO root fetch - main [MainThread]: End processing [cdk-redisdb]: success
+[2023-06-16 06:32:34] INFO root fetch - main [MainThread]: Store serial: [18527226]
