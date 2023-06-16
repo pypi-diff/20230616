@@ -14942,3 +14942,306 @@ AssertionError: tmp/nestedaccess-0.2.4.tar.gz does not exist
 [2023-06-16 09:04:37] INFO root fetch - processPackages [odoo11-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_mass_mailing_custom_unsubscribe-11.0.2.1.0.99.dev8-py2.py3-none-any.whl.zip]
 [2023-06-16 09:04:37] INFO root fetch - main [MainThread]: End processing [odoo11-addon-mass-mailing-custom-unsubscribe]: success
 [2023-06-16 09:04:37] INFO root fetch - main [MainThread]: Store serial: [18528323]
+[2023-06-16 09:09:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528323]
+[2023-06-16 09:09:47] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-16 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-06-16 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-06-16 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-mail-tracking
+[2023-06-16 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-mail-tracking-mass-mailing
+[2023-06-16 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-mass-mailing-custom-unsubscribe
+[2023-06-16 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-06-16 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.pipeline
+[2023-06-16 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-mail-tracking
+[2023-06-16 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.static-website
+[2023-06-16 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo13-addon-mass-mailing-custom-unsubscribe
+[2023-06-16 09:09:47] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: New version: [12.0.3.1.0.99.dev4] Old Version: [12.0.3.1.0.99.dev3]
+[2023-06-16 09:09:47] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mass-mailing-custom-unsubscribe]: New version: [13.0.2.0.1.dev3] Old Version: [13.0.2.0.1.dev2]
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mail-tracking-mass-mailing]: New version: [13.0.1.0.3.dev1] Old Version: [13.0.1.0.2]
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo12-addon-mass-mailing-custom-unsubscribe]: New version: [12.0.1.0.4.99.dev9] Old Version: [12.0.1.0.4.99.dev8]
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mail-tracking]: New version: [13.0.2.0.2.dev3] Old Version: [13.0.2.0.2.dev2]
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mail-tracking-mass-mailing]: Downloading https://files.pythonhosted.org/packages/be/d0/6774ecf99f74bcd14e675c863e75c2dd262fdca22361d67286f967bf02df/odoo13_addon_mail_tracking_mass_mailing-13.0.1.0.2-py3-none-any.whl
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/bf/f7/ecd562c5a2c12b83a0e1d4a34a5751d9571ff4fc9dec7580931cd0720486/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev3-py3-none-any.whl
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/f1/32/44c7ec029287c2d44253329d36cf6f072a97c52709ef9747f9f775b7d881/odoo13_addon_mass_mailing_custom_unsubscribe-13.0.2.0.1.dev2-py3-none-any.whl
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo12-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/0e/e8/dbe730d1f67944d7e7a3a2750f388328441a9fa487d3c115cc74eb997c28/odoo12_addon_mass_mailing_custom_unsubscribe-12.0.1.0.4.99.dev8-py3-none-any.whl
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/bf/a6/b4bf90605f6d5e65494cce52b18a31d3ecef2b7371a28d12b7b738a5c96a/odoo13_addon_mail_tracking-13.0.2.0.2.dev2-py3-none-any.whl
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230616/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230616/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230616/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo12-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/86/e6/6192033834ef6c104a496eed37b9020b33909e1759e2caa6e67b7b321ed1/odoo12_addon_mass_mailing_custom_unsubscribe-12.0.1.0.4.99.dev9-py3-none-any.whl
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mail-tracking-mass-mailing]: Downloading https://files.pythonhosted.org/packages/51/57/d77adfafc623813f8538358b4e18daada067a68fffa64c23dcb96ab0cde2/odoo13_addon_mail_tracking_mass_mailing-13.0.1.0.3.dev1-py3-none-any.whl
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/39/cc/912b726fde67c2baac91a41a852d98d5373920813bab80303598fd9c1a2f/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev4-py3-none-any.whl
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/27/a0/5f06a1f2a185415ae596c647ab0980b0390b83951bd94908864c6e52a8f8/odoo13_addon_mass_mailing_custom_unsubscribe-13.0.2.0.1.dev3-py3-none-any.whl
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/5c/53/4d6d2af1f3cee3d050eb45d7ee1c9d10c12a73fa04583a2b7fade1f15401/odoo13_addon_mail_tracking-13.0.2.0.2.dev3-py3-none-any.whl
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo12-addon-mass-mailing-custom-unsubscribe]: executing diffoscope
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo12-addon-mass-mailing-custom-unsubscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_mass_mailing_custom_unsubscribe-12.0.1.0.4.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_mass_mailing_custom_unsubscribe-12.0.1.0.4.99.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-mass-mailing-custom-unsubscribe/12.0.1.0.4.99.dev8-12.0.1.0.4.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mail-tracking-mass-mailing]: executing diffoscope
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mail-tracking-mass-mailing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mail_tracking_mass_mailing-13.0.1.0.2-py3-none-any.whl.zip tmp/odoo13_addon_mail_tracking_mass_mailing-13.0.1.0.3.dev1-py3-none-any.whl.zip --markdown 20230616/o/odoo13-addon-mail-tracking-mass-mailing/13.0.1.0.2-13.0.1.0.3.dev1/diff.md --exclude *.pyd
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mail-tracking]: executing diffoscope
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mail_tracking-13.0.2.0.2.dev2-py3-none-any.whl.zip tmp/odoo13_addon_mail_tracking-13.0.2.0.2.dev3-py3-none-any.whl.zip --markdown 20230616/o/odoo13-addon-mail-tracking/13.0.2.0.2.dev2-13.0.2.0.2.dev3/diff.md --exclude *.pyd
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: executing diffoscope
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev4-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-mail-tracking/12.0.3.1.0.99.dev3-12.0.3.1.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mass-mailing-custom-unsubscribe]: executing diffoscope
+[2023-06-16 09:09:48] INFO root fetch - processPackages [odoo13-addon-mass-mailing-custom-unsubscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mass_mailing_custom_unsubscribe-13.0.2.0.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_mass_mailing_custom_unsubscribe-13.0.2.0.1.dev3-py3-none-any.whl.zip --markdown 20230616/o/odoo13-addon-mass-mailing-custom-unsubscribe/13.0.2.0.1.dev2-13.0.2.0.1.dev3/diff.md --exclude *.pyd
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230616/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-06-16 09:09:48] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230616/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Start processing: steamship-langchain
+[2023-06-16 09:09:50] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-06-16 09:09:50] INFO root fetch - processPackages [steamship-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/28/9b/7d30260ef422e30d955c8e4ebaea1b7da8fe8e82ed497d0e37cfe71a5062/steamship-langchain-0.0.8.tar.gz
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-06-16 09:09:50] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [odoo13-addon-mail-tracking-mass-mailing]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mail_tracking_mass_mailing-13.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [odoo13-addon-mail-tracking-mass-mailing]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mail_tracking_mass_mailing-13.0.1.0.3.dev1-py3-none-any.whl.zip]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [odoo13-addon-mail-tracking-mass-mailing]: Start processing: odoo14-addon-mail-tracking-mass-mailing
+[2023-06-16 09:09:50] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mail-tracking-mass-mailing]: success
+[2023-06-16 09:09:50] INFO root fetch - processPackages [odoo14-addon-mail-tracking-mass-mailing]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Start processing: odoo-addon-mail-tracking-mass-mailing
+[2023-06-16 09:09:50] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: tuxrun
+[2023-06-16 09:09:50] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-06-16 09:09:50] INFO root fetch - processPackages [tuxrun]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [odoo14-addon-mail-tracking-mass-mailing]: Downloading https://files.pythonhosted.org/packages/91/eb/2e6e780137192291394e307a55e3499488afdfa00dfbca1f1be83b688172/odoo14_addon_mail_tracking_mass_mailing-14.0.1.1.0-py3-none-any.whl
+[2023-06-16 09:09:50] INFO root fetch - processPackages [odoo12-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_mass_mailing_custom_unsubscribe-12.0.1.0.4.99.dev8-py3-none-any.whl.zip]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [odoo12-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_mass_mailing_custom_unsubscribe-12.0.1.0.4.99.dev9-py3-none-any.whl.zip]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [odoo12-addon-mass-mailing-custom-unsubscribe]: Start processing: odoo14-addon-mail-tracking
+[2023-06-16 09:09:50] INFO root fetch - main [MainThread]: End processing [odoo12-addon-mass-mailing-custom-unsubscribe]: success
+[2023-06-16 09:09:50] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: Downloading https://files.pythonhosted.org/packages/b7/5f/1883f413ba4ad753db19d341a7a81da438e5ee2ce3cef036152cbcba5e86/odoo_addon_mail_tracking_mass_mailing-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-16 09:09:50] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-06-16 09:09:50] INFO root fetch - processPackages [odoo14-addon-mail-tracking]: New version: [14.0.3.1.3.dev1] Old Version: [14.0.3.1.2]
+[2023-06-16 09:09:50] INFO root fetch - processPackages [tuxrun]: Downloading https://files.pythonhosted.org/packages/05/75/c3a2f3d058040a29b90033ef83341a25499a52eb95f05ae733070a447399/tuxrun-0.9.5.tar.gz
+[2023-06-16 09:09:50] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/d3/e8/99fd7d90895f3d224f2fe3210c59f541a6187cc6e3aab13e92fa5e2da113/steamship-langchain-0.0.9.tar.gz
+[2023-06-16 09:09:51] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-06-16 09:09:51] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230616/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-06-16 09:09:51] INFO root fetch - processPackages [steamship-langchain]: executing diffoscope
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo14-addon-mail-tracking-mass-mailing]: Downloading https://files.pythonhosted.org/packages/b6/93/72e1c64979b74a8226268b44c24b9ea4616620a23017e3b94ae03633899e/odoo14_addon_mail_tracking_mass_mailing-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-06-16 09:09:51] INFO root fetch - processPackages [steamship-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-langchain-0.0.8.tar.gz tmp/steamship-langchain-0.0.9.tar.gz --markdown 20230616/s/steamship-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo13-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mass_mailing_custom_unsubscribe-13.0.2.0.1.dev2-py3-none-any.whl.zip]
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo13-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mass_mailing_custom_unsubscribe-13.0.2.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo13-addon-mass-mailing-custom-unsubscribe]: Start processing: odoo-addon-mail-tracking
+[2023-06-16 09:09:51] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mass-mailing-custom-unsubscribe]: success
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo14-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/82/d2/79163594c6c6b7e58b1710a1edd0c9e854bc28369b1bd7fb5b753102b8b0/odoo14_addon_mail_tracking-14.0.3.1.2-py3-none-any.whl
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [15.0.2.0.5.1] Old Version: [15.0.2.0.5]
+[2023-06-16 09:09:51] INFO root fetch - processPackages [tuxrun]: Downloading https://files.pythonhosted.org/packages/ae/5a/4fe00d549cd779f2a99801a6e2061f2501e373810e56871af8b037beb43f/tuxrun-0.9.6.tar.gz
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo14-addon-mail-tracking-mass-mailing]: executing diffoscope
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo14-addon-mail-tracking-mass-mailing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mail_tracking_mass_mailing-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_mail_tracking_mass_mailing-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-mail-tracking-mass-mailing/14.0.1.1.0-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev3-py3-none-any.whl.zip]
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev4-py3-none-any.whl.zip]
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: Start processing: odoo14-addon-mass-mailing-custom-unsubscribe
+[2023-06-16 09:09:51] INFO root fetch - main [MainThread]: End processing [odoo12-addon-mail-tracking]: success
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo14-addon-mass-mailing-custom-unsubscribe]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2023-06-16 09:09:51] INFO root fetch - processPackages [tuxrun]: executing diffoscope
+[2023-06-16 09:09:51] INFO root fetch - processPackages [tuxrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxrun-0.9.5.tar.gz tmp/tuxrun-0.9.6.tar.gz --markdown 20230616/t/tuxrun/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo13-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mail_tracking-13.0.2.0.2.dev2-py3-none-any.whl.zip]
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo13-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mail_tracking-13.0.2.0.2.dev3-py3-none-any.whl.zip]
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo13-addon-mail-tracking]: Start processing: odoo-addon-mass-mailing-custom-unsubscribe
+[2023-06-16 09:09:51] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mail-tracking]: success
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/f0/66/62a89019992aee76df2c8d4629074d5f153d26e8607dba703ec67579f2b4/odoo_addon_mail_tracking-15.0.2.0.5-py3-none-any.whl
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo14-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/c5/2d/fcbe867e539224064e8525b474200f71b37eeb748766884ed057be1ccfb4/odoo14_addon_mail_tracking-14.0.3.1.3.dev1-py3-none-any.whl
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo14-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/7a/70/ab5d5a29b8fd599173de3d07e9a8095387150dd348a329f6b1d31c97e96b/odoo14_addon_mass_mailing_custom_unsubscribe-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo14-addon-mail-tracking]: executing diffoscope
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo14-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mail_tracking-14.0.3.1.2-py3-none-any.whl.zip tmp/odoo14_addon_mail_tracking-14.0.3.1.3.dev1-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-mail-tracking/14.0.3.1.2-14.0.3.1.3.dev1/diff.md --exclude *.pyd
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/15/f5/7947ce5ba5b989793e9d97fa37c037535002351955a2c2e9a1a5d6f53e41/odoo_addon_mass_mailing_custom_unsubscribe-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/1f/cc/8626e6ca469effe2039a1d2c35e444f820ba46580d5b65def018623ecb36/odoo_addon_mail_tracking-15.0.2.0.5.1-py3-none-any.whl
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-15.0.2.0.5-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-15.0.2.0.5.1-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-mail-tracking/15.0.2.0.5-15.0.2.0.5.1/diff.md --exclude *.pyd
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: Downloading https://files.pythonhosted.org/packages/c4/f6/c63119ce3091b3e0fc596740a64877ea1da664bc08a3c4da7b252bc31326/odoo_addon_mail_tracking_mass_mailing-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo14-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/09/f7/893b96255a3e916d254a3bcd82f0ca6925e5e80f1343dbebc8fc9ee0b521/odoo14_addon_mass_mailing_custom_unsubscribe-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/b1/2a/8a4c2b7e2c7646bc69915e39b216d05bb4680e8402571a30a0f754deb3a4/odoo_addon_mass_mailing_custom_unsubscribe-15.0.1.0.0.5-py3-none-any.whl
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: executing diffoscope
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking_mass_mailing-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking_mass_mailing-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-mail-tracking-mass-mailing/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo14-addon-mass-mailing-custom-unsubscribe]: executing diffoscope
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo14-addon-mass-mailing-custom-unsubscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mass_mailing_custom_unsubscribe-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_mass_mailing_custom_unsubscribe-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-mass-mailing-custom-unsubscribe/14.0.1.0.1.dev3-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: executing diffoscope
+[2023-06-16 09:09:51] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mass_mailing_custom_unsubscribe-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_mass_mailing_custom_unsubscribe-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-mass-mailing-custom-unsubscribe/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-16 09:09:52] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz]
+[2023-06-16 09:09:52] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz]
+[2023-06-16 09:09:52] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Start processing: uat-breeze-connect
+[2023-06-16 09:09:52] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-06-16 09:09:52] INFO root fetch - processPackages [uat-breeze-connect]: New version: [1.0.14rc9] Old Version: [1.0.14rc8]
+[2023-06-16 09:09:52] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/9b/03/dd802566421dcd9465f7af95ae902df105cf90c68269ed72f09fe15e456c/uat-breeze-connect-1.0.14rc8.tar.gz
+[2023-06-16 09:09:52] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/85/e6/316aacb290fbe4ecb39fb9afbd06c44dd7de75f21614e5cd8e91e43358e9/uat-breeze-connect-1.0.14rc9.tar.gz
+[2023-06-16 09:09:52] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-06-16 09:09:52] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-06-16 09:09:52] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Start processing: tf-hub-nightly
+[2023-06-16 09:09:52] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-06-16 09:09:52] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-16 09:09:52] INFO root fetch - processPackages [uat-breeze-connect]: executing diffoscope
+[2023-06-16 09:09:52] INFO root fetch - processPackages [uat-breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uat-breeze-connect-1.0.14rc8.tar.gz tmp/uat-breeze-connect-1.0.14rc9.tar.gz --markdown 20230616/u/uat-breeze-connect/1.0.14rc8-1.0.14rc9/diff.md --exclude *.pyd
+[2023-06-16 09:09:52] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-16 09:09:52] INFO root fetch - processPackages [steamship-langchain]: Remove: archive file [/home/abi/fetcher/tmp/steamship-langchain-0.0.8.tar.gz]
+[2023-06-16 09:09:52] INFO root fetch - processPackages [steamship-langchain]: Remove: archive file [/home/abi/fetcher/tmp/steamship-langchain-0.0.9.tar.gz]
+[2023-06-16 09:09:52] INFO root fetch - processPackages [steamship-langchain]: Start processing: streamlit-nightly
+[2023-06-16 09:09:52] INFO root fetch - main [MainThread]: End processing [steamship-langchain]: success
+[2023-06-16 09:09:53] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-16 09:09:53] INFO root fetch - processPackages [tuxrun]: Remove: archive file [/home/abi/fetcher/tmp/tuxrun-0.9.5.tar.gz]
+[2023-06-16 09:09:53] INFO root fetch - processPackages [tuxrun]: Remove: archive file [/home/abi/fetcher/tmp/tuxrun-0.9.6.tar.gz]
+[2023-06-16 09:09:53] INFO root fetch - processPackages [tuxrun]: Start processing: alibabacloud-dingtalk
+[2023-06-16 09:09:53] INFO root fetch - main [MainThread]: End processing [tuxrun]: success
+[2023-06-16 09:09:53] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-16 09:09:53] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.21] Old Version: [2.0.20]
+[2023-06-16 09:09:53] INFO root fetch - processPackages [odoo14-addon-mail-tracking-mass-mailing]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mail_tracking_mass_mailing-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-16 09:09:53] INFO root fetch - processPackages [odoo14-addon-mail-tracking-mass-mailing]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mail_tracking_mass_mailing-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-06-16 09:09:53] INFO root fetch - processPackages [odoo14-addon-mail-tracking-mass-mailing]: Start processing: cm-two
+[2023-06-16 09:09:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mail-tracking-mass-mailing]: success
+[2023-06-16 09:09:53] INFO root fetch - processPackages [cm-two]: New version: [2.3.381] Old Version: [2.3.38]
+[2023-06-16 09:09:53] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-16 09:09:53] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/b6/17/8dc3609cb9ef1ae78e2ac2b63d24385464546fc343b6ce9632f608d397a9/alibabacloud_dingtalk-2.0.20.tar.gz
+[2023-06-16 09:09:53] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/0b/7f/ac8cac19a48f1a0dcce9b026c6ed6ff2cf041c7b6be1a8dff6a9c8d357df/cm_two-2.3.38-py3-none-any.whl
+[2023-06-16 09:09:53] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-16 09:09:53] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230616/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-16 09:09:53] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-16 09:09:53] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking_mass_mailing-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-16 09:09:53] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking_mass_mailing-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-16 09:09:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking-mass-mailing]: success
+[2023-06-16 09:09:53] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-16 09:09:53] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230616/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-16 09:09:53] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/16/ec/78119d6146518a404ab9bf84353701078fbb0e5c60148a3ade52239b1958/alibabacloud_dingtalk-2.0.21.tar.gz
+[2023-06-16 09:09:53] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/bd/33/b5de13c834d2927a0b342190b6ae220d7ab60ac3f3c840b50631ade6b23d/cm_two-2.3.381-py3-none-any.whl
+[2023-06-16 09:09:53] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2023-06-16 09:09:53] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.20.tar.gz tmp/alibabacloud_dingtalk-2.0.21.tar.gz --markdown 20230616/a/alibabacloud-dingtalk/2.0.20-2.0.21/diff.md --exclude *.pyd
+[2023-06-16 09:09:53] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-06-16 09:09:53] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.38-py3-none-any.whl.zip tmp/cm_two-2.3.381-py3-none-any.whl.zip --markdown 20230616/c/cm-two/2.3.38-2.3.381/diff.md --exclude *.pyd
+[2023-06-16 09:09:54] INFO root fetch - processPackages [odoo14-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mail_tracking-14.0.3.1.2-py3-none-any.whl.zip]
+[2023-06-16 09:09:54] INFO root fetch - processPackages [odoo14-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mail_tracking-14.0.3.1.3.dev1-py3-none-any.whl.zip]
+[2023-06-16 09:09:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mail-tracking]: success
+[2023-06-16 09:09:54] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mass_mailing_custom_unsubscribe-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-16 09:09:54] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mass_mailing_custom_unsubscribe-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-16 09:09:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-mass-mailing-custom-unsubscribe]: success
+[2023-06-16 09:09:54] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-15.0.2.0.5-py3-none-any.whl.zip]
+[2023-06-16 09:09:54] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-15.0.2.0.5.1-py3-none-any.whl.zip]
+[2023-06-16 09:09:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2023-06-16 09:09:54] INFO root fetch - processPackages [odoo14-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mass_mailing_custom_unsubscribe-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-16 09:09:54] INFO root fetch - processPackages [odoo14-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mass_mailing_custom_unsubscribe-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-16 09:09:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mass-mailing-custom-unsubscribe]: success
+[2023-06-16 09:09:54] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat-breeze-connect-1.0.14rc8.tar.gz]
+[2023-06-16 09:09:54] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat-breeze-connect-1.0.14rc9.tar.gz]
+[2023-06-16 09:09:54] INFO root fetch - main [MainThread]: End processing [uat-breeze-connect]: success
+[2023-06-16 09:09:54] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-16 09:09:54] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-16 09:09:54] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-16 09:09:55] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-06-16 09:09:55] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-06-16 09:09:59] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.20.tar.gz]
+[2023-06-16 09:09:59] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.21.tar.gz]
+[2023-06-16 09:09:59] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2023-06-16 09:10:03] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-16 09:10:03] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-16 09:10:03] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-16 09:10:03] INFO root fetch - main [MainThread]: Store serial: [18528387]
