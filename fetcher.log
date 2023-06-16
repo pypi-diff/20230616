@@ -13554,3 +13554,62 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 08:08:08] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230616.tar.gz]
 [2023-06-16 08:08:08] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-16 08:08:08] INFO root fetch - main [MainThread]: Store serial: [18527820]
+[2023-06-16 08:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527820]
+[2023-06-16 08:13:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bdating-common
+[2023-06-16 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nestedaccess
+[2023-06-16 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoamp
+[2023-06-16 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wow-ai-cv
+[2023-06-16 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kangforecast
+[2023-06-16 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-purchase-request
+[2023-06-16 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-06-16 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-06-16 08:13:18] WARNING root fetch - processPackages [scoamp]: Skipping, unable to determine old version
+[2023-06-16 08:13:18] INFO root fetch - main [MainThread]: End processing [scoamp] error
+[2023-06-16 08:13:18] INFO root fetch - processPackages [nestedaccess]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 08:13:18] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-16 08:13:18] WARNING root fetch - processPackages [wow-ai-cv]: Skipping, unable to determine old version
+[2023-06-16 08:13:18] INFO root fetch - processPackages [odoo12-addon-purchase-request]: New version: [12.0.5.3.1.99.dev9] Old Version: [12.0.5.3.1.99.dev8]
+[2023-06-16 08:13:18] INFO root fetch - main [MainThread]: End processing [wow-ai-cv] error
+[2023-06-16 08:13:18] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-16 08:13:18] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 08:13:18] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-16 08:13:18] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/1c/c8/6e050b51da1d4d5da14866ac6b937f84df0549f8ea09d03924c1cb7139e3/nestedaccess-0.1.8.tar.gz
+[2023-06-16 08:13:18] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-06-16 08:13:18] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-16 08:13:18] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-06-16 08:13:18] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-06-16 08:13:18] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-06-16 08:13:18] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-16 08:13:18] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/b6/e8/182164ed551405a938d125b986db596ae2ec4c2e63f64a36150e891ba74b/bdating-common-0.9.8.tar.gz
+[2023-06-16 08:13:18] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-06-16 08:13:18] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/e8/d9/abd7242c7e6a2a6028581dd577cabb7eb48eb9682f10b368f5fe84dfd8d9/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl
+[2023-06-16 08:13:18] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-16 08:13:18] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230616/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-16 08:13:18] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-06-16 08:13:18] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230616/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 08:13:18] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/d4/41/e5143e4908cab286dae00648d384bba6ef4afa7f61bd0ac3a51a752bbc17/nestedaccess-0.1.9.tar.gz
+[2023-06-16 08:13:18] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-16 08:13:18] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.1.8.tar.gz tmp/nestedaccess-0.1.9.tar.gz --markdown 20230616/n/nestedaccess/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 08:13:18] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/5e/03/279ccb140de56fd96b4d934616aca37e5a50bff8f0684be248f712f24d5a/bdating-common-0.9.9.tar.gz
+[2023-06-16 08:13:18] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/f5/48/6e22a348e37f58f638a45b4b54cd20f78e391f87be769fe36f28c939593f/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl
+[2023-06-16 08:13:18] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-06-16 08:13:18] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230616/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-16 08:13:18] INFO root fetch - processPackages [odoo12-addon-purchase-request]: executing diffoscope
+[2023-06-16 08:13:18] INFO root fetch - processPackages [odoo12-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-purchase-request/12.0.5.3.1.99.dev8-12.0.5.3.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 08:13:19] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz]
+[2023-06-16 08:13:19] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
+[2023-06-16 08:13:19] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-06-16 08:13:19] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.8.tar.gz]
+[2023-06-16 08:13:19] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.9.tar.gz]
+[2023-06-16 08:13:19] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-16 08:13:19] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.1.8.tar.gz]
+[2023-06-16 08:13:19] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.1.9.tar.gz]
+[2023-06-16 08:13:19] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-16 08:13:19] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.8.tar.gz]
+[2023-06-16 08:13:19] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.9.tar.gz]
+[2023-06-16 08:13:19] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-06-16 08:13:20] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl.zip]
+[2023-06-16 08:13:20] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip]
+[2023-06-16 08:13:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-request]: success
+[2023-06-16 08:13:20] INFO root fetch - main [MainThread]: Store serial: [18527845]
