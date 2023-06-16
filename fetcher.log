@@ -1956,3 +1956,78 @@
 [2023-06-16 01:59:03] INFO root fetch - processPackages [fern-moneykit]: Remove: archive file [/home/abi/fetcher/tmp/fern_moneykit-0.0.5.tar.gz]
 [2023-06-16 01:59:03] INFO root fetch - main [MainThread]: End processing [fern-moneykit]: success
 [2023-06-16 01:59:03] INFO root fetch - main [MainThread]: Store serial: [18523563]
+[2023-06-16 02:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523563]
+[2023-06-16 02:04:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glacier
+[2023-06-16 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-phal-plugin-core-updater
+[2023-06-16 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-phal-plugin-switches
+[2023-06-16 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: topometry
+[2023-06-16 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fern-moneykit
+[2023-06-16 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: heaserver
+[2023-06-16 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchdatasets-nightly
+[2023-06-16 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mct-nightly
+[2023-06-16 02:04:12] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: New version: [1.2.1a2] Old Version: [1.2.1a1]
+[2023-06-16 02:04:12] INFO root fetch - processPackages [topometry]: New version: [0.2.0.7] Old Version: [0.2.0.6]
+[2023-06-16 02:04:12] INFO root fetch - processPackages [fern-moneykit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-16 02:04:12] INFO root fetch - processPackages [neon-phal-plugin-switches]: New version: [0.0.5a1] Old Version: [0.0.4a1]
+[2023-06-16 02:04:12] INFO root fetch - processPackages [glacier]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-16 02:04:12] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-06-16 02:04:12] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-06-16 02:04:12] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1686787414] Old Version: [1686701008]
+[2023-06-16 02:04:12] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/d4/9a/6582c9a692eff7249205a086ba7f98b5ad74c2d969aba7b883830cc8aa3e/neon-phal-plugin-core-updater-1.2.1a1.tar.gz
+[2023-06-16 02:04:12] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/15/16/97490c39f95f97f1b8de896b5ed7cb784948f9a52a6891755c41f74302a8/mct-nightly-1.8.0.9042023.post411.tar.gz
+[2023-06-16 02:04:12] INFO root fetch - processPackages [fern-moneykit]: Downloading https://files.pythonhosted.org/packages/b6/37/f5222f3a37be0d127066c63c5976139aa1b732a1f937ec67954fbf3d5161/fern_moneykit-0.0.5.tar.gz
+[2023-06-16 02:04:12] INFO root fetch - processPackages [neon-phal-plugin-switches]: Downloading https://files.pythonhosted.org/packages/48/2c/41b544e5792d5dad1f53dcc9d76f10f7990176e08f8b67ff041b556f8b13/neon_phal_plugin_switches-0.0.4a1-py3-none-any.whl
+[2023-06-16 02:04:12] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/e9/5a/a666faf4ee60862e14d77354aeee4fbe18ff301ce65b38c1cd096e0c0f52/topometry-0.2.0.6.tar.gz
+[2023-06-16 02:04:12] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/47/7f/637523c7a256385a57930e8b97ef92b0f06fc1e4f36e31d929892744c28d/torchdatasets-nightly-1686701008.tar.gz
+[2023-06-16 02:04:12] INFO root fetch - processPackages [glacier]: Downloading https://files.pythonhosted.org/packages/ce/6b/3ff9528570a4442700771fb8aca7344b3df6d8f70c260786b6266ad76daf/glacier-0.4.0.tar.gz
+[2023-06-16 02:04:12] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-06-16 02:04:12] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/39/fa/63c23125514f4ccbde477ead4854e4d29c9cacdb45efe98739c07a78a9a1/mct-nightly-1.8.0.9052023.post348.tar.gz
+[2023-06-16 02:04:13] INFO root fetch - processPackages [fern-moneykit]: Downloading https://files.pythonhosted.org/packages/74/bb/f9a00240f0e5916c614c049d5feda681b341f196729c5c4c62bf7623c0c9/fern_moneykit-0.0.6.tar.gz
+[2023-06-16 02:04:13] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/ba/db/1ca51bd01164f39a61a830511a0b25a4b6644c94aa053d34001d5114dbfa/neon-phal-plugin-core-updater-1.2.1a2.tar.gz
+[2023-06-16 02:04:13] INFO root fetch - processPackages [neon-phal-plugin-switches]: Downloading https://files.pythonhosted.org/packages/83/c6/315cdf295730ac88c964e45f96b24c22414fd0d0e640cb78b2b4be75e3e5/neon-phal-plugin-switches-0.0.5a1.tar.gz
+[2023-06-16 02:04:13] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-16 02:04:13] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230616/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-06-16 02:04:13] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/f8/b8/b42df10da7cf0aa7c179e727440b74e3fdec03d137e855c3ba54f4ecfd84/torchdatasets-nightly-1686787414.tar.gz
+[2023-06-16 02:04:13] INFO root fetch - processPackages [topometry]: Downloading https://files.pythonhosted.org/packages/40/1b/7f42d3c54611f3f2b2941ce7ba742d607b114d1f30e11f4d01b4333e70c2/topometry-0.2.0.7.tar.gz
+[2023-06-16 02:04:13] INFO root fetch - processPackages [glacier]: Downloading https://files.pythonhosted.org/packages/bf/2e/91e3e88a8eb45aceb1d7528575f51e6d3bc26d5f0423d1d9b9815f0e28ab/glacier-0.4.1.tar.gz
+[2023-06-16 02:04:13] INFO root fetch - processPackages [neon-phal-plugin-switches]: executing diffoscope
+[2023-06-16 02:04:13] INFO root fetch - processPackages [neon-phal-plugin-switches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_switches-0.0.4a1-py3-none-any.whl.zip tmp/neon-phal-plugin-switches-0.0.5a1.tar.gz --markdown 20230616/n/neon-phal-plugin-switches/0.0.4a1-0.0.5a1/diff.md --exclude *.pyd
+[2023-06-16 02:04:13] INFO root fetch - processPackages [fern-moneykit]: executing diffoscope
+[2023-06-16 02:04:13] INFO root fetch - processPackages [fern-moneykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_moneykit-0.0.5.tar.gz tmp/fern_moneykit-0.0.6.tar.gz --markdown 20230616/f/fern-moneykit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-16 02:04:13] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-16 02:04:13] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1686701008.tar.gz tmp/torchdatasets-nightly-1686787414.tar.gz --markdown 20230616/t/torchdatasets-nightly/1686701008-1686787414/diff.md --exclude *.pyd
+[2023-06-16 02:04:13] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: executing diffoscope
+[2023-06-16 02:04:13] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-phal-plugin-core-updater-1.2.1a1.tar.gz tmp/neon-phal-plugin-core-updater-1.2.1a2.tar.gz --markdown 20230616/n/neon-phal-plugin-core-updater/1.2.1a1-1.2.1a2/diff.md --exclude *.pyd
+[2023-06-16 02:04:13] INFO root fetch - processPackages [topometry]: executing diffoscope
+[2023-06-16 02:04:13] INFO root fetch - processPackages [topometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topometry-0.2.0.6.tar.gz tmp/topometry-0.2.0.7.tar.gz --markdown 20230616/t/topometry/0.2.0.6-0.2.0.7/diff.md --exclude *.pyd
+[2023-06-16 02:04:13] INFO root fetch - processPackages [glacier]: executing diffoscope
+[2023-06-16 02:04:13] INFO root fetch - processPackages [glacier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glacier-0.4.0.tar.gz tmp/glacier-0.4.1.tar.gz --markdown 20230616/g/glacier/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-16 02:04:13] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-06-16 02:04:13] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-06-16 02:04:13] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230616/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-06-16 02:04:14] INFO root fetch - processPackages [neon-phal-plugin-switches]: Remove: archive file [/home/abi/fetcher/tmp/neon_phal_plugin_switches-0.0.4a1-py3-none-any.whl.zip]
+[2023-06-16 02:04:14] INFO root fetch - processPackages [neon-phal-plugin-switches]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-switches-0.0.5a1.tar.gz]
+[2023-06-16 02:04:14] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-switches]: success
+[2023-06-16 02:04:14] INFO root fetch - processPackages [glacier]: Remove: archive file [/home/abi/fetcher/tmp/glacier-0.4.0.tar.gz]
+[2023-06-16 02:04:14] INFO root fetch - processPackages [glacier]: Remove: archive file [/home/abi/fetcher/tmp/glacier-0.4.1.tar.gz]
+[2023-06-16 02:04:14] INFO root fetch - main [MainThread]: End processing [glacier]: success
+[2023-06-16 02:04:14] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-core-updater-1.2.1a1.tar.gz]
+[2023-06-16 02:04:14] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-core-updater-1.2.1a2.tar.gz]
+[2023-06-16 02:04:14] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-core-updater]: success
+[2023-06-16 02:04:14] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686701008.tar.gz]
+[2023-06-16 02:04:14] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1686787414.tar.gz]
+[2023-06-16 02:04:14] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-16 02:04:14] INFO root fetch - processPackages [topometry]: Remove: archive file [/home/abi/fetcher/tmp/topometry-0.2.0.6.tar.gz]
+[2023-06-16 02:04:14] INFO root fetch - processPackages [topometry]: Remove: archive file [/home/abi/fetcher/tmp/topometry-0.2.0.7.tar.gz]
+[2023-06-16 02:04:14] INFO root fetch - main [MainThread]: End processing [topometry]: success
+[2023-06-16 02:04:15] INFO root fetch - processPackages [fern-moneykit]: Remove: archive file [/home/abi/fetcher/tmp/fern_moneykit-0.0.5.tar.gz]
+[2023-06-16 02:04:15] INFO root fetch - processPackages [fern-moneykit]: Remove: archive file [/home/abi/fetcher/tmp/fern_moneykit-0.0.6.tar.gz]
+[2023-06-16 02:04:15] INFO root fetch - main [MainThread]: End processing [fern-moneykit]: success
+[2023-06-16 02:04:15] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-06-16 02:04:15] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-06-16 02:04:15] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-06-16 02:04:22] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9042023.post411.tar.gz]
+[2023-06-16 02:04:22] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
+[2023-06-16 02:04:22] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-16 02:04:22] INFO root fetch - main [MainThread]: Store serial: [18523588]
