@@ -11607,3 +11607,126 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 06:05:33] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.0rc2-cp39-cp39-win_amd64.whl.zip]
 [2023-06-16 06:05:33] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
 [2023-06-16 06:05:33] INFO root fetch - main [MainThread]: Store serial: [18526989]
+[2023-06-16 06:10:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526989]
+[2023-06-16 06:10:42] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-16 06:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaohn-common-utils
+[2023-06-16 06:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xflow-net
+[2023-06-16 06:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-helpdesk-mgmt
+[2023-06-16 06:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssi-fctrading
+[2023-06-16 06:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: centesimal-iot
+[2023-06-16 06:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-helpdesk-mgmt
+[2023-06-16 06:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-06-16 06:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-helpdesk-mgmt-sla
+[2023-06-16 06:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: msl-network
+[2023-06-16 06:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo8-addon-hr-recruitment-partner
+[2023-06-16 06:10:42] INFO root fetch - processPackages [centesimal-iot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 06:10:42] INFO root fetch - processPackages [odoo8-addon-hr-recruitment-partner]: New version: [8.0.1.0.0.99.dev43] Old Version: [8.0.1.0.0.99.dev42]
+[2023-06-16 06:10:42] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.65] Old Version: [0.0.64]
+[2023-06-16 06:10:42] INFO root fetch - processPackages [xflow-net]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 06:10:42] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: New version: [12.0.1.9.1.99.dev9] Old Version: [12.0.1.9.1.99.dev7]
+[2023-06-16 06:10:42] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-06-16 06:10:42] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-sla]: New version: [14.0.2.0.1.dev9] Old Version: [14.0.2.0.1.dev8]
+[2023-06-16 06:10:42] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: New version: [14.0.2.9.1.dev6] Old Version: [14.0.2.9.1.dev5]
+[2023-06-16 06:10:42] INFO root fetch - processPackages [ssi-fctrading]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-16 06:10:42] INFO root fetch - processPackages [msl-network]: New version: [1.0.0] Old Version: [0.5.0]
+[2023-06-16 06:10:42] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/db/bf/dc7480f197c1d91ad9ef6a5d7bae476daba8666b5740a3d8843ae67e9f1c/gaohn-common-utils-0.0.64.tar.gz
+[2023-06-16 06:10:42] INFO root fetch - processPackages [xflow-net]: Downloading https://files.pythonhosted.org/packages/9c/cb/720dd01d916c4ea3f4c1a6c81f87d536f2cc35894dbab4225d5db6521efd/xflow-net-0.0.8.tar.gz
+[2023-06-16 06:10:42] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/87/1a/11d692e253666d048dd2aff9d57d4d6103f118ab9113460ff74eaa09dab4/ssi-fctrading-1.0.0.tar.gz
+[2023-06-16 06:10:42] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/bc/6c/6516fe9f97f82ff70a5752000c3c848eb02b88373b3445793171693f4b57/odoo_addon_helpdesk_mgmt-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-16 06:10:42] INFO root fetch - processPackages [centesimal-iot]: Downloading https://files.pythonhosted.org/packages/7e/04/a91ecb2b6de1a286ea80bd55abf6f4975bb540d5ab488da8df7e6da13e4c/centesimal_iot-0.1.8-py2.py3-none-any.whl
+[2023-06-16 06:10:42] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/b1/38/4b75975869d917a86b1699095d04a9b059c4716a5b0788e911a4bcc17651/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl
+[2023-06-16 06:10:42] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-sla]: Downloading https://files.pythonhosted.org/packages/61/3a/b5276796c4b25584ed3dc5949d7eb626fae22d9b443fa02070e54f738640/odoo14_addon_helpdesk_mgmt_sla-14.0.2.0.1.dev8-py3-none-any.whl
+[2023-06-16 06:10:42] INFO root fetch - processPackages [odoo8-addon-hr-recruitment-partner]: Downloading https://files.pythonhosted.org/packages/23/8b/3e997ae9de4e166167dd631bd902835eb1d8f582d017f3b5b4e3dc993937/odoo8_addon_hr_recruitment_partner-8.0.1.0.0.99.dev42-py2-none-any.whl
+[2023-06-16 06:10:42] INFO root fetch - processPackages [msl-network]: Downloading https://files.pythonhosted.org/packages/82/18/fd8dcfb9f23456467b9aca386d3c36c1f5d59fc3e1ad1213b0b6b445024e/msl-network-0.5.0.tar.gz
+[2023-06-16 06:10:42] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/59/ba/833846e37f8cc6d7e7cf40886534d78bda51ac159ef20fb8242ddee4176c/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev7-py3-none-any.whl
+[2023-06-16 06:10:42] INFO root fetch - processPackages [xflow-net]: Downloading https://files.pythonhosted.org/packages/c2/1f/16a196943a3ec72ef610b3f6a8749ebb6593e8f1bb6f1eb6c822c8487bb7/xflow-net-0.0.9.tar.gz
+[2023-06-16 06:10:42] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/de/10/1bd5581cdbe9a72f7ca378b2b95947e72805a80d12fac31612411554bf2d/gaohn-common-utils-0.0.65.tar.gz
+[2023-06-16 06:10:42] INFO root fetch - processPackages [xflow-net]: executing diffoscope
+[2023-06-16 06:10:42] INFO root fetch - processPackages [xflow-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xflow-net-0.0.8.tar.gz tmp/xflow-net-0.0.9.tar.gz --markdown 20230616/x/xflow-net/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 06:10:43] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/9d/c3/03a6a8c9366cc914e8370b9e72a507e526f226d5da894aa44f7164db5823/ssi-fctrading-1.0.1.tar.gz
+[2023-06-16 06:10:43] INFO root fetch - processPackages [centesimal-iot]: Downloading https://files.pythonhosted.org/packages/e4/b4/6f5f209b09ec26c5af7c0d46a270eb2c18486f6982919639276f4178d738/centesimal_iot-0.1.9-py2.py3-none-any.whl
+[2023-06-16 06:10:43] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-16 06:10:43] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.64.tar.gz tmp/gaohn-common-utils-0.0.65.tar.gz --markdown 20230616/g/gaohn-common-utils/0.0.64-0.0.65/diff.md --exclude *.pyd
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/d7/78/98d41e46b809fea6d59b3d084399ad90800b6eac86cdef51a200e5a9777b/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/ea/e6/b275bfc2b8cb356f35b1ff3482f07d586e30a3a5ff617124973238436ad5/odoo_addon_helpdesk_mgmt-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-sla]: Downloading https://files.pythonhosted.org/packages/c9/09/7a136a10bde344b864a89d3bb6fccae85b619da0b0694ad066485426d906/odoo14_addon_helpdesk_mgmt_sla-14.0.2.0.1.dev9-py3-none-any.whl
+[2023-06-16 06:10:43] INFO root fetch - processPackages [msl-network]: Downloading https://files.pythonhosted.org/packages/eb/89/c1cbffa4353e3dbeae05bdf02870caba9dd10a10679bb0dbe351a836a0f8/msl-network-1.0.0.tar.gz
+[2023-06-16 06:10:43] INFO root fetch - processPackages [centesimal-iot]: executing diffoscope
+[2023-06-16 06:10:43] INFO root fetch - processPackages [centesimal-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centesimal_iot-0.1.8-py2.py3-none-any.whl.zip tmp/centesimal_iot-0.1.9-py2.py3-none-any.whl.zip --markdown 20230616/c/centesimal-iot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo8-addon-hr-recruitment-partner]: Downloading https://files.pythonhosted.org/packages/1d/0c/9dec4768d70180e29bc6e1f6228c446c6cc9fbb897601969c684131ab4d9/odoo8_addon_hr_recruitment_partner-8.0.1.0.0.99.dev43-py2-none-any.whl
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-sla]: executing diffoscope
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-sla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt_sla-14.0.2.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt_sla-14.0.2.0.1.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-helpdesk-mgmt-sla/14.0.2.0.1.dev8-14.0.2.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: executing diffoscope
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-helpdesk-mgmt/14.0.2.9.1.dev5-14.0.2.9.1.dev6/diff.md --exclude *.pyd
+[2023-06-16 06:10:43] INFO root fetch - processPackages [msl-network]: executing diffoscope
+[2023-06-16 06:10:43] INFO root fetch - processPackages [msl-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msl-network-0.5.0.tar.gz tmp/msl-network-1.0.0.tar.gz --markdown 20230616/m/msl-network/0.5.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-helpdesk-mgmt/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-16 06:10:43] INFO root fetch - processPackages [ssi-fctrading]: executing diffoscope
+[2023-06-16 06:10:43] INFO root fetch - processPackages [ssi-fctrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi-fctrading-1.0.0.tar.gz tmp/ssi-fctrading-1.0.1.tar.gz --markdown 20230616/s/ssi-fctrading/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/ec/5a/6dcf41aec1c90ec57c026289332604190821df121368e89f661586207216/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev9-py3-none-any.whl
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo8-addon-hr-recruitment-partner]: executing diffoscope
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo8-addon-hr-recruitment-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_hr_recruitment_partner-8.0.1.0.0.99.dev42-py2-none-any.whl.zip tmp/odoo8_addon_hr_recruitment_partner-8.0.1.0.0.99.dev43-py2-none-any.whl.zip --markdown 20230616/o/odoo8-addon-hr-recruitment-partner/8.0.1.0.0.99.dev42-8.0.1.0.0.99.dev43/diff.md --exclude *.pyd
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: executing diffoscope
+[2023-06-16 06:10:43] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-helpdesk-mgmt/12.0.1.9.1.99.dev7-12.0.1.9.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 06:10:44] INFO root fetch - processPackages [xflow-net]: Remove: archive file [/home/abi/fetcher/tmp/xflow-net-0.0.8.tar.gz]
+[2023-06-16 06:10:44] INFO root fetch - processPackages [xflow-net]: Remove: archive file [/home/abi/fetcher/tmp/xflow-net-0.0.9.tar.gz]
+[2023-06-16 06:10:44] INFO root fetch - processPackages [xflow-net]: Start processing: OpenGeode-GeosciencesIO
+[2023-06-16 06:10:44] INFO root fetch - main [MainThread]: End processing [xflow-net]: success
+[2023-06-16 06:10:44] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.1.5rc1] Old Version: [4.1.5]
+[2023-06-16 06:10:44] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.64.tar.gz]
+[2023-06-16 06:10:44] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.65.tar.gz]
+[2023-06-16 06:10:44] INFO root fetch - processPackages [gaohn-common-utils]: Start processing: Geode-Conversion
+[2023-06-16 06:10:44] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-16 06:10:44] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.0.8rc1] Old Version: [5.0.8]
+[2023-06-16 06:10:44] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/50/d8/c4c2f55e3b62a41f347d82784d174d0535e87377ab4c8dd7a7c648eb4bf6/OpenGeode_GeosciencesIO-4.1.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-16 06:10:44] INFO root fetch - processPackages [centesimal-iot]: Remove: archive file [/home/abi/fetcher/tmp/centesimal_iot-0.1.8-py2.py3-none-any.whl.zip]
+[2023-06-16 06:10:44] INFO root fetch - processPackages [centesimal-iot]: Remove: archive file [/home/abi/fetcher/tmp/centesimal_iot-0.1.9-py2.py3-none-any.whl.zip]
+[2023-06-16 06:10:44] INFO root fetch - processPackages [centesimal-iot]: Start processing: fast-agave
+[2023-06-16 06:10:44] INFO root fetch - main [MainThread]: End processing [centesimal-iot]: success
+[2023-06-16 06:10:44] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/b8/71/5aab4ca8af302910bed465563cb36b5787914ae2bb805f0555aaabb94f4c/Geode_Conversion-5.0.8-cp39-cp39-win_amd64.whl
+[2023-06-16 06:10:44] INFO root fetch - processPackages [fast-agave]: New version: [0.9.0.dev1] Old Version: [0.9.0.dev0]
+[2023-06-16 06:10:45] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/50/b0/243a0b83b0ea5439c70a26d86090e12bb49a5d0158a5eac5629a872bcdc9/OpenGeode_GeosciencesIO-4.1.5rc1-cp39-cp39-win_amd64.whl
+[2023-06-16 06:10:45] INFO root fetch - processPackages [fast-agave]: Downloading https://files.pythonhosted.org/packages/ca/78/5091fccfab34df4a319ce47800e8b8e49b4cb0e5649eff74dbbb6cd712e7/fast_agave-0.9.0.dev0.tar.gz
+[2023-06-16 06:10:45] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2023-06-16 06:10:45] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.1.5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/OpenGeode_GeosciencesIO-4.1.5rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230616/O/OpenGeode-GeosciencesIO/4.1.5-4.1.5rc1/diff.md --exclude *.pyd
+[2023-06-16 06:10:45] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-1.0.0.tar.gz]
+[2023-06-16 06:10:45] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-1.0.1.tar.gz]
+[2023-06-16 06:10:45] INFO root fetch - processPackages [ssi-fctrading]: Start processing: yunhengwangtest
+[2023-06-16 06:10:45] INFO root fetch - main [MainThread]: End processing [ssi-fctrading]: success
+[2023-06-16 06:10:45] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-sla]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt_sla-14.0.2.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-16 06:10:45] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-sla]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt_sla-14.0.2.0.1.dev9-py3-none-any.whl.zip]
+[2023-06-16 06:10:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt-sla]: success
+[2023-06-16 06:10:45] INFO root fetch - processPackages [msl-network]: Remove: archive file [/home/abi/fetcher/tmp/msl-network-0.5.0.tar.gz]
+[2023-06-16 06:10:45] INFO root fetch - processPackages [msl-network]: Remove: archive file [/home/abi/fetcher/tmp/msl-network-1.0.0.tar.gz]
+[2023-06-16 06:10:45] INFO root fetch - main [MainThread]: End processing [msl-network]: success
+[2023-06-16 06:10:45] WARNING root fetch - processPackages [yunhengwangtest]: Skipping, unable to determine old version
+[2023-06-16 06:10:45] INFO root fetch - main [MainThread]: End processing [yunhengwangtest] error
+[2023-06-16 06:10:45] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/92/69/c4f746d16fd354fa7f7a85202a90cc606751398606c7ae13c0b0e8127022/Geode_Conversion-5.0.8rc1-cp39-cp39-win_amd64.whl
+[2023-06-16 06:10:45] INFO root fetch - processPackages [fast-agave]: Downloading https://files.pythonhosted.org/packages/a1/b9/9e6ecc020a77e7843d135b6b022307632bce7238fcf17e41676ef3a26a02/fast_agave-0.9.0.dev1.tar.gz
+[2023-06-16 06:10:45] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2023-06-16 06:10:45] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.0.8-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.0.8rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230616/G/Geode-Conversion/5.0.8-5.0.8rc1/diff.md --exclude *.pyd
+[2023-06-16 06:10:45] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev7-py3-none-any.whl.zip]
+[2023-06-16 06:10:45] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev9-py3-none-any.whl.zip]
+[2023-06-16 06:10:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-helpdesk-mgmt]: success
+[2023-06-16 06:10:45] INFO root fetch - processPackages [fast-agave]: executing diffoscope
+[2023-06-16 06:10:45] INFO root fetch - processPackages [fast-agave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_agave-0.9.0.dev0.tar.gz tmp/fast_agave-0.9.0.dev1.tar.gz --markdown 20230616/f/fast-agave/0.9.0.dev0-0.9.0.dev1/diff.md --exclude *.pyd
+[2023-06-16 06:10:45] INFO root fetch - processPackages [odoo8-addon-hr-recruitment-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_hr_recruitment_partner-8.0.1.0.0.99.dev42-py2-none-any.whl.zip]
+[2023-06-16 06:10:45] INFO root fetch - processPackages [odoo8-addon-hr-recruitment-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_hr_recruitment_partner-8.0.1.0.0.99.dev43-py2-none-any.whl.zip]
+[2023-06-16 06:10:45] INFO root fetch - main [MainThread]: End processing [odoo8-addon-hr-recruitment-partner]: success
+[2023-06-16 06:10:46] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip]
+[2023-06-16 06:10:46] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip]
+[2023-06-16 06:10:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
+[2023-06-16 06:10:46] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.1.5-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-16 06:10:46] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.1.5rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:10:46] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2023-06-16 06:10:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-16 06:10:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-16 06:10:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-06-16 06:10:46] INFO root fetch - processPackages [fast-agave]: Remove: archive file [/home/abi/fetcher/tmp/fast_agave-0.9.0.dev0.tar.gz]
+[2023-06-16 06:10:46] INFO root fetch - processPackages [fast-agave]: Remove: archive file [/home/abi/fetcher/tmp/fast_agave-0.9.0.dev1.tar.gz]
+[2023-06-16 06:10:46] INFO root fetch - main [MainThread]: End processing [fast-agave]: success
+[2023-06-16 06:10:56] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:10:56] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.0.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:10:56] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2023-06-16 06:10:56] INFO root fetch - main [MainThread]: Store serial: [18527032]
