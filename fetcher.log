@@ -10382,3 +10382,60 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 04:50:25] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.6.3.tar.gz]
 [2023-06-16 04:50:25] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
 [2023-06-16 04:50:25] INFO root fetch - main [MainThread]: Store serial: [18526520]
+[2023-06-16 04:55:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526520]
+[2023-06-16 04:55:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-16 04:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adnuntius
+[2023-06-16 04:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastsession
+[2023-06-16 04:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rafe
+[2023-06-16 04:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multipie
+[2023-06-16 04:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zhijiang
+[2023-06-16 04:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wongutils
+[2023-06-16 04:55:34] INFO root fetch - processPackages [multipie]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-16 04:55:34] INFO root fetch - processPackages [fastsession]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-16 04:55:34] INFO root fetch - processPackages [rafe]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-06-16 04:55:34] INFO root fetch - processPackages [adnuntius]: New version: [1.9] Old Version: [1.8]
+[2023-06-16 04:55:34] INFO root fetch - processPackages [zhijiang]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-16 04:55:34] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/5a/3e/9012077474db43a0f62e6fc05f786ce927dd892377b95713413e92728ef6/adnuntius-1.8.tar.gz
+[2023-06-16 04:55:34] INFO root fetch - processPackages [wongutils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 04:55:34] INFO root fetch - processPackages [fastsession]: Downloading https://files.pythonhosted.org/packages/57/e4/97ee449e73fbf004c3c9a1f9efa5cfb5ccb302b737bf5103dbea0700c9ac/fastsession-0.1.2.tar.gz
+[2023-06-16 04:55:34] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/d6/73/b33b0a64e09e970a71f1b43ca7c5bd5f753c04da9b0f5ab33f9b4496ce25/multipie-1.1.7.tar.gz
+[2023-06-16 04:55:34] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/0b/d6/ebcab6035500ef00f648e6471722925c0c80a2849e7a056fb3c676572b9f/zhijiang-0.2.2-py3-none-any.whl
+[2023-06-16 04:55:34] INFO root fetch - processPackages [rafe]: Downloading https://files.pythonhosted.org/packages/5b/62/369acf3ec5c48701b8ea991469ddf61976668f869dfca4c5af006a62b63f/rafe-0.1.2.tar.gz
+[2023-06-16 04:55:34] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/82/88/5cc388342ae0a1ab0b55016b7972c6969ed66e149cdc355ddd477f8c86f9/adnuntius-1.9.tar.gz
+[2023-06-16 04:55:34] INFO root fetch - processPackages [wongutils]: Downloading https://files.pythonhosted.org/packages/0b/6a/f175e42dd877a4ee4a09ca54136260bfa3bd510c6565802294e8a26fb67f/wongutils-0.1.1.tar.gz
+[2023-06-16 04:55:34] INFO root fetch - processPackages [adnuntius]: executing diffoscope
+[2023-06-16 04:55:34] INFO root fetch - processPackages [adnuntius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnuntius-1.8.tar.gz tmp/adnuntius-1.9.tar.gz --markdown 20230616/a/adnuntius/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-16 04:55:35] INFO root fetch - processPackages [fastsession]: Downloading https://files.pythonhosted.org/packages/f5/87/6b67ff4b600b2b3ff82bf0112df4a8b7a569686e4aa90a0da0450400a995/fastsession-0.2.0.tar.gz
+[2023-06-16 04:55:35] INFO root fetch - processPackages [rafe]: Downloading https://files.pythonhosted.org/packages/a3/61/8048e0ba4b1fa3a83f3ab012f5b3eb22252ce0ec86017c0b1a6b7060ef14/rafe-0.1.4-py3-none-any.whl
+[2023-06-16 04:55:35] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/80/f4/6a4a52226dfc1f7361b708a050de0958914416f5495941e0ac6b796af346/zhijiang-0.2.3-py3-none-any.whl
+[2023-06-16 04:55:35] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/66/48/d4dbe2d819b2dccf94b61c10a9ebdc51b378417e49360c0f29edba80e323/multipie-1.1.8.tar.gz
+[2023-06-16 04:55:35] INFO root fetch - processPackages [fastsession]: executing diffoscope
+[2023-06-16 04:55:35] INFO root fetch - processPackages [fastsession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsession-0.1.2.tar.gz tmp/fastsession-0.2.0.tar.gz --markdown 20230616/f/fastsession/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-16 04:55:35] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2023-06-16 04:55:35] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.2.2-py3-none-any.whl.zip tmp/zhijiang-0.2.3-py3-none-any.whl.zip --markdown 20230616/z/zhijiang/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-16 04:55:35] INFO root fetch - processPackages [rafe]: executing diffoscope
+[2023-06-16 04:55:35] INFO root fetch - processPackages [rafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rafe-0.1.2.tar.gz tmp/rafe-0.1.4-py3-none-any.whl.zip --markdown 20230616/r/rafe/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-06-16 04:55:35] INFO root fetch - processPackages [multipie]: executing diffoscope
+[2023-06-16 04:55:35] INFO root fetch - processPackages [multipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipie-1.1.7.tar.gz tmp/multipie-1.1.8.tar.gz --markdown 20230616/m/multipie/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-16 04:55:35] INFO root fetch - processPackages [wongutils]: Downloading https://files.pythonhosted.org/packages/9b/46/d391c38b4d5d1094d1a8a0839c5c3fd2d604bcb0b8569ed8eb055ac76ef5/wongutils-0.1.2.tar.gz
+[2023-06-16 04:55:35] INFO root fetch - processPackages [wongutils]: executing diffoscope
+[2023-06-16 04:55:35] INFO root fetch - processPackages [wongutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wongutils-0.1.1.tar.gz tmp/wongutils-0.1.2.tar.gz --markdown 20230616/w/wongutils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 04:55:36] INFO root fetch - processPackages [adnuntius]: Remove: archive file [/home/abi/fetcher/tmp/adnuntius-1.8.tar.gz]
+[2023-06-16 04:55:36] INFO root fetch - processPackages [adnuntius]: Remove: archive file [/home/abi/fetcher/tmp/adnuntius-1.9.tar.gz]
+[2023-06-16 04:55:36] INFO root fetch - main [MainThread]: End processing [adnuntius]: success
+[2023-06-16 04:55:36] INFO root fetch - processPackages [rafe]: Remove: archive file [/home/abi/fetcher/tmp/rafe-0.1.2.tar.gz]
+[2023-06-16 04:55:36] INFO root fetch - processPackages [rafe]: Remove: archive file [/home/abi/fetcher/tmp/rafe-0.1.4-py3-none-any.whl.zip]
+[2023-06-16 04:55:36] INFO root fetch - main [MainThread]: End processing [rafe]: success
+[2023-06-16 04:55:36] INFO root fetch - processPackages [fastsession]: Remove: archive file [/home/abi/fetcher/tmp/fastsession-0.1.2.tar.gz]
+[2023-06-16 04:55:36] INFO root fetch - processPackages [fastsession]: Remove: archive file [/home/abi/fetcher/tmp/fastsession-0.2.0.tar.gz]
+[2023-06-16 04:55:36] INFO root fetch - main [MainThread]: End processing [fastsession]: success
+[2023-06-16 04:55:36] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.2.2-py3-none-any.whl.zip]
+[2023-06-16 04:55:36] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.2.3-py3-none-any.whl.zip]
+[2023-06-16 04:55:36] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2023-06-16 04:55:36] INFO root fetch - processPackages [wongutils]: Remove: archive file [/home/abi/fetcher/tmp/wongutils-0.1.1.tar.gz]
+[2023-06-16 04:55:36] INFO root fetch - processPackages [wongutils]: Remove: archive file [/home/abi/fetcher/tmp/wongutils-0.1.2.tar.gz]
+[2023-06-16 04:55:36] INFO root fetch - main [MainThread]: End processing [wongutils]: success
+[2023-06-16 04:55:38] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.7.tar.gz]
+[2023-06-16 04:55:38] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.8.tar.gz]
+[2023-06-16 04:55:38] INFO root fetch - main [MainThread]: End processing [multipie]: success
+[2023-06-16 04:55:38] INFO root fetch - main [MainThread]: Store serial: [18526565]
