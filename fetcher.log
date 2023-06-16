@@ -5660,3 +5660,75 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 03:10:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-06-16 03:10:53] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-06-16 03:10:53] INFO root fetch - main [MainThread]: Store serial: [18524831]
+[2023-06-16 03:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18524831]
+[2023-06-16 03:16:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-16 03:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Zennin
+[2023-06-16 03:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-helper
+[2023-06-16 03:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-package-walnutor
+[2023-06-16 03:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-06-16 03:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-plugin-runtime
+[2023-06-16 03:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FontCollector
+[2023-06-16 03:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-hugo-deploy
+[2023-06-16 03:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mcap-ros2-support
+[2023-06-16 03:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cubestat
+[2023-06-16 03:16:03] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 03:16:03] WARNING root fetch - processPackages [Zennin]: Skipping, unable to determine old version
+[2023-06-16 03:16:03] INFO root fetch - main [MainThread]: End processing [Zennin] error
+[2023-06-16 03:16:03] INFO root fetch - processPackages [python-helper]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-16 03:16:03] INFO root fetch - processPackages [cubestat]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-16 03:16:03] WARNING root fetch - processPackages [example-package-walnutor]: Skipping, unable to determine old version
+[2023-06-16 03:16:03] INFO root fetch - main [MainThread]: End processing [example-package-walnutor] error
+[2023-06-16 03:16:03] INFO root fetch - processPackages [FontCollector]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-16 03:16:03] INFO root fetch - processPackages [mcap-ros2-support]: New version: [0.5.0] Old Version: [0.3.0]
+[2023-06-16 03:16:03] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-16 03:16:03] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 03:16:03] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-16 03:16:03] INFO root fetch - processPackages [cubestat]: Downloading https://files.pythonhosted.org/packages/60/da/39dbce409166fdbfcc241dae0dee299d2a18c91bce30b38b796ee037cb8b/cubestat-0.0.4.tar.gz
+[2023-06-16 03:16:03] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-16 03:16:03] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-16 03:16:03] INFO root fetch - processPackages [python-helper]: Downloading https://files.pythonhosted.org/packages/85/44/8c580fd9d53648fa257036069843246325e548e8b41f90a858210ceba319/python_helper-0.3.8.tar.gz
+[2023-06-16 03:16:03] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-16 03:16:03] INFO root fetch - processPackages [FontCollector]: Downloading https://files.pythonhosted.org/packages/f5/00/8b555bf7be38ad97735e0caaa4222300b7e75cedcf40155b566429c07fa4/FontCollector-2.1.0.tar.gz
+[2023-06-16 03:16:03] INFO root fetch - processPackages [mcap-ros2-support]: Downloading https://files.pythonhosted.org/packages/50/61/cc91f68d6015a3bc090b9500599a9999b19c2238b73b553b46eae84e7770/mcap-ros2-support-0.3.0.tar.gz
+[2023-06-16 03:16:03] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-16 03:16:03] INFO root fetch - processPackages [cubestat]: Downloading https://files.pythonhosted.org/packages/15/43/b441cc3c89d6c940662e31ea7d6d780f51b47940e97c7d13f998837ba3a6/cubestat-0.0.5.tar.gz
+[2023-06-16 03:16:04] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-16 03:16:04] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230616/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 03:16:04] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-16 03:16:04] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230616/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 03:16:04] INFO root fetch - processPackages [cubestat]: executing diffoscope
+[2023-06-16 03:16:04] INFO root fetch - processPackages [cubestat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubestat-0.0.4.tar.gz tmp/cubestat-0.0.5.tar.gz --markdown 20230616/c/cubestat/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-16 03:16:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-16 03:16:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-16 03:16:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230616/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-16 03:16:04] INFO root fetch - processPackages [FontCollector]: Downloading https://files.pythonhosted.org/packages/dc/cd/007276c865caf1fd3b658564fb7be37b77b4013123daf126cb9c8489e0b4/FontCollector-2.1.1.tar.gz
+[2023-06-16 03:16:04] INFO root fetch - processPackages [FontCollector]: executing diffoscope
+[2023-06-16 03:16:04] INFO root fetch - processPackages [FontCollector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FontCollector-2.1.0.tar.gz tmp/FontCollector-2.1.1.tar.gz --markdown 20230616/F/FontCollector/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-16 03:16:04] INFO root fetch - processPackages [mcap-ros2-support]: Downloading https://files.pythonhosted.org/packages/2f/4a/e65622582b3c005ecbe0fe021c2ecef2350be2ed2e935418c793f9e1dfb6/mcap-ros2-support-0.5.0.tar.gz
+[2023-06-16 03:16:04] INFO root fetch - processPackages [python-helper]: Downloading https://files.pythonhosted.org/packages/40/88/4d8a5c4c48d9e6e3c068547183c8b883eeb3e484452538ada9f247e70448/python_helper-0.3.9.tar.gz
+[2023-06-16 03:16:04] INFO root fetch - processPackages [mcap-ros2-support]: executing diffoscope
+[2023-06-16 03:16:04] INFO root fetch - processPackages [mcap-ros2-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcap-ros2-support-0.3.0.tar.gz tmp/mcap-ros2-support-0.5.0.tar.gz --markdown 20230616/m/mcap-ros2-support/0.3.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-16 03:16:04] INFO root fetch - processPackages [python-helper]: executing diffoscope
+[2023-06-16 03:16:04] INFO root fetch - processPackages [python-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_helper-0.3.8.tar.gz tmp/python_helper-0.3.9.tar.gz --markdown 20230616/p/python-helper/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-16 03:16:05] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-16 03:16:05] INFO root fetch - processPackages [cubestat]: Remove: archive file [/home/abi/fetcher/tmp/cubestat-0.0.4.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - processPackages [cubestat]: Remove: archive file [/home/abi/fetcher/tmp/cubestat-0.0.5.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - main [MainThread]: End processing [cubestat]: success
+[2023-06-16 03:16:05] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-16 03:16:05] INFO root fetch - processPackages [FontCollector]: Remove: archive file [/home/abi/fetcher/tmp/FontCollector-2.1.0.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - processPackages [FontCollector]: Remove: archive file [/home/abi/fetcher/tmp/FontCollector-2.1.1.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - main [MainThread]: End processing [FontCollector]: success
+[2023-06-16 03:16:05] INFO root fetch - processPackages [python-helper]: Remove: archive file [/home/abi/fetcher/tmp/python_helper-0.3.8.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - processPackages [python-helper]: Remove: archive file [/home/abi/fetcher/tmp/python_helper-0.3.9.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - main [MainThread]: End processing [python-helper]: success
+[2023-06-16 03:16:05] INFO root fetch - processPackages [mcap-ros2-support]: Remove: archive file [/home/abi/fetcher/tmp/mcap-ros2-support-0.3.0.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - processPackages [mcap-ros2-support]: Remove: archive file [/home/abi/fetcher/tmp/mcap-ros2-support-0.5.0.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - main [MainThread]: End processing [mcap-ros2-support]: success
+[2023-06-16 03:16:05] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-16 03:16:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-16 03:16:05] INFO root fetch - main [MainThread]: Store serial: [18524861]
