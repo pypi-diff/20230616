@@ -5834,3 +5834,72 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 03:21:28] INFO root fetch - processPackages [esse]: Remove: archive file [/home/abi/fetcher/tmp/esse-2023.6.16.post0.tar.gz]
 [2023-06-16 03:21:28] INFO root fetch - main [MainThread]: End processing [esse]: success
 [2023-06-16 03:21:28] INFO root fetch - main [MainThread]: Store serial: [18524894]
+[2023-06-16 03:26:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18524894]
+[2023-06-16 03:26:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 03:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GPT-Funcs
+[2023-06-16 03:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-subminute
+[2023-06-16 03:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llamabot
+[2023-06-16 03:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-06-16 03:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple-aws-ec2
+[2023-06-16 03:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-curl
+[2023-06-16 03:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: storage-device-managers
+[2023-06-16 03:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalkpy
+[2023-06-16 03:26:37] WARNING root fetch - processPackages [GPT-Funcs]: Skipping, unable to determine old version
+[2023-06-16 03:26:37] INFO root fetch - main [MainThread]: End processing [GPT-Funcs] error
+[2023-06-16 03:26:37] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 03:26:37] INFO root fetch - processPackages [simple-aws-ec2]: New version: [0.4.1] Old Version: [0.3.2]
+[2023-06-16 03:26:37] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-16 03:26:37] INFO root fetch - processPackages [storage-device-managers]: New version: [0.9.0] Old Version: [0.11.0]
+[2023-06-16 03:26:37] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-16 03:26:37] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-16 03:26:37] INFO root fetch - processPackages [chalkpy]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-16 03:26:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/c2/39/af90eee9157c7344b07163772aa33e6aaac9b346557b56c10ed6aaba0a2f/chalkpy-2.8.0.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [storage-device-managers]: Downloading https://files.pythonhosted.org/packages/31/3e/b42c4178a3f20a565a4b4ec6d2351629bdf528cbc35afe94474670ffb606/storage_device_managers-0.11.0.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [simple-aws-ec2]: Downloading https://files.pythonhosted.org/packages/6a/59/36be79703951f358c687567b8ec4fdbb0aa2e6bb024fe10404918a494c14/simple_aws_ec2-0.3.2.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-06-16 03:26:37] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230616/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 03:26:37] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [storage-device-managers]: Downloading https://files.pythonhosted.org/packages/9e/c7/eb6f81f2a2f255c9999537ed11a4d05bf9c148cd3266cb1f8d8a7db61b54/storage_device_managers-0.9.0.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-16 03:26:37] INFO root fetch - processPackages [storage-device-managers]: executing diffoscope
+[2023-06-16 03:26:37] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230616/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-16 03:26:37] INFO root fetch - processPackages [storage-device-managers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage_device_managers-0.11.0.tar.gz tmp/storage_device_managers-0.9.0.tar.gz --markdown 20230616/s/storage-device-managers/0.11.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 03:26:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-16 03:26:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230616/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-16 03:26:37] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/bf/49/e3375f053e09a4cd26d81f171d794e29e6aa955303106ae677dbcf0e4143/chalkpy-2.9.0.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [simple-aws-ec2]: Downloading https://files.pythonhosted.org/packages/4e/5e/8efa26cd0743a24a5b4caf71e1281f181a5605ff03d4b1e821acb4508ffd/simple_aws_ec2-0.4.1.tar.gz
+[2023-06-16 03:26:37] INFO root fetch - processPackages [simple-aws-ec2]: executing diffoscope
+[2023-06-16 03:26:37] INFO root fetch - processPackages [simple-aws-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_aws_ec2-0.3.2.tar.gz tmp/simple_aws_ec2-0.4.1.tar.gz --markdown 20230616/s/simple-aws-ec2/0.3.2-0.4.1/diff.md --exclude *.pyd
+[2023-06-16 03:26:38] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-16 03:26:38] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.8.0.tar.gz tmp/chalkpy-2.9.0.tar.gz --markdown 20230616/c/chalkpy/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-16 03:26:38] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-16 03:26:38] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230616/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-16 03:26:38] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-06-16 03:26:38] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-06-16 03:26:38] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-06-16 03:26:39] INFO root fetch - processPackages [storage-device-managers]: Remove: archive file [/home/abi/fetcher/tmp/storage_device_managers-0.11.0.tar.gz]
+[2023-06-16 03:26:39] INFO root fetch - processPackages [storage-device-managers]: Remove: archive file [/home/abi/fetcher/tmp/storage_device_managers-0.9.0.tar.gz]
+[2023-06-16 03:26:39] INFO root fetch - main [MainThread]: End processing [storage-device-managers]: success
+[2023-06-16 03:26:39] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-16 03:26:39] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-16 03:26:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-16 03:26:39] INFO root fetch - processPackages [simple-aws-ec2]: Remove: archive file [/home/abi/fetcher/tmp/simple_aws_ec2-0.3.2.tar.gz]
+[2023-06-16 03:26:39] INFO root fetch - processPackages [simple-aws-ec2]: Remove: archive file [/home/abi/fetcher/tmp/simple_aws_ec2-0.4.1.tar.gz]
+[2023-06-16 03:26:39] INFO root fetch - main [MainThread]: End processing [simple-aws-ec2]: success
+[2023-06-16 03:26:39] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-16 03:26:39] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-16 03:26:39] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-16 03:26:40] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-16 03:26:40] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-16 03:26:40] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-16 03:26:43] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.8.0.tar.gz]
+[2023-06-16 03:26:43] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.0.tar.gz]
+[2023-06-16 03:26:43] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-16 03:26:43] INFO root fetch - main [MainThread]: Store serial: [18524919]
