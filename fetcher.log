@@ -15802,3 +15802,177 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 09:29:15] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.30-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-16 09:29:15] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
 [2023-06-16 09:29:15] INFO root fetch - main [MainThread]: Store serial: [18528598]
+[2023-06-16 09:34:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528598]
+[2023-06-16 09:34:34] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-16 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addons-oca-survey
+[2023-06-16 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upgini
+[2023-06-16 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libcoveweb2
+[2023-06-16 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bn-keyword-extractor
+[2023-06-16 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-hr-timesheet-sheet
+[2023-06-16 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EssaySummarizer
+[2023-06-16 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-hr-timesheet-sheet
+[2023-06-16 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mykit
+[2023-06-16 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tablepic
+[2023-06-16 09:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-hr-timesheet-sheet
+[2023-06-16 09:34:34] INFO root fetch - processPackages [EssaySummarizer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 09:34:34] INFO root fetch - processPackages [libcoveweb2]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo13-addons-oca-survey]: New version: [13.0.20230615.0] Old Version: [13.0.20230530.0]
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: New version: [13.0.1.2.1.dev9] Old Version: [13.0.1.2.1.dev8]
+[2023-06-16 09:34:35] INFO root fetch - processPackages [mykit]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-16 09:34:35] WARNING root fetch - processPackages [bn-keyword-extractor]: Skipping, unable to determine old version
+[2023-06-16 09:34:35] INFO root fetch - processPackages [bn-keyword-extractor]: Start processing: libcovebods
+[2023-06-16 09:34:35] INFO root fetch - main [MainThread]: End processing [bn-keyword-extractor] error
+[2023-06-16 09:34:35] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-16 09:34:35] WARNING root fetch - processPackages [tablepic]: Skipping, unable to determine old version
+[2023-06-16 09:34:35] INFO root fetch - processPackages [tablepic]: Start processing: autohooks-plugin-ruff
+[2023-06-16 09:34:35] INFO root fetch - main [MainThread]: End processing [tablepic] error
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet]: New version: [12.0.3.7.6.99.dev9] Old Version: [12.0.3.7.6.99.dev8]
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: New version: [14.0.1.2.1.dev9] Old Version: [14.0.1.2.1.dev8]
+[2023-06-16 09:34:35] INFO root fetch - processPackages [libcovebods]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-16 09:34:35] WARNING root fetch - processPackages [autohooks-plugin-ruff]: Skipping, unable to determine old version
+[2023-06-16 09:34:35] INFO root fetch - processPackages [autohooks-plugin-ruff]: Start processing: Zeraora
+[2023-06-16 09:34:35] INFO root fetch - main [MainThread]: End processing [autohooks-plugin-ruff] error
+[2023-06-16 09:34:35] INFO root fetch - processPackages [Zeraora]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-16 09:34:35] INFO root fetch - processPackages [EssaySummarizer]: Downloading https://files.pythonhosted.org/packages/b5/f6/803c32581a8c7afbc064ae00bec92c99107cdf5d08fb0b7cf809d1496a5a/EssaySummarizer-0.0.1.tar.gz
+[2023-06-16 09:34:35] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/1f/2d/625809db24ef2710b8118e442140907071a227a95289e8bbffff985ad230/mykit-2.0.2.tar.gz
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo13-addons-oca-survey]: Downloading https://files.pythonhosted.org/packages/71/97/71ef3bd9026bb46ca0f0cd49bd5d5a71b5e806362a1a1a89961b94719454/odoo13_addons_oca_survey-13.0.20230530.0-py3-none-any.whl
+[2023-06-16 09:34:35] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/32/b8/61a39e6826c87064604908c578ccdf6f0803417ceeaf93a8ad90650152af/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev8-py3-none-any.whl
+[2023-06-16 09:34:35] INFO root fetch - processPackages [libcoveweb2]: Downloading https://files.pythonhosted.org/packages/59/65/7e5eccc76d7ef1efe4b6ecfc0670fd42d9312035702155426e71072a3e0f/libcoveweb2-0.0.0.tar.gz
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/ad/5e/1bdb9ec0c613514d21f64c33f22ea3559bb0a34656379a2c6f2b07c2db78/odoo12_addon_hr_timesheet_sheet-12.0.3.7.6.99.dev8-py3-none-any.whl
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/d7/2b/49382e7139054d20b816ff4de45333bdc43005a010a664456d2fdb723459/odoo13_addon_hr_timesheet_sheet-13.0.1.2.1.dev8-py3-none-any.whl
+[2023-06-16 09:34:35] INFO root fetch - processPackages [libcovebods]: Downloading https://files.pythonhosted.org/packages/77/80/00cf3f28545fe60e56f167d21c6eea9d3199aa0156da6c6be79cbaf6ed30/libcovebods-0.8.1.tar.gz
+[2023-06-16 09:34:35] INFO root fetch - processPackages [Zeraora]: Downloading https://files.pythonhosted.org/packages/8e/d5/8ba772a3082fdffcf018c6772df8e629da431bfd9fe76803ec027748bad8/Zeraora-0.3.0.tar.gz
+[2023-06-16 09:34:35] INFO root fetch - processPackages [EssaySummarizer]: Downloading https://files.pythonhosted.org/packages/29/e7/d56133c7914f1f7b6650d7eb6f8596ba0b00f789d144b9ad68795a76f533/EssaySummarizer-0.0.2.tar.gz
+[2023-06-16 09:34:35] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/a7/ce/424acd37d2ea4d8282797c0d71d8769c745040f063b8f436aeef526db143/mykit-2.0.3.tar.gz
+[2023-06-16 09:34:35] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo13-addons-oca-survey]: Downloading https://files.pythonhosted.org/packages/13/ae/9a375c300631ed1abffa18a0fa4a53116b890eaf2083a3a26d60077d245b/odoo13_addons_oca_survey-13.0.20230615.0-py3-none-any.whl
+[2023-06-16 09:34:35] INFO root fetch - processPackages [EssaySummarizer]: executing diffoscope
+[2023-06-16 09:34:35] INFO root fetch - processPackages [EssaySummarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EssaySummarizer-0.0.1.tar.gz tmp/EssaySummarizer-0.0.2.tar.gz --markdown 20230616/E/EssaySummarizer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 09:34:35] INFO root fetch - processPackages [libcoveweb2]: Downloading https://files.pythonhosted.org/packages/51/a9/f4240bc84c5910cdd466068bdcda77a4169c1a7be0f038ecc068e1a1b8fa/libcoveweb2-0.1.0.tar.gz
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/c5/95/d7ac4d0bb78705709049b242708f10445917dee221ab1d2dba91d5f69c84/odoo12_addon_hr_timesheet_sheet-12.0.3.7.6.99.dev9-py3-none-any.whl
+[2023-06-16 09:34:35] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-06-16 09:34:35] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-2.0.2.tar.gz tmp/mykit-2.0.3.tar.gz --markdown 20230616/m/mykit/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-16 09:34:35] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-16 09:34:35] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230616/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-16 09:34:35] INFO root fetch - processPackages [Zeraora]: Downloading https://files.pythonhosted.org/packages/a4/2d/ac27439dbc42a835b79b62ae918eecc7b969f1b781336e94ce108d6ea99f/Zeraora-0.3.1.tar.gz
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo13-addons-oca-survey]: executing diffoscope
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo13-addons-oca-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_survey-13.0.20230530.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_survey-13.0.20230615.0-py3-none-any.whl.zip --markdown 20230616/o/odoo13-addons-oca-survey/13.0.20230530.0-13.0.20230615.0/diff.md --exclude *.pyd
+[2023-06-16 09:34:35] INFO root fetch - processPackages [libcoveweb2]: executing diffoscope
+[2023-06-16 09:34:35] INFO root fetch - processPackages [libcoveweb2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcoveweb2-0.0.0.tar.gz tmp/libcoveweb2-0.1.0.tar.gz --markdown 20230616/l/libcoveweb2/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-16 09:34:35] INFO root fetch - processPackages [Zeraora]: executing diffoscope
+[2023-06-16 09:34:35] INFO root fetch - processPackages [Zeraora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zeraora-0.3.0.tar.gz tmp/Zeraora-0.3.1.tar.gz --markdown 20230616/Z/Zeraora/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/d7/69/cf6b11b55f696792593365f68b14e22977169a70a627a53fd509eced1eb9/odoo13_addon_hr_timesheet_sheet-13.0.1.2.1.dev9-py3-none-any.whl
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_timesheet_sheet-12.0.3.7.6.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_hr_timesheet_sheet-12.0.3.7.6.99.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-hr-timesheet-sheet/12.0.3.7.6.99.dev8-12.0.3.7.6.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:34:35] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/db/6b/1d17effaefc35cb552849b8524689c00956fa784b138c74a84aec0a4ba53/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev9-py3-none-any.whl
+[2023-06-16 09:34:35] INFO root fetch - processPackages [libcovebods]: Downloading https://files.pythonhosted.org/packages/60/f9/5b2b040cd14752b7fa69735c1f55b395661d24b9f5d5f98882b2d1f7ac74/libcovebods-0.9.0.tar.gz
+[2023-06-16 09:34:36] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-06-16 09:34:36] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_hr_timesheet_sheet-13.0.1.2.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_hr_timesheet_sheet-13.0.1.2.1.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo13-addon-hr-timesheet-sheet/13.0.1.2.1.dev8-13.0.1.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:34:36] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-06-16 09:34:36] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-hr-timesheet-sheet/14.0.1.2.1.dev8-14.0.1.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:34:36] INFO root fetch - processPackages [libcovebods]: executing diffoscope
+[2023-06-16 09:34:36] INFO root fetch - processPackages [libcovebods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcovebods-0.8.1.tar.gz tmp/libcovebods-0.9.0.tar.gz --markdown 20230616/l/libcovebods/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 09:34:37] INFO root fetch - processPackages [EssaySummarizer]: Remove: archive file [/home/abi/fetcher/tmp/EssaySummarizer-0.0.1.tar.gz]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [EssaySummarizer]: Remove: archive file [/home/abi/fetcher/tmp/EssaySummarizer-0.0.2.tar.gz]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [EssaySummarizer]: Start processing: visuallm
+[2023-06-16 09:34:37] INFO root fetch - main [MainThread]: End processing [EssaySummarizer]: success
+[2023-06-16 09:34:37] INFO root fetch - processPackages [visuallm]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [visuallm]: Downloading https://files.pythonhosted.org/packages/92/0f/4a695c9c0145cef7238c564d4bea76a3f449c1ac9bdb83a2c05e9b7c32e1/visuallm-0.1.7.tar.gz
+[2023-06-16 09:34:37] INFO root fetch - processPackages [odoo13-addons-oca-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_survey-13.0.20230530.0-py3-none-any.whl.zip]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [odoo13-addons-oca-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_survey-13.0.20230615.0-py3-none-any.whl.zip]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [odoo13-addons-oca-survey]: Start processing: midas-powergrid
+[2023-06-16 09:34:37] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-survey]: success
+[2023-06-16 09:34:37] INFO root fetch - processPackages [midas-powergrid]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [visuallm]: Downloading https://files.pythonhosted.org/packages/0e/b2/8c94167eb9a89e5b11f298ac050fc2f5c4928473bf96ab8cd4bb9414a8ee/visuallm-0.1.8.tar.gz
+[2023-06-16 09:34:37] INFO root fetch - processPackages [midas-powergrid]: Downloading https://files.pythonhosted.org/packages/9f/f7/e49a0f058f5232d2a41f4235286140afb8b32e1264aae3a67f03c9f15606/midas-powergrid-1.0.8.tar.gz
+[2023-06-16 09:34:37] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-2.0.2.tar.gz]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-2.0.3.tar.gz]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [mykit]: Start processing: tldr-man
+[2023-06-16 09:34:37] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-06-16 09:34:37] INFO root fetch - processPackages [tldr-man]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [visuallm]: executing diffoscope
+[2023-06-16 09:34:37] INFO root fetch - processPackages [visuallm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visuallm-0.1.7.tar.gz tmp/visuallm-0.1.8.tar.gz --markdown 20230616/v/visuallm/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-16 09:34:37] INFO root fetch - processPackages [tldr-man]: Downloading https://files.pythonhosted.org/packages/e1/6e/78434baef0effe8d71291d22968c25461db2576a3f66e23aff75fd9138ac/tldr_man-1.1.1.tar.gz
+[2023-06-16 09:34:37] INFO root fetch - processPackages [Zeraora]: Remove: archive file [/home/abi/fetcher/tmp/Zeraora-0.3.0.tar.gz]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [Zeraora]: Remove: archive file [/home/abi/fetcher/tmp/Zeraora-0.3.1.tar.gz]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [Zeraora]: Start processing: projectaria-tools
+[2023-06-16 09:34:37] INFO root fetch - main [MainThread]: End processing [Zeraora]: success
+[2023-06-16 09:34:37] INFO root fetch - processPackages [projectaria-tools]: New version: [1.0.0] Old Version: [0.17.0]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [libcovebods]: Remove: archive file [/home/abi/fetcher/tmp/libcovebods-0.8.1.tar.gz]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [libcovebods]: Remove: archive file [/home/abi/fetcher/tmp/libcovebods-0.9.0.tar.gz]
+[2023-06-16 09:34:37] INFO root fetch - processPackages [libcovebods]: Start processing: pycrosskit
+[2023-06-16 09:34:37] INFO root fetch - main [MainThread]: End processing [libcovebods]: success
+[2023-06-16 09:34:37] INFO root fetch - processPackages [tldr-man]: Downloading https://files.pythonhosted.org/packages/8a/ea/fe3d3f6f6c02956e1f3785827c2c32a46aaa121f88fc3289ce38a3ffb8ad/tldr_man-1.2.0.tar.gz
+[2023-06-16 09:34:37] INFO root fetch - processPackages [pycrosskit]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-16 09:34:38] INFO root fetch - processPackages [tldr-man]: executing diffoscope
+[2023-06-16 09:34:38] INFO root fetch - processPackages [tldr-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldr_man-1.1.1.tar.gz tmp/tldr_man-1.2.0.tar.gz --markdown 20230616/t/tldr-man/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-16 09:34:38] INFO root fetch - processPackages [pycrosskit]: Downloading https://files.pythonhosted.org/packages/3d/db/6d5a14d016677d64b40080ffe9df19ceca7d2fe8d8ec4e02e1ebd3981442/pycrosskit-1.7.2.tar.gz
+[2023-06-16 09:34:38] INFO root fetch - processPackages [midas-powergrid]: Downloading https://files.pythonhosted.org/packages/1e/37/0fa0c0c2a96d348ede56267c2db38606bd93db68bec38d54eab286518e27/midas-powergrid-1.0.9.tar.gz
+[2023-06-16 09:34:38] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev8-py3-none-any.whl.zip]
+[2023-06-16 09:34:38] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev9-py3-none-any.whl.zip]
+[2023-06-16 09:34:38] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Start processing: aihandler
+[2023-06-16 09:34:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-sheet]: success
+[2023-06-16 09:34:38] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-16 09:34:38] INFO root fetch - processPackages [projectaria-tools]: Downloading https://files.pythonhosted.org/packages/42/df/10dc904bc40a7df9a3a3bc82328bb4160c7959cf23ad14bfb187182f4dff/projectaria_tools-0.17.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-16 09:34:38] INFO root fetch - processPackages [midas-powergrid]: executing diffoscope
+[2023-06-16 09:34:38] INFO root fetch - processPackages [midas-powergrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-powergrid-1.0.8.tar.gz tmp/midas-powergrid-1.0.9.tar.gz --markdown 20230616/m/midas-powergrid/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-16 09:34:38] INFO root fetch - processPackages [pycrosskit]: Downloading https://files.pythonhosted.org/packages/dc/0d/3969e942c778efc088fcc222016026a10f9472ed47e2d7b919c92df91e85/pycrosskit-1.7.3.tar.gz
+[2023-06-16 09:34:38] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_hr_timesheet_sheet-13.0.1.2.1.dev8-py3-none-any.whl.zip]
+[2023-06-16 09:34:38] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_hr_timesheet_sheet-13.0.1.2.1.dev9-py3-none-any.whl.zip]
+[2023-06-16 09:34:38] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: Start processing: DroidRpc
+[2023-06-16 09:34:38] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-timesheet-sheet]: success
+[2023-06-16 09:34:38] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/5f/59/0f3fec3d9c2165b2534eebc579ad40951d28dd76a141ee0517afca3f1a84/aihandler-1.9.8.tar.gz
+[2023-06-16 09:34:38] INFO root fetch - processPackages [pycrosskit]: executing diffoscope
+[2023-06-16 09:34:38] INFO root fetch - processPackages [pycrosskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrosskit-1.7.2.tar.gz tmp/pycrosskit-1.7.3.tar.gz --markdown 20230616/p/pycrosskit/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-16 09:34:38] INFO root fetch - processPackages [DroidRpc]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-06-16 09:34:38] INFO root fetch - processPackages [libcoveweb2]: Remove: archive file [/home/abi/fetcher/tmp/libcoveweb2-0.0.0.tar.gz]
+[2023-06-16 09:34:38] INFO root fetch - processPackages [libcoveweb2]: Remove: archive file [/home/abi/fetcher/tmp/libcoveweb2-0.1.0.tar.gz]
+[2023-06-16 09:34:38] INFO root fetch - processPackages [libcoveweb2]: Start processing: spider-st
+[2023-06-16 09:34:38] INFO root fetch - main [MainThread]: End processing [libcoveweb2]: success
+[2023-06-16 09:34:38] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 09:34:38] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_timesheet_sheet-12.0.3.7.6.99.dev8-py3-none-any.whl.zip]
+[2023-06-16 09:34:38] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_timesheet_sheet-12.0.3.7.6.99.dev9-py3-none-any.whl.zip]
+[2023-06-16 09:34:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-timesheet-sheet]: success
+[2023-06-16 09:34:38] INFO root fetch - processPackages [projectaria-tools]: Downloading https://files.pythonhosted.org/packages/8b/56/6c180693a01d24c6edd0a95dfa95a0397ec46f26ac3eddedc2212fd3ce1f/projectaria_tools-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-16 09:34:38] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/b3/c7/544c990d7d396289c416e3676f2fdf02804edee7d23e678081cc4c761c29/aihandler-1.9.9.tar.gz
+[2023-06-16 09:34:38] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-16 09:34:38] INFO root fetch - processPackages [DroidRpc]: Downloading https://files.pythonhosted.org/packages/77/67/d01e8069eaa0fbf4a8686bdf1ac470c13a4fb1a8c59fb4cb592163cdf42f/DroidRpc-1.6.7.tar.gz
+[2023-06-16 09:34:38] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-06-16 09:34:38] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-06-16 09:34:38] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-16 09:34:38] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-06-16 09:34:38] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230616/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-16 09:34:38] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-16 09:34:39] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-16 09:34:39] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230616/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 09:34:39] INFO root fetch - processPackages [DroidRpc]: Downloading https://files.pythonhosted.org/packages/27/8f/8f26071a398c3bde9a9fed00340db56230c692dfb0161d27e79b049cbf15/DroidRpc-1.6.8.tar.gz
+[2023-06-16 09:34:39] INFO root fetch - processPackages [DroidRpc]: executing diffoscope
+[2023-06-16 09:34:39] INFO root fetch - processPackages [DroidRpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroidRpc-1.6.7.tar.gz tmp/DroidRpc-1.6.8.tar.gz --markdown 20230616/D/DroidRpc/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-06-16 09:34:39] INFO root fetch - processPackages [projectaria-tools]: executing diffoscope
+[2023-06-16 09:34:39] INFO root fetch - processPackages [projectaria-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectaria_tools-0.17.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/projectaria_tools-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230616/p/projectaria-tools/0.17.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-16 09:34:39] INFO root fetch - processPackages [tldr-man]: Remove: archive file [/home/abi/fetcher/tmp/tldr_man-1.1.1.tar.gz]
+[2023-06-16 09:34:39] INFO root fetch - processPackages [tldr-man]: Remove: archive file [/home/abi/fetcher/tmp/tldr_man-1.2.0.tar.gz]
+[2023-06-16 09:34:39] INFO root fetch - main [MainThread]: End processing [tldr-man]: success
+[2023-06-16 09:34:39] INFO root fetch - processPackages [pycrosskit]: Remove: archive file [/home/abi/fetcher/tmp/pycrosskit-1.7.2.tar.gz]
+[2023-06-16 09:34:39] INFO root fetch - processPackages [pycrosskit]: Remove: archive file [/home/abi/fetcher/tmp/pycrosskit-1.7.3.tar.gz]
+[2023-06-16 09:34:39] INFO root fetch - main [MainThread]: End processing [pycrosskit]: success
+[2023-06-16 09:34:39] INFO root fetch - processPackages [midas-powergrid]: Remove: archive file [/home/abi/fetcher/tmp/midas-powergrid-1.0.8.tar.gz]
+[2023-06-16 09:34:39] INFO root fetch - processPackages [midas-powergrid]: Remove: archive file [/home/abi/fetcher/tmp/midas-powergrid-1.0.9.tar.gz]
+[2023-06-16 09:34:39] INFO root fetch - main [MainThread]: End processing [midas-powergrid]: success
+[2023-06-16 09:34:39] INFO root fetch - processPackages [visuallm]: Remove: archive file [/home/abi/fetcher/tmp/visuallm-0.1.7.tar.gz]
+[2023-06-16 09:34:39] INFO root fetch - processPackages [visuallm]: Remove: archive file [/home/abi/fetcher/tmp/visuallm-0.1.8.tar.gz]
+[2023-06-16 09:34:39] INFO root fetch - main [MainThread]: End processing [visuallm]: success
+[2023-06-16 09:34:40] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.8.tar.gz]
+[2023-06-16 09:34:40] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.9.tar.gz]
+[2023-06-16 09:34:40] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-06-16 09:34:40] INFO root fetch - processPackages [DroidRpc]: Remove: archive file [/home/abi/fetcher/tmp/DroidRpc-1.6.7.tar.gz]
+[2023-06-16 09:34:40] INFO root fetch - processPackages [DroidRpc]: Remove: archive file [/home/abi/fetcher/tmp/DroidRpc-1.6.8.tar.gz]
+[2023-06-16 09:34:40] INFO root fetch - main [MainThread]: End processing [DroidRpc]: success
+[2023-06-16 09:34:51] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-16 09:34:51] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-16 09:34:51] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-16 09:35:32] INFO root fetch - processPackages [projectaria-tools]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools-0.17.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-16 09:35:32] INFO root fetch - processPackages [projectaria-tools]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-16 09:35:32] INFO root fetch - main [MainThread]: End processing [projectaria-tools]: success
+[2023-06-16 09:35:32] INFO root fetch - main [MainThread]: Store serial: [18528678]
