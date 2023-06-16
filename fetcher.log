@@ -9236,3 +9236,126 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 03:40:28] INFO root fetch - processPackages [botocore-a-la-carte]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-1.29.99.tar.gz]
 [2023-06-16 03:40:28] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte]: success
 [2023-06-16 03:40:28] INFO root fetch - main [MainThread]: Store serial: [18525881]
+[2023-06-16 03:45:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18525881]
+[2023-06-16 03:45:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-16 03:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chia-blockchain
+[2023-06-16 03:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llamabot
+[2023-06-16 03:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-scipy
+[2023-06-16 03:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2023-06-16 03:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seaplane
+[2023-06-16 03:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: devvio-util
+[2023-06-16 03:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive
+[2023-06-16 03:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-sphinx
+[2023-06-16 03:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proactive-jupyter-kernel
+[2023-06-16 03:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yplib
+[2023-06-16 03:45:37] INFO root fetch - processPackages [yplib]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-16 03:45:37] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-16 03:45:37] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 03:45:37] INFO root fetch - processPackages [devvio-util]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-06-16 03:45:37] INFO root fetch - processPackages [yplib]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-16 03:45:37] INFO root fetch - processPackages [chia-blockchain]: New version: [2.0.0b1] Old Version: [1.8.2rc4]
+[2023-06-16 03:45:37] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-16 03:45:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-16 03:45:37] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 03:45:37] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 03:45:37] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-16 03:45:37] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-16 03:45:37] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-16 03:45:37] INFO root fetch - processPackages [proactive]: Start processing: nbdev-django
+[2023-06-16 03:45:37] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-16 03:45:37] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-16 03:45:37] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/26/d1/04891774e4ad1b835d3529cde64d29060c73cda0683b60b0965efbaef6db/yplib-1.4.4.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 03:45:38] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/26/d1/04891774e4ad1b835d3529cde64d29060c73cda0683b60b0965efbaef6db/yplib-1.4.4.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/88/9e/63958686ed85f9069a65e4785f5648c0b0af2bf63b8afc9e9b6198d290f9/chia-blockchain-1.8.2rc4.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [devvio-util]: Downloading https://files.pythonhosted.org/packages/65/94/dbad39ef1ad0cd00b7711e265828c06cdb16d89d8e18ceb0c1d94006f460/devvio_util-1.5.6.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-16 03:45:38] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-16 03:45:38] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230616/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-16 03:45:38] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-16 03:45:38] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230616/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 03:45:38] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-16 03:45:38] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230616/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 03:45:38] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e0/1c/362e1eb73ec6814777c5fd945bb412a03a2c198374d16ce4efd41dbfa489/yplib-1.4.5.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e0/1c/362e1eb73ec6814777c5fd945bb412a03a2c198374d16ce4efd41dbfa489/yplib-1.4.5.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-16 03:45:38] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230616/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 03:45:38] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 03:45:38] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.4.4.tar.gz tmp/yplib-1.4.5.tar.gz --markdown 20230616/y/yplib/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-16 03:45:38] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 03:45:38] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.4.4.tar.gz tmp/yplib-1.4.5.tar.gz --markdown 20230616/y/yplib/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-16 03:45:38] INFO root fetch - processPackages [devvio-util]: Downloading https://files.pythonhosted.org/packages/da/42/2b020d6c8ab2b334329f6fbcd2a7114ecd6c15280b7589cca22c835a0a2f/devvio_util-1.5.7.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-06-16 03:45:38] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230616/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 03:45:38] INFO root fetch - processPackages [devvio-util]: executing diffoscope
+[2023-06-16 03:45:38] INFO root fetch - processPackages [devvio-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devvio_util-1.5.6.tar.gz tmp/devvio_util-1.5.7.tar.gz --markdown 20230616/d/devvio-util/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-06-16 03:45:38] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-16 03:45:38] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-16 03:45:38] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230616/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-16 03:45:38] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/d1/c2/1fcb2bec77900e0480d4f8f6611c989bdb4189071c4efd55832737a03a70/chia-blockchain-2.0.0b1.tar.gz
+[2023-06-16 03:45:39] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-16 03:45:39] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-16 03:45:39] INFO root fetch - processPackages [nbdev-django]: Start processing: gaohn-common-utils
+[2023-06-16 03:45:39] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-16 03:45:39] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.64] Old Version: [0.0.63]
+[2023-06-16 03:45:39] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.4.4.tar.gz]
+[2023-06-16 03:45:39] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.4.5.tar.gz]
+[2023-06-16 03:45:39] INFO root fetch - processPackages [yplib]: Start processing: d20-orm
+[2023-06-16 03:45:39] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 03:45:39] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/b7/b2/a83d879504f14c69261dea69571abd893fe56b9a5ac99425a153b251686a/gaohn-common-utils-0.0.63.tar.gz
+[2023-06-16 03:45:39] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-16 03:45:39] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-16 03:45:40] INFO root fetch - processPackages [devvio-util]: Remove: archive file [/home/abi/fetcher/tmp/devvio_util-1.5.6.tar.gz]
+[2023-06-16 03:45:40] INFO root fetch - processPackages [devvio-util]: Remove: archive file [/home/abi/fetcher/tmp/devvio_util-1.5.7.tar.gz]
+[2023-06-16 03:45:40] INFO root fetch - processPackages [devvio-util]: Start processing: aihandler
+[2023-06-16 03:45:40] INFO root fetch - main [MainThread]: End processing [devvio-util]: success
+[2023-06-16 03:45:40] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-16 03:45:40] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-16 03:45:40] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-16 03:45:40] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-16 03:45:40] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-16 03:45:40] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/db/bf/dc7480f197c1d91ad9ef6a5d7bae476daba8666b5740a3d8843ae67e9f1c/gaohn-common-utils-0.0.64.tar.gz
+[2023-06-16 03:45:40] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-16 03:45:40] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230616/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-16 03:45:40] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-06-16 03:45:40] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-06-16 03:45:40] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-06-16 03:45:40] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-16 03:45:40] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.63.tar.gz tmp/gaohn-common-utils-0.0.64.tar.gz --markdown 20230616/g/gaohn-common-utils/0.0.63-0.0.64/diff.md --exclude *.pyd
+[2023-06-16 03:45:40] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-16 03:45:40] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-16 03:45:40] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-16 03:45:40] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-16 03:45:40] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-16 03:45:40] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-16 03:45:40] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 03:45:40] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/5f/59/0f3fec3d9c2165b2534eebc579ad40951d28dd76a141ee0517afca3f1a84/aihandler-1.9.8.tar.gz
+[2023-06-16 03:45:40] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2023-06-16 03:45:40] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-1.8.2rc4.tar.gz tmp/chia-blockchain-2.0.0b1.tar.gz --markdown 20230616/c/chia-blockchain/1.8.2rc4-2.0.0b1/diff.md --exclude *.pyd
+[2023-06-16 03:45:40] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/b3/c7/544c990d7d396289c416e3676f2fdf02804edee7d23e678081cc4c761c29/aihandler-1.9.9.tar.gz
+[2023-06-16 03:45:40] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-06-16 03:45:40] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230616/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-16 03:45:40] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-16 03:45:40] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-16 03:45:40] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-16 03:45:41] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-16 03:45:41] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-16 03:45:41] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-16 03:45:41] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.63.tar.gz]
+[2023-06-16 03:45:41] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.64.tar.gz]
+[2023-06-16 03:45:41] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-16 03:45:42] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.8.tar.gz]
+[2023-06-16 03:45:42] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.9.tar.gz]
+[2023-06-16 03:45:42] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-06-16 03:45:59] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-1.8.2rc4.tar.gz]
+[2023-06-16 03:45:59] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-2.0.0b1.tar.gz]
+[2023-06-16 03:45:59] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2023-06-16 03:45:59] INFO root fetch - main [MainThread]: Store serial: [18526079]
