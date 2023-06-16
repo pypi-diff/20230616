@@ -14250,3 +14250,102 @@ AssertionError: tmp/nestedaccess-0.2.4.tar.gz does not exist
 [2023-06-16 08:40:33] INFO root fetch - processPackages [big]: Remove: archive file [/home/abi/fetcher/tmp/big-0.9.tar.gz]
 [2023-06-16 08:40:33] INFO root fetch - main [MainThread]: End processing [big]: success
 [2023-06-16 08:40:33] INFO root fetch - main [MainThread]: Store serial: [18528095]
+[2023-06-16 08:45:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528095]
+[2023-06-16 08:45:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-16 08:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etu-fastapi-frame
+[2023-06-16 08:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-disaggregation
+[2023-06-16 08:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: higis-tools
+[2023-06-16 08:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyxdi
+[2023-06-16 08:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fuzzylearn
+[2023-06-16 08:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiovantage
+[2023-06-16 08:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: suanpan-sprt
+[2023-06-16 08:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: avlset
+[2023-06-16 08:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: urllib3-ext-hface
+[2023-06-16 08:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: awadb
+[2023-06-16 08:45:42] WARNING root fetch - processPackages [higis-tools]: Skipping, unable to determine old version
+[2023-06-16 08:45:42] INFO root fetch - processPackages [higis-tools]: Start processing: openai-dbd
+[2023-06-16 08:45:42] INFO root fetch - processPackages [etu-fastapi-frame]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-16 08:45:42] INFO root fetch - main [MainThread]: End processing [higis-tools] error
+[2023-06-16 08:45:42] INFO root fetch - processPackages [fuzzylearn]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-16 08:45:42] INFO root fetch - processPackages [data-disaggregation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-16 08:45:42] INFO root fetch - processPackages [urllib3-ext-hface]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-16 08:45:42] INFO root fetch - processPackages [aiovantage]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 08:45:42] INFO root fetch - processPackages [pyxdi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-16 08:45:42] WARNING root fetch - processPackages [avlset]: Skipping, unable to determine old version
+[2023-06-16 08:45:42] INFO root fetch - processPackages [avlset]: Start processing: qufit
+[2023-06-16 08:45:42] INFO root fetch - main [MainThread]: End processing [avlset] error
+[2023-06-16 08:45:42] INFO root fetch - processPackages [awadb]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-16 08:45:42] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-16 08:45:42] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 08:45:43] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-16 08:45:43] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/3b/44/ae67b9b2d02d9838742a1d49f4456b1a6867031586a336108b8271789d1b/suanpan-sprt-0.5.3.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [pyxdi]: Downloading https://files.pythonhosted.org/packages/27/55/a1b5b4bd6e45d73ca7a025ca1ff8928b16ffa69b07f64f6da6e526f48042/pyxdi-0.8.0.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-16 08:45:43] INFO root fetch - processPackages [data-disaggregation]: Downloading https://files.pythonhosted.org/packages/8d/76/e93c60cb255deff5582642bc032804ebbc1a884262b79de9b549235b543a/data-disaggregation-0.9.2.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [etu-fastapi-frame]: Downloading https://files.pythonhosted.org/packages/5e/b1/54f9624a1c7e42ba30caa5b38fd36c3498dd66f1bd97b772f0d768015926/etu-fastapi-frame-1.0.0.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [fuzzylearn]: Downloading https://files.pythonhosted.org/packages/4b/7a/1b84bd26bef55878b5967b7642f50adac1a8b9e1a740951a7e2144350b1f/fuzzylearn-1.1.0.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [urllib3-ext-hface]: Downloading https://files.pythonhosted.org/packages/99/25/539016ff754641ada207750cc959de1b90295763063c4c91a9158394ffa4/urllib3_ext_hface-0.3.3.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/67/b7/1c52cac207ebc69eb989e862300618efd51026b57d50425795e6401f869f/aiovantage-0.1.0.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/90/76/c4929c64ca6252aa117fc96e7e7860faedc7f94943fa8ddebbd22f4f9e7e/awadb-0.3.2-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-16 08:45:43] INFO root fetch - processPackages [pyxdi]: Downloading https://files.pythonhosted.org/packages/35/d0/d7f47f282bd060c3329acec77ca2b7e3c82658406503d58ac50d045ea3ee/pyxdi-0.9.0.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-16 08:45:43] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/3a/46/beae7254fd8b4f030521995bf2e21d0437f9532d6aca73d50ca3ac7c61c6/suanpan-sprt-0.5.4.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-16 08:45:43] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230616/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 08:45:43] INFO root fetch - processPackages [pyxdi]: executing diffoscope
+[2023-06-16 08:45:43] INFO root fetch - processPackages [pyxdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxdi-0.8.0.tar.gz tmp/pyxdi-0.9.0.tar.gz --markdown 20230616/p/pyxdi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 08:45:43] INFO root fetch - processPackages [urllib3-ext-hface]: Downloading https://files.pythonhosted.org/packages/8b/cc/0949733abbb6d329e78754877a2cea22435bb21616a843ca11a535324780/urllib3_ext_hface-0.3.4.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [etu-fastapi-frame]: Downloading https://files.pythonhosted.org/packages/12/3b/73970144ada5063d59675d01e07f5dbe8d9ccaeb004c2edb6ff9ac4d96fd/etu-fastapi-frame-1.1.0.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-06-16 08:45:43] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.5.3.tar.gz tmp/suanpan-sprt-0.5.4.tar.gz --markdown 20230616/s/suanpan-sprt/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-16 08:45:43] INFO root fetch - processPackages [data-disaggregation]: Downloading https://files.pythonhosted.org/packages/ff/7b/55ecbb5681b1b48e8d67b0e9ca291948a635ea47d218f002ce0bc1ad8a3b/data-disaggregation-0.9.3.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [urllib3-ext-hface]: executing diffoscope
+[2023-06-16 08:45:43] INFO root fetch - processPackages [urllib3-ext-hface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_ext_hface-0.3.3.tar.gz tmp/urllib3_ext_hface-0.3.4.tar.gz --markdown 20230616/u/urllib3-ext-hface/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-16 08:45:43] INFO root fetch - processPackages [fuzzylearn]: Downloading https://files.pythonhosted.org/packages/4f/b9/1d9f1fad1e8c2c56ca9f2a7498a049555330f21ec27dfbbe00898cfe4685/fuzzylearn-1.2.0.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/79/b4/898c262c1c5698a5f51c15a1860f9347219ad117c386a1a79e409c30df1a/aiovantage-0.1.1.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [etu-fastapi-frame]: executing diffoscope
+[2023-06-16 08:45:43] INFO root fetch - processPackages [etu-fastapi-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etu-fastapi-frame-1.0.0.tar.gz tmp/etu-fastapi-frame-1.1.0.tar.gz --markdown 20230616/e/etu-fastapi-frame/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-16 08:45:43] INFO root fetch - processPackages [data-disaggregation]: executing diffoscope
+[2023-06-16 08:45:43] INFO root fetch - processPackages [data-disaggregation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-disaggregation-0.9.2.tar.gz tmp/data-disaggregation-0.9.3.tar.gz --markdown 20230616/d/data-disaggregation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-16 08:45:43] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/02/96/43c7215cfd5453c57f6ccb1ba9ce72bfe27e3fc2f05e80a7c855a01ac559/awadb-0.3.3-cp311-cp311-macosx_10_13_universal2.whl
+[2023-06-16 08:45:43] INFO root fetch - processPackages [fuzzylearn]: executing diffoscope
+[2023-06-16 08:45:43] INFO root fetch - processPackages [fuzzylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzylearn-1.1.0.tar.gz tmp/fuzzylearn-1.2.0.tar.gz --markdown 20230616/f/fuzzylearn/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-16 08:45:43] INFO root fetch - processPackages [aiovantage]: executing diffoscope
+[2023-06-16 08:45:43] INFO root fetch - processPackages [aiovantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiovantage-0.1.0.tar.gz tmp/aiovantage-0.1.1.tar.gz --markdown 20230616/a/aiovantage/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 08:45:43] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-06-16 08:45:43] INFO root fetch - processPackages [awadb]: executing diffoscope
+[2023-06-16 08:45:43] INFO root fetch - processPackages [awadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awadb-0.3.2-cp39-cp39-manylinux1_x86_64.whl.zip tmp/awadb-0.3.3-cp311-cp311-macosx_10_13_universal2.whl.zip --markdown 20230616/a/awadb/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-16 08:45:43] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-06-16 08:45:43] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230616/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-16 08:45:44] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-16 08:45:44] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-16 08:45:44] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-16 08:45:45] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.3.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.4.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-06-16 08:45:45] INFO root fetch - processPackages [pyxdi]: Remove: archive file [/home/abi/fetcher/tmp/pyxdi-0.8.0.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - processPackages [pyxdi]: Remove: archive file [/home/abi/fetcher/tmp/pyxdi-0.9.0.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - main [MainThread]: End processing [pyxdi]: success
+[2023-06-16 08:45:45] INFO root fetch - processPackages [data-disaggregation]: Remove: archive file [/home/abi/fetcher/tmp/data-disaggregation-0.9.2.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - processPackages [data-disaggregation]: Remove: archive file [/home/abi/fetcher/tmp/data-disaggregation-0.9.3.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - main [MainThread]: End processing [data-disaggregation]: success
+[2023-06-16 08:45:45] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.8.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.9.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-06-16 08:45:45] INFO root fetch - processPackages [fuzzylearn]: Remove: archive file [/home/abi/fetcher/tmp/fuzzylearn-1.1.0.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - processPackages [fuzzylearn]: Remove: archive file [/home/abi/fetcher/tmp/fuzzylearn-1.2.0.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - main [MainThread]: End processing [fuzzylearn]: success
+[2023-06-16 08:45:45] INFO root fetch - processPackages [urllib3-ext-hface]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_ext_hface-0.3.3.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - processPackages [urllib3-ext-hface]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_ext_hface-0.3.4.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - main [MainThread]: End processing [urllib3-ext-hface]: success
+[2023-06-16 08:45:45] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.1.0.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.1.1.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - main [MainThread]: End processing [aiovantage]: success
+[2023-06-16 08:45:45] INFO root fetch - processPackages [etu-fastapi-frame]: Remove: archive file [/home/abi/fetcher/tmp/etu-fastapi-frame-1.0.0.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - processPackages [etu-fastapi-frame]: Remove: archive file [/home/abi/fetcher/tmp/etu-fastapi-frame-1.1.0.tar.gz]
+[2023-06-16 08:45:45] INFO root fetch - main [MainThread]: End processing [etu-fastapi-frame]: success
+[2023-06-16 08:45:46] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.2-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-16 08:45:46] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.3-cp311-cp311-macosx_10_13_universal2.whl.zip]
+[2023-06-16 08:45:46] INFO root fetch - main [MainThread]: End processing [awadb]: success
+[2023-06-16 08:45:46] INFO root fetch - main [MainThread]: Store serial: [18528132]
