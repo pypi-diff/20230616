@@ -12448,3 +12448,53 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 06:48:50] INFO root fetch - processPackages [uxarray]: Remove: archive file [/home/abi/fetcher/tmp/uxarray-2023.6.0.tar.gz]
 [2023-06-16 06:48:50] INFO root fetch - main [MainThread]: End processing [uxarray]: success
 [2023-06-16 06:48:50] INFO root fetch - main [MainThread]: Store serial: [18527383]
+[2023-06-16 06:53:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527383]
+[2023-06-16 06:53:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-16 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etu-fastapi-frame
+[2023-06-16 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pcdl
+[2023-06-16 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kangforecast
+[2023-06-16 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fmri-physio-log
+[2023-06-16 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reasoner-validator
+[2023-06-16 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipycrawl
+[2023-06-16 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nestedaccess
+[2023-06-16 06:53:59] INFO root fetch - processPackages [reasoner-validator]: New version: [3.5.8] Old Version: [3.5.7]
+[2023-06-16 06:53:59] INFO root fetch - processPackages [kangforecast]: New version: [0.5] Old Version: [0.4]
+[2023-06-16 06:53:59] WARNING root fetch - processPackages [etu-fastapi-frame]: Skipping, unable to determine old version
+[2023-06-16 06:53:59] INFO root fetch - processPackages [pcdl]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-06-16 06:53:59] INFO root fetch - main [MainThread]: End processing [etu-fastapi-frame] error
+[2023-06-16 06:53:59] INFO root fetch - processPackages [fmri-physio-log]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-16 06:53:59] WARNING root fetch - processPackages [ipycrawl]: Skipping, unable to determine old version
+[2023-06-16 06:53:59] INFO root fetch - main [MainThread]: End processing [ipycrawl] error
+[2023-06-16 06:53:59] INFO root fetch - processPackages [fmri-physio-log]: Downloading https://files.pythonhosted.org/packages/8a/c8/e15b2221e83ba32811665e559bb8ffbea2efe2fa332a710602644430169c/fmri_physio_log-0.3.0.tar.gz
+[2023-06-16 06:53:59] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/4e/87/44e57688ef3edb90a63b0f48a201967495f8ddf8a8d8e52c4f93e3936d7c/kangforecast-0.4.tar.gz
+[2023-06-16 06:53:59] INFO root fetch - processPackages [nestedaccess]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 06:54:00] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/00/89/d165db87a64c1ba48c8acf28c2be94e6e81c3e8c1fac849f2451ef7071f6/reasoner_validator-3.5.7.tar.gz
+[2023-06-16 06:54:00] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/35/a7/db250335b69364cd828c437c4925e46036d8203f7ac4b0acaa9f41ebac28/pcdl-3.2.1.tar.gz
+[2023-06-16 06:54:00] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/8c/ba/f2478552a8561778a5028b23ef80d552c047d1a84d30be24629283781015/nestedaccess-0.1.0.tar.gz
+[2023-06-16 06:54:00] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/cf/99/0382bfc6740d3d9c6bfed24433fc6c436faf8504965a4271d641e17c5289/kangforecast-0.5.tar.gz
+[2023-06-16 06:54:00] INFO root fetch - processPackages [fmri-physio-log]: Downloading https://files.pythonhosted.org/packages/1c/34/9a6ab9f4259f4e54bea7ae23478535b3b5c54f9e91eb66f058ed4d40457f/fmri_physio_log-0.3.1.tar.gz
+[2023-06-16 06:54:00] WARNING root fetch - processPackages [pcdl]: Skipping package: exceeds size limit 16735188>=10485760
+[2023-06-16 06:54:00] INFO root fetch - main [MainThread]: End processing [pcdl] error
+[2023-06-16 06:54:00] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-16 06:54:00] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.4.tar.gz tmp/kangforecast-0.5.tar.gz --markdown 20230616/k/kangforecast/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-16 06:54:00] INFO root fetch - processPackages [fmri-physio-log]: executing diffoscope
+[2023-06-16 06:54:00] INFO root fetch - processPackages [fmri-physio-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmri_physio_log-0.3.0.tar.gz tmp/fmri_physio_log-0.3.1.tar.gz --markdown 20230616/f/fmri-physio-log/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-16 06:54:00] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/d3/57/d9cbb33697f8e527e00f8dcccabd4649f947feb50c0792457ee18f2b6f2a/nestedaccess-0.1.1.tar.gz
+[2023-06-16 06:54:00] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/0c/aa/4fb3946b5f3c187d8c3ce029afad65655a577fe0d309d1c0b920f5b35d88/reasoner_validator-3.5.8.tar.gz
+[2023-06-16 06:54:00] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-06-16 06:54:00] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.5.7.tar.gz tmp/reasoner_validator-3.5.8.tar.gz --markdown 20230616/r/reasoner-validator/3.5.7-3.5.8/diff.md --exclude *.pyd
+[2023-06-16 06:54:00] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-16 06:54:00] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.1.0.tar.gz tmp/nestedaccess-0.1.1.tar.gz --markdown 20230616/n/nestedaccess/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 06:54:01] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.4.tar.gz]
+[2023-06-16 06:54:01] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.5.tar.gz]
+[2023-06-16 06:54:01] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-16 06:54:01] INFO root fetch - processPackages [fmri-physio-log]: Remove: archive file [/home/abi/fetcher/tmp/fmri_physio_log-0.3.0.tar.gz]
+[2023-06-16 06:54:01] INFO root fetch - processPackages [fmri-physio-log]: Remove: archive file [/home/abi/fetcher/tmp/fmri_physio_log-0.3.1.tar.gz]
+[2023-06-16 06:54:01] INFO root fetch - main [MainThread]: End processing [fmri-physio-log]: success
+[2023-06-16 06:54:01] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.1.0.tar.gz]
+[2023-06-16 06:54:01] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.1.1.tar.gz]
+[2023-06-16 06:54:01] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-16 06:54:01] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.5.7.tar.gz]
+[2023-06-16 06:54:01] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.5.8.tar.gz]
+[2023-06-16 06:54:01] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-06-16 06:54:01] INFO root fetch - main [MainThread]: Store serial: [18527422]
