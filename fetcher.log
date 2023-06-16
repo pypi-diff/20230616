@@ -10847,3 +10847,126 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 05:27:56] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev99-py2-none-any.whl.zip]
 [2023-06-16 05:27:56] INFO root fetch - main [MainThread]: End processing [odoo8-addon-magentoerpconnect]: success
 [2023-06-16 05:27:56] INFO root fetch - main [MainThread]: Store serial: [18526717]
+[2023-06-16 05:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526717]
+[2023-06-16 05:33:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-snowcli-fork
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-contract
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xflow-net
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foursight-core
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: revo
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnata-cli
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-account-invoice-overdue-reminder
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foursight-cgap
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccdt
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-account-invoice-overdue-reminder
+[2023-06-16 05:33:05] INFO root fetch - processPackages [xflow-net]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 05:33:05] INFO root fetch - processPackages [omnata-snowcli-fork]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-16 05:33:05] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: New version: [14.0.1.4.1.dev9] Old Version: [14.0.1.4.1.dev8]
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-16 05:33:05] INFO root fetch - processPackages [omnata-cli]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-16 05:33:05] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: New version: [12.0.2.2.0.99.dev2] Old Version: [12.0.2.2.0.99.dev1]
+[2023-06-16 05:33:05] INFO root fetch - processPackages [revo]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-16 05:33:05] INFO root fetch - processPackages [odoo12-addon-contract]: New version: [12.0.8.6.1.99.dev9] Old Version: [12.0.8.6.1.99.dev8]
+[2023-06-16 05:33:05] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b1] Old Version: [4.3.0]
+[2023-06-16 05:33:05] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.1b1] Old Version: [3.4.6.3b3]
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-06-16 05:33:05] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/cb/1d/6a31aa14b6d148d903571b7e81557e59d1b71536481f40a454ee5bdb5e39/foursight_core-4.3.0.tar.gz
+[2023-06-16 05:33:05] INFO root fetch - processPackages [omnata-cli]: Downloading https://files.pythonhosted.org/packages/f9/9b/913c375d4ba1cec03d206dd3200760e789f60c5c558ac06e125685213973/omnata_cli-0.1.5.tar.gz
+[2023-06-16 05:33:05] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/35/fd/9c7c003db23e40e8d2c7a27f3f2218f0a2f4c93d480468a549dfde9cd53a/foursight_cgap-3.4.6.3b3.tar.gz
+[2023-06-16 05:33:05] INFO root fetch - processPackages [xflow-net]: Downloading https://files.pythonhosted.org/packages/9c/cb/720dd01d916c4ea3f4c1a6c81f87d536f2cc35894dbab4225d5db6521efd/xflow-net-0.0.8.tar.gz
+[2023-06-16 05:33:05] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/6d/8e/1b7a52675f1a1af9aff959c37ea58b7c16a00a043c5dd7c0439f01554c8e/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev8-py3-none-any.whl
+[2023-06-16 05:33:05] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/7c/8b/50f3a1ff4a9c7e67225263bc41f3cb860268aeab6689206d1868099aa9ee/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.0.99.dev1-py3-none-any.whl
+[2023-06-16 05:33:05] INFO root fetch - processPackages [omnata-snowcli-fork]: Downloading https://files.pythonhosted.org/packages/c4/c0/6a46d1d0ed0e748457373c0cd42f8ebb015369203c39c340dde0de11b4f8/omnata_snowcli_fork-0.3.0.tar.gz
+[2023-06-16 05:33:05] INFO root fetch - processPackages [revo]: Downloading https://files.pythonhosted.org/packages/de/57/de26eca8d3aff54848877efd27873e61da946cc4458b3fe16cbb2bc9679d/revo-0.2.1-py3-none-any.whl
+[2023-06-16 05:33:05] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-06-16 05:33:05] INFO root fetch - processPackages [odoo12-addon-contract]: Downloading https://files.pythonhosted.org/packages/fa/58/899a3b748d3564a355c920d1e353d671770daeb7687a5d7fee74e0e819ea/odoo12_addon_contract-12.0.8.6.1.99.dev8-py3-none-any.whl
+[2023-06-16 05:33:06] INFO root fetch - processPackages [omnata-cli]: Downloading https://files.pythonhosted.org/packages/41/e9/db7d94747f64c03f5bdbd649e3c8acc01b6b050f460c062bd9c16ed0c996/omnata_cli-0.1.6.tar.gz
+[2023-06-16 05:33:06] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-16 05:33:06] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230616/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-16 05:33:06] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/5e/5e/e0105d6adf8f302ea3368b709f0bacb4720374d54df9c42a20e62cb728bf/foursight_cgap-3.5.0.1b1.tar.gz
+[2023-06-16 05:33:06] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/1f/39/25983577a1f188bc3b3843611b87012ebef1329b5cad6e5788fb0c98b9b0/foursight_core-4.3.0.1b1.tar.gz
+[2023-06-16 05:33:06] INFO root fetch - processPackages [omnata-cli]: executing diffoscope
+[2023-06-16 05:33:06] INFO root fetch - processPackages [omnata-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_cli-0.1.5.tar.gz tmp/omnata_cli-0.1.6.tar.gz --markdown 20230616/o/omnata-cli/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-16 05:33:06] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/e3/be/3c39254b653a98ab09faeb04b6f8022ede9e04ab0a40acbada1b235bb316/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.0.99.dev2-py3-none-any.whl
+[2023-06-16 05:33:06] INFO root fetch - processPackages [revo]: Downloading https://files.pythonhosted.org/packages/a5/a8/9af903d0c1afd0a9d16e0236ab0bee069aee18d731b4dbb227a538ec3028/revo-0.2.2-py3-none-any.whl
+[2023-06-16 05:33:06] INFO root fetch - processPackages [xflow-net]: Downloading https://files.pythonhosted.org/packages/c2/1f/16a196943a3ec72ef610b3f6a8749ebb6593e8f1bb6f1eb6c822c8487bb7/xflow-net-0.0.9.tar.gz
+[2023-06-16 05:33:06] INFO root fetch - processPackages [omnata-snowcli-fork]: Downloading https://files.pythonhosted.org/packages/48/e1/1b4687f7b20d1137b8a613ccc57c04a64bec0ec05b4eefc149cca58d79fb/omnata_snowcli_fork-0.3.1.tar.gz
+[2023-06-16 05:33:06] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-06-16 05:33:06] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.4.6.3b3.tar.gz tmp/foursight_cgap-3.5.0.1b1.tar.gz --markdown 20230616/f/foursight-cgap/3.4.6.3b3-3.5.0.1b1/diff.md --exclude *.pyd
+[2023-06-16 05:33:06] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-16 05:33:06] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.tar.gz tmp/foursight_core-4.3.0.1b1.tar.gz --markdown 20230616/f/foursight-core/4.3.0-4.3.0.1b1/diff.md --exclude *.pyd
+[2023-06-16 05:33:06] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-06-16 05:33:06] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.0.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.0.99.dev2-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-account-invoice-overdue-reminder/12.0.2.2.0.99.dev1-12.0.2.2.0.99.dev2/diff.md --exclude *.pyd
+[2023-06-16 05:33:06] INFO root fetch - processPackages [revo]: executing diffoscope
+[2023-06-16 05:33:06] INFO root fetch - processPackages [revo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revo-0.2.1-py3-none-any.whl.zip tmp/revo-0.2.2-py3-none-any.whl.zip --markdown 20230616/r/revo/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-16 05:33:06] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/c4/ae/99c566c3961a6168c4e60fb8c344977f94d3da5894bc315da1c4d5e03194/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev9-py3-none-any.whl
+[2023-06-16 05:33:06] INFO root fetch - processPackages [xflow-net]: executing diffoscope
+[2023-06-16 05:33:06] INFO root fetch - processPackages [xflow-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xflow-net-0.0.8.tar.gz tmp/xflow-net-0.0.9.tar.gz --markdown 20230616/x/xflow-net/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 05:33:06] INFO root fetch - processPackages [omnata-snowcli-fork]: executing diffoscope
+[2023-06-16 05:33:06] INFO root fetch - processPackages [omnata-snowcli-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_snowcli_fork-0.3.0.tar.gz tmp/omnata_snowcli_fork-0.3.1.tar.gz --markdown 20230616/o/omnata-snowcli-fork/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-16 05:33:06] INFO root fetch - processPackages [odoo12-addon-contract]: Downloading https://files.pythonhosted.org/packages/b7/f3/94910c7dc991bfe989dec8cecd323b39184341670d16900d9fb3763f9840/odoo12_addon_contract-12.0.8.6.1.99.dev9-py3-none-any.whl
+[2023-06-16 05:33:06] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-06-16 05:33:06] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-account-invoice-overdue-reminder/14.0.1.4.1.dev8-14.0.1.4.1.dev9/diff.md --exclude *.pyd
+[2023-06-16 05:33:06] INFO root fetch - processPackages [odoo12-addon-contract]: executing diffoscope
+[2023-06-16 05:33:06] INFO root fetch - processPackages [odoo12-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_contract-12.0.8.6.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_contract-12.0.8.6.1.99.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-contract/12.0.8.6.1.99.dev8-12.0.8.6.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 05:33:07] INFO root fetch - processPackages [omnata-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnata_cli-0.1.5.tar.gz]
+[2023-06-16 05:33:07] INFO root fetch - processPackages [omnata-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnata_cli-0.1.6.tar.gz]
+[2023-06-16 05:33:07] INFO root fetch - processPackages [omnata-cli]: Start processing: foursight
+[2023-06-16 05:33:07] INFO root fetch - main [MainThread]: End processing [omnata-cli]: success
+[2023-06-16 05:33:07] INFO root fetch - processPackages [foursight]: New version: [3.5.0.1b1] Old Version: [3.4.8]
+[2023-06-16 05:33:07] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e9/17/701886d8b17ee5dbe5378c8cae339d75f99256acf59853a5618b82e05f98/foursight-3.4.8.tar.gz
+[2023-06-16 05:33:07] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/20/14/b1e830f7349fb143561d26876286cbd75fbced76c4043dab8545606fda86/foursight-3.5.0.1b1.tar.gz
+[2023-06-16 05:33:08] INFO root fetch - processPackages [revo]: Remove: archive file [/home/abi/fetcher/tmp/revo-0.2.1-py3-none-any.whl.zip]
+[2023-06-16 05:33:08] INFO root fetch - processPackages [revo]: Remove: archive file [/home/abi/fetcher/tmp/revo-0.2.2-py3-none-any.whl.zip]
+[2023-06-16 05:33:08] INFO root fetch - processPackages [revo]: Start processing: odoo-addon-sale-financial-risk
+[2023-06-16 05:33:08] INFO root fetch - main [MainThread]: End processing [revo]: success
+[2023-06-16 05:33:08] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: New version: [15.0.1.1.1] Old Version: [15.0.1.1.0.4]
+[2023-06-16 05:33:08] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: Downloading https://files.pythonhosted.org/packages/67/07/4ddd248d4646fec5e478f48db3ebc15354a556d0a9253004927c70348e19/odoo_addon_sale_financial_risk-15.0.1.1.0.4-py3-none-any.whl
+[2023-06-16 05:33:08] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-06-16 05:33:08] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-06-16 05:33:08] INFO root fetch - processPackages [ccdt]: Start processing: dramatiq-kafka
+[2023-06-16 05:33:08] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-16 05:33:08] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-06-16 05:33:08] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.4.8.tar.gz tmp/foursight-3.5.0.1b1.tar.gz --markdown 20230616/f/foursight/3.4.8-3.5.0.1b1/diff.md --exclude *.pyd
+[2023-06-16 05:33:08] WARNING root fetch - processPackages [dramatiq-kafka]: Skipping, unable to determine old version
+[2023-06-16 05:33:08] INFO root fetch - processPackages [dramatiq-kafka]: Start processing: odoo9-addon-crm-phonecall
+[2023-06-16 05:33:08] INFO root fetch - main [MainThread]: End processing [dramatiq-kafka] error
+[2023-06-16 05:33:08] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: Downloading https://files.pythonhosted.org/packages/53/a4/248aee80a39869d0929f746e535ecd71595db37400a0500307a45c752eff/odoo_addon_sale_financial_risk-15.0.1.1.1-py3-none-any.whl
+[2023-06-16 05:33:08] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: executing diffoscope
+[2023-06-16 05:33:08] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_financial_risk-15.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_sale_financial_risk-15.0.1.1.1-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-sale-financial-risk/15.0.1.1.0.4-15.0.1.1.1/diff.md --exclude *.pyd
+[2023-06-16 05:33:08] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.0.99.dev1-py3-none-any.whl.zip]
+[2023-06-16 05:33:08] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.0.99.dev2-py3-none-any.whl.zip]
+[2023-06-16 05:33:08] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-invoice-overdue-reminder]: success
+[2023-06-16 05:33:08] INFO root fetch - processPackages [odoo9-addon-crm-phonecall]: New version: [9.0.1.1.0.99.dev9] Old Version: [9.0.1.1.0.99.dev8]
+[2023-06-16 05:33:08] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.4.6.3b3.tar.gz]
+[2023-06-16 05:33:08] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.1b1.tar.gz]
+[2023-06-16 05:33:08] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-06-16 05:33:08] INFO root fetch - processPackages [xflow-net]: Remove: archive file [/home/abi/fetcher/tmp/xflow-net-0.0.8.tar.gz]
+[2023-06-16 05:33:08] INFO root fetch - processPackages [xflow-net]: Remove: archive file [/home/abi/fetcher/tmp/xflow-net-0.0.9.tar.gz]
+[2023-06-16 05:33:08] INFO root fetch - main [MainThread]: End processing [xflow-net]: success
+[2023-06-16 05:33:08] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev8-py3-none-any.whl.zip]
+[2023-06-16 05:33:08] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev9-py3-none-any.whl.zip]
+[2023-06-16 05:33:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-overdue-reminder]: success
+[2023-06-16 05:33:08] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.tar.gz]
+[2023-06-16 05:33:08] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b1.tar.gz]
+[2023-06-16 05:33:08] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-16 05:33:08] INFO root fetch - processPackages [odoo9-addon-crm-phonecall]: Downloading https://files.pythonhosted.org/packages/42/68/0a5e3531eb2de986126f172032cc21ad998800aca43fcd0a08cf948d690c/odoo9_addon_crm_phonecall-9.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-06-16 05:33:09] INFO root fetch - processPackages [odoo9-addon-crm-phonecall]: Downloading https://files.pythonhosted.org/packages/8e/c5/ccc7c22627d52faf894f8faa8bb3d3d05eb74cabe706eb1260c8056de832/odoo9_addon_crm_phonecall-9.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-06-16 05:33:09] INFO root fetch - processPackages [odoo9-addon-crm-phonecall]: executing diffoscope
+[2023-06-16 05:33:09] INFO root fetch - processPackages [odoo9-addon-crm-phonecall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_crm_phonecall-9.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_crm_phonecall-9.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-crm-phonecall/9.0.1.1.0.99.dev8-9.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 05:33:09] INFO root fetch - processPackages [odoo12-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_contract-12.0.8.6.1.99.dev8-py3-none-any.whl.zip]
+[2023-06-16 05:33:09] INFO root fetch - processPackages [odoo12-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_contract-12.0.8.6.1.99.dev9-py3-none-any.whl.zip]
+[2023-06-16 05:33:09] INFO root fetch - main [MainThread]: End processing [odoo12-addon-contract]: success
+[2023-06-16 05:33:09] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.4.8.tar.gz]
+[2023-06-16 05:33:09] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.1b1.tar.gz]
+[2023-06-16 05:33:09] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-06-16 05:33:10] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_financial_risk-15.0.1.1.0.4-py3-none-any.whl.zip]
+[2023-06-16 05:33:10] INFO root fetch - processPackages [odoo-addon-sale-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_financial_risk-15.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-16 05:33:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-financial-risk]: success
+[2023-06-16 05:33:10] INFO root fetch - processPackages [odoo9-addon-crm-phonecall]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_crm_phonecall-9.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 05:33:10] INFO root fetch - processPackages [odoo9-addon-crm-phonecall]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_crm_phonecall-9.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-16 05:33:10] INFO root fetch - main [MainThread]: End processing [odoo9-addon-crm-phonecall]: success
+[2023-06-16 05:33:12] INFO root fetch - processPackages [omnata-snowcli-fork]: Remove: archive file [/home/abi/fetcher/tmp/omnata_snowcli_fork-0.3.0.tar.gz]
+[2023-06-16 05:33:12] INFO root fetch - processPackages [omnata-snowcli-fork]: Remove: archive file [/home/abi/fetcher/tmp/omnata_snowcli_fork-0.3.1.tar.gz]
+[2023-06-16 05:33:12] INFO root fetch - main [MainThread]: End processing [omnata-snowcli-fork]: success
+[2023-06-16 05:33:12] INFO root fetch - main [MainThread]: Store serial: [18526753]
