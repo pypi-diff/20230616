@@ -19655,3 +19655,158 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 11:48:22] INFO root fetch - processPackages [decore-Base]: Remove: archive file [/home/abi/fetcher/tmp/decore_Base-0.0.20.tar.gz]
 [2023-06-16 11:48:22] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
 [2023-06-16 11:48:22] INFO root fetch - main [MainThread]: Store serial: [18530208]
+[2023-06-16 11:53:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530208]
+[2023-06-16 11:53:31] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-16 11:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.ecs-codedeploy
+[2023-06-16 11:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: virtualbeamline
+[2023-06-16 11:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NTU-objects
+[2023-06-16 11:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ebi-eva-common-pyutils
+[2023-06-16 11:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: currentscape
+[2023-06-16 11:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selis
+[2023-06-16 11:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lesscode-tool
+[2023-06-16 11:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vecnom
+[2023-06-16 11:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: validio-cli
+[2023-06-16 11:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: validio-sdk
+[2023-06-16 11:53:31] INFO root fetch - processPackages [selis]: New version: [2.6] Old Version: [2.5]
+[2023-06-16 11:53:31] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 11:53:31] WARNING root fetch - processPackages [NTU-objects]: Skipping, unable to determine old version
+[2023-06-16 11:53:31] INFO root fetch - processPackages [NTU-objects]: Start processing: simple-interpolator
+[2023-06-16 11:53:31] INFO root fetch - main [MainThread]: End processing [NTU-objects] error
+[2023-06-16 11:53:31] INFO root fetch - processPackages [currentscape]: New version: [1.0.4.dev6] Old Version: [1.0.3]
+[2023-06-16 11:53:31] INFO root fetch - processPackages [validio-cli]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-16 11:53:31] INFO root fetch - processPackages [validio-sdk]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-16 11:53:31] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/97/07/958c4e2a49f3225be6de458f4017728a17abc7b51a31183b7d657ea286f8/selis-2.5.tar.gz
+[2023-06-16 11:53:31] INFO root fetch - processPackages [lesscode-tool]: Downloading https://files.pythonhosted.org/packages/ec/3b/c9cd99ede1d7066ae898e7ce12532e4e700c463fc448b5cc8056036f9bdc/lesscode_tool-0.0.8.tar.gz
+[2023-06-16 11:53:31] INFO root fetch - processPackages [simple-interpolator]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-16 11:53:31] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/df/d0/96585ad5065b7fa71adbac9d5ac17abad309d8c4a47db05c542d90b5f7e8/currentscape-1.0.3.tar.gz
+[2023-06-16 11:53:31] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/a8/47/0c51f4811d13fb6ef6fd9033f5cd1ff56536253bdf06c8c3d3f53daf78fd/validio_sdk-0.4.0.tar.gz
+[2023-06-16 11:53:31] WARNING root fetch - processPackages [vecnom]: Skipping, unable to determine old version
+[2023-06-16 11:53:31] INFO root fetch - processPackages [vecnom]: Start processing: deepsearcheath
+[2023-06-16 11:53:31] INFO root fetch - main [MainThread]: End processing [vecnom] error
+[2023-06-16 11:53:31] INFO root fetch - processPackages [ebi-eva-common-pyutils]: New version: [0.5.6.dev3] Old Version: [0.5.6.dev2]
+[2023-06-16 11:53:31] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 11:53:31] INFO root fetch - processPackages [deepsearcheath]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-16 11:53:31] WARNING root fetch - processPackages [virtualbeamline]: Skipping, unable to determine old version
+[2023-06-16 11:53:31] INFO root fetch - processPackages [virtualbeamline]: Start processing: kube-copilot
+[2023-06-16 11:53:31] INFO root fetch - main [MainThread]: End processing [virtualbeamline] error
+[2023-06-16 11:53:31] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/2a/f3/58605a2a57fd686fd3f9ce529ccdea139548539c4fede80e618cf8f45d81/validio_cli-0.4.0.tar.gz
+[2023-06-16 11:53:31] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/b5/06/0a8332f7858ec348e2623a083ccecc6c64a96184c359075a7bd5b2cd5b3c/simple-interpolator-0.0.2.tar.gz
+[2023-06-16 11:53:31] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/ea/09/d14881cb79296d21e76d56763a8fa7cfeabb427e280bd9a4e1239df89924/ebi_eva_common_pyutils-0.5.6.dev2.tar.gz
+[2023-06-16 11:53:31] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/b4/f9/6792c2432e2bd1d5eefa2f5ba9d25fad0fd573278e23b9040cced9ae4a73/validio_sdk-0.5.0.tar.gz
+[2023-06-16 11:53:31] INFO root fetch - processPackages [deepsearcheath]: Downloading https://files.pythonhosted.org/packages/93/76/ab91855850b1276426f2804d8a462fd353c2a999f706f5d0b9b9e99bc3b3/deepsearcheath-0.9.2-py3-none-any.whl
+[2023-06-16 11:53:31] INFO root fetch - processPackages [lesscode-tool]: Downloading https://files.pythonhosted.org/packages/96/a3/0a9a46370a4a8b0a9a4e8f479cdec3e5599d5cc5a6bcb07f73ce4bc15270/lesscode_tool-0.0.9.tar.gz
+[2023-06-16 11:53:31] INFO root fetch - processPackages [validio-sdk]: executing diffoscope
+[2023-06-16 11:53:31] INFO root fetch - processPackages [validio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_sdk-0.4.0.tar.gz tmp/validio_sdk-0.5.0.tar.gz --markdown 20230616/v/validio-sdk/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-16 11:53:31] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/06/3c/c49cb4c4f0a90687150493a0588b7367e966e420e70854724e06a6524f4b/validio_cli-0.5.0.tar.gz
+[2023-06-16 11:53:31] INFO root fetch - processPackages [kube-copilot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 11:53:31] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/c7/e7/c3681d584c4e371bdd155a903fe681d8456ed4aa6720f4fdf1ee63ca3cc5/selis-2.6.tar.gz
+[2023-06-16 11:53:31] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-06-16 11:53:31] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230616/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 11:53:31] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/c6/34/cef791c667d067a7923df4169adb57934467590c903d5f58c9e5be5a7759/cdklabs.ecs-codedeploy-0.0.98.tar.gz
+[2023-06-16 11:53:31] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/5b/88/6beb349b97dd3b1e6b2bf00ccef16ee9e2e2bc46b28f6161831dacc5c14a/currentscape-1.0.4.dev6.tar.gz
+[2023-06-16 11:53:31] INFO root fetch - processPackages [deepsearcheath]: Downloading https://files.pythonhosted.org/packages/36/07/4344af013e4ad5ef36ee080eb4e1205385a500e124094b1127c622420efd/deepsearcheath-0.9.3-py3-none-any.whl
+[2023-06-16 11:53:31] INFO root fetch - processPackages [validio-cli]: executing diffoscope
+[2023-06-16 11:53:31] INFO root fetch - processPackages [validio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_cli-0.4.0.tar.gz tmp/validio_cli-0.5.0.tar.gz --markdown 20230616/v/validio-cli/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-16 11:53:31] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-16 11:53:31] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-2.5.tar.gz tmp/selis-2.6.tar.gz --markdown 20230616/s/selis/2.5-2.6/diff.md --exclude *.pyd
+[2023-06-16 11:53:31] INFO root fetch - processPackages [deepsearcheath]: executing diffoscope
+[2023-06-16 11:53:31] INFO root fetch - processPackages [deepsearcheath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearcheath-0.9.2-py3-none-any.whl.zip tmp/deepsearcheath-0.9.3-py3-none-any.whl.zip --markdown 20230616/d/deepsearcheath/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-16 11:53:32] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/08/76/2194319f2894fae63c2ddaa6ce1eca51cc4cb2c13a8086c837b91f4422e6/ebi_eva_common_pyutils-0.5.6.dev3.tar.gz
+[2023-06-16 11:53:32] INFO root fetch - processPackages [currentscape]: executing diffoscope
+[2023-06-16 11:53:32] INFO root fetch - processPackages [currentscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currentscape-1.0.3.tar.gz tmp/currentscape-1.0.4.dev6.tar.gz --markdown 20230616/c/currentscape/1.0.3-1.0.4.dev6/diff.md --exclude *.pyd
+[2023-06-16 11:53:32] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/e7/e0/f60affc46246e9b03b763e67eaf18a8641e09ba36e531bf4fd3dbe770a2b/simple-interpolator-0.0.3.tar.gz
+[2023-06-16 11:53:32] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/92/ed/ae22c3eb11fd91f9bc01dbdcba0f4a7c22cef980bf8f5fef46caec814480/kube_copilot-0.1.8.tar.gz
+[2023-06-16 11:53:32] INFO root fetch - processPackages [ebi-eva-common-pyutils]: executing diffoscope
+[2023-06-16 11:53:32] INFO root fetch - processPackages [ebi-eva-common-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebi_eva_common_pyutils-0.5.6.dev2.tar.gz tmp/ebi_eva_common_pyutils-0.5.6.dev3.tar.gz --markdown 20230616/e/ebi-eva-common-pyutils/0.5.6.dev2-0.5.6.dev3/diff.md --exclude *.pyd
+[2023-06-16 11:53:32] INFO root fetch - processPackages [simple-interpolator]: executing diffoscope
+[2023-06-16 11:53:32] INFO root fetch - processPackages [simple-interpolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-interpolator-0.0.2.tar.gz tmp/simple-interpolator-0.0.3.tar.gz --markdown 20230616/s/simple-interpolator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-16 11:53:32] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/32/d6/43cc31093e5335204bbb8629fe11154ff7ebd2508f020ee399403b503b2c/cdklabs.ecs-codedeploy-0.0.99.tar.gz
+[2023-06-16 11:53:32] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: executing diffoscope
+[2023-06-16 11:53:32] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz --markdown 20230616/c/cdklabs.ecs-codedeploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 11:53:32] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/fd/35/3e18869b47a41c295ac800019e28347fde14879ede6506f97393faade562/kube_copilot-0.1.9.tar.gz
+[2023-06-16 11:53:32] INFO root fetch - processPackages [kube-copilot]: executing diffoscope
+[2023-06-16 11:53:32] INFO root fetch - processPackages [kube-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_copilot-0.1.8.tar.gz tmp/kube_copilot-0.1.9.tar.gz --markdown 20230616/k/kube-copilot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 11:53:33] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-2.5.tar.gz]
+[2023-06-16 11:53:33] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-2.6.tar.gz]
+[2023-06-16 11:53:33] INFO root fetch - processPackages [selis]: Start processing: selis
+[2023-06-16 11:53:33] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-16 11:53:33] INFO root fetch - processPackages [selis]: New version: [2.8] Old Version: [2.7]
+[2023-06-16 11:53:33] INFO root fetch - processPackages [lesscode-tool]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tool-0.0.8.tar.gz]
+[2023-06-16 11:53:33] INFO root fetch - processPackages [lesscode-tool]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tool-0.0.9.tar.gz]
+[2023-06-16 11:53:33] INFO root fetch - processPackages [lesscode-tool]: Start processing: current-events-magnifier
+[2023-06-16 11:53:33] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-06-16 11:53:33] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.0.3.5] Old Version: [0.0.3.4]
+[2023-06-16 11:53:33] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/68/d7/2203c595393cd92c8749742b55d9a1b7576d9e0834707c74aedb2b911928/selis-2.7.tar.gz
+[2023-06-16 11:53:33] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/33/bf/a22d698dc1ff9446b124b7ced9b46c9f7c7445eb57fcf0afaa0512e48a93/current_events_magnifier-0.0.3.4.tar.gz
+[2023-06-16 11:53:33] INFO root fetch - processPackages [deepsearcheath]: Remove: archive file [/home/abi/fetcher/tmp/deepsearcheath-0.9.2-py3-none-any.whl.zip]
+[2023-06-16 11:53:33] INFO root fetch - processPackages [deepsearcheath]: Remove: archive file [/home/abi/fetcher/tmp/deepsearcheath-0.9.3-py3-none-any.whl.zip]
+[2023-06-16 11:53:33] INFO root fetch - processPackages [deepsearcheath]: Start processing: simple-interpolator
+[2023-06-16 11:53:33] INFO root fetch - main [MainThread]: End processing [deepsearcheath]: success
+[2023-06-16 11:53:33] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/76/68/5b549815dd3bcdbde5ef4452e26ae7b1663f1448479589c4c513a2079504/current_events_magnifier-0.0.3.5.tar.gz
+[2023-06-16 11:53:33] INFO root fetch - processPackages [simple-interpolator]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-16 11:53:33] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.0.2.tar.gz]
+[2023-06-16 11:53:33] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.0.3.tar.gz]
+[2023-06-16 11:53:33] INFO root fetch - processPackages [simple-interpolator]: Start processing: lstchain
+[2023-06-16 11:53:33] INFO root fetch - main [MainThread]: End processing [simple-interpolator]: success
+[2023-06-16 11:53:33] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-16 11:53:33] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.0.3.4.tar.gz tmp/current_events_magnifier-0.0.3.5.tar.gz --markdown 20230616/c/current-events-magnifier/0.0.3.4-0.0.3.5/diff.md --exclude *.pyd
+[2023-06-16 11:53:33] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/fb/5f/1eb197dabb14d5a3b62c5031ee1a0501c54a54d583bf7c46ac6ac6f08b64/simple_interpolator-0.0.4-py3-none-any.whl
+[2023-06-16 11:53:33] INFO root fetch - processPackages [lstchain]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-16 11:53:34] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.4.0.tar.gz]
+[2023-06-16 11:53:34] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.5.0.tar.gz]
+[2023-06-16 11:53:34] INFO root fetch - processPackages [validio-cli]: Start processing: lesscode-tool
+[2023-06-16 11:53:34] INFO root fetch - main [MainThread]: End processing [validio-cli]: success
+[2023-06-16 11:53:34] INFO root fetch - processPackages [lstchain]: Downloading https://files.pythonhosted.org/packages/da/51/c4a6b851d78d7583637daeb88ed096f41e9ffa6d56ab8618c22ad05ec83d/lstchain-0.9.8.tar.gz
+[2023-06-16 11:53:34] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 11:53:34] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/62/aa/925fd52ea495fd7a39445d8f8a76b71081e667d511398ee911daf08b43af/selis-2.8.tar.gz
+[2023-06-16 11:53:34] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.8.tar.gz]
+[2023-06-16 11:53:34] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.9.tar.gz]
+[2023-06-16 11:53:34] INFO root fetch - processPackages [kube-copilot]: Start processing: virtualdetector
+[2023-06-16 11:53:34] INFO root fetch - main [MainThread]: End processing [kube-copilot]: success
+[2023-06-16 11:53:34] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz]
+[2023-06-16 11:53:34] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz]
+[2023-06-16 11:53:34] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Start processing: current-events-magnifier
+[2023-06-16 11:53:34] INFO root fetch - main [MainThread]: End processing [cdklabs.ecs-codedeploy]: success
+[2023-06-16 11:53:34] INFO root fetch - processPackages [lesscode-tool]: Downloading https://files.pythonhosted.org/packages/ec/3b/c9cd99ede1d7066ae898e7ce12532e4e700c463fc448b5cc8056036f9bdc/lesscode_tool-0.0.8.tar.gz
+[2023-06-16 11:53:34] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.0.3.7] Old Version: [0.0.3.6]
+[2023-06-16 11:53:34] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/46/fb/43072bc876cc4fa2b1cd87efedd3933213bac4b2c797aced2f3bd28c7d83/simple-interpolator-0.0.5.tar.gz
+[2023-06-16 11:53:34] WARNING root fetch - processPackages [lstchain]: Skipping package: exceeds size limit 22876427>=10485760
+[2023-06-16 11:53:34] INFO root fetch - main [MainThread]: End processing [lstchain] error
+[2023-06-16 11:53:34] WARNING root fetch - processPackages [virtualdetector]: Skipping, unable to determine old version
+[2023-06-16 11:53:34] INFO root fetch - main [MainThread]: End processing [virtualdetector] error
+[2023-06-16 11:53:34] INFO root fetch - processPackages [lesscode-tool]: Downloading https://files.pythonhosted.org/packages/96/a3/0a9a46370a4a8b0a9a4e8f479cdec3e5599d5cc5a6bcb07f73ce4bc15270/lesscode_tool-0.0.9.tar.gz
+[2023-06-16 11:53:34] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-16 11:53:34] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-2.7.tar.gz tmp/selis-2.8.tar.gz --markdown 20230616/s/selis/2.7-2.8/diff.md --exclude *.pyd
+[2023-06-16 11:53:34] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-06-16 11:53:34] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230616/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 11:53:34] INFO root fetch - processPackages [simple-interpolator]: executing diffoscope
+[2023-06-16 11:53:34] INFO root fetch - processPackages [simple-interpolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_interpolator-0.0.4-py3-none-any.whl.zip tmp/simple-interpolator-0.0.5.tar.gz --markdown 20230616/s/simple-interpolator/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-16 11:53:34] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/ebi_eva_common_pyutils-0.5.6.dev2.tar.gz]
+[2023-06-16 11:53:34] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/ebi_eva_common_pyutils-0.5.6.dev3.tar.gz]
+[2023-06-16 11:53:34] INFO root fetch - main [MainThread]: End processing [ebi-eva-common-pyutils]: success
+[2023-06-16 11:53:34] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/55/ea/54999301e2c8d9a1ca1a7b9cda6c892ebc5071031638bffb8ff84f207013/current_events_magnifier-0.0.3.6.tar.gz
+[2023-06-16 11:53:34] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/91/2e/156bca2a1ab8c45116700a63e84861c405cc50be206c18b22f3aa252dcd8/current_events_magnifier-0.0.3.7.tar.gz
+[2023-06-16 11:53:34] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-16 11:53:34] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.0.3.6.tar.gz tmp/current_events_magnifier-0.0.3.7.tar.gz --markdown 20230616/c/current-events-magnifier/0.0.3.6-0.0.3.7/diff.md --exclude *.pyd
+[2023-06-16 11:53:34] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.4.0.tar.gz]
+[2023-06-16 11:53:34] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.5.0.tar.gz]
+[2023-06-16 11:53:34] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
+[2023-06-16 11:53:35] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.4.tar.gz]
+[2023-06-16 11:53:35] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.5.tar.gz]
+[2023-06-16 11:53:35] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-16 11:53:35] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-2.7.tar.gz]
+[2023-06-16 11:53:35] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-2.8.tar.gz]
+[2023-06-16 11:53:35] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-16 11:53:35] INFO root fetch - processPackages [lesscode-tool]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tool-0.0.8.tar.gz]
+[2023-06-16 11:53:35] INFO root fetch - processPackages [lesscode-tool]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tool-0.0.9.tar.gz]
+[2023-06-16 11:53:35] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-06-16 11:53:35] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple_interpolator-0.0.4-py3-none-any.whl.zip]
+[2023-06-16 11:53:35] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.0.5.tar.gz]
+[2023-06-16 11:53:35] INFO root fetch - main [MainThread]: End processing [simple-interpolator]: success
+[2023-06-16 11:53:35] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.3.tar.gz]
+[2023-06-16 11:53:35] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.4.dev6.tar.gz]
+[2023-06-16 11:53:35] INFO root fetch - main [MainThread]: End processing [currentscape]: success
+[2023-06-16 11:53:36] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.6.tar.gz]
+[2023-06-16 11:53:36] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.7.tar.gz]
+[2023-06-16 11:53:36] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-16 11:53:36] INFO root fetch - main [MainThread]: Store serial: [18530265]
