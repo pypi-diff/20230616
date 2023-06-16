@@ -20916,3 +20916,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 12:52:41] INFO root fetch - processPackages [rouver]: Remove: archive file [/home/abi/fetcher/tmp/rouver-2.6.2.tar.gz]
 [2023-06-16 12:52:41] INFO root fetch - main [MainThread]: End processing [rouver]: success
 [2023-06-16 12:52:41] INFO root fetch - main [MainThread]: Store serial: [18530746]
+[2023-06-16 12:57:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530746]
+[2023-06-16 12:57:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-16 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: betby
+[2023-06-16 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hepsdataprocess
+[2023-06-16 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sneaky-reader
+[2023-06-16 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazysdk
+[2023-06-16 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tutor
+[2023-06-16 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dyndesign
+[2023-06-16 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spectroscopy-toolbox
+[2023-06-16 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eko
+[2023-06-16 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyrfu
+[2023-06-16 12:57:51] INFO root fetch - processPackages [tutor]: New version: [16.0.1] Old Version: [16.0.0]
+[2023-06-16 12:57:51] WARNING root fetch - processPackages [spectroscopy-toolbox]: Skipping, unable to determine old version
+[2023-06-16 12:57:51] INFO root fetch - main [MainThread]: End processing [spectroscopy-toolbox] error
+[2023-06-16 12:57:51] INFO root fetch - processPackages [betby]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-16 12:57:51] INFO root fetch - processPackages [dyndesign]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-16 12:57:51] INFO root fetch - processPackages [eko]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 12:57:51] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 12:57:51] WARNING root fetch - processPackages [hepsdataprocess]: Skipping, unable to determine old version
+[2023-06-16 12:57:51] INFO root fetch - main [MainThread]: End processing [hepsdataprocess] error
+[2023-06-16 12:57:51] INFO root fetch - processPackages [sneaky-reader]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 12:57:51] INFO root fetch - processPackages [pyrfu]: New version: [2.4.3] Old Version: [2.4.1]
+[2023-06-16 12:57:51] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [sneaky-reader]: Downloading https://files.pythonhosted.org/packages/30/bb/af69e63710e60547ff3a89bbfadde61f01edf8e7a1c5664d24f84a17e169/sneaky_reader-0.1.0.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [tutor]: Downloading https://files.pythonhosted.org/packages/54/fe/e6aad3a6035acaff29c855cebeee2205439ef7d53962a71911d99a539d1b/tutor-16.0.0.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [betby]: Downloading https://files.pythonhosted.org/packages/e8/80/bf8cca536844fd611697e1aa05ab7b8b6351cef3be545e3d0eb15ab6445f/betby-0.2.7.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-06-16 12:57:51] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230616/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 12:57:51] INFO root fetch - processPackages [dyndesign]: Downloading https://files.pythonhosted.org/packages/24/c0/f6ad0abdd30aa383e2f1c307977ad681145ce556349e3de50cf320ebb7df/dyndesign-0.9.7.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [eko]: Downloading https://files.pythonhosted.org/packages/45/cf/9cce4d711592064a5d04a413c894450d2d8ca46b2d0f610c9956647e11e2/eko-0.9.3.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [pyrfu]: Downloading https://files.pythonhosted.org/packages/64/c2/cf1526de2202e6cc02e628a49b3fe40c6bcd1d36f0e30e7fc7acbf75f51a/pyrfu-2.4.1.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [tutor]: Downloading https://files.pythonhosted.org/packages/0d/f2/deb4428a4605d91ee7f0806449885cc6224cd257663bd2e89293b3685982/tutor-16.0.1.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [betby]: Downloading https://files.pythonhosted.org/packages/a1/d3/2db65b3634bd4353bf60cc4e6971ae213ae63f19ff7841041df0c3b138db/betby-0.2.8.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [tutor]: executing diffoscope
+[2023-06-16 12:57:51] INFO root fetch - processPackages [tutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-16.0.0.tar.gz tmp/tutor-16.0.1.tar.gz --markdown 20230616/t/tutor/16.0.0-16.0.1/diff.md --exclude *.pyd
+[2023-06-16 12:57:51] INFO root fetch - processPackages [sneaky-reader]: Downloading https://files.pythonhosted.org/packages/74/80/be7670567a29cbd47e96c9c73c81b777129b6cb16cf4c2a80aa6fdd60cdd/sneaky_reader-0.1.1.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [betby]: executing diffoscope
+[2023-06-16 12:57:51] INFO root fetch - processPackages [betby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betby-0.2.7.tar.gz tmp/betby-0.2.8.tar.gz --markdown 20230616/b/betby/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-16 12:57:51] INFO root fetch - processPackages [dyndesign]: Downloading https://files.pythonhosted.org/packages/d8/ca/0bf7d72d8e08afc5853a27858964e0a50dbd09de42aaa7f2e9baeaca2a29/dyndesign-0.9.8.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [sneaky-reader]: executing diffoscope
+[2023-06-16 12:57:51] INFO root fetch - processPackages [sneaky-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sneaky_reader-0.1.0.tar.gz tmp/sneaky_reader-0.1.1.tar.gz --markdown 20230616/s/sneaky-reader/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 12:57:51] INFO root fetch - processPackages [eko]: Downloading https://files.pythonhosted.org/packages/e3/9f/0abbb737b774c3716179774a3483b946c16b765cf9529b408cf58da1734c/eko-0.9.4.tar.gz
+[2023-06-16 12:57:51] INFO root fetch - processPackages [dyndesign]: executing diffoscope
+[2023-06-16 12:57:51] INFO root fetch - processPackages [dyndesign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyndesign-0.9.7.tar.gz tmp/dyndesign-0.9.8.tar.gz --markdown 20230616/d/dyndesign/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-16 12:57:52] INFO root fetch - processPackages [pyrfu]: Downloading https://files.pythonhosted.org/packages/bc/01/2cbc9daf490537d9c08915c232f064e2151df9f9490f2c7e55e5ce7a99f3/pyrfu-2.4.3.tar.gz
+[2023-06-16 12:57:52] INFO root fetch - processPackages [eko]: executing diffoscope
+[2023-06-16 12:57:52] INFO root fetch - processPackages [eko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eko-0.9.3.tar.gz tmp/eko-0.9.4.tar.gz --markdown 20230616/e/eko/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 12:57:52] INFO root fetch - processPackages [pyrfu]: executing diffoscope
+[2023-06-16 12:57:52] INFO root fetch - processPackages [pyrfu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrfu-2.4.1.tar.gz tmp/pyrfu-2.4.3.tar.gz --markdown 20230616/p/pyrfu/2.4.1-2.4.3/diff.md --exclude *.pyd
+[2023-06-16 12:57:52] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-06-16 12:57:52] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-06-16 12:57:52] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-06-16 12:57:53] INFO root fetch - processPackages [betby]: Remove: archive file [/home/abi/fetcher/tmp/betby-0.2.7.tar.gz]
+[2023-06-16 12:57:53] INFO root fetch - processPackages [betby]: Remove: archive file [/home/abi/fetcher/tmp/betby-0.2.8.tar.gz]
+[2023-06-16 12:57:53] INFO root fetch - main [MainThread]: End processing [betby]: success
+[2023-06-16 12:57:53] INFO root fetch - processPackages [sneaky-reader]: Remove: archive file [/home/abi/fetcher/tmp/sneaky_reader-0.1.0.tar.gz]
+[2023-06-16 12:57:53] INFO root fetch - processPackages [sneaky-reader]: Remove: archive file [/home/abi/fetcher/tmp/sneaky_reader-0.1.1.tar.gz]
+[2023-06-16 12:57:53] INFO root fetch - main [MainThread]: End processing [sneaky-reader]: success
+[2023-06-16 12:57:53] INFO root fetch - processPackages [dyndesign]: Remove: archive file [/home/abi/fetcher/tmp/dyndesign-0.9.7.tar.gz]
+[2023-06-16 12:57:53] INFO root fetch - processPackages [dyndesign]: Remove: archive file [/home/abi/fetcher/tmp/dyndesign-0.9.8.tar.gz]
+[2023-06-16 12:57:53] INFO root fetch - main [MainThread]: End processing [dyndesign]: success
+[2023-06-16 12:57:53] INFO root fetch - processPackages [tutor]: Remove: archive file [/home/abi/fetcher/tmp/tutor-16.0.0.tar.gz]
+[2023-06-16 12:57:53] INFO root fetch - processPackages [tutor]: Remove: archive file [/home/abi/fetcher/tmp/tutor-16.0.1.tar.gz]
+[2023-06-16 12:57:53] INFO root fetch - main [MainThread]: End processing [tutor]: success
+[2023-06-16 12:57:54] INFO root fetch - processPackages [eko]: Remove: archive file [/home/abi/fetcher/tmp/eko-0.9.3.tar.gz]
+[2023-06-16 12:57:54] INFO root fetch - processPackages [eko]: Remove: archive file [/home/abi/fetcher/tmp/eko-0.9.4.tar.gz]
+[2023-06-16 12:57:54] INFO root fetch - main [MainThread]: End processing [eko]: success
+[2023-06-16 12:57:59] INFO root fetch - processPackages [pyrfu]: Remove: archive file [/home/abi/fetcher/tmp/pyrfu-2.4.1.tar.gz]
+[2023-06-16 12:57:59] INFO root fetch - processPackages [pyrfu]: Remove: archive file [/home/abi/fetcher/tmp/pyrfu-2.4.3.tar.gz]
+[2023-06-16 12:57:59] INFO root fetch - main [MainThread]: End processing [pyrfu]: success
+[2023-06-16 12:57:59] INFO root fetch - main [MainThread]: Store serial: [18530777]

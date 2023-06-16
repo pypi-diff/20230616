@@ -1,0 +1,703 @@
+# Comparing `tmp/sneaky_reader-0.1.0.tar.gz` & `tmp/sneaky_reader-0.1.1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "sneaky_reader-0.1.0.tar", last modified: Fri Jun 16 10:37:40 2023, max compression
++gzip compressed data, was "sneaky_reader-0.1.1.tar", last modified: Fri Jun 16 10:53:43 2023, max compression
+```
+
+## Comparing `sneaky_reader-0.1.0.tar` & `sneaky_reader-0.1.1.tar`
+
+### file list
+
+```diff
+@@ -1,18 +1,19 @@
+-drwxr-xr-x   0 gus        (501) staff       (20)        0 2023-06-16 10:37:40.505447 sneaky_reader-0.1.0/
+--rw-r--r--   0 gus        (501) staff       (20)       28 2023-06-16 09:54:22.000000 sneaky_reader-0.1.0/MANIFEST.in
+--rw-r--r--   0 gus        (501) staff       (20)     2528 2023-06-16 10:37:40.505045 sneaky_reader-0.1.0/PKG-INFO
+--rw-r--r--   0 gus        (501) staff       (20)       38 2023-06-16 10:37:40.505702 sneaky_reader-0.1.0/setup.cfg
+--rw-r--r--   0 gus        (501) staff       (20)     1223 2023-06-16 09:47:59.000000 sneaky_reader-0.1.0/setup.py
+-drwxr-xr-x   0 gus        (501) staff       (20)        0 2023-06-16 10:37:40.501663 sneaky_reader-0.1.0/sneaky_reader/
+--rw-r--r--   0 gus        (501) staff       (20)      126 2023-06-16 09:24:15.000000 sneaky_reader-0.1.0/sneaky_reader/__init__.py
+--rw-r--r--   0 gus        (501) staff       (20)       62 2023-06-16 09:23:51.000000 sneaky_reader-0.1.0/sneaky_reader/__main__.py
+--rw-r--r--   0 gus        (501) staff       (20)      517 2023-06-15 08:59:02.000000 sneaky_reader-0.1.0/sneaky_reader/code_browser.css
+--rw-r--r--   0 gus        (501) staff       (20)     3075 2023-06-16 10:00:07.000000 sneaky_reader-0.1.0/sneaky_reader/main.py
+--rw-r--r--   0 gus        (501) staff       (20)     7445 2023-06-16 09:56:23.000000 sneaky_reader-0.1.0/sneaky_reader/reader.py
+-drwxr-xr-x   0 gus        (501) staff       (20)        0 2023-06-16 10:37:40.504457 sneaky_reader-0.1.0/sneaky_reader.egg-info/
+--rw-r--r--   0 gus        (501) staff       (20)     2528 2023-06-16 10:37:40.000000 sneaky_reader-0.1.0/sneaky_reader.egg-info/PKG-INFO
+--rw-r--r--   0 gus        (501) staff       (20)      373 2023-06-16 10:37:40.000000 sneaky_reader-0.1.0/sneaky_reader.egg-info/SOURCES.txt
+--rw-r--r--   0 gus        (501) staff       (20)        1 2023-06-16 10:37:40.000000 sneaky_reader-0.1.0/sneaky_reader.egg-info/dependency_links.txt
+--rw-r--r--   0 gus        (501) staff       (20)       53 2023-06-16 10:37:40.000000 sneaky_reader-0.1.0/sneaky_reader.egg-info/entry_points.txt
+--rw-r--r--   0 gus        (501) staff       (20)        8 2023-06-16 10:37:40.000000 sneaky_reader-0.1.0/sneaky_reader.egg-info/requires.txt
+--rw-r--r--   0 gus        (501) staff       (20)       14 2023-06-16 10:37:40.000000 sneaky_reader-0.1.0/sneaky_reader.egg-info/top_level.txt
++drwxr-xr-x   0 gus        (501) staff       (20)        0 2023-06-16 10:53:43.905127 sneaky_reader-0.1.1/
++-rw-r--r--   0 gus        (501) staff       (20)       45 2023-06-16 10:53:18.000000 sneaky_reader-0.1.1/MANIFEST.in
++-rw-r--r--   0 gus        (501) staff       (20)     2677 2023-06-16 10:53:43.904414 sneaky_reader-0.1.1/PKG-INFO
++-rw-r--r--   0 gus        (501) staff       (20)     2289 2023-06-16 10:46:58.000000 sneaky_reader-0.1.1/readme.md
++-rw-r--r--   0 gus        (501) staff       (20)       38 2023-06-16 10:53:43.905393 sneaky_reader-0.1.1/setup.cfg
++-rw-r--r--   0 gus        (501) staff       (20)     1246 2023-06-16 10:51:04.000000 sneaky_reader-0.1.1/setup.py
++drwxr-xr-x   0 gus        (501) staff       (20)        0 2023-06-16 10:53:43.899134 sneaky_reader-0.1.1/sneaky_reader/
++-rw-r--r--   0 gus        (501) staff       (20)      126 2023-06-16 10:53:29.000000 sneaky_reader-0.1.1/sneaky_reader/__init__.py
++-rw-r--r--   0 gus        (501) staff       (20)       62 2023-06-16 09:23:51.000000 sneaky_reader-0.1.1/sneaky_reader/__main__.py
++-rw-r--r--   0 gus        (501) staff       (20)      517 2023-06-15 08:59:02.000000 sneaky_reader-0.1.1/sneaky_reader/code_browser.css
++-rw-r--r--   0 gus        (501) staff       (20)     3075 2023-06-16 10:00:07.000000 sneaky_reader-0.1.1/sneaky_reader/main.py
++-rw-r--r--   0 gus        (501) staff       (20)     7445 2023-06-16 09:56:23.000000 sneaky_reader-0.1.1/sneaky_reader/reader.py
++drwxr-xr-x   0 gus        (501) staff       (20)        0 2023-06-16 10:53:43.903046 sneaky_reader-0.1.1/sneaky_reader.egg-info/
++-rw-r--r--   0 gus        (501) staff       (20)     2677 2023-06-16 10:53:43.000000 sneaky_reader-0.1.1/sneaky_reader.egg-info/PKG-INFO
++-rw-r--r--   0 gus        (501) staff       (20)      383 2023-06-16 10:53:43.000000 sneaky_reader-0.1.1/sneaky_reader.egg-info/SOURCES.txt
++-rw-r--r--   0 gus        (501) staff       (20)        1 2023-06-16 10:53:43.000000 sneaky_reader-0.1.1/sneaky_reader.egg-info/dependency_links.txt
++-rw-r--r--   0 gus        (501) staff       (20)       53 2023-06-16 10:53:43.000000 sneaky_reader-0.1.1/sneaky_reader.egg-info/entry_points.txt
++-rw-r--r--   0 gus        (501) staff       (20)        8 2023-06-16 10:53:43.000000 sneaky_reader-0.1.1/sneaky_reader.egg-info/requires.txt
++-rw-r--r--   0 gus        (501) staff       (20)       14 2023-06-16 10:53:43.000000 sneaky_reader-0.1.1/sneaky_reader.egg-info/top_level.txt
+```
+
+### Comparing `sneaky_reader-0.1.0/PKG-INFO` & `sneaky_reader-0.1.1/readme.md`
+
+ * *Files 13% similar despite different names*
+
+```diff
+@@ -1,158 +1,144 @@
+-00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+-00000010: 3a20 322e 310a 4e61 6d65 3a20 736e 6561  : 2.1.Name: snea
+-00000020: 6b79 5f72 6561 6465 720a 5665 7273 696f  ky_reader.Versio
+-00000030: 6e3a 2030 2e31 2e30 0a53 756d 6d61 7279  n: 0.1.0.Summary
+-00000040: 3a20 756e 6465 7263 6f76 6572 2062 6f6f  : undercover boo
+-00000050: 6b2d 7265 6164 6572 2069 6e20 796f 7572  k-reader in your
+-00000060: 2074 6572 6d69 6e61 6c0a 486f 6d65 2d70   terminal.Home-p
+-00000070: 6167 653a 2068 7474 7073 3a2f 2f67 6974  age: https://git
+-00000080: 6875 622e 636f 6d2f 6775 7379 6531 3233  hub.com/gusye123
+-00000090: 342f 736e 6561 6b79 2d72 6561 6465 720a  4/sneaky-reader.
+-000000a0: 4175 7468 6f72 3a20 4a69 616e 6261 6959  Author: JianbaiY
+-000000b0: 650a 436c 6173 7369 6669 6572 3a20 5072  e.Classifier: Pr
+-000000c0: 6f67 7261 6d6d 696e 6720 4c61 6e67 7561  ogramming Langua
+-000000d0: 6765 203a 3a20 5079 7468 6f6e 203a 3a20  ge :: Python :: 
+-000000e0: 330a 436c 6173 7369 6669 6572 3a20 4c69  3.Classifier: Li
+-000000f0: 6365 6e73 6520 3a3a 204f 5349 2041 7070  cense :: OSI App
+-00000100: 726f 7665 6420 3a3a 204d 4954 204c 6963  roved :: MIT Lic
+-00000110: 656e 7365 0a43 6c61 7373 6966 6965 723a  ense.Classifier:
+-00000120: 204f 7065 7261 7469 6e67 2053 7973 7465   Operating Syste
+-00000130: 6d20 3a3a 204f 5320 496e 6465 7065 6e64  m :: OS Independ
+-00000140: 656e 740a 5265 7175 6972 6573 2d50 7974  ent.Requires-Pyt
+-00000150: 686f 6e3a 203e 3d33 2e36 0a44 6573 6372  hon: >=3.6.Descr
+-00000160: 6970 7469 6f6e 2d43 6f6e 7465 6e74 2d54  iption-Content-T
+-00000170: 7970 653a 2074 6578 742f 6d61 726b 646f  ype: text/markdo
+-00000180: 776e 0a0a 3c64 6976 2061 6c69 676e 3d22  wn..<div align="
+-00000190: 6365 6e74 6572 223e 0a20 203c 6831 3e53  center">.  <h1>S
+-000001a0: 6e65 616b 792d 5265 6164 6572 20f0 9fa4  neaky-Reader ...
+-000001b0: ab3c 2f68 313e 0a20 203c 703e 3c73 7472  .</h1>.  <p><str
+-000001c0: 6f6e 673e 4869 6465 2079 6f75 7220 626f  ong>Hide your bo
+-000001d0: 6f6b 2075 6e64 6572 2061 2066 616e 6379  ok under a fancy
+-000001e0: 2074 6572 6d69 6e61 6c3c 2f73 7472 6f6e   terminal</stron
+-000001f0: 673e 3c2f 703e 0a20 203c 703e 3c73 7472  g></p>.  <p><str
+-00000200: 6f6e 673e e4b8 8ae7 8fad e79c 8be4 b9a6  ong>............
+-00000210: e79a 84e5 b9bb e5bd b1e5 9da6 e585 8b3c  ...............<
+-00000220: 2f73 7472 6f6e 673e 3c2f 703e 0a3c 2f64  /strong></p>.</d
+-00000230: 6976 3e0a 0a0a 3c64 6976 2061 6c69 676e  iv>...<div align
+-00000240: 3d22 6365 6e74 6572 223e 0a20 203c 6469  ="center">.  <di
+-00000250: 7620 636c 6173 733d 2272 6f77 2220 616c  v class="row" al
+-00000260: 6967 6e3d 2263 656e 7465 7222 3e0a 2020  ign="center">.  
+-00000270: 2020 2020 3c69 6d67 2073 7263 3d22 2e2f      <img src="./
+-00000280: 6173 7365 7473 2f65 6e2d 312e 706e 6722  assets/en-1.png"
+-00000290: 2077 6964 7468 3d22 3332 2522 2061 6c69   width="32%" ali
+-000002a0: 676e 3d22 6365 6e74 6572 222f 3e0a 2020  gn="center"/>.  
+-000002b0: 2020 2020 3c69 6d67 2073 7263 3d22 2e2f      <img src="./
+-000002c0: 6173 7365 7473 2f65 6e2d 322e 706e 6722  assets/en-2.png"
+-000002d0: 2077 6964 7468 3d22 3332 2522 2061 6c69   width="32%" ali
+-000002e0: 676e 3d22 6365 6e74 6572 222f 3e0a 2020  gn="center"/>.  
+-000002f0: 2020 2020 3c69 6d67 2073 7263 3d22 2e2f      <img src="./
+-00000300: 6173 7365 7473 2f65 6e2d 332e 706e 6722  assets/en-3.png"
+-00000310: 2077 6964 7468 3d22 3332 2522 2061 6c69   width="32%" ali
+-00000320: 676e 3d22 6365 6e74 6572 222f 3e0a 2020  gn="center"/>.  
+-00000330: 3c2f 6469 763e 0a20 203c 6120 616c 6967  </div>.  <a alig
+-00000340: 6e3d 2263 656e 7465 7222 3e20 4669 6e64  n="center"> Find
+-00000350: 2064 6963 6b65 6e73 2069 6e20 7468 6f73   dickens in thos
+-00000360: 6520 696d 6167 6573 3c2f 613e 0a3c 2f64  e images</a>.</d
+-00000370: 6976 3e0a 0a0a 0a0a 2323 2046 6561 7475  iv>.....## Featu
+-00000380: 7265 730a 2323 2320 4869 7374 6f72 7920  res.### History 
+-00000390: 7361 7669 6e67 0a0a 536e 6561 6b79 2d72  saving..Sneaky-r
+-000003a0: 6561 6465 7220 696d 706c 656d 656e 7473  eader implements
+-000003b0: 2061 2073 696d 706c 6520 6361 6368 6520   a simple cache 
+-000003c0: 6d65 6368 616e 6973 6d2e 2059 6f75 2063  mechanism. You c
+-000003d0: 616e 2075 7365 2060 2d6c 6020 746f 206c  an use `-l` to l
+-000003e0: 6973 7420 616c 6c20 7468 6520 7072 6576  ist all the prev
+-000003f0: 696f 7573 2062 6f6f 6b73 2c20 616e 6420  ious books, and 
+-00000400: 7573 6520 602d 6220 4944 6020 746f 2071  use `-b ID` to q
+-00000410: 7569 636b 6c79 2067 6574 2074 6865 2062  uickly get the b
+-00000420: 6f6f 6b2e 2046 6f72 2065 7861 6d70 6c65  ook. For example
+-00000430: 3a0a 6060 6073 6865 6c6c 0a24 2073 6e65  :.```shell.$ sne
+-00000440: 616b 795f 7265 6164 6572 202d 6c0a 5b30  aky_reader -l.[0
+-00000450: 5d20 4368 6172 6c65 7344 6963 6b65 6e73  ] CharlesDickens
+-00000460: 2d4f 6c69 7665 7254 7769 7374 0a5b 315d  -OliverTwist.[1]
+-00000470: 20e7 baa2 e6a5 bce6 a2a6 0a24 2073 6e65   ..........$ sne
+-00000480: 616b 795f 7265 6164 6572 202d 6230 0a2e  aky_reader -b0..
+-00000490: 2e2e 0a60 6060 0a23 2323 2049 6e74 7569  ...```.### Intui
+-000004a0: 7469 7665 2075 7361 6765 0a0a 4772 6561  tive usage..Grea
+-000004b0: 7465 2074 6861 6e6b 7320 746f 2074 6865  te thanks to the
+-000004c0: 2077 6f6e 6465 7266 756c 2070 726f 6a65   wonderful proje
+-000004d0: 6374 733a 205b 6072 6963 6860 5d28 6874  cts: [`rich`](ht
+-000004e0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-000004f0: 2f54 6578 7475 616c 697a 652f 7269 6368  /Textualize/rich
+-00000500: 2920 616e 6420 5b60 7465 7874 7561 6c60  ) and [`textual`
+-00000510: 5d28 6874 7470 733a 2f2f 6769 7468 7562  ](https://github
+-00000520: 2e63 6f6d 2f54 6578 7475 616c 697a 652f  .com/Textualize/
+-00000530: 7465 7874 7561 6c29 2c20 736e 6561 6b79  textual), sneaky
+-00000540: 2d72 6561 6465 7220 6361 6e20 6275 696c  -reader can buil
+-00000550: 6420 6120 2872 656c 6174 6976 656c 7929  d a (relatively)
+-00000560: 2063 6f6d 706c 6578 2055 4920 696e 2074   complex UI in t
+-00000570: 6572 6d69 6e61 6c20 7769 7468 2066 6577  erminal with few
+-00000580: 206c 696e 6573 3a0a 0a2a 2059 6f75 2063   lines:..* You c
+-00000590: 616e 2070 7265 7373 2060 6660 2074 6f20  an press `f` to 
+-000005a0: 7368 6f77 2f68 6964 6520 7468 6520 6368  show/hide the ch
+-000005b0: 6170 7465 7273 2070 616e 650a 2a20 596f  apters pane.* Yo
+-000005c0: 7520 6361 6e20 7072 6573 7320 606d 602c  u can press `m`,
+-000005d0: 2060 6e60 2074 6f20 666f 7277 6172 642f   `n` to forward/
+-000005e0: 6261 636b 7761 7264 2074 6865 2063 7572  backward the cur
+-000005f0: 7265 6e74 2063 6861 7074 6572 0a2a 2059  rent chapter.* Y
+-00000600: 6f75 2063 616e 2070 7265 7373 2060 2f60  ou can press `/`
+-00000610: 2074 6f20 656e 6162 6c65 2042 4f53 5320   to enable BOSS 
+-00000620: 6d6f 6465 2120 4974 2077 696c 6c20 6869  mode! It will hi
+-00000630: 6465 2061 6c6c 2074 6865 2073 6e65 616b  de all the sneak
+-00000640: 7920 7468 696e 6773 2061 6e64 206f 6e6c  y things and onl
+-00000650: 7920 6c65 6176 6520 6120 6661 6b65 2050  y leave a fake P
+-00000660: 7974 686f 6e20 736e 6970 7065 742e 0a0a  ython snippet...
+-00000670: 2323 2320 536d 6172 7420 7370 6c69 7469  ### Smart spliti
+-00000680: 6e67 0a0a 536e 6561 6b79 2d72 6561 6465  ng..Sneaky-reade
+-00000690: 7220 7375 7070 6f72 7473 2079 6f75 2074  r supports you t
+-000006a0: 6f20 7573 6520 7265 676c 7561 7220 6578  o use regluar ex
+-000006b0: 7072 6573 7369 6f6e 2028 7265 6665 7220  pression (refer 
+-000006c0: 746f 2074 6865 2060 7265 6020 6d6f 6475  to the `re` modu
+-000006d0: 6c65 2069 6e20 7079 7468 6f6e 2920 746f  le in python) to
+-000006e0: 2073 706c 6974 2079 6f75 7220 5458 5420   split your TXT 
+-000006f0: 696e 746f 2063 6861 7074 6572 732e 2055  into chapters. U
+-00000700: 7369 6e67 2074 6865 2063 6f6d 6d61 6e64  sing the command
+-00000710: 206c 696e 6520 6f70 7469 6f6e 2060 2d65   line option `-e
+-00000720: 6020 746f 2070 6173 7320 796f 7572 2072  ` to pass your r
+-00000730: 6567 6c75 6172 2065 7870 7265 7373 696f  egluar expressio
+-00000740: 6e2e 200a 0a52 656d 656d 6265 722c 2061  n. ..Remember, a
+-00000750: 6c77 6179 7320 6772 6f75 7020 796f 7572  lways group your
+-00000760: 2063 6861 7074 6572 206e 616d 6520 696e   chapter name in
+-00000770: 2066 6972 7374 2069 6e20 796f 7572 2072   first in your r
+-00000780: 6567 756c 6172 2065 7870 7265 7373 696f  egular expressio
+-00000790: 6e21 202a 6772 6f75 7020 7468 6520 7469  n! *group the ti
+-000007a0: 746c 6520 7769 7468 2060 2829 602a 0a23  tle with `()`*.#
+-000007b0: 2320 5175 6963 6b20 5374 6172 740a 0a43  # Quick Start..C
+-000007c0: 6c6f 6e65 2061 6e64 2065 6e74 6572 2074  lone and enter t
+-000007d0: 6869 7320 7265 706f 2c20 7468 656e 2069  his repo, then i
+-000007e0: 6e73 7461 6c6c 2077 6974 6820 6070 6970  nstall with `pip
+-000007f0: 2069 6e73 7461 6c6c 202d 6520 2e60 2e20   install -e .`. 
+-00000800: 5468 656e 2079 6f75 2068 6176 6520 6120  Then you have a 
+-00000810: 7368 656c 6c20 636f 6d6d 616e 6420 6073  shell command `s
+-00000820: 6e65 616b 795f 7265 6164 6572 6020 746f  neaky_reader` to
+-00000830: 2075 7365 210a 0a46 6f72 2074 6865 2064   use!..For the d
+-00000840: 656d 6f20 626f 6f6b 732c 2079 6f75 2063  emo books, you c
+-00000850: 6f75 6c64 2073 7461 7274 2077 6974 6820  ould start with 
+-00000860: 636f 6d6d 616e 6473 0a60 6060 2f73 6865  commands.```/she
+-00000870: 6c6c 0a23 6465 6d6f 2069 6e20 656e 676c  ll.#demo in engl
+-00000880: 6973 680a 736e 6561 6b79 5f72 6561 6465  ish.sneaky_reade
+-00000890: 7220 2d70 3d22 2e2f 6173 7365 7473 2f43  r -p="./assets/C
+-000008a0: 6861 726c 6573 4469 636b 656e 732d 4f6c  harlesDickens-Ol
+-000008b0: 6976 6572 5477 6973 742e 7478 7422 202d  iverTwist.txt" -
+-000008c0: 653d 225e 4348 4150 5445 5220 282e 2a29  e="^CHAPTER (.*)
+-000008d0: 220a 0a23 2064 656d 6f20 696e 2063 6869  "..# demo in chi
+-000008e0: 6e65 7365 0a73 6e65 616b 795f 7265 6164  nese.sneaky_read
+-000008f0: 6572 202d 703d 222e 2f61 7373 6574 732f  er -p="./assets/
+-00000900: e7ba a2e6 a5bc e6a2 a62e 7478 7422 202d  ..........txt" -
+-00000910: 653d 225e e7ac ac28 2e2a 29e5 9b9e 220a  e="^...(.*)...".
+-00000920: 6060 600a 466f 7220 7468 6520 6669 7273  ```.For the firs
+-00000930: 7420 7469 6d65 2079 6f75 2069 6d70 6f72  t time you impor
+-00000940: 7420 6120 626f 6f6b 2c20 6073 6e65 616b  t a book, `sneak
+-00000950: 795f 7265 6164 6572 6020 7769 6c6c 2072  y_reader` will r
+-00000960: 6571 7569 7265 2074 6865 2062 6f6f 6b20  equire the book 
+-00000970: 7061 7468 2061 6e64 2074 6865 2073 706c  path and the spl
+-00000980: 6974 696e 6720 6578 7072 6573 7369 6f6e  iting expression
+-00000990: 2e20 4166 7465 7220 7468 6174 2c20 7468  . After that, th
+-000009a0: 6520 626f 6f6b 2077 696c 6c20 6265 2063  e book will be c
+-000009b0: 6163 6865 6420 616e 6420 796f 7520 6361  ached and you ca
+-000009c0: 6e20 7265 6164 2069 7420 7769 7468 2063  n read it with c
+-000009d0: 6f6d 6d61 6e64 2060 2d62 2049 4460 2e0a  ommand `-b ID`..
++00000000: 3c64 6976 2061 6c69 676e 3d22 6365 6e74  <div align="cent
++00000010: 6572 223e 0a20 203c 6831 3e53 6e65 616b  er">.  <h1>Sneak
++00000020: 792d 5265 6164 6572 20f0 9fa4 ab3c 2f68  y-Reader ....</h
++00000030: 313e 0a20 203c 703e 3c73 7472 6f6e 673e  1>.  <p><strong>
++00000040: e4b8 8ae7 8fad e79c 8be4 b9a6 e79a 84e5  ................
++00000050: b9bb e5bd b1e5 9da6 e585 8b20 7c20 4869  ........... | Hi
++00000060: 6465 2079 6f75 7220 626f 6f6b 2075 6e64  de your book und
++00000070: 6572 2061 2066 616e 6379 2074 6572 6d69  er a fancy termi
++00000080: 6e61 6c3c 2f73 7472 6f6e 673e 3c2f 703e  nal</strong></p>
++00000090: 0a20 203c 6120 6872 6566 3d22 6874 7470  .  <a href="http
++000000a0: 733a 2f2f 7079 7069 2e6f 7267 2f70 726f  s://pypi.org/pro
++000000b0: 6a65 6374 2f73 6e65 616b 792d 7265 6164  ject/sneaky-read
++000000c0: 6572 2f22 3e3c 696d 6720 7372 633d 2268  er/"><img src="h
++000000d0: 7474 7073 3a2f 2f69 6d67 2e73 6869 656c  ttps://img.shiel
++000000e0: 6473 2e69 6f2f 7079 7069 2f76 2f73 6e65  ds.io/pypi/v/sne
++000000f0: 616b 795f 7265 6164 6572 2e73 7667 223e  aky_reader.svg">
++00000100: 3c2f 613e 0a3c 2f64 6976 3e0a 0a0a 3c64  </a>.</div>...<d
++00000110: 6976 2061 6c69 676e 3d22 6365 6e74 6572  iv align="center
++00000120: 223e 0a20 203c 6469 7620 636c 6173 733d  ">.  <div class=
++00000130: 2272 6f77 2220 616c 6967 6e3d 2263 656e  "row" align="cen
++00000140: 7465 7222 3e0a 2020 2020 2020 3c69 6d67  ter">.      <img
++00000150: 2073 7263 3d22 2e2f 6173 7365 7473 2f65   src="./assets/e
++00000160: 6e2d 312e 706e 6722 2077 6964 7468 3d22  n-1.png" width="
++00000170: 3332 2522 2061 6c69 676e 3d22 6365 6e74  32%" align="cent
++00000180: 6572 222f 3e0a 2020 2020 2020 3c69 6d67  er"/>.      <img
++00000190: 2073 7263 3d22 2e2f 6173 7365 7473 2f65   src="./assets/e
++000001a0: 6e2d 322e 706e 6722 2077 6964 7468 3d22  n-2.png" width="
++000001b0: 3332 2522 2061 6c69 676e 3d22 6365 6e74  32%" align="cent
++000001c0: 6572 222f 3e0a 2020 2020 2020 3c69 6d67  er"/>.      <img
++000001d0: 2073 7263 3d22 2e2f 6173 7365 7473 2f65   src="./assets/e
++000001e0: 6e2d 332e 706e 6722 2077 6964 7468 3d22  n-3.png" width="
++000001f0: 3332 2522 2061 6c69 676e 3d22 6365 6e74  32%" align="cent
++00000200: 6572 222f 3e0a 2020 3c2f 6469 763e 0a20  er"/>.  </div>. 
++00000210: 203c 6120 616c 6967 6e3d 2263 656e 7465   <a align="cente
++00000220: 7222 3e20 4669 6e64 2064 6963 6b65 6e73  r"> Find dickens
++00000230: 2069 6e20 7468 6f73 6520 696d 6167 6573   in those images
++00000240: 3c2f 613e 0a3c 2f64 6976 3e0a 0a0a 0a0a  </a>.</div>.....
++00000250: 2323 2046 6561 7475 7265 730a 2323 2320  ## Features.### 
++00000260: 4869 7374 6f72 7920 7361 7669 6e67 0a0a  History saving..
++00000270: 536e 6561 6b79 2d72 6561 6465 7220 696d  Sneaky-reader im
++00000280: 706c 656d 656e 7473 2061 2073 696d 706c  plements a simpl
++00000290: 6520 6361 6368 6520 6d65 6368 616e 6973  e cache mechanis
++000002a0: 6d2e 2059 6f75 2063 616e 2075 7365 2060  m. You can use `
++000002b0: 2d6c 6020 746f 206c 6973 7420 616c 6c20  -l` to list all 
++000002c0: 7468 6520 7072 6576 696f 7573 2062 6f6f  the previous boo
++000002d0: 6b73 2c20 616e 6420 7573 6520 602d 6220  ks, and use `-b 
++000002e0: 4944 6020 746f 2071 7569 636b 6c79 2067  ID` to quickly g
++000002f0: 6574 2074 6865 2062 6f6f 6b2e 2046 6f72  et the book. For
++00000300: 2065 7861 6d70 6c65 3a0a 6060 6073 6865   example:.```she
++00000310: 6c6c 0a24 2073 6e65 616b 795f 7265 6164  ll.$ sneaky_read
++00000320: 6572 202d 6c0a 5b30 5d20 4368 6172 6c65  er -l.[0] Charle
++00000330: 7344 6963 6b65 6e73 2d4f 6c69 7665 7254  sDickens-OliverT
++00000340: 7769 7374 0a5b 315d 20e7 baa2 e6a5 bce6  wist.[1] .......
++00000350: a2a6 0a24 2073 6e65 616b 795f 7265 6164  ...$ sneaky_read
++00000360: 6572 202d 6230 0a2e 2e2e 0a60 6060 0a23  er -b0.....```.#
++00000370: 2323 2049 6e74 7569 7469 7665 2075 7361  ## Intuitive usa
++00000380: 6765 0a0a 4772 6561 7465 2074 6861 6e6b  ge..Greate thank
++00000390: 7320 746f 2074 6865 2077 6f6e 6465 7266  s to the wonderf
++000003a0: 756c 2070 726f 6a65 6374 733a 205b 6072  ul projects: [`r
++000003b0: 6963 6860 5d28 6874 7470 733a 2f2f 6769  ich`](https://gi
++000003c0: 7468 7562 2e63 6f6d 2f54 6578 7475 616c  thub.com/Textual
++000003d0: 697a 652f 7269 6368 2920 616e 6420 5b60  ize/rich) and [`
++000003e0: 7465 7874 7561 6c60 5d28 6874 7470 733a  textual`](https:
++000003f0: 2f2f 6769 7468 7562 2e63 6f6d 2f54 6578  //github.com/Tex
++00000400: 7475 616c 697a 652f 7465 7874 7561 6c29  tualize/textual)
++00000410: 2c20 736e 6561 6b79 2d72 6561 6465 7220  , sneaky-reader 
++00000420: 6361 6e20 6275 696c 6420 6120 2872 656c  can build a (rel
++00000430: 6174 6976 656c 7929 2063 6f6d 706c 6578  atively) complex
++00000440: 2055 4920 696e 2074 6572 6d69 6e61 6c20   UI in terminal 
++00000450: 7769 7468 2066 6577 206c 696e 6573 3a0a  with few lines:.
++00000460: 0a2a 2059 6f75 2063 616e 2070 7265 7373  .* You can press
++00000470: 2060 6660 2074 6f20 7368 6f77 2f68 6964   `f` to show/hid
++00000480: 6520 7468 6520 6368 6170 7465 7273 2070  e the chapters p
++00000490: 616e 650a 2a20 596f 7520 6361 6e20 7072  ane.* You can pr
++000004a0: 6573 7320 606d 602c 2060 6e60 2074 6f20  ess `m`, `n` to 
++000004b0: 666f 7277 6172 642f 6261 636b 7761 7264  forward/backward
++000004c0: 2074 6865 2063 7572 7265 6e74 2063 6861   the current cha
++000004d0: 7074 6572 0a2a 2059 6f75 2063 616e 2070  pter.* You can p
++000004e0: 7265 7373 2060 2f60 2074 6f20 656e 6162  ress `/` to enab
++000004f0: 6c65 2042 4f53 5320 6d6f 6465 2120 4974  le BOSS mode! It
++00000500: 2077 696c 6c20 6869 6465 2061 6c6c 2074   will hide all t
++00000510: 6865 2073 6e65 616b 7920 7468 696e 6773  he sneaky things
++00000520: 2061 6e64 206f 6e6c 7920 6c65 6176 6520   and only leave 
++00000530: 6120 6661 6b65 2050 7974 686f 6e20 736e  a fake Python sn
++00000540: 6970 7065 742e 0a0a 2323 2320 536d 6172  ippet...### Smar
++00000550: 7420 7370 6c69 7469 6e67 0a0a 536e 6561  t spliting..Snea
++00000560: 6b79 2d72 6561 6465 7220 7375 7070 6f72  ky-reader suppor
++00000570: 7473 2079 6f75 2074 6f20 7573 6520 7265  ts you to use re
++00000580: 676c 7561 7220 6578 7072 6573 7369 6f6e  gluar expression
++00000590: 2028 7265 6665 7220 746f 2074 6865 2060   (refer to the `
++000005a0: 7265 6020 6d6f 6475 6c65 2069 6e20 7079  re` module in py
++000005b0: 7468 6f6e 2920 746f 2073 706c 6974 2079  thon) to split y
++000005c0: 6f75 7220 5458 5420 696e 746f 2063 6861  our TXT into cha
++000005d0: 7074 6572 732e 2055 7369 6e67 2074 6865  pters. Using the
++000005e0: 2063 6f6d 6d61 6e64 206c 696e 6520 6f70   command line op
++000005f0: 7469 6f6e 2060 2d65 6020 746f 2070 6173  tion `-e` to pas
++00000600: 7320 796f 7572 2072 6567 6c75 6172 2065  s your regluar e
++00000610: 7870 7265 7373 696f 6e2e 200a 0a52 656d  xpression. ..Rem
++00000620: 656d 6265 722c 2061 6c77 6179 7320 6772  ember, always gr
++00000630: 6f75 7020 796f 7572 2063 6861 7074 6572  oup your chapter
++00000640: 206e 616d 6520 696e 2066 6972 7374 2069   name in first i
++00000650: 6e20 796f 7572 2072 6567 756c 6172 2065  n your regular e
++00000660: 7870 7265 7373 696f 6e21 202a 6772 6f75  xpression! *grou
++00000670: 7020 7468 6520 7469 746c 6520 7769 7468  p the title with
++00000680: 2060 2829 602a 0a23 2320 5175 6963 6b20   `()`*.## Quick 
++00000690: 5374 6172 740a 0a2a 2056 6961 2060 7069  Start..* Via `pi
++000006a0: 7060 3a20 6070 6970 2069 6e73 7461 6c6c  p`: `pip install
++000006b0: 2073 6e65 616b 792d 7265 6164 6572 600a   sneaky-reader`.
++000006c0: 2a20 5669 6120 736f 7572 6365 733a 2063  * Via sources: c
++000006d0: 6c6f 6e65 2061 6e64 2065 6e74 6572 2074  lone and enter t
++000006e0: 6869 7320 7265 706f 2c20 7468 656e 2069  his repo, then i
++000006f0: 6e73 7461 6c6c 2077 6974 6820 6070 6970  nstall with `pip
++00000700: 2069 6e73 7461 6c6c 202d 6520 2e60 2e20   install -e .`. 
++00000710: 0a54 6865 6e20 796f 7520 6861 7665 2061  .Then you have a
++00000720: 2073 6865 6c6c 2063 6f6d 6d61 6e64 2060   shell command `
++00000730: 736e 6561 6b79 5f72 6561 6465 7260 2074  sneaky_reader` t
++00000740: 6f20 7573 6521 0a0a 466f 7220 7468 6520  o use!..For the 
++00000750: 6465 6d6f 2062 6f6f 6b73 2c20 796f 7520  demo books, you 
++00000760: 636f 756c 6420 7374 6172 7420 7769 7468  could start with
++00000770: 2063 6f6d 6d61 6e64 730a 6060 602f 7368   commands.```/sh
++00000780: 656c 6c0a 2364 656d 6f20 696e 2065 6e67  ell.#demo in eng
++00000790: 6c69 7368 0a73 6e65 616b 795f 7265 6164  lish.sneaky_read
++000007a0: 6572 202d 703d 222e 2f61 7373 6574 732f  er -p="./assets/
++000007b0: 4368 6172 6c65 7344 6963 6b65 6e73 2d4f  CharlesDickens-O
++000007c0: 6c69 7665 7254 7769 7374 2e74 7874 2220  liverTwist.txt" 
++000007d0: 2d65 3d22 5e43 4841 5054 4552 2028 2e2a  -e="^CHAPTER (.*
++000007e0: 2922 0a0a 2320 6465 6d6f 2069 6e20 6368  )"..# demo in ch
++000007f0: 696e 6573 650a 736e 6561 6b79 5f72 6561  inese.sneaky_rea
++00000800: 6465 7220 2d70 3d22 2e2f 6173 7365 7473  der -p="./assets
++00000810: 2fe7 baa2 e6a5 bce6 a2a6 2e74 7874 2220  /..........txt" 
++00000820: 2d65 3d22 5ee7 acac 282e 2a29 e59b 9e22  -e="^...(.*)..."
++00000830: 0a60 6060 0a46 6f72 2074 6865 2066 6972  .```.For the fir
++00000840: 7374 2074 696d 6520 796f 7520 696d 706f  st time you impo
++00000850: 7274 2061 2062 6f6f 6b2c 2060 736e 6561  rt a book, `snea
++00000860: 6b79 5f72 6561 6465 7260 2077 696c 6c20  ky_reader` will 
++00000870: 7265 7175 6972 6520 7468 6520 626f 6f6b  require the book
++00000880: 2070 6174 6820 616e 6420 7468 6520 7370   path and the sp
++00000890: 6c69 7469 6e67 2065 7870 7265 7373 696f  liting expressio
++000008a0: 6e2e 2041 6674 6572 2074 6861 742c 2074  n. After that, t
++000008b0: 6865 2062 6f6f 6b20 7769 6c6c 2062 6520  he book will be 
++000008c0: 6361 6368 6564 2061 6e64 2079 6f75 2063  cached and you c
++000008d0: 616e 2072 6561 6420 6974 2077 6974 6820  an read it with 
++000008e0: 636f 6d6d 616e 6420 602d 6220 4944 602e  command `-b ID`.
++000008f0: 0a                                       .
+```
+
+### Comparing `sneaky_reader-0.1.0/setup.py` & `sneaky_reader-0.1.1/setup.py`
+
+ * *Files 6% similar despite different names*
+
+```diff
+@@ -5,17 +5,17 @@
+ with open('./sneaky_reader/__init__.py') as f:
+     for line in f.readlines():
+         for v in vars2find:
+             if line.startswith(v):
+                 line = line.replace(' ', '').replace("\"", '').replace("\'", '').strip()
+                 vars_project[v] = line.split('=')[1]
+ 
+-with open('README.md', 'r') as fh:
++with open('readme.md', 'r') as fh:
+     long_description = fh.read()
+-
++print(long_description)
+ setuptools.setup(
+     name='sneaky_reader',
+     url=vars_project['__url__'],
+     version=vars_project['__version__'],
+     author=vars_project['__author__'],
+     description='undercover book-reader in your terminal',
+     long_description=long_description,
+```
+
+### Comparing `sneaky_reader-0.1.0/sneaky_reader/code_browser.css` & `sneaky_reader-0.1.1/sneaky_reader/code_browser.css`
+
+ * *Files identical despite different names*
+
+### Comparing `sneaky_reader-0.1.0/sneaky_reader/main.py` & `sneaky_reader-0.1.1/sneaky_reader/main.py`
+
+ * *Files identical despite different names*
+
+### Comparing `sneaky_reader-0.1.0/sneaky_reader/reader.py` & `sneaky_reader-0.1.1/sneaky_reader/reader.py`
+
+ * *Files identical despite different names*
+
+### Comparing `sneaky_reader-0.1.0/sneaky_reader.egg-info/PKG-INFO` & `sneaky_reader-0.1.1/PKG-INFO`
+
+ * *Files 24% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ 00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+ 00000010: 3a20 322e 310a 4e61 6d65 3a20 736e 6561  : 2.1.Name: snea
+-00000020: 6b79 2d72 6561 6465 720a 5665 7273 696f  ky-reader.Versio
+-00000030: 6e3a 2030 2e31 2e30 0a53 756d 6d61 7279  n: 0.1.0.Summary
++00000020: 6b79 5f72 6561 6465 720a 5665 7273 696f  ky_reader.Versio
++00000030: 6e3a 2030 2e31 2e31 0a53 756d 6d61 7279  n: 0.1.1.Summary
+ 00000040: 3a20 756e 6465 7263 6f76 6572 2062 6f6f  : undercover boo
+ 00000050: 6b2d 7265 6164 6572 2069 6e20 796f 7572  k-reader in your
+ 00000060: 2074 6572 6d69 6e61 6c0a 486f 6d65 2d70   terminal.Home-p
+ 00000070: 6167 653a 2068 7474 7073 3a2f 2f67 6974  age: https://git
+ 00000080: 6875 622e 636f 6d2f 6775 7379 6531 3233  hub.com/gusye123
+ 00000090: 342f 736e 6561 6b79 2d72 6561 6465 720a  4/sneaky-reader.
+ 000000a0: 4175 7468 6f72 3a20 4a69 616e 6261 6959  Author: JianbaiY
+@@ -22,137 +22,147 @@
+ 00000150: 686f 6e3a 203e 3d33 2e36 0a44 6573 6372  hon: >=3.6.Descr
+ 00000160: 6970 7469 6f6e 2d43 6f6e 7465 6e74 2d54  iption-Content-T
+ 00000170: 7970 653a 2074 6578 742f 6d61 726b 646f  ype: text/markdo
+ 00000180: 776e 0a0a 3c64 6976 2061 6c69 676e 3d22  wn..<div align="
+ 00000190: 6365 6e74 6572 223e 0a20 203c 6831 3e53  center">.  <h1>S
+ 000001a0: 6e65 616b 792d 5265 6164 6572 20f0 9fa4  neaky-Reader ...
+ 000001b0: ab3c 2f68 313e 0a20 203c 703e 3c73 7472  .</h1>.  <p><str
+-000001c0: 6f6e 673e 4869 6465 2079 6f75 7220 626f  ong>Hide your bo
+-000001d0: 6f6b 2075 6e64 6572 2061 2066 616e 6379  ok under a fancy
+-000001e0: 2074 6572 6d69 6e61 6c3c 2f73 7472 6f6e   terminal</stron
+-000001f0: 673e 3c2f 703e 0a20 203c 703e 3c73 7472  g></p>.  <p><str
+-00000200: 6f6e 673e e4b8 8ae7 8fad e79c 8be4 b9a6  ong>............
+-00000210: e79a 84e5 b9bb e5bd b1e5 9da6 e585 8b3c  ...............<
+-00000220: 2f73 7472 6f6e 673e 3c2f 703e 0a3c 2f64  /strong></p>.</d
+-00000230: 6976 3e0a 0a0a 3c64 6976 2061 6c69 676e  iv>...<div align
+-00000240: 3d22 6365 6e74 6572 223e 0a20 203c 6469  ="center">.  <di
+-00000250: 7620 636c 6173 733d 2272 6f77 2220 616c  v class="row" al
+-00000260: 6967 6e3d 2263 656e 7465 7222 3e0a 2020  ign="center">.  
+-00000270: 2020 2020 3c69 6d67 2073 7263 3d22 2e2f      <img src="./
+-00000280: 6173 7365 7473 2f65 6e2d 312e 706e 6722  assets/en-1.png"
+-00000290: 2077 6964 7468 3d22 3332 2522 2061 6c69   width="32%" ali
+-000002a0: 676e 3d22 6365 6e74 6572 222f 3e0a 2020  gn="center"/>.  
+-000002b0: 2020 2020 3c69 6d67 2073 7263 3d22 2e2f      <img src="./
+-000002c0: 6173 7365 7473 2f65 6e2d 322e 706e 6722  assets/en-2.png"
+-000002d0: 2077 6964 7468 3d22 3332 2522 2061 6c69   width="32%" ali
+-000002e0: 676e 3d22 6365 6e74 6572 222f 3e0a 2020  gn="center"/>.  
+-000002f0: 2020 2020 3c69 6d67 2073 7263 3d22 2e2f      <img src="./
+-00000300: 6173 7365 7473 2f65 6e2d 332e 706e 6722  assets/en-3.png"
+-00000310: 2077 6964 7468 3d22 3332 2522 2061 6c69   width="32%" ali
+-00000320: 676e 3d22 6365 6e74 6572 222f 3e0a 2020  gn="center"/>.  
+-00000330: 3c2f 6469 763e 0a20 203c 6120 616c 6967  </div>.  <a alig
+-00000340: 6e3d 2263 656e 7465 7222 3e20 4669 6e64  n="center"> Find
+-00000350: 2064 6963 6b65 6e73 2069 6e20 7468 6f73   dickens in thos
+-00000360: 6520 696d 6167 6573 3c2f 613e 0a3c 2f64  e images</a>.</d
+-00000370: 6976 3e0a 0a0a 0a0a 2323 2046 6561 7475  iv>.....## Featu
+-00000380: 7265 730a 2323 2320 4869 7374 6f72 7920  res.### History 
+-00000390: 7361 7669 6e67 0a0a 536e 6561 6b79 2d72  saving..Sneaky-r
+-000003a0: 6561 6465 7220 696d 706c 656d 656e 7473  eader implements
+-000003b0: 2061 2073 696d 706c 6520 6361 6368 6520   a simple cache 
+-000003c0: 6d65 6368 616e 6973 6d2e 2059 6f75 2063  mechanism. You c
+-000003d0: 616e 2075 7365 2060 2d6c 6020 746f 206c  an use `-l` to l
+-000003e0: 6973 7420 616c 6c20 7468 6520 7072 6576  ist all the prev
+-000003f0: 696f 7573 2062 6f6f 6b73 2c20 616e 6420  ious books, and 
+-00000400: 7573 6520 602d 6220 4944 6020 746f 2071  use `-b ID` to q
+-00000410: 7569 636b 6c79 2067 6574 2074 6865 2062  uickly get the b
+-00000420: 6f6f 6b2e 2046 6f72 2065 7861 6d70 6c65  ook. For example
+-00000430: 3a0a 6060 6073 6865 6c6c 0a24 2073 6e65  :.```shell.$ sne
+-00000440: 616b 795f 7265 6164 6572 202d 6c0a 5b30  aky_reader -l.[0
+-00000450: 5d20 4368 6172 6c65 7344 6963 6b65 6e73  ] CharlesDickens
+-00000460: 2d4f 6c69 7665 7254 7769 7374 0a5b 315d  -OliverTwist.[1]
+-00000470: 20e7 baa2 e6a5 bce6 a2a6 0a24 2073 6e65   ..........$ sne
+-00000480: 616b 795f 7265 6164 6572 202d 6230 0a2e  aky_reader -b0..
+-00000490: 2e2e 0a60 6060 0a23 2323 2049 6e74 7569  ...```.### Intui
+-000004a0: 7469 7665 2075 7361 6765 0a0a 4772 6561  tive usage..Grea
+-000004b0: 7465 2074 6861 6e6b 7320 746f 2074 6865  te thanks to the
+-000004c0: 2077 6f6e 6465 7266 756c 2070 726f 6a65   wonderful proje
+-000004d0: 6374 733a 205b 6072 6963 6860 5d28 6874  cts: [`rich`](ht
+-000004e0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-000004f0: 2f54 6578 7475 616c 697a 652f 7269 6368  /Textualize/rich
+-00000500: 2920 616e 6420 5b60 7465 7874 7561 6c60  ) and [`textual`
+-00000510: 5d28 6874 7470 733a 2f2f 6769 7468 7562  ](https://github
+-00000520: 2e63 6f6d 2f54 6578 7475 616c 697a 652f  .com/Textualize/
+-00000530: 7465 7874 7561 6c29 2c20 736e 6561 6b79  textual), sneaky
+-00000540: 2d72 6561 6465 7220 6361 6e20 6275 696c  -reader can buil
+-00000550: 6420 6120 2872 656c 6174 6976 656c 7929  d a (relatively)
+-00000560: 2063 6f6d 706c 6578 2055 4920 696e 2074   complex UI in t
+-00000570: 6572 6d69 6e61 6c20 7769 7468 2066 6577  erminal with few
+-00000580: 206c 696e 6573 3a0a 0a2a 2059 6f75 2063   lines:..* You c
+-00000590: 616e 2070 7265 7373 2060 6660 2074 6f20  an press `f` to 
+-000005a0: 7368 6f77 2f68 6964 6520 7468 6520 6368  show/hide the ch
+-000005b0: 6170 7465 7273 2070 616e 650a 2a20 596f  apters pane.* Yo
+-000005c0: 7520 6361 6e20 7072 6573 7320 606d 602c  u can press `m`,
+-000005d0: 2060 6e60 2074 6f20 666f 7277 6172 642f   `n` to forward/
+-000005e0: 6261 636b 7761 7264 2074 6865 2063 7572  backward the cur
+-000005f0: 7265 6e74 2063 6861 7074 6572 0a2a 2059  rent chapter.* Y
+-00000600: 6f75 2063 616e 2070 7265 7373 2060 2f60  ou can press `/`
+-00000610: 2074 6f20 656e 6162 6c65 2042 4f53 5320   to enable BOSS 
+-00000620: 6d6f 6465 2120 4974 2077 696c 6c20 6869  mode! It will hi
+-00000630: 6465 2061 6c6c 2074 6865 2073 6e65 616b  de all the sneak
+-00000640: 7920 7468 696e 6773 2061 6e64 206f 6e6c  y things and onl
+-00000650: 7920 6c65 6176 6520 6120 6661 6b65 2050  y leave a fake P
+-00000660: 7974 686f 6e20 736e 6970 7065 742e 0a0a  ython snippet...
+-00000670: 2323 2320 536d 6172 7420 7370 6c69 7469  ### Smart spliti
+-00000680: 6e67 0a0a 536e 6561 6b79 2d72 6561 6465  ng..Sneaky-reade
+-00000690: 7220 7375 7070 6f72 7473 2079 6f75 2074  r supports you t
+-000006a0: 6f20 7573 6520 7265 676c 7561 7220 6578  o use regluar ex
+-000006b0: 7072 6573 7369 6f6e 2028 7265 6665 7220  pression (refer 
+-000006c0: 746f 2074 6865 2060 7265 6020 6d6f 6475  to the `re` modu
+-000006d0: 6c65 2069 6e20 7079 7468 6f6e 2920 746f  le in python) to
+-000006e0: 2073 706c 6974 2079 6f75 7220 5458 5420   split your TXT 
+-000006f0: 696e 746f 2063 6861 7074 6572 732e 2055  into chapters. U
+-00000700: 7369 6e67 2074 6865 2063 6f6d 6d61 6e64  sing the command
+-00000710: 206c 696e 6520 6f70 7469 6f6e 2060 2d65   line option `-e
+-00000720: 6020 746f 2070 6173 7320 796f 7572 2072  ` to pass your r
+-00000730: 6567 6c75 6172 2065 7870 7265 7373 696f  egluar expressio
+-00000740: 6e2e 200a 0a52 656d 656d 6265 722c 2061  n. ..Remember, a
+-00000750: 6c77 6179 7320 6772 6f75 7020 796f 7572  lways group your
+-00000760: 2063 6861 7074 6572 206e 616d 6520 696e   chapter name in
+-00000770: 2066 6972 7374 2069 6e20 796f 7572 2072   first in your r
+-00000780: 6567 756c 6172 2065 7870 7265 7373 696f  egular expressio
+-00000790: 6e21 202a 6772 6f75 7020 7468 6520 7469  n! *group the ti
+-000007a0: 746c 6520 7769 7468 2060 2829 602a 0a23  tle with `()`*.#
+-000007b0: 2320 5175 6963 6b20 5374 6172 740a 0a43  # Quick Start..C
+-000007c0: 6c6f 6e65 2061 6e64 2065 6e74 6572 2074  lone and enter t
+-000007d0: 6869 7320 7265 706f 2c20 7468 656e 2069  his repo, then i
+-000007e0: 6e73 7461 6c6c 2077 6974 6820 6070 6970  nstall with `pip
+-000007f0: 2069 6e73 7461 6c6c 202d 6520 2e60 2e20   install -e .`. 
+-00000800: 5468 656e 2079 6f75 2068 6176 6520 6120  Then you have a 
+-00000810: 7368 656c 6c20 636f 6d6d 616e 6420 6073  shell command `s
+-00000820: 6e65 616b 795f 7265 6164 6572 6020 746f  neaky_reader` to
+-00000830: 2075 7365 210a 0a46 6f72 2074 6865 2064   use!..For the d
+-00000840: 656d 6f20 626f 6f6b 732c 2079 6f75 2063  emo books, you c
+-00000850: 6f75 6c64 2073 7461 7274 2077 6974 6820  ould start with 
+-00000860: 636f 6d6d 616e 6473 0a60 6060 2f73 6865  commands.```/she
+-00000870: 6c6c 0a23 6465 6d6f 2069 6e20 656e 676c  ll.#demo in engl
+-00000880: 6973 680a 736e 6561 6b79 5f72 6561 6465  ish.sneaky_reade
+-00000890: 7220 2d70 3d22 2e2f 6173 7365 7473 2f43  r -p="./assets/C
+-000008a0: 6861 726c 6573 4469 636b 656e 732d 4f6c  harlesDickens-Ol
+-000008b0: 6976 6572 5477 6973 742e 7478 7422 202d  iverTwist.txt" -
+-000008c0: 653d 225e 4348 4150 5445 5220 282e 2a29  e="^CHAPTER (.*)
+-000008d0: 220a 0a23 2064 656d 6f20 696e 2063 6869  "..# demo in chi
+-000008e0: 6e65 7365 0a73 6e65 616b 795f 7265 6164  nese.sneaky_read
+-000008f0: 6572 202d 703d 222e 2f61 7373 6574 732f  er -p="./assets/
+-00000900: e7ba a2e6 a5bc e6a2 a62e 7478 7422 202d  ..........txt" -
+-00000910: 653d 225e e7ac ac28 2e2a 29e5 9b9e 220a  e="^...(.*)...".
+-00000920: 6060 600a 466f 7220 7468 6520 6669 7273  ```.For the firs
+-00000930: 7420 7469 6d65 2079 6f75 2069 6d70 6f72  t time you impor
+-00000940: 7420 6120 626f 6f6b 2c20 6073 6e65 616b  t a book, `sneak
+-00000950: 795f 7265 6164 6572 6020 7769 6c6c 2072  y_reader` will r
+-00000960: 6571 7569 7265 2074 6865 2062 6f6f 6b20  equire the book 
+-00000970: 7061 7468 2061 6e64 2074 6865 2073 706c  path and the spl
+-00000980: 6974 696e 6720 6578 7072 6573 7369 6f6e  iting expression
+-00000990: 2e20 4166 7465 7220 7468 6174 2c20 7468  . After that, th
+-000009a0: 6520 626f 6f6b 2077 696c 6c20 6265 2063  e book will be c
+-000009b0: 6163 6865 6420 616e 6420 796f 7520 6361  ached and you ca
+-000009c0: 6e20 7265 6164 2069 7420 7769 7468 2063  n read it with c
+-000009d0: 6f6d 6d61 6e64 2060 2d62 2049 4460 2e0a  ommand `-b ID`..
++000001c0: 6f6e 673e e4b8 8ae7 8fad e79c 8be4 b9a6  ong>............
++000001d0: e79a 84e5 b9bb e5bd b1e5 9da6 e585 8b20  ............... 
++000001e0: 7c20 4869 6465 2079 6f75 7220 626f 6f6b  | Hide your book
++000001f0: 2075 6e64 6572 2061 2066 616e 6379 2074   under a fancy t
++00000200: 6572 6d69 6e61 6c3c 2f73 7472 6f6e 673e  erminal</strong>
++00000210: 3c2f 703e 0a20 203c 6120 6872 6566 3d22  </p>.  <a href="
++00000220: 6874 7470 733a 2f2f 7079 7069 2e6f 7267  https://pypi.org
++00000230: 2f70 726f 6a65 6374 2f73 6e65 616b 792d  /project/sneaky-
++00000240: 7265 6164 6572 2f22 3e3c 696d 6720 7372  reader/"><img sr
++00000250: 633d 2268 7474 7073 3a2f 2f69 6d67 2e73  c="https://img.s
++00000260: 6869 656c 6473 2e69 6f2f 7079 7069 2f76  hields.io/pypi/v
++00000270: 2f73 6e65 616b 795f 7265 6164 6572 2e73  /sneaky_reader.s
++00000280: 7667 223e 3c2f 613e 0a3c 2f64 6976 3e0a  vg"></a>.</div>.
++00000290: 0a0a 3c64 6976 2061 6c69 676e 3d22 6365  ..<div align="ce
++000002a0: 6e74 6572 223e 0a20 203c 6469 7620 636c  nter">.  <div cl
++000002b0: 6173 733d 2272 6f77 2220 616c 6967 6e3d  ass="row" align=
++000002c0: 2263 656e 7465 7222 3e0a 2020 2020 2020  "center">.      
++000002d0: 3c69 6d67 2073 7263 3d22 2e2f 6173 7365  <img src="./asse
++000002e0: 7473 2f65 6e2d 312e 706e 6722 2077 6964  ts/en-1.png" wid
++000002f0: 7468 3d22 3332 2522 2061 6c69 676e 3d22  th="32%" align="
++00000300: 6365 6e74 6572 222f 3e0a 2020 2020 2020  center"/>.      
++00000310: 3c69 6d67 2073 7263 3d22 2e2f 6173 7365  <img src="./asse
++00000320: 7473 2f65 6e2d 322e 706e 6722 2077 6964  ts/en-2.png" wid
++00000330: 7468 3d22 3332 2522 2061 6c69 676e 3d22  th="32%" align="
++00000340: 6365 6e74 6572 222f 3e0a 2020 2020 2020  center"/>.      
++00000350: 3c69 6d67 2073 7263 3d22 2e2f 6173 7365  <img src="./asse
++00000360: 7473 2f65 6e2d 332e 706e 6722 2077 6964  ts/en-3.png" wid
++00000370: 7468 3d22 3332 2522 2061 6c69 676e 3d22  th="32%" align="
++00000380: 6365 6e74 6572 222f 3e0a 2020 3c2f 6469  center"/>.  </di
++00000390: 763e 0a20 203c 6120 616c 6967 6e3d 2263  v>.  <a align="c
++000003a0: 656e 7465 7222 3e20 4669 6e64 2064 6963  enter"> Find dic
++000003b0: 6b65 6e73 2069 6e20 7468 6f73 6520 696d  kens in those im
++000003c0: 6167 6573 3c2f 613e 0a3c 2f64 6976 3e0a  ages</a>.</div>.
++000003d0: 0a0a 0a0a 2323 2046 6561 7475 7265 730a  ....## Features.
++000003e0: 2323 2320 4869 7374 6f72 7920 7361 7669  ### History savi
++000003f0: 6e67 0a0a 536e 6561 6b79 2d72 6561 6465  ng..Sneaky-reade
++00000400: 7220 696d 706c 656d 656e 7473 2061 2073  r implements a s
++00000410: 696d 706c 6520 6361 6368 6520 6d65 6368  imple cache mech
++00000420: 616e 6973 6d2e 2059 6f75 2063 616e 2075  anism. You can u
++00000430: 7365 2060 2d6c 6020 746f 206c 6973 7420  se `-l` to list 
++00000440: 616c 6c20 7468 6520 7072 6576 696f 7573  all the previous
++00000450: 2062 6f6f 6b73 2c20 616e 6420 7573 6520   books, and use 
++00000460: 602d 6220 4944 6020 746f 2071 7569 636b  `-b ID` to quick
++00000470: 6c79 2067 6574 2074 6865 2062 6f6f 6b2e  ly get the book.
++00000480: 2046 6f72 2065 7861 6d70 6c65 3a0a 6060   For example:.``
++00000490: 6073 6865 6c6c 0a24 2073 6e65 616b 795f  `shell.$ sneaky_
++000004a0: 7265 6164 6572 202d 6c0a 5b30 5d20 4368  reader -l.[0] Ch
++000004b0: 6172 6c65 7344 6963 6b65 6e73 2d4f 6c69  arlesDickens-Oli
++000004c0: 7665 7254 7769 7374 0a5b 315d 20e7 baa2  verTwist.[1] ...
++000004d0: e6a5 bce6 a2a6 0a24 2073 6e65 616b 795f  .......$ sneaky_
++000004e0: 7265 6164 6572 202d 6230 0a2e 2e2e 0a60  reader -b0.....`
++000004f0: 6060 0a23 2323 2049 6e74 7569 7469 7665  ``.### Intuitive
++00000500: 2075 7361 6765 0a0a 4772 6561 7465 2074   usage..Greate t
++00000510: 6861 6e6b 7320 746f 2074 6865 2077 6f6e  hanks to the won
++00000520: 6465 7266 756c 2070 726f 6a65 6374 733a  derful projects:
++00000530: 205b 6072 6963 6860 5d28 6874 7470 733a   [`rich`](https:
++00000540: 2f2f 6769 7468 7562 2e63 6f6d 2f54 6578  //github.com/Tex
++00000550: 7475 616c 697a 652f 7269 6368 2920 616e  tualize/rich) an
++00000560: 6420 5b60 7465 7874 7561 6c60 5d28 6874  d [`textual`](ht
++00000570: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++00000580: 2f54 6578 7475 616c 697a 652f 7465 7874  /Textualize/text
++00000590: 7561 6c29 2c20 736e 6561 6b79 2d72 6561  ual), sneaky-rea
++000005a0: 6465 7220 6361 6e20 6275 696c 6420 6120  der can build a 
++000005b0: 2872 656c 6174 6976 656c 7929 2063 6f6d  (relatively) com
++000005c0: 706c 6578 2055 4920 696e 2074 6572 6d69  plex UI in termi
++000005d0: 6e61 6c20 7769 7468 2066 6577 206c 696e  nal with few lin
++000005e0: 6573 3a0a 0a2a 2059 6f75 2063 616e 2070  es:..* You can p
++000005f0: 7265 7373 2060 6660 2074 6f20 7368 6f77  ress `f` to show
++00000600: 2f68 6964 6520 7468 6520 6368 6170 7465  /hide the chapte
++00000610: 7273 2070 616e 650a 2a20 596f 7520 6361  rs pane.* You ca
++00000620: 6e20 7072 6573 7320 606d 602c 2060 6e60  n press `m`, `n`
++00000630: 2074 6f20 666f 7277 6172 642f 6261 636b   to forward/back
++00000640: 7761 7264 2074 6865 2063 7572 7265 6e74  ward the current
++00000650: 2063 6861 7074 6572 0a2a 2059 6f75 2063   chapter.* You c
++00000660: 616e 2070 7265 7373 2060 2f60 2074 6f20  an press `/` to 
++00000670: 656e 6162 6c65 2042 4f53 5320 6d6f 6465  enable BOSS mode
++00000680: 2120 4974 2077 696c 6c20 6869 6465 2061  ! It will hide a
++00000690: 6c6c 2074 6865 2073 6e65 616b 7920 7468  ll the sneaky th
++000006a0: 696e 6773 2061 6e64 206f 6e6c 7920 6c65  ings and only le
++000006b0: 6176 6520 6120 6661 6b65 2050 7974 686f  ave a fake Pytho
++000006c0: 6e20 736e 6970 7065 742e 0a0a 2323 2320  n snippet...### 
++000006d0: 536d 6172 7420 7370 6c69 7469 6e67 0a0a  Smart spliting..
++000006e0: 536e 6561 6b79 2d72 6561 6465 7220 7375  Sneaky-reader su
++000006f0: 7070 6f72 7473 2079 6f75 2074 6f20 7573  pports you to us
++00000700: 6520 7265 676c 7561 7220 6578 7072 6573  e regluar expres
++00000710: 7369 6f6e 2028 7265 6665 7220 746f 2074  sion (refer to t
++00000720: 6865 2060 7265 6020 6d6f 6475 6c65 2069  he `re` module i
++00000730: 6e20 7079 7468 6f6e 2920 746f 2073 706c  n python) to spl
++00000740: 6974 2079 6f75 7220 5458 5420 696e 746f  it your TXT into
++00000750: 2063 6861 7074 6572 732e 2055 7369 6e67   chapters. Using
++00000760: 2074 6865 2063 6f6d 6d61 6e64 206c 696e   the command lin
++00000770: 6520 6f70 7469 6f6e 2060 2d65 6020 746f  e option `-e` to
++00000780: 2070 6173 7320 796f 7572 2072 6567 6c75   pass your reglu
++00000790: 6172 2065 7870 7265 7373 696f 6e2e 200a  ar expression. .
++000007a0: 0a52 656d 656d 6265 722c 2061 6c77 6179  .Remember, alway
++000007b0: 7320 6772 6f75 7020 796f 7572 2063 6861  s group your cha
++000007c0: 7074 6572 206e 616d 6520 696e 2066 6972  pter name in fir
++000007d0: 7374 2069 6e20 796f 7572 2072 6567 756c  st in your regul
++000007e0: 6172 2065 7870 7265 7373 696f 6e21 202a  ar expression! *
++000007f0: 6772 6f75 7020 7468 6520 7469 746c 6520  group the title 
++00000800: 7769 7468 2060 2829 602a 0a23 2320 5175  with `()`*.## Qu
++00000810: 6963 6b20 5374 6172 740a 0a2a 2056 6961  ick Start..* Via
++00000820: 2060 7069 7060 3a20 6070 6970 2069 6e73   `pip`: `pip ins
++00000830: 7461 6c6c 2073 6e65 616b 792d 7265 6164  tall sneaky-read
++00000840: 6572 600a 2a20 5669 6120 736f 7572 6365  er`.* Via source
++00000850: 733a 2063 6c6f 6e65 2061 6e64 2065 6e74  s: clone and ent
++00000860: 6572 2074 6869 7320 7265 706f 2c20 7468  er this repo, th
++00000870: 656e 2069 6e73 7461 6c6c 2077 6974 6820  en install with 
++00000880: 6070 6970 2069 6e73 7461 6c6c 202d 6520  `pip install -e 
++00000890: 2e60 2e20 0a54 6865 6e20 796f 7520 6861  .`. .Then you ha
++000008a0: 7665 2061 2073 6865 6c6c 2063 6f6d 6d61  ve a shell comma
++000008b0: 6e64 2060 736e 6561 6b79 5f72 6561 6465  nd `sneaky_reade
++000008c0: 7260 2074 6f20 7573 6521 0a0a 466f 7220  r` to use!..For 
++000008d0: 7468 6520 6465 6d6f 2062 6f6f 6b73 2c20  the demo books, 
++000008e0: 796f 7520 636f 756c 6420 7374 6172 7420  you could start 
++000008f0: 7769 7468 2063 6f6d 6d61 6e64 730a 6060  with commands.``
++00000900: 602f 7368 656c 6c0a 2364 656d 6f20 696e  `/shell.#demo in
++00000910: 2065 6e67 6c69 7368 0a73 6e65 616b 795f   english.sneaky_
++00000920: 7265 6164 6572 202d 703d 222e 2f61 7373  reader -p="./ass
++00000930: 6574 732f 4368 6172 6c65 7344 6963 6b65  ets/CharlesDicke
++00000940: 6e73 2d4f 6c69 7665 7254 7769 7374 2e74  ns-OliverTwist.t
++00000950: 7874 2220 2d65 3d22 5e43 4841 5054 4552  xt" -e="^CHAPTER
++00000960: 2028 2e2a 2922 0a0a 2320 6465 6d6f 2069   (.*)"..# demo i
++00000970: 6e20 6368 696e 6573 650a 736e 6561 6b79  n chinese.sneaky
++00000980: 5f72 6561 6465 7220 2d70 3d22 2e2f 6173  _reader -p="./as
++00000990: 7365 7473 2fe7 baa2 e6a5 bce6 a2a6 2e74  sets/..........t
++000009a0: 7874 2220 2d65 3d22 5ee7 acac 282e 2a29  xt" -e="^...(.*)
++000009b0: e59b 9e22 0a60 6060 0a46 6f72 2074 6865  ...".```.For the
++000009c0: 2066 6972 7374 2074 696d 6520 796f 7520   first time you 
++000009d0: 696d 706f 7274 2061 2062 6f6f 6b2c 2060  import a book, `
++000009e0: 736e 6561 6b79 5f72 6561 6465 7260 2077  sneaky_reader` w
++000009f0: 696c 6c20 7265 7175 6972 6520 7468 6520  ill require the 
++00000a00: 626f 6f6b 2070 6174 6820 616e 6420 7468  book path and th
++00000a10: 6520 7370 6c69 7469 6e67 2065 7870 7265  e spliting expre
++00000a20: 7373 696f 6e2e 2041 6674 6572 2074 6861  ssion. After tha
++00000a30: 742c 2074 6865 2062 6f6f 6b20 7769 6c6c  t, the book will
++00000a40: 2062 6520 6361 6368 6564 2061 6e64 2079   be cached and y
++00000a50: 6f75 2063 616e 2072 6561 6420 6974 2077  ou can read it w
++00000a60: 6974 6820 636f 6d6d 616e 6420 602d 6220  ith command `-b 
++00000a70: 4944 602e 0a                             ID`..
+```
+
