@@ -21434,3 +21434,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-16 13:08:40] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2023-06-16 13:08:40] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2023-06-16 13:08:40] INFO root fetch - main [MainThread]: Store serial: [18530886]
+[2023-06-16 13:13:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530886]
+[2023-06-16 13:13:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-16 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aimmo
+[2023-06-16 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medusa-kernel
+[2023-06-16 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dreifus
+[2023-06-16 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fullask-rest-framework
+[2023-06-16 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: api-reflector
+[2023-06-16 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: th2-data-services-lwdp
+[2023-06-16 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datamaestro-text
+[2023-06-16 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codat-commerce
+[2023-06-16 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: currentscape
+[2023-06-16 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codat-accounting
+[2023-06-16 13:13:50] INFO root fetch - processPackages [api-reflector]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-16 13:13:50] INFO root fetch - processPackages [medusa-kernel]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-16 13:13:50] INFO root fetch - processPackages [dreifus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 13:13:50] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 13:13:50] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5289289394] Old Version: [2.1.0.0.dev5289028794]
+[2023-06-16 13:13:50] INFO root fetch - processPackages [datamaestro-text]: New version: [2023.6.16.1] Old Version: [2023.6.16]
+[2023-06-16 13:13:50] INFO root fetch - processPackages [codat-commerce]: New version: [0.9.6] Old Version: [0.7.0]
+[2023-06-16 13:13:50] INFO root fetch - processPackages [codat-accounting]: New version: [0.9.6] Old Version: [0.5.1]
+[2023-06-16 13:13:50] INFO root fetch - processPackages [currentscape]: New version: [1.0.4.dev8] Old Version: [1.0.4.dev6]
+[2023-06-16 13:13:50] INFO root fetch - processPackages [aimmo]: New version: [v0.1.1-alpha.post.dev9] Old Version: [v0.1.1-alpha.post.dev8]
+[2023-06-16 13:13:50] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/36/c8/4324353a770d607459e44aea940d62ee51851266a0b5cc6faa6a89c6a3c3/fullask-rest-framework-0.1.8.tar.gz
+[2023-06-16 13:13:50] INFO root fetch - processPackages [datamaestro-text]: Downloading https://files.pythonhosted.org/packages/4b/a5/17917729bbd2a12e663a1a8ff70e7fca50b6bd93723b868e6d84c0b31379/datamaestro_text-2023.6.16.tar.gz
+[2023-06-16 13:13:50] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/5b/88/6beb349b97dd3b1e6b2bf00ccef16ee9e2e2bc46b28f6161831dacc5c14a/currentscape-1.0.4.dev6.tar.gz
+[2023-06-16 13:13:50] INFO root fetch - processPackages [codat-accounting]: Downloading https://files.pythonhosted.org/packages/bf/47/f4cdb75c867c024099ef9160e409fd058e88bdab11b26ab1203dca2ef1f2/codat-accounting-0.5.1.tar.gz
+[2023-06-16 13:13:50] INFO root fetch - processPackages [api-reflector]: Downloading https://files.pythonhosted.org/packages/76/cb/164f82e8ced1d65d62984d0038678237b0e4c1f62fda5746676a3acb4b64/api-reflector-0.8.1.tar.gz
+[2023-06-16 13:13:50] INFO root fetch - processPackages [dreifus]: Downloading https://files.pythonhosted.org/packages/f6/67/3148173ea9fc2d8c0a39d1aa3f7720d17da4989bc49fba38cd3852bd5998/dreifus-0.0.8.tar.gz
+[2023-06-16 13:13:50] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/1d/c1/51c21ad08d286c1ffd3f20bbbb5de3aa05811a1c6035de42010b6d6ae180/fullask-rest-framework-0.1.9.tar.gz
+[2023-06-16 13:13:50] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/70/95/eb7e1615dd6716166e3075d5e4bd3c8622c36bccb5f63a24b57d9930bcea/th2_data_services_lwdp-2.1.0.0.dev5289028794.tar.gz
+[2023-06-16 13:13:50] INFO root fetch - processPackages [medusa-kernel]: Downloading https://files.pythonhosted.org/packages/6e/78/352e0ca540cfe0ee8d77ef0a94af005e012868dc34454a9129051dce2466/medusa-kernel-1.2.0.tar.gz
+[2023-06-16 13:13:50] INFO root fetch - processPackages [codat-commerce]: Downloading https://files.pythonhosted.org/packages/5e/0b/158bc3bfc7f7601b8daa3c8949d75e8a2e5dea3221f16b6ecaafe43dbca3/codat-commerce-0.7.0.tar.gz
+[2023-06-16 13:13:50] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/ae/20/64f46e6e224facaa0a512efc2d1dddb4eb0b7c62c45d7cd7ad7c33874d10/aimmo-v0.1.1-alpha.post.dev8.tar.gz
+[2023-06-16 13:13:50] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-06-16 13:13:50] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask-rest-framework-0.1.8.tar.gz tmp/fullask-rest-framework-0.1.9.tar.gz --markdown 20230616/f/fullask-rest-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 13:13:50] INFO root fetch - processPackages [datamaestro-text]: Downloading https://files.pythonhosted.org/packages/da/db/b0f18732034e64ce1b7dd5208b71ad25d9424a8610ea374819e6c2d5e181/datamaestro_text-2023.6.16.1.tar.gz
+[2023-06-16 13:13:51] INFO root fetch - processPackages [api-reflector]: Downloading https://files.pythonhosted.org/packages/53/18/f433b46f61a41c0005793938226749dda8519b9b1b67b97cc3d07e8a02ea/api-reflector-0.8.2.tar.gz
+[2023-06-16 13:13:51] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/97/76/fbbb736a01b0bd83f8c1cbb2f67420a7fa837f57095dc2cac96ae3ac31b5/currentscape-1.0.4.dev8.tar.gz
+[2023-06-16 13:13:51] INFO root fetch - processPackages [codat-accounting]: Downloading https://files.pythonhosted.org/packages/5b/d6/7816e15411df42a3927b96e719b12df2b452f71167af865f1128d44bf77b/codat-accounting-0.9.6.tar.gz
+[2023-06-16 13:13:51] INFO root fetch - processPackages [api-reflector]: executing diffoscope
+[2023-06-16 13:13:51] INFO root fetch - processPackages [api-reflector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-reflector-0.8.1.tar.gz tmp/api-reflector-0.8.2.tar.gz --markdown 20230616/a/api-reflector/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-16 13:13:51] INFO root fetch - processPackages [medusa-kernel]: Downloading https://files.pythonhosted.org/packages/50/7a/542133429b3d3c29f7723e596698bc98edf4494c60d8ad6e94229cf3ff14/medusa-kernel-1.2.1.tar.gz
+[2023-06-16 13:13:51] INFO root fetch - processPackages [datamaestro-text]: executing diffoscope
+[2023-06-16 13:13:51] INFO root fetch - processPackages [datamaestro-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamaestro_text-2023.6.16.tar.gz tmp/datamaestro_text-2023.6.16.1.tar.gz --markdown 20230616/d/datamaestro-text/2023.6.16-2023.6.16.1/diff.md --exclude *.pyd
+[2023-06-16 13:13:51] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/c0/f0/322941e1cfb9a17cc7015cc162f69f81758e6e851d81168a6a4741864780/th2_data_services_lwdp-2.1.0.0.dev5289289394.tar.gz
+[2023-06-16 13:13:51] INFO root fetch - processPackages [currentscape]: executing diffoscope
+[2023-06-16 13:13:51] INFO root fetch - processPackages [currentscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currentscape-1.0.4.dev6.tar.gz tmp/currentscape-1.0.4.dev8.tar.gz --markdown 20230616/c/currentscape/1.0.4.dev6-1.0.4.dev8/diff.md --exclude *.pyd
+[2023-06-16 13:13:51] INFO root fetch - processPackages [codat-accounting]: executing diffoscope
+[2023-06-16 13:13:51] INFO root fetch - processPackages [codat-accounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-accounting-0.5.1.tar.gz tmp/codat-accounting-0.9.6.tar.gz --markdown 20230616/c/codat-accounting/0.5.1-0.9.6/diff.md --exclude *.pyd
+[2023-06-16 13:13:51] INFO root fetch - processPackages [medusa-kernel]: executing diffoscope
+[2023-06-16 13:13:51] INFO root fetch - processPackages [medusa-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medusa-kernel-1.2.0.tar.gz tmp/medusa-kernel-1.2.1.tar.gz --markdown 20230616/m/medusa-kernel/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-16 13:13:51] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/80/23/14dc12f78e542484cb6d32a416afedf1ee4ea53b87476f141cf6231e7355/aimmo-v0.1.1-alpha.post.dev9.tar.gz
+[2023-06-16 13:13:51] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-16 13:13:51] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5289028794.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5289289394.tar.gz --markdown 20230616/t/th2-data-services-lwdp/2.1.0.0.dev5289028794-2.1.0.0.dev5289289394/diff.md --exclude *.pyd
+[2023-06-16 13:13:51] INFO root fetch - processPackages [aimmo]: executing diffoscope
+[2023-06-16 13:13:51] INFO root fetch - processPackages [aimmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz --markdown 20230616/a/aimmo/v0.1.1-alpha.post.dev8-v0.1.1-alpha.post.dev9/diff.md --exclude *.pyd
+[2023-06-16 13:13:51] INFO root fetch - processPackages [dreifus]: Downloading https://files.pythonhosted.org/packages/ee/a4/db8284a96d22e9a3e539973e237a0baa77584b0d951e2b25f69bb4b48b79/dreifus-0.0.9.tar.gz
+[2023-06-16 13:13:51] INFO root fetch - processPackages [codat-commerce]: Downloading https://files.pythonhosted.org/packages/71/8e/245363a88da4d674a28d917f5ea7d96ac815727f03b88dc4ed8e0ae9416b/codat-commerce-0.9.6.tar.gz
+[2023-06-16 13:13:51] INFO root fetch - processPackages [codat-commerce]: executing diffoscope
+[2023-06-16 13:13:51] INFO root fetch - processPackages [codat-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-commerce-0.7.0.tar.gz tmp/codat-commerce-0.9.6.tar.gz --markdown 20230616/c/codat-commerce/0.7.0-0.9.6/diff.md --exclude *.pyd
+[2023-06-16 13:13:51] INFO root fetch - processPackages [dreifus]: executing diffoscope
+[2023-06-16 13:13:51] INFO root fetch - processPackages [dreifus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreifus-0.0.8.tar.gz tmp/dreifus-0.0.9.tar.gz --markdown 20230616/d/dreifus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 13:13:52] INFO root fetch - processPackages [api-reflector]: Remove: archive file [/home/abi/fetcher/tmp/api-reflector-0.8.1.tar.gz]
+[2023-06-16 13:13:52] INFO root fetch - processPackages [api-reflector]: Remove: archive file [/home/abi/fetcher/tmp/api-reflector-0.8.2.tar.gz]
+[2023-06-16 13:13:52] INFO root fetch - processPackages [api-reflector]: Start processing: modelolinguagem
+[2023-06-16 13:13:52] INFO root fetch - main [MainThread]: End processing [api-reflector]: success
+[2023-06-16 13:13:52] INFO root fetch - processPackages [modelolinguagem]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-06-16 13:13:52] INFO root fetch - processPackages [modelolinguagem]: Downloading https://files.pythonhosted.org/packages/e8/bd/a9d209815e314da583d6371753aa63db50e313358bfba6d75d542b3e066e/modelolinguagem-1.0.4.tar.gz
+[2023-06-16 13:13:53] INFO root fetch - processPackages [datamaestro-text]: Remove: archive file [/home/abi/fetcher/tmp/datamaestro_text-2023.6.16.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - processPackages [datamaestro-text]: Remove: archive file [/home/abi/fetcher/tmp/datamaestro_text-2023.6.16.1.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - processPackages [datamaestro-text]: Start processing: propan
+[2023-06-16 13:13:53] INFO root fetch - main [MainThread]: End processing [datamaestro-text]: success
+[2023-06-16 13:13:53] INFO root fetch - processPackages [propan]: New version: [0.1.3.4] Old Version: [0.1.3.3]
+[2023-06-16 13:13:53] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/bb/1c/d72dc0eba27fb649dfe2a69bb6ab8ff54070eb9304ea42afcd9d4fc9a687/propan-0.1.3.3.tar.gz
+[2023-06-16 13:13:53] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.8.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.9.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-06-16 13:13:53] INFO root fetch - processPackages [modelolinguagem]: Downloading https://files.pythonhosted.org/packages/f5/97/113f2652a769662650ae23d7043984939bd801e84fa28229b56772a0ed43/modelolinguagem-1.0.6.tar.gz
+[2023-06-16 13:13:53] INFO root fetch - processPackages [aimmo]: Remove: archive file [/home/abi/fetcher/tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - processPackages [aimmo]: Remove: archive file [/home/abi/fetcher/tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - main [MainThread]: End processing [aimmo]: success
+[2023-06-16 13:13:53] INFO root fetch - processPackages [modelolinguagem]: executing diffoscope
+[2023-06-16 13:13:53] INFO root fetch - processPackages [modelolinguagem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelolinguagem-1.0.4.tar.gz tmp/modelolinguagem-1.0.6.tar.gz --markdown 20230616/m/modelolinguagem/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-06-16 13:13:53] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/63/c2/903a239a1914c151766fc6af2b94a887466116f872008858da75e4c038b2/propan-0.1.3.4.tar.gz
+[2023-06-16 13:13:53] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5289028794.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5289289394.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-16 13:13:53] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-06-16 13:13:53] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.3.3.tar.gz tmp/propan-0.1.3.4.tar.gz --markdown 20230616/p/propan/0.1.3.3-0.1.3.4/diff.md --exclude *.pyd
+[2023-06-16 13:13:53] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.4.dev6.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.4.dev8.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - main [MainThread]: End processing [currentscape]: success
+[2023-06-16 13:13:53] INFO root fetch - processPackages [medusa-kernel]: Remove: archive file [/home/abi/fetcher/tmp/medusa-kernel-1.2.0.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - processPackages [medusa-kernel]: Remove: archive file [/home/abi/fetcher/tmp/medusa-kernel-1.2.1.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - main [MainThread]: End processing [medusa-kernel]: success
+[2023-06-16 13:13:53] INFO root fetch - processPackages [dreifus]: Remove: archive file [/home/abi/fetcher/tmp/dreifus-0.0.8.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - processPackages [dreifus]: Remove: archive file [/home/abi/fetcher/tmp/dreifus-0.0.9.tar.gz]
+[2023-06-16 13:13:53] INFO root fetch - main [MainThread]: End processing [dreifus]: success
+[2023-06-16 13:13:54] INFO root fetch - processPackages [codat-accounting]: Remove: archive file [/home/abi/fetcher/tmp/codat-accounting-0.5.1.tar.gz]
+[2023-06-16 13:13:54] INFO root fetch - processPackages [codat-accounting]: Remove: archive file [/home/abi/fetcher/tmp/codat-accounting-0.9.6.tar.gz]
+[2023-06-16 13:13:54] INFO root fetch - main [MainThread]: End processing [codat-accounting]: success
+[2023-06-16 13:13:54] INFO root fetch - processPackages [modelolinguagem]: Remove: archive file [/home/abi/fetcher/tmp/modelolinguagem-1.0.4.tar.gz]
+[2023-06-16 13:13:54] INFO root fetch - processPackages [modelolinguagem]: Remove: archive file [/home/abi/fetcher/tmp/modelolinguagem-1.0.6.tar.gz]
+[2023-06-16 13:13:54] INFO root fetch - main [MainThread]: End processing [modelolinguagem]: success
+[2023-06-16 13:13:54] INFO root fetch - processPackages [codat-commerce]: Remove: archive file [/home/abi/fetcher/tmp/codat-commerce-0.7.0.tar.gz]
+[2023-06-16 13:13:54] INFO root fetch - processPackages [codat-commerce]: Remove: archive file [/home/abi/fetcher/tmp/codat-commerce-0.9.6.tar.gz]
+[2023-06-16 13:13:54] INFO root fetch - main [MainThread]: End processing [codat-commerce]: success
+[2023-06-16 13:13:55] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.3.tar.gz]
+[2023-06-16 13:13:55] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.4.tar.gz]
+[2023-06-16 13:13:55] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-06-16 13:13:55] INFO root fetch - main [MainThread]: Store serial: [18530925]
