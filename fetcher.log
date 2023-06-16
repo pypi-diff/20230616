@@ -12558,3 +12558,45 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 06:59:16] INFO root fetch - processPackages [pysamosa]: Remove: archive file [/home/abi/fetcher/tmp/pysamosa-0.3.0.tar.gz]
 [2023-06-16 06:59:16] INFO root fetch - main [MainThread]: End processing [pysamosa]: success
 [2023-06-16 06:59:16] INFO root fetch - main [MainThread]: Store serial: [18527446]
+[2023-06-16 07:04:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527446]
+[2023-06-16 07:04:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-16 07:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-es-dua-sii
+[2023-06-16 07:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boxhed
+[2023-06-16 07:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-l10n-spain
+[2023-06-16 07:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feriados-brasileiros
+[2023-06-16 07:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BasicLibrary.PY
+[2023-06-16 07:04:25] WARNING root fetch - processPackages [feriados-brasileiros]: Skipping, unable to determine old version
+[2023-06-16 07:04:25] INFO root fetch - main [MainThread]: End processing [feriados-brasileiros] error
+[2023-06-16 07:04:25] INFO root fetch - processPackages [boxhed]: New version: [2.0.8] Old Version: [2.0.6]
+[2023-06-16 07:04:25] INFO root fetch - processPackages [BasicLibrary.PY]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-16 07:04:25] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20230615.0] Old Version: [16.0.20230612.0]
+[2023-06-16 07:04:25] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-16 07:04:25] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/59/bf/9586d033d933f7cb3b61400f06434cc83e4bb33f0b11bab8ff293cd0c316/BasicLibrary.PY-0.5.8.tar.gz
+[2023-06-16 07:04:25] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: Downloading https://files.pythonhosted.org/packages/a9/91/3da6bc8a3e5d4cfc016e7f1e87c71b2c3240c1625d842bc7f2fa6c621160/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-16 07:04:25] INFO root fetch - processPackages [boxhed]: Downloading https://files.pythonhosted.org/packages/70/b1/9e1600e48eed16deeea6669bc59312d70ced7840445eb33b4eb5ffb437cb/boxhed-2.0.6.tar.gz
+[2023-06-16 07:04:25] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/8f/4f/ec1181f4d43151aee819d39eaca5eb263107fd91730f1ebb39945976f77c/odoo_addons_oca_l10n_spain-16.0.20230612.0-py3-none-any.whl
+[2023-06-16 07:04:25] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/30/c3/beba7651d4e8884c0aaede5c6fc2f927abffba64fa0ff2fb92d7c45dcb0d/BasicLibrary.PY-0.5.9.tar.gz
+[2023-06-16 07:04:25] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: Downloading https://files.pythonhosted.org/packages/f8/f7/d6f0cc0544d86a29b6e6af9286acfc51849026ba4868d91575cbc96d78b6/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-16 07:04:25] INFO root fetch - processPackages [BasicLibrary.PY]: executing diffoscope
+[2023-06-16 07:04:25] INFO root fetch - processPackages [BasicLibrary.PY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BasicLibrary.PY-0.5.8.tar.gz tmp/BasicLibrary.PY-0.5.9.tar.gz --markdown 20230616/B/BasicLibrary.PY/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-16 07:04:25] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: executing diffoscope
+[2023-06-16 07:04:25] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-l10n-es-dua-sii/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-16 07:04:25] INFO root fetch - processPackages [boxhed]: Downloading https://files.pythonhosted.org/packages/4a/1f/46128c73dd6024e24b2d84fc53c5a8bd4fefd15f45cdef93b1497da69f8c/boxhed-2.0.8.tar.gz
+[2023-06-16 07:04:25] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/65/be/f19567b36c5c70f859b4ca2b45b2d81b4b79191879d88a12fece657850c0/odoo_addons_oca_l10n_spain-16.0.20230615.0-py3-none-any.whl
+[2023-06-16 07:04:25] INFO root fetch - processPackages [boxhed]: executing diffoscope
+[2023-06-16 07:04:25] INFO root fetch - processPackages [boxhed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxhed-2.0.6.tar.gz tmp/boxhed-2.0.8.tar.gz --markdown 20230616/b/boxhed/2.0.6-2.0.8/diff.md --exclude *.pyd
+[2023-06-16 07:04:25] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2023-06-16 07:04:25] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20230612.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20230615.0-py3-none-any.whl.zip --markdown 20230616/o/odoo-addons-oca-l10n-spain/16.0.20230612.0-16.0.20230615.0/diff.md --exclude *.pyd
+[2023-06-16 07:04:26] INFO root fetch - processPackages [boxhed]: Remove: archive file [/home/abi/fetcher/tmp/boxhed-2.0.6.tar.gz]
+[2023-06-16 07:04:26] INFO root fetch - processPackages [boxhed]: Remove: archive file [/home/abi/fetcher/tmp/boxhed-2.0.8.tar.gz]
+[2023-06-16 07:04:26] INFO root fetch - main [MainThread]: End processing [boxhed]: success
+[2023-06-16 07:04:26] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230612.0-py3-none-any.whl.zip]
+[2023-06-16 07:04:26] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230615.0-py3-none-any.whl.zip]
+[2023-06-16 07:04:26] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2023-06-16 07:04:27] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-16 07:04:27] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-16 07:04:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-dua-sii]: success
+[2023-06-16 07:04:27] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/BasicLibrary.PY-0.5.8.tar.gz]
+[2023-06-16 07:04:27] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/BasicLibrary.PY-0.5.9.tar.gz]
+[2023-06-16 07:04:27] INFO root fetch - main [MainThread]: End processing [BasicLibrary.PY]: success
+[2023-06-16 07:04:27] INFO root fetch - main [MainThread]: Store serial: [18527465]
