@@ -11817,3 +11817,99 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 06:16:34] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
 [2023-06-16 06:16:34] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2023-06-16 06:16:34] INFO root fetch - main [MainThread]: Store serial: [18527074]
+[2023-06-16 06:21:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527074]
+[2023-06-16 06:21:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-16 06:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labs-graphql-client
+[2023-06-16 06:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Explicit
+[2023-06-16 06:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: code2gist
+[2023-06-16 06:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fmri-physio-log
+[2023-06-16 06:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-iot-input-oca
+[2023-06-16 06:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-iot
+[2023-06-16 06:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo9-addon-document-page-approval
+[2023-06-16 06:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo9-addon-document-page
+[2023-06-16 06:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-document-page
+[2023-06-16 06:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Geode-Hybrid
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: New version: [9.0.2.1.0.99.dev9] Old Version: [9.0.2.1.0.99.dev8]
+[2023-06-16 06:21:48] WARNING root fetch - processPackages [labs-graphql-client]: Skipping, unable to determine old version
+[2023-06-16 06:21:48] INFO root fetch - processPackages [labs-graphql-client]: Start processing: Geode-SimplexGeosciences
+[2023-06-16 06:21:48] INFO root fetch - main [MainThread]: End processing [labs-graphql-client] error
+[2023-06-16 06:21:48] INFO root fetch - processPackages [code2gist]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo-addon-iot-input-oca]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo9-addon-document-page]: New version: [9.0.2.1.0.99.dev9] Old Version: [9.0.2.1.0.99.dev8]
+[2023-06-16 06:21:48] INFO root fetch - processPackages [fmri-physio-log]: New version: [0.3.0] Old Version: [0.2.0rc1]
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo-addons-oca-iot]: New version: [16.0.20230615.0] Old Version: [16.0.20230511.0]
+[2023-06-16 06:21:48] INFO root fetch - processPackages [Geode-SimplexGeosciences]: New version: [2.0.3rc1] Old Version: [2.0.2]
+[2023-06-16 06:21:48] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.0.1rc1] Old Version: [4.0.1]
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo-addon-iot-input-oca]: Downloading https://files.pythonhosted.org/packages/85/b5/09b5ccc15dd254d8a515a811f3da12e0d0287282c69c39c9e30ed9d8562e/odoo_addon_iot_input_oca-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [code2gist]: Downloading https://files.pythonhosted.org/packages/2f/53/77e5cea618bc6cbce0ee386d408e73762be3bf3f93fd33ac69a30275e025/code2gist-1.1.3.tar.gz
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo12-addon-document-page]: New version: [12.0.1.4.0.99.dev9] Old Version: [12.0.1.4.0.99.dev8]
+[2023-06-16 06:21:48] INFO root fetch - processPackages [code2gist]: Downloading https://files.pythonhosted.org/packages/ab/5b/721d6cc8ac07279c779d6a5df219eeb1c84cc7cd85561d2853a0830d3802/code2gist-1.1.4.tar.gz
+[2023-06-16 06:21:48] INFO root fetch - processPackages [Geode-Hybrid]: New version: [2.0.4rc2] Old Version: [2.0.4rc1]
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/09/6c/8a3f3cc7114c73358a74a42f4312dff9d115e3f44ef5e22f025edbe5f023/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev8-py2-none-any.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo9-addon-document-page]: Downloading https://files.pythonhosted.org/packages/1b/33/9426730ce1b12785ea91f59cade91d9a7e1d4f23220397e6113bcec28677/odoo9_addon_document_page-9.0.2.1.0.99.dev8-py2-none-any.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/ad/71/711078edfe0aaade4c68357d8f637276bc0445a5e13b352e791ceee87cf1/Geode_Explicit-4.0.1-cp39-cp39-win_amd64.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [fmri-physio-log]: Downloading https://files.pythonhosted.org/packages/2e/23/e945e7b2af1a96e05c76aa7265e2567390643c339f109090f55578e5804d/fmri-physio-log-0.2.0rc1.tar.gz
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo-addons-oca-iot]: Downloading https://files.pythonhosted.org/packages/ae/9a/4e9687e0d292cdd9f5cecc7a0c0e028cae0215e20b3195d31f042e35892b/odoo_addons_oca_iot-16.0.20230511.0-py3-none-any.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [code2gist]: executing diffoscope
+[2023-06-16 06:21:48] INFO root fetch - processPackages [code2gist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code2gist-1.1.3.tar.gz tmp/code2gist-1.1.4.tar.gz --markdown 20230616/c/code2gist/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/02/32/a0f9f5abe41539077cccd81d1880ff837f67e1a6dcd8cc3dd0f7ab8ec812/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo-addon-iot-input-oca]: Downloading https://files.pythonhosted.org/packages/16/b5/0ebc83cdc86fa5817530f6c621e1700a407e00e593ef0bb9765f10b11c72/odoo_addon_iot_input_oca-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/b7/ab/60c55287aabe8ad00e458a5c977c867417e6c48fb17f3cea5bb62bb2610c/Geode_Hybrid-2.0.4rc1-cp39-cp39-win_amd64.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo-addon-iot-input-oca]: executing diffoscope
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo-addon-iot-input-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_iot_input_oca-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_iot_input_oca-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-iot-input-oca/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo-addons-oca-iot]: Downloading https://files.pythonhosted.org/packages/54/b4/c7365f0b516614b4764051cfa4b37f9f3844ad0780a76cacf7656724bfb7/odoo_addons_oca_iot-16.0.20230615.0-py3-none-any.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [fmri-physio-log]: Downloading https://files.pythonhosted.org/packages/8a/c8/e15b2221e83ba32811665e559bb8ffbea2efe2fa332a710602644430169c/fmri_physio_log-0.3.0.tar.gz
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo9-addon-document-page]: Downloading https://files.pythonhosted.org/packages/f3/f1/2334ebde8e139bbfee10b33cfa75939a5769ed46e2c0d5770592c0deb8ec/odoo9_addon_document_page-9.0.2.1.0.99.dev9-py2-none-any.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/5f/0a/bce55976bae66bb65ce8f366034a7e5c28f83a151df82ef2e931c8c4018a/Geode_Explicit-4.0.1rc1-cp39-cp39-win_amd64.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo-addons-oca-iot]: executing diffoscope
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo-addons-oca-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_iot-16.0.20230511.0-py3-none-any.whl.zip tmp/odoo_addons_oca_iot-16.0.20230615.0-py3-none-any.whl.zip --markdown 20230616/o/odoo-addons-oca-iot/16.0.20230511.0-16.0.20230615.0/diff.md --exclude *.pyd
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/70/a9/6beb001b7d6124e044248a4130a4080e8341627f7ed83b9511cf55f0cb2b/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev9-py2-none-any.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/66/84/d4e81b566901a7741533ce200b9c2d435cda7138bd8f3a5ab2b1399e9e98/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [fmri-physio-log]: executing diffoscope
+[2023-06-16 06:21:48] INFO root fetch - processPackages [fmri-physio-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmri-physio-log-0.2.0rc1.tar.gz tmp/fmri_physio_log-0.3.0.tar.gz --markdown 20230616/f/fmri-physio-log/0.2.0rc1-0.3.0/diff.md --exclude *.pyd
+[2023-06-16 06:21:48] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/00/28/3b3567478d51925b6058bc41189cebd8cfddac62fab3c9ea79aa76814fe7/Geode_Hybrid-2.0.4rc2-cp39-cp39-win_amd64.whl
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo9-addon-document-page]: executing diffoscope
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo9-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_document_page-9.0.2.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_document_page-9.0.2.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-document-page/9.0.2.1.0.99.dev8-9.0.2.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo12-addon-document-page]: executing diffoscope
+[2023-06-16 06:21:48] INFO root fetch - processPackages [odoo12-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-document-page/12.0.1.4.0.99.dev8-12.0.1.4.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 06:21:49] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: executing diffoscope
+[2023-06-16 06:21:49] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-document-page-approval/9.0.2.1.0.99.dev8-9.0.2.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 06:21:49] INFO root fetch - processPackages [Geode-SimplexGeosciences]: Downloading https://files.pythonhosted.org/packages/23/d6/1eab676564ee274d16bb7bf1dc6143b00d0707c9db005d8e7529fa41f404/Geode_SimplexGeosciences-2.0.2-cp39-cp39-win_amd64.whl
+[2023-06-16 06:21:49] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-06-16 06:21:49] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.0.1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.0.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230616/G/Geode-Explicit/4.0.1-4.0.1rc1/diff.md --exclude *.pyd
+[2023-06-16 06:21:50] INFO root fetch - processPackages [odoo-addon-iot-input-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_input_oca-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-16 06:21:50] INFO root fetch - processPackages [odoo-addon-iot-input-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_input_oca-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-16 06:21:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-input-oca]: success
+[2023-06-16 06:21:50] INFO root fetch - processPackages [fmri-physio-log]: Remove: archive file [/home/abi/fetcher/tmp/fmri-physio-log-0.2.0rc1.tar.gz]
+[2023-06-16 06:21:50] INFO root fetch - processPackages [fmri-physio-log]: Remove: archive file [/home/abi/fetcher/tmp/fmri_physio_log-0.3.0.tar.gz]
+[2023-06-16 06:21:50] INFO root fetch - main [MainThread]: End processing [fmri-physio-log]: success
+[2023-06-16 06:21:50] INFO root fetch - processPackages [code2gist]: Remove: archive file [/home/abi/fetcher/tmp/code2gist-1.1.3.tar.gz]
+[2023-06-16 06:21:50] INFO root fetch - processPackages [code2gist]: Remove: archive file [/home/abi/fetcher/tmp/code2gist-1.1.4.tar.gz]
+[2023-06-16 06:21:50] INFO root fetch - main [MainThread]: End processing [code2gist]: success
+[2023-06-16 06:21:50] INFO root fetch - processPackages [odoo-addons-oca-iot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_iot-16.0.20230511.0-py3-none-any.whl.zip]
+[2023-06-16 06:21:50] INFO root fetch - processPackages [odoo-addons-oca-iot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_iot-16.0.20230615.0-py3-none-any.whl.zip]
+[2023-06-16 06:21:50] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-iot]: success
+[2023-06-16 06:21:50] INFO root fetch - processPackages [Geode-SimplexGeosciences]: Downloading https://files.pythonhosted.org/packages/52/59/e98655628cc9afde75d9c345a829d28c2a5b82441bf3d0207f1cd8e7ed36/Geode_SimplexGeosciences-2.0.3rc1-cp39-cp39-win_amd64.whl
+[2023-06-16 06:21:50] INFO root fetch - processPackages [Geode-Hybrid]: executing diffoscope
+[2023-06-16 06:21:50] INFO root fetch - processPackages [Geode-Hybrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Hybrid-2.0.4rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Hybrid-2.0.4rc2-cp39-cp39-win_amd64.whl.zip --markdown 20230616/G/Geode-Hybrid/2.0.4rc1-2.0.4rc2/diff.md --exclude *.pyd
+[2023-06-16 06:21:50] INFO root fetch - processPackages [Geode-SimplexGeosciences]: executing diffoscope
+[2023-06-16 06:21:50] INFO root fetch - processPackages [Geode-SimplexGeosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_SimplexGeosciences-2.0.2-cp39-cp39-win_amd64.whl.zip tmp/Geode_SimplexGeosciences-2.0.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230616/G/Geode-SimplexGeosciences/2.0.2-2.0.3rc1/diff.md --exclude *.pyd
+[2023-06-16 06:21:51] INFO root fetch - processPackages [odoo12-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-16 06:21:51] INFO root fetch - processPackages [odoo12-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-16 06:21:51] INFO root fetch - main [MainThread]: End processing [odoo12-addon-document-page]: success
+[2023-06-16 06:21:51] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 06:21:51] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-16 06:21:51] INFO root fetch - main [MainThread]: End processing [odoo9-addon-document-page-approval]: success
+[2023-06-16 06:21:51] INFO root fetch - processPackages [odoo9-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_page-9.0.2.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 06:21:51] INFO root fetch - processPackages [odoo9-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_page-9.0.2.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-16 06:21:51] INFO root fetch - main [MainThread]: End processing [odoo9-addon-document-page]: success
+[2023-06-16 06:21:51] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.0.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:21:51] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.0.4rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:21:51] INFO root fetch - main [MainThread]: End processing [Geode-Hybrid]: success
+[2023-06-16 06:22:06] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.0.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:22:06] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.0.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:22:06] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-06-16 06:22:07] INFO root fetch - processPackages [Geode-SimplexGeosciences]: Remove: archive file [/home/abi/fetcher/tmp/Geode_SimplexGeosciences-2.0.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:22:07] INFO root fetch - processPackages [Geode-SimplexGeosciences]: Remove: archive file [/home/abi/fetcher/tmp/Geode_SimplexGeosciences-2.0.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:22:07] INFO root fetch - main [MainThread]: End processing [Geode-SimplexGeosciences]: success
+[2023-06-16 06:22:07] INFO root fetch - main [MainThread]: Store serial: [18527154]
