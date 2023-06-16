@@ -14512,3 +14512,203 @@ AssertionError: tmp/nestedaccess-0.2.4.tar.gz does not exist
 [2023-06-16 08:54:01] ERROR root fetch - processPackages [kiwi]: Timeout during execution of pkgdiff
 [2023-06-16 08:54:01] INFO root fetch - main [MainThread]: End processing [kiwi] error
 [2023-06-16 08:54:01] INFO root fetch - main [MainThread]: Store serial: [18528186]
+[2023-06-16 08:59:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528186]
+[2023-06-16 08:59:10] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-16 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo9-addon-attachment-base-synchronize
+[2023-06-16 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-fetchmail-attach-from-folder
+[2023-06-16 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo9-addon-auto-backup
+[2023-06-16 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-06-16 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-06-16 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fsrs4anki-optimizer
+[2023-06-16 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: msl-package-manager
+[2023-06-16 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: volcengine
+[2023-06-16 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-06-16 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shaku-database
+[2023-06-16 08:59:10] INFO root fetch - processPackages [odoo8-addon-fetchmail-attach-from-folder]: New version: [8.0.1.0.1.99.dev45] Old Version: [8.0.1.0.1.99.dev44]
+[2023-06-16 08:59:10] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: New version: [9.0.1.0.0.99.dev35] Old Version: [9.0.1.0.0.99.dev34]
+[2023-06-16 08:59:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.24.4] Old Version: [3.24.3]
+[2023-06-16 08:59:10] INFO root fetch - processPackages [shaku-database]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-16 08:59:10] INFO root fetch - processPackages [odoo9-addon-auto-backup]: New version: [9.0.1.1.1.99.dev7] Old Version: [9.0.1.1.1.99.dev6]
+[2023-06-16 08:59:10] INFO root fetch - processPackages [volcengine]: New version: [1.0.94] Old Version: [1.0.93]
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kfish]: New version: [99.0.202306160655] Old Version: [99.0.202306160654]
+[2023-06-16 08:59:10] INFO root fetch - processPackages [msl-package-manager]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kcli]: New version: [99.0.202306160653] Old Version: [99.0.202306160652]
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kcli]: New version: [99.0.202306160653] Old Version: [99.0.202306160652]
+[2023-06-16 08:59:10] INFO root fetch - processPackages [odoo8-addon-fetchmail-attach-from-folder]: Downloading https://files.pythonhosted.org/packages/36/af/882c2b37391f1994cc9fd04bbdad5ac4d39601d81dd0ae1fd6ab2b48ae06/odoo8_addon_fetchmail_attach_from_folder-8.0.1.0.1.99.dev44-py2-none-any.whl
+[2023-06-16 08:59:10] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/4c/ea/f64bb3c45fa6da4480d981bed4b8a48d19392fbd89b564924a7341288b4e/shaku-database-1.0.7.tar.gz
+[2023-06-16 08:59:10] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: Downloading https://files.pythonhosted.org/packages/74/57/162951cc9e60b917421a73bc8845324c75f184ce077f39d6c8d8f13f5d60/odoo9_addon_attachment_base_synchronize-9.0.1.0.0.99.dev34-py2-none-any.whl
+[2023-06-16 08:59:10] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/3c/7b/6c330015a5158008b9badf6dbe58bdb3e031e8db97292e3872b8f4069757/volcengine-1.0.93.tar.gz
+[2023-06-16 08:59:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/ca/6a/580ab62595cab27a3e3ff351402b92757b949d4c8957248dd6b5beefe988/fsrs4anki_optimizer-3.24.3.tar.gz
+[2023-06-16 08:59:10] INFO root fetch - processPackages [odoo9-addon-auto-backup]: Downloading https://files.pythonhosted.org/packages/b5/b1/e9b6c1f81e586341cdbbd07ef099b8e7e0739ca916ed4e7ca4adbb3912c6/odoo9_addon_auto_backup-9.0.1.1.1.99.dev6-py2-none-any.whl
+[2023-06-16 08:59:10] INFO root fetch - processPackages [msl-package-manager]: Downloading https://files.pythonhosted.org/packages/5a/08/5dfb36909528d91061670f83b3c941d3a0186506b2044356c4d6af862dad/msl-package-manager-2.5.3.tar.gz
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/63/6c/2f3ca45dd184689a91f3478a56845eaed1096ab7c129bbab241b93f1c18a/kfish-99.0.202306160654-py3-none-any.whl
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/08/25/0765c322d8c788c1b87223f0ca420f261bacbcf994b6747aadd0a4f06b32/kcli-99.0.202306160652-py3-none-any.whl
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/08/25/0765c322d8c788c1b87223f0ca420f261bacbcf994b6747aadd0a4f06b32/kcli-99.0.202306160652-py3-none-any.whl
+[2023-06-16 08:59:10] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/20/82/3894316f7abc615f4ec0967f3d2d66fc03b4182bff6daeb53444b2b19248/shaku-database-1.0.8.tar.gz
+[2023-06-16 08:59:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/b7/05/fb9d29188a969573c41aebe55ab966b4ab646b9457b11c7b8def054aa85c/fsrs4anki_optimizer-3.24.4.tar.gz
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d2/31/a90b4e0a9fa61a4febc06ad78810b88a051fae34bac1280b0224c9715ec6/kcli-99.0.202306160653-py3-none-any.whl
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/99/cc/41c466b93f51a2db711f0deda0ae456db44052beba43cb6f6382a2b824b6/kfish-99.0.202306160655-py3-none-any.whl
+[2023-06-16 08:59:10] INFO root fetch - processPackages [msl-package-manager]: Downloading https://files.pythonhosted.org/packages/13/a9/129544f810e7fffccf192f323c99681cb64c7e8baf64cc50fc4aa542b380/msl-package-manager-2.5.4.tar.gz
+[2023-06-16 08:59:10] INFO root fetch - processPackages [shaku-database]: executing diffoscope
+[2023-06-16 08:59:10] INFO root fetch - processPackages [shaku-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaku-database-1.0.7.tar.gz tmp/shaku-database-1.0.8.tar.gz --markdown 20230616/s/shaku-database/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d2/31/a90b4e0a9fa61a4febc06ad78810b88a051fae34bac1280b0224c9715ec6/kcli-99.0.202306160653-py3-none-any.whl
+[2023-06-16 08:59:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-06-16 08:59:10] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.24.3.tar.gz tmp/fsrs4anki_optimizer-3.24.4.tar.gz --markdown 20230616/f/fsrs4anki-optimizer/3.24.3-3.24.4/diff.md --exclude *.pyd
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306160652-py3-none-any.whl.zip tmp/kcli-99.0.202306160653-py3-none-any.whl.zip --markdown 20230616/k/kcli/99.0.202306160652-99.0.202306160653/diff.md --exclude *.pyd
+[2023-06-16 08:59:10] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/cf/1d/ef69e20436e90d655984d636baa0b1075652381ed1b4edb8d9cb5c041b8f/volcengine-1.0.94.tar.gz
+[2023-06-16 08:59:10] INFO root fetch - processPackages [odoo9-addon-auto-backup]: Downloading https://files.pythonhosted.org/packages/36/f9/fc8f26956a3c3b9c409b1c88dd4902b068abae0ad46b7f9d2e5ee07b69f6/odoo9_addon_auto_backup-9.0.1.1.1.99.dev7-py2-none-any.whl
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306160652-py3-none-any.whl.zip tmp/kcli-99.0.202306160653-py3-none-any.whl.zip --markdown 20230616/k/kcli/99.0.202306160652-99.0.202306160653/diff.md --exclude *.pyd
+[2023-06-16 08:59:10] INFO root fetch - processPackages [volcengine]: executing diffoscope
+[2023-06-16 08:59:10] INFO root fetch - processPackages [volcengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-1.0.93.tar.gz tmp/volcengine-1.0.94.tar.gz --markdown 20230616/v/volcengine/1.0.93-1.0.94/diff.md --exclude *.pyd
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-16 08:59:10] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306160654-py3-none-any.whl.zip tmp/kfish-99.0.202306160655-py3-none-any.whl.zip --markdown 20230616/k/kfish/99.0.202306160654-99.0.202306160655/diff.md --exclude *.pyd
+[2023-06-16 08:59:10] INFO root fetch - processPackages [odoo8-addon-fetchmail-attach-from-folder]: Downloading https://files.pythonhosted.org/packages/ea/ed/eb3cacc9f352d005d790fbe43446bcb05ad34953b9eebce3bbf6c936800d/odoo8_addon_fetchmail_attach_from_folder-8.0.1.0.1.99.dev45-py2-none-any.whl
+[2023-06-16 08:59:10] INFO root fetch - processPackages [msl-package-manager]: executing diffoscope
+[2023-06-16 08:59:10] INFO root fetch - processPackages [msl-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msl-package-manager-2.5.3.tar.gz tmp/msl-package-manager-2.5.4.tar.gz --markdown 20230616/m/msl-package-manager/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-06-16 08:59:10] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: Downloading https://files.pythonhosted.org/packages/23/76/aff0a631daf1d68e36e774d36793cf981bb6eabd4e9b987d6c98aefa1699/odoo9_addon_attachment_base_synchronize-9.0.1.0.0.99.dev35-py2-none-any.whl
+[2023-06-16 08:59:10] INFO root fetch - processPackages [odoo9-addon-auto-backup]: executing diffoscope
+[2023-06-16 08:59:10] INFO root fetch - processPackages [odoo9-addon-auto-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_auto_backup-9.0.1.1.1.99.dev6-py2-none-any.whl.zip tmp/odoo9_addon_auto_backup-9.0.1.1.1.99.dev7-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-auto-backup/9.0.1.1.1.99.dev6-9.0.1.1.1.99.dev7/diff.md --exclude *.pyd
+[2023-06-16 08:59:11] INFO root fetch - processPackages [odoo8-addon-fetchmail-attach-from-folder]: executing diffoscope
+[2023-06-16 08:59:11] INFO root fetch - processPackages [odoo8-addon-fetchmail-attach-from-folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_fetchmail_attach_from_folder-8.0.1.0.1.99.dev44-py2-none-any.whl.zip tmp/odoo8_addon_fetchmail_attach_from_folder-8.0.1.0.1.99.dev45-py2-none-any.whl.zip --markdown 20230616/o/odoo8-addon-fetchmail-attach-from-folder/8.0.1.0.1.99.dev44-8.0.1.0.1.99.dev45/diff.md --exclude *.pyd
+[2023-06-16 08:59:11] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: executing diffoscope
+[2023-06-16 08:59:11] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_attachment_base_synchronize-9.0.1.0.0.99.dev34-py2-none-any.whl.zip tmp/odoo9_addon_attachment_base_synchronize-9.0.1.0.0.99.dev35-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-attachment-base-synchronize/9.0.1.0.0.99.dev34-9.0.1.0.0.99.dev35/diff.md --exclude *.pyd
+[2023-06-16 08:59:12] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.24.3.tar.gz]
+[2023-06-16 08:59:12] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.24.4.tar.gz]
+[2023-06-16 08:59:12] INFO root fetch - processPackages [fsrs4anki-optimizer]: Start processing: uat-breeze-connect
+[2023-06-16 08:59:12] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-06-16 08:59:12] INFO root fetch - processPackages [uat-breeze-connect]: New version: [1.0.14rc9] Old Version: [1.0.14rc8]
+[2023-06-16 08:59:12] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/9b/03/dd802566421dcd9465f7af95ae902df105cf90c68269ed72f09fe15e456c/uat-breeze-connect-1.0.14rc8.tar.gz
+[2023-06-16 08:59:12] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.0.7.tar.gz]
+[2023-06-16 08:59:12] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.0.8.tar.gz]
+[2023-06-16 08:59:12] INFO root fetch - processPackages [shaku-database]: Start processing: ssi-fctrading
+[2023-06-16 08:59:12] INFO root fetch - main [MainThread]: End processing [shaku-database]: success
+[2023-06-16 08:59:12] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306160654-py3-none-any.whl.zip]
+[2023-06-16 08:59:12] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306160655-py3-none-any.whl.zip]
+[2023-06-16 08:59:12] INFO root fetch - processPackages [kfish]: Start processing: IMDBTraktSyncer
+[2023-06-16 08:59:12] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-16 08:59:12] INFO root fetch - processPackages [ssi-fctrading]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-16 08:59:12] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-16 08:59:12] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/85/e6/316aacb290fbe4ecb39fb9afbd06c44dd7de75f21614e5cd8e91e43358e9/uat-breeze-connect-1.0.14rc9.tar.gz
+[2023-06-16 08:59:12] INFO root fetch - processPackages [uat-breeze-connect]: executing diffoscope
+[2023-06-16 08:59:12] INFO root fetch - processPackages [uat-breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uat-breeze-connect-1.0.14rc8.tar.gz tmp/uat-breeze-connect-1.0.14rc9.tar.gz --markdown 20230616/u/uat-breeze-connect/1.0.14rc8-1.0.14rc9/diff.md --exclude *.pyd
+[2023-06-16 08:59:12] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/96/f5/43d47dc217329b34f7796e8196190829adb300183572afda03dedeb85971/IMDBTraktSyncer-1.4.0.tar.gz
+[2023-06-16 08:59:12] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/ca/b4/6a2421d9ef5f4f58a7aac14054dcccba5d52fc941a70251cc0cbdbcbf402/ssi-fctrading-2.2.0.tar.gz
+[2023-06-16 08:59:12] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/7a/fc/3180805e917cb1be83f4db86b47a45bb8cd9fbe47960043f1ab5b657ce5e/IMDBTraktSyncer-1.4.1.tar.gz
+[2023-06-16 08:59:13] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2023-06-16 08:59:13] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDBTraktSyncer-1.4.0.tar.gz tmp/IMDBTraktSyncer-1.4.1.tar.gz --markdown 20230616/I/IMDBTraktSyncer/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-16 08:59:13] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/7e/4b/ef6d5b6193050eee1a310d60e9c412edbc2cd3263ca18c169dae73ddaf49/ssi-fctrading-2.3.0.tar.gz
+[2023-06-16 08:59:13] INFO root fetch - processPackages [ssi-fctrading]: executing diffoscope
+[2023-06-16 08:59:13] INFO root fetch - processPackages [ssi-fctrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi-fctrading-2.2.0.tar.gz tmp/ssi-fctrading-2.3.0.tar.gz --markdown 20230616/s/ssi-fctrading/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-16 08:59:13] INFO root fetch - processPackages [msl-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/msl-package-manager-2.5.3.tar.gz]
+[2023-06-16 08:59:13] INFO root fetch - processPackages [msl-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/msl-package-manager-2.5.4.tar.gz]
+[2023-06-16 08:59:13] INFO root fetch - processPackages [msl-package-manager]: Start processing: kfish
+[2023-06-16 08:59:13] INFO root fetch - main [MainThread]: End processing [msl-package-manager]: success
+[2023-06-16 08:59:13] INFO root fetch - processPackages [kfish]: New version: [99.0.202306160655] Old Version: [99.0.202306160654]
+[2023-06-16 08:59:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/63/6c/2f3ca45dd184689a91f3478a56845eaed1096ab7c129bbab241b93f1c18a/kfish-99.0.202306160654-py3-none-any.whl
+[2023-06-16 08:59:13] INFO root fetch - processPackages [odoo9-addon-auto-backup]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_auto_backup-9.0.1.1.1.99.dev6-py2-none-any.whl.zip]
+[2023-06-16 08:59:13] INFO root fetch - processPackages [odoo9-addon-auto-backup]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_auto_backup-9.0.1.1.1.99.dev7-py2-none-any.whl.zip]
+[2023-06-16 08:59:13] INFO root fetch - processPackages [odoo9-addon-auto-backup]: Start processing: kfish
+[2023-06-16 08:59:13] INFO root fetch - main [MainThread]: End processing [odoo9-addon-auto-backup]: success
+[2023-06-16 08:59:13] INFO root fetch - processPackages [kfish]: New version: [99.0.202306160655] Old Version: [99.0.202306160654]
+[2023-06-16 08:59:13] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_attachment_base_synchronize-9.0.1.0.0.99.dev34-py2-none-any.whl.zip]
+[2023-06-16 08:59:13] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_attachment_base_synchronize-9.0.1.0.0.99.dev35-py2-none-any.whl.zip]
+[2023-06-16 08:59:13] INFO root fetch - processPackages [odoo9-addon-attachment-base-synchronize]: Start processing: vocab-coverage
+[2023-06-16 08:59:13] INFO root fetch - main [MainThread]: End processing [odoo9-addon-attachment-base-synchronize]: success
+[2023-06-16 08:59:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/99/cc/41c466b93f51a2db711f0deda0ae456db44052beba43cb6f6382a2b824b6/kfish-99.0.202306160655-py3-none-any.whl
+[2023-06-16 08:59:13] INFO root fetch - processPackages [vocab-coverage]: New version: [0.3] Old Version: [0.2]
+[2023-06-16 08:59:13] INFO root fetch - processPackages [odoo8-addon-fetchmail-attach-from-folder]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_fetchmail_attach_from_folder-8.0.1.0.1.99.dev44-py2-none-any.whl.zip]
+[2023-06-16 08:59:13] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-16 08:59:13] INFO root fetch - processPackages [odoo8-addon-fetchmail-attach-from-folder]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_fetchmail_attach_from_folder-8.0.1.0.1.99.dev45-py2-none-any.whl.zip]
+[2023-06-16 08:59:13] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306160654-py3-none-any.whl.zip tmp/kfish-99.0.202306160655-py3-none-any.whl.zip --markdown 20230616/k/kfish/99.0.202306160654-99.0.202306160655/diff.md --exclude *.pyd
+[2023-06-16 08:59:13] INFO root fetch - processPackages [odoo8-addon-fetchmail-attach-from-folder]: Start processing: ar-filters
+[2023-06-16 08:59:13] INFO root fetch - main [MainThread]: End processing [odoo8-addon-fetchmail-attach-from-folder]: success
+[2023-06-16 08:59:13] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-16 08:59:13] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306160654-py3-none-any.whl.zip tmp/kfish-99.0.202306160655-py3-none-any.whl.zip --markdown 20230616/k/kfish/99.0.202306160654-99.0.202306160655/diff.md --exclude *.pyd
+[2023-06-16 08:59:13] INFO root fetch - processPackages [vocab-coverage]: Downloading https://files.pythonhosted.org/packages/89/8b/8b4df0dad0b678f6c9dfa0d967b52d8df010d70581ec2dd75de48b300125/vocab-coverage-0.2.tar.gz
+[2023-06-16 08:59:13] INFO root fetch - processPackages [ar-filters]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-16 08:59:13] INFO root fetch - processPackages [ar-filters]: Downloading https://files.pythonhosted.org/packages/f3/2d/3203bd7bd9235060f4889bb602d6ec8587ed1191b6f4adfd71c14d1b5532/ar_filters-0.0.3.tar.gz
+[2023-06-16 08:59:13] INFO root fetch - processPackages [vocab-coverage]: Downloading https://files.pythonhosted.org/packages/35/79/12659d7ba17c337908d1e2e572223bf12f3859a8405544c750a3201a160c/vocab-coverage-0.3.tar.gz
+[2023-06-16 08:59:13] INFO root fetch - processPackages [ar-filters]: Downloading https://files.pythonhosted.org/packages/e0/cc/9bc81661d688496442e49788b9c71354a7093e3d2bd14992c08a1be51d3c/ar_filters-0.0.4.tar.gz
+[2023-06-16 08:59:13] INFO root fetch - processPackages [vocab-coverage]: executing diffoscope
+[2023-06-16 08:59:13] INFO root fetch - processPackages [vocab-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocab-coverage-0.2.tar.gz tmp/vocab-coverage-0.3.tar.gz --markdown 20230616/v/vocab-coverage/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-16 08:59:14] INFO root fetch - processPackages [ar-filters]: executing diffoscope
+[2023-06-16 08:59:14] INFO root fetch - processPackages [ar-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_filters-0.0.3.tar.gz tmp/ar_filters-0.0.4.tar.gz --markdown 20230616/a/ar-filters/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-16 08:59:14] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.4.0.tar.gz]
+[2023-06-16 08:59:14] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.4.1.tar.gz]
+[2023-06-16 08:59:14] INFO root fetch - processPackages [IMDBTraktSyncer]: Start processing: qufit
+[2023-06-16 08:59:14] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2023-06-16 08:59:14] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-16 08:59:14] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-06-16 08:59:14] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-2.2.0.tar.gz]
+[2023-06-16 08:59:14] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-2.3.0.tar.gz]
+[2023-06-16 08:59:14] INFO root fetch - processPackages [ssi-fctrading]: Start processing: snakemake
+[2023-06-16 08:59:14] INFO root fetch - main [MainThread]: End processing [ssi-fctrading]: success
+[2023-06-16 08:59:15] INFO root fetch - processPackages [snakemake]: New version: [7.9.0] Old Version: [7.8.5]
+[2023-06-16 08:59:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306160654-py3-none-any.whl.zip]
+[2023-06-16 08:59:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306160655-py3-none-any.whl.zip]
+[2023-06-16 08:59:15] INFO root fetch - processPackages [kfish]: Start processing: odoo14-addon-auto-backup
+[2023-06-16 08:59:15] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-16 08:59:15] INFO root fetch - processPackages [odoo14-addon-auto-backup]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-06-16 08:59:15] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-06-16 08:59:15] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-06-16 08:59:15] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230616/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-16 08:59:15] INFO root fetch - processPackages [kfish]: Start processing: thundra
+[2023-06-16 08:59:15] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-16 08:59:15] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-16 08:59:15] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/5d/46/165e979908eabbb5cd0b58bcdad46e04802264f46764940c97dad3ffeb85/snakemake-7.8.5.tar.gz
+[2023-06-16 08:59:15] INFO root fetch - processPackages [odoo14-addon-auto-backup]: Downloading https://files.pythonhosted.org/packages/79/af/e48114e8b78f8ada9af1d9710f3e79cb76be9d5a6d250eb8a962b9ab16a3/odoo14_addon_auto_backup-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-16 08:59:15] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat-breeze-connect-1.0.14rc8.tar.gz]
+[2023-06-16 08:59:15] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat-breeze-connect-1.0.14rc9.tar.gz]
+[2023-06-16 08:59:15] INFO root fetch - processPackages [uat-breeze-connect]: Start processing: thundra
+[2023-06-16 08:59:15] INFO root fetch - main [MainThread]: End processing [uat-breeze-connect]: success
+[2023-06-16 08:59:15] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-16 08:59:15] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-16 08:59:15] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-16 08:59:15] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-16 08:59:15] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230616/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-16 08:59:15] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-16 08:59:15] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230616/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-16 08:59:15] INFO root fetch - processPackages [vocab-coverage]: Remove: archive file [/home/abi/fetcher/tmp/vocab-coverage-0.2.tar.gz]
+[2023-06-16 08:59:15] INFO root fetch - processPackages [vocab-coverage]: Remove: archive file [/home/abi/fetcher/tmp/vocab-coverage-0.3.tar.gz]
+[2023-06-16 08:59:15] INFO root fetch - processPackages [vocab-coverage]: Start processing: composabl-ray-dev
+[2023-06-16 08:59:15] INFO root fetch - main [MainThread]: End processing [vocab-coverage]: success
+[2023-06-16 08:59:15] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.2.1.dev96] Old Version: [0.2.1.dev95]
+[2023-06-16 08:59:15] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/6a/d0/729c86354d6fa9730d622186edfc9d900c52fcfa0b4316726433079c7a1d/snakemake-7.9.0.tar.gz
+[2023-06-16 08:59:15] INFO root fetch - processPackages [odoo14-addon-auto-backup]: Downloading https://files.pythonhosted.org/packages/3e/dc/0f3a3082fc5640339c7a908a57a15965e9f1465775d3adf0e1210b911439/odoo14_addon_auto_backup-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-06-16 08:59:15] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/bb/c2/f04b4f0892c7191424f5ebc8cf1a0805c8929af9fda123d07af4b0b3f365/composabl_ray_dev-0.2.1.dev95-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-16 08:59:15] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2023-06-16 08:59:15] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-7.8.5.tar.gz tmp/snakemake-7.9.0.tar.gz --markdown 20230616/s/snakemake/7.8.5-7.9.0/diff.md --exclude *.pyd
+[2023-06-16 08:59:15] INFO root fetch - processPackages [odoo14-addon-auto-backup]: executing diffoscope
+[2023-06-16 08:59:15] INFO root fetch - processPackages [odoo14-addon-auto-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_auto_backup-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_auto_backup-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-auto-backup/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-16 08:59:15] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/4b/b7/ede49e228b1f0740e6ba41e7b1e4474163720ea5aca9678c4c5f617fb58c/composabl_ray_dev-0.2.1.dev96-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-16 08:59:16] INFO root fetch - processPackages [ar-filters]: Remove: archive file [/home/abi/fetcher/tmp/ar_filters-0.0.3.tar.gz]
+[2023-06-16 08:59:16] INFO root fetch - processPackages [ar-filters]: Remove: archive file [/home/abi/fetcher/tmp/ar_filters-0.0.4.tar.gz]
+[2023-06-16 08:59:16] INFO root fetch - main [MainThread]: End processing [ar-filters]: success
+[2023-06-16 08:59:16] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.8.tar.gz]
+[2023-06-16 08:59:16] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.9.tar.gz]
+[2023-06-16 08:59:16] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-06-16 08:59:16] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-06-16 08:59:16] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.2.1.dev95-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.2.1.dev96-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230616/c/composabl-ray-dev/0.2.1.dev95-0.2.1.dev96/diff.md --exclude *.pyd
+[2023-06-16 08:59:16] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-16 08:59:16] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-16 08:59:16] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-16 08:59:16] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-16 08:59:17] INFO root fetch - processPackages [odoo14-addon-auto-backup]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auto_backup-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-16 08:59:17] INFO root fetch - processPackages [odoo14-addon-auto-backup]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_auto_backup-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-06-16 08:59:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-auto-backup]: success
+[2023-06-16 08:59:17] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.1.dev95-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-16 08:59:17] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.1.dev96-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-16 08:59:17] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-06-16 08:59:18] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.93.tar.gz]
+[2023-06-16 08:59:18] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.94.tar.gz]
+[2023-06-16 08:59:18] INFO root fetch - main [MainThread]: End processing [volcengine]: success
+[2023-06-16 08:59:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306160652-py3-none-any.whl.zip]
+[2023-06-16 08:59:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306160653-py3-none-any.whl.zip]
+[2023-06-16 08:59:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-16 08:59:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-16 08:59:20] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.8.5.tar.gz]
+[2023-06-16 08:59:20] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.9.0.tar.gz]
+[2023-06-16 08:59:20] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2023-06-16 08:59:20] INFO root fetch - main [MainThread]: Store serial: [18528246]
