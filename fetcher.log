@@ -14349,3 +14349,166 @@ AssertionError: tmp/nestedaccess-0.2.4.tar.gz does not exist
 [2023-06-16 08:45:46] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.3-cp311-cp311-macosx_10_13_universal2.whl.zip]
 [2023-06-16 08:45:46] INFO root fetch - main [MainThread]: End processing [awadb]: success
 [2023-06-16 08:45:46] INFO root fetch - main [MainThread]: Store serial: [18528132]
+[2023-06-16 08:50:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528132]
+[2023-06-16 08:50:57] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: queryandprocessdatautility
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fsrs4anki-optimizer
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myl
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uat-breeze-connect
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cvpysdk
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rug
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ivt
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thundra
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thundra
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bangla-keyword-extractor
+[2023-06-16 08:50:57] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 08:50:57] INFO root fetch - processPackages [uat-breeze-connect]: New version: [1.0.14rc9] Old Version: [1.0.14rc8]
+[2023-06-16 08:50:57] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.24.3] Old Version: [3.24.2]
+[2023-06-16 08:50:57] INFO root fetch - processPackages [myl]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-06-16 08:50:57] INFO root fetch - processPackages [rug]: New version: [0.8.1] Old Version: [0.8]
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ivt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 08:50:57] WARNING root fetch - processPackages [bangla-keyword-extractor]: Skipping, unable to determine old version
+[2023-06-16 08:50:57] INFO root fetch - processPackages [bangla-keyword-extractor]: Start processing: atlas-densities
+[2023-06-16 08:50:57] INFO root fetch - main [MainThread]: End processing [bangla-keyword-extractor] error
+[2023-06-16 08:50:57] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-16 08:50:57] INFO root fetch - processPackages [cvpysdk]: New version: [11.32.1] Old Version: [11.32]
+[2023-06-16 08:50:57] INFO root fetch - processPackages [thundra]: New version: [4.0.0rc20230615143340] Old Version: [4.0.0rc20230615143333]
+[2023-06-16 08:50:57] INFO root fetch - processPackages [atlas-densities]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-16 08:50:57] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-06-16 08:50:57] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/ca/66/eae02c9d6fadbdb131677a42bc5d59d32164eb4b042cb62fceb2d685ea0d/fsrs4anki_optimizer-3.24.2.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/9b/03/dd802566421dcd9465f7af95ae902df105cf90c68269ed72f09fe15e456c/uat-breeze-connect-1.0.14rc8.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/3b/e8/b36560c49992ab3ed97b64a43b128a251b36a667a9b40193cc1c24940822/thundra-4.0.0rc20230615143333.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [cvpysdk]: Downloading https://files.pythonhosted.org/packages/46/de/8b609aed20eac9bdaf4ccc27ce450a6b3cf4a54e3da6e3179288129b4828/cvpysdk-11.32.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ivt]: Downloading https://files.pythonhosted.org/packages/ff/1e/8f7ddde31c89d9c48e3d7c5132ce22d37d328ca146388e7ee7612484ec7f/ivt-0.1.1.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [rug]: Downloading https://files.pythonhosted.org/packages/2b/44/4c3b41d41280a77cb49782aaf53baf4c1197dcc628614ccb1781235610bd/rug-0.8.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-06-16 08:50:57] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-16 08:50:57] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/ef/bd/e3b3a45c5197bdd3cb14f46f082bc37ae59f16b51270837803c84f6fadff/thundra-4.0.0rc20230615143340-py3-none-any.whl
+[2023-06-16 08:50:57] INFO root fetch - processPackages [myl]: Downloading https://files.pythonhosted.org/packages/9f/f0/23c15674aea26948533b089e49152886a290ace96a6f214886aec0427e97/myl-0.8.5.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [atlas-densities]: Downloading https://files.pythonhosted.org/packages/86/f5/7c7feea0c4c3d9bed1be86bed2d079ec3d076053276e24de09639bf6c4dd/atlas-densities-0.1.4.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-06-16 08:50:57] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230616/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 08:50:57] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/ca/6a/580ab62595cab27a3e3ff351402b92757b949d4c8957248dd6b5beefe988/fsrs4anki_optimizer-3.24.3.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-16 08:50:57] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230616/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-16 08:50:57] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-16 08:50:57] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-4.0.0rc20230615143333.tar.gz tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip --markdown 20230616/t/thundra/4.0.0rc20230615143333-4.0.0rc20230615143340/diff.md --exclude *.pyd
+[2023-06-16 08:50:57] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/85/e6/316aacb290fbe4ecb39fb9afbd06c44dd7de75f21614e5cd8e91e43358e9/uat-breeze-connect-1.0.14rc9.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [cvpysdk]: Downloading https://files.pythonhosted.org/packages/84/6a/8bd9b1ccab035ce24b67854710aed02d18909a3714864f8176ccf596f531/cvpysdk-11.32.1.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-06-16 08:50:57] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.24.2.tar.gz tmp/fsrs4anki_optimizer-3.24.3.tar.gz --markdown 20230616/f/fsrs4anki-optimizer/3.24.2-3.24.3/diff.md --exclude *.pyd
+[2023-06-16 08:50:57] INFO root fetch - processPackages [uat-breeze-connect]: executing diffoscope
+[2023-06-16 08:50:57] INFO root fetch - processPackages [uat-breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uat-breeze-connect-1.0.14rc8.tar.gz tmp/uat-breeze-connect-1.0.14rc9.tar.gz --markdown 20230616/u/uat-breeze-connect/1.0.14rc8-1.0.14rc9/diff.md --exclude *.pyd
+[2023-06-16 08:50:57] INFO root fetch - processPackages [rug]: Downloading https://files.pythonhosted.org/packages/d8/6c/b2fe5cd7ad20438a19fd33ba23b7a98b540a4c30d25dfd8052f4f840331c/rug-0.8.1.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ivt]: Downloading https://files.pythonhosted.org/packages/16/97/266c5786b796025653480ba60d778008dd13ef5d13855438187b774247be/ivt-0.1.2.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [myl]: Downloading https://files.pythonhosted.org/packages/34/43/24d8d0e02b0568e57d5b5bdaae87e45df1b6283539138c38f5009fec485b/myl-0.8.6.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [myl]: executing diffoscope
+[2023-06-16 08:50:57] INFO root fetch - processPackages [myl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myl-0.8.5.tar.gz tmp/myl-0.8.6.tar.gz --markdown 20230616/m/myl/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-06-16 08:50:57] INFO root fetch - processPackages [rug]: executing diffoscope
+[2023-06-16 08:50:57] INFO root fetch - processPackages [rug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rug-0.8.tar.gz tmp/rug-0.8.1.tar.gz --markdown 20230616/r/rug/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ivt]: executing diffoscope
+[2023-06-16 08:50:57] INFO root fetch - processPackages [ivt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivt-0.1.1.tar.gz tmp/ivt-0.1.2.tar.gz --markdown 20230616/i/ivt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 08:50:57] INFO root fetch - processPackages [atlas-densities]: Downloading https://files.pythonhosted.org/packages/2c/ed/41e6c8f2ff9247f7c5b77a43c28727bf4c9a70bf1e7d9b6d2683e02be24e/atlas-densities-0.1.5.tar.gz
+[2023-06-16 08:50:57] INFO root fetch - processPackages [atlas-densities]: executing diffoscope
+[2023-06-16 08:50:57] INFO root fetch - processPackages [atlas-densities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas-densities-0.1.4.tar.gz tmp/atlas-densities-0.1.5.tar.gz --markdown 20230616/a/atlas-densities/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-16 08:50:57] INFO root fetch - processPackages [cvpysdk]: executing diffoscope
+[2023-06-16 08:50:57] INFO root fetch - processPackages [cvpysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvpysdk-11.32.tar.gz tmp/cvpysdk-11.32.1.tar.gz --markdown 20230616/c/cvpysdk/11.32-11.32.1/diff.md --exclude *.pyd
+[2023-06-16 08:50:58] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-06-16 08:50:58] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-06-16 08:50:58] INFO root fetch - processPackages [queryandprocessdatautility]: Start processing: yplib
+[2023-06-16 08:50:58] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-06-16 08:50:58] INFO root fetch - processPackages [yplib]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-16 08:50:58] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/cd/15/35721276e7e7ca6c77ae15e923c0d81811b104c89c160f81ebb844c783d3/yplib-1.5.1.tar.gz
+[2023-06-16 08:50:59] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143333.tar.gz]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-4.0.0rc20230615143340-py3-none-any.whl.zip]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [thundra]: Start processing: propan
+[2023-06-16 08:50:59] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-16 08:50:59] INFO root fetch - processPackages [propan]: New version: [0.1.3.2] Old Version: [0.1.3.1]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/9b/a4/ae688137bc80ccab727be3970354968cf86a2534be4fc06fc2e94989c252/yplib-1.5.2.tar.gz
+[2023-06-16 08:50:59] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/1c/20/ba80a8d061c016132f0e449dba4bc581de21fe6244cc3f875f518ee2bee9/propan-0.1.3.1.tar.gz
+[2023-06-16 08:50:59] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 08:50:59] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.5.1.tar.gz tmp/yplib-1.5.2.tar.gz --markdown 20230616/y/yplib/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-16 08:50:59] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.24.2.tar.gz]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.24.3.tar.gz]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [fsrs4anki-optimizer]: Start processing: vocab-coverage
+[2023-06-16 08:50:59] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-06-16 08:50:59] INFO root fetch - processPackages [vocab-coverage]: New version: [0.2] Old Version: [0.1]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/3c/aa/b8d7cdebf457cd18f9b98c3a0fa0bace16754a0e45a1145d49be1ebd1904/propan-0.1.3.2.tar.gz
+[2023-06-16 08:50:59] INFO root fetch - processPackages [vocab-coverage]: Downloading https://files.pythonhosted.org/packages/e6/84/d6bf0ee83ae54fd3b282888c76ca7a20185b8b69ccb87acc3696d6597037/vocab-coverage-0.1.tar.gz
+[2023-06-16 08:50:59] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-06-16 08:50:59] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.3.1.tar.gz tmp/propan-0.1.3.2.tar.gz --markdown 20230616/p/propan/0.1.3.1-0.1.3.2/diff.md --exclude *.pyd
+[2023-06-16 08:50:59] INFO root fetch - processPackages [rug]: Remove: archive file [/home/abi/fetcher/tmp/rug-0.8.tar.gz]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [rug]: Remove: archive file [/home/abi/fetcher/tmp/rug-0.8.1.tar.gz]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [rug]: Start processing: openi-beta
+[2023-06-16 08:50:59] INFO root fetch - main [MainThread]: End processing [rug]: success
+[2023-06-16 08:50:59] INFO root fetch - processPackages [openi-beta]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/d2/bd/e04efd6f7ac5c7419b2bbc11c5b72e8d205cb1258c4b7dba7f0c7c4f3082/openi-beta-0.1.1.tar.gz
+[2023-06-16 08:50:59] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat-breeze-connect-1.0.14rc8.tar.gz]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat-breeze-connect-1.0.14rc9.tar.gz]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [uat-breeze-connect]: Start processing: kcli
+[2023-06-16 08:50:59] INFO root fetch - main [MainThread]: End processing [uat-breeze-connect]: success
+[2023-06-16 08:50:59] INFO root fetch - processPackages [kcli]: New version: [99.0.202306151830] Old Version: [99.0.202306151801]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [myl]: Remove: archive file [/home/abi/fetcher/tmp/myl-0.8.5.tar.gz]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [vocab-coverage]: Downloading https://files.pythonhosted.org/packages/89/8b/8b4df0dad0b678f6c9dfa0d967b52d8df010d70581ec2dd75de48b300125/vocab-coverage-0.2.tar.gz
+[2023-06-16 08:50:59] INFO root fetch - processPackages [myl]: Remove: archive file [/home/abi/fetcher/tmp/myl-0.8.6.tar.gz]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [myl]: Start processing: pyatp-buildkit
+[2023-06-16 08:50:59] INFO root fetch - main [MainThread]: End processing [myl]: success
+[2023-06-16 08:50:59] INFO root fetch - processPackages [vocab-coverage]: executing diffoscope
+[2023-06-16 08:50:59] INFO root fetch - processPackages [vocab-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocab-coverage-0.1.tar.gz tmp/vocab-coverage-0.2.tar.gz --markdown 20230616/v/vocab-coverage/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-16 08:50:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/94/fc/6fa9f465f58a3d377d06c88ac200fc45ceec006d6c59cfdb1b50eda02510/kcli-99.0.202306151801-py3-none-any.whl
+[2023-06-16 08:50:59] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/b2/c7/bfcbfc6877a2e1cdab5b5be19f2bed051509866fd9b87a9490dc65458431/openi-beta-0.1.2.tar.gz
+[2023-06-16 08:50:59] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-06-16 08:50:59] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-0.1.1.tar.gz tmp/openi-beta-0.1.2.tar.gz --markdown 20230616/o/openi-beta/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 08:50:59] INFO root fetch - processPackages [pyatp-buildkit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-16 08:50:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ec/2f/8c9dbec49800dbdce535f6ffebd6f3e384978373ca1da399ae86cfb41f83/kcli-99.0.202306151830-py3-none-any.whl
+[2023-06-16 08:50:59] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-16 08:50:59] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306151801-py3-none-any.whl.zip tmp/kcli-99.0.202306151830-py3-none-any.whl.zip --markdown 20230616/k/kcli/99.0.202306151801-99.0.202306151830/diff.md --exclude *.pyd
+[2023-06-16 08:50:59] INFO root fetch - processPackages [pyatp-buildkit]: Downloading https://files.pythonhosted.org/packages/6c/08/9eaf81076b07d41e7e9c9abbabc05dc1beeb622cf2ab5128c207c71e49b0/pyatp_buildkit-1.1.8.tar.gz
+[2023-06-16 08:51:00] INFO root fetch - processPackages [ivt]: Remove: archive file [/home/abi/fetcher/tmp/ivt-0.1.1.tar.gz]
+[2023-06-16 08:51:00] INFO root fetch - processPackages [ivt]: Remove: archive file [/home/abi/fetcher/tmp/ivt-0.1.2.tar.gz]
+[2023-06-16 08:51:00] INFO root fetch - processPackages [ivt]: Start processing: pyees
+[2023-06-16 08:51:00] INFO root fetch - main [MainThread]: End processing [ivt]: success
+[2023-06-16 08:51:00] INFO root fetch - processPackages [pyees]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-16 08:51:00] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/7d/a1/4f42b080da6cb1b9702a4b5652a7e9c781b873e83bbf0060483e975523b5/pyees-1.2.9.tar.gz
+[2023-06-16 08:51:00] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.1.tar.gz]
+[2023-06-16 08:51:00] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.2.tar.gz]
+[2023-06-16 08:51:00] INFO root fetch - processPackages [yplib]: Start processing: kiwi
+[2023-06-16 08:51:00] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 08:51:00] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/b6/b9/a730463cdd99478d695caf17c4a6d7ec55cb09518c5ffb22f7c8318cdd61/pyees-1.3.0.tar.gz
+[2023-06-16 08:51:00] INFO root fetch - processPackages [pyees]: executing diffoscope
+[2023-06-16 08:51:00] INFO root fetch - processPackages [pyees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyees-1.2.9.tar.gz tmp/pyees-1.3.0.tar.gz --markdown 20230616/p/pyees/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-16 08:51:00] INFO root fetch - processPackages [kiwi]: New version: [9.8.0] Old Version: [9.7.4]
+[2023-06-16 08:51:00] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-16 08:51:00] INFO root fetch - processPackages [pyatp-buildkit]: Downloading https://files.pythonhosted.org/packages/ec/53/064791acc7c62934344b9cda651ef95a8675c5e43c466e37b13e5f9b70db/pyatp_buildkit-1.1.9.tar.gz
+[2023-06-16 08:51:00] INFO root fetch - processPackages [kiwi]: executing diffoscope
+[2023-06-16 08:51:00] INFO root fetch - processPackages [kiwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi-9.7.4.tar.gz tmp/kiwi-9.8.0.tar.gz --markdown 20230616/k/kiwi/9.7.4-9.8.0/diff.md --exclude *.pyd
+[2023-06-16 08:51:01] INFO root fetch - processPackages [vocab-coverage]: Remove: archive file [/home/abi/fetcher/tmp/vocab-coverage-0.1.tar.gz]
+[2023-06-16 08:51:01] INFO root fetch - processPackages [vocab-coverage]: Remove: archive file [/home/abi/fetcher/tmp/vocab-coverage-0.2.tar.gz]
+[2023-06-16 08:51:01] INFO root fetch - main [MainThread]: End processing [vocab-coverage]: success
+[2023-06-16 08:51:01] INFO root fetch - processPackages [pyatp-buildkit]: executing diffoscope
+[2023-06-16 08:51:01] INFO root fetch - processPackages [pyatp-buildkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatp_buildkit-1.1.8.tar.gz tmp/pyatp_buildkit-1.1.9.tar.gz --markdown 20230616/p/pyatp-buildkit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-16 08:51:01] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.1.1.tar.gz]
+[2023-06-16 08:51:01] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.1.2.tar.gz]
+[2023-06-16 08:51:01] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-06-16 08:51:01] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.1.tar.gz]
+[2023-06-16 08:51:01] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.2.tar.gz]
+[2023-06-16 08:51:01] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-06-16 08:51:01] INFO root fetch - processPackages [cvpysdk]: Remove: archive file [/home/abi/fetcher/tmp/cvpysdk-11.32.tar.gz]
+[2023-06-16 08:51:01] INFO root fetch - processPackages [cvpysdk]: Remove: archive file [/home/abi/fetcher/tmp/cvpysdk-11.32.1.tar.gz]
+[2023-06-16 08:51:01] INFO root fetch - main [MainThread]: End processing [cvpysdk]: success
+[2023-06-16 08:51:02] INFO root fetch - processPackages [pyatp-buildkit]: Remove: archive file [/home/abi/fetcher/tmp/pyatp_buildkit-1.1.8.tar.gz]
+[2023-06-16 08:51:02] INFO root fetch - processPackages [pyatp-buildkit]: Remove: archive file [/home/abi/fetcher/tmp/pyatp_buildkit-1.1.9.tar.gz]
+[2023-06-16 08:51:02] INFO root fetch - main [MainThread]: End processing [pyatp-buildkit]: success
+[2023-06-16 08:51:02] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.2.9.tar.gz]
+[2023-06-16 08:51:02] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.3.0.tar.gz]
+[2023-06-16 08:51:02] INFO root fetch - main [MainThread]: End processing [pyees]: success
+[2023-06-16 08:51:04] INFO root fetch - processPackages [atlas-densities]: Remove: archive file [/home/abi/fetcher/tmp/atlas-densities-0.1.4.tar.gz]
+[2023-06-16 08:51:04] INFO root fetch - processPackages [atlas-densities]: Remove: archive file [/home/abi/fetcher/tmp/atlas-densities-0.1.5.tar.gz]
+[2023-06-16 08:51:04] INFO root fetch - main [MainThread]: End processing [atlas-densities]: success
+[2023-06-16 08:51:07] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306151801-py3-none-any.whl.zip]
+[2023-06-16 08:51:07] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306151830-py3-none-any.whl.zip]
+[2023-06-16 08:51:07] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-16 08:54:01] ERROR root fetch - processPackages [kiwi]: Timeout during execution of pkgdiff
+[2023-06-16 08:54:01] INFO root fetch - main [MainThread]: End processing [kiwi] error
+[2023-06-16 08:54:01] INFO root fetch - main [MainThread]: Store serial: [18528186]
