@@ -13203,3 +13203,96 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 07:44:10] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.2.tar.gz]
 [2023-06-16 07:44:10] INFO root fetch - main [MainThread]: End processing [plothist]: success
 [2023-06-16 07:44:10] INFO root fetch - main [MainThread]: Store serial: [18527698]
+[2023-06-16 07:49:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527698]
+[2023-06-16 07:49:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: click-extra
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bagbag
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netsuitesdk
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-rest-api
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nestedaccess
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipycrawl
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dopplrSDK
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stackoverflowapithingy
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-partner-contact-age-range
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pgmini
+[2023-06-16 07:49:20] INFO root fetch - processPackages [test-rest-api]: New version: [0.0.0.0.32] Old Version: [0.0.0.0.31]
+[2023-06-16 07:49:20] INFO root fetch - processPackages [nestedaccess]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-16 07:49:20] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ipycrawl]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-06-16 07:49:20] INFO root fetch - processPackages [click-extra]: New version: [4.4.0] Old Version: [4.3.0]
+[2023-06-16 07:49:20] INFO root fetch - processPackages [netsuitesdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-16 07:49:20] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-16 07:49:20] INFO root fetch - processPackages [stackoverflowapithingy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 07:49:20] INFO root fetch - processPackages [dopplrSDK]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-16 07:49:20] INFO root fetch - processPackages [pgmini]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 07:49:20] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/73/76/82c6cbfb1e6573dfc05938726e8d69b19f42ee5af32e5af024e7de346e6d/nestedaccess-0.1.3.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [stackoverflowapithingy]: Downloading https://files.pythonhosted.org/packages/b0/0e/63fa69a550e04b2c527dd72a7858dd7f2704fe024ac4f56c3e4352b4fd4d/stackoverflowapithingy-0.1.8.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: Downloading https://files.pythonhosted.org/packages/c1/8e/cde037313dfc106dbd3ef7ce2d8bc2b58ef85bd9691941fd19202b49f869/odoo_addon_partner_contact_age_range-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-16 07:49:20] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/91/2a/d9709b3e2ae6beae27e6f3131ced408a9fa866f662f3a913b836632d0dee/dopplrSDK-2.0.0-py3-none-any.whl
+[2023-06-16 07:49:20] INFO root fetch - processPackages [click-extra]: Downloading https://files.pythonhosted.org/packages/a8/86/af9e58491ba32a09ecc424ff2b5821ec0fb1e5dbc8e9bd86e58b6ea33660/click_extra-4.3.0.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [stackoverflowapithingy]: Downloading https://files.pythonhosted.org/packages/c4/24/22118a013c991b6ca7fe5d77a6f93b8476a0494ca54c1edf5557aa860efa/stackoverflowapithingy-0.1.9.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [stackoverflowapithingy]: executing diffoscope
+[2023-06-16 07:49:20] INFO root fetch - processPackages [stackoverflowapithingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackoverflowapithingy-0.1.8.tar.gz tmp/stackoverflowapithingy-0.1.9.tar.gz --markdown 20230616/s/stackoverflowapithingy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 07:49:20] INFO root fetch - processPackages [netsuitesdk]: Downloading https://files.pythonhosted.org/packages/e5/08/0a16a5ae184a2bcd174b7255fe02bb05ffe69fd215ac0b74729faa6da08a/netsuitesdk-2.8.0.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ipycrawl]: Downloading https://files.pythonhosted.org/packages/40/96/6573352c040017e95e19930ab7a98633ee5538be1400642517e202e7230c/ipycrawl-0.0.0.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-16 07:49:20] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230616/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-06-16 07:49:20] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/c1/3c/f6ab1bec13e2b50f9d63ba0bd80f421d2fa6b09ddd0c0899d3aae444ac5b/nestedaccess-0.1.4.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [test-rest-api]: Downloading https://files.pythonhosted.org/packages/5a/f4/0e878ad2973ab0a77fc5514949866775df1065fc8ee5a51f4f0e108d6650/test_rest_api-0.0.0.0.31.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/5e/02/c4091dd52bd672be239f7ad9578d879112d80a624fa1c5fa1cd8da0fb924/dopplrSDK-2.1.0-py3-none-any.whl
+[2023-06-16 07:49:20] INFO root fetch - processPackages [pgmini]: Downloading https://files.pythonhosted.org/packages/45/f1/bb236f156d765f97691b5aa19507200f5c6cf11b34086123d8a01b1aa260/pgmini-0.1.8.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: Downloading https://files.pythonhosted.org/packages/2b/0d/4b627bc14521d90146d5d233c4ff1fe6d429faf875732814098701e73161/odoo_addon_partner_contact_age_range-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ipycrawl]: Downloading https://files.pythonhosted.org/packages/7e/61/91ddd76a139244f113ba2d6175bf67b3e4bcd8a1421f64d208c65daae06f/ipycrawl-0.0.2.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-16 07:49:20] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.1.3.tar.gz tmp/nestedaccess-0.1.4.tar.gz --markdown 20230616/n/nestedaccess/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-16 07:49:20] INFO root fetch - processPackages [dopplrSDK]: executing diffoscope
+[2023-06-16 07:49:20] INFO root fetch - processPackages [dopplrSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopplrSDK-2.0.0-py3-none-any.whl.zip tmp/dopplrSDK-2.1.0-py3-none-any.whl.zip --markdown 20230616/d/dopplrSDK/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-16 07:49:20] INFO root fetch - processPackages [netsuitesdk]: Downloading https://files.pythonhosted.org/packages/f4/b0/f6cad2ab7a9d5d66e6245bbb1a53d175f89152e49f7c8d2d01e6e17453f7/netsuitesdk-2.9.0.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [click-extra]: Downloading https://files.pythonhosted.org/packages/b0/1d/a24986747398c53ae81f3ce3c449f46119978a8afb1287a105c2a8b30b6c/click_extra-4.4.0.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [netsuitesdk]: executing diffoscope
+[2023-06-16 07:49:20] INFO root fetch - processPackages [netsuitesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsuitesdk-2.8.0.tar.gz tmp/netsuitesdk-2.9.0.tar.gz --markdown 20230616/n/netsuitesdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-16 07:49:20] INFO root fetch - processPackages [click-extra]: executing diffoscope
+[2023-06-16 07:49:20] INFO root fetch - processPackages [click-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_extra-4.3.0.tar.gz tmp/click_extra-4.4.0.tar.gz --markdown 20230616/c/click-extra/4.3.0-4.4.0/diff.md --exclude *.pyd
+[2023-06-16 07:49:20] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: executing diffoscope
+[2023-06-16 07:49:20] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_contact_age_range-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_partner_contact_age_range-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-partner-contact-age-range/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ipycrawl]: executing diffoscope
+[2023-06-16 07:49:20] INFO root fetch - processPackages [ipycrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipycrawl-0.0.0.tar.gz tmp/ipycrawl-0.0.2.tar.gz --markdown 20230616/i/ipycrawl/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 07:49:20] INFO root fetch - processPackages [test-rest-api]: Downloading https://files.pythonhosted.org/packages/5f/80/d69ff927d6d8da15eea089ebcd7988206f2d3ba221ec0ef72d373bf19a52/test_rest_api-0.0.0.0.32.tar.gz
+[2023-06-16 07:49:20] INFO root fetch - processPackages [test-rest-api]: executing diffoscope
+[2023-06-16 07:49:20] INFO root fetch - processPackages [test-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_rest_api-0.0.0.0.31.tar.gz tmp/test_rest_api-0.0.0.0.32.tar.gz --markdown 20230616/t/test-rest-api/0.0.0.0.31-0.0.0.0.32/diff.md --exclude *.pyd
+[2023-06-16 07:49:20] INFO root fetch - processPackages [pgmini]: Downloading https://files.pythonhosted.org/packages/da/32/e4990134815da44faff6baa49293941873a0062d2bc72e67349a8dca69ee/pgmini-0.1.9.tar.gz
+[2023-06-16 07:49:21] INFO root fetch - processPackages [pgmini]: executing diffoscope
+[2023-06-16 07:49:21] INFO root fetch - processPackages [pgmini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgmini-0.1.8.tar.gz tmp/pgmini-0.1.9.tar.gz --markdown 20230616/p/pgmini/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 07:49:21] INFO root fetch - processPackages [stackoverflowapithingy]: Remove: archive file [/home/abi/fetcher/tmp/stackoverflowapithingy-0.1.8.tar.gz]
+[2023-06-16 07:49:21] INFO root fetch - processPackages [stackoverflowapithingy]: Remove: archive file [/home/abi/fetcher/tmp/stackoverflowapithingy-0.1.9.tar.gz]
+[2023-06-16 07:49:21] INFO root fetch - main [MainThread]: End processing [stackoverflowapithingy]: success
+[2023-06-16 07:49:22] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.1.3.tar.gz]
+[2023-06-16 07:49:22] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.1.4.tar.gz]
+[2023-06-16 07:49:22] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-16 07:49:22] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-2.0.0-py3-none-any.whl.zip]
+[2023-06-16 07:49:22] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-2.1.0-py3-none-any.whl.zip]
+[2023-06-16 07:49:22] INFO root fetch - main [MainThread]: End processing [dopplrSDK]: success
+[2023-06-16 07:49:22] INFO root fetch - processPackages [ipycrawl]: Remove: archive file [/home/abi/fetcher/tmp/ipycrawl-0.0.0.tar.gz]
+[2023-06-16 07:49:22] INFO root fetch - processPackages [ipycrawl]: Remove: archive file [/home/abi/fetcher/tmp/ipycrawl-0.0.2.tar.gz]
+[2023-06-16 07:49:22] INFO root fetch - main [MainThread]: End processing [ipycrawl]: success
+[2023-06-16 07:49:22] INFO root fetch - processPackages [netsuitesdk]: Remove: archive file [/home/abi/fetcher/tmp/netsuitesdk-2.8.0.tar.gz]
+[2023-06-16 07:49:22] INFO root fetch - processPackages [netsuitesdk]: Remove: archive file [/home/abi/fetcher/tmp/netsuitesdk-2.9.0.tar.gz]
+[2023-06-16 07:49:22] INFO root fetch - main [MainThread]: End processing [netsuitesdk]: success
+[2023-06-16 07:49:22] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_contact_age_range-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-16 07:49:22] INFO root fetch - processPackages [odoo-addon-partner-contact-age-range]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_contact_age_range-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-16 07:49:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-contact-age-range]: success
+[2023-06-16 07:49:22] INFO root fetch - processPackages [pgmini]: Remove: archive file [/home/abi/fetcher/tmp/pgmini-0.1.8.tar.gz]
+[2023-06-16 07:49:22] INFO root fetch - processPackages [pgmini]: Remove: archive file [/home/abi/fetcher/tmp/pgmini-0.1.9.tar.gz]
+[2023-06-16 07:49:22] INFO root fetch - main [MainThread]: End processing [pgmini]: success
+[2023-06-16 07:49:22] INFO root fetch - processPackages [click-extra]: Remove: archive file [/home/abi/fetcher/tmp/click_extra-4.3.0.tar.gz]
+[2023-06-16 07:49:22] INFO root fetch - processPackages [click-extra]: Remove: archive file [/home/abi/fetcher/tmp/click_extra-4.4.0.tar.gz]
+[2023-06-16 07:49:22] INFO root fetch - main [MainThread]: End processing [click-extra]: success
+[2023-06-16 07:49:22] INFO root fetch - processPackages [test-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/test_rest_api-0.0.0.0.31.tar.gz]
+[2023-06-16 07:49:22] INFO root fetch - processPackages [test-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/test_rest_api-0.0.0.0.32.tar.gz]
+[2023-06-16 07:49:22] INFO root fetch - main [MainThread]: End processing [test-rest-api]: success
+[2023-06-16 07:49:24] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-06-16 07:49:24] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-06-16 07:49:24] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-16 07:49:24] INFO root fetch - main [MainThread]: Store serial: [18527725]
