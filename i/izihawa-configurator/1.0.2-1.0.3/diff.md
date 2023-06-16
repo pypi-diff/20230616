@@ -1,0 +1,68 @@
+# Comparing `tmp/izihawa_configurator-1.0.2-py3-none-any.whl.zip` & `tmp/izihawa_configurator-1.0.3-py3-none-any.whl.zip`
+
+## zipinfo {}
+
+```diff
+@@ -1,7 +1,7 @@
+ Zip file size: 3099 bytes, number of entries: 5
+--rw-r--r--  2.0 unx     5654 b- defN 23-Jun-16 14:10 izihawa_configurator/__init__.py
++-rw-r--r--  2.0 unx     5654 b- defN 23-Jun-16 14:17 izihawa_configurator/__init__.py
+ -rw-r--r--  2.0 unx       52 b- defN 22-Oct-25 09:23 izihawa_configurator/exceptions.py
+-?rw-------  2.0 unx       91 b- defN 23-Jun-16 14:11 izihawa_configurator-1.0.2.dist-info/WHEEL
+-?rw-------  2.0 unx      465 b- defN 23-Jun-16 14:11 izihawa_configurator-1.0.2.dist-info/METADATA
+-?rw-------  2.0 unx      422 b- defN 23-Jun-16 14:11 izihawa_configurator-1.0.2.dist-info/RECORD
++?rw-------  2.0 unx       91 b- defN 23-Jun-16 14:18 izihawa_configurator-1.0.3.dist-info/WHEEL
++?rw-------  2.0 unx      465 b- defN 23-Jun-16 14:18 izihawa_configurator-1.0.3.dist-info/METADATA
++?rw-------  2.0 unx      422 b- defN 23-Jun-16 14:18 izihawa_configurator-1.0.3.dist-info/RECORD
+ 5 files, 6684 bytes uncompressed, 2305 bytes compressed:  65.5%
+```
+
+## zipnote {}
+
+```diff
+@@ -1,16 +1,16 @@
+ Filename: izihawa_configurator/__init__.py
+ Comment: 
+ 
+ Filename: izihawa_configurator/exceptions.py
+ Comment: 
+ 
+-Filename: izihawa_configurator-1.0.2.dist-info/WHEEL
++Filename: izihawa_configurator-1.0.3.dist-info/WHEEL
+ Comment: 
+ 
+-Filename: izihawa_configurator-1.0.2.dist-info/METADATA
++Filename: izihawa_configurator-1.0.3.dist-info/METADATA
+ Comment: 
+ 
+-Filename: izihawa_configurator-1.0.2.dist-info/RECORD
++Filename: izihawa_configurator-1.0.3.dist-info/RECORD
+ Comment: 
+ 
+ Zip file comment:
+```
+
+## izihawa_configurator/__init__.py
+
+```diff
+@@ -64,16 +64,16 @@
+             env_prefix = env_prefix.lower()
+             for name, value in os.environ.items():
+                 if name.lower().startswith(env_prefix):
+                     stripped_name = name[len(env_prefix):].lstrip('_')
+                     array_regex_result = array_regex.match(stripped_name[-3:])
+                     if array_regex_result and array_regex_result.group(1):
+                         if stripped_name not in env_dict:
+-                            env_dict[stripped_name[:-2]] = []
+-                        env_dict[stripped_name[:-2]].append(value.split(array_regex_result.group(1)))
++                            env_dict[stripped_name[:-3]] = []
++                        env_dict[stripped_name[:-3]].append(value.split(array_regex_result.group(1)))
+                     else:
+                         env_dict[stripped_name] = yaml.safe_load(value)
+             env_dict = unflatten(env_dict, sep=env_key_separator)
+ 
+         for config in ([os.environ] + configs + [env_dict]):
+             file_found = self.update(config)
+             if not file_found:
+```
+

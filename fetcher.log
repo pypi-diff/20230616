@@ -21545,3 +21545,177 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-16 13:13:55] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.4.tar.gz]
 [2023-06-16 13:13:55] INFO root fetch - main [MainThread]: End processing [propan]: success
 [2023-06-16 13:13:55] INFO root fetch - main [MainThread]: Store serial: [18530925]
+[2023-06-16 13:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530925]
+[2023-06-16 13:19:05] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codat-bankfeeds
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codat-common
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: izihawa-configurator
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codat-sync-for-expenses
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codat-assess
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robocorp-workitems
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ilcdlib
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wagtail-icon-chooser
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codat-sync-for-commerce
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sftpoeb
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-assess]: New version: [0.9.6] Old Version: [0.5.1]
+[2023-06-16 13:19:05] INFO root fetch - processPackages [robocorp-workitems]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-16 13:19:05] INFO root fetch - processPackages [izihawa-configurator]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ilcdlib]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-sync-for-commerce]: New version: [0.9.0] Old Version: [0.24.1]
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-bankfeeds]: New version: [0.8.5] Old Version: [0.6.4]
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-sync-for-expenses]: New version: [0.27.1] Old Version: [0.25.2]
+[2023-06-16 13:19:05] INFO root fetch - processPackages [wagtail-icon-chooser]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-common]: New version: [0.8.1] Old Version: [0.6.5]
+[2023-06-16 13:19:05] INFO root fetch - processPackages [sftpoeb]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/44/b2/b4080c0832f92c2df12c436c71bec94bd8747b4361a12e59af1b48c77e03/ilcdlib-0.7.0.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/d5/bd/e0ab5e13fe08b1acca9fe6805e6948e966214caced829e27028df068a34f/sftpoeb-0.1.2.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-sync-for-commerce]: Downloading https://files.pythonhosted.org/packages/05/69/11bff1d68923f163a35f904e7e275a7ef2f4c3fd68e4308019346df1d48c/codat-sync-for-commerce-0.24.1.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-bankfeeds]: Downloading https://files.pythonhosted.org/packages/3b/b3/b325da43bc3be0b5b312d96832957604d3a6e30b3022fb041cd0d5f65e63/codat-bankfeeds-0.6.4.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-assess]: Downloading https://files.pythonhosted.org/packages/5d/5d/ccb02812cf4612cbc83dfcef4407d3a273c4dd18c62d3a4ea911297d49b2/codat-assess-0.5.1.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [izihawa-configurator]: Downloading https://files.pythonhosted.org/packages/b7/b4/ebe1ab8cca5bf209f310a08e97d705e4828fe5f6d4300221e82d72102d6e/izihawa_configurator-1.0.2-py3-none-any.whl
+[2023-06-16 13:19:05] INFO root fetch - processPackages [wagtail-icon-chooser]: Downloading https://files.pythonhosted.org/packages/c0/77/77a73f2a9768b4569673c52e55f09d0823ad2512f8022409181287e46308/wagtail-icon-chooser-0.0.2.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-sync-for-expenses]: Downloading https://files.pythonhosted.org/packages/2c/4f/efa8463d077fddb6d6ae6549f896e7ccc602d9442e7ada859b4bf4eeea18/codat-sync-for-expenses-0.25.2.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-common]: Downloading https://files.pythonhosted.org/packages/ce/e4/56d482565ff5a242c0614bcacccf0e233c98a5ebbe3ba3c8fb0e613ef4a7/codat-common-0.6.5.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [robocorp-workitems]: Downloading https://files.pythonhosted.org/packages/61/58/7df2cdfa1d9542d9cf6e8f6d1c3ce1a1ddffed8264d6155b5d5d3e6ecf9f/robocorp_workitems-1.0.1.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/bf/79/0c60d5ef92cfcec8540cec393c2c91d796a0e2aa94fdd858e180321184ec/sftpoeb-0.1.3.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/02/f3/6b211161157c351b9ec3e9d899b37a88d24e7db7a997763e195c241c4c7d/ilcdlib-0.7.1.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-16 13:19:05] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.1.2.tar.gz tmp/sftpoeb-0.1.3.tar.gz --markdown 20230616/s/sftpoeb/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ilcdlib]: executing diffoscope
+[2023-06-16 13:19:05] INFO root fetch - processPackages [ilcdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilcdlib-0.7.0.tar.gz tmp/ilcdlib-0.7.1.tar.gz --markdown 20230616/i/ilcdlib/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-bankfeeds]: Downloading https://files.pythonhosted.org/packages/7f/1b/912a0d77891dbd5050af859f0e367b0c052b2ba8196dffd37004bc420bb4/codat-bankfeeds-0.8.5.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-sync-for-commerce]: Downloading https://files.pythonhosted.org/packages/00/d0/4f4225a3f91360f9b631b97ec3846d9d0497b91bf7c038bfa8fce2db75ac/codat-sync-for-commerce-0.9.0.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [robocorp-workitems]: Downloading https://files.pythonhosted.org/packages/df/4d/b64262ae4268ab673a458e86d54d5b9713024c26481f13df3502f3d3718a/robocorp_workitems-1.1.0.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-bankfeeds]: executing diffoscope
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-bankfeeds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-bankfeeds-0.6.4.tar.gz tmp/codat-bankfeeds-0.8.5.tar.gz --markdown 20230616/c/codat-bankfeeds/0.6.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-common]: Downloading https://files.pythonhosted.org/packages/f7/31/effc45061ad6b0aaedae73860803c39dc10db206cbd327e78a25ef4a8e64/codat-common-0.8.1.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [izihawa-configurator]: Downloading https://files.pythonhosted.org/packages/7d/6d/625edfe79ca9a97bfccc6ac26a6c1f213073e22db3720cdd4a891e494343/izihawa_configurator-1.0.3-py3-none-any.whl
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-sync-for-expenses]: Downloading https://files.pythonhosted.org/packages/b8/ac/cea9436027ef361e5f31ab4ac5a64cfc7a682beed2f115ffe7ac1cc56900/codat-sync-for-expenses-0.27.1.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [wagtail-icon-chooser]: Downloading https://files.pythonhosted.org/packages/23/40/2034c1592709d6ee96a52da662253f9e639c29abca771dab5943b759b980/wagtail-icon-chooser-0.0.3.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [robocorp-workitems]: executing diffoscope
+[2023-06-16 13:19:05] INFO root fetch - processPackages [robocorp-workitems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_workitems-1.0.1.tar.gz tmp/robocorp_workitems-1.1.0.tar.gz --markdown 20230616/r/robocorp-workitems/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-sync-for-commerce]: executing diffoscope
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-sync-for-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-sync-for-commerce-0.24.1.tar.gz tmp/codat-sync-for-commerce-0.9.0.tar.gz --markdown 20230616/c/codat-sync-for-commerce/0.24.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-assess]: Downloading https://files.pythonhosted.org/packages/f6/02/f5dc6ed7ee14f66ceee9aaed1c91a300250841109670580c9d80a62fdd94/codat-assess-0.9.6.tar.gz
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-sync-for-expenses]: executing diffoscope
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-sync-for-expenses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-sync-for-expenses-0.25.2.tar.gz tmp/codat-sync-for-expenses-0.27.1.tar.gz --markdown 20230616/c/codat-sync-for-expenses/0.25.2-0.27.1/diff.md --exclude *.pyd
+[2023-06-16 13:19:05] INFO root fetch - processPackages [wagtail-icon-chooser]: executing diffoscope
+[2023-06-16 13:19:05] INFO root fetch - processPackages [wagtail-icon-chooser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-icon-chooser-0.0.2.tar.gz tmp/wagtail-icon-chooser-0.0.3.tar.gz --markdown 20230616/w/wagtail-icon-chooser/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-common]: executing diffoscope
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-common-0.6.5.tar.gz tmp/codat-common-0.8.1.tar.gz --markdown 20230616/c/codat-common/0.6.5-0.8.1/diff.md --exclude *.pyd
+[2023-06-16 13:19:05] INFO root fetch - processPackages [izihawa-configurator]: executing diffoscope
+[2023-06-16 13:19:05] INFO root fetch - processPackages [izihawa-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa_configurator-1.0.2-py3-none-any.whl.zip tmp/izihawa_configurator-1.0.3-py3-none-any.whl.zip --markdown 20230616/i/izihawa-configurator/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-assess]: executing diffoscope
+[2023-06-16 13:19:05] INFO root fetch - processPackages [codat-assess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-assess-0.5.1.tar.gz tmp/codat-assess-0.9.6.tar.gz --markdown 20230616/c/codat-assess/0.5.1-0.9.6/diff.md --exclude *.pyd
+[2023-06-16 13:19:07] INFO root fetch - processPackages [codat-bankfeeds]: Remove: archive file [/home/abi/fetcher/tmp/codat-bankfeeds-0.6.4.tar.gz]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [codat-bankfeeds]: Remove: archive file [/home/abi/fetcher/tmp/codat-bankfeeds-0.8.5.tar.gz]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [codat-bankfeeds]: Start processing: mqtt-cli
+[2023-06-16 13:19:07] INFO root fetch - main [MainThread]: End processing [codat-bankfeeds]: success
+[2023-06-16 13:19:07] INFO root fetch - processPackages [mqtt-cli]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [mqtt-cli]: Downloading https://files.pythonhosted.org/packages/ef/17/bd7554689d9dc80c5d3922c815f9ce8809352924493148b6a1e14f6f0c77/mqtt-cli-0.3.1.tar.gz
+[2023-06-16 13:19:07] INFO root fetch - processPackages [robocorp-workitems]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_workitems-1.0.1.tar.gz]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [robocorp-workitems]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_workitems-1.1.0.tar.gz]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [robocorp-workitems]: Start processing: codat-banking
+[2023-06-16 13:19:07] INFO root fetch - main [MainThread]: End processing [robocorp-workitems]: success
+[2023-06-16 13:19:07] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.2.tar.gz]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.3.tar.gz]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [codat-banking]: New version: [0.8.4] Old Version: [0.5.1]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [sftpoeb]: Start processing: example-wise-f1-maximizer
+[2023-06-16 13:19:07] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-16 13:19:07] INFO root fetch - processPackages [mqtt-cli]: Downloading https://files.pythonhosted.org/packages/1b/44/188a70bf65f524cb03313acb0638a5357ecde79845c0aad9fbc1c9517416/mqtt-cli-0.3.2.tar.gz
+[2023-06-16 13:19:07] INFO root fetch - processPackages [example-wise-f1-maximizer]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [mqtt-cli]: executing diffoscope
+[2023-06-16 13:19:07] INFO root fetch - processPackages [mqtt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqtt-cli-0.3.1.tar.gz tmp/mqtt-cli-0.3.2.tar.gz --markdown 20230616/m/mqtt-cli/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-16 13:19:07] INFO root fetch - processPackages [izihawa-configurator]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_configurator-1.0.2-py3-none-any.whl.zip]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [izihawa-configurator]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_configurator-1.0.3-py3-none-any.whl.zip]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [izihawa-configurator]: Start processing: xchembku
+[2023-06-16 13:19:07] INFO root fetch - main [MainThread]: End processing [izihawa-configurator]: success
+[2023-06-16 13:19:07] INFO root fetch - processPackages [codat-banking]: Downloading https://files.pythonhosted.org/packages/b2/67/b084d283648809692d3c8041847804abd7f84339ae948ce7f6da7a32b680/codat-banking-0.5.1.tar.gz
+[2023-06-16 13:19:07] INFO root fetch - processPackages [xchembku]: New version: [1.9.1] Old Version: [1.8.0]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [wagtail-icon-chooser]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-icon-chooser-0.0.2.tar.gz]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [wagtail-icon-chooser]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-icon-chooser-0.0.3.tar.gz]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [wagtail-icon-chooser]: Start processing: hcai-nova-server-nightly
+[2023-06-16 13:19:07] INFO root fetch - main [MainThread]: End processing [wagtail-icon-chooser]: success
+[2023-06-16 13:19:07] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306060908] Old Version: [0.1.9.dev202306051512]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [example-wise-f1-maximizer]: Downloading https://files.pythonhosted.org/packages/30/52/ce46c2aafa1d9f6db1b4627fbb1de87782089296623c4202e985f66c37b4/example_wise_f1_maximizer-0.1.4-py3-none-any.whl
+[2023-06-16 13:19:07] INFO root fetch - processPackages [codat-sync-for-expenses]: Remove: archive file [/home/abi/fetcher/tmp/codat-sync-for-expenses-0.25.2.tar.gz]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [codat-sync-for-expenses]: Remove: archive file [/home/abi/fetcher/tmp/codat-sync-for-expenses-0.27.1.tar.gz]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [codat-sync-for-expenses]: Start processing: tigerblog
+[2023-06-16 13:19:07] INFO root fetch - main [MainThread]: End processing [codat-sync-for-expenses]: success
+[2023-06-16 13:19:07] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/87/a7/6a453a13323cd23d58747ac82b2a78d39a008bc35fb4950e4ba9b79d8f28/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz
+[2023-06-16 13:19:07] INFO root fetch - processPackages [xchembku]: Downloading https://files.pythonhosted.org/packages/f8/50/b754ff646f9548f0f3f743c21b49168316f51c6d17c44736b5e8eb81b5a2/xchembku-1.8.0.tar.gz
+[2023-06-16 13:19:07] INFO root fetch - processPackages [tigerblog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/4a/b0/7349a84c86940e5f8c8b22ef05d6ade85f6619aa27865d53025dd91feed9/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz
+[2023-06-16 13:19:07] INFO root fetch - processPackages [example-wise-f1-maximizer]: Downloading https://files.pythonhosted.org/packages/cb/5a/81a986125c9ed4c4d77aeded7928a8716f2ed7450da57422303e48880897/example_wise_f1_maximizer-0.1.5-py3-none-any.whl
+[2023-06-16 13:19:07] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-16 13:19:07] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz --markdown 20230616/h/hcai-nova-server-nightly/0.1.9.dev202306051512-0.1.9.dev202306060908/diff.md --exclude *.pyd
+[2023-06-16 13:19:07] INFO root fetch - processPackages [example-wise-f1-maximizer]: executing diffoscope
+[2023-06-16 13:19:07] INFO root fetch - processPackages [example-wise-f1-maximizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_wise_f1_maximizer-0.1.4-py3-none-any.whl.zip tmp/example_wise_f1_maximizer-0.1.5-py3-none-any.whl.zip --markdown 20230616/e/example-wise-f1-maximizer/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-16 13:19:07] INFO root fetch - processPackages [codat-banking]: Downloading https://files.pythonhosted.org/packages/03/e8/014083e796ec06673a05a666a7990cbb928cd2ff12ff970fbd141ed4b9e3/codat-banking-0.8.4.tar.gz
+[2023-06-16 13:19:07] INFO root fetch - processPackages [codat-sync-for-commerce]: Remove: archive file [/home/abi/fetcher/tmp/codat-sync-for-commerce-0.24.1.tar.gz]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [codat-sync-for-commerce]: Remove: archive file [/home/abi/fetcher/tmp/codat-sync-for-commerce-0.9.0.tar.gz]
+[2023-06-16 13:19:07] INFO root fetch - processPackages [codat-sync-for-commerce]: Start processing: codat-files
+[2023-06-16 13:19:07] INFO root fetch - main [MainThread]: End processing [codat-sync-for-commerce]: success
+[2023-06-16 13:19:08] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/b6/1f/99d7e75f9b78c86b5f90c83a64054f3b34b5ed82c7a78bf51fd86095cdba/tigerblog-0.1.8.tar.gz
+[2023-06-16 13:19:08] INFO root fetch - processPackages [codat-files]: New version: [0.8.4] Old Version: [0.5.1]
+[2023-06-16 13:19:08] INFO root fetch - processPackages [xchembku]: Downloading https://files.pythonhosted.org/packages/82/f2/7367190b99cc11c20b2ae5699de7e3ee876299d63501d05b13037f310956/xchembku-1.9.1.tar.gz
+[2023-06-16 13:19:08] INFO root fetch - processPackages [codat-banking]: executing diffoscope
+[2023-06-16 13:19:08] INFO root fetch - processPackages [codat-banking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-banking-0.5.1.tar.gz tmp/codat-banking-0.8.4.tar.gz --markdown 20230616/c/codat-banking/0.5.1-0.8.4/diff.md --exclude *.pyd
+[2023-06-16 13:19:08] INFO root fetch - processPackages [codat-files]: Downloading https://files.pythonhosted.org/packages/b0/fe/a53b4b765043b4fe93829f81e707b8a4bb74754c9af05dff9090b876395a/codat-files-0.5.1.tar.gz
+[2023-06-16 13:19:08] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-0.7.0.tar.gz]
+[2023-06-16 13:19:08] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-0.7.1.tar.gz]
+[2023-06-16 13:19:08] INFO root fetch - processPackages [ilcdlib]: Start processing: netbox-cisco-maintenance
+[2023-06-16 13:19:08] INFO root fetch - main [MainThread]: End processing [ilcdlib]: success
+[2023-06-16 13:19:08] INFO root fetch - processPackages [xchembku]: executing diffoscope
+[2023-06-16 13:19:08] INFO root fetch - processPackages [xchembku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchembku-1.8.0.tar.gz tmp/xchembku-1.9.1.tar.gz --markdown 20230616/x/xchembku/1.8.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-16 13:19:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 13:19:08] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/23/0f/6a0fec4b0cafdb4c1a9f42e93a456ba31cc0b1f03240d001db6df1ee282d/tigerblog-0.1.9.tar.gz
+[2023-06-16 13:19:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 13:19:08] INFO root fetch - processPackages [codat-common]: Remove: archive file [/home/abi/fetcher/tmp/codat-common-0.6.5.tar.gz]
+[2023-06-16 13:19:08] INFO root fetch - processPackages [codat-common]: Remove: archive file [/home/abi/fetcher/tmp/codat-common-0.8.1.tar.gz]
+[2023-06-16 13:19:08] INFO root fetch - processPackages [codat-common]: Start processing: izihawa-configurator
+[2023-06-16 13:19:08] INFO root fetch - main [MainThread]: End processing [codat-common]: success
+[2023-06-16 13:19:08] INFO root fetch - processPackages [tigerblog]: executing diffoscope
+[2023-06-16 13:19:08] INFO root fetch - processPackages [tigerblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigerblog-0.1.8.tar.gz tmp/tigerblog-0.1.9.tar.gz --markdown 20230616/t/tigerblog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 13:19:08] INFO root fetch - processPackages [izihawa-configurator]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-16 13:19:08] INFO root fetch - processPackages [izihawa-configurator]: Downloading https://files.pythonhosted.org/packages/b7/b4/ebe1ab8cca5bf209f310a08e97d705e4828fe5f6d4300221e82d72102d6e/izihawa_configurator-1.0.2-py3-none-any.whl
+[2023-06-16 13:19:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 13:19:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 13:19:08] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 13:19:08] INFO root fetch - processPackages [izihawa-configurator]: Downloading https://files.pythonhosted.org/packages/7d/6d/625edfe79ca9a97bfccc6ac26a6c1f213073e22db3720cdd4a891e494343/izihawa_configurator-1.0.3-py3-none-any.whl
+[2023-06-16 13:19:08] INFO root fetch - processPackages [codat-files]: Downloading https://files.pythonhosted.org/packages/f7/59/40db2426b2418665047a57166d68c373463f3fc2be5dc4b9b82f056e35e5/codat-files-0.8.4.tar.gz
+[2023-06-16 13:19:08] INFO root fetch - processPackages [izihawa-configurator]: executing diffoscope
+[2023-06-16 13:19:08] INFO root fetch - processPackages [izihawa-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa_configurator-1.0.2-py3-none-any.whl.zip tmp/izihawa_configurator-1.0.3-py3-none-any.whl.zip --markdown 20230616/i/izihawa-configurator/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-16 13:19:08] INFO root fetch - processPackages [mqtt-cli]: Remove: archive file [/home/abi/fetcher/tmp/mqtt-cli-0.3.1.tar.gz]
+[2023-06-16 13:19:08] INFO root fetch - processPackages [mqtt-cli]: Remove: archive file [/home/abi/fetcher/tmp/mqtt-cli-0.3.2.tar.gz]
+[2023-06-16 13:19:08] INFO root fetch - main [MainThread]: End processing [mqtt-cli]: success
+[2023-06-16 13:19:09] INFO root fetch - processPackages [codat-files]: executing diffoscope
+[2023-06-16 13:19:09] INFO root fetch - processPackages [codat-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-files-0.5.1.tar.gz tmp/codat-files-0.8.4.tar.gz --markdown 20230616/c/codat-files/0.5.1-0.8.4/diff.md --exclude *.pyd
+[2023-06-16 13:19:09] INFO root fetch - processPackages [example-wise-f1-maximizer]: Remove: archive file [/home/abi/fetcher/tmp/example_wise_f1_maximizer-0.1.4-py3-none-any.whl.zip]
+[2023-06-16 13:19:09] INFO root fetch - processPackages [example-wise-f1-maximizer]: Remove: archive file [/home/abi/fetcher/tmp/example_wise_f1_maximizer-0.1.5-py3-none-any.whl.zip]
+[2023-06-16 13:19:09] INFO root fetch - main [MainThread]: End processing [example-wise-f1-maximizer]: success
+[2023-06-16 13:19:09] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz]
+[2023-06-16 13:19:09] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz]
+[2023-06-16 13:19:09] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-16 13:19:09] INFO root fetch - processPackages [codat-banking]: Remove: archive file [/home/abi/fetcher/tmp/codat-banking-0.5.1.tar.gz]
+[2023-06-16 13:19:09] INFO root fetch - processPackages [codat-banking]: Remove: archive file [/home/abi/fetcher/tmp/codat-banking-0.8.4.tar.gz]
+[2023-06-16 13:19:09] INFO root fetch - main [MainThread]: End processing [codat-banking]: success
+[2023-06-16 13:19:09] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.8.tar.gz]
+[2023-06-16 13:19:09] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.9.tar.gz]
+[2023-06-16 13:19:09] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
+[2023-06-16 13:19:10] INFO root fetch - processPackages [izihawa-configurator]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_configurator-1.0.2-py3-none-any.whl.zip]
+[2023-06-16 13:19:10] INFO root fetch - processPackages [izihawa-configurator]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_configurator-1.0.3-py3-none-any.whl.zip]
+[2023-06-16 13:19:10] INFO root fetch - main [MainThread]: End processing [izihawa-configurator]: success
+[2023-06-16 13:19:10] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 13:19:10] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 13:19:10] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 13:19:10] INFO root fetch - processPackages [codat-assess]: Remove: archive file [/home/abi/fetcher/tmp/codat-assess-0.5.1.tar.gz]
+[2023-06-16 13:19:10] INFO root fetch - processPackages [codat-assess]: Remove: archive file [/home/abi/fetcher/tmp/codat-assess-0.9.6.tar.gz]
+[2023-06-16 13:19:10] INFO root fetch - main [MainThread]: End processing [codat-assess]: success
+[2023-06-16 13:19:10] INFO root fetch - processPackages [codat-files]: Remove: archive file [/home/abi/fetcher/tmp/codat-files-0.5.1.tar.gz]
+[2023-06-16 13:19:10] INFO root fetch - processPackages [codat-files]: Remove: archive file [/home/abi/fetcher/tmp/codat-files-0.8.4.tar.gz]
+[2023-06-16 13:19:10] INFO root fetch - main [MainThread]: End processing [codat-files]: success
+[2023-06-16 13:19:11] INFO root fetch - processPackages [xchembku]: Remove: archive file [/home/abi/fetcher/tmp/xchembku-1.8.0.tar.gz]
+[2023-06-16 13:19:11] INFO root fetch - processPackages [xchembku]: Remove: archive file [/home/abi/fetcher/tmp/xchembku-1.9.1.tar.gz]
+[2023-06-16 13:19:11] INFO root fetch - main [MainThread]: End processing [xchembku]: success
+[2023-06-16 13:19:11] INFO root fetch - main [MainThread]: Store serial: [18530979]
