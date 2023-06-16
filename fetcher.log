@@ -5595,3 +5595,68 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 03:05:41] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230616.0-py3-none-any.whl.zip]
 [2023-06-16 03:05:41] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
 [2023-06-16 03:05:41] INFO root fetch - main [MainThread]: Store serial: [18524806]
+[2023-06-16 03:10:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18524806]
+[2023-06-16 03:10:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 03:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aemcmc-nightly
+[2023-06-16 03:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2023-06-16 03:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cubestat
+[2023-06-16 03:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: music-assistant
+[2023-06-16 03:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dreamsim
+[2023-06-16 03:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mcap-ros1-support
+[2023-06-16 03:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lamindb
+[2023-06-16 03:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mizgra
+[2023-06-16 03:10:51] INFO root fetch - processPackages [dreamsim]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 03:10:51] INFO root fetch - processPackages [mcap-ros1-support]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-16 03:10:51] INFO root fetch - processPackages [cubestat]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-16 03:10:51] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-06-16 03:10:51] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-06-16 03:10:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-16 03:10:51] WARNING root fetch - processPackages [mizgra]: Skipping, unable to determine old version
+[2023-06-16 03:10:51] INFO root fetch - main [MainThread]: End processing [mizgra] error
+[2023-06-16 03:10:51] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230616] Old Version: [0.0.8.dev20230615]
+[2023-06-16 03:10:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-16 03:10:51] INFO root fetch - processPackages [dreamsim]: Downloading https://files.pythonhosted.org/packages/db/4a/c1391a4add8b4d9d674b0652e770bd0ca33d399db509ab3a91cdae8186c9/dreamsim-0.1.0.tar.gz
+[2023-06-16 03:10:51] INFO root fetch - processPackages [mcap-ros1-support]: Downloading https://files.pythonhosted.org/packages/67/15/a13c38e243ff463f3fb0b7c427d2b207ff3db48de9cb38e2a0e93ad26aad/mcap-ros1-support-0.6.0.tar.gz
+[2023-06-16 03:10:51] INFO root fetch - processPackages [cubestat]: Downloading https://files.pythonhosted.org/packages/87/fb/eee770e53a0a1fce28550ad070ebc4ef05108a3c229fc83804a03a3afbba/cubestat-0.0.3.tar.gz
+[2023-06-16 03:10:51] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-06-16 03:10:51] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-06-16 03:10:51] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/6f/80/e7779be44e52ab6c42571ccb9f2b825c096cdc66c5d8839ffc99dd50a4e0/aemcmc-nightly-0.0.8.dev20230615.tar.gz
+[2023-06-16 03:10:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-16 03:10:51] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-06-16 03:10:51] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-06-16 03:10:51] INFO root fetch - processPackages [cubestat]: Downloading https://files.pythonhosted.org/packages/60/da/39dbce409166fdbfcc241dae0dee299d2a18c91bce30b38b796ee037cb8b/cubestat-0.0.4.tar.gz
+[2023-06-16 03:10:51] INFO root fetch - processPackages [dreamsim]: Downloading https://files.pythonhosted.org/packages/fd/5b/3d80428332dfb14e4d71a5706ef134384f9c89991d9e7648b8fb0b30ef39/dreamsim-0.1.1.tar.gz
+[2023-06-16 03:10:51] INFO root fetch - processPackages [mcap-ros1-support]: Downloading https://files.pythonhosted.org/packages/0b/e7/12168967c5d7d058f5c4bf5143d19952db746d61fea2acf55cc9b64e9da6/mcap-ros1-support-0.7.0.tar.gz
+[2023-06-16 03:10:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-16 03:10:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230616/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-16 03:10:51] INFO root fetch - processPackages [dreamsim]: executing diffoscope
+[2023-06-16 03:10:51] INFO root fetch - processPackages [dreamsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamsim-0.1.0.tar.gz tmp/dreamsim-0.1.1.tar.gz --markdown 20230616/d/dreamsim/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 03:10:51] INFO root fetch - processPackages [mcap-ros1-support]: executing diffoscope
+[2023-06-16 03:10:51] INFO root fetch - processPackages [mcap-ros1-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcap-ros1-support-0.6.0.tar.gz tmp/mcap-ros1-support-0.7.0.tar.gz --markdown 20230616/m/mcap-ros1-support/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-16 03:10:51] INFO root fetch - processPackages [cubestat]: executing diffoscope
+[2023-06-16 03:10:51] INFO root fetch - processPackages [cubestat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubestat-0.0.3.tar.gz tmp/cubestat-0.0.4.tar.gz --markdown 20230616/c/cubestat/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-16 03:10:51] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-06-16 03:10:51] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/e4/d8/a1f95b2fe89eb4e76caabf2a80a5bd602aebbd9093bd504721d0c06a3b5e/aemcmc-nightly-0.0.8.dev20230616.tar.gz
+[2023-06-16 03:10:51] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-06-16 03:10:51] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230616/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-06-16 03:10:51] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-16 03:10:51] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230615.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230616.tar.gz --markdown 20230616/a/aemcmc-nightly/0.0.8.dev20230615-0.0.8.dev20230616/diff.md --exclude *.pyd
+[2023-06-16 03:10:52] INFO root fetch - processPackages [cubestat]: Remove: archive file [/home/abi/fetcher/tmp/cubestat-0.0.3.tar.gz]
+[2023-06-16 03:10:52] INFO root fetch - processPackages [cubestat]: Remove: archive file [/home/abi/fetcher/tmp/cubestat-0.0.4.tar.gz]
+[2023-06-16 03:10:52] INFO root fetch - main [MainThread]: End processing [cubestat]: success
+[2023-06-16 03:10:52] INFO root fetch - processPackages [dreamsim]: Remove: archive file [/home/abi/fetcher/tmp/dreamsim-0.1.0.tar.gz]
+[2023-06-16 03:10:52] INFO root fetch - processPackages [dreamsim]: Remove: archive file [/home/abi/fetcher/tmp/dreamsim-0.1.1.tar.gz]
+[2023-06-16 03:10:52] INFO root fetch - main [MainThread]: End processing [dreamsim]: success
+[2023-06-16 03:10:53] INFO root fetch - processPackages [mcap-ros1-support]: Remove: archive file [/home/abi/fetcher/tmp/mcap-ros1-support-0.6.0.tar.gz]
+[2023-06-16 03:10:53] INFO root fetch - processPackages [mcap-ros1-support]: Remove: archive file [/home/abi/fetcher/tmp/mcap-ros1-support-0.7.0.tar.gz]
+[2023-06-16 03:10:53] INFO root fetch - main [MainThread]: End processing [mcap-ros1-support]: success
+[2023-06-16 03:10:53] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230615.tar.gz]
+[2023-06-16 03:10:53] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230616.tar.gz]
+[2023-06-16 03:10:53] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-16 03:10:53] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-06-16 03:10:53] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-06-16 03:10:53] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-06-16 03:10:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-16 03:10:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-16 03:10:53] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-16 03:10:53] INFO root fetch - main [MainThread]: Store serial: [18524831]
