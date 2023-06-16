@@ -22206,3 +22206,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-16 13:41:45] INFO root fetch - processPackages [FlexGet]: Remove: archive file [/home/abi/fetcher/tmp/FlexGet-3.7.6.tar.gz]
 [2023-06-16 13:41:45] INFO root fetch - main [MainThread]: End processing [FlexGet]: success
 [2023-06-16 13:41:45] INFO root fetch - main [MainThread]: Store serial: [18531153]
+[2023-06-16 13:46:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18531153]
+[2023-06-16 13:46:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 13:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aa-memberaudit
+[2023-06-16 13:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: morel
+[2023-06-16 13:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glue-astronomy
+[2023-06-16 13:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yangsuite
+[2023-06-16 13:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyre-check-nightly
+[2023-06-16 13:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mapbot-frontend
+[2023-06-16 13:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-llm
+[2023-06-16 13:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-chronos
+[2023-06-16 13:46:55] INFO root fetch - processPackages [morel]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-16 13:46:55] INFO root fetch - processPackages [aa-memberaudit]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-16 13:46:55] INFO root fetch - processPackages [mapbot-frontend]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 13:46:55] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230616] Old Version: [2.4.0b20230615]
+[2023-06-16 13:46:55] INFO root fetch - processPackages [glue-astronomy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-16 13:46:55] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230616] Old Version: [2.4.0b20230615]
+[2023-06-16 13:46:55] INFO root fetch - processPackages [yangsuite]: New version: [2.9.9] Old Version: [2.9.8.post0.dev8]
+[2023-06-16 13:46:55] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/8a/67/a2584e666dadd904d4e8cc575134b6cd9339939010db4a33d77882608fe2/morel-1.2.3.tar.gz
+[2023-06-16 13:46:55] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101686913954] Old Version: [0.0.101686827547]
+[2023-06-16 13:46:55] INFO root fetch - processPackages [aa-memberaudit]: Downloading https://files.pythonhosted.org/packages/78/94/4d340b4ca5f2c07c33274e4d0db214d2e6c584be37893de290e30a16d9d9/aa_memberaudit-2.8.1.tar.gz
+[2023-06-16 13:46:55] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/c3/15/a76b10735e815f29e69252cfdf5844d8267526ca51d4be0ae611898cf761/mapbot_frontend-0.1.8.tar.gz
+[2023-06-16 13:46:55] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/ee/30/f0222fee2433bb3e96c6c10e57e213d8f668159b3f65e8ac8a8d31c7de71/bigdl_chronos-2.4.0b20230615-py3-none-win_amd64.whl
+[2023-06-16 13:46:55] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/0a/e8/8c220df723ef1107fb9570f579555bb045cd1f4fb1f0da569c4817f7fb96/bigdl_llm-2.4.0b20230615-py3-none-win_amd64.whl
+[2023-06-16 13:46:55] INFO root fetch - processPackages [glue-astronomy]: Downloading https://files.pythonhosted.org/packages/4f/4b/451bf83202c8dc2676261b055272bc3fceffc57235dd6356c6ae510a57cf/glue-astronomy-0.8.0.tar.gz
+[2023-06-16 13:46:55] INFO root fetch - processPackages [yangsuite]: Downloading https://files.pythonhosted.org/packages/e8/b8/7f02e283a84cfc303c186b9be837b75fa32b1c783cf33ab85c52db9fa3e2/yangsuite-2.9.8.post0.dev8-py3-none-any.whl
+[2023-06-16 13:46:55] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/35/37/af481bcd769e60f6f726afbd85a9ac34c53aa7b9eaf77c772a3c2fd7fad2/pyre-check-nightly-0.0.101686827547.tar.gz
+[2023-06-16 13:46:55] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/71/97/379dfea7c66c29181205c90e2baf16d507443a1fcba790ae6c60f2a51d50/morel-1.2.4.tar.gz
+[2023-06-16 13:46:55] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23507183>=10485760
+[2023-06-16 13:46:55] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-16 13:46:55] INFO root fetch - processPackages [morel]: executing diffoscope
+[2023-06-16 13:46:55] INFO root fetch - processPackages [morel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morel-1.2.3.tar.gz tmp/morel-1.2.4.tar.gz --markdown 20230616/m/morel/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-16 13:46:55] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/44/c7/8586552e53c9c85517c7292aa99982840f14bef04ece0dd437c8a1c65318/bigdl_chronos-2.4.0b20230616-py3-none-win_amd64.whl
+[2023-06-16 13:46:55] INFO root fetch - processPackages [aa-memberaudit]: Downloading https://files.pythonhosted.org/packages/b1/a0/ba234a358ea120c9118e22331f2b33b3fdc63ccfa27a9b6da6e77a2f3e1c/aa_memberaudit-2.9.0.tar.gz
+[2023-06-16 13:46:55] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/37/23/e016c6428c0b37b1621cbdf9fde65ac05c3232840efec7c1b39c1ca3c115/bigdl_llm-2.4.0b20230616-py3-none-win_amd64.whl
+[2023-06-16 13:46:55] INFO root fetch - processPackages [mapbot-frontend]: Downloading https://files.pythonhosted.org/packages/2c/2b/65497a0d97cff1920b70e98b8c0780cb445ac34e1ebb2d6cf5ddf99b0ffc/mapbot_frontend-0.1.9.tar.gz
+[2023-06-16 13:46:55] INFO root fetch - processPackages [glue-astronomy]: Downloading https://files.pythonhosted.org/packages/33/b4/c73845331ca411923c08c514382d9f8667062df48ae84c2bef3a47a429eb/glue-astronomy-0.9.0.tar.gz
+[2023-06-16 13:46:55] INFO root fetch - processPackages [aa-memberaudit]: executing diffoscope
+[2023-06-16 13:46:55] INFO root fetch - processPackages [aa-memberaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_memberaudit-2.8.1.tar.gz tmp/aa_memberaudit-2.9.0.tar.gz --markdown 20230616/a/aa-memberaudit/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-16 13:46:55] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-16 13:46:55] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230615-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230616-py3-none-win_amd64.whl.zip --markdown 20230616/b/bigdl-llm/2.4.0b20230615-2.4.0b20230616/diff.md --exclude *.pyd
+[2023-06-16 13:46:55] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-16 13:46:55] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230615-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230616-py3-none-win_amd64.whl.zip --markdown 20230616/b/bigdl-chronos/2.4.0b20230615-2.4.0b20230616/diff.md --exclude *.pyd
+[2023-06-16 13:46:55] INFO root fetch - processPackages [mapbot-frontend]: executing diffoscope
+[2023-06-16 13:46:55] INFO root fetch - processPackages [mapbot-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbot_frontend-0.1.8.tar.gz tmp/mapbot_frontend-0.1.9.tar.gz --markdown 20230616/m/mapbot-frontend/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 13:46:55] INFO root fetch - processPackages [glue-astronomy]: executing diffoscope
+[2023-06-16 13:46:55] INFO root fetch - processPackages [glue-astronomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue-astronomy-0.8.0.tar.gz tmp/glue-astronomy-0.9.0.tar.gz --markdown 20230616/g/glue-astronomy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 13:46:56] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.2.3.tar.gz]
+[2023-06-16 13:46:56] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.2.4.tar.gz]
+[2023-06-16 13:46:56] INFO root fetch - main [MainThread]: End processing [morel]: success
+[2023-06-16 13:46:57] INFO root fetch - processPackages [yangsuite]: Downloading https://files.pythonhosted.org/packages/8c/e2/9f4a3cadfdfd2adfda81faf4cac3e1c9f150f6669ce547a7329eb3339960/yangsuite-2.9.9-py3-none-any.whl
+[2023-06-16 13:46:57] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230615-py3-none-win_amd64.whl.zip]
+[2023-06-16 13:46:57] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230616-py3-none-win_amd64.whl.zip]
+[2023-06-16 13:46:57] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-16 13:46:57] INFO root fetch - processPackages [glue-astronomy]: Remove: archive file [/home/abi/fetcher/tmp/glue-astronomy-0.8.0.tar.gz]
+[2023-06-16 13:46:57] INFO root fetch - processPackages [glue-astronomy]: Remove: archive file [/home/abi/fetcher/tmp/glue-astronomy-0.9.0.tar.gz]
+[2023-06-16 13:46:57] INFO root fetch - main [MainThread]: End processing [glue-astronomy]: success
+[2023-06-16 13:46:58] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230615-py3-none-win_amd64.whl.zip]
+[2023-06-16 13:46:58] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230616-py3-none-win_amd64.whl.zip]
+[2023-06-16 13:46:58] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-16 13:46:58] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.8.tar.gz]
+[2023-06-16 13:46:58] INFO root fetch - processPackages [mapbot-frontend]: Remove: archive file [/home/abi/fetcher/tmp/mapbot_frontend-0.1.9.tar.gz]
+[2023-06-16 13:46:58] INFO root fetch - main [MainThread]: End processing [mapbot-frontend]: success
+[2023-06-16 13:46:59] INFO root fetch - processPackages [yangsuite]: executing diffoscope
+[2023-06-16 13:46:59] INFO root fetch - processPackages [yangsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite-2.9.8.post0.dev8-py3-none-any.whl.zip tmp/yangsuite-2.9.9-py3-none-any.whl.zip --markdown 20230616/y/yangsuite/2.9.8.post0.dev8-2.9.9/diff.md --exclude *.pyd
+[2023-06-16 13:47:07] INFO root fetch - processPackages [yangsuite]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite-2.9.8.post0.dev8-py3-none-any.whl.zip]
+[2023-06-16 13:47:07] INFO root fetch - processPackages [yangsuite]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite-2.9.9-py3-none-any.whl.zip]
+[2023-06-16 13:47:07] INFO root fetch - main [MainThread]: End processing [yangsuite]: success
+[2023-06-16 13:47:23] INFO root fetch - processPackages [aa-memberaudit]: Remove: archive file [/home/abi/fetcher/tmp/aa_memberaudit-2.8.1.tar.gz]
+[2023-06-16 13:47:23] INFO root fetch - processPackages [aa-memberaudit]: Remove: archive file [/home/abi/fetcher/tmp/aa_memberaudit-2.9.0.tar.gz]
+[2023-06-16 13:47:23] INFO root fetch - main [MainThread]: End processing [aa-memberaudit]: success
+[2023-06-16 13:47:23] INFO root fetch - main [MainThread]: Store serial: [18531182]
