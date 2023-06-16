@@ -22757,3 +22757,179 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-16 14:09:01] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-06-16 14:09:01] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-06-16 14:09:01] INFO root fetch - main [MainThread]: Store serial: [18531516]
+[2023-06-16 14:14:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18531516]
+[2023-06-16 14:14:11] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-16 14:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libTSCANAPI
+[2023-06-16 14:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lycoris-lora
+[2023-06-16 14:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thipstercli
+[2023-06-16 14:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Mongeasy
+[2023-06-16 14:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: argilla
+[2023-06-16 14:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testflows.asserts
+[2023-06-16 14:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finbourne-insights-sdk-preview
+[2023-06-16 14:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-configuration-sdk-preview
+[2023-06-16 14:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: knmi-py
+[2023-06-16 14:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sommify
+[2023-06-16 14:14:11] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-16 14:14:11] INFO root fetch - processPackages [thipstercli]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-16 14:14:11] INFO root fetch - processPackages [sommify]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-06-16 14:14:11] INFO root fetch - processPackages [lycoris-lora]: New version: [0.1.7.dev3] Old Version: [0.1.7.dev2]
+[2023-06-16 14:14:11] INFO root fetch - processPackages [argilla]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-16 14:14:11] INFO root fetch - processPackages [knmi-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 14:14:11] INFO root fetch - processPackages [testflows.asserts]: New version: [6.5.230616.1120952] Old Version: [6.5.221019.1152644]
+[2023-06-16 14:14:11] INFO root fetch - processPackages [Mongeasy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 14:14:11] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.679] Old Version: [0.0.661]
+[2023-06-16 14:14:11] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: New version: [0.1.435] Old Version: [0.1.434]
+[2023-06-16 14:14:11] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/04/71/46efbf2b237a5495e081b9e445d754ee1de515c4c5313aff3e93f025f703/thipstercli-0.3.0.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/7f/1d/0fe3b47b10cea8c57806f2ccb7a2e4406653ee2e086634beac1668e1b3ee/lycoris_lora-0.1.7.dev2.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/e6/ed/23f5567662cb9ec1cb3379f76a866d14dfd03242d34ff988ffeb344415a3/libTSCANAPI-1.0.3.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/6d/e7/5e43a6c68f9bf4c4d3e8955f0e70b1bde52af02adff0d5f688eff85c31ba/sommify-0.5.6.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/fe/b2/229ddbdef762b071b1533501365d0fedd378a74c3e9fffa11de6dd69eba1/finbourne-insights-sdk-preview-0.0.661.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/1c/d0/39b9e48b24b5b140cf14853a919341bd6efa7d73ac4b00e65436f43769c8/lusid-configuration-sdk-preview-0.1.434.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [testflows.asserts]: Downloading https://files.pythonhosted.org/packages/87/97/3a93c6d19327892b96e4f367bb796e45d8b934bb5afae74548015b9f6e64/testflows.asserts-6.5.221019.1152644.tar.gz
+[2023-06-16 14:14:12] WARNING root fetch - processPackages [sommify]: Skipping package: exceeds size limit 98770096>=10485760
+[2023-06-16 14:14:12] INFO root fetch - processPackages [sommify]: Start processing: bigdl-dllib-spark3
+[2023-06-16 14:14:12] INFO root fetch - main [MainThread]: End processing [sommify] error
+[2023-06-16 14:14:12] INFO root fetch - processPackages [Mongeasy]: Downloading https://files.pythonhosted.org/packages/d6/38/fe087508bc6867b6c773857d78e9f81d8897b84d1501a9613deeb5dfb8c3/Mongeasy-0.1.8.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [knmi-py]: Downloading https://files.pythonhosted.org/packages/3b/1e/78c870c01cbb353a2dd6df930b45272b577ebbd6e86758414ff435601a51/knmi-py-0.1.8.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [argilla]: Downloading https://files.pythonhosted.org/packages/63/3c/2adc8bbdc37604d3bfc0eea97ee56d1ba2d7463315123d81f7065ab57e47/argilla-1.8.0.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230616] Old Version: [2.4.0b20230615]
+[2023-06-16 14:14:12] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16283807>=10485760
+[2023-06-16 14:14:12] INFO root fetch - processPackages [libTSCANAPI]: Start processing: niicat
+[2023-06-16 14:14:12] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-06-16 14:14:12] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/e4/4e/ff4b1716721603132e2e79f78cd2608bd26b07196103baf949381760a12e/thipstercli-0.3.1.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [niicat]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-16 14:14:12] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-16 14:14:12] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.3.0.tar.gz tmp/thipstercli-0.3.1.tar.gz --markdown 20230616/t/thipstercli/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-16 14:14:12] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/d3/77/400ec76cbd6c6d7161dc9bc327f6e83256fa8e7d97eafc8238a524e78570/lycoris_lora-0.1.7.dev3.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [Mongeasy]: Downloading https://files.pythonhosted.org/packages/a3/44/559de170eaa1b550d2ede30bdbf85500b0da8eed8a08c903384cf5f0f3cd/Mongeasy-0.1.9.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/06/05/bbdd648c6b173aff558400ed50a6dd700236b606625e3f2c99402c99e77f/lusid-configuration-sdk-preview-0.1.435.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/2d/e3/d147b40a32270824cc4b877851efec197f92fba03dc21849281e4021f155/bigdl-dllib-spark3-2.4.0b20230615.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [Mongeasy]: executing diffoscope
+[2023-06-16 14:14:12] INFO root fetch - processPackages [Mongeasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mongeasy-0.1.8.tar.gz tmp/Mongeasy-0.1.9.tar.gz --markdown 20230616/M/Mongeasy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 14:14:12] INFO root fetch - processPackages [testflows.asserts]: Downloading https://files.pythonhosted.org/packages/dd/56/8890732cd79e66b5bd25ffb423c783fa6c793090f293517f554fc4285ffa/testflows.asserts-6.5.230616.1120952.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: executing diffoscope
+[2023-06-16 14:14:12] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-configuration-sdk-preview-0.1.434.tar.gz tmp/lusid-configuration-sdk-preview-0.1.435.tar.gz --markdown 20230616/l/lusid-configuration-sdk-preview/0.1.434-0.1.435/diff.md --exclude *.pyd
+[2023-06-16 14:14:12] INFO root fetch - processPackages [niicat]: Downloading https://files.pythonhosted.org/packages/3b/8f/ae8ee9fc984364498cd55e49f4137e39c96c822ba476edb5cd70f62a18cd/niicat-0.4.3.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [testflows.asserts]: executing diffoscope
+[2023-06-16 14:14:12] INFO root fetch - processPackages [testflows.asserts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.asserts-6.5.221019.1152644.tar.gz tmp/testflows.asserts-6.5.230616.1120952.tar.gz --markdown 20230616/t/testflows.asserts/6.5.221019.1152644-6.5.230616.1120952/diff.md --exclude *.pyd
+[2023-06-16 14:14:12] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/de/5e/87daceea9eb2818ba5026e03978310d0b4fdcd2440b873cfdcf562125323/finbourne-insights-sdk-preview-0.0.679.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-06-16 14:14:12] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-0.1.7.dev2.tar.gz tmp/lycoris_lora-0.1.7.dev3.tar.gz --markdown 20230616/l/lycoris-lora/0.1.7.dev2-0.1.7.dev3/diff.md --exclude *.pyd
+[2023-06-16 14:14:12] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61326619>=10485760
+[2023-06-16 14:14:12] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: testflows
+[2023-06-16 14:14:12] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-16 14:14:12] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2023-06-16 14:14:12] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.661.tar.gz tmp/finbourne-insights-sdk-preview-0.0.679.tar.gz --markdown 20230616/f/finbourne-insights-sdk-preview/0.0.661-0.0.679/diff.md --exclude *.pyd
+[2023-06-16 14:14:12] INFO root fetch - processPackages [testflows]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-16 14:14:12] INFO root fetch - processPackages [niicat]: Downloading https://files.pythonhosted.org/packages/e0/53/9fd2026d0fc98975d6f64a7bf129670f229bfbe14e90c77128528001fc75/niicat-0.4.4.tar.gz
+[2023-06-16 14:14:12] INFO root fetch - processPackages [niicat]: executing diffoscope
+[2023-06-16 14:14:12] INFO root fetch - processPackages [niicat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niicat-0.4.3.tar.gz tmp/niicat-0.4.4.tar.gz --markdown 20230616/n/niicat/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-16 14:14:12] INFO root fetch - processPackages [testflows]: Downloading https://files.pythonhosted.org/packages/5e/67/4e9b6fed1b22a25656dafff61a7913a98708e59385738fb16bd0f00bcc40/testflows-1.9.8.tar.gz
+[2023-06-16 14:14:13] INFO root fetch - processPackages [knmi-py]: Downloading https://files.pythonhosted.org/packages/92/d4/65fe9c6e18678ef185600b131fcba20bd439612c3d4d5a93ac1ce5f6d294/knmi-py-0.1.9.tar.gz
+[2023-06-16 14:14:13] INFO root fetch - processPackages [argilla]: Downloading https://files.pythonhosted.org/packages/d5/65/f5260906481f183068fa89f4a369f0d6b322e536cb0b5aa12eedb16fe91d/argilla-1.9.0.tar.gz
+[2023-06-16 14:14:13] INFO root fetch - processPackages [knmi-py]: executing diffoscope
+[2023-06-16 14:14:13] INFO root fetch - processPackages [knmi-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knmi-py-0.1.8.tar.gz tmp/knmi-py-0.1.9.tar.gz --markdown 20230616/k/knmi-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 14:14:13] INFO root fetch - processPackages [argilla]: executing diffoscope
+[2023-06-16 14:14:13] INFO root fetch - processPackages [argilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argilla-1.8.0.tar.gz tmp/argilla-1.9.0.tar.gz --markdown 20230616/a/argilla/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-16 14:14:13] INFO root fetch - processPackages [testflows]: Downloading https://files.pythonhosted.org/packages/4f/76/a16230b7a4a82bca3087622a881a090786a3e86c240ebf2737bb64787ab1/testflows-1.9.9.tar.gz
+[2023-06-16 14:14:13] INFO root fetch - processPackages [testflows]: executing diffoscope
+[2023-06-16 14:14:13] INFO root fetch - processPackages [testflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows-1.9.8.tar.gz tmp/testflows-1.9.9.tar.gz --markdown 20230616/t/testflows/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-16 14:14:13] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.3.0.tar.gz]
+[2023-06-16 14:14:13] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.3.1.tar.gz]
+[2023-06-16 14:14:13] INFO root fetch - processPackages [thipstercli]: Start processing: podval
+[2023-06-16 14:14:13] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-06-16 14:14:13] INFO root fetch - processPackages [podval]: New version: [3.6] Old Version: [3.5]
+[2023-06-16 14:14:13] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/6a/f0/e38b7611600c222768dff52bc1807fec12b22a504c1c27771bef33a2867a/podval-3.5.tar.gz
+[2023-06-16 14:14:14] INFO root fetch - processPackages [Mongeasy]: Remove: archive file [/home/abi/fetcher/tmp/Mongeasy-0.1.8.tar.gz]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [Mongeasy]: Remove: archive file [/home/abi/fetcher/tmp/Mongeasy-0.1.9.tar.gz]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [Mongeasy]: Start processing: bigdl-orca-spark3
+[2023-06-16 14:14:14] INFO root fetch - main [MainThread]: End processing [Mongeasy]: success
+[2023-06-16 14:14:14] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/af/5d/3be75ba6dd71d42e85dd544b6e44ebcd632f81bf500df5cb1670a1320ee8/podval-3.6.tar.gz
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [podval]: executing diffoscope
+[2023-06-16 14:14:14] INFO root fetch - processPackages [podval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podval-3.5.tar.gz tmp/podval-3.6.tar.gz --markdown 20230616/p/podval/3.5-3.6/diff.md --exclude *.pyd
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/55/0a/0813dbbea1e67681618603d0d9b351445e5e8cce9d917feece1469ca7b75/bigdl_orca_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-16 14:14:14] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207900>=10485760
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: bob.measure
+[2023-06-16 14:14:14] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-06-16 14:14:14] INFO root fetch - processPackages [niicat]: Remove: archive file [/home/abi/fetcher/tmp/niicat-0.4.3.tar.gz]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [niicat]: Remove: archive file [/home/abi/fetcher/tmp/niicat-0.4.4.tar.gz]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [niicat]: Start processing: bigdl-friesian-spark3
+[2023-06-16 14:14:14] INFO root fetch - main [MainThread]: End processing [niicat]: success
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bob.measure]: New version: [6.1.0] Old Version: [6.0.2]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [knmi-py]: Remove: archive file [/home/abi/fetcher/tmp/knmi-py-0.1.8.tar.gz]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [knmi-py]: Remove: archive file [/home/abi/fetcher/tmp/knmi-py-0.1.9.tar.gz]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [knmi-py]: Start processing: bigdl-chronos-spark3
+[2023-06-16 14:14:14] INFO root fetch - main [MainThread]: End processing [knmi-py]: success
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/2d/c3/1d3674cdc3f4f34f602a44a7c8dbc1442225991af1cf21fd0fa66694b65b/bigdl_friesian_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bob.measure]: Downloading https://files.pythonhosted.org/packages/1c/4c/e9c2267b356bab7cf3dc25351a7520cfc93b4e4eb755186a472492ae3f60/bob.measure-6.0.2.zip
+[2023-06-16 14:14:14] INFO root fetch - processPackages [testflows.asserts]: Remove: archive file [/home/abi/fetcher/tmp/testflows.asserts-6.5.221019.1152644.tar.gz]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [testflows.asserts]: Remove: archive file [/home/abi/fetcher/tmp/testflows.asserts-6.5.230616.1120952.tar.gz]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [testflows.asserts]: Start processing: bigdl-spark3
+[2023-06-16 14:14:14] INFO root fetch - main [MainThread]: End processing [testflows.asserts]: success
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230615] Old Version: [2.4.0b20230614]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/ff/5e/ffd152a1f85a77d0d0da8ea82fb6ccbb627d11208cca1c62296efc269648/bigdl_chronos_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-16 14:14:14] INFO root fetch - processPackages [testflows]: Remove: archive file [/home/abi/fetcher/tmp/testflows-1.9.8.tar.gz]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/ef/d0/5f900be70836cd638522f93a35925bd35d3abf12843003bd7bdce71054f8/bigdl_friesian_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl
+[2023-06-16 14:14:14] INFO root fetch - processPackages [testflows]: Remove: archive file [/home/abi/fetcher/tmp/testflows-1.9.9.tar.gz]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [testflows]: Start processing: panoptic
+[2023-06-16 14:14:14] INFO root fetch - main [MainThread]: End processing [testflows]: success
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/2a/94/1921fb8481c38f500c6c134796a50207f263ae8ab6b8ab1920841ac1f892/bigdl_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-16 14:14:14] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev2.tar.gz]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip --markdown 20230616/b/bigdl-friesian-spark3/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 14:14:14] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev3.tar.gz]
+[2023-06-16 14:14:14] INFO root fetch - processPackages [lycoris-lora]: Start processing: netbox-cisco-maintenance
+[2023-06-16 14:14:14] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-06-16 14:14:14] INFO root fetch - processPackages [bob.measure]: Downloading https://files.pythonhosted.org/packages/7a/54/c1f526e5885354ff90d059f75a68a0dfc07690f67bc63e0b9aa4fdac0fe5/bob.measure-6.1.0.tar.gz
+[2023-06-16 14:14:14] INFO root fetch - processPackages [panoptic]: New version: [0.1.0.dev0] Old Version: [0.0.9.dev9]
+[2023-06-16 14:14:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 14:14:15] INFO root fetch - processPackages [bob.measure]: executing diffoscope
+[2023-06-16 14:14:15] INFO root fetch - processPackages [bob.measure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bob.measure-6.0.2.zip tmp/bob.measure-6.1.0.tar.gz --markdown 20230616/b/bob.measure/6.0.2-6.1.0/diff.md --exclude *.pyd
+[2023-06-16 14:14:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 14:14:15] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/ad/17/a97fccba18afab71195ca8046a5cbf04d259546d97c7ca4ad595ef12e821/bigdl_chronos_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl
+[2023-06-16 14:14:15] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/29/7e/2510b50f703bef9afd8cb984e97a3980070673642e4daa7d8ab37307ed4f/bigdl_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl
+[2023-06-16 14:14:15] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/d9/1a/1f6c5f2dc8795e4e80042beaaca871beb8c58c83439c26551c474f79d1bf/panoptic-0.0.9.dev9.tar.gz
+[2023-06-16 14:14:15] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-16 14:14:15] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip --markdown 20230616/b/bigdl-chronos-spark3/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 14:14:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 14:14:15] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-16 14:14:15] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip --markdown 20230616/b/bigdl-spark3/2.4.0b20230614-2.4.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 14:14:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 14:14:15] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 14:14:15] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.5.tar.gz]
+[2023-06-16 14:14:15] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.6.tar.gz]
+[2023-06-16 14:14:15] INFO root fetch - main [MainThread]: End processing [podval]: success
+[2023-06-16 14:14:15] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/8b/ae/8e71c10317efb9f03b6bbd73ba22d518ddfd6c0659f957e6f50f12fc00ef/panoptic-0.1.0.dev0.tar.gz
+[2023-06-16 14:14:15] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.434.tar.gz]
+[2023-06-16 14:14:15] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.435.tar.gz]
+[2023-06-16 14:14:15] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk-preview]: success
+[2023-06-16 14:14:15] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-06-16 14:14:15] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.0.9.dev9.tar.gz tmp/panoptic-0.1.0.dev0.tar.gz --markdown 20230616/p/panoptic/0.0.9.dev9-0.1.0.dev0/diff.md --exclude *.pyd
+[2023-06-16 14:14:16] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.661.tar.gz]
+[2023-06-16 14:14:16] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.679.tar.gz]
+[2023-06-16 14:14:16] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2023-06-16 14:14:16] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-16 14:14:16] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-16 14:14:16] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-16 14:14:16] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-16 14:14:16] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-16 14:14:16] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-16 14:14:16] INFO root fetch - processPackages [bob.measure]: Remove: archive file [/home/abi/fetcher/tmp/bob.measure-6.0.2.zip]
+[2023-06-16 14:14:16] INFO root fetch - processPackages [bob.measure]: Remove: archive file [/home/abi/fetcher/tmp/bob.measure-6.1.0.tar.gz]
+[2023-06-16 14:14:16] INFO root fetch - main [MainThread]: End processing [bob.measure]: success
+[2023-06-16 14:14:17] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 14:14:17] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 14:14:17] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 14:14:17] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230614-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-16 14:14:17] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230615-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-16 14:14:17] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-16 14:14:20] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.0.9.dev9.tar.gz]
+[2023-06-16 14:14:20] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.1.0.dev0.tar.gz]
+[2023-06-16 14:14:20] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-06-16 14:16:34] INFO root fetch - processPackages [argilla]: Remove: archive file [/home/abi/fetcher/tmp/argilla-1.8.0.tar.gz]
+[2023-06-16 14:16:34] INFO root fetch - processPackages [argilla]: Remove: archive file [/home/abi/fetcher/tmp/argilla-1.9.0.tar.gz]
+[2023-06-16 14:16:34] INFO root fetch - main [MainThread]: End processing [argilla]: success
+[2023-06-16 14:16:34] INFO root fetch - main [MainThread]: Store serial: [18531596]
