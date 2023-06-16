@@ -20318,3 +20318,156 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 12:15:28] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-16 12:15:28] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-16 12:15:28] INFO root fetch - main [MainThread]: Store serial: [18530455]
+[2023-06-16 12:20:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530455]
+[2023-06-16 12:20:37] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invenio-records-marc21
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lexikos
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipyfilite
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-cisco-maintenance
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ufbt
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mqtt-cli
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataheroes
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flybirds
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idoctorai
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: memv
+[2023-06-16 12:20:37] INFO root fetch - processPackages [memv]: New version: [0.0.3.4] Old Version: [0.0.3.3]
+[2023-06-16 12:20:37] INFO root fetch - processPackages [invenio-records-marc21]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-16 12:20:37] INFO root fetch - processPackages [mqtt-cli]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ipyfilite]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 12:20:37] INFO root fetch - processPackages [lexikos]: New version: [0.0.1rc5] Old Version: [0.0.1rc4]
+[2023-06-16 12:20:37] INFO root fetch - processPackages [dataheroes]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-16 12:20:37] INFO root fetch - processPackages [flybirds]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-16 12:20:37] INFO root fetch - processPackages [idoctorai]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ufbt]: New version: [0.2.4rc0] Old Version: [0.2.4]
+[2023-06-16 12:20:37] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 12:20:37] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/46/98/0d59c1c1db0071f4bc6fbdbca3f7941d60dee9425419a44fcd54470e0e8a/memv-0.0.3.3.tar.gz
+[2023-06-16 12:20:37] INFO root fetch - processPackages [invenio-records-marc21]: Downloading https://files.pythonhosted.org/packages/1f/09/a285658f14729733deae81c360a900fca1cf163577ed13be75db16ec2eca/invenio-records-marc21-0.9.1.tar.gz
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/47/ca/c79ee7d1d48616da0ab765ec00fc4472f4f08b277e10171a8b5e337ce1d4/ipyfilite-0.1.8.tar.gz
+[2023-06-16 12:20:37] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/3c/5f/a68d5e08f420eb9ae3c58078e2751aba746bdf1733cfcc0d78afc4b40d2f/flybirds-0.6.0.tar.gz
+[2023-06-16 12:20:37] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 12:20:37] INFO root fetch - processPackages [ufbt]: Downloading https://files.pythonhosted.org/packages/9c/06/923dbed3a5c2ef7cb317f11dfa57aaaa9f324f832a2718a6be1a9021f3f2/ufbt-0.2.4.tar.gz
+[2023-06-16 12:20:37] INFO root fetch - processPackages [mqtt-cli]: Downloading https://files.pythonhosted.org/packages/63/72/b4b93821b4fee5f7ec8d21170781d1de5d87dc71df2d4eb0c2f033d071f2/mqtt-cli-0.3.0.tar.gz
+[2023-06-16 12:20:37] INFO root fetch - processPackages [dataheroes]: Downloading https://files.pythonhosted.org/packages/43/4d/c3f076b361bf501f357e015f93425b9594e295e539cbd85f4bdf0ad72d53/dataheroes-0.3.1-cp39-cp39-win_amd64.whl
+[2023-06-16 12:20:37] INFO root fetch - processPackages [lexikos]: Downloading https://files.pythonhosted.org/packages/5f/39/f2dbeb7d646342173a48ec79f0c5f55040a9d27b52156ccc8cafaa01b3e0/lexikos-0.0.1rc4.tar.gz
+[2023-06-16 12:20:37] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/30/7e/5437a6a1572c267d6c6a1c178b6a852a02dcdb686a08e411c4ddcdbd6e90/idoctorai-0.3.4.tar.gz
+[2023-06-16 12:20:38] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 12:20:38] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/fb/b1/495956b24c092af63230dd747b1b54502ea01f43254678cb45f846b36ede/memv-0.0.3.4.tar.gz
+[2023-06-16 12:20:38] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/a1/d9/328d2c6aed8e363c094bd43587cfa8ef629314f963f835f1c60669d65a0f/idoctorai-0.4.0.tar.gz
+[2023-06-16 12:20:38] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/18/31/b0adbea8af6bcaa16f03f075f76932dc7de8309924c9f776c44b136cc88b/ipyfilite-0.1.9.tar.gz
+[2023-06-16 12:20:38] INFO root fetch - processPackages [ufbt]: Downloading https://files.pythonhosted.org/packages/0e/88/cd24d9ab46c83aea0379dbee9fd7f0fa2bbd3a0fbff8303660654525d275/ufbt-0.2.4rc0.tar.gz
+[2023-06-16 12:20:38] INFO root fetch - processPackages [mqtt-cli]: Downloading https://files.pythonhosted.org/packages/ef/17/bd7554689d9dc80c5d3922c815f9ce8809352924493148b6a1e14f6f0c77/mqtt-cli-0.3.1.tar.gz
+[2023-06-16 12:20:38] INFO root fetch - processPackages [invenio-records-marc21]: Downloading https://files.pythonhosted.org/packages/87/4d/265e3ab47550d183abe236faa375e5556c99bf64372d3d6dca2ce6f03e60/invenio-records-marc21-0.9.2.tar.gz
+[2023-06-16 12:20:38] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 12:20:38] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 12:20:38] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-06-16 12:20:38] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.3.4.tar.gz tmp/idoctorai-0.4.0.tar.gz --markdown 20230616/i/idoctorai/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-06-16 12:20:38] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/34/c8/86b60d8ebd9afd34635526821956dfe76ab3e78d38a3ec5f3a5842e3be32/flybirds-0.6.1.tar.gz
+[2023-06-16 12:20:38] INFO root fetch - processPackages [mqtt-cli]: executing diffoscope
+[2023-06-16 12:20:38] INFO root fetch - processPackages [mqtt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqtt-cli-0.3.0.tar.gz tmp/mqtt-cli-0.3.1.tar.gz --markdown 20230616/m/mqtt-cli/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-16 12:20:38] INFO root fetch - processPackages [ipyfilite]: executing diffoscope
+[2023-06-16 12:20:38] INFO root fetch - processPackages [ipyfilite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyfilite-0.1.8.tar.gz tmp/ipyfilite-0.1.9.tar.gz --markdown 20230616/i/ipyfilite/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 12:20:38] INFO root fetch - processPackages [ufbt]: executing diffoscope
+[2023-06-16 12:20:38] INFO root fetch - processPackages [ufbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufbt-0.2.4.tar.gz tmp/ufbt-0.2.4rc0.tar.gz --markdown 20230616/u/ufbt/0.2.4-0.2.4rc0/diff.md --exclude *.pyd
+[2023-06-16 12:20:38] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 12:20:38] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.3.3.tar.gz tmp/memv-0.0.3.4.tar.gz --markdown 20230616/m/memv/0.0.3.3-0.0.3.4/diff.md --exclude *.pyd
+[2023-06-16 12:20:38] INFO root fetch - processPackages [invenio-records-marc21]: executing diffoscope
+[2023-06-16 12:20:38] INFO root fetch - processPackages [invenio-records-marc21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-marc21-0.9.1.tar.gz tmp/invenio-records-marc21-0.9.2.tar.gz --markdown 20230616/i/invenio-records-marc21/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-16 12:20:38] INFO root fetch - processPackages [dataheroes]: Downloading https://files.pythonhosted.org/packages/39/60/f4f198b5d478eb1e631831fc97acf7c527e027a252fac80e3519739b329c/dataheroes-0.4.0-cp39-cp39-win_amd64.whl
+[2023-06-16 12:20:38] INFO root fetch - processPackages [lexikos]: Downloading https://files.pythonhosted.org/packages/e7/3f/ac8cbcb35a58487210d94d3c1d16dd21618e04dcd017193653f063c64ab4/lexikos-0.0.1rc5.tar.gz
+[2023-06-16 12:20:38] INFO root fetch - processPackages [lexikos]: executing diffoscope
+[2023-06-16 12:20:38] INFO root fetch - processPackages [lexikos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikos-0.0.1rc4.tar.gz tmp/lexikos-0.0.1rc5.tar.gz --markdown 20230616/l/lexikos/0.0.1rc4-0.0.1rc5/diff.md --exclude *.pyd
+[2023-06-16 12:20:39] INFO root fetch - processPackages [dataheroes]: executing diffoscope
+[2023-06-16 12:20:39] INFO root fetch - processPackages [dataheroes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataheroes-0.3.1-cp39-cp39-win_amd64.whl.zip tmp/dataheroes-0.4.0-cp39-cp39-win_amd64.whl.zip --markdown 20230616/d/dataheroes/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-16 12:20:39] INFO root fetch - processPackages [flybirds]: executing diffoscope
+[2023-06-16 12:20:39] INFO root fetch - processPackages [flybirds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flybirds-0.6.0.tar.gz tmp/flybirds-0.6.1.tar.gz --markdown 20230616/f/flybirds/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-16 12:20:39] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 12:20:39] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 12:20:39] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: f1-23-telemetry
+[2023-06-16 12:20:39] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 12:20:39] INFO root fetch - processPackages [mqtt-cli]: Remove: archive file [/home/abi/fetcher/tmp/mqtt-cli-0.3.0.tar.gz]
+[2023-06-16 12:20:39] INFO root fetch - processPackages [mqtt-cli]: Remove: archive file [/home/abi/fetcher/tmp/mqtt-cli-0.3.1.tar.gz]
+[2023-06-16 12:20:39] INFO root fetch - processPackages [mqtt-cli]: Start processing: stc-geck
+[2023-06-16 12:20:39] INFO root fetch - main [MainThread]: End processing [mqtt-cli]: success
+[2023-06-16 12:20:39] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.3.4.tar.gz]
+[2023-06-16 12:20:39] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.4.0.tar.gz]
+[2023-06-16 12:20:39] INFO root fetch - processPackages [idoctorai]: Start processing: ProxyPatternPool
+[2023-06-16 12:20:39] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-06-16 12:20:39] WARNING root fetch - processPackages [f1-23-telemetry]: Skipping, unable to determine old version
+[2023-06-16 12:20:39] INFO root fetch - processPackages [f1-23-telemetry]: Start processing: prowler
+[2023-06-16 12:20:39] INFO root fetch - main [MainThread]: End processing [f1-23-telemetry] error
+[2023-06-16 12:20:39] INFO root fetch - processPackages [stc-geck]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-16 12:20:39] INFO root fetch - processPackages [ProxyPatternPool]: New version: [5.0] Old Version: [4.0]
+[2023-06-16 12:20:40] INFO root fetch - processPackages [prowler]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-06-16 12:20:40] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.3.3.tar.gz]
+[2023-06-16 12:20:40] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.3.4.tar.gz]
+[2023-06-16 12:20:40] INFO root fetch - processPackages [memv]: Start processing: getmodelspec
+[2023-06-16 12:20:40] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 12:20:40] INFO root fetch - processPackages [ufbt]: Remove: archive file [/home/abi/fetcher/tmp/ufbt-0.2.4.tar.gz]
+[2023-06-16 12:20:40] INFO root fetch - processPackages [ufbt]: Remove: archive file [/home/abi/fetcher/tmp/ufbt-0.2.4rc0.tar.gz]
+[2023-06-16 12:20:40] INFO root fetch - processPackages [ufbt]: Start processing: prowler-cloud
+[2023-06-16 12:20:40] INFO root fetch - main [MainThread]: End processing [ufbt]: success
+[2023-06-16 12:20:40] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-16 12:20:40] INFO root fetch - processPackages [getmodelspec]: Start processing: microservices-common
+[2023-06-16 12:20:40] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-16 12:20:40] INFO root fetch - processPackages [microservices-common]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 12:20:40] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/27/9e/88d92a13f924ed2a91f70a20e8cdf820c3d05b3d0d6540251d948093b89e/stc-geck-1.0.0.tar.gz
+[2023-06-16 12:20:40] INFO root fetch - processPackages [ProxyPatternPool]: Downloading https://files.pythonhosted.org/packages/26/a8/ccdd4f9914fe26005dd435fc661f089cbb747a2525124608b4d6fd098f28/ProxyPatternPool-4.0.tar.gz
+[2023-06-16 12:20:40] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/cf/26/d61009fe7a48c56135d6109d63dde027b1f58aa65451904967d42313b5fe/microservices_common-0.0.8.tar.gz
+[2023-06-16 12:20:40] INFO root fetch - processPackages [prowler-cloud]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-06-16 12:20:40] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/78/46/f46ac32aaf2a2b96619fad44e7acd43a09f92689a4df6f1283e11c493fbc/prowler-3.6.0.tar.gz
+[2023-06-16 12:20:40] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/18/65/42a7244c50e3cb0b26a6a430635e23b6584e219c7a28c6cb6bd4d7925540/microservices_common-0.0.9.tar.gz
+[2023-06-16 12:20:40] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/94/8c/20c851fae65c4e96d4465d8706fcb0fe79c3d85fa7df3a998debf16afeac/stc-geck-1.1.0.tar.gz
+[2023-06-16 12:20:40] INFO root fetch - processPackages [dataheroes]: Remove: archive file [/home/abi/fetcher/tmp/dataheroes-0.3.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 12:20:40] INFO root fetch - processPackages [dataheroes]: Remove: archive file [/home/abi/fetcher/tmp/dataheroes-0.4.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 12:20:40] INFO root fetch - processPackages [dataheroes]: Start processing: simple-interpolator
+[2023-06-16 12:20:40] INFO root fetch - main [MainThread]: End processing [dataheroes]: success
+[2023-06-16 12:20:40] INFO root fetch - processPackages [microservices-common]: executing diffoscope
+[2023-06-16 12:20:40] INFO root fetch - processPackages [microservices-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservices_common-0.0.8.tar.gz tmp/microservices_common-0.0.9.tar.gz --markdown 20230616/m/microservices-common/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 12:20:40] INFO root fetch - processPackages [simple-interpolator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 12:20:40] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/02/47/05b15cc01b4c925c3cdbb97c623d6a1b36a959910250dde2dbe995c13b8b/prowler_cloud-3.6.0.tar.gz
+[2023-06-16 12:20:40] INFO root fetch - processPackages [stc-geck]: executing diffoscope
+[2023-06-16 12:20:40] INFO root fetch - processPackages [stc-geck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-geck-1.0.0.tar.gz tmp/stc-geck-1.1.0.tar.gz --markdown 20230616/s/stc-geck/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-16 12:20:40] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/70/31/2765ed128a01511753179ed0f0c3619dd39b6221c0cb654343b95571af42/prowler-3.6.1.tar.gz
+[2023-06-16 12:20:40] INFO root fetch - processPackages [ProxyPatternPool]: Downloading https://files.pythonhosted.org/packages/3f/1d/cd8bbf63604396579ae047fee4e4c758415d4fdc504d8e0036347da45fb7/ProxyPatternPool-5.0.tar.gz
+[2023-06-16 12:20:40] INFO root fetch - processPackages [ProxyPatternPool]: executing diffoscope
+[2023-06-16 12:20:40] INFO root fetch - processPackages [ProxyPatternPool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProxyPatternPool-4.0.tar.gz tmp/ProxyPatternPool-5.0.tar.gz --markdown 20230616/P/ProxyPatternPool/4.0-5.0/diff.md --exclude *.pyd
+[2023-06-16 12:20:40] INFO root fetch - processPackages [prowler]: executing diffoscope
+[2023-06-16 12:20:40] INFO root fetch - processPackages [prowler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler-3.6.0.tar.gz tmp/prowler-3.6.1.tar.gz --markdown 20230616/p/prowler/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-06-16 12:20:40] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/a0/64/b855ee784384ae6721761d941267e21b40718bf7ccac221b078d41dc5c18/simple-interpolator-0.0.8.tar.gz
+[2023-06-16 12:20:40] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/58/06/42692256361b18535895275d421bc255a4f504c9e35e91ca2bc1f22c8e2b/prowler_cloud-3.6.1.tar.gz
+[2023-06-16 12:20:40] INFO root fetch - processPackages [prowler-cloud]: executing diffoscope
+[2023-06-16 12:20:40] INFO root fetch - processPackages [prowler-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler_cloud-3.6.0.tar.gz tmp/prowler_cloud-3.6.1.tar.gz --markdown 20230616/p/prowler-cloud/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-06-16 12:20:41] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/e9/e2/3b92c8fefdfb5b2cec392920d4593723f20f7a86907a0e0bfccfb43ef1d3/simple-interpolator-0.0.9.tar.gz
+[2023-06-16 12:20:41] INFO root fetch - processPackages [simple-interpolator]: executing diffoscope
+[2023-06-16 12:20:41] INFO root fetch - processPackages [simple-interpolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-interpolator-0.0.8.tar.gz tmp/simple-interpolator-0.0.9.tar.gz --markdown 20230616/s/simple-interpolator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 12:20:41] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.8.tar.gz]
+[2023-06-16 12:20:41] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.9.tar.gz]
+[2023-06-16 12:20:41] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
+[2023-06-16 12:20:41] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.0.0.tar.gz]
+[2023-06-16 12:20:41] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.1.0.tar.gz]
+[2023-06-16 12:20:41] INFO root fetch - main [MainThread]: End processing [stc-geck]: success
+[2023-06-16 12:20:41] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-0.0.8.tar.gz]
+[2023-06-16 12:20:41] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-0.0.9.tar.gz]
+[2023-06-16 12:20:41] INFO root fetch - main [MainThread]: End processing [microservices-common]: success
+[2023-06-16 12:20:41] INFO root fetch - processPackages [ProxyPatternPool]: Remove: archive file [/home/abi/fetcher/tmp/ProxyPatternPool-4.0.tar.gz]
+[2023-06-16 12:20:41] INFO root fetch - processPackages [ProxyPatternPool]: Remove: archive file [/home/abi/fetcher/tmp/ProxyPatternPool-5.0.tar.gz]
+[2023-06-16 12:20:41] INFO root fetch - main [MainThread]: End processing [ProxyPatternPool]: success
+[2023-06-16 12:20:42] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.0.8.tar.gz]
+[2023-06-16 12:20:42] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.0.9.tar.gz]
+[2023-06-16 12:20:42] INFO root fetch - main [MainThread]: End processing [simple-interpolator]: success
+[2023-06-16 12:20:42] INFO root fetch - processPackages [invenio-records-marc21]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-marc21-0.9.1.tar.gz]
+[2023-06-16 12:20:42] INFO root fetch - processPackages [invenio-records-marc21]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-marc21-0.9.2.tar.gz]
+[2023-06-16 12:20:42] INFO root fetch - main [MainThread]: End processing [invenio-records-marc21]: success
+[2023-06-16 12:20:43] INFO root fetch - processPackages [lexikos]: Remove: archive file [/home/abi/fetcher/tmp/lexikos-0.0.1rc4.tar.gz]
+[2023-06-16 12:20:43] INFO root fetch - processPackages [lexikos]: Remove: archive file [/home/abi/fetcher/tmp/lexikos-0.0.1rc5.tar.gz]
+[2023-06-16 12:20:43] INFO root fetch - main [MainThread]: End processing [lexikos]: success
+[2023-06-16 12:20:58] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-3.6.0.tar.gz]
+[2023-06-16 12:20:58] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-3.6.1.tar.gz]
+[2023-06-16 12:20:58] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
+[2023-06-16 12:21:01] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-3.6.0.tar.gz]
+[2023-06-16 12:21:01] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-3.6.1.tar.gz]
+[2023-06-16 12:21:01] INFO root fetch - main [MainThread]: End processing [prowler]: success
+[2023-06-16 12:21:15] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.6.0.tar.gz]
+[2023-06-16 12:21:15] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.6.1.tar.gz]
+[2023-06-16 12:21:15] INFO root fetch - main [MainThread]: End processing [flybirds]: success
+[2023-06-16 12:21:15] INFO root fetch - main [MainThread]: Store serial: [18530529]
