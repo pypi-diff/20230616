@@ -22596,3 +22596,164 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-16 14:03:29] INFO root fetch - processPackages [bob.io.base]: Remove: archive file [/home/abi/fetcher/tmp/bob.io.base-5.1.0.tar.gz]
 [2023-06-16 14:03:29] INFO root fetch - main [MainThread]: End processing [bob.io.base]: success
 [2023-06-16 14:03:29] INFO root fetch - main [MainThread]: Store serial: [18531408]
+[2023-06-16 14:08:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18531408]
+[2023-06-16 14:08:50] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-16 14:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flumy
+[2023-06-16 14:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: renamer-kt
+[2023-06-16 14:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyStringss
+[2023-06-16 14:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Nimbus-Splash
+[2023-06-16 14:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amass
+[2023-06-16 14:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xarrayaita
+[2023-06-16 14:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-mail-environment
+[2023-06-16 14:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccxt
+[2023-06-16 14:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: morel
+[2023-06-16 14:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nuovoLIRA
+[2023-06-16 14:08:50] INFO root fetch - processPackages [flumy]: New version: [7.113] Old Version: [7.112]
+[2023-06-16 14:08:50] INFO root fetch - processPackages [odoo-addon-mail-environment]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-06-16 14:08:50] INFO root fetch - processPackages [renamer-kt]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-16 14:08:50] INFO root fetch - processPackages [Nimbus-Splash]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-16 14:08:50] INFO root fetch - processPackages [xarrayaita]: New version: [0.2.9.4] Old Version: [0.2.7]
+[2023-06-16 14:08:50] INFO root fetch - processPackages [morel]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-16 14:08:50] INFO root fetch - processPackages [nuovoLIRA]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-16 14:08:50] INFO root fetch - processPackages [amass]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-16 14:08:50] WARNING root fetch - processPackages [pyStringss]: Skipping, unable to determine old version
+[2023-06-16 14:08:50] INFO root fetch - processPackages [pyStringss]: Start processing: vector-materials
+[2023-06-16 14:08:50] INFO root fetch - main [MainThread]: End processing [pyStringss] error
+[2023-06-16 14:08:50] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-16 14:08:50] INFO root fetch - processPackages [vector-materials]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 14:08:50] INFO root fetch - processPackages [flumy]: Downloading https://files.pythonhosted.org/packages/ae/67/0d79ed013fd3f3b85a629a7919ea94fb270ff5de5276bae96a3625434624/flumy-7.112-cp39-cp39-win_amd64.whl
+[2023-06-16 14:08:50] INFO root fetch - processPackages [xarrayaita]: Downloading https://files.pythonhosted.org/packages/04/43/29c1a23db7151646ae934f65f3ceadb941a4a81bf2f6f5e211c304665df3/xarrayaita-0.2.7-py3-none-any.whl
+[2023-06-16 14:08:50] INFO root fetch - processPackages [nuovoLIRA]: Downloading https://files.pythonhosted.org/packages/36/6f/216af1fdeebed7ea724f7ab2973ca411752e23f38b516bb3916b364b6c29/nuovoLIRA-0.4.0.tar.gz
+[2023-06-16 14:08:50] INFO root fetch - processPackages [renamer-kt]: Downloading https://files.pythonhosted.org/packages/49/4a/b00574e440a43537c439f374af8cb66a587b2f736f83495a8ca47f37ce9a/renamer_kt-1.0.0.tar.gz
+[2023-06-16 14:08:50] INFO root fetch - processPackages [amass]: Downloading https://files.pythonhosted.org/packages/39/b6/020c197f3eb4c5e0bfcd9ea9471867d62d2313adb1a70d88b125fed51bac/amass-0.3.2.tar.gz
+[2023-06-16 14:08:50] INFO root fetch - processPackages [odoo-addon-mail-environment]: Downloading https://files.pythonhosted.org/packages/0c/84/904f49daf7b821003a666a3eac7323ebba68cf289db409d5dae2fc0b8023/odoo_addon_mail_environment-16.0.1.0.1-py3-none-any.whl
+[2023-06-16 14:08:50] INFO root fetch - processPackages [Nimbus-Splash]: Downloading https://files.pythonhosted.org/packages/61/0b/3d081010d492b2ad7343e67599ca5b03b4b63e5d69a6069e5daba0810d6c/Nimbus%20Splash-0.9.2.tar.gz
+[2023-06-16 14:08:50] INFO root fetch - processPackages [vector-materials]: Downloading https://files.pythonhosted.org/packages/a4/f0/80a33aa81d3d2079fa05a77662c8ead23df2f913508422940d3b106b0d2a/vector_materials-0.1.0.tar.gz
+[2023-06-16 14:08:50] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/fc/b1/ca4b89da098534cbd05a84c4cb11f078ebeee0e88babbf280efddd786bf3/morel-1.2.6.tar.gz
+[2023-06-16 14:08:50] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-16 14:08:50] INFO root fetch - processPackages [xarrayaita]: Downloading https://files.pythonhosted.org/packages/a1/33/dd270ae8de5c6c5346d2470d3f79ca50d7a0301a92fec12e120291e76c1d/xarrayaita-0.2.9.4.tar.gz
+[2023-06-16 14:08:50] INFO root fetch - processPackages [nuovoLIRA]: Downloading https://files.pythonhosted.org/packages/1b/eb/75193dc9bf692ee4d106773532b190dfa91f22e0ab0a61b09d197e1522a4/nuovoLIRA-0.5.0.tar.gz
+[2023-06-16 14:08:50] INFO root fetch - processPackages [renamer-kt]: Downloading https://files.pythonhosted.org/packages/c8/a8/b8d695077505ddbcfb8ad6484d841b26c4f2d03637952a97eaa81ddbc897/renamer_kt-1.0.1.tar.gz
+[2023-06-16 14:08:50] INFO root fetch - processPackages [vector-materials]: Downloading https://files.pythonhosted.org/packages/ee/1e/91c5cd9ef9f80326a08e79c8dc0332341cdec5bb02bdaca853799caa4a6d/vector_materials-0.1.1.tar.gz
+[2023-06-16 14:08:50] INFO root fetch - processPackages [xarrayaita]: executing diffoscope
+[2023-06-16 14:08:50] INFO root fetch - processPackages [xarrayaita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarrayaita-0.2.7-py3-none-any.whl.zip tmp/xarrayaita-0.2.9.4.tar.gz --markdown 20230616/x/xarrayaita/0.2.7-0.2.9.4/diff.md --exclude *.pyd
+[2023-06-16 14:08:50] INFO root fetch - processPackages [amass]: Downloading https://files.pythonhosted.org/packages/c2/c8/5b0887c9ba6323d79995dcc85992591a9f0d7af711f0abf0a1e4de6441f9/amass-0.3.3.tar.gz
+[2023-06-16 14:08:50] INFO root fetch - processPackages [odoo-addon-mail-environment]: Downloading https://files.pythonhosted.org/packages/00/a9/87e5671e6f8920c203c276bc91b34750a398d96f49b3d0790f7834548257/odoo_addon_mail_environment-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-16 14:08:51] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/57/02/4d3ce08e4f0b903e9856f6e812f43049ebde1e10d478700261e46e8d334f/morel-1.2.7.tar.gz
+[2023-06-16 14:08:51] INFO root fetch - processPackages [renamer-kt]: executing diffoscope
+[2023-06-16 14:08:51] INFO root fetch - processPackages [renamer-kt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renamer_kt-1.0.0.tar.gz tmp/renamer_kt-1.0.1.tar.gz --markdown 20230616/r/renamer-kt/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-16 14:08:51] INFO root fetch - processPackages [flumy]: Downloading https://files.pythonhosted.org/packages/55/75/3c27653646f5ab09fc6f8448650cc6b2f72220e74c82809e7c98e798acd3/flumy-7.113-cp39-cp39-macosx_11_0_arm64.whl
+[2023-06-16 14:08:51] INFO root fetch - processPackages [Nimbus-Splash]: Downloading https://files.pythonhosted.org/packages/b3/c3/5f83f16e655932c2288472ebb11253b99bb1ce0d4a8f7c4f75ee6d5c3758/Nimbus%20Splash-0.9.3.tar.gz
+[2023-06-16 14:08:51] INFO root fetch - processPackages [nuovoLIRA]: executing diffoscope
+[2023-06-16 14:08:51] INFO root fetch - processPackages [nuovoLIRA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuovoLIRA-0.4.0.tar.gz tmp/nuovoLIRA-0.5.0.tar.gz --markdown 20230616/n/nuovoLIRA/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-16 14:08:51] INFO root fetch - processPackages [vector-materials]: executing diffoscope
+[2023-06-16 14:08:51] INFO root fetch - processPackages [vector-materials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_materials-0.1.0.tar.gz tmp/vector_materials-0.1.1.tar.gz --markdown 20230616/v/vector-materials/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 14:08:51] INFO root fetch - processPackages [amass]: executing diffoscope
+[2023-06-16 14:08:51] INFO root fetch - processPackages [amass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amass-0.3.2.tar.gz tmp/amass-0.3.3.tar.gz --markdown 20230616/a/amass/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-16 14:08:51] INFO root fetch - processPackages [odoo-addon-mail-environment]: executing diffoscope
+[2023-06-16 14:08:51] INFO root fetch - processPackages [odoo-addon-mail-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_environment-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_mail_environment-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-mail-environment/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-06-16 14:08:51] INFO root fetch - processPackages [morel]: executing diffoscope
+[2023-06-16 14:08:51] INFO root fetch - processPackages [morel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morel-1.2.6.tar.gz tmp/morel-1.2.7.tar.gz --markdown 20230616/m/morel/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-16 14:08:51] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-16 14:08:51] INFO root fetch - processPackages [Nimbus-Splash]: executing diffoscope
+[2023-06-16 14:08:51] INFO root fetch - processPackages [Nimbus-Splash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nimbus Splash-0.9.2.tar.gz tmp/Nimbus Splash-0.9.3.tar.gz --markdown 20230616/N/Nimbus-Splash/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-16 14:08:51] INFO root fetch - processPackages [flumy]: executing diffoscope
+[2023-06-16 14:08:51] INFO root fetch - processPackages [flumy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flumy-7.112-cp39-cp39-win_amd64.whl.zip tmp/flumy-7.113-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20230616/f/flumy/7.112-7.113/diff.md --exclude *.pyd
+[2023-06-16 14:08:51] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-16 14:08:51] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230616/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-16 14:08:52] INFO root fetch - processPackages [xarrayaita]: Remove: archive file [/home/abi/fetcher/tmp/xarrayaita-0.2.7-py3-none-any.whl.zip]
+[2023-06-16 14:08:52] INFO root fetch - processPackages [xarrayaita]: Remove: archive file [/home/abi/fetcher/tmp/xarrayaita-0.2.9.4.tar.gz]
+[2023-06-16 14:08:52] INFO root fetch - processPackages [xarrayaita]: Start processing: aries-cloudcontroller
+[2023-06-16 14:08:52] INFO root fetch - main [MainThread]: End processing [xarrayaita]: success
+[2023-06-16 14:08:52] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.8.1rc9] Old Version: [0.8.1rc8]
+[2023-06-16 14:08:52] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/6e/5f/92635f2b2a09fea036b820ffba704d64908a682b5856d4c26a7b46afa822/aries_cloudcontroller-0.8.1rc8.tar.gz
+[2023-06-16 14:08:52] INFO root fetch - processPackages [vector-materials]: Remove: archive file [/home/abi/fetcher/tmp/vector_materials-0.1.0.tar.gz]
+[2023-06-16 14:08:52] INFO root fetch - processPackages [vector-materials]: Remove: archive file [/home/abi/fetcher/tmp/vector_materials-0.1.1.tar.gz]
+[2023-06-16 14:08:52] INFO root fetch - processPackages [vector-materials]: Start processing: pyved-engine
+[2023-06-16 14:08:52] INFO root fetch - main [MainThread]: End processing [vector-materials]: success
+[2023-06-16 14:08:52] INFO root fetch - processPackages [pyved-engine]: New version: [23.6a1] Old Version: [23.5a1]
+[2023-06-16 14:08:52] INFO root fetch - processPackages [amass]: Remove: archive file [/home/abi/fetcher/tmp/amass-0.3.2.tar.gz]
+[2023-06-16 14:08:52] INFO root fetch - processPackages [amass]: Remove: archive file [/home/abi/fetcher/tmp/amass-0.3.3.tar.gz]
+[2023-06-16 14:08:52] INFO root fetch - processPackages [amass]: Start processing: lifeguard-k8s
+[2023-06-16 14:08:52] INFO root fetch - main [MainThread]: End processing [amass]: success
+[2023-06-16 14:08:52] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/08/25/c5d58d68eaa8606c32cfc8bd56ff5320046335bd4845d3a2c9a5ee19764f/aries_cloudcontroller-0.8.1rc9.tar.gz
+[2023-06-16 14:08:52] INFO root fetch - processPackages [lifeguard-k8s]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-16 14:08:52] INFO root fetch - processPackages [pyved-engine]: Downloading https://files.pythonhosted.org/packages/6e/3f/6aa141e0bfb03f34362c513e295a390e0785bc29dc094fede1b3e9e34124/pyved-engine-23.5a1.tar.gz
+[2023-06-16 14:08:53] INFO root fetch - processPackages [odoo-addon-mail-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_environment-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [odoo-addon-mail-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_environment-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [odoo-addon-mail-environment]: Start processing: morel
+[2023-06-16 14:08:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-environment]: success
+[2023-06-16 14:08:53] INFO root fetch - processPackages [morel]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2023-06-16 14:08:53] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.8.1rc8.tar.gz tmp/aries_cloudcontroller-0.8.1rc9.tar.gz --markdown 20230616/a/aries-cloudcontroller/0.8.1rc8-0.8.1rc9/diff.md --exclude *.pyd
+[2023-06-16 14:08:53] INFO root fetch - processPackages [morel]: executing diffoscope
+[2023-06-16 14:08:53] INFO root fetch - processPackages [lifeguard-k8s]: Downloading https://files.pythonhosted.org/packages/26/18/5cbc047d6e9d8461cad9a6c0454b98a310c90147f7d80c5488d471c6fb4d/lifeguard-k8s-1.2.0.tar.gz
+[2023-06-16 14:08:53] INFO root fetch - processPackages [morel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morel-1.2.6.tar.gz tmp/morel-1.2.7.tar.gz --markdown 20230616/m/morel/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-16 14:08:53] INFO root fetch - processPackages [nuovoLIRA]: Remove: archive file [/home/abi/fetcher/tmp/nuovoLIRA-0.4.0.tar.gz]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [nuovoLIRA]: Remove: archive file [/home/abi/fetcher/tmp/nuovoLIRA-0.5.0.tar.gz]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [nuovoLIRA]: Start processing: tondortools
+[2023-06-16 14:08:53] INFO root fetch - main [MainThread]: End processing [nuovoLIRA]: success
+[2023-06-16 14:08:53] INFO root fetch - processPackages [flumy]: Remove: archive file [/home/abi/fetcher/tmp/flumy-7.112-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [flumy]: Remove: archive file [/home/abi/fetcher/tmp/flumy-7.113-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [flumy]: Start processing: msgx
+[2023-06-16 14:08:53] INFO root fetch - main [MainThread]: End processing [flumy]: success
+[2023-06-16 14:08:53] INFO root fetch - processPackages [tondortools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [renamer-kt]: Remove: archive file [/home/abi/fetcher/tmp/renamer_kt-1.0.0.tar.gz]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [renamer-kt]: Remove: archive file [/home/abi/fetcher/tmp/renamer_kt-1.0.1.tar.gz]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [renamer-kt]: Start processing: tf-agents-nightly
+[2023-06-16 14:08:53] INFO root fetch - main [MainThread]: End processing [renamer-kt]: success
+[2023-06-16 14:08:53] INFO root fetch - processPackages [pyved-engine]: Downloading https://files.pythonhosted.org/packages/2f/5c/0350d519d5cd15ac3c20db0ce2142698ffce8f171e858f7308cd39b3bf4e/pyved-engine-23.6a1.tar.gz
+[2023-06-16 14:08:53] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-16 14:08:53] INFO root fetch - processPackages [Nimbus-Splash]: Remove: archive file [/home/abi/fetcher/tmp/Nimbus Splash-0.9.2.tar.gz]
+[2023-06-16 14:08:53] WARNING root fetch - processPackages [msgx]: Skipping, unable to determine old version
+[2023-06-16 14:08:53] INFO root fetch - processPackages [msgx]: Start processing: vector-materials
+[2023-06-16 14:08:53] INFO root fetch - main [MainThread]: End processing [msgx] error
+[2023-06-16 14:08:53] INFO root fetch - processPackages [Nimbus-Splash]: Remove: archive file [/home/abi/fetcher/tmp/Nimbus Splash-0.9.3.tar.gz]
+[2023-06-16 14:08:53] INFO root fetch - main [MainThread]: End processing [Nimbus-Splash]: success
+[2023-06-16 14:08:53] INFO root fetch - processPackages [pyved-engine]: executing diffoscope
+[2023-06-16 14:08:53] INFO root fetch - processPackages [pyved-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyved-engine-23.5a1.tar.gz tmp/pyved-engine-23.6a1.tar.gz --markdown 20230616/p/pyved-engine/23.5a1-23.6a1/diff.md --exclude *.pyd
+[2023-06-16 14:08:53] INFO root fetch - processPackages [vector-materials]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/82/e1/2aa1fedb662921036c377a44557417b3457324fa888edd02a9f166b12fdd/tondortools-1.0.8.tar.gz
+[2023-06-16 14:08:53] INFO root fetch - processPackages [lifeguard-k8s]: Downloading https://files.pythonhosted.org/packages/02/5c/a720179baf3e7bfa7af6ae620497a59588b20afb0e258587c54359ea1cdf/lifeguard-k8s-1.2.1.tar.gz
+[2023-06-16 14:08:53] INFO root fetch - processPackages [vector-materials]: Downloading https://files.pythonhosted.org/packages/ee/1e/91c5cd9ef9f80326a08e79c8dc0332341cdec5bb02bdaca853799caa4a6d/vector_materials-0.1.1.tar.gz
+[2023-06-16 14:08:53] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.2.6.tar.gz]
+[2023-06-16 14:08:53] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.2.7.tar.gz]
+[2023-06-16 14:08:53] INFO root fetch - main [MainThread]: End processing [morel]: success
+[2023-06-16 14:08:53] INFO root fetch - processPackages [lifeguard-k8s]: executing diffoscope
+[2023-06-16 14:08:53] INFO root fetch - processPackages [lifeguard-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeguard-k8s-1.2.0.tar.gz tmp/lifeguard-k8s-1.2.1.tar.gz --markdown 20230616/l/lifeguard-k8s/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-16 14:08:53] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-16 14:08:53] INFO root fetch - processPackages [vector-materials]: Downloading https://files.pythonhosted.org/packages/59/ef/20cb287ad4eebac2af4df03db396b41a78b7bd2e935045308a27cb873890/vector_materials-0.1.2.tar.gz
+[2023-06-16 14:08:53] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/7b/e5/c2a6c8cdb037b89a83b125d896c8496a2fb76ce7b44d0aac0f39fd3bf1ac/tondortools-1.0.9.tar.gz
+[2023-06-16 14:08:53] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-16 14:08:53] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230616/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-16 14:08:53] INFO root fetch - processPackages [tondortools]: executing diffoscope
+[2023-06-16 14:08:53] INFO root fetch - processPackages [tondortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tondortools-1.0.8.tar.gz tmp/tondortools-1.0.9.tar.gz --markdown 20230616/t/tondortools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-16 14:08:53] INFO root fetch - processPackages [vector-materials]: executing diffoscope
+[2023-06-16 14:08:53] INFO root fetch - processPackages [vector-materials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_materials-0.1.1.tar.gz tmp/vector_materials-0.1.2.tar.gz --markdown 20230616/v/vector-materials/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 14:08:54] ERROR root fetch - processPackages [morel]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/morel-1.2.6.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/morel-1.2.7.tar.gz: No such file or directory
+
+[2023-06-16 14:08:54] INFO root fetch - main [MainThread]: End processing [morel] error
+[2023-06-16 14:08:54] INFO root fetch - processPackages [lifeguard-k8s]: Remove: archive file [/home/abi/fetcher/tmp/lifeguard-k8s-1.2.0.tar.gz]
+[2023-06-16 14:08:54] INFO root fetch - processPackages [lifeguard-k8s]: Remove: archive file [/home/abi/fetcher/tmp/lifeguard-k8s-1.2.1.tar.gz]
+[2023-06-16 14:08:54] INFO root fetch - main [MainThread]: End processing [lifeguard-k8s]: success
+[2023-06-16 14:08:55] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.8.tar.gz]
+[2023-06-16 14:08:55] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.9.tar.gz]
+[2023-06-16 14:08:55] INFO root fetch - main [MainThread]: End processing [tondortools]: success
+[2023-06-16 14:08:55] INFO root fetch - processPackages [vector-materials]: Remove: archive file [/home/abi/fetcher/tmp/vector_materials-0.1.1.tar.gz]
+[2023-06-16 14:08:55] INFO root fetch - processPackages [vector-materials]: Remove: archive file [/home/abi/fetcher/tmp/vector_materials-0.1.2.tar.gz]
+[2023-06-16 14:08:55] INFO root fetch - main [MainThread]: End processing [vector-materials]: success
+[2023-06-16 14:08:55] INFO root fetch - processPackages [pyved-engine]: Remove: archive file [/home/abi/fetcher/tmp/pyved-engine-23.5a1.tar.gz]
+[2023-06-16 14:08:55] INFO root fetch - processPackages [pyved-engine]: Remove: archive file [/home/abi/fetcher/tmp/pyved-engine-23.6a1.tar.gz]
+[2023-06-16 14:08:55] INFO root fetch - main [MainThread]: End processing [pyved-engine]: success
+[2023-06-16 14:08:56] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc8.tar.gz]
+[2023-06-16 14:08:56] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc9.tar.gz]
+[2023-06-16 14:08:56] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2023-06-16 14:09:00] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-16 14:09:00] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-16 14:09:00] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-16 14:09:01] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-16 14:09:01] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-16 14:09:01] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-16 14:09:01] INFO root fetch - main [MainThread]: Store serial: [18531516]
