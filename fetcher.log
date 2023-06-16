@@ -18082,3 +18082,149 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 10:48:32] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-0.4.0.tar.gz]
 [2023-06-16 10:48:32] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2023-06-16 10:48:32] INFO root fetch - main [MainThread]: Store serial: [18529569]
+[2023-06-16 10:53:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18529569]
+[2023-06-16 10:53:41] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-16 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biosmoother
+[2023-06-16 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly
+[2023-06-16 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangocms-googlemap
+[2023-06-16 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: u-umetrics
+[2023-06-16 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mapget
+[2023-06-16 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: loko-extensions
+[2023-06-16 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trilium-py
+[2023-06-16 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tablemaster
+[2023-06-16 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: revChatGPT
+[2023-06-16 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hcai-nova-server-nightly
+[2023-06-16 10:53:41] WARNING root fetch - processPackages [biosmoother]: Skipping, unable to determine old version
+[2023-06-16 10:53:41] INFO root fetch - processPackages [biosmoother]: Start processing: mindlakesdk
+[2023-06-16 10:53:41] INFO root fetch - main [MainThread]: End processing [biosmoother] error
+[2023-06-16 10:53:41] INFO root fetch - processPackages [u-umetrics]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-16 10:53:41] INFO root fetch - processPackages [u-umetrics]: Downloading https://files.pythonhosted.org/packages/e5/95/db47fea17098d718f4b02691bd79f281fb67e162c92ea9a8e4b3e8010aa0/u-umetrics-1.0.7.tar.gz
+[2023-06-16 10:53:41] INFO root fetch - processPackages [trilium-py]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-06-16 10:53:41] INFO root fetch - processPackages [djangocms-googlemap]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-16 10:53:41] INFO root fetch - processPackages [tablemaster]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-16 10:53:41] INFO root fetch - processPackages [loko-extensions]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-16 10:53:41] WARNING root fetch - processPackages [mapget]: Skipping, unable to determine old version
+[2023-06-16 10:53:42] INFO root fetch - processPackages [mapget]: Start processing: flightanalysis
+[2023-06-16 10:53:42] INFO root fetch - main [MainThread]: End processing [mapget] error
+[2023-06-16 10:53:42] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306060908] Old Version: [0.1.9.dev202306051512]
+[2023-06-16 10:53:42] INFO root fetch - processPackages [mindlakesdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-16 10:53:42] INFO root fetch - processPackages [revChatGPT]: New version: [6.3.2] Old Version: [6.3.1]
+[2023-06-16 10:53:42] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230616] Old Version: [2.14.0.dev20230615]
+[2023-06-16 10:53:42] INFO root fetch - processPackages [flightanalysis]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-16 10:53:42] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/98/f2/c540be965a0f22629fdcd5a15691ae3a36badf9800a1c3cfc35a9d4382c3/tablemaster-1.1.0.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [djangocms-googlemap]: Downloading https://files.pythonhosted.org/packages/d6/2e/0bd3f1eea0274c07f0f320c39b77b458c1cfef811c15c5b2cd9fd71b5b32/djangocms-googlemap-2.0.0.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [u-umetrics]: Downloading https://files.pythonhosted.org/packages/7b/b5/9332ea62a4580581ed687e2a520f04a039a18f1b4a8e7912a1d3c6fe02da/u-umetrics-1.0.8.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/5e/5b/13a3b634835bd20f00dd5db20fe114d71d25bac2a829ec80825ef2789b83/flightanalysis-0.1.6.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/87/a7/6a453a13323cd23d58747ac82b2a78d39a008bc35fb4950e4ba9b79d8f28/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/75/2b/b9d124901b6669d42928191eb233c541a52aaea52aeb40d17578cfdb8760/trilium_py-0.7.5-py3-none-any.whl
+[2023-06-16 10:53:42] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/89/bd/b66c1a810934707c9916c1b6dfffb6a6a9666a15161051d67d4df69d2835/revChatGPT-6.3.1.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [loko-extensions]: Downloading https://files.pythonhosted.org/packages/9d/7d/c92e1e09872ae1e2c4c09026a5e7b79a4312c3b6e0fc492e78b6c5ffb604/loko-extensions-0.0.2.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [u-umetrics]: executing diffoscope
+[2023-06-16 10:53:42] INFO root fetch - processPackages [u-umetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/u-umetrics-1.0.7.tar.gz tmp/u-umetrics-1.0.8.tar.gz --markdown 20230616/u/u-umetrics/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-16 10:53:42] INFO root fetch - processPackages [mindlakesdk]: Downloading https://files.pythonhosted.org/packages/34/ba/3a74c79c8c24900ec05ee786bb3eb623d2f67722cfcf3150549524b761a0/mindlakesdk-1.0.1.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/3c/2c/2038aea00c0dadc08ef5bff602422532a8fcb22981049870b97b4bf3fde4/tf_nightly-2.14.0.dev20230615-cp39-cp39-win_amd64.whl
+[2023-06-16 10:53:42] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/a2/5b/d5cd133de0de4179deebcff412575603a1b3b32b17c8375a454e8e01244b/tablemaster-1.1.1.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/68/19/0772ed8dc539e22a9f696c32cfe005c2b46dfba88557b5bf292cf3784ca6/flightanalysis-0.1.7.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [djangocms-googlemap]: Downloading https://files.pythonhosted.org/packages/94/4b/6c9976d141f9fce3fc5f0e99138347a004c570ceded3620f4211a9946347/djangocms-googlemap-2.1.0.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [tablemaster]: executing diffoscope
+[2023-06-16 10:53:42] INFO root fetch - processPackages [tablemaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemaster-1.1.0.tar.gz tmp/tablemaster-1.1.1.tar.gz --markdown 20230616/t/tablemaster/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-16 10:53:42] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/66/8b/cd5538435e1cd6ba9f87d34d251f6485eaeed6d75cc9c267e78b4465dff5/trilium_py-0.7.6-py3-none-any.whl
+[2023-06-16 10:53:42] INFO root fetch - processPackages [flightanalysis]: executing diffoscope
+[2023-06-16 10:53:42] INFO root fetch - processPackages [flightanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightanalysis-0.1.6.tar.gz tmp/flightanalysis-0.1.7.tar.gz --markdown 20230616/f/flightanalysis/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-16 10:53:42] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/65/bf/5a78a3a18fc625b1e0e40bf6dd481b649e5bf425cc0047ab2762f24d37ea/revChatGPT-6.3.2.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/46/a6/d70524bbe419df1d8594bd3dae08046618ec06b9b059ce8f712c7417fba5/tf_nightly-2.14.0.dev20230616-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-16 10:53:42] INFO root fetch - processPackages [djangocms-googlemap]: executing diffoscope
+[2023-06-16 10:53:42] INFO root fetch - processPackages [djangocms-googlemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-googlemap-2.0.0.tar.gz tmp/djangocms-googlemap-2.1.0.tar.gz --markdown 20230616/d/djangocms-googlemap/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-16 10:53:42] INFO root fetch - processPackages [mindlakesdk]: Downloading https://files.pythonhosted.org/packages/42/ba/92e3f732ab0d586645ad9356d8fd46c2abc239b89839c122152d505d20d6/mindlakesdk-1.0.2.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [loko-extensions]: Downloading https://files.pythonhosted.org/packages/b7/9b/59c1c1041f1f888700b94052cdd5f7fb4e5d691fbd89ede1eb5a9617f4e1/loko-extensions-0.0.3.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/4a/b0/7349a84c86940e5f8c8b22ef05d6ade85f6619aa27865d53025dd91feed9/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz
+[2023-06-16 10:53:42] INFO root fetch - processPackages [trilium-py]: executing diffoscope
+[2023-06-16 10:53:42] INFO root fetch - processPackages [trilium-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trilium_py-0.7.5-py3-none-any.whl.zip tmp/trilium_py-0.7.6-py3-none-any.whl.zip --markdown 20230616/t/trilium-py/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-06-16 10:53:42] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-16 10:53:42] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.3.1.tar.gz tmp/revChatGPT-6.3.2.tar.gz --markdown 20230616/r/revChatGPT/6.3.1-6.3.2/diff.md --exclude *.pyd
+[2023-06-16 10:53:42] INFO root fetch - processPackages [mindlakesdk]: executing diffoscope
+[2023-06-16 10:53:42] INFO root fetch - processPackages [mindlakesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindlakesdk-1.0.1.tar.gz tmp/mindlakesdk-1.0.2.tar.gz --markdown 20230616/m/mindlakesdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-16 10:53:42] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-16 10:53:42] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz --markdown 20230616/h/hcai-nova-server-nightly/0.1.9.dev202306051512-0.1.9.dev202306060908/diff.md --exclude *.pyd
+[2023-06-16 10:53:42] INFO root fetch - processPackages [loko-extensions]: executing diffoscope
+[2023-06-16 10:53:42] INFO root fetch - processPackages [loko-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loko-extensions-0.0.2.tar.gz tmp/loko-extensions-0.0.3.tar.gz --markdown 20230616/l/loko-extensions/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-16 10:53:42] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491156971>=10485760
+[2023-06-16 10:53:42] INFO root fetch - processPackages [tf-nightly]: Start processing: th2-grpc-lw-data-provider
+[2023-06-16 10:53:42] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-16 10:53:42] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5287554779]
+[2023-06-16 10:53:42] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/49/23/aea713479a26aa06a70487308e9220351fc85c9a8fbd3dc4e54bc3183aa1/th2_grpc_lw_data_provider-2.0.0.dev5287554779.tar.gz
+[2023-06-16 10:53:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-16 10:53:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-16 10:53:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5287554779.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230616/t/th2-grpc-lw-data-provider/2.0.0.dev5287554779-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-16 10:53:43] INFO root fetch - processPackages [u-umetrics]: Remove: archive file [/home/abi/fetcher/tmp/u-umetrics-1.0.7.tar.gz]
+[2023-06-16 10:53:43] INFO root fetch - processPackages [u-umetrics]: Remove: archive file [/home/abi/fetcher/tmp/u-umetrics-1.0.8.tar.gz]
+[2023-06-16 10:53:43] INFO root fetch - processPackages [u-umetrics]: Start processing: yplib
+[2023-06-16 10:53:43] INFO root fetch - main [MainThread]: End processing [u-umetrics]: success
+[2023-06-16 10:53:43] INFO root fetch - processPackages [yplib]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-16 10:53:43] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/99/09/0996d75c21ad4ebdeffb82b098d2bee2fe71a08e204982ee7db4b044c3df/yplib-1.5.3.tar.gz
+[2023-06-16 10:53:43] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.1.0.tar.gz]
+[2023-06-16 10:53:43] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.1.1.tar.gz]
+[2023-06-16 10:53:43] INFO root fetch - processPackages [tablemaster]: Start processing: sword-to-json
+[2023-06-16 10:53:43] INFO root fetch - main [MainThread]: End processing [tablemaster]: success
+[2023-06-16 10:53:43] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e7/2e/676c33a2a958e134e40b7097c3a283ae7fac8dd626ab6aeac13b73a27e13/yplib-1.5.4.tar.gz
+[2023-06-16 10:53:44] INFO root fetch - processPackages [sword-to-json]: New version: [4.1.0] Old Version: [4.0.1]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 10:53:44] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.5.3.tar.gz tmp/yplib-1.5.4.tar.gz --markdown 20230616/y/yplib/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-16 10:53:44] INFO root fetch - processPackages [sword-to-json]: Downloading https://files.pythonhosted.org/packages/a5/60/00055fafeb3efd01595b1ff30ab40ac319d730e9e98e733520ec5f09a949/sword_to_json-4.0.1.tar.gz
+[2023-06-16 10:53:44] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.7.5-py3-none-any.whl.zip]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.7.6-py3-none-any.whl.zip]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [trilium-py]: Start processing: vina
+[2023-06-16 10:53:44] INFO root fetch - main [MainThread]: End processing [trilium-py]: success
+[2023-06-16 10:53:44] INFO root fetch - processPackages [vina]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.3.1.tar.gz]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.3.2.tar.gz]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [revChatGPT]: Start processing: la-headers
+[2023-06-16 10:53:44] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-16 10:53:44] INFO root fetch - processPackages [sword-to-json]: Downloading https://files.pythonhosted.org/packages/d9/3b/720050d0fb3957579d6909db4047035bbb2739f306a95347648e322cf320/sword_to_json-4.1.0.tar.gz
+[2023-06-16 10:53:44] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [la-headers]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.1.6.tar.gz]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.1.7.tar.gz]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: enzyme-jax
+[2023-06-16 10:53:44] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-16 10:53:44] INFO root fetch - main [MainThread]: End processing [flightanalysis]: success
+[2023-06-16 10:53:44] INFO root fetch - processPackages [vina]: Downloading https://files.pythonhosted.org/packages/36/9c/f0d0875bff32a192a6496ea058775faf06dea3e78a60403f3ac09163c107/vina-1.2.4.tar.gz
+[2023-06-16 10:53:44] INFO root fetch - processPackages [sword-to-json]: executing diffoscope
+[2023-06-16 10:53:44] INFO root fetch - processPackages [sword-to-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sword_to_json-4.0.1.tar.gz tmp/sword_to_json-4.1.0.tar.gz --markdown 20230616/s/sword-to-json/4.0.1-4.1.0/diff.md --exclude *.pyd
+[2023-06-16 10:53:44] INFO root fetch - processPackages [la-headers]: Downloading https://files.pythonhosted.org/packages/b1/ef/e8138faf52e048b01024105507f3763345cebdf93fda4ce505f943599b80/la-headers-0.0.1.tar.gz
+[2023-06-16 10:53:44] INFO root fetch - processPackages [enzyme-jax]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [loko-extensions]: Remove: archive file [/home/abi/fetcher/tmp/loko-extensions-0.0.2.tar.gz]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [loko-extensions]: Remove: archive file [/home/abi/fetcher/tmp/loko-extensions-0.0.3.tar.gz]
+[2023-06-16 10:53:44] INFO root fetch - main [MainThread]: End processing [loko-extensions]: success
+[2023-06-16 10:53:44] INFO root fetch - processPackages [mindlakesdk]: Remove: archive file [/home/abi/fetcher/tmp/mindlakesdk-1.0.1.tar.gz]
+[2023-06-16 10:53:44] INFO root fetch - processPackages [mindlakesdk]: Remove: archive file [/home/abi/fetcher/tmp/mindlakesdk-1.0.2.tar.gz]
+[2023-06-16 10:53:44] INFO root fetch - main [MainThread]: End processing [mindlakesdk]: success
+[2023-06-16 10:53:44] INFO root fetch - processPackages [vina]: Downloading https://files.pythonhosted.org/packages/75/b2/1dad979aea28fcca8aa06832744aa1b62ab80cad08980115a580a4861b8d/vina-1.2.5.tar.gz
+[2023-06-16 10:53:44] INFO root fetch - processPackages [la-headers]: Downloading https://files.pythonhosted.org/packages/86/ca/de18943d11ec1f1fa9b5c4b21a9b9c587ef28bb02b95e455b5d1f6df73c7/la-headers-0.0.2.tar.gz
+[2023-06-16 10:53:44] INFO root fetch - processPackages [enzyme-jax]: Downloading https://files.pythonhosted.org/packages/a0/c8/a61eb372302dc93dffbd8585510af7634da133984acbdda4e896b20750b5/enzyme_jax-0.0.1-py3-none-any.whl
+[2023-06-16 10:53:44] INFO root fetch - processPackages [la-headers]: executing diffoscope
+[2023-06-16 10:53:44] INFO root fetch - processPackages [la-headers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/la-headers-0.0.1.tar.gz tmp/la-headers-0.0.2.tar.gz --markdown 20230616/l/la-headers/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 10:53:44] INFO root fetch - processPackages [vina]: executing diffoscope
+[2023-06-16 10:53:44] INFO root fetch - processPackages [vina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vina-1.2.4.tar.gz tmp/vina-1.2.5.tar.gz --markdown 20230616/v/vina/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-16 10:53:45] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5287554779.tar.gz]
+[2023-06-16 10:53:45] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-16 10:53:45] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-16 10:53:45] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.3.tar.gz]
+[2023-06-16 10:53:45] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.4.tar.gz]
+[2023-06-16 10:53:45] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 10:53:45] WARNING root fetch - processPackages [enzyme-jax]: Skipping package: exceeds size limit 34549645>=10485760
+[2023-06-16 10:53:45] INFO root fetch - main [MainThread]: End processing [enzyme-jax] error
+[2023-06-16 10:53:45] INFO root fetch - processPackages [sword-to-json]: Remove: archive file [/home/abi/fetcher/tmp/sword_to_json-4.0.1.tar.gz]
+[2023-06-16 10:53:45] INFO root fetch - processPackages [sword-to-json]: Remove: archive file [/home/abi/fetcher/tmp/sword_to_json-4.1.0.tar.gz]
+[2023-06-16 10:53:45] INFO root fetch - main [MainThread]: End processing [sword-to-json]: success
+[2023-06-16 10:53:46] INFO root fetch - processPackages [la-headers]: Remove: archive file [/home/abi/fetcher/tmp/la-headers-0.0.1.tar.gz]
+[2023-06-16 10:53:46] INFO root fetch - processPackages [la-headers]: Remove: archive file [/home/abi/fetcher/tmp/la-headers-0.0.2.tar.gz]
+[2023-06-16 10:53:46] INFO root fetch - main [MainThread]: End processing [la-headers]: success
+[2023-06-16 10:53:46] INFO root fetch - processPackages [vina]: Remove: archive file [/home/abi/fetcher/tmp/vina-1.2.4.tar.gz]
+[2023-06-16 10:53:46] INFO root fetch - processPackages [vina]: Remove: archive file [/home/abi/fetcher/tmp/vina-1.2.5.tar.gz]
+[2023-06-16 10:53:46] INFO root fetch - main [MainThread]: End processing [vina]: success
+[2023-06-16 10:53:47] INFO root fetch - processPackages [djangocms-googlemap]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-googlemap-2.0.0.tar.gz]
+[2023-06-16 10:53:47] INFO root fetch - processPackages [djangocms-googlemap]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-googlemap-2.1.0.tar.gz]
+[2023-06-16 10:53:47] INFO root fetch - main [MainThread]: End processing [djangocms-googlemap]: success
+[2023-06-16 10:53:47] INFO root fetch - main [MainThread]: Store serial: [18529639]
