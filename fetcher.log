@@ -17921,3 +17921,164 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 10:42:59] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.64.tar.gz]
 [2023-06-16 10:42:59] INFO root fetch - main [MainThread]: End processing [UComp]: success
 [2023-06-16 10:42:59] INFO root fetch - main [MainThread]: Store serial: [18529507]
+[2023-06-16 10:48:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18529507]
+[2023-06-16 10:48:10] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-16 10:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: garpixcms
+[2023-06-16 10:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterhub-ltiauthenticator
+[2023-06-16 10:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-tf-module-stack
+[2023-06-16 10:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cns
+[2023-06-16 10:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molecule-qemu
+[2023-06-16 10:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SoMaJo
+[2023-06-16 10:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubedeployer
+[2023-06-16 10:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: microdata-tools
+[2023-06-16 10:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cleanlab-studio
+[2023-06-16 10:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: utillc
+[2023-06-16 10:48:10] INFO root fetch - processPackages [molecule-qemu]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-16 10:48:10] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-16 10:48:10] INFO root fetch - processPackages [utillc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-16 10:48:10] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/c0/e4/8d3640461f6dea63bdfdfcab38d7d705207973e5f97501d7d9b5c7e98b3d/molecule-qemu-0.4.8.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: Downloading https://files.pythonhosted.org/packages/4a/67/5813b6cc3b8b768eafb0815fada7c2390967150d5d34208e1ecbbe68f5d5/jupyterhub_ltiauthenticator-1.5.1.tar.gz
+[2023-06-16 10:48:10] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-16 10:48:10] INFO root fetch - processPackages [cns]: Start processing: tfp-nightly
+[2023-06-16 10:48:10] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-16 10:48:10] INFO root fetch - processPackages [SoMaJo]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-06-16 10:48:10] INFO root fetch - processPackages [cleanlab-studio]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-16 10:48:10] INFO root fetch - processPackages [kubedeployer]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-16 10:48:10] WARNING root fetch - processPackages [microdata-tools]: Skipping, unable to determine old version
+[2023-06-16 10:48:10] INFO root fetch - processPackages [microdata-tools]: Start processing: evatr-client
+[2023-06-16 10:48:10] INFO root fetch - main [MainThread]: End processing [microdata-tools] error
+[2023-06-16 10:48:10] INFO root fetch - processPackages [utillc]: Downloading https://files.pythonhosted.org/packages/cc/f6/8602a3365c5bdae211c3ac294519f44f09a48d78f82481686f04441605d1/utillc-0.9.8-py2.py3-none-any.whl
+[2023-06-16 10:48:10] INFO root fetch - processPackages [garpixcms]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-06-16 10:48:10] INFO root fetch - processPackages [evatr-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 10:48:10] INFO root fetch - processPackages [cdktf-tf-module-stack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-16 10:48:10] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-16 10:48:10] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-16 10:48:10] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: Downloading https://files.pythonhosted.org/packages/b4/fb/b7301d9a85240f7198db89bd54d35cfb6601c60693a1b871746118e09123/jupyterhub_ltiauthenticator-1.6.0.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/2b/1d/3d8d8ae011263dd432e233bf3fe5a7634ac2580ea8b1314c0f4708da7eeb/molecule-qemu-0.4.9.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [utillc]: Downloading https://files.pythonhosted.org/packages/d8/3c/db840ab098014cd53956ab58f90e832f7dc4cd45fba1ebcbb74463d04f94/utillc-0.9.9-py2.py3-none-any.whl
+[2023-06-16 10:48:10] INFO root fetch - processPackages [SoMaJo]: Downloading https://files.pythonhosted.org/packages/90/40/6f501c33e95f3952e3f8e8ca4436a88fb5e3788e1c98c8224e5e6722be7c/SoMaJo-2.2.3.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/2e/72/8df1ba4f8153a819d5db40fdc6b48091de75fbada87154b337e22cbfe639/cleanlab-studio-1.0.7.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [evatr-client]: Downloading https://files.pythonhosted.org/packages/ac/d7/30fa2397d2de392608c28055955e598f2e6506209e3816498e90df1cce65/evatr-client-0.0.1.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/4d/c0/6f78c49f39cfc2c512363586ecc539abbe99cf635e8fc089e2e966989e9e/cdktf-tf-module-stack-2.0.8.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [garpixcms]: Downloading https://files.pythonhosted.org/packages/6b/67/9021d16fb3074fca17705315ff5b730c565961dbb3a39a09b17607600918/garpixcms-4.3.0.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: executing diffoscope
+[2023-06-16 10:48:10] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub_ltiauthenticator-1.5.1.tar.gz tmp/jupyterhub_ltiauthenticator-1.6.0.tar.gz --markdown 20230616/j/jupyterhub-ltiauthenticator/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-16 10:48:10] INFO root fetch - processPackages [kubedeployer]: Downloading https://files.pythonhosted.org/packages/15/82/09ba9a4c529abb6577cf7a2a413a0cee7af322275e01a84ea464d7dfdd14/kubedeployer-1.2.1.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [utillc]: executing diffoscope
+[2023-06-16 10:48:10] INFO root fetch - processPackages [utillc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utillc-0.9.8-py2.py3-none-any.whl.zip tmp/utillc-0.9.9-py2.py3-none-any.whl.zip --markdown 20230616/u/utillc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-16 10:48:10] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2023-06-16 10:48:10] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.4.8.tar.gz tmp/molecule-qemu-0.4.9.tar.gz --markdown 20230616/m/molecule-qemu/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-16 10:48:10] INFO root fetch - processPackages [evatr-client]: Downloading https://files.pythonhosted.org/packages/61/97/b1832535198395f44fa5bc64661aa419c64ebc162e01bced21595eae2862/evatr-client-0.0.2.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [evatr-client]: executing diffoscope
+[2023-06-16 10:48:10] INFO root fetch - processPackages [evatr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evatr-client-0.0.1.tar.gz tmp/evatr-client-0.0.2.tar.gz --markdown 20230616/e/evatr-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 10:48:10] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/eb/0e/c12a2ce4f9876b07ff77b367a018025495674a258d19f2188e65f655d352/cleanlab-studio-1.0.8.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/89/41/87af5276a32f8509872a75834f57e534f04ad290920898b254db0d5b70d2/cdktf-tf-module-stack-2.0.9.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [kubedeployer]: Downloading https://files.pythonhosted.org/packages/25/e1/8d7f4bb01bdaa0cb4512ad6bbab91a35cf7b8085441f1d2f00f03454103d/kubedeployer-1.2.2.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [SoMaJo]: Downloading https://files.pythonhosted.org/packages/6b/22/ad6543ed7abc40ddbfdcfcc6e444f0f662ca7c59192d54db33d3a4acf178/SoMaJo-2.2.4.tar.gz
+[2023-06-16 10:48:10] INFO root fetch - processPackages [cdktf-tf-module-stack]: executing diffoscope
+[2023-06-16 10:48:10] INFO root fetch - processPackages [cdktf-tf-module-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-tf-module-stack-2.0.8.tar.gz tmp/cdktf-tf-module-stack-2.0.9.tar.gz --markdown 20230616/c/cdktf-tf-module-stack/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-16 10:48:11] INFO root fetch - processPackages [garpixcms]: Downloading https://files.pythonhosted.org/packages/e0/ba/6eaebba36535dd3501f9d8cc4d7af681a049fd9b51f6f1fb7734ac220e28/garpixcms-4.3.1.tar.gz
+[2023-06-16 10:48:11] INFO root fetch - processPackages [cleanlab-studio]: executing diffoscope
+[2023-06-16 10:48:11] INFO root fetch - processPackages [cleanlab-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanlab-studio-1.0.7.tar.gz tmp/cleanlab-studio-1.0.8.tar.gz --markdown 20230616/c/cleanlab-studio/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-16 10:48:11] INFO root fetch - processPackages [SoMaJo]: executing diffoscope
+[2023-06-16 10:48:11] INFO root fetch - processPackages [SoMaJo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SoMaJo-2.2.3.tar.gz tmp/SoMaJo-2.2.4.tar.gz --markdown 20230616/S/SoMaJo/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-06-16 10:48:11] INFO root fetch - processPackages [kubedeployer]: executing diffoscope
+[2023-06-16 10:48:11] INFO root fetch - processPackages [kubedeployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubedeployer-1.2.1.tar.gz tmp/kubedeployer-1.2.2.tar.gz --markdown 20230616/k/kubedeployer/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-16 10:48:11] INFO root fetch - processPackages [garpixcms]: executing diffoscope
+[2023-06-16 10:48:11] INFO root fetch - processPackages [garpixcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpixcms-4.3.0.tar.gz tmp/garpixcms-4.3.1.tar.gz --markdown 20230616/g/garpixcms/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-06-16 10:48:11] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-16 10:48:12] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub_ltiauthenticator-1.5.1.tar.gz]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub_ltiauthenticator-1.6.0.tar.gz]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: Start processing: chainlit
+[2023-06-16 10:48:12] INFO root fetch - main [MainThread]: End processing [jupyterhub-ltiauthenticator]: success
+[2023-06-16 10:48:12] INFO root fetch - processPackages [utillc]: Remove: archive file [/home/abi/fetcher/tmp/utillc-0.9.8-py2.py3-none-any.whl.zip]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [utillc]: Remove: archive file [/home/abi/fetcher/tmp/utillc-0.9.9-py2.py3-none-any.whl.zip]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [utillc]: Start processing: m-scheduler-partitioning
+[2023-06-16 10:48:12] INFO root fetch - main [MainThread]: End processing [utillc]: success
+[2023-06-16 10:48:12] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-16 10:48:12] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230616/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-16 10:48:12] INFO root fetch - processPackages [chainlit]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [evatr-client]: Remove: archive file [/home/abi/fetcher/tmp/evatr-client-0.0.1.tar.gz]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [evatr-client]: Remove: archive file [/home/abi/fetcher/tmp/evatr-client-0.0.2.tar.gz]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [evatr-client]: Start processing: memv
+[2023-06-16 10:48:12] INFO root fetch - main [MainThread]: End processing [evatr-client]: success
+[2023-06-16 10:48:12] INFO root fetch - processPackages [m-scheduler-partitioning]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [memv]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/b8/1a/cda801c0de16823a1e8d9ea8f936485c269a5a11d5ab1db50a9aa2d6523c/chainlit-0.3.0.tar.gz
+[2023-06-16 10:48:12] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-2.0.8.tar.gz]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-2.0.9.tar.gz]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [cdktf-tf-module-stack]: Start processing: bemserver-ui
+[2023-06-16 10:48:12] INFO root fetch - main [MainThread]: End processing [cdktf-tf-module-stack]: success
+[2023-06-16 10:48:12] INFO root fetch - processPackages [m-scheduler-partitioning]: Downloading https://files.pythonhosted.org/packages/76/40/741ba6bdff39920818185045f088a131f520fd4033f492a031376417478d/m_scheduler_partitioning-0.1.8.tar.gz
+[2023-06-16 10:48:12] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/e5/80/a87cfb04caa1564adc9cd326406e3a22703036f22a19e2941da2d0c8f78f/memv-0.0.2.1.tar.gz
+[2023-06-16 10:48:12] INFO root fetch - processPackages [bemserver-ui]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/b4/97/11203b76e5d8f1a4d02afffb3a9e7bdb5dd332470a14d8b85d08537e8589/chainlit-0.4.0.tar.gz
+[2023-06-16 10:48:12] INFO root fetch - processPackages [cleanlab-studio]: Remove: archive file [/home/abi/fetcher/tmp/cleanlab-studio-1.0.7.tar.gz]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [cleanlab-studio]: Remove: archive file [/home/abi/fetcher/tmp/cleanlab-studio-1.0.8.tar.gz]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [cleanlab-studio]: Start processing: mindrove
+[2023-06-16 10:48:12] INFO root fetch - main [MainThread]: End processing [cleanlab-studio]: success
+[2023-06-16 10:48:12] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/9b/6d/4f1c610e4aec7ae52381bdb5fd22103db1f281dfff94962bba1375172180/memv-0.0.2.2.tar.gz
+[2023-06-16 10:48:12] INFO root fetch - processPackages [SoMaJo]: Remove: archive file [/home/abi/fetcher/tmp/SoMaJo-2.2.3.tar.gz]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [SoMaJo]: Remove: archive file [/home/abi/fetcher/tmp/SoMaJo-2.2.4.tar.gz]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [SoMaJo]: Start processing: jupyter-utility-widgets
+[2023-06-16 10:48:12] INFO root fetch - main [MainThread]: End processing [SoMaJo]: success
+[2023-06-16 10:48:12] INFO root fetch - processPackages [bemserver-ui]: Downloading https://files.pythonhosted.org/packages/61/04/f260ace9d225c327cf25e4c57be9e3cd6122ac48b75f87ed6695d5a727e5/bemserver-ui-0.5.2.tar.gz
+[2023-06-16 10:48:12] INFO root fetch - processPackages [m-scheduler-partitioning]: Downloading https://files.pythonhosted.org/packages/2e/19/a5dd6830711dfd3522cce383414bde5dfa1023bfee8dfe72320d6d15e1ae/m_scheduler_partitioning-0.1.9.tar.gz
+[2023-06-16 10:48:12] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2023-06-16 10:48:12] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-0.3.0.tar.gz tmp/chainlit-0.4.0.tar.gz --markdown 20230616/c/chainlit/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-16 10:48:12] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 10:48:12] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.2.1.tar.gz tmp/memv-0.0.2.2.tar.gz --markdown 20230616/m/memv/0.0.2.1-0.0.2.2/diff.md --exclude *.pyd
+[2023-06-16 10:48:12] INFO root fetch - processPackages [mindrove]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [m-scheduler-partitioning]: executing diffoscope
+[2023-06-16 10:48:12] INFO root fetch - processPackages [m-scheduler-partitioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m_scheduler_partitioning-0.1.8.tar.gz tmp/m_scheduler_partitioning-0.1.9.tar.gz --markdown 20230616/m/m-scheduler-partitioning/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 10:48:12] INFO root fetch - processPackages [jupyter-utility-widgets]: New version: [0.0.1a0] Old Version: [0.0.0a5]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [garpixcms]: Remove: archive file [/home/abi/fetcher/tmp/garpixcms-4.3.0.tar.gz]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [garpixcms]: Remove: archive file [/home/abi/fetcher/tmp/garpixcms-4.3.1.tar.gz]
+[2023-06-16 10:48:12] INFO root fetch - processPackages [garpixcms]: Start processing: antchain-nftx
+[2023-06-16 10:48:12] INFO root fetch - main [MainThread]: End processing [garpixcms]: success
+[2023-06-16 10:48:12] INFO root fetch - processPackages [antchain-nftx]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-06-16 10:48:13] INFO root fetch - processPackages [antchain-nftx]: Downloading https://files.pythonhosted.org/packages/5b/3c/e6c4c01602a46854a95313f36d02a6b8a82a3acf0328327edb1f071aa8f1/antchain_nftx-1.8.4.tar.gz
+[2023-06-16 10:48:13] INFO root fetch - processPackages [bemserver-ui]: Downloading https://files.pythonhosted.org/packages/42/fa/82e1449a0b029836bd089604f20729ba1268d0adf0b7f8d6ed85d025d7a9/bemserver-ui-0.5.3.tar.gz
+[2023-06-16 10:48:13] INFO root fetch - processPackages [mindrove]: Downloading https://files.pythonhosted.org/packages/49/95/8d1823bbaf38c0ef515f599d2685d43182774f83c16095548679d68ae4f1/mindrove-0.0.4.win-amd64.zip
+[2023-06-16 10:48:13] INFO root fetch - processPackages [jupyter-utility-widgets]: Downloading https://files.pythonhosted.org/packages/58/1b/f003721178471a103ca7df3d2e944bf2676b168bf7be299c945fca00ef6d/jupyter-utility-widgets-0.0.0a5.tar.gz
+[2023-06-16 10:48:13] INFO root fetch - processPackages [bemserver-ui]: executing diffoscope
+[2023-06-16 10:48:13] INFO root fetch - processPackages [bemserver-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-ui-0.5.2.tar.gz tmp/bemserver-ui-0.5.3.tar.gz --markdown 20230616/b/bemserver-ui/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-16 10:48:13] INFO root fetch - processPackages [antchain-nftx]: Downloading https://files.pythonhosted.org/packages/16/0d/ca37646d86a183dffa686dfd6e2d8899223928da71f93012d162526001da/antchain_nftx-1.8.5.tar.gz
+[2023-06-16 10:48:13] INFO root fetch - processPackages [antchain-nftx]: executing diffoscope
+[2023-06-16 10:48:13] INFO root fetch - processPackages [antchain-nftx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_nftx-1.8.4.tar.gz tmp/antchain_nftx-1.8.5.tar.gz --markdown 20230616/a/antchain-nftx/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-06-16 10:48:13] INFO root fetch - processPackages [jupyter-utility-widgets]: Downloading https://files.pythonhosted.org/packages/42/fb/973f1fdb6d59de53c867c827dbfc2e79de3cfc3db53f0bc4635fa6f6254a/jupyter-utility-widgets-0.0.1a0.tar.gz
+[2023-06-16 10:48:13] INFO root fetch - processPackages [jupyter-utility-widgets]: executing diffoscope
+[2023-06-16 10:48:13] INFO root fetch - processPackages [jupyter-utility-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-utility-widgets-0.0.0a5.tar.gz tmp/jupyter-utility-widgets-0.0.1a0.tar.gz --markdown 20230616/j/jupyter-utility-widgets/0.0.0a5-0.0.1a0/diff.md --exclude *.pyd
+[2023-06-16 10:48:13] WARNING root fetch - processPackages [mindrove]: Skipping package: exceeds size limit 11001447>=10485760
+[2023-06-16 10:48:13] INFO root fetch - processPackages [mindrove]: Start processing: hxeva
+[2023-06-16 10:48:13] INFO root fetch - main [MainThread]: End processing [mindrove] error
+[2023-06-16 10:48:13] WARNING root fetch - processPackages [hxeva]: Skipping, unable to determine old version
+[2023-06-16 10:48:13] INFO root fetch - main [MainThread]: End processing [hxeva] error
+[2023-06-16 10:48:13] INFO root fetch - processPackages [kubedeployer]: Remove: archive file [/home/abi/fetcher/tmp/kubedeployer-1.2.1.tar.gz]
+[2023-06-16 10:48:13] INFO root fetch - processPackages [kubedeployer]: Remove: archive file [/home/abi/fetcher/tmp/kubedeployer-1.2.2.tar.gz]
+[2023-06-16 10:48:13] INFO root fetch - main [MainThread]: End processing [kubedeployer]: success
+[2023-06-16 10:48:14] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.1.tar.gz]
+[2023-06-16 10:48:14] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.2.tar.gz]
+[2023-06-16 10:48:14] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 10:48:14] INFO root fetch - processPackages [m-scheduler-partitioning]: Remove: archive file [/home/abi/fetcher/tmp/m_scheduler_partitioning-0.1.8.tar.gz]
+[2023-06-16 10:48:14] INFO root fetch - processPackages [m-scheduler-partitioning]: Remove: archive file [/home/abi/fetcher/tmp/m_scheduler_partitioning-0.1.9.tar.gz]
+[2023-06-16 10:48:14] INFO root fetch - main [MainThread]: End processing [m-scheduler-partitioning]: success
+[2023-06-16 10:48:14] INFO root fetch - processPackages [antchain-nftx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftx-1.8.4.tar.gz]
+[2023-06-16 10:48:14] INFO root fetch - processPackages [antchain-nftx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftx-1.8.5.tar.gz]
+[2023-06-16 10:48:14] INFO root fetch - main [MainThread]: End processing [antchain-nftx]: success
+[2023-06-16 10:48:14] INFO root fetch - processPackages [jupyter-utility-widgets]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-utility-widgets-0.0.0a5.tar.gz]
+[2023-06-16 10:48:14] INFO root fetch - processPackages [jupyter-utility-widgets]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-utility-widgets-0.0.1a0.tar.gz]
+[2023-06-16 10:48:14] INFO root fetch - main [MainThread]: End processing [jupyter-utility-widgets]: success
+[2023-06-16 10:48:15] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.4.8.tar.gz]
+[2023-06-16 10:48:15] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.4.9.tar.gz]
+[2023-06-16 10:48:15] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
+[2023-06-16 10:48:21] INFO root fetch - processPackages [bemserver-ui]: Remove: archive file [/home/abi/fetcher/tmp/bemserver-ui-0.5.2.tar.gz]
+[2023-06-16 10:48:21] INFO root fetch - processPackages [bemserver-ui]: Remove: archive file [/home/abi/fetcher/tmp/bemserver-ui-0.5.3.tar.gz]
+[2023-06-16 10:48:21] INFO root fetch - main [MainThread]: End processing [bemserver-ui]: success
+[2023-06-16 10:48:24] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-16 10:48:24] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-16 10:48:24] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-16 10:48:32] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-0.3.0.tar.gz]
+[2023-06-16 10:48:32] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-0.4.0.tar.gz]
+[2023-06-16 10:48:32] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2023-06-16 10:48:32] INFO root fetch - main [MainThread]: Store serial: [18529569]
