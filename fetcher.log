@@ -12185,3 +12185,98 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 06:38:17] INFO root fetch - processPackages [extremecloudiq-api]: Remove: archive file [/home/abi/fetcher/tmp/extremecloudiq-api-23.3.2.1.tar.gz]
 [2023-06-16 06:38:17] INFO root fetch - main [MainThread]: End processing [extremecloudiq-api]: success
 [2023-06-16 06:38:17] INFO root fetch - main [MainThread]: Store serial: [18527299]
+[2023-06-16 06:43:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527299]
+[2023-06-16 06:43:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-16 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: greynoiselabs
+[2023-06-16 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bcsfe-discord
+[2023-06-16 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acore-db-ssh-tunnel
+[2023-06-16 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kangforecast
+[2023-06-16 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biopipen
+[2023-06-16 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prodiapy
+[2023-06-16 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo9-addon-l10n-it-ddt
+[2023-06-16 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo10-addon-l10n-it-ddt
+[2023-06-16 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kangforecast
+[2023-06-16 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bcsfe-discord
+[2023-06-16 06:43:26] INFO root fetch - processPackages [bcsfe-discord]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-06-16 06:43:26] WARNING root fetch - processPackages [greynoiselabs]: Skipping, unable to determine old version
+[2023-06-16 06:43:26] INFO root fetch - processPackages [greynoiselabs]: Start processing: kasa-crypt
+[2023-06-16 06:43:26] INFO root fetch - main [MainThread]: End processing [greynoiselabs] error
+[2023-06-16 06:43:26] INFO root fetch - processPackages [prodiapy]: New version: [3.1] Old Version: [3.0]
+[2023-06-16 06:43:26] WARNING root fetch - processPackages [acore-db-ssh-tunnel]: Skipping, unable to determine old version
+[2023-06-16 06:43:26] INFO root fetch - processPackages [acore-db-ssh-tunnel]: Start processing: odoo12-addon-l10n-it-invoices-data-communication
+[2023-06-16 06:43:26] INFO root fetch - main [MainThread]: End processing [acore-db-ssh-tunnel] error
+[2023-06-16 06:43:26] INFO root fetch - processPackages [kangforecast]: New version: [0.4] Old Version: [0.3]
+[2023-06-16 06:43:26] INFO root fetch - processPackages [biopipen]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-16 06:43:26] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: New version: [9.0.1.0.0.99.dev47] Old Version: [9.0.1.0.0.99.dev45]
+[2023-06-16 06:43:26] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: New version: [10.0.1.9.0.99.dev9] Old Version: [10.0.1.9.0.99.dev8]
+[2023-06-16 06:43:26] INFO root fetch - processPackages [kangforecast]: New version: [0.4] Old Version: [0.3]
+[2023-06-16 06:43:26] INFO root fetch - processPackages [bcsfe-discord]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-06-16 06:43:26] INFO root fetch - processPackages [kasa-crypt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 06:43:26] INFO root fetch - processPackages [prodiapy]: Downloading https://files.pythonhosted.org/packages/1b/f7/713179512606150f6f912ff628fb7eeba763edbb3ce6c5a198c5c82ff705/prodiapy-3.0.tar.gz
+[2023-06-16 06:43:26] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/a5/8e/ea43c3f8b17ca2e871d77d1dbbf2e019b6aab9877410ee0c3fcd32c9204a/biopipen-0.8.0.tar.gz
+[2023-06-16 06:43:26] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/6e/aa/7adb7ee1590936dcd964b7098965677268e8b26c913bda87ad8acc9b1918/kangforecast-0.3.tar.gz
+[2023-06-16 06:43:26] INFO root fetch - processPackages [odoo12-addon-l10n-it-invoices-data-communication]: New version: [12.0.1.3.2.99.dev8] Old Version: [12.0.1.3.2.99.dev7]
+[2023-06-16 06:43:26] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/6e/aa/7adb7ee1590936dcd964b7098965677268e8b26c913bda87ad8acc9b1918/kangforecast-0.3.tar.gz
+[2023-06-16 06:43:26] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/f8/96/06f4955f5ebb27d0ed680efed29e921b6e1f4ae17e0d472c868864782b93/bcsfe-discord-2.7.8.tar.gz
+[2023-06-16 06:43:26] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/f8/96/06f4955f5ebb27d0ed680efed29e921b6e1f4ae17e0d472c868864782b93/bcsfe-discord-2.7.8.tar.gz
+[2023-06-16 06:43:26] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/ac/fb/ed348a5ffc534e9a68fcfb46ef68389a71a22e98ec09c839754e66c4872b/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev45-py2-none-any.whl
+[2023-06-16 06:43:26] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/97/53/31ae0eb278420e98146e3a246233e6253eefcfb910101ae8bcfba1bd4a8e/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev8-py2-none-any.whl
+[2023-06-16 06:43:26] INFO root fetch - processPackages [kasa-crypt]: Downloading https://files.pythonhosted.org/packages/a8/ca/bafab976787478a41ecbdedfac4335517e0087a2fec935d803b2ba49b79f/kasa_crypt-0.1.1.tar.gz
+[2023-06-16 06:43:27] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/34/4d/fb153c9b41fa48d6d7a50c214bb186d02cafed5396271f1b0f549fd56b16/biopipen-0.9.0.tar.gz
+[2023-06-16 06:43:27] INFO root fetch - processPackages [odoo12-addon-l10n-it-invoices-data-communication]: Downloading https://files.pythonhosted.org/packages/33/47/a69ead4ea5847603eba0b2695c244317b73902f4538b7719fb107ab836ab/odoo12_addon_l10n_it_invoices_data_communication-12.0.1.3.2.99.dev7-py3-none-any.whl
+[2023-06-16 06:43:27] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/4e/87/44e57688ef3edb90a63b0f48a201967495f8ddf8a8d8e52c4f93e3936d7c/kangforecast-0.4.tar.gz
+[2023-06-16 06:43:27] INFO root fetch - processPackages [prodiapy]: Downloading https://files.pythonhosted.org/packages/dd/ef/4b4c2cdaf7592dcec51cc7c701a45c6c199a4509e095ba7412f8217ac6c9/prodiapy-3.1.tar.gz
+[2023-06-16 06:43:27] INFO root fetch - processPackages [biopipen]: executing diffoscope
+[2023-06-16 06:43:27] INFO root fetch - processPackages [biopipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biopipen-0.8.0.tar.gz tmp/biopipen-0.9.0.tar.gz --markdown 20230616/b/biopipen/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 06:43:27] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/4e/87/44e57688ef3edb90a63b0f48a201967495f8ddf8a8d8e52c4f93e3936d7c/kangforecast-0.4.tar.gz
+[2023-06-16 06:43:27] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-16 06:43:27] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.3.tar.gz tmp/kangforecast-0.4.tar.gz --markdown 20230616/k/kangforecast/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-16 06:43:27] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/0a/a8/407cf9aa5ac882cd61a9b30eeaaa35a3a56f727904ad9cdaeb2dc2587e46/bcsfe-discord-2.7.9.tar.gz
+[2023-06-16 06:43:27] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/0a/a8/407cf9aa5ac882cd61a9b30eeaaa35a3a56f727904ad9cdaeb2dc2587e46/bcsfe-discord-2.7.9.tar.gz
+[2023-06-16 06:43:27] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-16 06:43:27] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.3.tar.gz tmp/kangforecast-0.4.tar.gz --markdown 20230616/k/kangforecast/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-16 06:43:27] INFO root fetch - processPackages [prodiapy]: executing diffoscope
+[2023-06-16 06:43:27] INFO root fetch - processPackages [prodiapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodiapy-3.0.tar.gz tmp/prodiapy-3.1.tar.gz --markdown 20230616/p/prodiapy/3.0-3.1/diff.md --exclude *.pyd
+[2023-06-16 06:43:27] INFO root fetch - processPackages [kasa-crypt]: Downloading https://files.pythonhosted.org/packages/41/cc/d7e620eb41c5fa0ea78639262ca5de4935dfc23fdcb9a1b0729fa0406369/kasa_crypt-0.1.2.tar.gz
+[2023-06-16 06:43:27] INFO root fetch - processPackages [bcsfe-discord]: executing diffoscope
+[2023-06-16 06:43:27] INFO root fetch - processPackages [bcsfe-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-discord-2.7.8.tar.gz tmp/bcsfe-discord-2.7.9.tar.gz --markdown 20230616/b/bcsfe-discord/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-06-16 06:43:27] INFO root fetch - processPackages [bcsfe-discord]: executing diffoscope
+[2023-06-16 06:43:27] INFO root fetch - processPackages [bcsfe-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-discord-2.7.8.tar.gz tmp/bcsfe-discord-2.7.9.tar.gz --markdown 20230616/b/bcsfe-discord/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-06-16 06:43:27] INFO root fetch - processPackages [kasa-crypt]: executing diffoscope
+[2023-06-16 06:43:27] INFO root fetch - processPackages [kasa-crypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kasa_crypt-0.1.1.tar.gz tmp/kasa_crypt-0.1.2.tar.gz --markdown 20230616/k/kasa-crypt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 06:43:27] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/a5/43/0c170e149cc6b5c42e629bebe530504fa43440e3880561655eec73d5f020/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev47-py2-none-any.whl
+[2023-06-16 06:43:27] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/ad/14/21b9bc4a6019fe7019038c87e97da19df39b92cdfd6c7c7917251522e55e/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev9-py2-none-any.whl
+[2023-06-16 06:43:27] INFO root fetch - processPackages [odoo12-addon-l10n-it-invoices-data-communication]: Downloading https://files.pythonhosted.org/packages/cf/ca/4019557ba385b140f7e72b26edcba866ffef775aacae3540a7e3c538770f/odoo12_addon_l10n_it_invoices_data_communication-12.0.1.3.2.99.dev8-py3-none-any.whl
+[2023-06-16 06:43:27] INFO root fetch - processPackages [odoo12-addon-l10n-it-invoices-data-communication]: executing diffoscope
+[2023-06-16 06:43:27] INFO root fetch - processPackages [odoo12-addon-l10n-it-invoices-data-communication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_invoices_data_communication-12.0.1.3.2.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_invoices_data_communication-12.0.1.3.2.99.dev8-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-l10n-it-invoices-data-communication/12.0.1.3.2.99.dev7-12.0.1.3.2.99.dev8/diff.md --exclude *.pyd
+[2023-06-16 06:43:27] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: executing diffoscope
+[2023-06-16 06:43:27] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev45-py2-none-any.whl.zip tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev47-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-l10n-it-ddt/9.0.1.0.0.99.dev45-9.0.1.0.0.99.dev47/diff.md --exclude *.pyd
+[2023-06-16 06:43:27] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: executing diffoscope
+[2023-06-16 06:43:27] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev9-py2-none-any.whl.zip --markdown 20230616/o/odoo10-addon-l10n-it-ddt/10.0.1.9.0.99.dev8-10.0.1.9.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 06:43:28] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.3.tar.gz]
+[2023-06-16 06:43:28] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.4.tar.gz]
+[2023-06-16 06:43:28] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-16 06:43:28] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-16 06:43:29] INFO root fetch - processPackages [prodiapy]: Remove: archive file [/home/abi/fetcher/tmp/prodiapy-3.0.tar.gz]
+[2023-06-16 06:43:29] INFO root fetch - processPackages [prodiapy]: Remove: archive file [/home/abi/fetcher/tmp/prodiapy-3.1.tar.gz]
+[2023-06-16 06:43:29] INFO root fetch - main [MainThread]: End processing [prodiapy]: success
+[2023-06-16 06:43:29] INFO root fetch - processPackages [kasa-crypt]: Remove: archive file [/home/abi/fetcher/tmp/kasa_crypt-0.1.1.tar.gz]
+[2023-06-16 06:43:29] INFO root fetch - processPackages [kasa-crypt]: Remove: archive file [/home/abi/fetcher/tmp/kasa_crypt-0.1.2.tar.gz]
+[2023-06-16 06:43:29] INFO root fetch - main [MainThread]: End processing [kasa-crypt]: success
+[2023-06-16 06:43:29] INFO root fetch - processPackages [odoo12-addon-l10n-it-invoices-data-communication]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_invoices_data_communication-12.0.1.3.2.99.dev7-py3-none-any.whl.zip]
+[2023-06-16 06:43:29] INFO root fetch - processPackages [odoo12-addon-l10n-it-invoices-data-communication]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_invoices_data_communication-12.0.1.3.2.99.dev8-py3-none-any.whl.zip]
+[2023-06-16 06:43:29] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-invoices-data-communication]: success
+[2023-06-16 06:43:29] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.8.0.tar.gz]
+[2023-06-16 06:43:29] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.9.0.tar.gz]
+[2023-06-16 06:43:29] INFO root fetch - main [MainThread]: End processing [biopipen]: success
+[2023-06-16 06:43:29] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev45-py2-none-any.whl.zip]
+[2023-06-16 06:43:29] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev47-py2-none-any.whl.zip]
+[2023-06-16 06:43:29] INFO root fetch - main [MainThread]: End processing [odoo9-addon-l10n-it-ddt]: success
+[2023-06-16 06:43:29] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 06:43:29] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-16 06:43:29] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-it-ddt]: success
+[2023-06-16 06:43:30] INFO root fetch - processPackages [bcsfe-discord]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-discord-2.7.8.tar.gz]
+[2023-06-16 06:43:30] INFO root fetch - processPackages [bcsfe-discord]: Remove: archive file [/home/abi/fetcher/tmp/bcsfe-discord-2.7.9.tar.gz]
+[2023-06-16 06:43:30] INFO root fetch - main [MainThread]: End processing [bcsfe-discord]: success
+[2023-06-16 06:43:30] INFO root fetch - main [MainThread]: End processing [bcsfe-discord]: success
+[2023-06-16 06:43:30] INFO root fetch - main [MainThread]: Store serial: [18527335]
