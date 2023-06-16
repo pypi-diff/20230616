@@ -12600,3 +12600,87 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 07:04:27] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/BasicLibrary.PY-0.5.9.tar.gz]
 [2023-06-16 07:04:27] INFO root fetch - main [MainThread]: End processing [BasicLibrary.PY]: success
 [2023-06-16 07:04:27] INFO root fetch - main [MainThread]: Store serial: [18527465]
+[2023-06-16 07:09:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527465]
+[2023-06-16 07:09:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-16 07:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mecode-viewer
+[2023-06-16 07:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: halc
+[2023-06-16 07:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2023-06-16 07:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: caqui
+[2023-06-16 07:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multi-model-server
+[2023-06-16 07:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dask-cuda
+[2023-06-16 07:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kasa-crypt
+[2023-06-16 07:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tflite-model-maker-nightly
+[2023-06-16 07:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openai-dbd
+[2023-06-16 07:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-ipghrms-leave
+[2023-06-16 07:09:35] WARNING root fetch - processPackages [halc]: Skipping, unable to determine old version
+[2023-06-16 07:09:35] INFO root fetch - main [MainThread]: End processing [halc] error
+[2023-06-16 07:09:35] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230616] Old Version: [0.1.1.dev20230615]
+[2023-06-16 07:09:35] INFO root fetch - processPackages [mecode-viewer]: New version: [0.2.0] Old Version: [0.1.13]
+[2023-06-16 07:09:35] INFO root fetch - processPackages [caqui]: New version: [1.9.0] Old Version: [1.12.0]
+[2023-06-16 07:09:35] INFO root fetch - processPackages [django-ipghrms-leave]: New version: [1.8] Old Version: [1.7]
+[2023-06-16 07:09:35] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 07:09:35] INFO root fetch - processPackages [kasa-crypt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-16 07:09:35] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-16 07:09:35] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306150506] Old Version: [0.4.3.dev202306140509]
+[2023-06-16 07:09:35] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230616] Old Version: [23.8.0a230615]
+[2023-06-16 07:09:35] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/96/f2/4978d3f588f3a12c4746da239400cf0d4f1dcad9bee1bf44d00ec7bde9ca/rapid_pe-0.1.1.dev20230615.tar.gz
+[2023-06-16 07:09:35] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/27/8a/072d08ea776455e813d8fb1165386e8171fae23396c46596eaaa90f173ea/django-ipghrms-leave-1.7.tar.gz
+[2023-06-16 07:09:35] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/3f/e9/ddbd941a763b633eaeefd571e21d2f069221d926aba12a33d656e2a502e5/tflite-model-maker-nightly-0.4.3.dev202306140509.tar.gz
+[2023-06-16 07:09:35] INFO root fetch - processPackages [mecode-viewer]: Downloading https://files.pythonhosted.org/packages/51/4f/82c357988054505c1400dfd42c310c294d1fb3f6238391058e7645d938a8/mecode_viewer-0.1.13.tar.gz
+[2023-06-16 07:09:35] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-16 07:09:35] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/b8/ee/94299bafee24b3f07052a426418e6b006d63acfd49c80b51e7cd7bb8e8eb/dask-cuda-23.8.0a230615.tar.gz
+[2023-06-16 07:09:35] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/64/ad/3817e8f262c41ccf9a96c4dc579eab896cbfae344d989f36219426fd5d7d/caqui-1.12.0.tar.gz
+[2023-06-16 07:09:35] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-16 07:09:35] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230616/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-16 07:09:35] INFO root fetch - processPackages [kasa-crypt]: Downloading https://files.pythonhosted.org/packages/7c/30/86b0c444710132d1932abc7e736128ccc0a2e28378410bd4fde9698a4582/kasa_crypt-0.1.3.tar.gz
+[2023-06-16 07:09:36] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-16 07:09:36] INFO root fetch - processPackages [django-ipghrms-leave]: Downloading https://files.pythonhosted.org/packages/07/64/fb9dd61ec26bdeb66686e6047d2f2eed129d48e5b31f092d1c2a6ae208a5/django-ipghrms-leave-1.8.tar.gz
+[2023-06-16 07:09:36] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-16 07:09:36] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230616/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 07:09:36] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/8b/19/a001cc5f375c8aa1c6aecbd12f7aefcb6fcfe11da1cf976048e0716a2c4d/rapid_pe-0.1.1.dev20230616.tar.gz
+[2023-06-16 07:09:36] INFO root fetch - processPackages [mecode-viewer]: Downloading https://files.pythonhosted.org/packages/d0/04/88adf3c3b725db2349f0ff8e8c0b6054a5c7a22f4f49e2cb9ee940a54d31/mecode_viewer-0.2.0.tar.gz
+[2023-06-16 07:09:36] INFO root fetch - processPackages [django-ipghrms-leave]: executing diffoscope
+[2023-06-16 07:09:36] INFO root fetch - processPackages [django-ipghrms-leave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-leave-1.7.tar.gz tmp/django-ipghrms-leave-1.8.tar.gz --markdown 20230616/d/django-ipghrms-leave/1.7-1.8/diff.md --exclude *.pyd
+[2023-06-16 07:09:36] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/8a/e5/49b3bfc50427c24632507317ab0c78e6dda2cfffa6263642311d0acd74b7/dask-cuda-23.8.0a230616.tar.gz
+[2023-06-16 07:09:36] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/b8/2d/02d24ea62875d6d5a9e31e9a7f1270d675277361efda9b6c204c46460483/tflite-model-maker-nightly-0.4.3.dev202306150506.tar.gz
+[2023-06-16 07:09:36] INFO root fetch - processPackages [kasa-crypt]: Downloading https://files.pythonhosted.org/packages/38/20/fac32a624aa3ed4ae653902e7ca4506dfe829c29ec25ae68b20e4c8754b8/kasa_crypt-0.1.4.tar.gz
+[2023-06-16 07:09:36] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/96/cb/610c7cb58e0d91615a6000802ec99074b7f59645f112551cb10c3f105439/caqui-1.9.0.tar.gz
+[2023-06-16 07:09:36] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-16 07:09:36] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230615.tar.gz tmp/rapid_pe-0.1.1.dev20230616.tar.gz --markdown 20230616/r/rapid-pe/0.1.1.dev20230615-0.1.1.dev20230616/diff.md --exclude *.pyd
+[2023-06-16 07:09:36] INFO root fetch - processPackages [mecode-viewer]: executing diffoscope
+[2023-06-16 07:09:36] INFO root fetch - processPackages [mecode-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecode_viewer-0.1.13.tar.gz tmp/mecode_viewer-0.2.0.tar.gz --markdown 20230616/m/mecode-viewer/0.1.13-0.2.0/diff.md --exclude *.pyd
+[2023-06-16 07:09:36] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-06-16 07:09:36] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-1.12.0.tar.gz tmp/caqui-1.9.0.tar.gz --markdown 20230616/c/caqui/1.12.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-16 07:09:36] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-16 07:09:36] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306140509.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306150506.tar.gz --markdown 20230616/t/tflite-model-maker-nightly/0.4.3.dev202306140509-0.4.3.dev202306150506/diff.md --exclude *.pyd
+[2023-06-16 07:09:36] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-16 07:09:36] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230615.tar.gz tmp/dask-cuda-23.8.0a230616.tar.gz --markdown 20230616/d/dask-cuda/23.8.0a230615-23.8.0a230616/diff.md --exclude *.pyd
+[2023-06-16 07:09:36] INFO root fetch - processPackages [kasa-crypt]: executing diffoscope
+[2023-06-16 07:09:36] INFO root fetch - processPackages [kasa-crypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kasa_crypt-0.1.3.tar.gz tmp/kasa_crypt-0.1.4.tar.gz --markdown 20230616/k/kasa-crypt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-16 07:09:37] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-16 07:09:37] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-16 07:09:37] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-16 07:09:37] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230615.tar.gz]
+[2023-06-16 07:09:37] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230616.tar.gz]
+[2023-06-16 07:09:37] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-16 07:09:37] INFO root fetch - processPackages [kasa-crypt]: Remove: archive file [/home/abi/fetcher/tmp/kasa_crypt-0.1.3.tar.gz]
+[2023-06-16 07:09:37] INFO root fetch - processPackages [kasa-crypt]: Remove: archive file [/home/abi/fetcher/tmp/kasa_crypt-0.1.4.tar.gz]
+[2023-06-16 07:09:37] INFO root fetch - main [MainThread]: End processing [kasa-crypt]: success
+[2023-06-16 07:09:38] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.12.0.tar.gz]
+[2023-06-16 07:09:38] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.9.0.tar.gz]
+[2023-06-16 07:09:38] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-06-16 07:09:38] INFO root fetch - processPackages [mecode-viewer]: Remove: archive file [/home/abi/fetcher/tmp/mecode_viewer-0.1.13.tar.gz]
+[2023-06-16 07:09:38] INFO root fetch - processPackages [mecode-viewer]: Remove: archive file [/home/abi/fetcher/tmp/mecode_viewer-0.2.0.tar.gz]
+[2023-06-16 07:09:38] INFO root fetch - main [MainThread]: End processing [mecode-viewer]: success
+[2023-06-16 07:09:38] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230615.tar.gz]
+[2023-06-16 07:09:38] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230616.tar.gz]
+[2023-06-16 07:09:38] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-16 07:09:39] INFO root fetch - processPackages [django-ipghrms-leave]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-leave-1.7.tar.gz]
+[2023-06-16 07:09:39] INFO root fetch - processPackages [django-ipghrms-leave]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-leave-1.8.tar.gz]
+[2023-06-16 07:09:39] INFO root fetch - main [MainThread]: End processing [django-ipghrms-leave]: success
+[2023-06-16 07:09:39] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306140509.tar.gz]
+[2023-06-16 07:09:39] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306150506.tar.gz]
+[2023-06-16 07:09:39] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-16 07:12:36] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-16 07:12:36] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-16 07:12:36] INFO root fetch - main [MainThread]: Store serial: [18527499]
