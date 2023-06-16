@@ -17001,3 +17001,119 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 10:15:17] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.4.3.tar.gz]
 [2023-06-16 10:15:17] INFO root fetch - main [MainThread]: End processing [a2]: success
 [2023-06-16 10:15:17] INFO root fetch - main [MainThread]: Store serial: [18529140]
+[2023-06-16 10:20:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18529140]
+[2023-06-16 10:20:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-16 10:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docarray
+[2023-06-16 10:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biliarchiver
+[2023-06-16 10:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatglm-llm
+[2023-06-16 10:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radioplayer-dataclasses
+[2023-06-16 10:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HABApp
+[2023-06-16 10:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xlogit
+[2023-06-16 10:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thipstercli
+[2023-06-16 10:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lollms
+[2023-06-16 10:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autopahe
+[2023-06-16 10:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rqsdk
+[2023-06-16 10:20:28] INFO root fetch - processPackages [HABApp]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-16 10:20:28] INFO root fetch - processPackages [biliarchiver]: New version: [0.0.9] Old Version: [0.0.16]
+[2023-06-16 10:20:28] INFO root fetch - processPackages [chatglm-llm]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-16 10:20:28] INFO root fetch - processPackages [thipstercli]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-16 10:20:28] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-16 10:20:28] INFO root fetch - processPackages [rqsdk]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-16 10:20:28] INFO root fetch - processPackages [xlogit]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-16 10:20:28] INFO root fetch - processPackages [radioplayer-dataclasses]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-16 10:20:28] INFO root fetch - processPackages [autopahe]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-16 10:20:28] INFO root fetch - processPackages [lollms]: New version: [1.1.91] Old Version: [1.1.90]
+[2023-06-16 10:20:28] INFO root fetch - processPackages [HABApp]: Downloading https://files.pythonhosted.org/packages/7b/a7/1532d04d7b0b745d729a1a697d109e6a3fa25c2d22dd24735c0b43770139/HABApp-1.1.0.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/7c/78/ea1555275dcd657d61ac510e3dd95995d9bc7b7733f809403e71bb68c92b/chatglm-llm-1.4.0.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/c4/d8/8f4f7927019c798808ba093ef7262550e84a998458e50309c86824ca8fc0/biliarchiver-0.0.16.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [autopahe]: Downloading https://files.pythonhosted.org/packages/87/2d/308c09b6bec5902759223162328e69021b04c8119d69b0a89ab8be8d740c/autopahe-0.2.0.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [radioplayer-dataclasses]: Downloading https://files.pythonhosted.org/packages/66/dd/af5a31bcced17cfd665afd7f209e95ed06d8b28b9cc7e8f92b767ce7f025/radioplayer_dataclasses-0.3.2.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [xlogit]: Downloading https://files.pythonhosted.org/packages/10/e8/6f2f2193e6f1af3112c1e73c86c1a80ca1df99e59dd2e1bf30fdd49bd762/xlogit-0.2.4.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/37/e0/426f7feb24542b5908e4ddae7f70c97b74e2a046ce68c40fa30642d1e651/thipstercli-0.2.1.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/7a/9d/7a28503580e096e684bc45a1fbcce4691d6f9997d14403dacf58a910e039/rqsdk-1.5.0.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/e0/b7/e1a5bef1b2551c383162e9199cdb1c74d11857a63b8c3807e2459dccb380/lollms-1.1.90.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/c6/19/70f1386faa1d40aeb89cf9fe414072ee6b71475e62e8e51354e52006a66d/chatglm-llm-1.4.1.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [HABApp]: Downloading https://files.pythonhosted.org/packages/7a/09/08fdf44738c6b68b170467d67f6dfa873966b4429db4ac27b21e21efb106/HABApp-1.1.1.tar.gz
+[2023-06-16 10:20:28] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 27948341>=10485760
+[2023-06-16 10:20:28] INFO root fetch - processPackages [lollms]: Start processing: zipline-tej
+[2023-06-16 10:20:28] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-16 10:20:28] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/75/6f/a07bee6d23ed240047e737c1e393aadca816e9e1cc7c1aaa81457a4885da/biliarchiver-0.0.9.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [autopahe]: Downloading https://files.pythonhosted.org/packages/f6/b1/3dde41d69c05c79c72f1ffc21afa7d4d36e3110710b52eea74c19a805e67/autopahe-1.0.0.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 10:20:28] INFO root fetch - processPackages [radioplayer-dataclasses]: Downloading https://files.pythonhosted.org/packages/e3/37/36b0a299d413c5d91b912c87c42b8fa7be1d0b93b6d24776e4c68e237d85/radioplayer_dataclasses-0.4.0.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [HABApp]: executing diffoscope
+[2023-06-16 10:20:28] INFO root fetch - processPackages [HABApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HABApp-1.1.0.tar.gz tmp/HABApp-1.1.1.tar.gz --markdown 20230616/H/HABApp/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-16 10:20:28] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/55/94/d9856fa62daa2052cd34eaf52d5bd36a4b41a1c8905796103d07d3ca0bbb/rqsdk-1.5.1.tar.gz
+[2023-06-16 10:20:28] INFO root fetch - processPackages [chatglm-llm]: executing diffoscope
+[2023-06-16 10:20:28] INFO root fetch - processPackages [chatglm-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-llm-1.4.0.tar.gz tmp/chatglm-llm-1.4.1.tar.gz --markdown 20230616/c/chatglm-llm/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-16 10:20:28] INFO root fetch - processPackages [biliarchiver]: executing diffoscope
+[2023-06-16 10:20:28] INFO root fetch - processPackages [autopahe]: executing diffoscope
+[2023-06-16 10:20:28] INFO root fetch - processPackages [autopahe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopahe-0.2.0.tar.gz tmp/autopahe-1.0.0.tar.gz --markdown 20230616/a/autopahe/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-16 10:20:28] INFO root fetch - processPackages [biliarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliarchiver-0.0.16.tar.gz tmp/biliarchiver-0.0.9.tar.gz --markdown 20230616/b/biliarchiver/0.0.16-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 10:20:29] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/2f/94/e7487218c99b2360a4ba8d2e899b799a5352c39eb482dcf97f469c099a2a/thipstercli-0.2.2.tar.gz
+[2023-06-16 10:20:29] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-16 10:20:29] INFO root fetch - processPackages [radioplayer-dataclasses]: executing diffoscope
+[2023-06-16 10:20:29] INFO root fetch - processPackages [radioplayer-dataclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radioplayer_dataclasses-0.3.2.tar.gz tmp/radioplayer_dataclasses-0.4.0.tar.gz --markdown 20230616/r/radioplayer-dataclasses/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-16 10:20:29] INFO root fetch - processPackages [xlogit]: Downloading https://files.pythonhosted.org/packages/17/16/9cb0b9cf2f05fff9cbd77cb785dbddb789d8552652f97b4096302bd6d99b/xlogit-0.2.5.tar.gz
+[2023-06-16 10:20:29] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-16 10:20:29] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.2.1.tar.gz tmp/thipstercli-0.2.2.tar.gz --markdown 20230616/t/thipstercli/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-16 10:20:29] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-16 10:20:29] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230616/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-16 10:20:29] INFO root fetch - processPackages [rqsdk]: executing diffoscope
+[2023-06-16 10:20:29] INFO root fetch - processPackages [rqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqsdk-1.5.0.tar.gz tmp/rqsdk-1.5.1.tar.gz --markdown 20230616/r/rqsdk/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-16 10:20:29] INFO root fetch - processPackages [xlogit]: executing diffoscope
+[2023-06-16 10:20:29] INFO root fetch - processPackages [xlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlogit-0.2.4.tar.gz tmp/xlogit-0.2.5.tar.gz --markdown 20230616/x/xlogit/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-16 10:20:29] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-16 10:20:29] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-16 10:20:29] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-16 10:20:29] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230616/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 10:20:30] INFO root fetch - processPackages [autopahe]: Remove: archive file [/home/abi/fetcher/tmp/autopahe-0.2.0.tar.gz]
+[2023-06-16 10:20:30] INFO root fetch - processPackages [autopahe]: Remove: archive file [/home/abi/fetcher/tmp/autopahe-1.0.0.tar.gz]
+[2023-06-16 10:20:30] INFO root fetch - processPackages [autopahe]: Start processing: logtrek
+[2023-06-16 10:20:30] INFO root fetch - main [MainThread]: End processing [autopahe]: success
+[2023-06-16 10:20:30] INFO root fetch - processPackages [logtrek]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2023-06-16 10:20:30] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.0.tar.gz]
+[2023-06-16 10:20:30] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.1.tar.gz]
+[2023-06-16 10:20:30] INFO root fetch - processPackages [chatglm-llm]: Start processing: hello2
+[2023-06-16 10:20:30] INFO root fetch - main [MainThread]: End processing [chatglm-llm]: success
+[2023-06-16 10:20:30] INFO root fetch - processPackages [hello2]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-16 10:20:30] INFO root fetch - processPackages [logtrek]: Downloading https://files.pythonhosted.org/packages/e5/6f/5d926523de1591984f8e6f8725bce0200a0a7c2047edc477b709f5e092a5/logtrek-0.0.1.8.tar.gz
+[2023-06-16 10:20:30] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/49/8e/ad3bd8a06dc93565a7acce7d9cc3baad9968c99a576eba196148f220b50c/hello2-1.9.8.tar.gz
+[2023-06-16 10:20:30] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.16.tar.gz]
+[2023-06-16 10:20:30] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.9.tar.gz]
+[2023-06-16 10:20:30] INFO root fetch - main [MainThread]: End processing [biliarchiver]: success
+[2023-06-16 10:20:30] INFO root fetch - processPackages [logtrek]: Downloading https://files.pythonhosted.org/packages/2d/e4/27f2cbc5ecd819c09f55ae096d9a630b1114adce7808b692bc82ddd7de25/logtrek-0.0.1.9.tar.gz
+[2023-06-16 10:20:30] INFO root fetch - processPackages [logtrek]: executing diffoscope
+[2023-06-16 10:20:30] INFO root fetch - processPackages [logtrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logtrek-0.0.1.8.tar.gz tmp/logtrek-0.0.1.9.tar.gz --markdown 20230616/l/logtrek/0.0.1.8-0.0.1.9/diff.md --exclude *.pyd
+[2023-06-16 10:20:31] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/6c/ee/e7695c6ae6a126ac1689edab1816caadf6ec4e2ed8939a3ce6426d2347e6/hello2-1.9.9.tar.gz
+[2023-06-16 10:20:31] INFO root fetch - processPackages [xlogit]: Remove: archive file [/home/abi/fetcher/tmp/xlogit-0.2.4.tar.gz]
+[2023-06-16 10:20:31] INFO root fetch - processPackages [xlogit]: Remove: archive file [/home/abi/fetcher/tmp/xlogit-0.2.5.tar.gz]
+[2023-06-16 10:20:31] INFO root fetch - main [MainThread]: End processing [xlogit]: success
+[2023-06-16 10:20:31] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.2.1.tar.gz]
+[2023-06-16 10:20:31] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.2.2.tar.gz]
+[2023-06-16 10:20:31] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-06-16 10:20:31] INFO root fetch - processPackages [radioplayer-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/radioplayer_dataclasses-0.3.2.tar.gz]
+[2023-06-16 10:20:31] INFO root fetch - processPackages [radioplayer-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/radioplayer_dataclasses-0.4.0.tar.gz]
+[2023-06-16 10:20:31] INFO root fetch - main [MainThread]: End processing [radioplayer-dataclasses]: success
+[2023-06-16 10:20:31] INFO root fetch - processPackages [rqsdk]: Remove: archive file [/home/abi/fetcher/tmp/rqsdk-1.5.0.tar.gz]
+[2023-06-16 10:20:31] INFO root fetch - processPackages [rqsdk]: Remove: archive file [/home/abi/fetcher/tmp/rqsdk-1.5.1.tar.gz]
+[2023-06-16 10:20:31] INFO root fetch - main [MainThread]: End processing [rqsdk]: success
+[2023-06-16 10:20:31] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-16 10:20:31] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.9.8.tar.gz tmp/hello2-1.9.9.tar.gz --markdown 20230616/h/hello2/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-16 10:20:31] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-16 10:20:31] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-16 10:20:31] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-16 10:20:31] INFO root fetch - processPackages [HABApp]: Remove: archive file [/home/abi/fetcher/tmp/HABApp-1.1.0.tar.gz]
+[2023-06-16 10:20:31] INFO root fetch - processPackages [HABApp]: Remove: archive file [/home/abi/fetcher/tmp/HABApp-1.1.1.tar.gz]
+[2023-06-16 10:20:31] INFO root fetch - main [MainThread]: End processing [HABApp]: success
+[2023-06-16 10:20:32] INFO root fetch - processPackages [logtrek]: Remove: archive file [/home/abi/fetcher/tmp/logtrek-0.0.1.8.tar.gz]
+[2023-06-16 10:20:32] INFO root fetch - processPackages [logtrek]: Remove: archive file [/home/abi/fetcher/tmp/logtrek-0.0.1.9.tar.gz]
+[2023-06-16 10:20:32] INFO root fetch - main [MainThread]: End processing [logtrek]: success
+[2023-06-16 10:20:32] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-16 10:20:32] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-16 10:20:32] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-16 10:20:32] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.8.tar.gz]
+[2023-06-16 10:20:32] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.9.tar.gz]
+[2023-06-16 10:20:32] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-16 10:20:32] INFO root fetch - main [MainThread]: Store serial: [18529183]
