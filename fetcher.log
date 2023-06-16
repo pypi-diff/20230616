@@ -21719,3 +21719,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-16 13:19:11] INFO root fetch - processPackages [xchembku]: Remove: archive file [/home/abi/fetcher/tmp/xchembku-1.9.1.tar.gz]
 [2023-06-16 13:19:11] INFO root fetch - main [MainThread]: End processing [xchembku]: success
 [2023-06-16 13:19:11] INFO root fetch - main [MainThread]: Store serial: [18530979]
+[2023-06-16 13:24:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530979]
+[2023-06-16 13:24:20] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-16 13:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cli-meta-tool
+[2023-06-16 13:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cashfree-lrs-client
+[2023-06-16 13:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: izihawa-configurator
+[2023-06-16 13:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nuovoLIRA
+[2023-06-16 13:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-kedro
+[2023-06-16 13:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bearclaw
+[2023-06-16 13:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-06-16 13:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remotemanager
+[2023-06-16 13:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: litestar
+[2023-06-16 13:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spider-st
+[2023-06-16 13:24:20] INFO root fetch - processPackages [nuovoLIRA]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-16 13:24:20] INFO root fetch - processPackages [izihawa-configurator]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-16 13:24:20] INFO root fetch - processPackages [cashfree-lrs-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-16 13:24:20] INFO root fetch - processPackages [bearclaw]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-16 13:24:20] INFO root fetch - processPackages [pydantic-kedro]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-16 13:24:20] INFO root fetch - processPackages [litestar]: New version: [2.0.0b1] Old Version: [2.0.0a7]
+[2023-06-16 13:24:20] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 13:24:20] INFO root fetch - processPackages [remotemanager]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-06-16 13:24:20] INFO root fetch - processPackages [coiled]: New version: [0.7.6.dev9] Old Version: [0.7.6.dev8]
+[2023-06-16 13:24:20] INFO root fetch - processPackages [nuovoLIRA]: Downloading https://files.pythonhosted.org/packages/aa/b0/df7464435b3ef8ada77eda1467f6c9c7dd1e7cf9fac714303e0061f10a31/nuovoLIRA-0.3.0.tar.gz
+[2023-06-16 13:24:20] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-16 13:24:20] INFO root fetch - processPackages [izihawa-configurator]: Downloading https://files.pythonhosted.org/packages/7d/6d/625edfe79ca9a97bfccc6ac26a6c1f213073e22db3720cdd4a891e494343/izihawa_configurator-1.0.3-py3-none-any.whl
+[2023-06-16 13:24:20] WARNING root fetch - processPackages [cli-meta-tool]: Skipping, unable to determine old version
+[2023-06-16 13:24:20] INFO root fetch - processPackages [cli-meta-tool]: Start processing: symbolicai
+[2023-06-16 13:24:20] INFO root fetch - main [MainThread]: End processing [cli-meta-tool] error
+[2023-06-16 13:24:20] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/9b/1a/d3ed5fa8f7ff31c912c287481792d4dde702182cc6a2cd5b8fa71c49013b/coiled-0.7.6.dev8.tar.gz
+[2023-06-16 13:24:20] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-16 13:24:20] INFO root fetch - processPackages [bearclaw]: Downloading https://files.pythonhosted.org/packages/0f/8d/9bc1a4053f647c18be4c2ec0c32ebd12907160f90cc450ca2d117dcadb2a/bearclaw-0.0.2.tar.gz
+[2023-06-16 13:24:20] INFO root fetch - processPackages [cashfree-lrs-client]: Downloading https://files.pythonhosted.org/packages/00/a7/87dc9582b5009c149321eccdd73c6b8af2353064c1c03f842a7635f6f043/cashfree_lrs_client-1.0.8.tar.gz
+[2023-06-16 13:24:21] INFO root fetch - processPackages [pydantic-kedro]: Downloading https://files.pythonhosted.org/packages/6c/2d/87713a0f5c6ae8022115dd64a1bc3323901f75ae65fcdd8c3ae5eb9b408e/pydantic-kedro-0.5.0.tar.gz
+[2023-06-16 13:24:21] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/c3/ef/e8af40db806f16c8a62474d6504f835eef324d71a0f39f07dc8d94dce44d/remotemanager-0.6.4.tar.gz
+[2023-06-16 13:24:21] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/d7/27/5783dd3f714251c5c87044dcf3406a40c4eea339d24f14c38cba405123f0/litestar-2.0.0a7.tar.gz
+[2023-06-16 13:24:21] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-06-16 13:24:21] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/05/28/a33d4ee3421eb21cf1a92c3a09c615ca44e2fcba23371082b0d9384efe41/coiled-0.7.6.dev9.tar.gz
+[2023-06-16 13:24:21] INFO root fetch - processPackages [izihawa-configurator]: Downloading https://files.pythonhosted.org/packages/16/89/f6078b306be394a2a95213add92f7137e9fa81a071f86021eb77db35edc1/izihawa_configurator-1.0.4-py3-none-any.whl
+[2023-06-16 13:24:21] INFO root fetch - processPackages [nuovoLIRA]: Downloading https://files.pythonhosted.org/packages/50/7d/0b05845ea7039e678dd9d6bc1de5651aa803c6602eba2e5dbd773e000150/nuovoLIRA-0.3.1.tar.gz
+[2023-06-16 13:24:21] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-16 13:24:21] INFO root fetch - processPackages [izihawa-configurator]: executing diffoscope
+[2023-06-16 13:24:21] INFO root fetch - processPackages [izihawa-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa_configurator-1.0.3-py3-none-any.whl.zip tmp/izihawa_configurator-1.0.4-py3-none-any.whl.zip --markdown 20230616/i/izihawa-configurator/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-16 13:24:21] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-16 13:24:21] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.6.dev8.tar.gz tmp/coiled-0.7.6.dev9.tar.gz --markdown 20230616/c/coiled/0.7.6.dev8-0.7.6.dev9/diff.md --exclude *.pyd
+[2023-06-16 13:24:21] INFO root fetch - processPackages [bearclaw]: Downloading https://files.pythonhosted.org/packages/ba/d7/aa951001e69a1e493d74946b6c486f22bf564d84eca9776e54f7a69366d7/bearclaw-0.0.3.tar.gz
+[2023-06-16 13:24:21] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/0f/79/700a22be8bd7c0557c34d151909b27fd7c1ba476a93a3f9512c08044b883/remotemanager-0.7.0.tar.gz
+[2023-06-16 13:24:21] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-06-16 13:24:21] INFO root fetch - processPackages [pydantic-kedro]: Downloading https://files.pythonhosted.org/packages/6d/7c/b000d7c3814d152257b5cc3667c0f69ffedbe0837b01c155813d8d0f1b39/pydantic-kedro-0.5.1.tar.gz
+[2023-06-16 13:24:21] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/90/0a/aab0636a1120e87cc24507e206a5ff4d473e1fef0b790aaff52299dc6835/litestar-2.0.0b1.tar.gz
+[2023-06-16 13:24:21] INFO root fetch - processPackages [nuovoLIRA]: executing diffoscope
+[2023-06-16 13:24:21] INFO root fetch - processPackages [nuovoLIRA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuovoLIRA-0.3.0.tar.gz tmp/nuovoLIRA-0.3.1.tar.gz --markdown 20230616/n/nuovoLIRA/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-16 13:24:21] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-16 13:24:21] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230616/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 13:24:21] INFO root fetch - processPackages [bearclaw]: executing diffoscope
+[2023-06-16 13:24:21] INFO root fetch - processPackages [bearclaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bearclaw-0.0.2.tar.gz tmp/bearclaw-0.0.3.tar.gz --markdown 20230616/b/bearclaw/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-16 13:24:21] INFO root fetch - processPackages [cashfree-lrs-client]: Downloading https://files.pythonhosted.org/packages/e7/24/01a92af2e69e7b24fa6944b9a15b81cac2d412148653323c632f4495348f/cashfree_lrs_client-1.0.9.tar.gz
+[2023-06-16 13:24:21] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-06-16 13:24:21] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.6.4.tar.gz tmp/remotemanager-0.7.0.tar.gz --markdown 20230616/r/remotemanager/0.6.4-0.7.0/diff.md --exclude *.pyd
+[2023-06-16 13:24:21] INFO root fetch - processPackages [pydantic-kedro]: executing diffoscope
+[2023-06-16 13:24:21] INFO root fetch - processPackages [pydantic-kedro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-kedro-0.5.0.tar.gz tmp/pydantic-kedro-0.5.1.tar.gz --markdown 20230616/p/pydantic-kedro/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-16 13:24:21] INFO root fetch - processPackages [litestar]: executing diffoscope
+[2023-06-16 13:24:21] INFO root fetch - processPackages [litestar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litestar-2.0.0a7.tar.gz tmp/litestar-2.0.0b1.tar.gz --markdown 20230616/l/litestar/2.0.0a7-2.0.0b1/diff.md --exclude *.pyd
+[2023-06-16 13:24:21] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-06-16 13:24:21] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230616/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 13:24:21] INFO root fetch - processPackages [cashfree-lrs-client]: executing diffoscope
+[2023-06-16 13:24:21] INFO root fetch - processPackages [cashfree-lrs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashfree_lrs_client-1.0.8.tar.gz tmp/cashfree_lrs_client-1.0.9.tar.gz --markdown 20230616/c/cashfree-lrs-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-16 13:24:22] INFO root fetch - processPackages [izihawa-configurator]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_configurator-1.0.3-py3-none-any.whl.zip]
+[2023-06-16 13:24:22] INFO root fetch - processPackages [izihawa-configurator]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_configurator-1.0.4-py3-none-any.whl.zip]
+[2023-06-16 13:24:22] INFO root fetch - main [MainThread]: End processing [izihawa-configurator]: success
+[2023-06-16 13:24:22] INFO root fetch - processPackages [nuovoLIRA]: Remove: archive file [/home/abi/fetcher/tmp/nuovoLIRA-0.3.0.tar.gz]
+[2023-06-16 13:24:22] INFO root fetch - processPackages [nuovoLIRA]: Remove: archive file [/home/abi/fetcher/tmp/nuovoLIRA-0.3.1.tar.gz]
+[2023-06-16 13:24:22] INFO root fetch - main [MainThread]: End processing [nuovoLIRA]: success
+[2023-06-16 13:24:23] INFO root fetch - processPackages [pydantic-kedro]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-kedro-0.5.0.tar.gz]
+[2023-06-16 13:24:23] INFO root fetch - processPackages [pydantic-kedro]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-kedro-0.5.1.tar.gz]
+[2023-06-16 13:24:23] INFO root fetch - main [MainThread]: End processing [pydantic-kedro]: success
+[2023-06-16 13:24:23] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.6.4.tar.gz]
+[2023-06-16 13:24:23] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.7.0.tar.gz]
+[2023-06-16 13:24:23] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-06-16 13:24:23] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-06-16 13:24:23] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-06-16 13:24:23] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-06-16 13:24:23] INFO root fetch - processPackages [cashfree-lrs-client]: Remove: archive file [/home/abi/fetcher/tmp/cashfree_lrs_client-1.0.8.tar.gz]
+[2023-06-16 13:24:23] INFO root fetch - processPackages [cashfree-lrs-client]: Remove: archive file [/home/abi/fetcher/tmp/cashfree_lrs_client-1.0.9.tar.gz]
+[2023-06-16 13:24:23] INFO root fetch - main [MainThread]: End processing [cashfree-lrs-client]: success
+[2023-06-16 13:24:24] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.6.dev8.tar.gz]
+[2023-06-16 13:24:24] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.6.dev9.tar.gz]
+[2023-06-16 13:24:24] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-16 13:24:24] INFO root fetch - processPackages [bearclaw]: Remove: archive file [/home/abi/fetcher/tmp/bearclaw-0.0.2.tar.gz]
+[2023-06-16 13:24:24] INFO root fetch - processPackages [bearclaw]: Remove: archive file [/home/abi/fetcher/tmp/bearclaw-0.0.3.tar.gz]
+[2023-06-16 13:24:24] INFO root fetch - main [MainThread]: End processing [bearclaw]: success
+[2023-06-16 13:24:25] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.0.0a7.tar.gz]
+[2023-06-16 13:24:25] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.0.0b1.tar.gz]
+[2023-06-16 13:24:25] INFO root fetch - main [MainThread]: End processing [litestar]: success
+[2023-06-16 13:24:35] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-16 13:24:35] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-16 13:24:35] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-16 13:24:35] INFO root fetch - main [MainThread]: Store serial: [18531009]
