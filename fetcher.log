@@ -22422,3 +22422,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-16 13:52:48] INFO root fetch - processPackages [prot]: Remove: archive file [/home/abi/fetcher/tmp/prot-3.9.0.tar.gz]
 [2023-06-16 13:52:48] INFO root fetch - main [MainThread]: End processing [prot]: success
 [2023-06-16 13:52:48] INFO root fetch - main [MainThread]: Store serial: [18531277]
+[2023-06-16 13:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18531277]
+[2023-06-16 13:57:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-16 13:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spider-st
+[2023-06-16 13:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bob
+[2023-06-16 13:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: american-options
+[2023-06-16 13:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-16 13:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coindicator
+[2023-06-16 13:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensora
+[2023-06-16 13:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: morel
+[2023-06-16 13:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netbox-cisco-maintenance
+[2023-06-16 13:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: megfile
+[2023-06-16 13:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blackboardsync
+[2023-06-16 13:57:58] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 13:57:58] INFO root fetch - processPackages [bob]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-06-16 13:57:58] INFO root fetch - processPackages [american-options]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-16 13:57:58] INFO root fetch - processPackages [morel]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-16 13:57:58] INFO root fetch - processPackages [tensora]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-16 13:57:58] INFO root fetch - processPackages [coindicator]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-16 13:57:58] INFO root fetch - processPackages [blackboardsync]: New version: [0.8.4] Old Version: [0.8.0]
+[2023-06-16 13:57:58] INFO root fetch - processPackages [megfile]: New version: [2.0.7] Old Version: [2.0.6.post1]
+[2023-06-16 13:57:58] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 13:57:59] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 13:57:59] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/71/97/379dfea7c66c29181205c90e2baf16d507443a1fcba790ae6c60f2a51d50/morel-1.2.4.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/e8/59/52afd057967eb4f2af2a7966e5befa7f77e6532c0c3311aefd0a2a036fb9/megfile-2.0.6.post1-py3-none-any.whl
+[2023-06-16 13:57:59] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [coindicator]: Downloading https://files.pythonhosted.org/packages/0f/42/5910a1f95d6b760773a4c923a0bc3a5ee503368a8451f47ae7aeb55f4f9a/coindicator-2.0.8.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [american-options]: Downloading https://files.pythonhosted.org/packages/68/78/2dddd8b54afad92d6393704c256f6fbafe94523702e6f7aab26625fdf5c5/american_options-0.1.2.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/3f/31/e2e50d84970aa1fed3b2ba2f4ced44aa0159e283f817d74927a090354ae4/blackboardsync-0.8.0.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [bob]: Downloading https://files.pythonhosted.org/packages/71/2c/dfc7d072544ba28f5722bbdf05541de6f1195ca56b3d2ec7e12d922c7b5a/bob-8.0.0.zip
+[2023-06-16 13:57:59] INFO root fetch - processPackages [tensora]: Downloading https://files.pythonhosted.org/packages/c9/fd/be19c58142d2b92f4d51e9f3ddeee94520436e22d3b7774337c90608f41a/tensora-0.0.6.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/e6/b0/70b8d092d4a04ac17231612452d2dbb2039e9edb412b870ef74729baf610/morel-1.2.5.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/8d/98/53db560263a6d913b2db641e5180f39cdd6cb5dd475caa8897813bd1105f/megfile-2.0.7-py3-none-any.whl
+[2023-06-16 13:57:59] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 13:57:59] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 13:57:59] INFO root fetch - processPackages [morel]: executing diffoscope
+[2023-06-16 13:57:59] INFO root fetch - processPackages [morel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morel-1.2.4.tar.gz tmp/morel-1.2.5.tar.gz --markdown 20230616/m/morel/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-16 13:57:59] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-06-16 13:57:59] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.0.6.post1-py3-none-any.whl.zip tmp/megfile-2.0.7-py3-none-any.whl.zip --markdown 20230616/m/megfile/2.0.6.post1-2.0.7/diff.md --exclude *.pyd
+[2023-06-16 13:57:59] INFO root fetch - processPackages [coindicator]: Downloading https://files.pythonhosted.org/packages/a3/a6/9155e0aef58c351234955c20be5f0cc1719ed4c6b783ff42f01a53c4ea8b/coindicator-2.0.9.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/f8/4e/4a83f7643c8728b03acb6489acdf8d8f4c872d35dc18e27e7d22abff4587/blackboardsync-0.8.4.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [coindicator]: executing diffoscope
+[2023-06-16 13:57:59] INFO root fetch - processPackages [coindicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coindicator-2.0.8.tar.gz tmp/coindicator-2.0.9.tar.gz --markdown 20230616/c/coindicator/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-16 13:57:59] INFO root fetch - processPackages [american-options]: Downloading https://files.pythonhosted.org/packages/bd/02/50fefc836cc92b020c20e325fb931bd8a0995d51fbb290a18275d224ce47/american_options-0.1.3.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2023-06-16 13:57:59] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.8.0.tar.gz tmp/blackboardsync-0.8.4.tar.gz --markdown 20230616/b/blackboardsync/0.8.0-0.8.4/diff.md --exclude *.pyd
+[2023-06-16 13:57:59] INFO root fetch - processPackages [american-options]: executing diffoscope
+[2023-06-16 13:57:59] INFO root fetch - processPackages [american-options]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/american_options-0.1.2.tar.gz tmp/american_options-0.1.3.tar.gz --markdown 20230616/a/american-options/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-16 13:57:59] INFO root fetch - processPackages [tensora]: Downloading https://files.pythonhosted.org/packages/ef/25/43c8882806d46d489f167921c8e81195b77a12353c83976ea48058a228ba/tensora-0.0.7.tar.gz
+[2023-06-16 13:57:59] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-16 13:57:59] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230616/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 13:57:59] INFO root fetch - processPackages [bob]: Downloading https://files.pythonhosted.org/packages/2e/05/534fc1e0de45f993689ed29b3545a562fc459b7df3c1764b54b600e5bd47/bob-9.0.0.zip
+[2023-06-16 13:57:59] INFO root fetch - processPackages [tensora]: executing diffoscope
+[2023-06-16 13:57:59] INFO root fetch - processPackages [tensora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensora-0.0.6.tar.gz tmp/tensora-0.0.7.tar.gz --markdown 20230616/t/tensora/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-16 13:57:59] INFO root fetch - processPackages [bob]: executing diffoscope
+[2023-06-16 13:57:59] INFO root fetch - processPackages [bob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bob-8.0.0.zip tmp/bob-9.0.0.zip --markdown 20230616/b/bob/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-16 13:58:00] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.2.4.tar.gz]
+[2023-06-16 13:58:00] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.2.5.tar.gz]
+[2023-06-16 13:58:00] INFO root fetch - processPackages [morel]: Start processing: sftpoeb
+[2023-06-16 13:58:00] INFO root fetch - main [MainThread]: End processing [morel]: success
+[2023-06-16 13:58:00] INFO root fetch - processPackages [sftpoeb]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-16 13:58:00] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/bf/79/0c60d5ef92cfcec8540cec393c2c91d796a0e2aa94fdd858e180321184ec/sftpoeb-0.1.3.tar.gz
+[2023-06-16 13:58:00] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-16 13:58:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 13:58:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 13:58:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: data-ecosystem-services
+[2023-06-16 13:58:00] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 13:58:00] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.8] Old Version: [202306.0.7]
+[2023-06-16 13:58:00] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/f2/d9/b2188b01825df31c2be43c443d28c739fd3cbfff68d8c245a4ca6b8a2b85/data_ecosystem_services-202306.0.7.tar.gz
+[2023-06-16 13:58:01] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/42/69/579ecc794c56daa5d3c4c2a3b3161f440f1d2383b5d391e0c242679e0842/sftpoeb-0.1.4.tar.gz
+[2023-06-16 13:58:01] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-16 13:58:01] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-16 13:58:01] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.1.3.tar.gz tmp/sftpoeb-0.1.4.tar.gz --markdown 20230616/s/sftpoeb/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-16 13:58:01] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-16 13:58:01] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.7.tar.gz tmp/data_ecosystem_services-202306.0.8.tar.gz --markdown 20230616/d/data-ecosystem-services/202306.0.7-202306.0.8/diff.md --exclude *.pyd
+[2023-06-16 13:58:01] INFO root fetch - processPackages [bob]: Remove: archive file [/home/abi/fetcher/tmp/bob-8.0.0.zip]
+[2023-06-16 13:58:01] INFO root fetch - processPackages [bob]: Remove: archive file [/home/abi/fetcher/tmp/bob-9.0.0.zip]
+[2023-06-16 13:58:01] INFO root fetch - main [MainThread]: End processing [bob]: success
+[2023-06-16 13:58:01] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-16 13:58:01] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230616/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 13:58:01] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.0.6.post1-py3-none-any.whl.zip]
+[2023-06-16 13:58:01] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.0.7-py3-none-any.whl.zip]
+[2023-06-16 13:58:01] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-06-16 13:58:01] INFO root fetch - processPackages [american-options]: Remove: archive file [/home/abi/fetcher/tmp/american_options-0.1.2.tar.gz]
+[2023-06-16 13:58:01] INFO root fetch - processPackages [american-options]: Remove: archive file [/home/abi/fetcher/tmp/american_options-0.1.3.tar.gz]
+[2023-06-16 13:58:01] INFO root fetch - main [MainThread]: End processing [american-options]: success
+[2023-06-16 13:58:02] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.3.tar.gz]
+[2023-06-16 13:58:02] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.4.tar.gz]
+[2023-06-16 13:58:02] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-16 13:58:02] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.7.tar.gz]
+[2023-06-16 13:58:02] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-16 13:58:02] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-16 13:58:02] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.8.0.tar.gz]
+[2023-06-16 13:58:02] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.8.4.tar.gz]
+[2023-06-16 13:58:02] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2023-06-16 13:58:02] INFO root fetch - processPackages [coindicator]: Remove: archive file [/home/abi/fetcher/tmp/coindicator-2.0.8.tar.gz]
+[2023-06-16 13:58:02] INFO root fetch - processPackages [coindicator]: Remove: archive file [/home/abi/fetcher/tmp/coindicator-2.0.9.tar.gz]
+[2023-06-16 13:58:02] INFO root fetch - main [MainThread]: End processing [coindicator]: success
+[2023-06-16 13:58:03] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-16 13:58:03] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-16 13:58:03] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-16 13:58:07] INFO root fetch - processPackages [tensora]: Remove: archive file [/home/abi/fetcher/tmp/tensora-0.0.6.tar.gz]
+[2023-06-16 13:58:07] INFO root fetch - processPackages [tensora]: Remove: archive file [/home/abi/fetcher/tmp/tensora-0.0.7.tar.gz]
+[2023-06-16 13:58:07] INFO root fetch - main [MainThread]: End processing [tensora]: success
+[2023-06-16 13:58:12] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-16 13:58:12] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-16 13:58:12] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-16 13:58:12] INFO root fetch - main [MainThread]: Store serial: [18531317]
