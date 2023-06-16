@@ -9758,3 +9758,12 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 04:12:58] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 12632630>=10485760
 [2023-06-16 04:12:58] INFO root fetch - main [MainThread]: End processing [duckdb] error
 [2023-06-16 04:12:58] INFO root fetch - main [MainThread]: Store serial: [18526239]
+[2023-06-16 04:18:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526239]
+[2023-06-16 04:18:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-16 04:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gridgraph-importer
+[2023-06-16 04:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-chat-bot-builder
+[2023-06-16 04:18:07] WARNING root fetch - processPackages [gridgraph-importer]: Skipping, unable to determine old version
+[2023-06-16 04:18:07] INFO root fetch - main [MainThread]: End processing [gridgraph-importer] error
+[2023-06-16 04:18:07] WARNING root fetch - processPackages [my-chat-bot-builder]: Skipping, unable to determine old version
+[2023-06-16 04:18:07] INFO root fetch - main [MainThread]: End processing [my-chat-bot-builder] error
+[2023-06-16 04:18:07] INFO root fetch - main [MainThread]: Store serial: [18526260]
