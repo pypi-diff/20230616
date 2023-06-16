@@ -5732,3 +5732,105 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 03:16:05] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
 [2023-06-16 03:16:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
 [2023-06-16 03:16:05] INFO root fetch - main [MainThread]: Store serial: [18524861]
+[2023-06-16 03:21:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18524861]
+[2023-06-16 03:21:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-16 03:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: megamock
+[2023-06-16 03:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-06-16 03:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipen-board
+[2023-06-16 03:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnata-plugin-devkit
+[2023-06-16 03:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-skill-naptime
+[2023-06-16 03:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exabyte-api-client
+[2023-06-16 03:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-06-16 03:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: exaparser
+[2023-06-16 03:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: parq
+[2023-06-16 03:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: esse
+[2023-06-16 03:21:15] INFO root fetch - processPackages [megamock]: New version: [0.1.0b5] Old Version: [0.1.0b4]
+[2023-06-16 03:21:15] INFO root fetch - processPackages [ovos-skill-naptime]: New version: [0.2.3a1] Old Version: [0.2.2a4]
+[2023-06-16 03:21:15] INFO root fetch - processPackages [pipen-board]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-16 03:21:15] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 03:21:15] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-16 03:21:15] INFO root fetch - processPackages [exabyte-api-client]: New version: [2023.6.16.post0] Old Version: [2023.6.13.post0]
+[2023-06-16 03:21:16] INFO root fetch - processPackages [exaparser]: New version: [2023.6.16.post0] Old Version: [2023.5.18.post1]
+[2023-06-16 03:21:16] INFO root fetch - processPackages [coiled]: New version: [0.7.6.dev9] Old Version: [0.7.6.dev8]
+[2023-06-16 03:21:16] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/b5/0d/da0c66a7d7eb31d8a6cfc9a093943f009e4be7c55d2fcc9bfb272785e58c/pipen_board-0.5.7.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [parq]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-16 03:21:16] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/9b/1a/d3ed5fa8f7ff31c912c287481792d4dde702182cc6a2cd5b8fa71c49013b/coiled-0.7.6.dev8.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [esse]: New version: [2023.6.16.post0] Old Version: [2023.5.29.post0]
+[2023-06-16 03:21:16] INFO root fetch - processPackages [exabyte-api-client]: Downloading https://files.pythonhosted.org/packages/e3/bb/b5cb28d4a4650426f3f6bfe350218dbfc7082997472ef37a65921c4fda73/exabyte-api-client-2023.6.13.post0.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [ovos-skill-naptime]: Downloading https://files.pythonhosted.org/packages/a5/7c/9e4f17de423cad4f0becf4473003a2605ffbcd44e75edeef5069e46a948b/ovos_skill_naptime-0.2.2a4-py3-none-any.whl
+[2023-06-16 03:21:16] INFO root fetch - processPackages [megamock]: Downloading https://files.pythonhosted.org/packages/35/03/7cf871e22d8097e83a66d288365bbd1dfc39af58844d9646d7ce38c1b751/megamock-0.1.0b4.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [exaparser]: Downloading https://files.pythonhosted.org/packages/eb/df/5dad9a3676f59950e9a37db4ac8dd546ad899f71cd8c0284234e61c5f408/exaparser-2023.5.18.post1.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [parq]: Downloading https://files.pythonhosted.org/packages/93/b6/f7be93f565fa74ffd57b62dd5af1b3b7287235610da8c572a551d0a9426a/parq-0.2.3-py3-none-any.whl
+[2023-06-16 03:21:16] INFO root fetch - processPackages [esse]: Downloading https://files.pythonhosted.org/packages/12/c3/ad49d119dfb83c80b01dbdb552f80ae3b80be19a2b342f1a624e41624d36/esse-2023.5.29.post0.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/83/ae/a6b3b3ab3c9682734cb41a99c0689383da9585fc02c249b777effbdb56ad/pipen_board-0.5.8.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/05/28/a33d4ee3421eb21cf1a92c3a09c615ca44e2fcba23371082b0d9384efe41/coiled-0.7.6.dev9.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-16 03:21:16] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.6.dev8.tar.gz tmp/coiled-0.7.6.dev9.tar.gz --markdown 20230616/c/coiled/0.7.6.dev8-0.7.6.dev9/diff.md --exclude *.pyd
+[2023-06-16 03:21:16] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-06-16 03:21:16] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.5.7.tar.gz tmp/pipen_board-0.5.8.tar.gz --markdown 20230616/p/pipen-board/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-06-16 03:21:16] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-16 03:21:16] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230616/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 03:21:16] INFO root fetch - processPackages [megamock]: Downloading https://files.pythonhosted.org/packages/d3/98/0dbcdd4053ec5938e5ef5f29a5879adc8e67ea9c6c1a32539a0144b127c8/megamock-0.1.0b5.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [esse]: Downloading https://files.pythonhosted.org/packages/89/a5/9c6fc273a5af59653bbecb14b8910302309275fa99127bbecc8ddd2f912e/esse-2023.6.16.post0.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [exabyte-api-client]: Downloading https://files.pythonhosted.org/packages/4d/22/d51af690ae24bc3207207e33a91689e9ff21028e044cc7fa9248e609deb1/exabyte-api-client-2023.6.16.post0.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [parq]: Downloading https://files.pythonhosted.org/packages/d3/9a/b82861a53e68b8899020fea4fa6fc8251af792560cf607cde11f1652ea3a/parq-0.3.0-py3-none-any.whl
+[2023-06-16 03:21:16] INFO root fetch - processPackages [exaparser]: Downloading https://files.pythonhosted.org/packages/84/a4/08f0997361903d7bdc5aa1fa8d7a071a93a565bf8aa2f36f9560037e7d6d/exaparser-2023.6.16.post0.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-16 03:21:16] INFO root fetch - processPackages [megamock]: executing diffoscope
+[2023-06-16 03:21:16] INFO root fetch - processPackages [megamock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megamock-0.1.0b4.tar.gz tmp/megamock-0.1.0b5.tar.gz --markdown 20230616/m/megamock/0.1.0b4-0.1.0b5/diff.md --exclude *.pyd
+[2023-06-16 03:21:16] INFO root fetch - processPackages [exabyte-api-client]: executing diffoscope
+[2023-06-16 03:21:16] INFO root fetch - processPackages [exabyte-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exabyte-api-client-2023.6.13.post0.tar.gz tmp/exabyte-api-client-2023.6.16.post0.tar.gz --markdown 20230616/e/exabyte-api-client/2023.6.13.post0-2023.6.16.post0/diff.md --exclude *.pyd
+[2023-06-16 03:21:16] INFO root fetch - processPackages [parq]: executing diffoscope
+[2023-06-16 03:21:16] INFO root fetch - processPackages [parq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parq-0.2.3-py3-none-any.whl.zip tmp/parq-0.3.0-py3-none-any.whl.zip --markdown 20230616/p/parq/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-16 03:21:16] INFO root fetch - processPackages [esse]: executing diffoscope
+[2023-06-16 03:21:16] INFO root fetch - processPackages [esse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esse-2023.5.29.post0.tar.gz tmp/esse-2023.6.16.post0.tar.gz --markdown 20230616/e/esse/2023.5.29.post0-2023.6.16.post0/diff.md --exclude *.pyd
+[2023-06-16 03:21:16] INFO root fetch - processPackages [exaparser]: executing diffoscope
+[2023-06-16 03:21:16] INFO root fetch - processPackages [exaparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exaparser-2023.5.18.post1.tar.gz tmp/exaparser-2023.6.16.post0.tar.gz --markdown 20230616/e/exaparser/2023.5.18.post1-2023.6.16.post0/diff.md --exclude *.pyd
+[2023-06-16 03:21:16] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-16 03:21:16] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230616/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-16 03:21:17] INFO root fetch - processPackages [ovos-skill-naptime]: Downloading https://files.pythonhosted.org/packages/0b/62/47a51c280324c604a54410015955edab8daa93ea69b80623d5f2643b081b/ovos_skill_naptime-0.2.3a1-py3-none-any.whl
+[2023-06-16 03:21:17] INFO root fetch - processPackages [ovos-skill-naptime]: executing diffoscope
+[2023-06-16 03:21:17] INFO root fetch - processPackages [ovos-skill-naptime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_naptime-0.2.2a4-py3-none-any.whl.zip tmp/ovos_skill_naptime-0.2.3a1-py3-none-any.whl.zip --markdown 20230616/o/ovos-skill-naptime/0.2.2a4-0.2.3a1/diff.md --exclude *.pyd
+[2023-06-16 03:21:18] INFO root fetch - processPackages [megamock]: Remove: archive file [/home/abi/fetcher/tmp/megamock-0.1.0b4.tar.gz]
+[2023-06-16 03:21:18] INFO root fetch - processPackages [megamock]: Remove: archive file [/home/abi/fetcher/tmp/megamock-0.1.0b5.tar.gz]
+[2023-06-16 03:21:18] INFO root fetch - processPackages [megamock]: Start processing: express-py
+[2023-06-16 03:21:18] INFO root fetch - main [MainThread]: End processing [megamock]: success
+[2023-06-16 03:21:18] INFO root fetch - processPackages [parq]: Remove: archive file [/home/abi/fetcher/tmp/parq-0.2.3-py3-none-any.whl.zip]
+[2023-06-16 03:21:18] INFO root fetch - processPackages [parq]: Remove: archive file [/home/abi/fetcher/tmp/parq-0.3.0-py3-none-any.whl.zip]
+[2023-06-16 03:21:18] INFO root fetch - main [MainThread]: End processing [parq]: success
+[2023-06-16 03:21:18] INFO root fetch - processPackages [express-py]: New version: [2023.6.16.post0] Old Version: [2023.1.22.post0]
+[2023-06-16 03:21:18] INFO root fetch - processPackages [express-py]: Downloading https://files.pythonhosted.org/packages/49/73/5b9c4765a20b54248ee45db2d62dc8a2799bbf4020f41bd141b1427f22a3/express-py-2023.1.22.post0.tar.gz
+[2023-06-16 03:21:18] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-16 03:21:18] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-16 03:21:18] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-16 03:21:18] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.6.dev8.tar.gz]
+[2023-06-16 03:21:18] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.6.dev9.tar.gz]
+[2023-06-16 03:21:18] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-16 03:21:18] INFO root fetch - processPackages [exabyte-api-client]: Remove: archive file [/home/abi/fetcher/tmp/exabyte-api-client-2023.6.13.post0.tar.gz]
+[2023-06-16 03:21:18] INFO root fetch - processPackages [exabyte-api-client]: Remove: archive file [/home/abi/fetcher/tmp/exabyte-api-client-2023.6.16.post0.tar.gz]
+[2023-06-16 03:21:18] INFO root fetch - main [MainThread]: End processing [exabyte-api-client]: success
+[2023-06-16 03:21:19] INFO root fetch - processPackages [exaparser]: Remove: archive file [/home/abi/fetcher/tmp/exaparser-2023.5.18.post1.tar.gz]
+[2023-06-16 03:21:19] INFO root fetch - processPackages [exaparser]: Remove: archive file [/home/abi/fetcher/tmp/exaparser-2023.6.16.post0.tar.gz]
+[2023-06-16 03:21:19] INFO root fetch - main [MainThread]: End processing [exaparser]: success
+[2023-06-16 03:21:19] INFO root fetch - processPackages [ovos-skill-naptime]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_naptime-0.2.2a4-py3-none-any.whl.zip]
+[2023-06-16 03:21:19] INFO root fetch - processPackages [ovos-skill-naptime]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_naptime-0.2.3a1-py3-none-any.whl.zip]
+[2023-06-16 03:21:19] INFO root fetch - main [MainThread]: End processing [ovos-skill-naptime]: success
+[2023-06-16 03:21:19] INFO root fetch - processPackages [express-py]: Downloading https://files.pythonhosted.org/packages/a5/4f/f886e29aeaa72ec77185e51659ffb941c539075722c3e727049faa894a85/express-py-2023.6.16.post0.tar.gz
+[2023-06-16 03:21:19] INFO root fetch - processPackages [express-py]: executing diffoscope
+[2023-06-16 03:21:19] INFO root fetch - processPackages [express-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/express-py-2023.1.22.post0.tar.gz tmp/express-py-2023.6.16.post0.tar.gz --markdown 20230616/e/express-py/2023.1.22.post0-2023.6.16.post0/diff.md --exclude *.pyd
+[2023-06-16 03:21:20] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-16 03:21:20] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-16 03:21:20] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-16 03:21:24] INFO root fetch - processPackages [express-py]: Remove: archive file [/home/abi/fetcher/tmp/express-py-2023.1.22.post0.tar.gz]
+[2023-06-16 03:21:24] INFO root fetch - processPackages [express-py]: Remove: archive file [/home/abi/fetcher/tmp/express-py-2023.6.16.post0.tar.gz]
+[2023-06-16 03:21:24] INFO root fetch - main [MainThread]: End processing [express-py]: success
+[2023-06-16 03:21:25] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.5.7.tar.gz]
+[2023-06-16 03:21:25] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.5.8.tar.gz]
+[2023-06-16 03:21:25] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-06-16 03:21:28] INFO root fetch - processPackages [esse]: Remove: archive file [/home/abi/fetcher/tmp/esse-2023.5.29.post0.tar.gz]
+[2023-06-16 03:21:28] INFO root fetch - processPackages [esse]: Remove: archive file [/home/abi/fetcher/tmp/esse-2023.6.16.post0.tar.gz]
+[2023-06-16 03:21:28] INFO root fetch - main [MainThread]: End processing [esse]: success
+[2023-06-16 03:21:28] INFO root fetch - main [MainThread]: Store serial: [18524894]
