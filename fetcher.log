@@ -19016,3 +19016,127 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 11:21:38] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-06-16 11:21:38] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-06-16 11:21:38] INFO root fetch - main [MainThread]: Store serial: [18529979]
+[2023-06-16 11:26:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18529979]
+[2023-06-16 11:26:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-16 11:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lesscode-tool
+[2023-06-16 11:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otrs-somconnexio
+[2023-06-16 11:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kgheartbeat
+[2023-06-16 11:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: causaltune
+[2023-06-16 11:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-contributor-assets
+[2023-06-16 11:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: propan
+[2023-06-16 11:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bgpneiget
+[2023-06-16 11:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zzdeeprollover
+[2023-06-16 11:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: design.plone.ioprenoto
+[2023-06-16 11:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-bam
+[2023-06-16 11:26:47] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post842] Old Version: [1.0.0.post841]
+[2023-06-16 11:26:47] INFO root fetch - processPackages [zzdeeprollover]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-16 11:26:47] INFO root fetch - processPackages [kgheartbeat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 11:26:47] INFO root fetch - processPackages [propan]: New version: [0.1.3.3] Old Version: [0.1.3.2]
+[2023-06-16 11:26:47] INFO root fetch - processPackages [design.plone.ioprenoto]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-16 11:26:47] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/6c/48/4c3396ddda9a20297088bcd310a642fb4d71d8eb05b730feef773eee2ae6/nucliadb_contributor_assets-1.0.0.post841-py3-none-any.whl
+[2023-06-16 11:26:47] INFO root fetch - processPackages [kgheartbeat]: Downloading https://files.pythonhosted.org/packages/01/78/447ea7bbade7d6859b80962eb251537a020f837552b84e6edd3dcaa0cb0c/kgheartbeat-0.1.8.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [zzdeeprollover]: Downloading https://files.pythonhosted.org/packages/98/bc/a251cbda4d6b3af4298d979602e56f68480d658e1c06da31d43a752261bc/zzdeeprollover-0.0.4.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [nonebot-plugin-bam]: New version: [0.2.0a1] Old Version: [0.1.5]
+[2023-06-16 11:26:47] INFO root fetch - processPackages [design.plone.ioprenoto]: Downloading https://files.pythonhosted.org/packages/bc/98/a3866e68c79ff7ceb9fadc66a9d3af7eb34a74ee7b8fb146e4d42412eb24/design.plone.ioprenoto-1.0.4.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/3c/aa/b8d7cdebf457cd18f9b98c3a0fa0bace16754a0e45a1145d49be1ebd1904/propan-0.1.3.2.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 11:26:47] WARNING root fetch - processPackages [kgheartbeat]: Skipping package: exceeds size limit 15218972>=10485760
+[2023-06-16 11:26:47] INFO root fetch - processPackages [kgheartbeat]: Start processing: enzyme-jax
+[2023-06-16 11:26:47] INFO root fetch - processPackages [bgpneiget]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-06-16 11:26:47] INFO root fetch - main [MainThread]: End processing [kgheartbeat] error
+[2023-06-16 11:26:47] WARNING root fetch - processPackages [causaltune]: Skipping, unable to determine old version
+[2023-06-16 11:26:47] INFO root fetch - processPackages [causaltune]: Start processing: idun-mock
+[2023-06-16 11:26:47] INFO root fetch - main [MainThread]: End processing [causaltune] error
+[2023-06-16 11:26:47] INFO root fetch - processPackages [otrs-somconnexio]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-16 11:26:47] INFO root fetch - processPackages [nonebot-plugin-bam]: Downloading https://files.pythonhosted.org/packages/91/6d/eab98b964bfa028bac7476ef8d467bdadfe6ae2afd3ed825d8322c1d801e/nonebot_plugin_bam-0.1.5.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [enzyme-jax]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-16 11:26:47] INFO root fetch - processPackages [idun-mock]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 11:26:47] INFO root fetch - processPackages [zzdeeprollover]: Downloading https://files.pythonhosted.org/packages/4e/95/0bf398fad8f32b04bd19dd999577c39949fa1b91fd90770b7dd58cce11e3/zzdeeprollover-0.0.5.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/bb/1c/d72dc0eba27fb649dfe2a69bb6ab8ff54070eb9304ea42afcd9d4fc9a687/propan-0.1.3.3.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/5e/b7/a3ea24f0d8873930dd3c0950c11de58904cccb6b27e8b69e73c637db50b9/nucliadb_contributor_assets-1.0.0.post842-py3-none-any.whl
+[2023-06-16 11:26:47] INFO root fetch - processPackages [design.plone.ioprenoto]: Downloading https://files.pythonhosted.org/packages/8a/22/560a6f749601f18fef6140bd5489ea440d9c0d937c172d1cacaed0b5de86/design.plone.ioprenoto-1.0.5.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [bgpneiget]: Downloading https://files.pythonhosted.org/packages/d8/10/6c538798bed2df4236c8919bdf0c2956b1dab5bbd061660a65dc74d1d1a8/bgpneiget-1.1.0.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [otrs-somconnexio]: Downloading https://files.pythonhosted.org/packages/24/61/f12a7af09c175dfc8830738eef0b0f2e7248bc680d1b4d319dacd61b1c4b/otrs_somconnexio-0.4.8.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [lesscode-tool]: Downloading https://files.pythonhosted.org/packages/ec/3b/c9cd99ede1d7066ae898e7ce12532e4e700c463fc448b5cc8056036f9bdc/lesscode_tool-0.0.8.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [nonebot-plugin-bam]: Downloading https://files.pythonhosted.org/packages/86/62/702123aaa78c83ec3d2f22c220f0bc70da18b507fad736342367812eb632/nonebot_plugin_bam-0.2.0a1.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [zzdeeprollover]: executing diffoscope
+[2023-06-16 11:26:47] INFO root fetch - processPackages [zzdeeprollover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zzdeeprollover-0.0.4.tar.gz tmp/zzdeeprollover-0.0.5.tar.gz --markdown 20230616/z/zzdeeprollover/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-16 11:26:47] INFO root fetch - processPackages [enzyme-jax]: Downloading https://files.pythonhosted.org/packages/22/f0/6c3e1795691f5a9d19ac0e5eafd77030f93cbb63362cf36c69486138ef0f/enzyme_jax-0.0.2-py3-none-manylinux2014_x86_64.whl
+[2023-06-16 11:26:47] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-06-16 11:26:47] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.3.2.tar.gz tmp/propan-0.1.3.3.tar.gz --markdown 20230616/p/propan/0.1.3.2-0.1.3.3/diff.md --exclude *.pyd
+[2023-06-16 11:26:47] INFO root fetch - processPackages [design.plone.ioprenoto]: executing diffoscope
+[2023-06-16 11:26:47] INFO root fetch - processPackages [design.plone.ioprenoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.ioprenoto-1.0.4.tar.gz tmp/design.plone.ioprenoto-1.0.5.tar.gz --markdown 20230616/d/design.plone.ioprenoto/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-16 11:26:47] WARNING root fetch - processPackages [enzyme-jax]: Skipping package: exceeds size limit 38352495>=10485760
+[2023-06-16 11:26:47] INFO root fetch - processPackages [enzyme-jax]: Start processing: memv
+[2023-06-16 11:26:47] INFO root fetch - main [MainThread]: End processing [enzyme-jax] error
+[2023-06-16 11:26:47] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-16 11:26:47] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post841-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post842-py3-none-any.whl.zip --markdown 20230616/n/nucliadb-contributor-assets/1.0.0.post841-1.0.0.post842/diff.md --exclude *.pyd
+[2023-06-16 11:26:47] INFO root fetch - processPackages [idun-mock]: Downloading https://files.pythonhosted.org/packages/53/07/daa6d507634918ed61f7d50ffa1f2309b4b85709212e3bc2952e0ce8b3d8/idun_mock-0.1.0.tar.gz
+[2023-06-16 11:26:47] INFO root fetch - processPackages [nonebot-plugin-bam]: executing diffoscope
+[2023-06-16 11:26:47] INFO root fetch - processPackages [nonebot-plugin-bam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bam-0.1.5.tar.gz tmp/nonebot_plugin_bam-0.2.0a1.tar.gz --markdown 20230616/n/nonebot-plugin-bam/0.1.5-0.2.0a1/diff.md --exclude *.pyd
+[2023-06-16 11:26:47] INFO root fetch - processPackages [memv]: New version: [0.0.2.3] Old Version: [0.0.2.2]
+[2023-06-16 11:26:47] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/9b/6d/4f1c610e4aec7ae52381bdb5fd22103db1f281dfff94962bba1375172180/memv-0.0.2.2.tar.gz
+[2023-06-16 11:26:48] INFO root fetch - processPackages [bgpneiget]: Downloading https://files.pythonhosted.org/packages/11/92/2292f92dd170d81bf38bb3c3e9e50760f843a143a743160eebb0e0852086/bgpneiget-2.0.0.tar.gz
+[2023-06-16 11:26:48] INFO root fetch - processPackages [idun-mock]: Downloading https://files.pythonhosted.org/packages/c1/98/7c2e09d0de3cb19f5d4f572f7e832f0017cd310e5e2c483df70d1a2397b2/idun_mock-0.1.1.tar.gz
+[2023-06-16 11:26:48] INFO root fetch - processPackages [otrs-somconnexio]: Downloading https://files.pythonhosted.org/packages/e5/91/0ea2de8ef72bee6e5e7ad4882d4afa735692fe75764c546ea0a7f8b2bee1/otrs_somconnexio-0.4.9.tar.gz
+[2023-06-16 11:26:48] INFO root fetch - processPackages [bgpneiget]: executing diffoscope
+[2023-06-16 11:26:48] INFO root fetch - processPackages [bgpneiget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgpneiget-1.1.0.tar.gz tmp/bgpneiget-2.0.0.tar.gz --markdown 20230616/b/bgpneiget/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-16 11:26:48] INFO root fetch - processPackages [lesscode-tool]: Downloading https://files.pythonhosted.org/packages/96/a3/0a9a46370a4a8b0a9a4e8f479cdec3e5599d5cc5a6bcb07f73ce4bc15270/lesscode_tool-0.0.9.tar.gz
+[2023-06-16 11:26:48] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/0a/fb/e3c61293571f8b6622f79cbea02ee5d78e55e2e5cc19a2b8acfe02662289/memv-0.0.2.3.tar.gz
+[2023-06-16 11:26:48] INFO root fetch - processPackages [idun-mock]: executing diffoscope
+[2023-06-16 11:26:48] INFO root fetch - processPackages [idun-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idun_mock-0.1.0.tar.gz tmp/idun_mock-0.1.1.tar.gz --markdown 20230616/i/idun-mock/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 11:26:48] INFO root fetch - processPackages [otrs-somconnexio]: executing diffoscope
+[2023-06-16 11:26:48] INFO root fetch - processPackages [otrs-somconnexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otrs_somconnexio-0.4.8.tar.gz tmp/otrs_somconnexio-0.4.9.tar.gz --markdown 20230616/o/otrs-somconnexio/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-16 11:26:48] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-06-16 11:26:48] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230616/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 11:26:48] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 11:26:48] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.2.2.tar.gz tmp/memv-0.0.2.3.tar.gz --markdown 20230616/m/memv/0.0.2.2-0.0.2.3/diff.md --exclude *.pyd
+[2023-06-16 11:26:49] INFO root fetch - processPackages [bgpneiget]: Remove: archive file [/home/abi/fetcher/tmp/bgpneiget-1.1.0.tar.gz]
+[2023-06-16 11:26:49] INFO root fetch - processPackages [bgpneiget]: Remove: archive file [/home/abi/fetcher/tmp/bgpneiget-2.0.0.tar.gz]
+[2023-06-16 11:26:49] INFO root fetch - processPackages [bgpneiget]: Start processing: netbox-cisco-maintenance
+[2023-06-16 11:26:49] INFO root fetch - main [MainThread]: End processing [bgpneiget]: success
+[2023-06-16 11:26:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 11:26:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 11:26:49] INFO root fetch - processPackages [nonebot-plugin-bam]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bam-0.1.5.tar.gz]
+[2023-06-16 11:26:49] INFO root fetch - processPackages [nonebot-plugin-bam]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bam-0.2.0a1.tar.gz]
+[2023-06-16 11:26:49] INFO root fetch - processPackages [nonebot-plugin-bam]: Start processing: simple-interpolator
+[2023-06-16 11:26:49] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bam]: success
+[2023-06-16 11:26:49] INFO root fetch - processPackages [simple-interpolator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 11:26:49] INFO root fetch - processPackages [zzdeeprollover]: Remove: archive file [/home/abi/fetcher/tmp/zzdeeprollover-0.0.4.tar.gz]
+[2023-06-16 11:26:49] INFO root fetch - processPackages [zzdeeprollover]: Remove: archive file [/home/abi/fetcher/tmp/zzdeeprollover-0.0.5.tar.gz]
+[2023-06-16 11:26:49] INFO root fetch - main [MainThread]: End processing [zzdeeprollover]: success
+[2023-06-16 11:26:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 11:26:49] INFO root fetch - processPackages [idun-mock]: Remove: archive file [/home/abi/fetcher/tmp/idun_mock-0.1.0.tar.gz]
+[2023-06-16 11:26:49] INFO root fetch - processPackages [idun-mock]: Remove: archive file [/home/abi/fetcher/tmp/idun_mock-0.1.1.tar.gz]
+[2023-06-16 11:26:49] INFO root fetch - main [MainThread]: End processing [idun-mock]: success
+[2023-06-16 11:26:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 11:26:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 11:26:49] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/81/c7/c89aa0a15d2d6133a844c435f322d41a2c5cb742f5578e9db07375df25c2/simple-interpolator-0.0.1.tar.gz
+[2023-06-16 11:26:49] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.2.tar.gz]
+[2023-06-16 11:26:49] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.3.tar.gz]
+[2023-06-16 11:26:49] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 11:26:49] INFO root fetch - processPackages [lesscode-tool]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tool-0.0.8.tar.gz]
+[2023-06-16 11:26:49] INFO root fetch - processPackages [lesscode-tool]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tool-0.0.9.tar.gz]
+[2023-06-16 11:26:49] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-06-16 11:26:50] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.2.tar.gz]
+[2023-06-16 11:26:50] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.3.tar.gz]
+[2023-06-16 11:26:50] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-06-16 11:26:50] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/b5/06/0a8332f7858ec348e2623a083ccecc6c64a96184c359075a7bd5b2cd5b3c/simple-interpolator-0.0.2.tar.gz
+[2023-06-16 11:26:50] INFO root fetch - processPackages [design.plone.ioprenoto]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.ioprenoto-1.0.4.tar.gz]
+[2023-06-16 11:26:50] INFO root fetch - processPackages [design.plone.ioprenoto]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.ioprenoto-1.0.5.tar.gz]
+[2023-06-16 11:26:50] INFO root fetch - main [MainThread]: End processing [design.plone.ioprenoto]: success
+[2023-06-16 11:26:50] INFO root fetch - processPackages [simple-interpolator]: executing diffoscope
+[2023-06-16 11:26:50] INFO root fetch - processPackages [simple-interpolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-interpolator-0.0.1.tar.gz tmp/simple-interpolator-0.0.2.tar.gz --markdown 20230616/s/simple-interpolator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 11:26:50] INFO root fetch - processPackages [otrs-somconnexio]: Remove: archive file [/home/abi/fetcher/tmp/otrs_somconnexio-0.4.8.tar.gz]
+[2023-06-16 11:26:50] INFO root fetch - processPackages [otrs-somconnexio]: Remove: archive file [/home/abi/fetcher/tmp/otrs_somconnexio-0.4.9.tar.gz]
+[2023-06-16 11:26:50] INFO root fetch - main [MainThread]: End processing [otrs-somconnexio]: success
+[2023-06-16 11:26:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 11:26:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 11:26:51] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 11:26:51] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.0.1.tar.gz]
+[2023-06-16 11:26:51] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.0.2.tar.gz]
+[2023-06-16 11:26:51] INFO root fetch - main [MainThread]: End processing [simple-interpolator]: success
+[2023-06-16 11:27:04] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post841-py3-none-any.whl.zip]
+[2023-06-16 11:27:04] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post842-py3-none-any.whl.zip]
+[2023-06-16 11:27:04] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-16 11:27:04] INFO root fetch - main [MainThread]: Store serial: [18530022]
