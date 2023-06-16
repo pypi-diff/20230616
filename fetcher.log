@@ -22533,3 +22533,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-16 13:58:12] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
 [2023-06-16 13:58:12] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-06-16 13:58:12] INFO root fetch - main [MainThread]: Store serial: [18531317]
+[2023-06-16 14:03:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18531317]
+[2023-06-16 14:03:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: currentscape
+[2023-06-16 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-serving
+[2023-06-16 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xxtest
+[2023-06-16 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bob.io.base
+[2023-06-16 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dopplrSDK
+[2023-06-16 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liverquant
+[2023-06-16 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macrometa-source-collection
+[2023-06-16 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-report-tool
+[2023-06-16 14:03:22] WARNING root fetch - processPackages [xxtest]: Skipping, unable to determine old version
+[2023-06-16 14:03:22] INFO root fetch - main [MainThread]: End processing [xxtest] error
+[2023-06-16 14:03:22] INFO root fetch - processPackages [liverquant]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 14:03:22] INFO root fetch - processPackages [currentscape]: New version: [1.0.4.dev8] Old Version: [1.0.4.dev6]
+[2023-06-16 14:03:22] INFO root fetch - processPackages [bob.io.base]: New version: [5.1.0] Old Version: [5.0.2]
+[2023-06-16 14:03:22] WARNING root fetch - processPackages [data-report-tool]: Skipping, unable to determine old version
+[2023-06-16 14:03:22] INFO root fetch - main [MainThread]: End processing [data-report-tool] error
+[2023-06-16 14:03:22] INFO root fetch - processPackages [dopplrSDK]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-16 14:03:22] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.50] Old Version: [0.0.49]
+[2023-06-16 14:03:22] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230616] Old Version: [2.4.0b20230615]
+[2023-06-16 14:03:22] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/5b/88/6beb349b97dd3b1e6b2bf00ccef16ee9e2e2bc46b28f6161831dacc5c14a/currentscape-1.0.4.dev6.tar.gz
+[2023-06-16 14:03:23] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/05/8d/6919cb2e3d40f0248bdb7e6326a86badeeb94112a6e897520c9e882c349c/macrometa-source-collection-0.0.49.tar.gz
+[2023-06-16 14:03:23] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/5e/02/c4091dd52bd672be239f7ad9578d879112d80a624fa1c5fa1cd8da0fb924/dopplrSDK-2.1.0-py3-none-any.whl
+[2023-06-16 14:03:23] INFO root fetch - processPackages [bob.io.base]: Downloading https://files.pythonhosted.org/packages/1a/03/a7bd57240eebcf14659540b74661fab1f893358c180f8a6b3f10c457cb77/bob.io.base-5.0.2.zip
+[2023-06-16 14:03:23] INFO root fetch - processPackages [liverquant]: Downloading https://files.pythonhosted.org/packages/80/82/0802b09b66b65d8db3b48476994562b112a50d4115723f2ee0388177f09a/liverquant-0.0.1.tar.gz
+[2023-06-16 14:03:23] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/97/76/fbbb736a01b0bd83f8c1cbb2f67420a7fa837f57095dc2cac96ae3ac31b5/currentscape-1.0.4.dev8.tar.gz
+[2023-06-16 14:03:23] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/a1/bd/0651a8386f58493aed84c17f13bc5427e9a918d47d5691865d8d87bf2f7b/bigdl_serving-2.4.0b20230615-py2.py3-none-any.whl
+[2023-06-16 14:03:23] INFO root fetch - processPackages [currentscape]: executing diffoscope
+[2023-06-16 14:03:23] INFO root fetch - processPackages [currentscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currentscape-1.0.4.dev6.tar.gz tmp/currentscape-1.0.4.dev8.tar.gz --markdown 20230616/c/currentscape/1.0.4.dev6-1.0.4.dev8/diff.md --exclude *.pyd
+[2023-06-16 14:03:23] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/ec/3e/0ef5c9f76f4301a01b930c63317081e8978582446336633a3d1c586a87a5/dopplrSDK-2.2.0-py3-none-any.whl
+[2023-06-16 14:03:23] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/8b/5a/9583a807309f82471aeb6a2de9f43c61a932d7e0feff54ab3f50f47fc6f5/macrometa-source-collection-0.0.50.tar.gz
+[2023-06-16 14:03:23] INFO root fetch - processPackages [liverquant]: Downloading https://files.pythonhosted.org/packages/fd/72/1a5ae41d8774895f0a986ab1ca99a81a3498af824e0d2447af336703c8e6/liverquant-0.0.2.tar.gz
+[2023-06-16 14:03:23] INFO root fetch - processPackages [dopplrSDK]: executing diffoscope
+[2023-06-16 14:03:23] INFO root fetch - processPackages [dopplrSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopplrSDK-2.1.0-py3-none-any.whl.zip tmp/dopplrSDK-2.2.0-py3-none-any.whl.zip --markdown 20230616/d/dopplrSDK/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-16 14:03:23] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/43/0a/b458e8eefc8806bbc4dd75dffbd7c1ebdc1edd1481c6d006b1109e9a3196/bigdl_serving-2.4.0b20230616-py2.py3-none-any.whl
+[2023-06-16 14:03:23] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-06-16 14:03:23] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.49.tar.gz tmp/macrometa-source-collection-0.0.50.tar.gz --markdown 20230616/m/macrometa-source-collection/0.0.49-0.0.50/diff.md --exclude *.pyd
+[2023-06-16 14:03:23] INFO root fetch - processPackages [liverquant]: executing diffoscope
+[2023-06-16 14:03:23] INFO root fetch - processPackages [liverquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liverquant-0.0.1.tar.gz tmp/liverquant-0.0.2.tar.gz --markdown 20230616/l/liverquant/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 14:03:23] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-16 14:03:23] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230615-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230616-py2.py3-none-any.whl.zip --markdown 20230616/b/bigdl-serving/2.4.0b20230615-2.4.0b20230616/diff.md --exclude *.pyd
+[2023-06-16 14:03:24] INFO root fetch - processPackages [bob.io.base]: Downloading https://files.pythonhosted.org/packages/aa/d2/36aa56e0ccb2919f939b5d2d0e4caa52d94bb899f9c440e831c8c220c279/bob.io.base-5.1.0.tar.gz
+[2023-06-16 14:03:24] INFO root fetch - processPackages [bob.io.base]: executing diffoscope
+[2023-06-16 14:03:24] INFO root fetch - processPackages [bob.io.base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bob.io.base-5.0.2.zip tmp/bob.io.base-5.1.0.tar.gz --markdown 20230616/b/bob.io.base/5.0.2-5.1.0/diff.md --exclude *.pyd
+[2023-06-16 14:03:24] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-2.1.0-py3-none-any.whl.zip]
+[2023-06-16 14:03:24] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-2.2.0-py3-none-any.whl.zip]
+[2023-06-16 14:03:24] INFO root fetch - main [MainThread]: End processing [dopplrSDK]: success
+[2023-06-16 14:03:24] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.49.tar.gz]
+[2023-06-16 14:03:24] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.50.tar.gz]
+[2023-06-16 14:03:24] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-06-16 14:03:24] INFO root fetch - processPackages [liverquant]: Remove: archive file [/home/abi/fetcher/tmp/liverquant-0.0.1.tar.gz]
+[2023-06-16 14:03:24] INFO root fetch - processPackages [liverquant]: Remove: archive file [/home/abi/fetcher/tmp/liverquant-0.0.2.tar.gz]
+[2023-06-16 14:03:24] INFO root fetch - main [MainThread]: End processing [liverquant]: success
+[2023-06-16 14:03:24] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230615-py2.py3-none-any.whl.zip]
+[2023-06-16 14:03:24] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230616-py2.py3-none-any.whl.zip]
+[2023-06-16 14:03:24] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-16 14:03:24] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.4.dev6.tar.gz]
+[2023-06-16 14:03:24] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.4.dev8.tar.gz]
+[2023-06-16 14:03:24] INFO root fetch - main [MainThread]: End processing [currentscape]: success
+[2023-06-16 14:03:29] INFO root fetch - processPackages [bob.io.base]: Remove: archive file [/home/abi/fetcher/tmp/bob.io.base-5.0.2.zip]
+[2023-06-16 14:03:29] INFO root fetch - processPackages [bob.io.base]: Remove: archive file [/home/abi/fetcher/tmp/bob.io.base-5.1.0.tar.gz]
+[2023-06-16 14:03:29] INFO root fetch - main [MainThread]: End processing [bob.io.base]: success
+[2023-06-16 14:03:29] INFO root fetch - main [MainThread]: Store serial: [18531408]
