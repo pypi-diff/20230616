@@ -19810,3 +19810,143 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 11:53:36] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.7.tar.gz]
 [2023-06-16 11:53:36] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
 [2023-06-16 11:53:36] INFO root fetch - main [MainThread]: Store serial: [18530265]
+[2023-06-16 11:58:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530265]
+[2023-06-16 11:58:44] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-16 11:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: artus
+[2023-06-16 11:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omc3
+[2023-06-16 11:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heps
+[2023-06-16 11:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: api-reflector
+[2023-06-16 11:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple-interpolator
+[2023-06-16 11:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stellanow-cli
+[2023-06-16 11:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tabdoc
+[2023-06-16 11:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bagbag
+[2023-06-16 11:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: croydon
+[2023-06-16 11:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: renamer-kt
+[2023-06-16 11:58:45] INFO root fetch - processPackages [simple-interpolator]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-16 11:58:45] INFO root fetch - processPackages [stellanow-cli]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-16 11:58:45] INFO root fetch - processPackages [api-reflector]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-16 11:58:45] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-06-16 11:58:45] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/fb/5f/1eb197dabb14d5a3b62c5031ee1a0501c54a54d583bf7c46ac6ac6f08b64/simple_interpolator-0.0.4-py3-none-any.whl
+[2023-06-16 11:58:45] INFO root fetch - processPackages [stellanow-cli]: Downloading https://files.pythonhosted.org/packages/9e/b0/a5b981c61c8e49303b5c686d2b1986201f9e5e48b7f17f0508b1c32caae7/stellanow_cli-0.0.2.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [api-reflector]: Downloading https://files.pythonhosted.org/packages/b1/b0/fa99cea911499a6e173f090d5435f5fff235a996feeacbbf2e07ada2a004/api-reflector-0.7.0.tar.gz
+[2023-06-16 11:58:45] WARNING root fetch - processPackages [heps]: Skipping, unable to determine old version
+[2023-06-16 11:58:45] INFO root fetch - processPackages [heps]: Start processing: fullask-rest-framework
+[2023-06-16 11:58:45] INFO root fetch - main [MainThread]: End processing [heps] error
+[2023-06-16 11:58:45] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [tabdoc]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-16 11:58:45] WARNING root fetch - processPackages [renamer-kt]: Skipping, unable to determine old version
+[2023-06-16 11:58:45] INFO root fetch - processPackages [renamer-kt]: Start processing: lazysdk
+[2023-06-16 11:58:45] INFO root fetch - main [MainThread]: End processing [renamer-kt] error
+[2023-06-16 11:58:45] INFO root fetch - processPackages [artus]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-16 11:58:45] INFO root fetch - processPackages [omc3]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-16 11:58:45] INFO root fetch - processPackages [croydon]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-16 11:58:45] INFO root fetch - processPackages [artus]: Downloading https://files.pythonhosted.org/packages/aa/5e/4f7976fde002821565a000caf8d9a6f87eb6745ce611360b3651f505da6c/artus-0.3.0.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/46/fb/43072bc876cc4fa2b1cd87efedd3933213bac4b2c797aced2f3bd28c7d83/simple-interpolator-0.0.5.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 11:58:45] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 11:58:45] INFO root fetch - processPackages [api-reflector]: Downloading https://files.pythonhosted.org/packages/c5/f8/d0f1f45968b90c0e37ddcf8817391c5f49061c479723c417a9c45de2779a/api_reflector-0.8.0.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [tabdoc]: Downloading https://files.pythonhosted.org/packages/a5/12/d39c16a163b53f9c25dd66abe6c6c56734a9b03524ba510055d8acc13a45/tabdoc-1.0.3-py3-none-any.whl
+[2023-06-16 11:58:45] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [simple-interpolator]: executing diffoscope
+[2023-06-16 11:58:45] INFO root fetch - processPackages [simple-interpolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_interpolator-0.0.4-py3-none-any.whl.zip tmp/simple-interpolator-0.0.5.tar.gz --markdown 20230616/s/simple-interpolator/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-16 11:58:45] INFO root fetch - processPackages [stellanow-cli]: Downloading https://files.pythonhosted.org/packages/62/dc/367a59901d0e5521d0ca0bbac5964399c3cd90664e1431e563f4d9cbffa1/stellanow_cli-0.0.3.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [croydon]: Downloading https://files.pythonhosted.org/packages/8f/23/59276ea8901c9d7e6d675111626865c10bbda893cddb6cf2144637c0d607/croydon-0.9.0.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [omc3]: Downloading https://files.pythonhosted.org/packages/bd/c5/164f854277c605ffc5a41a551b3bc773ed1627adf2493b9dc17dbd4889bf/omc3-0.8.0.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [api-reflector]: executing diffoscope
+[2023-06-16 11:58:45] INFO root fetch - processPackages [api-reflector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-reflector-0.7.0.tar.gz tmp/api_reflector-0.8.0.tar.gz --markdown 20230616/a/api-reflector/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-16 11:58:45] WARNING root fetch - processPackages [omc3]: Skipping package: exceeds size limit 20450935>=10485760
+[2023-06-16 11:58:45] INFO root fetch - processPackages [omc3]: Start processing: taktile-auth
+[2023-06-16 11:58:45] INFO root fetch - main [MainThread]: End processing [omc3] error
+[2023-06-16 11:58:45] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-16 11:58:45] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230616/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-06-16 11:58:45] INFO root fetch - processPackages [stellanow-cli]: executing diffoscope
+[2023-06-16 11:58:45] INFO root fetch - processPackages [stellanow-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stellanow_cli-0.0.2.tar.gz tmp/stellanow_cli-0.0.3.tar.gz --markdown 20230616/s/stellanow-cli/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-16 11:58:45] INFO root fetch - processPackages [artus]: Downloading https://files.pythonhosted.org/packages/c3/07/4e653c735c32599dab7bd3dd28db580ad68a738f39862d1a2c1e801111f6/artus-0.3.1.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/36/c8/4324353a770d607459e44aea940d62ee51851266a0b5cc6faa6a89c6a3c3/fullask-rest-framework-0.1.8.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [taktile-auth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 11:58:45] INFO root fetch - processPackages [tabdoc]: Downloading https://files.pythonhosted.org/packages/f0/af/8de4f3538788105f7b429e117ee37d3a0c9db80e59d2dd10b173ebecc931/tabdoc-1.0.4-py3-none-any.whl
+[2023-06-16 11:58:45] INFO root fetch - processPackages [artus]: executing diffoscope
+[2023-06-16 11:58:45] INFO root fetch - processPackages [artus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artus-0.3.0.tar.gz tmp/artus-0.3.1.tar.gz --markdown 20230616/a/artus/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-16 11:58:45] INFO root fetch - processPackages [croydon]: Downloading https://files.pythonhosted.org/packages/0f/a7/2941c78a03d5afe7b6cd8bb571d61a9caa4a3c07479b0bd17ea6c4f2aba6/croydon-0.9.1.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [taktile-auth]: Downloading https://files.pythonhosted.org/packages/78/c7/800b4beea76c590ebcdd1aab9afb19f296e7cdab4526fda6486f8c5ec53e/taktile-auth-0.0.8.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [croydon]: executing diffoscope
+[2023-06-16 11:58:45] INFO root fetch - processPackages [croydon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croydon-0.9.0.tar.gz tmp/croydon-0.9.1.tar.gz --markdown 20230616/c/croydon/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-16 11:58:45] INFO root fetch - processPackages [tabdoc]: executing diffoscope
+[2023-06-16 11:58:45] INFO root fetch - processPackages [tabdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabdoc-1.0.3-py3-none-any.whl.zip tmp/tabdoc-1.0.4-py3-none-any.whl.zip --markdown 20230616/t/tabdoc/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-16 11:58:45] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/1d/c1/51c21ad08d286c1ffd3f20bbbb5de3aa05811a1c6035de42010b6d6ae180/fullask-rest-framework-0.1.9.tar.gz
+[2023-06-16 11:58:45] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-06-16 11:58:45] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230616/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 11:58:46] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-06-16 11:58:46] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask-rest-framework-0.1.8.tar.gz tmp/fullask-rest-framework-0.1.9.tar.gz --markdown 20230616/f/fullask-rest-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 11:58:46] INFO root fetch - processPackages [taktile-auth]: Downloading https://files.pythonhosted.org/packages/fc/81/f433d9604f88f2411f1198281d506bcbd0caf1e00cd3b0e8d55c1ee399d3/taktile-auth-0.0.9.tar.gz
+[2023-06-16 11:58:46] INFO root fetch - processPackages [taktile-auth]: executing diffoscope
+[2023-06-16 11:58:46] INFO root fetch - processPackages [taktile-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taktile-auth-0.0.8.tar.gz tmp/taktile-auth-0.0.9.tar.gz --markdown 20230616/t/taktile-auth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 11:58:46] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple_interpolator-0.0.4-py3-none-any.whl.zip]
+[2023-06-16 11:58:46] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.0.5.tar.gz]
+[2023-06-16 11:58:46] INFO root fetch - processPackages [simple-interpolator]: Start processing: clear-skies-aws
+[2023-06-16 11:58:46] INFO root fetch - main [MainThread]: End processing [simple-interpolator]: success
+[2023-06-16 11:58:46] INFO root fetch - processPackages [clear-skies-aws]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-16 11:58:46] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/a2/a1/f7f6d0d1f8828177fcc3ad85d29bde1a1a5f973bcfaa63711ae6174b0449/clear_skies_aws-1.5.5.tar.gz
+[2023-06-16 11:58:46] INFO root fetch - processPackages [stellanow-cli]: Remove: archive file [/home/abi/fetcher/tmp/stellanow_cli-0.0.2.tar.gz]
+[2023-06-16 11:58:46] INFO root fetch - processPackages [stellanow-cli]: Remove: archive file [/home/abi/fetcher/tmp/stellanow_cli-0.0.3.tar.gz]
+[2023-06-16 11:58:46] INFO root fetch - processPackages [stellanow-cli]: Start processing: netbox-cisco-maintenance
+[2023-06-16 11:58:46] INFO root fetch - main [MainThread]: End processing [stellanow-cli]: success
+[2023-06-16 11:58:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 11:58:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 11:58:47] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/a7/e2/25249a2296843ec123a617df31072e5a0238129d490404ef948e198997a0/clear_skies_aws-1.5.6.tar.gz
+[2023-06-16 11:58:47] INFO root fetch - processPackages [clear-skies-aws]: executing diffoscope
+[2023-06-16 11:58:47] INFO root fetch - processPackages [clear-skies-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear_skies_aws-1.5.5.tar.gz tmp/clear_skies_aws-1.5.6.tar.gz --markdown 20230616/c/clear-skies-aws/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-06-16 11:58:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 11:58:47] INFO root fetch - processPackages [artus]: Remove: archive file [/home/abi/fetcher/tmp/artus-0.3.0.tar.gz]
+[2023-06-16 11:58:47] INFO root fetch - processPackages [artus]: Remove: archive file [/home/abi/fetcher/tmp/artus-0.3.1.tar.gz]
+[2023-06-16 11:58:47] INFO root fetch - processPackages [artus]: Start processing: terra-python
+[2023-06-16 11:58:47] INFO root fetch - main [MainThread]: End processing [artus]: success
+[2023-06-16 11:58:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 11:58:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 11:58:47] INFO root fetch - processPackages [terra-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 11:58:47] INFO root fetch - processPackages [terra-python]: Downloading https://files.pythonhosted.org/packages/ec/01/3bc95bc56f7c7c2e8518d53c73477b80bff88c47a3c32a2ddee84959391f/terra-python-0.0.8.tar.gz
+[2023-06-16 11:58:47] INFO root fetch - processPackages [tabdoc]: Remove: archive file [/home/abi/fetcher/tmp/tabdoc-1.0.3-py3-none-any.whl.zip]
+[2023-06-16 11:58:47] INFO root fetch - processPackages [tabdoc]: Remove: archive file [/home/abi/fetcher/tmp/tabdoc-1.0.4-py3-none-any.whl.zip]
+[2023-06-16 11:58:47] INFO root fetch - processPackages [tabdoc]: Start processing: payla-utils
+[2023-06-16 11:58:47] INFO root fetch - main [MainThread]: End processing [tabdoc]: success
+[2023-06-16 11:58:47] INFO root fetch - processPackages [api-reflector]: Remove: archive file [/home/abi/fetcher/tmp/api-reflector-0.7.0.tar.gz]
+[2023-06-16 11:58:47] INFO root fetch - processPackages [api-reflector]: Remove: archive file [/home/abi/fetcher/tmp/api_reflector-0.8.0.tar.gz]
+[2023-06-16 11:58:47] INFO root fetch - main [MainThread]: End processing [api-reflector]: success
+[2023-06-16 11:58:47] INFO root fetch - processPackages [payla-utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-16 11:58:47] INFO root fetch - processPackages [taktile-auth]: Remove: archive file [/home/abi/fetcher/tmp/taktile-auth-0.0.8.tar.gz]
+[2023-06-16 11:58:47] INFO root fetch - processPackages [taktile-auth]: Remove: archive file [/home/abi/fetcher/tmp/taktile-auth-0.0.9.tar.gz]
+[2023-06-16 11:58:47] INFO root fetch - main [MainThread]: End processing [taktile-auth]: success
+[2023-06-16 11:58:47] INFO root fetch - processPackages [terra-python]: Downloading https://files.pythonhosted.org/packages/9c/3c/bed205e1fc734c50e1dbfc924dc095d71bf3cea97dddc66e70609bd5ac18/terra-python-0.0.9.tar.gz
+[2023-06-16 11:58:47] INFO root fetch - processPackages [payla-utils]: Downloading https://files.pythonhosted.org/packages/5d/c4/4607ccd00f223c01e7d2c0afc6aef57830efd4fb338729a133dae0fd9cbb/payla_utils-0.2.8.tar.gz
+[2023-06-16 11:58:47] INFO root fetch - processPackages [terra-python]: executing diffoscope
+[2023-06-16 11:58:47] INFO root fetch - processPackages [terra-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terra-python-0.0.8.tar.gz tmp/terra-python-0.0.9.tar.gz --markdown 20230616/t/terra-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 11:58:48] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-06-16 11:58:48] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-06-16 11:58:48] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-06-16 11:58:48] INFO root fetch - processPackages [croydon]: Remove: archive file [/home/abi/fetcher/tmp/croydon-0.9.0.tar.gz]
+[2023-06-16 11:58:48] INFO root fetch - processPackages [croydon]: Remove: archive file [/home/abi/fetcher/tmp/croydon-0.9.1.tar.gz]
+[2023-06-16 11:58:48] INFO root fetch - main [MainThread]: End processing [croydon]: success
+[2023-06-16 11:58:48] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.8.tar.gz]
+[2023-06-16 11:58:48] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.9.tar.gz]
+[2023-06-16 11:58:48] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-06-16 11:58:48] INFO root fetch - processPackages [payla-utils]: Downloading https://files.pythonhosted.org/packages/ba/58/d6dfd8fb5418e882493f9a3696283556628f2ae4592866363cecbb70fc3d/payla_utils-0.2.9.tar.gz
+[2023-06-16 11:58:48] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 11:58:48] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 11:58:48] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 11:58:48] INFO root fetch - processPackages [payla-utils]: executing diffoscope
+[2023-06-16 11:58:48] INFO root fetch - processPackages [payla-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payla_utils-0.2.8.tar.gz tmp/payla_utils-0.2.9.tar.gz --markdown 20230616/p/payla-utils/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 11:58:49] INFO root fetch - processPackages [clear-skies-aws]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_aws-1.5.5.tar.gz]
+[2023-06-16 11:58:49] INFO root fetch - processPackages [clear-skies-aws]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_aws-1.5.6.tar.gz]
+[2023-06-16 11:58:49] INFO root fetch - main [MainThread]: End processing [clear-skies-aws]: success
+[2023-06-16 11:58:49] INFO root fetch - processPackages [terra-python]: Remove: archive file [/home/abi/fetcher/tmp/terra-python-0.0.8.tar.gz]
+[2023-06-16 11:58:49] INFO root fetch - processPackages [terra-python]: Remove: archive file [/home/abi/fetcher/tmp/terra-python-0.0.9.tar.gz]
+[2023-06-16 11:58:49] INFO root fetch - main [MainThread]: End processing [terra-python]: success
+[2023-06-16 11:58:49] INFO root fetch - processPackages [payla-utils]: Remove: archive file [/home/abi/fetcher/tmp/payla_utils-0.2.8.tar.gz]
+[2023-06-16 11:58:49] INFO root fetch - processPackages [payla-utils]: Remove: archive file [/home/abi/fetcher/tmp/payla_utils-0.2.9.tar.gz]
+[2023-06-16 11:58:49] INFO root fetch - main [MainThread]: End processing [payla-utils]: success
+[2023-06-16 11:58:50] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-06-16 11:58:50] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-06-16 11:58:50] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-16 11:58:50] INFO root fetch - main [MainThread]: Store serial: [18530326]
