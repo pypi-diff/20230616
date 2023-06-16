@@ -20125,3 +20125,116 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 12:04:07] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_sdm-1.2.0.tar.gz]
 [2023-06-16 12:04:07] INFO root fetch - main [MainThread]: End processing [pierskarsenbarg-pulumi-sdm]: success
 [2023-06-16 12:04:07] INFO root fetch - main [MainThread]: Store serial: [18530389]
+[2023-06-16 12:09:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530389]
+[2023-06-16 12:09:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-16 12:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: memv
+[2023-06-16 12:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sj-tool
+[2023-06-16 12:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solar-system-ephemerides
+[2023-06-16 12:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-l4d2-server
+[2023-06-16 12:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vecnom
+[2023-06-16 12:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-exporter
+[2023-06-16 12:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: microservices-common
+[2023-06-16 12:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: memv
+[2023-06-16 12:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shpyx
+[2023-06-16 12:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docarray
+[2023-06-16 12:09:16] INFO root fetch - processPackages [vecnom]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 12:09:16] INFO root fetch - processPackages [mkdocs-exporter]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-16 12:09:16] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-16 12:09:16] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/3e/c2/aa2fa2cb05d2e108b41ad914527d96b3143fb7dae8af209fa84661ff17b8/mkdocs_exporter-3.1.0.tar.gz
+[2023-06-16 12:09:16] INFO root fetch - processPackages [vecnom]: Downloading https://files.pythonhosted.org/packages/ac/8c/582f67f12625fa942c81b314d33f0df6e83fac43978a4c5a9a32203e2bfa/vecnom-0.1.0.tar.gz
+[2023-06-16 12:09:16] INFO root fetch - processPackages [microservices-common]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 12:09:16] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-16 12:09:16] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.6.1] Old Version: [0.5.6]
+[2023-06-16 12:09:16] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-16 12:09:17] INFO root fetch - processPackages [solar-system-ephemerides]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-16 12:09:17] INFO root fetch - processPackages [shpyx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 12:09:17] INFO root fetch - processPackages [memv]: New version: [0.0.3.1] Old Version: [0.0.3.0]
+[2023-06-16 12:09:17] INFO root fetch - processPackages [memv]: New version: [0.0.3.1] Old Version: [0.0.3.0]
+[2023-06-16 12:09:17] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/66/36/4a6db437a793a46bf831a8175bb3c7902d5e1a0cefa638931c9a677b4855/mkdocs_exporter-3.1.1.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [vecnom]: Downloading https://files.pythonhosted.org/packages/7f/51/857111dcda357eb9d259fb0e998deb5b7d93dff51b624a9b161fa3c060b4/vecnom-0.1.1.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/27/30/193f711cfd97afefcd417a951cd09ee3ada6b7aa7ba96509d126574a9ff8/nonebot_plugin_l4d2_server-0.5.6.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-16 12:09:17] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/cf/26/d61009fe7a48c56135d6109d63dde027b1f58aa65451904967d42313b5fe/microservices_common-0.0.8.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/14/96/65aef7dc0583bb7e951643b68ef81ebbec492b803bad60c80ce2706d924b/memv-0.0.3.0.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/14/96/65aef7dc0583bb7e951643b68ef81ebbec492b803bad60c80ce2706d924b/memv-0.0.3.0.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [solar-system-ephemerides]: Downloading https://files.pythonhosted.org/packages/0a/80/02423d6a731198f19dc9ed49ba3d2f29b55ad54ddd8ac9cdeee4da057ff2/solar_system_ephemerides-1.0.0.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [shpyx]: Downloading https://files.pythonhosted.org/packages/88/37/c6aa2ce3fa6f4b01d9cbc0c48f11f4e823c1d3cd18893f135dca5b180e63/shpyx-0.0.8.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [vecnom]: executing diffoscope
+[2023-06-16 12:09:17] INFO root fetch - processPackages [vecnom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vecnom-0.1.0.tar.gz tmp/vecnom-0.1.1.tar.gz --markdown 20230616/v/vecnom/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 12:09:17] INFO root fetch - processPackages [mkdocs-exporter]: executing diffoscope
+[2023-06-16 12:09:17] INFO root fetch - processPackages [mkdocs-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_exporter-3.1.0.tar.gz tmp/mkdocs_exporter-3.1.1.tar.gz --markdown 20230616/m/mkdocs-exporter/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-16 12:09:17] WARNING root fetch - processPackages [solar-system-ephemerides]: Skipping package: exceeds size limit 106227900>=10485760
+[2023-06-16 12:09:17] INFO root fetch - processPackages [solar-system-ephemerides]: Start processing: netorca-sdk
+[2023-06-16 12:09:17] INFO root fetch - main [MainThread]: End processing [solar-system-ephemerides] error
+[2023-06-16 12:09:17] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-16 12:09:17] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230616/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-16 12:09:17] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/9a/7a/cbabd952f6aa0f2f2f7441342e11eefb574671b03c8d1cd11a16f8fa45d4/nonebot_plugin_l4d2_server-0.5.6.1.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-16 12:09:17] INFO root fetch - processPackages [netorca-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 12:09:17] INFO root fetch - processPackages [shpyx]: Downloading https://files.pythonhosted.org/packages/44/e3/f720a2254430fbabf6b1c0199f2dba1c07a1ee25e0cfd69f545d8e8a54d1/shpyx-0.0.9.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-16 12:09:17] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230616/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-16 12:09:17] INFO root fetch - processPackages [microservices-common]: Downloading https://files.pythonhosted.org/packages/18/65/42a7244c50e3cb0b26a6a430635e23b6584e219c7a28c6cb6bd4d7925540/microservices_common-0.0.9.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-06-16 12:09:17] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.6.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.6.1.tar.gz --markdown 20230616/n/nonebot-plugin-l4d2-server/0.5.6-0.5.6.1/diff.md --exclude *.pyd
+[2023-06-16 12:09:17] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/a2/1d/808dc9fc6e765a83aaf7d7add37c0e081a7a8d418cc3cdc16a86558ec32e/memv-0.0.3.1.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/a2/1d/808dc9fc6e765a83aaf7d7add37c0e081a7a8d418cc3cdc16a86558ec32e/memv-0.0.3.1.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [netorca-sdk]: Downloading https://files.pythonhosted.org/packages/c8/e0/9e0572c8e4434d6975abf9685e1ce8dfadce28bc92bf996370d66b836306/netorca_sdk-0.1.0.tar.gz
+[2023-06-16 12:09:17] INFO root fetch - processPackages [shpyx]: executing diffoscope
+[2023-06-16 12:09:17] INFO root fetch - processPackages [shpyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shpyx-0.0.8.tar.gz tmp/shpyx-0.0.9.tar.gz --markdown 20230616/s/shpyx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 12:09:17] INFO root fetch - processPackages [microservices-common]: executing diffoscope
+[2023-06-16 12:09:17] INFO root fetch - processPackages [microservices-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservices_common-0.0.8.tar.gz tmp/microservices_common-0.0.9.tar.gz --markdown 20230616/m/microservices-common/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 12:09:17] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 12:09:17] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 12:09:17] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.3.0.tar.gz tmp/memv-0.0.3.1.tar.gz --markdown 20230616/m/memv/0.0.3.0-0.0.3.1/diff.md --exclude *.pyd
+[2023-06-16 12:09:17] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.3.0.tar.gz tmp/memv-0.0.3.1.tar.gz --markdown 20230616/m/memv/0.0.3.0-0.0.3.1/diff.md --exclude *.pyd
+[2023-06-16 12:09:18] INFO root fetch - processPackages [netorca-sdk]: Downloading https://files.pythonhosted.org/packages/95/74/61f4b8212e16df66c9afac06f1ff98674bd7844c72720694bc26c08a9f72/netorca-sdk-0.1.1.tar.gz
+[2023-06-16 12:09:18] INFO root fetch - processPackages [netorca-sdk]: executing diffoscope
+[2023-06-16 12:09:18] INFO root fetch - processPackages [netorca-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netorca_sdk-0.1.0.tar.gz tmp/netorca-sdk-0.1.1.tar.gz --markdown 20230616/n/netorca-sdk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 12:09:18] INFO root fetch - processPackages [vecnom]: Remove: archive file [/home/abi/fetcher/tmp/vecnom-0.1.0.tar.gz]
+[2023-06-16 12:09:18] INFO root fetch - processPackages [vecnom]: Remove: archive file [/home/abi/fetcher/tmp/vecnom-0.1.1.tar.gz]
+[2023-06-16 12:09:18] INFO root fetch - processPackages [vecnom]: Start processing: netbox-cisco-maintenance
+[2023-06-16 12:09:18] INFO root fetch - main [MainThread]: End processing [vecnom]: success
+[2023-06-16 12:09:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 12:09:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 12:09:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 12:09:18] INFO root fetch - processPackages [mkdocs-exporter]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_exporter-3.1.0.tar.gz]
+[2023-06-16 12:09:18] INFO root fetch - processPackages [mkdocs-exporter]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_exporter-3.1.1.tar.gz]
+[2023-06-16 12:09:18] INFO root fetch - processPackages [mkdocs-exporter]: Start processing: memv
+[2023-06-16 12:09:18] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter]: success
+[2023-06-16 12:09:18] INFO root fetch - processPackages [memv]: New version: [0.0.3.1] Old Version: [0.0.3.0]
+[2023-06-16 12:09:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 12:09:18] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 12:09:19] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 12:09:19] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.3.0.tar.gz tmp/memv-0.0.3.1.tar.gz --markdown 20230616/m/memv/0.0.3.0-0.0.3.1/diff.md --exclude *.pyd
+[2023-06-16 12:09:19] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-16 12:09:19] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-16 12:09:19] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-16 12:09:19] INFO root fetch - processPackages [shpyx]: Remove: archive file [/home/abi/fetcher/tmp/shpyx-0.0.8.tar.gz]
+[2023-06-16 12:09:19] INFO root fetch - processPackages [shpyx]: Remove: archive file [/home/abi/fetcher/tmp/shpyx-0.0.9.tar.gz]
+[2023-06-16 12:09:19] INFO root fetch - main [MainThread]: End processing [shpyx]: success
+[2023-06-16 12:09:19] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-0.0.8.tar.gz]
+[2023-06-16 12:09:19] INFO root fetch - processPackages [microservices-common]: Remove: archive file [/home/abi/fetcher/tmp/microservices_common-0.0.9.tar.gz]
+[2023-06-16 12:09:19] INFO root fetch - main [MainThread]: End processing [microservices-common]: success
+[2023-06-16 12:09:19] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.3.0.tar.gz]
+[2023-06-16 12:09:19] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.3.1.tar.gz]
+[2023-06-16 12:09:19] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 12:09:19] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 12:09:19] INFO root fetch - processPackages [netorca-sdk]: Remove: archive file [/home/abi/fetcher/tmp/netorca_sdk-0.1.0.tar.gz]
+[2023-06-16 12:09:19] INFO root fetch - processPackages [netorca-sdk]: Remove: archive file [/home/abi/fetcher/tmp/netorca-sdk-0.1.1.tar.gz]
+[2023-06-16 12:09:19] INFO root fetch - main [MainThread]: End processing [netorca-sdk]: success
+[2023-06-16 12:09:19] ERROR root fetch - processPackages [memv]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/memv-0.0.3.0.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/memv-0.0.3.1.tar.gz: No such file or directory
+
+[2023-06-16 12:09:19] INFO root fetch - main [MainThread]: End processing [memv] error
+[2023-06-16 12:09:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 12:09:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 12:09:20] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 12:09:21] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.6.tar.gz]
+[2023-06-16 12:09:21] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.6.1.tar.gz]
+[2023-06-16 12:09:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-06-16 12:09:21] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-16 12:09:21] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-16 12:09:21] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-16 12:09:21] INFO root fetch - main [MainThread]: Store serial: [18530423]
