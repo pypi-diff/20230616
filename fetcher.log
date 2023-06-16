@@ -2031,3 +2031,148 @@
 [2023-06-16 02:04:22] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
 [2023-06-16 02:04:22] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-06-16 02:04:22] INFO root fetch - main [MainThread]: Store serial: [18523588]
+[2023-06-16 02:09:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18523588]
+[2023-06-16 02:09:32] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-16 02:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GlitchTech-AI
+[2023-06-16 02:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: d20-orm
+[2023-06-16 02:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zrb
+[2023-06-16 02:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxkern-nightly
+[2023-06-16 02:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sharktopoda-client
+[2023-06-16 02:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glacier
+[2023-06-16 02:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PHX
+[2023-06-16 02:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxutils-nightly
+[2023-06-16 02:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fiddler-client
+[2023-06-16 02:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: d20-orm
+[2023-06-16 02:09:32] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-16 02:09:32] INFO root fetch - processPackages [GlitchTech-AI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 02:09:32] INFO root fetch - processPackages [glacier]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-16 02:09:32] INFO root fetch - processPackages [sharktopoda-client]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-16 02:09:32] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-16 02:09:32] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-16 02:09:32] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 02:09:32] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230615] Old Version: [0.0.8.dev20230614]
+[2023-06-16 02:09:32] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-16 02:09:32] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev5] Old Version: [2.0.0.dev3]
+[2023-06-16 02:09:32] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-16 02:09:32] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-16 02:09:32] INFO root fetch - processPackages [glacier]: Downloading https://files.pythonhosted.org/packages/bf/2e/91e3e88a8eb45aceb1d7528575f51e6d3bc26d5f0423d1d9b9815f0e28ab/glacier-0.4.1.tar.gz
+[2023-06-16 02:09:32] INFO root fetch - processPackages [sharktopoda-client]: Downloading https://files.pythonhosted.org/packages/95/1c/824b9e080fc379adeffe77afad43fd65fd1eb7056264e89b204be453454f/sharktopoda_client-0.3.0.tar.gz
+[2023-06-16 02:09:32] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-06-16 02:09:32] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-16 02:09:32] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/ab/99/1c6f8b5c601ecbf1486ca05cd40c9850a2f306e034341ae2154e048e1c37/jaxutils-nightly-0.0.8.dev20230614.tar.gz
+[2023-06-16 02:09:32] INFO root fetch - processPackages [GlitchTech-AI]: Downloading https://files.pythonhosted.org/packages/50/4f/7ae6abbe565e73d7404cacf6f85acb8a8394fa30e43663beba7e2a9ece10/GlitchTech-AI-0.0.8.tar.gz
+[2023-06-16 02:09:32] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-16 02:09:32] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-16 02:09:33] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/ad/48/a9b966f484d5fbfbde35e2c15c1211cc18359a09978bfbaafcd30f095d50/PHX-1.8.1.tar.gz
+[2023-06-16 02:09:33] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-16 02:09:33] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-06-16 02:09:33] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-16 02:09:33] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230616/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-16 02:09:33] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-16 02:09:33] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230616/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-16 02:09:33] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/ac/b8/77b6cf424f1720a60926ac100e360f71965108b1656c1f739275b31c33af/fiddler-client-2.0.0.dev3.tar.gz
+[2023-06-16 02:09:33] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-16 02:09:33] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-16 02:09:33] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230616/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 02:09:33] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230616/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-16 02:09:33] INFO root fetch - processPackages [sharktopoda-client]: Downloading https://files.pythonhosted.org/packages/df/3c/47b07856b31415dd3bdc95ced0b98c8e8d16bb3be1a983e00b48424cac7f/sharktopoda_client-0.3.1.tar.gz
+[2023-06-16 02:09:33] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c6/c0/a2b22cf958e88a88d363794691308d0f1ec5c488361e30dc563defebe7e7/jaxutils-nightly-0.0.8.dev20230615.tar.gz
+[2023-06-16 02:09:33] INFO root fetch - processPackages [GlitchTech-AI]: Downloading https://files.pythonhosted.org/packages/79/2d/ada1b2bf9dd32781de157673867e228e2ee9a692c7f79d1c9bd189ec0f4e/GlitchTech-AI-0.0.9.tar.gz
+[2023-06-16 02:09:33] INFO root fetch - processPackages [sharktopoda-client]: executing diffoscope
+[2023-06-16 02:09:33] INFO root fetch - processPackages [sharktopoda-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharktopoda_client-0.3.0.tar.gz tmp/sharktopoda_client-0.3.1.tar.gz --markdown 20230616/s/sharktopoda-client/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-16 02:09:33] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/a6/89/a05235ced8375ca35530ed2660fe44e6699c6d36879bc64f39eb9c4e9a1a/fiddler-client-2.0.0.dev5.tar.gz
+[2023-06-16 02:09:33] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-16 02:09:33] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230614.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230615.tar.gz --markdown 20230616/j/jaxutils-nightly/0.0.8.dev20230614-0.0.8.dev20230615/diff.md --exclude *.pyd
+[2023-06-16 02:09:33] INFO root fetch - processPackages [GlitchTech-AI]: executing diffoscope
+[2023-06-16 02:09:33] INFO root fetch - processPackages [GlitchTech-AI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GlitchTech-AI-0.0.8.tar.gz tmp/GlitchTech-AI-0.0.9.tar.gz --markdown 20230616/G/GlitchTech-AI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 02:09:33] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/d5/cf/427f0ced8ef3cc98e22c877b4eb980575483e2cf3ac2387f5e901120b744/PHX-1.9.0.tar.gz
+[2023-06-16 02:09:33] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-06-16 02:09:33] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230616/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-16 02:09:33] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-06-16 02:09:33] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev3.tar.gz tmp/fiddler-client-2.0.0.dev5.tar.gz --markdown 20230616/f/fiddler-client/2.0.0.dev3-2.0.0.dev5/diff.md --exclude *.pyd
+[2023-06-16 02:09:33] INFO root fetch - processPackages [glacier]: Downloading https://files.pythonhosted.org/packages/9b/22/9c22fe98e775d5bf308b0532763a5f0219e15fe02d9475e83bc99206649f/glacier-0.4.2.tar.gz
+[2023-06-16 02:09:33] INFO root fetch - processPackages [glacier]: executing diffoscope
+[2023-06-16 02:09:33] INFO root fetch - processPackages [glacier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glacier-0.4.1.tar.gz tmp/glacier-0.4.2.tar.gz --markdown 20230616/g/glacier/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-16 02:09:34] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [d20-orm]: Start processing: storage-device-managers
+[2023-06-16 02:09:34] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-16 02:09:34] INFO root fetch - processPackages [storage-device-managers]: New version: [0.9.0] Old Version: [0.10.0]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: torchlayers-nightly
+[2023-06-16 02:09:34] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-16 02:09:34] INFO root fetch - processPackages [storage-device-managers]: Downloading https://files.pythonhosted.org/packages/54/d5/d78097c0acd586992d0772a22d1c5422eaa39a6eecf0ad1e1bb18364faee/storage_device_managers-0.10.0.tar.gz
+[2023-06-16 02:09:34] INFO root fetch - processPackages [sharktopoda-client]: Remove: archive file [/home/abi/fetcher/tmp/sharktopoda_client-0.3.0.tar.gz]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [sharktopoda-client]: Remove: archive file [/home/abi/fetcher/tmp/sharktopoda_client-0.3.1.tar.gz]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [sharktopoda-client]: Start processing: aichat-cli
+[2023-06-16 02:09:34] INFO root fetch - main [MainThread]: End processing [sharktopoda-client]: success
+[2023-06-16 02:09:34] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1686787651] Old Version: [1686701226]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [d20-orm]: Start processing: vesselapi
+[2023-06-16 02:09:34] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-16 02:09:34] INFO root fetch - processPackages [aichat-cli]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.28.0]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/89/5f/59ccced9c0a037d925980c8351ea0e321b710d473ff110f5766e46cc796a/vesselapi-3.28.0.tar.gz
+[2023-06-16 02:09:34] INFO root fetch - processPackages [GlitchTech-AI]: Remove: archive file [/home/abi/fetcher/tmp/GlitchTech-AI-0.0.8.tar.gz]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [GlitchTech-AI]: Remove: archive file [/home/abi/fetcher/tmp/GlitchTech-AI-0.0.9.tar.gz]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [GlitchTech-AI]: Start processing: pyBibX
+[2023-06-16 02:09:34] INFO root fetch - main [MainThread]: End processing [GlitchTech-AI]: success
+[2023-06-16 02:09:34] INFO root fetch - processPackages [pyBibX]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-06-16 02:09:34] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-06-16 02:09:34] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/89/df/5018c33db42003ec8ae6c28c2a148934a85d9ab36a9777c6f94d7d3474e3/torchlayers-nightly-1686701226.tar.gz
+[2023-06-16 02:09:34] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/78/f4/6eb3efb6674c001bdf06b4aadb8333543be20910e99c9998e1817e225996/pyBibX-3.0.4.tar.gz
+[2023-06-16 02:09:35] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.8.tar.gz]
+[2023-06-16 02:09:35] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.9.tar.gz]
+[2023-06-16 02:09:35] INFO root fetch - processPackages [zrb]: Start processing: cdk-aws-discord-notifiers
+[2023-06-16 02:09:35] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-16 02:09:35] INFO root fetch - processPackages [aichat-cli]: Downloading https://files.pythonhosted.org/packages/b4/36/620220df2ce125e6133c0f421caa630ea07d4077ee9b36be925d43344e04/aichat-cli-0.4.7.tar.gz
+[2023-06-16 02:09:35] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-06-16 02:09:35] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.28.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230616/v/vesselapi/3.28.0-3.5.2/diff.md --exclude *.pyd
+[2023-06-16 02:09:35] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-06-16 02:09:35] INFO root fetch - processPackages [glacier]: Remove: archive file [/home/abi/fetcher/tmp/glacier-0.4.1.tar.gz]
+[2023-06-16 02:09:35] INFO root fetch - processPackages [glacier]: Remove: archive file [/home/abi/fetcher/tmp/glacier-0.4.2.tar.gz]
+[2023-06-16 02:09:35] INFO root fetch - main [MainThread]: End processing [glacier]: success
+[2023-06-16 02:09:35] INFO root fetch - processPackages [storage-device-managers]: Downloading https://files.pythonhosted.org/packages/9e/c7/eb6f81f2a2f255c9999537ed11a4d05bf9c148cd3266cb1f8d8a7db61b54/storage_device_managers-0.9.0.tar.gz
+[2023-06-16 02:09:35] INFO root fetch - processPackages [pyBibX]: Downloading https://files.pythonhosted.org/packages/4d/61/5a44546d99e95832732bffb8ac0f81aebce83c560bf37ddea4f345731870/pyBibX-3.0.5.tar.gz
+[2023-06-16 02:09:35] INFO root fetch - processPackages [pyBibX]: executing diffoscope
+[2023-06-16 02:09:35] INFO root fetch - processPackages [pyBibX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBibX-3.0.4.tar.gz tmp/pyBibX-3.0.5.tar.gz --markdown 20230616/p/pyBibX/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-06-16 02:09:35] INFO root fetch - processPackages [storage-device-managers]: executing diffoscope
+[2023-06-16 02:09:35] INFO root fetch - processPackages [storage-device-managers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage_device_managers-0.10.0.tar.gz tmp/storage_device_managers-0.9.0.tar.gz --markdown 20230616/s/storage-device-managers/0.10.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 02:09:35] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/0a/30/646497d377783a32ae832f96f6ad8e42d9a2c8b627d499eb0082ad542cab/cdk-aws-discord-notifiers-0.0.94.tar.gz
+[2023-06-16 02:09:35] INFO root fetch - processPackages [aichat-cli]: Downloading https://files.pythonhosted.org/packages/d0/bb/4d6fbe4b3a1b00fefc93cd51c637355ca086702fee9c5ff290f928c16a08/aichat-cli-0.4.8.tar.gz
+[2023-06-16 02:09:35] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/14/4a/6509524d79091d6d9782c63dc20fb03cf47f50f3a8565763fb5a130e6fef/torchlayers-nightly-1686787651.tar.gz
+[2023-06-16 02:09:35] INFO root fetch - processPackages [aichat-cli]: executing diffoscope
+[2023-06-16 02:09:35] INFO root fetch - processPackages [aichat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aichat-cli-0.4.7.tar.gz tmp/aichat-cli-0.4.8.tar.gz --markdown 20230616/a/aichat-cli/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-16 02:09:35] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-16 02:09:35] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1686701226.tar.gz tmp/torchlayers-nightly-1686787651.tar.gz --markdown 20230616/t/torchlayers-nightly/1686701226-1686787651/diff.md --exclude *.pyd
+[2023-06-16 02:09:35] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/d5/18/4b554412d41edd5b50f79b1220974d8de80fa9729e061adec6823bf0036a/cdk-aws-discord-notifiers-0.0.95.tar.gz
+[2023-06-16 02:09:35] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230614.tar.gz]
+[2023-06-16 02:09:35] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230615.tar.gz]
+[2023-06-16 02:09:35] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-16 02:09:35] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-16 02:09:35] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.94.tar.gz tmp/cdk-aws-discord-notifiers-0.0.95.tar.gz --markdown 20230616/c/cdk-aws-discord-notifiers/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-06-16 02:09:36] INFO root fetch - processPackages [storage-device-managers]: Remove: archive file [/home/abi/fetcher/tmp/storage_device_managers-0.10.0.tar.gz]
+[2023-06-16 02:09:36] INFO root fetch - processPackages [storage-device-managers]: Remove: archive file [/home/abi/fetcher/tmp/storage_device_managers-0.9.0.tar.gz]
+[2023-06-16 02:09:36] INFO root fetch - main [MainThread]: End processing [storage-device-managers]: success
+[2023-06-16 02:09:36] INFO root fetch - processPackages [aichat-cli]: Remove: archive file [/home/abi/fetcher/tmp/aichat-cli-0.4.7.tar.gz]
+[2023-06-16 02:09:36] INFO root fetch - processPackages [aichat-cli]: Remove: archive file [/home/abi/fetcher/tmp/aichat-cli-0.4.8.tar.gz]
+[2023-06-16 02:09:36] INFO root fetch - main [MainThread]: End processing [aichat-cli]: success
+[2023-06-16 02:09:36] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.0.4.tar.gz]
+[2023-06-16 02:09:36] INFO root fetch - processPackages [pyBibX]: Remove: archive file [/home/abi/fetcher/tmp/pyBibX-3.0.5.tar.gz]
+[2023-06-16 02:09:36] INFO root fetch - main [MainThread]: End processing [pyBibX]: success
+[2023-06-16 02:09:36] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686701226.tar.gz]
+[2023-06-16 02:09:36] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1686787651.tar.gz]
+[2023-06-16 02:09:36] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-16 02:09:37] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.94.tar.gz]
+[2023-06-16 02:09:37] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.95.tar.gz]
+[2023-06-16 02:09:37] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-16 02:09:37] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev3.tar.gz]
+[2023-06-16 02:09:37] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev5.tar.gz]
+[2023-06-16 02:09:37] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-06-16 02:09:37] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.28.0.tar.gz]
+[2023-06-16 02:09:37] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-06-16 02:09:37] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-06-16 02:09:37] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.8.1.tar.gz]
+[2023-06-16 02:09:37] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.9.0.tar.gz]
+[2023-06-16 02:09:37] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-06-16 02:09:37] INFO root fetch - main [MainThread]: Store serial: [18523635]
