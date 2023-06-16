@@ -19950,3 +19950,178 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 11:58:50] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
 [2023-06-16 11:58:50] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-06-16 11:58:50] INFO root fetch - main [MainThread]: Store serial: [18530326]
+[2023-06-16 12:03:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530326]
+[2023-06-16 12:04:01] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-16 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vecnom
+[2023-06-16 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pierskarsenbarg-pulumi-sdm
+[2023-06-16 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auditor-apel-plugin
+[2023-06-16 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-interpolator
+[2023-06-16 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparrow-order-lib
+[2023-06-16 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: breeze-strategies
+[2023-06-16 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eodc-faas-sen2like
+[2023-06-16 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bl-hector
+[2023-06-16 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-invader-payment-adyen
+[2023-06-16 12:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-shopinvader-payment-adyen
+[2023-06-16 12:04:01] INFO root fetch - processPackages [breeze-strategies]: New version: [5.0] Old Version: [4.0]
+[2023-06-16 12:04:01] WARNING root fetch - processPackages [simple-interpolator]: Skipping, unable to determine old version
+[2023-06-16 12:04:01] INFO root fetch - processPackages [simple-interpolator]: Start processing: odoo14-addon-invader-payment-adyen-klarna-capture
+[2023-06-16 12:04:01] INFO root fetch - processPackages [vecnom]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 12:04:01] INFO root fetch - main [MainThread]: End processing [simple-interpolator] error
+[2023-06-16 12:04:01] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-06-16 12:04:01] WARNING root fetch - processPackages [auditor-apel-plugin]: Skipping, unable to determine old version
+[2023-06-16 12:04:01] INFO root fetch - processPackages [auditor-apel-plugin]: Start processing: odoo14-addon-invader-payment-adyen-klarna-sale
+[2023-06-16 12:04:01] INFO root fetch - main [MainThread]: End processing [auditor-apel-plugin] error
+[2023-06-16 12:04:01] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: New version: [14.0.1.0.3] Old Version: [14.0.1.0.2]
+[2023-06-16 12:04:01] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment-adyen]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1]
+[2023-06-16 12:04:01] INFO root fetch - processPackages [sparrow-order-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-16 12:04:01] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.6.3rc2] Old Version: [2023.6.3rc1]
+[2023-06-16 12:04:01] WARNING root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-sale]: Skipping, unable to determine old version
+[2023-06-16 12:04:01] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-sale]: Start processing: memv
+[2023-06-16 12:04:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment-adyen-klarna-sale] error
+[2023-06-16 12:04:01] INFO root fetch - processPackages [bl-hector]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 12:04:01] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/51/15/07ba5b7571d5282feefa8520928d11dff50d15c7e37955f1650ae948b251/eodc_faas_sen2like-2023.6.3rc1.tar.gz
+[2023-06-16 12:04:01] INFO root fetch - processPackages [memv]: New version: [0.0.2.6] Old Version: [0.0.2.5]
+[2023-06-16 12:04:01] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/2c/31/ef956fcb17c7197d10d4841764a444f99aab4bc14e9e0f0355b398c5b0be/bl_hector-0.1.1.tar.gz
+[2023-06-16 12:04:01] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/04/2d/17d8c7748a4aaa6f3989e1f4de08b5105fb3dd45dddc2fdac823e59d60c1/breeze_strategies-4.0.tar.gz
+[2023-06-16 12:04:01] WARNING root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-capture]: Skipping, unable to determine old version
+[2023-06-16 12:04:01] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: Downloading https://files.pythonhosted.org/packages/e0/1d/389a489a0c74e0079ef7db2c163f09814d759c904f841db0ec960da7e557/odoo14_addon_invader_payment_adyen-14.0.1.0.2-py3-none-any.whl
+[2023-06-16 12:04:01] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-capture]: Start processing: odoo14-addon-invader-payment-adyen-klarna-invoice
+[2023-06-16 12:04:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment-adyen-klarna-capture] error
+[2023-06-16 12:04:01] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Downloading https://files.pythonhosted.org/packages/75/2a/2800b9fd3f00f786066811d96d5457c345ae04b0ed76295bb05e354d4270/pierskarsenbarg_pulumi_sdm-1.1.2.tar.gz
+[2023-06-16 12:04:01] WARNING root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-invoice]: Skipping, unable to determine old version
+[2023-06-16 12:04:01] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-invoice]: Start processing: phenopype
+[2023-06-16 12:04:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment-adyen-klarna-invoice] error
+[2023-06-16 12:04:01] INFO root fetch - processPackages [vecnom]: Downloading https://files.pythonhosted.org/packages/ac/8c/582f67f12625fa942c81b314d33f0df6e83fac43978a4c5a9a32203e2bfa/vecnom-0.1.0.tar.gz
+[2023-06-16 12:04:01] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/ae/0c/c7a3a2c5035ee7750c6d799926a6bb097a378b0e622fc558efde0cb3708b/memv-0.0.2.5.tar.gz
+[2023-06-16 12:04:01] INFO root fetch - processPackages [phenopype]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-06-16 12:04:01] INFO root fetch - processPackages [phenopype]: Downloading https://files.pythonhosted.org/packages/11/db/8e046dd0c1b63ef679cd2b2f676d16133c04fcc84e4557c100ec958a9cd8/phenopype-3.4.0-py3-none-any.whl
+[2023-06-16 12:04:01] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/f6/6d/89feeae81a08f9543a5a0f9e3b8ee3d73582abd7038d07f7fc5975f03bc4/sparrow-order-lib-0.1.98.tar.gz
+[2023-06-16 12:04:01] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/97/a4/46c733ed5d5833d10da123381be85133cdde1ef27dd79f8ec6942a7872a5/breeze_strategies-5.0.tar.gz
+[2023-06-16 12:04:01] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment-adyen]: Downloading https://files.pythonhosted.org/packages/13/a6/28ec9caf5bd47737ff37b41e964d1ae96828f1795b284563e3e6b02c54a3/odoo14_addon_shopinvader_payment_adyen-14.0.1.0.1-py3-none-any.whl
+[2023-06-16 12:04:01] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-16 12:04:01] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-4.0.tar.gz tmp/breeze_strategies-5.0.tar.gz --markdown 20230616/b/breeze-strategies/4.0-5.0/diff.md --exclude *.pyd
+[2023-06-16 12:04:01] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/78/1a/1c18501690cab9181a02563f0e3d0fa6fbccf629b76404672791d307f5a7/eodc_faas_sen2like-2023.6.3rc2.tar.gz
+[2023-06-16 12:04:01] INFO root fetch - processPackages [phenopype]: Downloading https://files.pythonhosted.org/packages/fe/42/e45c82fd01fa2f0c14f32dbedcbc6d95c43253fff63a9e49576840556227/phenopype-3.4.1-py3-none-any.whl
+[2023-06-16 12:04:01] INFO root fetch - processPackages [vecnom]: Downloading https://files.pythonhosted.org/packages/7f/51/857111dcda357eb9d259fb0e998deb5b7d93dff51b624a9b161fa3c060b4/vecnom-0.1.1.tar.gz
+[2023-06-16 12:04:01] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: Downloading https://files.pythonhosted.org/packages/c9/1d/f8cc9846a07fb40d32029a74b1ab6e6eb3aa7209a3580bfe2e220dcc5428/odoo14_addon_invader_payment_adyen-14.0.1.0.3-py3-none-any.whl
+[2023-06-16 12:04:01] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Downloading https://files.pythonhosted.org/packages/df/07/4178b1d37309d6c93d0c154f2a86d861dd8a1fb0e511cf6f2d218090e814/pierskarsenbarg_pulumi_sdm-1.2.0.tar.gz
+[2023-06-16 12:04:01] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/a4/2a/4f04c83d15eb3aef5fa8d40e3c93af55b0b789411e13c009aaaf4a889caa/memv-0.0.2.6.tar.gz
+[2023-06-16 12:04:02] INFO root fetch - processPackages [phenopype]: executing diffoscope
+[2023-06-16 12:04:02] INFO root fetch - processPackages [phenopype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenopype-3.4.0-py3-none-any.whl.zip tmp/phenopype-3.4.1-py3-none-any.whl.zip --markdown 20230616/p/phenopype/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-06-16 12:04:02] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 12:04:02] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: executing diffoscope
+[2023-06-16 12:04:02] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.2.5.tar.gz tmp/memv-0.0.2.6.tar.gz --markdown 20230616/m/memv/0.0.2.5-0.0.2.6/diff.md --exclude *.pyd
+[2023-06-16 12:04:02] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pierskarsenbarg_pulumi_sdm-1.1.2.tar.gz tmp/pierskarsenbarg_pulumi_sdm-1.2.0.tar.gz --markdown 20230616/p/pierskarsenbarg-pulumi-sdm/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-06-16 12:04:02] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/17/c2/0646042789f0c2f0de6d3ec1052a17e93d825b36bd4f97e287b944974f6a/bl_hector-0.1.2.tar.gz
+[2023-06-16 12:04:02] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment-adyen]: Downloading https://files.pythonhosted.org/packages/d5/9e/503bd4dd7aa7cf30b31ab99d983ddd7606f3c29493bff6ba82f7e2e05a35/odoo14_addon_shopinvader_payment_adyen-14.0.1.0.2-py3-none-any.whl
+[2023-06-16 12:04:02] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-16 12:04:02] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.6.3rc1.tar.gz tmp/eodc_faas_sen2like-2023.6.3rc2.tar.gz --markdown 20230616/e/eodc-faas-sen2like/2023.6.3rc1-2023.6.3rc2/diff.md --exclude *.pyd
+[2023-06-16 12:04:02] INFO root fetch - processPackages [vecnom]: executing diffoscope
+[2023-06-16 12:04:02] INFO root fetch - processPackages [vecnom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vecnom-0.1.0.tar.gz tmp/vecnom-0.1.1.tar.gz --markdown 20230616/v/vecnom/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 12:04:02] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: executing diffoscope
+[2023-06-16 12:04:02] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_invader_payment_adyen-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_invader_payment_adyen-14.0.1.0.3-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-invader-payment-adyen/14.0.1.0.2-14.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-16 12:04:02] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment-adyen]: executing diffoscope
+[2023-06-16 12:04:02] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment-adyen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopinvader_payment_adyen-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_shopinvader_payment_adyen-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-shopinvader-payment-adyen/14.0.1.0.1-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-16 12:04:02] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/ca/0d/b7dbf59c3e714bf905111836b75d9dc0961d62f2f52f79293e7ce5685010/sparrow-order-lib-0.1.99.tar.gz
+[2023-06-16 12:04:02] INFO root fetch - processPackages [bl-hector]: executing diffoscope
+[2023-06-16 12:04:02] INFO root fetch - processPackages [bl-hector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bl_hector-0.1.1.tar.gz tmp/bl_hector-0.1.2.tar.gz --markdown 20230616/b/bl-hector/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 12:04:02] INFO root fetch - processPackages [sparrow-order-lib]: executing diffoscope
+[2023-06-16 12:04:02] INFO root fetch - processPackages [sparrow-order-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-order-lib-0.1.98.tar.gz tmp/sparrow-order-lib-0.1.99.tar.gz --markdown 20230616/s/sparrow-order-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-16 12:04:03] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-4.0.tar.gz]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-5.0.tar.gz]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [breeze-strategies]: Start processing: odoo14-addon-shopinvader-payment
+[2023-06-16 12:04:03] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-16 12:04:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment]: New version: [14.0.1.2.2.dev1] Old Version: [14.0.1.2.2]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment]: Downloading https://files.pythonhosted.org/packages/ed/bc/709ba4affef0e4ca63487b42b5b161f2eed479342f8fa08a184fcfbb475e/odoo14_addon_shopinvader_payment-14.0.1.2.2-py3-none-any.whl
+[2023-06-16 12:04:03] INFO root fetch - processPackages [vecnom]: Remove: archive file [/home/abi/fetcher/tmp/vecnom-0.1.0.tar.gz]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [vecnom]: Remove: archive file [/home/abi/fetcher/tmp/vecnom-0.1.1.tar.gz]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [vecnom]: Start processing: RepRepBuild
+[2023-06-16 12:04:03] INFO root fetch - main [MainThread]: End processing [vecnom]: success
+[2023-06-16 12:04:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment]: Downloading https://files.pythonhosted.org/packages/fa/3c/286f56f2cdc2faba5e15ec37fbdc6bdb77f76bae4d33838c5b9f355f3bb3/odoo14_addon_shopinvader_payment-14.0.1.2.2.dev1-py3-none-any.whl
+[2023-06-16 12:04:03] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.5.tar.gz]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.6.tar.gz]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [memv]: Start processing: discord-advert-framework
+[2023-06-16 12:04:03] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 12:04:03] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc1.tar.gz]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc2.tar.gz]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [eodc-faas-sen2like]: Start processing: odoo14-addon-invader-payment
+[2023-06-16 12:04:03] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-16 12:04:03] INFO root fetch - processPackages [RepRepBuild]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [odoo14-addon-invader-payment]: New version: [14.0.1.0.3] Old Version: [14.0.1.0.2.dev1]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment]: executing diffoscope
+[2023-06-16 12:04:03] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.8.4] Old Version: [2.8.3]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopinvader_payment-14.0.1.2.2-py3-none-any.whl.zip tmp/odoo14_addon_shopinvader_payment-14.0.1.2.2.dev1-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-shopinvader-payment/14.0.1.2.2-14.0.1.2.2.dev1/diff.md --exclude *.pyd
+[2023-06-16 12:04:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment-adyen]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader_payment_adyen-14.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment-adyen]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader_payment_adyen-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment-adyen]: Start processing: odoo14-addon-shopinvader-invoice-payment
+[2023-06-16 12:04:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader-payment-adyen]: success
+[2023-06-16 12:04:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-invoice-payment]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1]
+[2023-06-16 12:04:03] INFO root fetch - processPackages [odoo14-addon-invader-payment]: Downloading https://files.pythonhosted.org/packages/60/0c/c65222f580e724e04eb5125d3ffa7516d487ff0836783476dc7ca91b0896/odoo14_addon_invader_payment-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-06-16 12:04:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-invoice-payment]: Downloading https://files.pythonhosted.org/packages/bd/b6/b4f1fcf4ac51d38e390c4aec047b6a957c411e875c9d5ae825172fb3d9fd/odoo14_addon_shopinvader_invoice_payment-14.0.1.0.1-py3-none-any.whl
+[2023-06-16 12:04:03] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/44/23/a444446dbd624810a86ab4bf5fab717dec834ce4640ba768ab3ec53c1577/RepRepBuild-0.8.0.tar.gz
+[2023-06-16 12:04:04] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/93/36/6b5b536d1f6607a7832b6b7d3eed1885a47cb741b4319153bb714402eab4/discord-advert-framework-2.8.3.tar.gz
+[2023-06-16 12:04:04] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment_adyen-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-16 12:04:04] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment_adyen-14.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-16 12:04:04] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen]: Start processing: odoo14-addon-invader-payment-adyen-klarna-capture-delivery
+[2023-06-16 12:04:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment-adyen]: success
+[2023-06-16 12:04:04] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 18343989>=10485760
+[2023-06-16 12:04:04] INFO root fetch - processPackages [discord-advert-framework]: Start processing: sommify
+[2023-06-16 12:04:04] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-06-16 12:04:04] INFO root fetch - processPackages [odoo14-addon-shopinvader-invoice-payment]: Downloading https://files.pythonhosted.org/packages/65/6e/0128ea532a69d20a144dabbb6b6b838c08542ad27bd7a73526a5632a2e11/odoo14_addon_shopinvader_invoice_payment-14.0.1.0.2-py3-none-any.whl
+[2023-06-16 12:04:04] WARNING root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-capture-delivery]: Skipping, unable to determine old version
+[2023-06-16 12:04:04] INFO root fetch - processPackages [odoo14-addon-invader-payment-adyen-klarna-capture-delivery]: Start processing: djangocms-blog-agenda
+[2023-06-16 12:04:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment-adyen-klarna-capture-delivery] error
+[2023-06-16 12:04:04] INFO root fetch - processPackages [odoo14-addon-invader-payment]: Downloading https://files.pythonhosted.org/packages/c1/5f/4754da8ef91e791a537e79ac008f19422b8a07e45849bccc865ae046c8fb/odoo14_addon_invader_payment-14.0.1.0.3-py3-none-any.whl
+[2023-06-16 12:04:04] INFO root fetch - processPackages [sommify]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-16 12:04:04] INFO root fetch - processPackages [odoo14-addon-shopinvader-invoice-payment]: executing diffoscope
+[2023-06-16 12:04:04] INFO root fetch - processPackages [odoo14-addon-shopinvader-invoice-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopinvader_invoice_payment-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_shopinvader_invoice_payment-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-shopinvader-invoice-payment/14.0.1.0.1-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-16 12:04:04] INFO root fetch - processPackages [odoo14-addon-invader-payment]: executing diffoscope
+[2023-06-16 12:04:04] INFO root fetch - processPackages [odoo14-addon-invader-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_invader_payment-14.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_invader_payment-14.0.1.0.3-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-invader-payment/14.0.1.0.2.dev1-14.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-16 12:04:04] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/0e/81/183fa2673ed8f4d3c885d0958bd140616694b516dd59d7e8cab1fa824ff3/RepRepBuild-0.9.0.tar.gz
+[2023-06-16 12:04:04] INFO root fetch - processPackages [djangocms-blog-agenda]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-16 12:04:04] INFO root fetch - processPackages [phenopype]: Remove: archive file [/home/abi/fetcher/tmp/phenopype-3.4.0-py3-none-any.whl.zip]
+[2023-06-16 12:04:04] INFO root fetch - processPackages [phenopype]: Remove: archive file [/home/abi/fetcher/tmp/phenopype-3.4.1-py3-none-any.whl.zip]
+[2023-06-16 12:04:04] INFO root fetch - processPackages [phenopype]: Start processing: memv
+[2023-06-16 12:04:04] INFO root fetch - main [MainThread]: End processing [phenopype]: success
+[2023-06-16 12:04:04] INFO root fetch - processPackages [memv]: New version: [0.0.2.8] Old Version: [0.0.2.7]
+[2023-06-16 12:04:04] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/ce/55/df40e7f528ed8138d23d977f6d7b8f94ae059ce53eaa084991134019d168/sommify-0.5.5.tar.gz
+[2023-06-16 12:04:04] INFO root fetch - processPackages [RepRepBuild]: executing diffoscope
+[2023-06-16 12:04:04] INFO root fetch - processPackages [RepRepBuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepRepBuild-0.8.0.tar.gz tmp/RepRepBuild-0.9.0.tar.gz --markdown 20230616/R/RepRepBuild/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 12:04:04] WARNING root fetch - processPackages [sommify]: Skipping package: exceeds size limit 98756378>=10485760
+[2023-06-16 12:04:04] INFO root fetch - main [MainThread]: End processing [sommify] error
+[2023-06-16 12:04:04] INFO root fetch - processPackages [djangocms-blog-agenda]: Downloading https://files.pythonhosted.org/packages/27/49/d34debde7a64deb00b38fc209e4512b2b79f21da7070a261fb33db3711c7/djangocms-blog-agenda-0.3.5.tar.gz
+[2023-06-16 12:04:04] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/3b/76/8f9d9dd01440f0b5d2190d0dfa7f72cc8420867faf0477306e4aa4c19bd3/memv-0.0.2.7.tar.gz
+[2023-06-16 12:04:04] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.1.1.tar.gz]
+[2023-06-16 12:04:04] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.1.2.tar.gz]
+[2023-06-16 12:04:04] INFO root fetch - main [MainThread]: End processing [bl-hector]: success
+[2023-06-16 12:04:04] INFO root fetch - processPackages [djangocms-blog-agenda]: Downloading https://files.pythonhosted.org/packages/a4/32/9f0599fe89d85ac9fcada08f5608305e66d1ed267575012caf3feb154f31/djangocms-blog-agenda-0.3.6.tar.gz
+[2023-06-16 12:04:04] INFO root fetch - processPackages [djangocms-blog-agenda]: executing diffoscope
+[2023-06-16 12:04:04] INFO root fetch - processPackages [djangocms-blog-agenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-blog-agenda-0.3.5.tar.gz tmp/djangocms-blog-agenda-0.3.6.tar.gz --markdown 20230616/d/djangocms-blog-agenda/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-16 12:04:04] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/88/2c/106aca821ade3055b0cfa115c84c48c5e3a63c69fa8c5bb729595236da8c/memv-0.0.2.8.tar.gz
+[2023-06-16 12:04:04] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 12:04:04] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.2.7.tar.gz tmp/memv-0.0.2.8.tar.gz --markdown 20230616/m/memv/0.0.2.7-0.0.2.8/diff.md --exclude *.pyd
+[2023-06-16 12:04:05] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader_payment-14.0.1.2.2-py3-none-any.whl.zip]
+[2023-06-16 12:04:05] INFO root fetch - processPackages [odoo14-addon-shopinvader-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader_payment-14.0.1.2.2.dev1-py3-none-any.whl.zip]
+[2023-06-16 12:04:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader-payment]: success
+[2023-06-16 12:04:05] INFO root fetch - processPackages [odoo14-addon-shopinvader-invoice-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader_invoice_payment-14.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-16 12:04:05] INFO root fetch - processPackages [odoo14-addon-shopinvader-invoice-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader_invoice_payment-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-16 12:04:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader-invoice-payment]: success
+[2023-06-16 12:04:05] INFO root fetch - processPackages [odoo14-addon-invader-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-06-16 12:04:05] INFO root fetch - processPackages [odoo14-addon-invader-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_invader_payment-14.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-16 12:04:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-invader-payment]: success
+[2023-06-16 12:04:05] INFO root fetch - processPackages [sparrow-order-lib]: Remove: archive file [/home/abi/fetcher/tmp/sparrow-order-lib-0.1.98.tar.gz]
+[2023-06-16 12:04:05] INFO root fetch - processPackages [sparrow-order-lib]: Remove: archive file [/home/abi/fetcher/tmp/sparrow-order-lib-0.1.99.tar.gz]
+[2023-06-16 12:04:05] INFO root fetch - main [MainThread]: End processing [sparrow-order-lib]: success
+[2023-06-16 12:04:05] INFO root fetch - processPackages [djangocms-blog-agenda]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-blog-agenda-0.3.5.tar.gz]
+[2023-06-16 12:04:05] INFO root fetch - processPackages [djangocms-blog-agenda]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-blog-agenda-0.3.6.tar.gz]
+[2023-06-16 12:04:05] INFO root fetch - main [MainThread]: End processing [djangocms-blog-agenda]: success
+[2023-06-16 12:04:06] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.7.tar.gz]
+[2023-06-16 12:04:06] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.8.tar.gz]
+[2023-06-16 12:04:06] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 12:04:06] INFO root fetch - processPackages [RepRepBuild]: Remove: archive file [/home/abi/fetcher/tmp/RepRepBuild-0.8.0.tar.gz]
+[2023-06-16 12:04:06] INFO root fetch - processPackages [RepRepBuild]: Remove: archive file [/home/abi/fetcher/tmp/RepRepBuild-0.9.0.tar.gz]
+[2023-06-16 12:04:06] INFO root fetch - main [MainThread]: End processing [RepRepBuild]: success
+[2023-06-16 12:04:07] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_sdm-1.1.2.tar.gz]
+[2023-06-16 12:04:07] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_sdm-1.2.0.tar.gz]
+[2023-06-16 12:04:07] INFO root fetch - main [MainThread]: End processing [pierskarsenbarg-pulumi-sdm]: success
+[2023-06-16 12:04:07] INFO root fetch - main [MainThread]: Store serial: [18530389]
