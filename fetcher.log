@@ -18380,3 +18380,233 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 10:59:03] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
 [2023-06-16 10:59:03] INFO root fetch - main [MainThread]: End processing [dipex]: success
 [2023-06-16 10:59:03] INFO root fetch - main [MainThread]: Store serial: [18529707]
+[2023-06-16 11:04:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18529707]
+[2023-06-16 11:04:14] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-16 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-nftx
+[2023-06-16 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-ec-account-edi
+[2023-06-16 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eepackages
+[2023-06-16 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: currentscape
+[2023-06-16 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-sec-vault
+[2023-06-16 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: current-events-magnifier
+[2023-06-16 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pbaa
+[2023-06-16 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2023-06-16 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytk-net
+[2023-06-16 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycognaize
+[2023-06-16 11:04:14] INFO root fetch - processPackages [currentscape]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-16 11:04:14] INFO root fetch - processPackages [antchain-nftx]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-06-16 11:04:14] WARNING root fetch - processPackages [pbaa]: Skipping, unable to determine old version
+[2023-06-16 11:04:14] INFO root fetch - processPackages [pbaa]: Start processing: simple-interpolator
+[2023-06-16 11:04:14] INFO root fetch - main [MainThread]: End processing [pbaa] error
+[2023-06-16 11:04:14] INFO root fetch - processPackages [pytk-net]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-16 11:04:14] INFO root fetch - processPackages [yplib]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-16 11:04:14] INFO root fetch - processPackages [antchain-nftx]: Downloading https://files.pythonhosted.org/packages/16/0d/ca37646d86a183dffa686dfd6e2d8899223928da71f93012d162526001da/antchain_nftx-1.8.5.tar.gz
+[2023-06-16 11:04:14] WARNING root fetch - processPackages [simple-interpolator]: Skipping, unable to determine old version
+[2023-06-16 11:04:14] INFO root fetch - processPackages [simple-interpolator]: Start processing: accel
+[2023-06-16 11:04:14] INFO root fetch - main [MainThread]: End processing [simple-interpolator] error
+[2023-06-16 11:04:14] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/db/a1/0e57792c2c600ef2adc0f53408ec9d96d61cc3b28b306b070a6f6538cee6/yplib-1.5.5.tar.gz
+[2023-06-16 11:04:14] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/15/e9/50bf0f3b03378f0da151d370d671ec5abc2bc654d5172ed0d6fc1fe818a9/pytk_net-0.1.2.tar.gz
+[2023-06-16 11:04:14] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/92/b6/8579536cde40eb7964407921ed275f227a591ce34f35c45faadd8c094150/currentscape-1.0.1.tar.gz
+[2023-06-16 11:04:14] INFO root fetch - processPackages [eepackages]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-16 11:04:14] INFO root fetch - processPackages [pycognaize]: New version: [1.4.6] Old Version: [1.4.3]
+[2023-06-16 11:04:14] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.0.3.5] Old Version: [0.0.3.4]
+[2023-06-16 11:04:14] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.1]
+[2023-06-16 11:04:14] WARNING root fetch - processPackages [py-sec-vault]: Skipping, unable to determine old version
+[2023-06-16 11:04:14] INFO root fetch - processPackages [py-sec-vault]: Start processing: kgheartbeat
+[2023-06-16 11:04:14] INFO root fetch - main [MainThread]: End processing [py-sec-vault] error
+[2023-06-16 11:04:14] INFO root fetch - processPackages [kgheartbeat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 11:04:14] INFO root fetch - processPackages [accel]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-16 11:04:14] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/ee/98/dc6f6e14a0e2ca7e802890e49490318636814f50305eafbc4ff7b11933b0/pytk_net-0.2.0.tar.gz
+[2023-06-16 11:04:14] INFO root fetch - processPackages [antchain-nftx]: Downloading https://files.pythonhosted.org/packages/21/77/b5fdf028306339c17d342d54ad63ef79c0e6d58b7f7a1469fb599323f7ee/antchain_nftx-1.8.6.tar.gz
+[2023-06-16 11:04:14] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/98/20/5f3030caef446bcde39cb3f41d4b98a69328a60b57ef57b75b3bb2b05abd/currentscape-1.0.2.tar.gz
+[2023-06-16 11:04:14] INFO root fetch - processPackages [eepackages]: Downloading https://files.pythonhosted.org/packages/c4/07/af3132898eda57bf71fb5ac7734a04e334cfbcf5b2a2b6ceeccfd5c4567f/eepackages-0.8.0.tar.gz
+[2023-06-16 11:04:14] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/33/bf/a22d698dc1ff9446b124b7ced9b46c9f7c7445eb57fcf0afaa0512e48a93/current_events_magnifier-0.0.3.4.tar.gz
+[2023-06-16 11:04:14] INFO root fetch - processPackages [pytk-net]: executing diffoscope
+[2023-06-16 11:04:14] INFO root fetch - processPackages [pytk-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytk_net-0.1.2.tar.gz tmp/pytk_net-0.2.0.tar.gz --markdown 20230616/p/pytk-net/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-16 11:04:14] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: Downloading https://files.pythonhosted.org/packages/3b/4d/236832d1d32cba7cdfe85d1b01318f01461eaf380a6f7144cbedb8610290/odoo_addon_l10n_ec_account_edi-15.0.1.0.1-py3-none-any.whl
+[2023-06-16 11:04:14] INFO root fetch - processPackages [antchain-nftx]: executing diffoscope
+[2023-06-16 11:04:14] INFO root fetch - processPackages [antchain-nftx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_nftx-1.8.5.tar.gz tmp/antchain_nftx-1.8.6.tar.gz --markdown 20230616/a/antchain-nftx/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-06-16 11:04:14] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/cd/bd/58d1ceeca25dd3723b096701fb97e19372469b85d69f43c326d459fae5b9/pycognaize-1.4.3.tar.gz
+[2023-06-16 11:04:14] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e6/25/2eaf008e5add63f0f90d9e4df0e09391aa1e1846c50e8002093fdb3e8cf7/yplib-1.5.6.tar.gz
+[2023-06-16 11:04:14] INFO root fetch - processPackages [kgheartbeat]: Downloading https://files.pythonhosted.org/packages/01/78/447ea7bbade7d6859b80962eb251537a020f837552b84e6edd3dcaa0cb0c/kgheartbeat-0.1.8.tar.gz
+[2023-06-16 11:04:14] INFO root fetch - processPackages [accel]: Downloading https://files.pythonhosted.org/packages/37/79/7cff0ca409c6c3131275838f877ef62392b9c09d6d5d021094994cd75748/accel-0.2.5-py3-none-any.whl
+[2023-06-16 11:04:14] INFO root fetch - processPackages [currentscape]: executing diffoscope
+[2023-06-16 11:04:14] INFO root fetch - processPackages [currentscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currentscape-1.0.1.tar.gz tmp/currentscape-1.0.2.tar.gz --markdown 20230616/c/currentscape/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-16 11:04:14] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 11:04:14] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.5.5.tar.gz tmp/yplib-1.5.6.tar.gz --markdown 20230616/y/yplib/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-06-16 11:04:14] WARNING root fetch - processPackages [kgheartbeat]: Skipping package: exceeds size limit 15218972>=10485760
+[2023-06-16 11:04:14] INFO root fetch - processPackages [kgheartbeat]: Start processing: kuflow-rest
+[2023-06-16 11:04:14] INFO root fetch - main [MainThread]: End processing [kgheartbeat] error
+[2023-06-16 11:04:14] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/76/68/5b549815dd3bcdbde5ef4452e26ae7b1663f1448479589c4c513a2079504/current_events_magnifier-0.0.3.5.tar.gz
+[2023-06-16 11:04:14] INFO root fetch - processPackages [kuflow-rest]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-16 11:04:15] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: Downloading https://files.pythonhosted.org/packages/63/6f/925df093e1d2abe79edd9133288fcbb137f71c4ef12dc4d2ea59064acdc7/odoo_addon_l10n_ec_account_edi-15.0.1.1.0-py3-none-any.whl
+[2023-06-16 11:04:15] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/af/68/9e18ec1b34bbc6ef07b46ba3024460bb6cb05c9fafec6c212ad33c0823dd/pycognaize-1.4.6.tar.gz
+[2023-06-16 11:04:15] INFO root fetch - processPackages [eepackages]: Downloading https://files.pythonhosted.org/packages/e6/8e/9d290b1c3f11cc35dfedf6dc9221bc6fecb44b0314c37b202c4b84151467/eepackages-0.9.0.tar.gz
+[2023-06-16 11:04:15] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-16 11:04:15] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.0.3.4.tar.gz tmp/current_events_magnifier-0.0.3.5.tar.gz --markdown 20230616/c/current-events-magnifier/0.0.3.4-0.0.3.5/diff.md --exclude *.pyd
+[2023-06-16 11:04:15] INFO root fetch - processPackages [accel]: Downloading https://files.pythonhosted.org/packages/ef/34/1b50c1e980001442aec5a3d2afd1fb37d2dfb99c0a1022881507f9008813/accel-0.2.6-py3-none-any.whl
+[2023-06-16 11:04:15] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/42/8b/af76c6628c1d79f1221417296c8ea9cbde0fc60adb03b4900013fe5df9d4/kuflow_rest-0.6.0.tar.gz
+[2023-06-16 11:04:15] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: executing diffoscope
+[2023-06-16 11:04:15] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ec_account_edi-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ec_account_edi-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-l10n-ec-account-edi/15.0.1.0.1-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-16 11:04:15] INFO root fetch - processPackages [accel]: executing diffoscope
+[2023-06-16 11:04:15] INFO root fetch - processPackages [accel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accel-0.2.5-py3-none-any.whl.zip tmp/accel-0.2.6-py3-none-any.whl.zip --markdown 20230616/a/accel/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-16 11:04:15] INFO root fetch - processPackages [eepackages]: executing diffoscope
+[2023-06-16 11:04:15] INFO root fetch - processPackages [eepackages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eepackages-0.8.0.tar.gz tmp/eepackages-0.9.0.tar.gz --markdown 20230616/e/eepackages/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 11:04:15] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2023-06-16 11:04:15] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.4.3.tar.gz tmp/pycognaize-1.4.6.tar.gz --markdown 20230616/p/pycognaize/1.4.3-1.4.6/diff.md --exclude *.pyd
+[2023-06-16 11:04:15] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/5a/64/8df5f9b02f0b51bffbef3d3be20ca6c1702d493b6149f7d55803b8e58008/kuflow_rest-0.6.1.tar.gz
+[2023-06-16 11:04:15] INFO root fetch - processPackages [kuflow-rest]: executing diffoscope
+[2023-06-16 11:04:15] INFO root fetch - processPackages [kuflow-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_rest-0.6.0.tar.gz tmp/kuflow_rest-0.6.1.tar.gz --markdown 20230616/k/kuflow-rest/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-16 11:04:16] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.1.2.tar.gz]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.2.0.tar.gz]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [pytk-net]: Start processing: kuflow-robotframework
+[2023-06-16 11:04:16] INFO root fetch - main [MainThread]: End processing [pytk-net]: success
+[2023-06-16 11:04:16] INFO root fetch - processPackages [kuflow-robotframework]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/ca/2f/ed59c3b5e121883abbb872a4189a6f9054eaf8a01e1cb1bbd7185bfd243c/kuflow_robotframework-0.6.0.tar.gz
+[2023-06-16 11:04:16] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.5.tar.gz]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.6.tar.gz]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [yplib]: Start processing: kuflow-temporal-common
+[2023-06-16 11:04:16] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 11:04:16] INFO root fetch - processPackages [antchain-nftx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftx-1.8.5.tar.gz]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [antchain-nftx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftx-1.8.6.tar.gz]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [antchain-nftx]: Start processing: kuflow-temporal-activity-kuflow
+[2023-06-16 11:04:16] INFO root fetch - main [MainThread]: End processing [antchain-nftx]: success
+[2023-06-16 11:04:16] INFO root fetch - processPackages [kuflow-temporal-common]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [eepackages]: Remove: archive file [/home/abi/fetcher/tmp/eepackages-0.8.0.tar.gz]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [eepackages]: Remove: archive file [/home/abi/fetcher/tmp/eepackages-0.9.0.tar.gz]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [eepackages]: Start processing: kuflow-temporal-activity-robotframework
+[2023-06-16 11:04:16] INFO root fetch - main [MainThread]: End processing [eepackages]: success
+[2023-06-16 11:04:16] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.4.tar.gz]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.5.tar.gz]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [current-events-magnifier]: Start processing: bagbag
+[2023-06-16 11:04:16] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-16 11:04:16] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/33/ef/9c18b6308d0d327cb43a53caaa371540ad63ae8f2e1d445fe4d07edde7fb/kuflow_temporal_common-0.6.0.tar.gz
+[2023-06-16 11:04:16] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-06-16 11:04:16] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/78/0d/dbbb92a044e3fe71e2d09cb660e34c99b683bafad7665e38a2fd4442db19/kuflow_temporal_activity_kuflow-0.6.0.tar.gz
+[2023-06-16 11:04:16] INFO root fetch - processPackages [accel]: Remove: archive file [/home/abi/fetcher/tmp/accel-0.2.5-py3-none-any.whl.zip]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [accel]: Remove: archive file [/home/abi/fetcher/tmp/accel-0.2.6-py3-none-any.whl.zip]
+[2023-06-16 11:04:16] INFO root fetch - processPackages [accel]: Start processing: pyqt-openai
+[2023-06-16 11:04:16] INFO root fetch - main [MainThread]: End processing [accel]: success
+[2023-06-16 11:04:16] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/62/7d/3de1b6f20fd1fcdbc3ec3eef5516b2b3b13db1844c51fd96836a11da21e1/kuflow_robotframework-0.6.1.tar.gz
+[2023-06-16 11:04:16] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-06-16 11:04:16] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/05/2a/f68d4ffd7ac58d57f2d8c7577bc44549a35b12be1b1d212fb8291e4bd690/kuflow_temporal_activity_robotframework-0.6.0.tar.gz
+[2023-06-16 11:04:16] INFO root fetch - processPackages [pyqt-openai]: New version: [0.1.72] Old Version: [0.1.61]
+[2023-06-16 11:04:17] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-16 11:04:17] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230616/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/25/c1/f7fcc49d944f4b4a2edafb1211e7ceefef331155d55a75c6a83d1849de3c/kuflow_temporal_common-0.6.1.tar.gz
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-robotframework]: executing diffoscope
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_robotframework-0.6.0.tar.gz tmp/kuflow_robotframework-0.6.1.tar.gz --markdown 20230616/k/kuflow-robotframework/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/20/b5/6e9073549840d7a466258fa249e855551ca93ea1cd41c8923bbe626dfd7b/kuflow_temporal_activity_kuflow-0.6.1.tar.gz
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-temporal-common]: executing diffoscope
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-temporal-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_common-0.6.0.tar.gz tmp/kuflow_temporal_common-0.6.1.tar.gz --markdown 20230616/k/kuflow-temporal-common/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-16 11:04:17] INFO root fetch - processPackages [pyqt-openai]: Downloading https://files.pythonhosted.org/packages/ac/99/fb4d90b19073bff410a656df1ad901d72d27c589f6f6df934b252caa0729/pyqt-openai-0.1.61.tar.gz
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/06/3e/d5c4665f21392e998e421b2f28368f34fee5f346df4135ccb892a513f0fe/kuflow_temporal_activity_robotframework-0.6.1.tar.gz
+[2023-06-16 11:04:17] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ec_account_edi-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-16 11:04:17] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ec_account_edi-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-16 11:04:17] INFO root fetch - processPackages [odoo-addon-l10n-ec-account-edi]: Start processing: areixlib
+[2023-06-16 11:04:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ec-account-edi]: success
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: executing diffoscope
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_kuflow-0.6.0.tar.gz tmp/kuflow_temporal_activity_kuflow-0.6.1.tar.gz --markdown 20230616/k/kuflow-temporal-activity-kuflow/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-16 11:04:17] INFO root fetch - processPackages [areixlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: executing diffoscope
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_robotframework-0.6.0.tar.gz tmp/kuflow_temporal_activity_robotframework-0.6.1.tar.gz --markdown 20230616/k/kuflow-temporal-activity-robotframework/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-16 11:04:17] INFO root fetch - processPackages [pyqt-openai]: Downloading https://files.pythonhosted.org/packages/1f/84/f40ecf5dbabda2334e7f412f6da476e67db516a018d502ce4c2e53048dc4/pyqt-openai-0.1.72.tar.gz
+[2023-06-16 11:04:17] INFO root fetch - processPackages [areixlib]: Downloading https://files.pythonhosted.org/packages/2f/5e/82622925325cc40694a164901608e142eed6fe99d83a8e99327bd5a0ac16/areixlib-0.1.8.tar.gz
+[2023-06-16 11:04:17] INFO root fetch - processPackages [pyqt-openai]: executing diffoscope
+[2023-06-16 11:04:17] INFO root fetch - processPackages [pyqt-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqt-openai-0.1.61.tar.gz tmp/pyqt-openai-0.1.72.tar.gz --markdown 20230616/p/pyqt-openai/0.1.61-0.1.72/diff.md --exclude *.pyd
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-rest]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_rest-0.6.0.tar.gz]
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-rest]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_rest-0.6.1.tar.gz]
+[2023-06-16 11:04:17] INFO root fetch - processPackages [kuflow-rest]: Start processing: feng-big
+[2023-06-16 11:04:17] INFO root fetch - main [MainThread]: End processing [kuflow-rest]: success
+[2023-06-16 11:04:17] INFO root fetch - processPackages [areixlib]: Downloading https://files.pythonhosted.org/packages/0e/30/827f03b0c15db63f31ae32ac76732b2adeffa605ca1625390c1b47464679/areixlib-0.1.9.tar.gz
+[2023-06-16 11:04:17] INFO root fetch - processPackages [areixlib]: executing diffoscope
+[2023-06-16 11:04:17] INFO root fetch - processPackages [areixlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixlib-0.1.8.tar.gz tmp/areixlib-0.1.9.tar.gz --markdown 20230616/a/areixlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 11:04:17] WARNING root fetch - processPackages [feng-big]: Skipping, unable to determine old version
+[2023-06-16 11:04:17] INFO root fetch - processPackages [feng-big]: Start processing: fondant
+[2023-06-16 11:04:17] INFO root fetch - main [MainThread]: End processing [feng-big] error
+[2023-06-16 11:04:18] INFO root fetch - processPackages [fondant]: New version: [0.2.dev0] Old Version: [0.1.dev0]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [fondant]: Downloading https://files.pythonhosted.org/packages/dc/78/98f503aea9827f036ded2dbe6c6794330b97777be390f86c3940d1701452/fondant-0.1.dev0.tar.gz
+[2023-06-16 11:04:18] INFO root fetch - processPackages [kuflow-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_robotframework-0.6.0.tar.gz]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [kuflow-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_robotframework-0.6.1.tar.gz]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [kuflow-robotframework]: Start processing: nitibasiccal
+[2023-06-16 11:04:18] INFO root fetch - main [MainThread]: End processing [kuflow-robotframework]: success
+[2023-06-16 11:04:18] WARNING root fetch - processPackages [nitibasiccal]: Skipping, unable to determine old version
+[2023-06-16 11:04:18] INFO root fetch - processPackages [nitibasiccal]: Start processing: autogluon.common
+[2023-06-16 11:04:18] INFO root fetch - main [MainThread]: End processing [nitibasiccal] error
+[2023-06-16 11:04:18] INFO root fetch - processPackages [fondant]: Downloading https://files.pythonhosted.org/packages/bb/ec/1e7ecbb5aa0a1849ef4e078805fd8bc4954c8f213ac352d4a19391fe811f/fondant-0.2.dev0.tar.gz
+[2023-06-16 11:04:18] INFO root fetch - processPackages [autogluon.common]: New version: [0.8.0b20230615] Old Version: [0.8.0]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/1b/2f/ae4eb4f00a87ddb393c92b786dd907c31ef7f53473f91adcf5c0c9c766bc/autogluon.common-0.8.0.tar.gz
+[2023-06-16 11:04:18] INFO root fetch - processPackages [kuflow-temporal-common]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_common-0.6.0.tar.gz]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [kuflow-temporal-common]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_common-0.6.1.tar.gz]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [kuflow-temporal-common]: Start processing: autogluon.core
+[2023-06-16 11:04:18] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-common]: success
+[2023-06-16 11:04:18] INFO root fetch - processPackages [fondant]: executing diffoscope
+[2023-06-16 11:04:18] INFO root fetch - processPackages [fondant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondant-0.1.dev0.tar.gz tmp/fondant-0.2.dev0.tar.gz --markdown 20230616/f/fondant/0.1.dev0-0.2.dev0/diff.md --exclude *.pyd
+[2023-06-16 11:04:18] INFO root fetch - processPackages [autogluon.core]: New version: [0.8.0b20230615] Old Version: [0.8.0]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/e2/35/28187b2b16a3b98646083d55260a75de7e90b74d24d2b816f5c6cbe28441/autogluon.core-0.8.0.tar.gz
+[2023-06-16 11:04:18] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_robotframework-0.6.0.tar.gz]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_robotframework-0.6.1.tar.gz]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Start processing: autogluon.features
+[2023-06-16 11:04:18] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-robotframework]: success
+[2023-06-16 11:04:18] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/0c/e3/f89ccba1738a604469c0b774d916a0b164e6646bf73c2c8373d380346c1a/autogluon.common-0.8.0b20230615.tar.gz
+[2023-06-16 11:04:18] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_kuflow-0.6.0.tar.gz]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_kuflow-0.6.1.tar.gz]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Start processing: yunpancli
+[2023-06-16 11:04:18] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-kuflow]: success
+[2023-06-16 11:04:18] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.1.tar.gz]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.2.tar.gz]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [currentscape]: Start processing: autogluon.tabular
+[2023-06-16 11:04:18] INFO root fetch - main [MainThread]: End processing [currentscape]: success
+[2023-06-16 11:04:18] INFO root fetch - processPackages [autogluon.features]: New version: [0.8.0b20230615] Old Version: [0.8.0]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-06-16 11:04:18] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.8.0.tar.gz tmp/autogluon.common-0.8.0b20230615.tar.gz --markdown 20230616/a/autogluon.common/0.8.0-0.8.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 11:04:18] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.8.0b20230615] Old Version: [0.8.0]
+[2023-06-16 11:04:18] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/da/3b/ebb25fe16598fa63b2c74563e36566c302849dc7a8a94554d156b8948f39/autogluon.features-0.8.0.tar.gz
+[2023-06-16 11:04:18] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/64/4b/ce8701ca2d89eb7534f80a396544cf0ba93d714c1be9ff225f568ecd5257/autogluon.core-0.8.0b20230615.tar.gz
+[2023-06-16 11:04:19] INFO root fetch - processPackages [yunpancli]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-16 11:04:19] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/a4/65/372418fdc3b6eac6c75266f8b30c1012ead5165f01cedc586465d3f6faad/autogluon.tabular-0.8.0.tar.gz
+[2023-06-16 11:04:19] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-06-16 11:04:19] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.8.0.tar.gz tmp/autogluon.core-0.8.0b20230615.tar.gz --markdown 20230616/a/autogluon.core/0.8.0-0.8.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 11:04:19] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/8e/1f/12147538c6f7837a30f09cd96a2a33341011a632d564d8e9d3a2ff705708/autogluon.features-0.8.0b20230615.tar.gz
+[2023-06-16 11:04:19] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/e8/31/f4c6bfec5a0b67634b8bef2fa0b7658041adc7b3fd28cc4a95b4d46b3340/autogluon.tabular-0.8.0b20230615.tar.gz
+[2023-06-16 11:04:19] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-06-16 11:04:19] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.8.0.tar.gz tmp/autogluon.features-0.8.0b20230615.tar.gz --markdown 20230616/a/autogluon.features/0.8.0-0.8.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 11:04:19] INFO root fetch - processPackages [yunpancli]: Downloading https://files.pythonhosted.org/packages/01/17/4ea9c1db743b7059938dcd9e73df51d06a93123d58e500979d015eb9c04d/yunpancli-0.0.6.tar.gz
+[2023-06-16 11:04:19] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-06-16 11:04:19] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.8.0.tar.gz tmp/autogluon.tabular-0.8.0b20230615.tar.gz --markdown 20230616/a/autogluon.tabular/0.8.0-0.8.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 11:04:19] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.3.tar.gz]
+[2023-06-16 11:04:19] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.6.tar.gz]
+[2023-06-16 11:04:19] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2023-06-16 11:04:19] INFO root fetch - processPackages [yunpancli]: Downloading https://files.pythonhosted.org/packages/65/61/6cba7ec251ff748f3ebd2647caeed8089a1f8d83995ca14a1815f6d3f093/yunpancli-0.0.7.tar.gz
+[2023-06-16 11:04:19] INFO root fetch - processPackages [yunpancli]: executing diffoscope
+[2023-06-16 11:04:19] INFO root fetch - processPackages [yunpancli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunpancli-0.0.6.tar.gz tmp/yunpancli-0.0.7.tar.gz --markdown 20230616/y/yunpancli/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-16 11:04:19] INFO root fetch - processPackages [pyqt-openai]: Remove: archive file [/home/abi/fetcher/tmp/pyqt-openai-0.1.61.tar.gz]
+[2023-06-16 11:04:19] INFO root fetch - processPackages [pyqt-openai]: Remove: archive file [/home/abi/fetcher/tmp/pyqt-openai-0.1.72.tar.gz]
+[2023-06-16 11:04:19] INFO root fetch - main [MainThread]: End processing [pyqt-openai]: success
+[2023-06-16 11:04:19] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-06-16 11:04:19] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-06-16 11:04:20] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-16 11:04:20] INFO root fetch - processPackages [fondant]: Remove: archive file [/home/abi/fetcher/tmp/fondant-0.1.dev0.tar.gz]
+[2023-06-16 11:04:20] INFO root fetch - processPackages [fondant]: Remove: archive file [/home/abi/fetcher/tmp/fondant-0.2.dev0.tar.gz]
+[2023-06-16 11:04:20] INFO root fetch - main [MainThread]: End processing [fondant]: success
+[2023-06-16 11:04:20] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.0.tar.gz]
+[2023-06-16 11:04:20] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.0b20230615.tar.gz]
+[2023-06-16 11:04:20] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-06-16 11:04:20] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.0.tar.gz]
+[2023-06-16 11:04:20] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.0b20230615.tar.gz]
+[2023-06-16 11:04:20] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-06-16 11:04:20] INFO root fetch - processPackages [yunpancli]: Remove: archive file [/home/abi/fetcher/tmp/yunpancli-0.0.6.tar.gz]
+[2023-06-16 11:04:20] INFO root fetch - processPackages [yunpancli]: Remove: archive file [/home/abi/fetcher/tmp/yunpancli-0.0.7.tar.gz]
+[2023-06-16 11:04:20] INFO root fetch - main [MainThread]: End processing [yunpancli]: success
+[2023-06-16 11:04:21] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.0.tar.gz]
+[2023-06-16 11:04:21] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.0b20230615.tar.gz]
+[2023-06-16 11:04:21] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-06-16 11:04:22] INFO root fetch - processPackages [areixlib]: Remove: archive file [/home/abi/fetcher/tmp/areixlib-0.1.8.tar.gz]
+[2023-06-16 11:04:22] INFO root fetch - processPackages [areixlib]: Remove: archive file [/home/abi/fetcher/tmp/areixlib-0.1.9.tar.gz]
+[2023-06-16 11:04:22] INFO root fetch - main [MainThread]: End processing [areixlib]: success
+[2023-06-16 11:04:22] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.0.tar.gz]
+[2023-06-16 11:04:22] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.0b20230615.tar.gz]
+[2023-06-16 11:04:22] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-06-16 11:04:22] INFO root fetch - main [MainThread]: Store serial: [18529800]
