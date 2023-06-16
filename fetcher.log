@@ -10188,3 +10188,149 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 04:39:15] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230616.tar.gz]
 [2023-06-16 04:39:15] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-06-16 04:39:15] INFO root fetch - main [MainThread]: Store serial: [18526419]
+[2023-06-16 04:44:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526419]
+[2023-06-16 04:44:30] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-16 04:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: karuoflow
+[2023-06-16 04:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rafe
+[2023-06-16 04:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feffery-utils-components
+[2023-06-16 04:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitopenlib
+[2023-06-16 04:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addons-shopinvader-odoo-shopinvader-payment
+[2023-06-16 04:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gridgraph-importer
+[2023-06-16 04:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo8-addon-account-credit-control
+[2023-06-16 04:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apkutils
+[2023-06-16 04:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shawn
+[2023-06-16 04:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openlrc
+[2023-06-16 04:44:30] INFO root fetch - processPackages [rafe]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-16 04:44:31] INFO root fetch - processPackages [karuoflow]: New version: [1.32] Old Version: [1.31]
+[2023-06-16 04:44:31] INFO root fetch - processPackages [feffery-utils-components]: New version: [0.2.0a3] Old Version: [0.2.0a2]
+[2023-06-16 04:44:31] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader-payment]: New version: [14.0.20230615.0] Old Version: [14.0.20230315.0]
+[2023-06-16 04:44:31] INFO root fetch - processPackages [odoo8-addon-account-credit-control]: New version: [8.0.0.3.0.99.dev70] Old Version: [8.0.0.3.0.99.dev69]
+[2023-06-16 04:44:31] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-06-16 04:44:31] INFO root fetch - processPackages [gridgraph-importer]: New version: [2.0] Old Version: [1.0]
+[2023-06-16 04:44:31] INFO root fetch - processPackages [openlrc]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 04:44:31] INFO root fetch - processPackages [apkutils]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-16 04:44:31] INFO root fetch - processPackages [shawn]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-16 04:44:31] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/45/a8/4badca2390f754660845741c60513304e1868b537a028f2cf265d571a04d/openlrc-0.1.0.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [rafe]: Downloading https://files.pythonhosted.org/packages/5b/62/369acf3ec5c48701b8ea991469ddf61976668f869dfca4c5af006a62b63f/rafe-0.1.2.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [shawn]: Downloading https://files.pythonhosted.org/packages/2b/7b/c91b611b7995590f415107da6d0d1f81619157616196acbe25b8de5c7132/shawn-0.1.2.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [karuoflow]: Downloading https://files.pythonhosted.org/packages/96/d2/9d2936c5cedb93e0d99158695fc5e1323cce1f0d49ddb02f1e096dc366e8/karuoflow-1.31.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/2e/e5/9eadd65069e319b02af7deb318c70c8f595c0be256a9cdb4a21b6c50dff0/feffery_utils_components-0.2.0a2.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [odoo8-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/1c/0e/af8e1b92e8a684c9e54f9c1eecc8abf6fdb146a4e3f1b5287a30e0d3fed6/odoo8_addon_account_credit_control-8.0.0.3.0.99.dev69-py2-none-any.whl
+[2023-06-16 04:44:31] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/48/74/590f5be409b770795c16d674e400c8995a8061e00d4e779cd4a7be76b06d/gitopenlib-0.2.7.28.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [apkutils]: Downloading https://files.pythonhosted.org/packages/19/08/e8ac89d939ee8d086d09e4f97320916b3fcec82003f109a6376dd94f2901/apkutils-1.5.0-py3-none-any.whl
+[2023-06-16 04:44:31] INFO root fetch - processPackages [gridgraph-importer]: Downloading https://files.pythonhosted.org/packages/bb/6a/e8b833be2796e023197b792ff05fc16375f5d897b762658b26e93b615bf9/gridgraph_importer-1.0.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader-payment]: Downloading https://files.pythonhosted.org/packages/44/62/87d1e4124a3760c0915e345d23565d9de1d21e127b56e6681f29b6431ce7/odoo14_addons_shopinvader_odoo_shopinvader_payment-14.0.20230315.0-py3-none-any.whl
+[2023-06-16 04:44:31] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/5e/7d/de0ac026b208212b97808270cacb01ba674a49aeab902d751423aafc6473/openlrc-0.1.1.tar.gz
+[2023-06-16 04:44:31] WARNING root fetch - processPackages [shawn]: Skipping package: exceeds size limit 34149561>=10485760
+[2023-06-16 04:44:31] INFO root fetch - processPackages [shawn]: Start processing: agixt
+[2023-06-16 04:44:31] INFO root fetch - main [MainThread]: End processing [shawn] error
+[2023-06-16 04:44:31] INFO root fetch - processPackages [agixt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-16 04:44:31] INFO root fetch - processPackages [rafe]: Downloading https://files.pythonhosted.org/packages/d6/07/8c60e7d84717c47c9633d95eaf00b291b47ef116d99994a267fd4c2e2ed6/rafe-0.1.3-py3-none-any.whl
+[2023-06-16 04:44:31] INFO root fetch - processPackages [openlrc]: executing diffoscope
+[2023-06-16 04:44:31] INFO root fetch - processPackages [openlrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlrc-0.1.0.tar.gz tmp/openlrc-0.1.1.tar.gz --markdown 20230616/o/openlrc/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 04:44:31] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/72/f6/05aa84da4a4a92f60509327d99757c9f44d33c306ee6f42fdbbbf0dd5b69/agixt-1.2.8.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [karuoflow]: Downloading https://files.pythonhosted.org/packages/d7/66/fae1464270d415d8dd06ad0806acd4d82c1127f7f29500978734c96679d9/karuoflow-1.32.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [gridgraph-importer]: Downloading https://files.pythonhosted.org/packages/78/4e/28fc9213b2a5917cc87142011072dceccf8fa26c76b8109fc8e41a9bc688/gridgraph_importer-2.0.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [odoo8-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/1d/9e/456c235d31890c04a5f32038a1a70353e43f4e28d90e83bed8ee6fd5ede0/odoo8_addon_account_credit_control-8.0.0.3.0.99.dev70-py2-none-any.whl
+[2023-06-16 04:44:31] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader-payment]: Downloading https://files.pythonhosted.org/packages/a7/07/a624218b7f2936db8fa5326e6385569df05617a88a7ca962c1e3fc0ceaa4/odoo14_addons_shopinvader_odoo_shopinvader_payment-14.0.20230615.0-py3-none-any.whl
+[2023-06-16 04:44:31] INFO root fetch - processPackages [rafe]: executing diffoscope
+[2023-06-16 04:44:31] INFO root fetch - processPackages [rafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rafe-0.1.2.tar.gz tmp/rafe-0.1.3-py3-none-any.whl.zip --markdown 20230616/r/rafe/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-16 04:44:31] INFO root fetch - processPackages [karuoflow]: executing diffoscope
+[2023-06-16 04:44:31] INFO root fetch - processPackages [karuoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karuoflow-1.31.tar.gz tmp/karuoflow-1.32.tar.gz --markdown 20230616/k/karuoflow/1.31-1.32/diff.md --exclude *.pyd
+[2023-06-16 04:44:31] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader-payment]: executing diffoscope
+[2023-06-16 04:44:31] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_shopinvader_odoo_shopinvader_payment-14.0.20230315.0-py3-none-any.whl.zip tmp/odoo14_addons_shopinvader_odoo_shopinvader_payment-14.0.20230615.0-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addons-shopinvader-odoo-shopinvader-payment/14.0.20230315.0-14.0.20230615.0/diff.md --exclude *.pyd
+[2023-06-16 04:44:31] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/95/54/4a4292733061b582887b760f5ab036ac4b7f126b55956419de3015c0a1fa/gitopenlib-0.2.8.28.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [gridgraph-importer]: executing diffoscope
+[2023-06-16 04:44:31] INFO root fetch - processPackages [gridgraph-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridgraph_importer-1.0.tar.gz tmp/gridgraph_importer-2.0.tar.gz --markdown 20230616/g/gridgraph-importer/1.0-2.0/diff.md --exclude *.pyd
+[2023-06-16 04:44:31] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/4a/0b/2ee5671ceab78e2fcb22baa1e85e81fc88fd6cf5c42e4d23682875761f87/feffery_utils_components-0.2.0a3.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [odoo8-addon-account-credit-control]: executing diffoscope
+[2023-06-16 04:44:31] INFO root fetch - processPackages [odoo8-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_account_credit_control-8.0.0.3.0.99.dev69-py2-none-any.whl.zip tmp/odoo8_addon_account_credit_control-8.0.0.3.0.99.dev70-py2-none-any.whl.zip --markdown 20230616/o/odoo8-addon-account-credit-control/8.0.0.3.0.99.dev69-8.0.0.3.0.99.dev70/diff.md --exclude *.pyd
+[2023-06-16 04:44:31] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/ad/3a/7b239b1c21f484f09369851f21976facf1680c29f5c7c2993e0349cb6b1f/agixt-1.2.9.tar.gz
+[2023-06-16 04:44:31] INFO root fetch - processPackages [apkutils]: Downloading https://files.pythonhosted.org/packages/56/84/82a129d667c37af4c470c590f2a4898b0ad06bf9dd7847c5ebdb4b5d2b15/apkutils-1.5.1-py3-none-any.whl
+[2023-06-16 04:44:31] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-06-16 04:44:31] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230616/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-06-16 04:44:31] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-16 04:44:31] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.8.tar.gz tmp/agixt-1.2.9.tar.gz --markdown 20230616/a/agixt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-16 04:44:31] INFO root fetch - processPackages [apkutils]: executing diffoscope
+[2023-06-16 04:44:31] INFO root fetch - processPackages [apkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkutils-1.5.0-py3-none-any.whl.zip tmp/apkutils-1.5.1-py3-none-any.whl.zip --markdown 20230616/a/apkutils/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-16 04:44:32] INFO root fetch - processPackages [feffery-utils-components]: executing diffoscope
+[2023-06-16 04:44:32] INFO root fetch - processPackages [feffery-utils-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_utils_components-0.2.0a2.tar.gz tmp/feffery_utils_components-0.2.0a3.tar.gz --markdown 20230616/f/feffery-utils-components/0.2.0a2-0.2.0a3/diff.md --exclude *.pyd
+[2023-06-16 04:44:33] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.1.0.tar.gz]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-0.1.1.tar.gz]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [openlrc]: Start processing: chatglm-llm
+[2023-06-16 04:44:33] INFO root fetch - main [MainThread]: End processing [openlrc]: success
+[2023-06-16 04:44:33] INFO root fetch - processPackages [chatglm-llm]: New version: [1.4.0] Old Version: [1.3.7]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [rafe]: Remove: archive file [/home/abi/fetcher/tmp/rafe-0.1.2.tar.gz]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [rafe]: Remove: archive file [/home/abi/fetcher/tmp/rafe-0.1.3-py3-none-any.whl.zip]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [rafe]: Start processing: acore-server-metadata
+[2023-06-16 04:44:33] INFO root fetch - main [MainThread]: End processing [rafe]: success
+[2023-06-16 04:44:33] WARNING root fetch - processPackages [acore-server-metadata]: Skipping, unable to determine old version
+[2023-06-16 04:44:33] INFO root fetch - processPackages [acore-server-metadata]: Start processing: hamlet
+[2023-06-16 04:44:33] INFO root fetch - main [MainThread]: End processing [acore-server-metadata] error
+[2023-06-16 04:44:33] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/a8/53/eb66df5a7f94f9680a13ef602fe9bc15fc00e305059249b3b3b0f7fd8d87/chatglm-llm-1.3.7.tar.gz
+[2023-06-16 04:44:33] INFO root fetch - processPackages [hamlet]: New version: [9.9.1.dev1] Old Version: [9.9.1]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_shopinvader_odoo_shopinvader_payment-14.0.20230315.0-py3-none-any.whl.zip]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_shopinvader_odoo_shopinvader_payment-14.0.20230615.0-py3-none-any.whl.zip]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader-payment]: Start processing: xyz-util
+[2023-06-16 04:44:33] INFO root fetch - main [MainThread]: End processing [odoo14-addons-shopinvader-odoo-shopinvader-payment]: success
+[2023-06-16 04:44:33] INFO root fetch - processPackages [xyz-util]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/7c/78/ea1555275dcd657d61ac510e3dd95995d9bc7b7733f809403e71bb68c92b/chatglm-llm-1.4.0.tar.gz
+[2023-06-16 04:44:33] INFO root fetch - processPackages [xyz-util]: Downloading https://files.pythonhosted.org/packages/5d/0c/872a400eecaa55ee1697fd5e7eb3b7506b46370cd086e8cb4e3a1b5217de/xyz_util-0.7.8-py3-none-any.whl
+[2023-06-16 04:44:33] INFO root fetch - processPackages [hamlet]: Downloading https://files.pythonhosted.org/packages/7c/6c/cef27d43674fd20230e734f03ebf6e2f3845e070d2dbb45ae257e4cf317c/hamlet-9.9.1.tar.gz
+[2023-06-16 04:44:33] INFO root fetch - processPackages [chatglm-llm]: executing diffoscope
+[2023-06-16 04:44:33] INFO root fetch - processPackages [chatglm-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-llm-1.3.7.tar.gz tmp/chatglm-llm-1.4.0.tar.gz --markdown 20230616/c/chatglm-llm/1.3.7-1.4.0/diff.md --exclude *.pyd
+[2023-06-16 04:44:33] INFO root fetch - processPackages [gridgraph-importer]: Remove: archive file [/home/abi/fetcher/tmp/gridgraph_importer-1.0.tar.gz]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [gridgraph-importer]: Remove: archive file [/home/abi/fetcher/tmp/gridgraph_importer-2.0.tar.gz]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [gridgraph-importer]: Start processing: centaur-client
+[2023-06-16 04:44:33] INFO root fetch - main [MainThread]: End processing [gridgraph-importer]: success
+[2023-06-16 04:44:33] INFO root fetch - processPackages [centaur-client]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [xyz-util]: Downloading https://files.pythonhosted.org/packages/18/21/740885711ec8b1b2af373a45be8f3107f48dff754a7f0ae735e1f705908e/xyz_util-0.7.9-py3-none-any.whl
+[2023-06-16 04:44:33] INFO root fetch - processPackages [centaur-client]: Downloading https://files.pythonhosted.org/packages/30/93/ba2a977c10e337cd7aacdeaa687158d3de3d07163b995f0a42f531cc5bf1/centaur_client-0.0.7-py3-none-any.whl
+[2023-06-16 04:44:33] INFO root fetch - processPackages [karuoflow]: Remove: archive file [/home/abi/fetcher/tmp/karuoflow-1.31.tar.gz]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [karuoflow]: Remove: archive file [/home/abi/fetcher/tmp/karuoflow-1.32.tar.gz]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [karuoflow]: Start processing: odoo14-addon-account-check-deposit
+[2023-06-16 04:44:33] INFO root fetch - main [MainThread]: End processing [karuoflow]: success
+[2023-06-16 04:44:33] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: New version: [14.0.1.2.1.dev9] Old Version: [14.0.1.2.1.dev8]
+[2023-06-16 04:44:33] INFO root fetch - processPackages [hamlet]: Downloading https://files.pythonhosted.org/packages/1d/a3/0ac051b5e2c00c530860e6baaf68572be2d73888379a733c97be6f75b748/hamlet-9.9.1.dev1.tar.gz
+[2023-06-16 04:44:33] INFO root fetch - processPackages [xyz-util]: executing diffoscope
+[2023-06-16 04:44:33] INFO root fetch - processPackages [xyz-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_util-0.7.8-py3-none-any.whl.zip tmp/xyz_util-0.7.9-py3-none-any.whl.zip --markdown 20230616/x/xyz-util/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-16 04:44:33] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: Downloading https://files.pythonhosted.org/packages/61/dc/2b1de55c1511acca736477e66d257eaed3055a92767c542e00dd2f23b78f/odoo14_addon_account_check_deposit-14.0.1.2.1.dev8-py3-none-any.whl
+[2023-06-16 04:44:33] INFO root fetch - processPackages [centaur-client]: Downloading https://files.pythonhosted.org/packages/ad/cf/33d6ff6adb0b136e33f1a555a84dfa4f310b2d5b1effbda38f296f6595a2/centaur_client-0.0.8-py3-none-any.whl
+[2023-06-16 04:44:34] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.7.28.tar.gz]
+[2023-06-16 04:44:34] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
+[2023-06-16 04:44:34] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-06-16 04:44:34] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: Downloading https://files.pythonhosted.org/packages/f4/3e/e8a43e18d93cfa3df25fcb01a744098cfe7ce62a5006ab03e76f6f17d3f8/odoo14_addon_account_check_deposit-14.0.1.2.1.dev9-py3-none-any.whl
+[2023-06-16 04:44:34] INFO root fetch - processPackages [centaur-client]: executing diffoscope
+[2023-06-16 04:44:34] INFO root fetch - processPackages [centaur-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centaur_client-0.0.7-py3-none-any.whl.zip tmp/centaur_client-0.0.8-py3-none-any.whl.zip --markdown 20230616/c/centaur-client/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-16 04:44:34] INFO root fetch - processPackages [apkutils]: Remove: archive file [/home/abi/fetcher/tmp/apkutils-1.5.0-py3-none-any.whl.zip]
+[2023-06-16 04:44:34] INFO root fetch - processPackages [apkutils]: Remove: archive file [/home/abi/fetcher/tmp/apkutils-1.5.1-py3-none-any.whl.zip]
+[2023-06-16 04:44:34] INFO root fetch - main [MainThread]: End processing [apkutils]: success
+[2023-06-16 04:44:34] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: executing diffoscope
+[2023-06-16 04:44:34] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_check_deposit-14.0.1.2.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_check_deposit-14.0.1.2.1.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-account-check-deposit/14.0.1.2.1.dev8-14.0.1.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-16 04:44:34] INFO root fetch - processPackages [hamlet]: executing diffoscope
+[2023-06-16 04:44:34] INFO root fetch - processPackages [hamlet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hamlet-9.9.1.tar.gz tmp/hamlet-9.9.1.dev1.tar.gz --markdown 20230616/h/hamlet/9.9.1-9.9.1.dev1/diff.md --exclude *.pyd
+[2023-06-16 04:44:34] INFO root fetch - processPackages [odoo8-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_credit_control-8.0.0.3.0.99.dev69-py2-none-any.whl.zip]
+[2023-06-16 04:44:34] INFO root fetch - processPackages [odoo8-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_credit_control-8.0.0.3.0.99.dev70-py2-none-any.whl.zip]
+[2023-06-16 04:44:34] INFO root fetch - main [MainThread]: End processing [odoo8-addon-account-credit-control]: success
+[2023-06-16 04:44:34] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.3.7.tar.gz]
+[2023-06-16 04:44:34] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.0.tar.gz]
+[2023-06-16 04:44:34] INFO root fetch - main [MainThread]: End processing [chatglm-llm]: success
+[2023-06-16 04:44:35] INFO root fetch - processPackages [xyz-util]: Remove: archive file [/home/abi/fetcher/tmp/xyz_util-0.7.8-py3-none-any.whl.zip]
+[2023-06-16 04:44:35] INFO root fetch - processPackages [xyz-util]: Remove: archive file [/home/abi/fetcher/tmp/xyz_util-0.7.9-py3-none-any.whl.zip]
+[2023-06-16 04:44:35] INFO root fetch - main [MainThread]: End processing [xyz-util]: success
+[2023-06-16 04:44:35] INFO root fetch - processPackages [centaur-client]: Remove: archive file [/home/abi/fetcher/tmp/centaur_client-0.0.7-py3-none-any.whl.zip]
+[2023-06-16 04:44:35] INFO root fetch - processPackages [centaur-client]: Remove: archive file [/home/abi/fetcher/tmp/centaur_client-0.0.8-py3-none-any.whl.zip]
+[2023-06-16 04:44:35] INFO root fetch - main [MainThread]: End processing [centaur-client]: success
+[2023-06-16 04:44:35] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_check_deposit-14.0.1.2.1.dev8-py3-none-any.whl.zip]
+[2023-06-16 04:44:35] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_check_deposit-14.0.1.2.1.dev9-py3-none-any.whl.zip]
+[2023-06-16 04:44:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-check-deposit]: success
+[2023-06-16 04:44:36] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.8.tar.gz]
+[2023-06-16 04:44:36] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
+[2023-06-16 04:44:36] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-16 04:44:37] INFO root fetch - processPackages [hamlet]: Remove: archive file [/home/abi/fetcher/tmp/hamlet-9.9.1.tar.gz]
+[2023-06-16 04:44:37] INFO root fetch - processPackages [hamlet]: Remove: archive file [/home/abi/fetcher/tmp/hamlet-9.9.1.dev1.tar.gz]
+[2023-06-16 04:44:37] INFO root fetch - main [MainThread]: End processing [hamlet]: success
+[2023-06-16 04:44:45] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0a2.tar.gz]
+[2023-06-16 04:44:45] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0a3.tar.gz]
+[2023-06-16 04:44:45] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
+[2023-06-16 04:44:45] INFO root fetch - main [MainThread]: Store serial: [18526464]
