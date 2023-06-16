@@ -20845,3 +20845,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 12:47:30] INFO root fetch - processPackages [rouver]: Remove: archive file [/home/abi/fetcher/tmp/rouver-2.6.2.tar.gz]
 [2023-06-16 12:47:30] INFO root fetch - main [MainThread]: End processing [rouver]: success
 [2023-06-16 12:47:30] INFO root fetch - main [MainThread]: Store serial: [18530721]
+[2023-06-16 12:52:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530721]
+[2023-06-16 12:52:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rouver
+[2023-06-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-maintenance
+[2023-06-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: personal-knowledge-library
+[2023-06-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genomenotebook
+[2023-06-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vois
+[2023-06-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dea-tools
+[2023-06-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: space-rocks
+[2023-06-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pginter
+[2023-06-16 12:52:38] INFO root fetch - processPackages [rouver]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-06-16 12:52:39] INFO root fetch - processPackages [personal-knowledge-library]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-16 12:52:39] INFO root fetch - processPackages [vois]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-16 12:52:39] INFO root fetch - processPackages [genomenotebook]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-16 12:52:39] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 12:52:39] INFO root fetch - processPackages [space-rocks]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-06-16 12:52:39] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev97] Old Version: [0.2.8.dev96]
+[2023-06-16 12:52:39] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/89/c1/3b495b98344ee3d70e31d822ac6916887e55886fa34f1c01d01ae86e5c89/personal_knowledge_library-1.0.1.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [vois]: Downloading https://files.pythonhosted.org/packages/47/31/4b36a00d43f5874e5d6dded517905a516567cbc8f8dcb7879a9808b9d24d/vois-1.0.6.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [pginter]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-16 12:52:39] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/a5/8f/e6c38c4a30e34e27c73d390677fb69b536831fdf18ceac5323ec7e5952f2/dea-tools-0.2.8.dev96.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [rouver]: Downloading https://files.pythonhosted.org/packages/1f/6a/0480bc0498f3dcad24d6a6d60295ec48ced9cee4f3cb6acf2dac8eb6b827/rouver-2.6.1.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/90/30/becd04e5fb1ce0bb4cadf1f88776ccda49876b5e796256933ec5e26bf69c/genomenotebook-0.8.8.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [space-rocks]: Downloading https://files.pythonhosted.org/packages/75/ab/4b158357328237bfec441c012f64155421d95e8ef402e4193a39a90ba9c6/space_rocks-1.8.2.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [pginter]: Downloading https://files.pythonhosted.org/packages/58/f2/7073db67a28e4f3dbd798f36e749dab7ad27e585b052a589b5e58a85ff5a/pginter-0.2.8.tar.gz
+[2023-06-16 12:52:39] WARNING root fetch - processPackages [genomenotebook]: Skipping package: exceeds size limit 21361743>=10485760
+[2023-06-16 12:52:39] INFO root fetch - main [MainThread]: End processing [genomenotebook] error
+[2023-06-16 12:52:39] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 12:52:39] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 12:52:39] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/65/29/9b40f35e185a8203cb3c0e334cea089f0d937be2468850295a0bb32dccf7/personal_knowledge_library-1.0.2.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [vois]: Downloading https://files.pythonhosted.org/packages/c0/1f/b99969e43ebfb586a10db1de6783b6eeb4c39333f419131f2e68c0f5bb7a/vois-1.0.7.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/6c/a2/54f9080291998aff375fbdeae573a4329cd884f655a27302bbcdf010cc6d/dea-tools-0.2.8.dev97.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [space-rocks]: Downloading https://files.pythonhosted.org/packages/5e/80/fa3d0e0bfd84530de4df546123ded54b12ab7cc6d74fa2b4cc10fbff2ca8/space_rocks-1.8.3.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [rouver]: Downloading https://files.pythonhosted.org/packages/6f/92/1b3a2595b0fe26a8997f5052178c1e2c3ba04e3340e7dd58b7ba6bb08d52/rouver-2.6.2.tar.gz
+[2023-06-16 12:52:39] INFO root fetch - processPackages [vois]: executing diffoscope
+[2023-06-16 12:52:39] INFO root fetch - processPackages [vois]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vois-1.0.6.tar.gz tmp/vois-1.0.7.tar.gz --markdown 20230616/v/vois/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-16 12:52:39] INFO root fetch - processPackages [space-rocks]: executing diffoscope
+[2023-06-16 12:52:39] INFO root fetch - processPackages [space-rocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_rocks-1.8.2.tar.gz tmp/space_rocks-1.8.3.tar.gz --markdown 20230616/s/space-rocks/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-06-16 12:52:39] INFO root fetch - processPackages [personal-knowledge-library]: executing diffoscope
+[2023-06-16 12:52:39] INFO root fetch - processPackages [personal-knowledge-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/personal_knowledge_library-1.0.1.tar.gz tmp/personal_knowledge_library-1.0.2.tar.gz --markdown 20230616/p/personal-knowledge-library/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-16 12:52:39] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-06-16 12:52:39] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev96.tar.gz tmp/dea-tools-0.2.8.dev97.tar.gz --markdown 20230616/d/dea-tools/0.2.8.dev96-0.2.8.dev97/diff.md --exclude *.pyd
+[2023-06-16 12:52:39] INFO root fetch - processPackages [rouver]: executing diffoscope
+[2023-06-16 12:52:39] INFO root fetch - processPackages [rouver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rouver-2.6.1.tar.gz tmp/rouver-2.6.2.tar.gz --markdown 20230616/r/rouver/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-06-16 12:52:39] INFO root fetch - processPackages [pginter]: Downloading https://files.pythonhosted.org/packages/62/2f/3342c61f60572b212ab9cb3645b01870fbe8d9dc9ea1bb776188e646e261/pginter-0.2.9.tar.gz
+[2023-06-16 12:52:40] INFO root fetch - processPackages [pginter]: executing diffoscope
+[2023-06-16 12:52:40] INFO root fetch - processPackages [pginter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pginter-0.2.8.tar.gz tmp/pginter-0.2.9.tar.gz --markdown 20230616/p/pginter/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 12:52:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 12:52:40] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 12:52:40] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 12:52:41] INFO root fetch - processPackages [space-rocks]: Remove: archive file [/home/abi/fetcher/tmp/space_rocks-1.8.2.tar.gz]
+[2023-06-16 12:52:41] INFO root fetch - processPackages [space-rocks]: Remove: archive file [/home/abi/fetcher/tmp/space_rocks-1.8.3.tar.gz]
+[2023-06-16 12:52:41] INFO root fetch - main [MainThread]: End processing [space-rocks]: success
+[2023-06-16 12:52:41] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev96.tar.gz]
+[2023-06-16 12:52:41] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev97.tar.gz]
+[2023-06-16 12:52:41] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-06-16 12:52:41] INFO root fetch - processPackages [vois]: Remove: archive file [/home/abi/fetcher/tmp/vois-1.0.6.tar.gz]
+[2023-06-16 12:52:41] INFO root fetch - processPackages [vois]: Remove: archive file [/home/abi/fetcher/tmp/vois-1.0.7.tar.gz]
+[2023-06-16 12:52:41] INFO root fetch - main [MainThread]: End processing [vois]: success
+[2023-06-16 12:52:41] INFO root fetch - processPackages [pginter]: Remove: archive file [/home/abi/fetcher/tmp/pginter-0.2.8.tar.gz]
+[2023-06-16 12:52:41] INFO root fetch - processPackages [pginter]: Remove: archive file [/home/abi/fetcher/tmp/pginter-0.2.9.tar.gz]
+[2023-06-16 12:52:41] INFO root fetch - main [MainThread]: End processing [pginter]: success
+[2023-06-16 12:52:41] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-1.0.1.tar.gz]
+[2023-06-16 12:52:41] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-1.0.2.tar.gz]
+[2023-06-16 12:52:41] INFO root fetch - main [MainThread]: End processing [personal-knowledge-library]: success
+[2023-06-16 12:52:41] INFO root fetch - processPackages [rouver]: Remove: archive file [/home/abi/fetcher/tmp/rouver-2.6.1.tar.gz]
+[2023-06-16 12:52:41] INFO root fetch - processPackages [rouver]: Remove: archive file [/home/abi/fetcher/tmp/rouver-2.6.2.tar.gz]
+[2023-06-16 12:52:41] INFO root fetch - main [MainThread]: End processing [rouver]: success
+[2023-06-16 12:52:41] INFO root fetch - main [MainThread]: Store serial: [18530746]
