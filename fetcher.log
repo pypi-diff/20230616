@@ -15976,3 +15976,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 09:35:32] INFO root fetch - processPackages [projectaria-tools]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-16 09:35:32] INFO root fetch - main [MainThread]: End processing [projectaria-tools]: success
 [2023-06-16 09:35:32] INFO root fetch - main [MainThread]: Store serial: [18528678]
+[2023-06-16 09:40:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528678]
+[2023-06-16 09:40:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-16 09:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optimas
+[2023-06-16 09:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycrosskit
+[2023-06-16 09:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sj-tool
+[2023-06-16 09:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-06-16 09:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyved-engine
+[2023-06-16 09:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdm-invoke
+[2023-06-16 09:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tablepic
+[2023-06-16 09:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openjij
+[2023-06-16 09:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dune-harmonizer
+[2023-06-16 09:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: suanpan-sprt
+[2023-06-16 09:40:46] INFO root fetch - processPackages [pycrosskit]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-06-16 09:40:46] INFO root fetch - processPackages [pdm-invoke]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-06-16 09:40:46] INFO root fetch - processPackages [optimas]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 09:40:46] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-16 09:40:46] WARNING root fetch - processPackages [pyved-engine]: Skipping, unable to determine old version
+[2023-06-16 09:40:46] INFO root fetch - processPackages [pyved-engine]: Start processing: latex-ml-helper
+[2023-06-16 09:40:46] INFO root fetch - main [MainThread]: End processing [pyved-engine] error
+[2023-06-16 09:40:46] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-16 09:40:46] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-16 09:40:46] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-16 09:40:46] INFO root fetch - processPackages [tablepic]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 09:40:46] INFO root fetch - processPackages [openjij]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-16 09:40:46] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/78/03/557e18e62003264a5315906abc868164bf906618d89e83ea7ec9501e060b/dune_harmonizer-0.8.0.tar.gz
+[2023-06-16 09:40:46] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-16 09:40:46] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/3b/44/ae67b9b2d02d9838742a1d49f4456b1a6867031586a336108b8271789d1b/suanpan-sprt-0.5.3.tar.gz
+[2023-06-16 09:40:46] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-16 09:40:46] INFO root fetch - processPackages [latex-ml-helper]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-16 09:40:46] INFO root fetch - processPackages [pycrosskit]: Downloading https://files.pythonhosted.org/packages/dc/0d/3969e942c778efc088fcc222016026a10f9472ed47e2d7b919c92df91e85/pycrosskit-1.7.3.tar.gz
+[2023-06-16 09:40:46] INFO root fetch - processPackages [optimas]: Downloading https://files.pythonhosted.org/packages/3d/89/73cd675cdf48683089a05a83d9089acaf698bea87674c02b66d5202992cd/optimas-0.1.0.tar.gz
+[2023-06-16 09:40:46] INFO root fetch - processPackages [pdm-invoke]: Downloading https://files.pythonhosted.org/packages/0a/81/3d49685190289c303bed9339137a66955b0aefbbb8becc00997acdf07c41/pdm-invoke-0.0.2.tar.gz
+[2023-06-16 09:40:46] INFO root fetch - processPackages [tablepic]: Downloading https://files.pythonhosted.org/packages/7e/12/2937d4f294067aa227f0749967c7da62d3a0c0059189b5d1b2f63eb4e8e4/tablepic-0.0.1.tar.gz
+[2023-06-16 09:40:46] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/3a/46/beae7254fd8b4f030521995bf2e21d0437f9532d6aca73d50ca3ac7c61c6/suanpan-sprt-0.5.4.tar.gz
+[2023-06-16 09:40:46] INFO root fetch - processPackages [openjij]: Downloading https://files.pythonhosted.org/packages/41/a2/cde5e905046e686cf42773dfa40f9901e42319b3ffaeeda2ff30de436e6c/openjij-0.7.2.tar.gz
+[2023-06-16 09:40:46] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-16 09:40:47] INFO root fetch - processPackages [latex-ml-helper]: Downloading https://files.pythonhosted.org/packages/0a/4c/341fa893d4e9e2b18e7ef12a732e6b82a9d3ac3ba7fd4459eaf8b97f4d5b/latex_ml_helper-0.0.9.tar.gz
+[2023-06-16 09:40:47] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-06-16 09:40:47] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.5.3.tar.gz tmp/suanpan-sprt-0.5.4.tar.gz --markdown 20230616/s/suanpan-sprt/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-16 09:40:47] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-16 09:40:47] INFO root fetch - processPackages [pycrosskit]: Downloading https://files.pythonhosted.org/packages/49/69/8465be565d80514d2131e7de6b1f5d8d5a98cfe5c29662cb4e6a6cb95254/pycrosskit-1.7.4.tar.gz
+[2023-06-16 09:40:47] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-16 09:40:47] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230616/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-16 09:40:47] INFO root fetch - processPackages [pdm-invoke]: Downloading https://files.pythonhosted.org/packages/c1/61/41dfa869c23dc48eb809d0dfad241ce54da2c83a45481ccebe0aeb64598f/pdm-invoke-0.0.5.tar.gz
+[2023-06-16 09:40:47] INFO root fetch - processPackages [optimas]: Downloading https://files.pythonhosted.org/packages/14/63/49ff87c9ce7d6053a1374a75d5b4bd165863273090e4e879382088e7e168/optimas-0.1.1.tar.gz
+[2023-06-16 09:40:47] INFO root fetch - processPackages [tablepic]: Downloading https://files.pythonhosted.org/packages/f0/8d/281c03d41d4382e9d7d978b77e022cb23bcecab7c3529e0cfe51443178bd/tablepic-0.0.2.tar.gz
+[2023-06-16 09:40:47] INFO root fetch - processPackages [pycrosskit]: executing diffoscope
+[2023-06-16 09:40:47] INFO root fetch - processPackages [pycrosskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrosskit-1.7.3.tar.gz tmp/pycrosskit-1.7.4.tar.gz --markdown 20230616/p/pycrosskit/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-06-16 09:40:47] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-16 09:40:47] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230616/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-16 09:40:47] INFO root fetch - processPackages [optimas]: executing diffoscope
+[2023-06-16 09:40:47] INFO root fetch - processPackages [optimas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimas-0.1.0.tar.gz tmp/optimas-0.1.1.tar.gz --markdown 20230616/o/optimas/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 09:40:47] INFO root fetch - processPackages [pdm-invoke]: executing diffoscope
+[2023-06-16 09:40:47] INFO root fetch - processPackages [pdm-invoke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-invoke-0.0.2.tar.gz tmp/pdm-invoke-0.0.5.tar.gz --markdown 20230616/p/pdm-invoke/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-06-16 09:40:47] INFO root fetch - processPackages [openjij]: Downloading https://files.pythonhosted.org/packages/f0/a0/a4b3318f53b9c11f098ced5827173e5a28c1fd12b96cbc14079ae4560860/openjij-0.7.3.tar.gz
+[2023-06-16 09:40:47] INFO root fetch - processPackages [latex-ml-helper]: Downloading https://files.pythonhosted.org/packages/6a/0d/ebf67d672bba479c8575607c3e43674698790a8422286f7c20e69d97fc75/latex_ml_helper-0.1.0.tar.gz
+[2023-06-16 09:40:47] INFO root fetch - processPackages [tablepic]: executing diffoscope
+[2023-06-16 09:40:47] INFO root fetch - processPackages [tablepic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablepic-0.0.1.tar.gz tmp/tablepic-0.0.2.tar.gz --markdown 20230616/t/tablepic/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 09:40:47] INFO root fetch - processPackages [latex-ml-helper]: executing diffoscope
+[2023-06-16 09:40:47] INFO root fetch - processPackages [latex-ml-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latex_ml_helper-0.0.9.tar.gz tmp/latex_ml_helper-0.1.0.tar.gz --markdown 20230616/l/latex-ml-helper/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-16 09:40:47] INFO root fetch - processPackages [openjij]: executing diffoscope
+[2023-06-16 09:40:47] INFO root fetch - processPackages [openjij]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openjij-0.7.2.tar.gz tmp/openjij-0.7.3.tar.gz --markdown 20230616/o/openjij/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-16 09:40:47] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/1a/d4/89c417ac730e0448e708d536f273bf29ee1ccbaba9643d6e2a40d3d12b8d/dune_harmonizer-0.9.0.tar.gz
+[2023-06-16 09:40:47] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-06-16 09:40:47] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230616/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 09:40:48] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.3.tar.gz]
+[2023-06-16 09:40:48] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.4.tar.gz]
+[2023-06-16 09:40:48] INFO root fetch - processPackages [suanpan-sprt]: Start processing: ssg-sea
+[2023-06-16 09:40:48] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-06-16 09:40:48] INFO root fetch - processPackages [ssg-sea]: New version: [1.6.0] Old Version: [1.5.3]
+[2023-06-16 09:40:48] INFO root fetch - processPackages [ssg-sea]: Downloading https://files.pythonhosted.org/packages/41/8f/9ef57a4c4578a6ea63d7d2f7880c9e46a9fb3a7eeba84f9182cc18530751/ssg-sea-1.5.3.tar.gz
+[2023-06-16 09:40:48] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-16 09:40:48] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-16 09:40:48] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-16 09:40:48] INFO root fetch - processPackages [pycrosskit]: Remove: archive file [/home/abi/fetcher/tmp/pycrosskit-1.7.3.tar.gz]
+[2023-06-16 09:40:48] INFO root fetch - processPackages [pycrosskit]: Remove: archive file [/home/abi/fetcher/tmp/pycrosskit-1.7.4.tar.gz]
+[2023-06-16 09:40:48] INFO root fetch - main [MainThread]: End processing [pycrosskit]: success
+[2023-06-16 09:40:48] INFO root fetch - processPackages [pdm-invoke]: Remove: archive file [/home/abi/fetcher/tmp/pdm-invoke-0.0.2.tar.gz]
+[2023-06-16 09:40:48] INFO root fetch - processPackages [pdm-invoke]: Remove: archive file [/home/abi/fetcher/tmp/pdm-invoke-0.0.5.tar.gz]
+[2023-06-16 09:40:48] INFO root fetch - main [MainThread]: End processing [pdm-invoke]: success
+[2023-06-16 09:40:49] INFO root fetch - processPackages [ssg-sea]: Downloading https://files.pythonhosted.org/packages/36/3b/885159a37dc028723dd1b895ea53f2e1343ee5f4c8e6d64f7cbd73fca9ad/ssg-sea-1.6.0.tar.gz
+[2023-06-16 09:40:49] INFO root fetch - processPackages [tablepic]: Remove: archive file [/home/abi/fetcher/tmp/tablepic-0.0.1.tar.gz]
+[2023-06-16 09:40:49] INFO root fetch - processPackages [tablepic]: Remove: archive file [/home/abi/fetcher/tmp/tablepic-0.0.2.tar.gz]
+[2023-06-16 09:40:49] INFO root fetch - main [MainThread]: End processing [tablepic]: success
+[2023-06-16 09:40:49] INFO root fetch - processPackages [ssg-sea]: executing diffoscope
+[2023-06-16 09:40:49] INFO root fetch - processPackages [ssg-sea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssg-sea-1.5.3.tar.gz tmp/ssg-sea-1.6.0.tar.gz --markdown 20230616/s/ssg-sea/1.5.3-1.6.0/diff.md --exclude *.pyd
+[2023-06-16 09:40:49] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.8.0.tar.gz]
+[2023-06-16 09:40:49] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.9.0.tar.gz]
+[2023-06-16 09:40:49] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-06-16 09:40:49] INFO root fetch - processPackages [latex-ml-helper]: Remove: archive file [/home/abi/fetcher/tmp/latex_ml_helper-0.0.9.tar.gz]
+[2023-06-16 09:40:49] INFO root fetch - processPackages [latex-ml-helper]: Remove: archive file [/home/abi/fetcher/tmp/latex_ml_helper-0.1.0.tar.gz]
+[2023-06-16 09:40:49] INFO root fetch - main [MainThread]: End processing [latex-ml-helper]: success
+[2023-06-16 09:40:49] INFO root fetch - processPackages [optimas]: Remove: archive file [/home/abi/fetcher/tmp/optimas-0.1.0.tar.gz]
+[2023-06-16 09:40:49] INFO root fetch - processPackages [optimas]: Remove: archive file [/home/abi/fetcher/tmp/optimas-0.1.1.tar.gz]
+[2023-06-16 09:40:49] INFO root fetch - main [MainThread]: End processing [optimas]: success
+[2023-06-16 09:40:49] INFO root fetch - processPackages [openjij]: Remove: archive file [/home/abi/fetcher/tmp/openjij-0.7.2.tar.gz]
+[2023-06-16 09:40:49] INFO root fetch - processPackages [openjij]: Remove: archive file [/home/abi/fetcher/tmp/openjij-0.7.3.tar.gz]
+[2023-06-16 09:40:49] INFO root fetch - main [MainThread]: End processing [openjij]: success
+[2023-06-16 09:40:50] INFO root fetch - processPackages [ssg-sea]: Remove: archive file [/home/abi/fetcher/tmp/ssg-sea-1.5.3.tar.gz]
+[2023-06-16 09:40:50] INFO root fetch - processPackages [ssg-sea]: Remove: archive file [/home/abi/fetcher/tmp/ssg-sea-1.6.0.tar.gz]
+[2023-06-16 09:40:50] INFO root fetch - main [MainThread]: End processing [ssg-sea]: success
+[2023-06-16 09:40:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-16 09:40:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-16 09:40:53] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-16 09:40:53] INFO root fetch - main [MainThread]: Store serial: [18528754]
