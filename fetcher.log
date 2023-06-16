@@ -16835,3 +16835,169 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 10:09:28] INFO root fetch - processPackages [tamaas]: Remove: archive file [/home/abi/fetcher/tmp/tamaas-2.7.0rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip]
 [2023-06-16 10:09:28] INFO root fetch - main [MainThread]: End processing [tamaas]: success
 [2023-06-16 10:09:28] INFO root fetch - main [MainThread]: Store serial: [18529066]
+[2023-06-16 10:14:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18529066]
+[2023-06-16 10:14:40] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-16 10:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medit
+[2023-06-16 10:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dramatiq-kafka
+[2023-06-16 10:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fca-algorithms
+[2023-06-16 10:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DIRAC
+[2023-06-16 10:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-16 10:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-backoffice-dashboard-alpha
+[2023-06-16 10:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: batcat
+[2023-06-16 10:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: a2
+[2023-06-16 10:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autopahe
+[2023-06-16 10:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: v-quantum-annealing
+[2023-06-16 10:14:40] WARNING root fetch - processPackages [medit]: Skipping, unable to determine old version
+[2023-06-16 10:14:40] INFO root fetch - processPackages [medit]: Start processing: heyang-test
+[2023-06-16 10:14:40] INFO root fetch - main [MainThread]: End processing [medit] error
+[2023-06-16 10:14:40] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 10:14:40] INFO root fetch - processPackages [fca-algorithms]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-16 10:14:40] INFO root fetch - processPackages [dramatiq-kafka]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 10:14:40] INFO root fetch - processPackages [yplib]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-16 10:14:40] INFO root fetch - processPackages [DIRAC]: New version: [8.1.0a9] Old Version: [8.1.0a8]
+[2023-06-16 10:14:40] INFO root fetch - processPackages [django-backoffice-dashboard-alpha]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-06-16 10:14:40] INFO root fetch - processPackages [autopahe]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-16 10:14:40] INFO root fetch - processPackages [batcat]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-16 10:14:40] INFO root fetch - processPackages [heyang-test]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-16 10:14:40] INFO root fetch - processPackages [a2]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-16 10:14:40] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-06-16 10:14:40] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/9b/a4/ae688137bc80ccab727be3970354968cf86a2534be4fc06fc2e94989c252/yplib-1.5.2.tar.gz
+[2023-06-16 10:14:40] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/66/30/e3e70c26a6b1a67c32b0d51aaa0b4cac1265966b3c4330221f8ce8cdfa8a/a2-0.4.2.tar.gz
+[2023-06-16 10:14:40] ERROR root fetch - processPackages [dramatiq-kafka]: Unable to fetch info: No such project/version 'dramatiq-kafka' 0.1.0
+[2023-06-16 10:14:40] INFO root fetch - processPackages [dramatiq-kafka]: Start processing: odoo-addon-account-payment-order-notification
+[2023-06-16 10:14:40] INFO root fetch - main [MainThread]: End processing [dramatiq-kafka] error
+[2023-06-16 10:14:40] INFO root fetch - processPackages [autopahe]: Downloading https://files.pythonhosted.org/packages/1a/f8/d0fe9089ae862a97d044dc0d5ba9d7983e18147a9c41075857793a50a70b/autopahe-0.1.0.tar.gz
+[2023-06-16 10:14:40] INFO root fetch - processPackages [heyang-test]: Downloading https://files.pythonhosted.org/packages/d2/9e/7baddde6191fc712ad68bec63b6856dce2ced97c1c80c5980063deb2f194/heyang-test-0.0.3.tar.gz
+[2023-06-16 10:14:40] WARNING root fetch - processPackages [odoo-addon-account-payment-order-notification]: Skipping, unable to determine old version
+[2023-06-16 10:14:40] INFO root fetch - processPackages [odoo-addon-account-payment-order-notification]: Start processing: ar-filters
+[2023-06-16 10:14:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order-notification] error
+[2023-06-16 10:14:40] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/35/19/2c6f883597e847d7ba7e96999b7f94ac5b16d8485a5e04f508ab7ba93aa0/DIRAC-8.1.0a8.tar.gz
+[2023-06-16 10:14:40] INFO root fetch - processPackages [fca-algorithms]: Downloading https://files.pythonhosted.org/packages/9b/e4/e8554267a34c60e087ff3323c7a908d49679f890b305afdad5510efc61e1/fca-algorithms-0.2.3.tar.gz
+[2023-06-16 10:14:40] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-06-16 10:14:40] INFO root fetch - processPackages [django-backoffice-dashboard-alpha]: Downloading https://files.pythonhosted.org/packages/3c/dc/a120c22a827c7d58c98ce7bb3fa697afec5d1287511d592dcf2385c3b02c/django-backoffice-dashboard-alpha-0.0.1a0.tar.gz
+[2023-06-16 10:14:40] INFO root fetch - processPackages [batcat]: Downloading https://files.pythonhosted.org/packages/34/90/c16e909113d24eeccd35cb0523313e6ab678ae8722843db9fdff4d04b61f/batcat-0.2.8-py3-none-any.whl
+[2023-06-16 10:14:40] INFO root fetch - processPackages [ar-filters]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-16 10:14:40] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/99/09/0996d75c21ad4ebdeffb82b098d2bee2fe71a08e204982ee7db4b044c3df/yplib-1.5.3.tar.gz
+[2023-06-16 10:14:40] INFO root fetch - processPackages [ar-filters]: Downloading https://files.pythonhosted.org/packages/67/b3/9bb5209f6eff1d2a7e702d12daa1072c4f677279485a89fa52526fec0f34/ar_filters-0.0.6.tar.gz
+[2023-06-16 10:14:40] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-06-16 10:14:40] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230616/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 10:14:41] INFO root fetch - processPackages [autopahe]: Downloading https://files.pythonhosted.org/packages/f6/b1/3dde41d69c05c79c72f1ffc21afa7d4d36e3110710b52eea74c19a805e67/autopahe-1.0.0.tar.gz
+[2023-06-16 10:14:41] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/77/1b/cf1992d7ebc386fe4b9362e91752832dff5ccf61da7e6bcc2e246e1907c6/a2-0.4.3.tar.gz
+[2023-06-16 10:14:41] INFO root fetch - processPackages [heyang-test]: Downloading https://files.pythonhosted.org/packages/f6/d2/5f3bc7725b08b11bf1613a2688002bd5fb661ec770cbab0bd560126e7973/heyang-test-0.1.0.tar.gz
+[2023-06-16 10:14:41] INFO root fetch - processPackages [django-backoffice-dashboard-alpha]: Downloading https://files.pythonhosted.org/packages/62/9b/8de46de2c0410840e306bd089ea96050b7556c5dd259169724c05c4b327f/django-backoffice-dashboard-alpha-0.0.1a1.tar.gz
+[2023-06-16 10:14:41] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 10:14:41] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.5.2.tar.gz tmp/yplib-1.5.3.tar.gz --markdown 20230616/y/yplib/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-16 10:14:41] INFO root fetch - processPackages [fca-algorithms]: Downloading https://files.pythonhosted.org/packages/44/65/077ffc0cb9bfbb4e551a7d645cfd8e5ac76cd330fb159658111765439784/fca-algorithms-0.2.4.tar.gz
+[2023-06-16 10:14:41] INFO root fetch - processPackages [autopahe]: executing diffoscope
+[2023-06-16 10:14:41] INFO root fetch - processPackages [autopahe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopahe-0.1.0.tar.gz tmp/autopahe-1.0.0.tar.gz --markdown 20230616/a/autopahe/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-16 10:14:41] INFO root fetch - processPackages [heyang-test]: executing diffoscope
+[2023-06-16 10:14:41] INFO root fetch - processPackages [heyang-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heyang-test-0.0.3.tar.gz tmp/heyang-test-0.1.0.tar.gz --markdown 20230616/h/heyang-test/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-16 10:14:41] INFO root fetch - processPackages [django-backoffice-dashboard-alpha]: executing diffoscope
+[2023-06-16 10:14:41] INFO root fetch - processPackages [django-backoffice-dashboard-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-backoffice-dashboard-alpha-0.0.1a0.tar.gz tmp/django-backoffice-dashboard-alpha-0.0.1a1.tar.gz --markdown 20230616/d/django-backoffice-dashboard-alpha/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-06-16 10:14:41] INFO root fetch - processPackages [fca-algorithms]: executing diffoscope
+[2023-06-16 10:14:41] INFO root fetch - processPackages [fca-algorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fca-algorithms-0.2.3.tar.gz tmp/fca-algorithms-0.2.4.tar.gz --markdown 20230616/f/fca-algorithms/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-16 10:14:41] INFO root fetch - processPackages [ar-filters]: Downloading https://files.pythonhosted.org/packages/40/ad/036fcc376f6a23981eb9c9115a238cc047cacdb5f16c94eebe9058e41b1f/ar_filters-0.0.7.tar.gz
+[2023-06-16 10:14:41] INFO root fetch - processPackages [batcat]: Downloading https://files.pythonhosted.org/packages/98/e1/ac8179e6a48fccbef4029d004f87e13b426023d4cb41d4d7b1201edb14ef/batcat-0.2.9-py3-none-any.whl
+[2023-06-16 10:14:41] INFO root fetch - processPackages [ar-filters]: executing diffoscope
+[2023-06-16 10:14:41] INFO root fetch - processPackages [ar-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_filters-0.0.6.tar.gz tmp/ar_filters-0.0.7.tar.gz --markdown 20230616/a/ar-filters/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-16 10:14:41] INFO root fetch - processPackages [batcat]: executing diffoscope
+[2023-06-16 10:14:41] INFO root fetch - processPackages [batcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batcat-0.2.8-py3-none-any.whl.zip tmp/batcat-0.2.9-py3-none-any.whl.zip --markdown 20230616/b/batcat/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 10:14:41] INFO root fetch - processPackages [a2]: executing diffoscope
+[2023-06-16 10:14:41] INFO root fetch - processPackages [a2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2-0.4.2.tar.gz tmp/a2-0.4.3.tar.gz --markdown 20230616/a/a2/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-16 10:14:42] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/dc/e4/3d433b449dc9be87754c2eb6eea8594f46aafce3f0d92348f727d4bbdc04/DIRAC-8.1.0a9.tar.gz
+[2023-06-16 10:14:42] INFO root fetch - processPackages [DIRAC]: executing diffoscope
+[2023-06-16 10:14:42] INFO root fetch - processPackages [DIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DIRAC-8.1.0a8.tar.gz tmp/DIRAC-8.1.0a9.tar.gz --markdown 20230616/D/DIRAC/8.1.0a8-8.1.0a9/diff.md --exclude *.pyd
+[2023-06-16 10:14:42] INFO root fetch - processPackages [django-backoffice-dashboard-alpha]: Remove: archive file [/home/abi/fetcher/tmp/django-backoffice-dashboard-alpha-0.0.1a0.tar.gz]
+[2023-06-16 10:14:42] INFO root fetch - processPackages [django-backoffice-dashboard-alpha]: Remove: archive file [/home/abi/fetcher/tmp/django-backoffice-dashboard-alpha-0.0.1a1.tar.gz]
+[2023-06-16 10:14:42] INFO root fetch - processPackages [django-backoffice-dashboard-alpha]: Start processing: logtrek
+[2023-06-16 10:14:42] INFO root fetch - main [MainThread]: End processing [django-backoffice-dashboard-alpha]: success
+[2023-06-16 10:14:42] INFO root fetch - processPackages [logtrek]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2023-06-16 10:14:42] INFO root fetch - processPackages [autopahe]: Remove: archive file [/home/abi/fetcher/tmp/autopahe-0.1.0.tar.gz]
+[2023-06-16 10:14:42] INFO root fetch - processPackages [autopahe]: Remove: archive file [/home/abi/fetcher/tmp/autopahe-1.0.0.tar.gz]
+[2023-06-16 10:14:42] INFO root fetch - processPackages [autopahe]: Start processing: circuitsvis
+[2023-06-16 10:14:42] INFO root fetch - main [MainThread]: End processing [autopahe]: success
+[2023-06-16 10:14:42] INFO root fetch - processPackages [circuitsvis]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-06-16 10:14:42] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.2.tar.gz]
+[2023-06-16 10:14:42] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.3.tar.gz]
+[2023-06-16 10:14:42] INFO root fetch - processPackages [yplib]: Start processing: npf
+[2023-06-16 10:14:42] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 10:14:42] INFO root fetch - processPackages [npf]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-16 10:14:42] INFO root fetch - processPackages [circuitsvis]: Downloading https://files.pythonhosted.org/packages/d8/6b/efcbe06fe0e4267b1a4c9946b6eed7cbcf9606d818ee5ec80dbc88fa0d27/circuitsvis-1.7.0.tar.gz
+[2023-06-16 10:14:42] INFO root fetch - processPackages [heyang-test]: Remove: archive file [/home/abi/fetcher/tmp/heyang-test-0.0.3.tar.gz]
+[2023-06-16 10:14:42] INFO root fetch - processPackages [heyang-test]: Remove: archive file [/home/abi/fetcher/tmp/heyang-test-0.1.0.tar.gz]
+[2023-06-16 10:14:42] INFO root fetch - processPackages [heyang-test]: Start processing: zhijiang
+[2023-06-16 10:14:42] INFO root fetch - main [MainThread]: End processing [heyang-test]: success
+[2023-06-16 10:14:42] INFO root fetch - processPackages [zhijiang]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-16 10:14:43] INFO root fetch - processPackages [batcat]: Remove: archive file [/home/abi/fetcher/tmp/batcat-0.2.8-py3-none-any.whl.zip]
+[2023-06-16 10:14:43] INFO root fetch - processPackages [batcat]: Remove: archive file [/home/abi/fetcher/tmp/batcat-0.2.9-py3-none-any.whl.zip]
+[2023-06-16 10:14:43] INFO root fetch - processPackages [batcat]: Start processing: k8s-deployment-status
+[2023-06-16 10:14:43] INFO root fetch - main [MainThread]: End processing [batcat]: success
+[2023-06-16 10:14:43] INFO root fetch - processPackages [npf]: Downloading https://files.pythonhosted.org/packages/44/0c/3e478ce5d39abfaf553be5523f8dd1a28ace87e948c64f7c7bc286744a2e/npf-1.0.8.tar.gz
+[2023-06-16 10:14:43] INFO root fetch - processPackages [k8s-deployment-status]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-16 10:14:43] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/80/f4/6a4a52226dfc1f7361b708a050de0958914416f5495941e0ac6b796af346/zhijiang-0.2.3-py3-none-any.whl
+[2023-06-16 10:14:43] INFO root fetch - processPackages [logtrek]: Downloading https://files.pythonhosted.org/packages/e5/6f/5d926523de1591984f8e6f8725bce0200a0a7c2047edc477b709f5e092a5/logtrek-0.0.1.8.tar.gz
+[2023-06-16 10:14:43] INFO root fetch - processPackages [fca-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/fca-algorithms-0.2.3.tar.gz]
+[2023-06-16 10:14:43] INFO root fetch - processPackages [fca-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/fca-algorithms-0.2.4.tar.gz]
+[2023-06-16 10:14:43] INFO root fetch - processPackages [fca-algorithms]: Start processing: UComp
+[2023-06-16 10:14:43] INFO root fetch - main [MainThread]: End processing [fca-algorithms]: success
+[2023-06-16 10:14:43] INFO root fetch - processPackages [k8s-deployment-status]: Downloading https://files.pythonhosted.org/packages/c1/36/100eb750b4a06de87296345b67f273dd07aa7b008ad5cd43dd76f4aa0852/k8s_deployment_status-0.0.2.tar.gz
+[2023-06-16 10:14:43] INFO root fetch - processPackages [circuitsvis]: Downloading https://files.pythonhosted.org/packages/6c/3a/6f339bfe60343cfca02a5e2e721275dd06e477ee9ac239da5b712663897b/circuitsvis-1.8.0.tar.gz
+[2023-06-16 10:14:43] INFO root fetch - processPackages [npf]: Downloading https://files.pythonhosted.org/packages/ea/66/52aab137d4c382a910523654a3b21507b0e75160197812fb8f27aee00718/npf-1.0.9.tar.gz
+[2023-06-16 10:14:43] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/09/7c/31352eefe7150f484715d82ecc51f2ddf0937f1a55167ea96f47b00c1c5c/zhijiang-0.2.4-py3-none-any.whl
+[2023-06-16 10:14:43] INFO root fetch - processPackages [UComp]: New version: [1.0.62] Old Version: [1.0.61]
+[2023-06-16 10:14:43] INFO root fetch - processPackages [circuitsvis]: executing diffoscope
+[2023-06-16 10:14:43] INFO root fetch - processPackages [circuitsvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitsvis-1.7.0.tar.gz tmp/circuitsvis-1.8.0.tar.gz --markdown 20230616/c/circuitsvis/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-06-16 10:14:43] INFO root fetch - processPackages [npf]: executing diffoscope
+[2023-06-16 10:14:43] INFO root fetch - processPackages [npf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npf-1.0.8.tar.gz tmp/npf-1.0.9.tar.gz --markdown 20230616/n/npf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-16 10:14:43] INFO root fetch - processPackages [logtrek]: Downloading https://files.pythonhosted.org/packages/2d/e4/27f2cbc5ecd819c09f55ae096d9a630b1114adce7808b692bc82ddd7de25/logtrek-0.0.1.9.tar.gz
+[2023-06-16 10:14:43] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2023-06-16 10:14:43] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.2.3-py3-none-any.whl.zip tmp/zhijiang-0.2.4-py3-none-any.whl.zip --markdown 20230616/z/zhijiang/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-16 10:14:43] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/cf/8d/1dac497f49a02922c53d1d9d6fe8b0b6ae9e2b971056810abf2ac552584f/UComp-1.0.61.tar.gz
+[2023-06-16 10:14:43] INFO root fetch - processPackages [logtrek]: executing diffoscope
+[2023-06-16 10:14:43] INFO root fetch - processPackages [logtrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logtrek-0.0.1.8.tar.gz tmp/logtrek-0.0.1.9.tar.gz --markdown 20230616/l/logtrek/0.0.1.8-0.0.1.9/diff.md --exclude *.pyd
+[2023-06-16 10:14:43] INFO root fetch - processPackages [k8s-deployment-status]: Downloading https://files.pythonhosted.org/packages/b0/22/5f65734d32d13b16e7a9df41861a3b0aa8db3da56aa58fb0b8338b04026b/k8s_deployment_status-0.0.3.tar.gz
+[2023-06-16 10:14:43] INFO root fetch - processPackages [k8s-deployment-status]: executing diffoscope
+[2023-06-16 10:14:43] INFO root fetch - processPackages [k8s-deployment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8s_deployment_status-0.0.2.tar.gz tmp/k8s_deployment_status-0.0.3.tar.gz --markdown 20230616/k/k8s-deployment-status/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-16 10:14:44] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/fd/48/052c06c7bfb107e35330fc0f445b74e53d0e9442d1985cb711a4d1b300a8/UComp-1.0.62.tar.gz
+[2023-06-16 10:14:44] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-16 10:14:44] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.61.tar.gz tmp/UComp-1.0.62.tar.gz --markdown 20230616/U/UComp/1.0.61-1.0.62/diff.md --exclude *.pyd
+[2023-06-16 10:14:44] INFO root fetch - processPackages [circuitsvis]: Remove: archive file [/home/abi/fetcher/tmp/circuitsvis-1.7.0.tar.gz]
+[2023-06-16 10:14:44] INFO root fetch - processPackages [circuitsvis]: Remove: archive file [/home/abi/fetcher/tmp/circuitsvis-1.8.0.tar.gz]
+[2023-06-16 10:14:44] INFO root fetch - processPackages [circuitsvis]: Start processing: Akatosh
+[2023-06-16 10:14:44] INFO root fetch - main [MainThread]: End processing [circuitsvis]: success
+[2023-06-16 10:14:44] INFO root fetch - processPackages [Akatosh]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-16 10:14:44] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/25/70/6d8dd67be52f6dd05b6110ee38c5dbb8f563ca385bebab2b43f897f0b814/Akatosh-1.7.0.tar.gz
+[2023-06-16 10:14:45] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.2.3-py3-none-any.whl.zip]
+[2023-06-16 10:14:45] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.2.4-py3-none-any.whl.zip]
+[2023-06-16 10:14:45] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2023-06-16 10:14:45] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/3f/c1/e77befb958dbd71ccf8e6ea0999b283589030bf8950a4ed602728101e591/Akatosh-1.7.1.tar.gz
+[2023-06-16 10:14:45] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-06-16 10:14:45] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-1.7.0.tar.gz tmp/Akatosh-1.7.1.tar.gz --markdown 20230616/A/Akatosh/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-16 10:14:45] INFO root fetch - processPackages [logtrek]: Remove: archive file [/home/abi/fetcher/tmp/logtrek-0.0.1.8.tar.gz]
+[2023-06-16 10:14:45] INFO root fetch - processPackages [logtrek]: Remove: archive file [/home/abi/fetcher/tmp/logtrek-0.0.1.9.tar.gz]
+[2023-06-16 10:14:45] INFO root fetch - main [MainThread]: End processing [logtrek]: success
+[2023-06-16 10:14:45] INFO root fetch - processPackages [k8s-deployment-status]: Remove: archive file [/home/abi/fetcher/tmp/k8s_deployment_status-0.0.2.tar.gz]
+[2023-06-16 10:14:45] INFO root fetch - processPackages [k8s-deployment-status]: Remove: archive file [/home/abi/fetcher/tmp/k8s_deployment_status-0.0.3.tar.gz]
+[2023-06-16 10:14:45] INFO root fetch - main [MainThread]: End processing [k8s-deployment-status]: success
+[2023-06-16 10:14:45] INFO root fetch - processPackages [ar-filters]: Remove: archive file [/home/abi/fetcher/tmp/ar_filters-0.0.6.tar.gz]
+[2023-06-16 10:14:45] INFO root fetch - processPackages [ar-filters]: Remove: archive file [/home/abi/fetcher/tmp/ar_filters-0.0.7.tar.gz]
+[2023-06-16 10:14:45] INFO root fetch - main [MainThread]: End processing [ar-filters]: success
+[2023-06-16 10:14:45] INFO root fetch - processPackages [npf]: Remove: archive file [/home/abi/fetcher/tmp/npf-1.0.8.tar.gz]
+[2023-06-16 10:14:45] INFO root fetch - processPackages [npf]: Remove: archive file [/home/abi/fetcher/tmp/npf-1.0.9.tar.gz]
+[2023-06-16 10:14:45] INFO root fetch - main [MainThread]: End processing [npf]: success
+[2023-06-16 10:14:46] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-06-16 10:14:46] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-06-16 10:14:46] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-06-16 10:14:46] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-1.7.0.tar.gz]
+[2023-06-16 10:14:46] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-1.7.1.tar.gz]
+[2023-06-16 10:14:46] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-06-16 10:14:49] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.61.tar.gz]
+[2023-06-16 10:14:49] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.62.tar.gz]
+[2023-06-16 10:14:49] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-16 10:15:01] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-8.1.0a8.tar.gz]
+[2023-06-16 10:15:01] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-8.1.0a9.tar.gz]
+[2023-06-16 10:15:01] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
+[2023-06-16 10:15:17] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.4.2.tar.gz]
+[2023-06-16 10:15:17] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.4.3.tar.gz]
+[2023-06-16 10:15:17] INFO root fetch - main [MainThread]: End processing [a2]: success
+[2023-06-16 10:15:17] INFO root fetch - main [MainThread]: Store serial: [18529140]
