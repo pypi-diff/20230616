@@ -13613,3 +13613,141 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 08:13:20] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip]
 [2023-06-16 08:13:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-request]: success
 [2023-06-16 08:13:20] INFO root fetch - main [MainThread]: Store serial: [18527845]
+[2023-06-16 08:18:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527845]
+[2023-06-16 08:18:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-16 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.identity
+[2023-06-16 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-06-16 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-06-16 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-06-16 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eodc-faas-sen2like
+[2023-06-16 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.pipeline
+[2023-06-16 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: upgini
+[2023-06-16 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.static-website
+[2023-06-16 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-06-16 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lesscode-py
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 08:18:30] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.6.3rc1] Old Version: [2023.6.2]
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 08:18:30] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-16 08:18:30] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-16 08:18:30] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/74/a1/7216f6458e25b44950732fa23226fa2269d16a42fa7c3d6e7b5b71d6382d/eodc_faas_sen2like-2023.6.2.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/51/15/07ba5b7571d5282feefa8520928d11dff50d15c7e37955f1650ae948b251/eodc_faas_sen2like-2023.6.3rc1.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-06-16 08:18:30] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230616/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 08:18:31] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-16 08:18:31] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.6.2.tar.gz tmp/eodc_faas_sen2like-2023.6.3rc1.tar.gz --markdown 20230616/e/eodc-faas-sen2like/2023.6.2-2023.6.3rc1/diff.md --exclude *.pyd
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230616/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-06-16 08:18:31] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-16 08:18:31] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230616/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230616/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230616/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230616/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230616/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 08:18:31] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-06-16 08:18:31] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-06-16 08:18:31] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230616/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-06-16 08:18:31] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230616/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-16 08:18:32] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Start processing: mapillary-tools
+[2023-06-16 08:18:32] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-06-16 08:18:32] INFO root fetch - processPackages [mapillary-tools]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.2.tar.gz]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc1.tar.gz]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [eodc-faas-sen2like]: Start processing: zen-models
+[2023-06-16 08:18:32] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-16 08:18:32] INFO root fetch - processPackages [zen-models]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Start processing: nestedaccess
+[2023-06-16 08:18:32] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-06-16 08:18:32] INFO root fetch - processPackages [mapillary-tools]: Downloading https://files.pythonhosted.org/packages/fc/49/451a32155f632660f5c43be5e6d9d2525da351b3161149988c451970c7c6/mapillary_tools-0.9.4.tar.gz
+[2023-06-16 08:18:32] INFO root fetch - processPackages [nestedaccess]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Start processing: experimaestro
+[2023-06-16 08:18:32] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-06-16 08:18:32] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/d4/41/e5143e4908cab286dae00648d384bba6ef4afa7f61bd0ac3a51a752bbc17/nestedaccess-0.1.9.tar.gz
+[2023-06-16 08:18:32] INFO root fetch - processPackages [zen-models]: Downloading https://files.pythonhosted.org/packages/af/14/62ac45c7aa8eb2f66b0e0f8fbafedfcc5ace69890a32047f691fca889d46/zen-models-0.0.1.tar.gz
+[2023-06-16 08:18:32] INFO root fetch - processPackages [experimaestro]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
+[2023-06-16 08:18:32] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Start processing: my-chat-bot-builder
+[2023-06-16 08:18:32] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-06-16 08:18:33] INFO root fetch - processPackages [my-chat-bot-builder]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 08:18:33] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz]
+[2023-06-16 08:18:33] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz]
+[2023-06-16 08:18:33] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-06-16 08:18:33] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz]
+[2023-06-16 08:18:33] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz]
+[2023-06-16 08:18:33] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-06-16 08:18:33] INFO root fetch - processPackages [my-chat-bot-builder]: Downloading https://files.pythonhosted.org/packages/01/9e/c465e8e0ca37c1a86ab4f38b0c26ba4e11cf56965cc3e5dde954ec7c97a0/my_chat_bot_builder-0.0.1.tar.gz
+[2023-06-16 08:18:33] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/a3/39/e8bf0f2c57679fd9746b8f077f5ada6fdfaffb0d246930aefadb8b96d604/experimaestro-0.9.8-py2.py3-none-any.whl
+[2023-06-16 08:18:33] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/96/82/1fe8aae9ab9664464a1a478595a170bcfd01813494a19fdaa01900aac858/nestedaccess-0.2.0.tar.gz
+[2023-06-16 08:18:33] INFO root fetch - processPackages [zen-models]: Downloading https://files.pythonhosted.org/packages/4c/67/7595361589529dd1e8b0df5948b0113eb1d428134ca1f11093076e195ea9/zen_models-0.0.2.tar.gz
+[2023-06-16 08:18:33] INFO root fetch - processPackages [my-chat-bot-builder]: Downloading https://files.pythonhosted.org/packages/8c/da/ff11b44063aa1c8f69865a707a50087458e69e3bbdf07b3ba95a520fe426/my_chat_bot_builder-0.0.2.tar.gz
+[2023-06-16 08:18:33] INFO root fetch - processPackages [mapillary-tools]: Downloading https://files.pythonhosted.org/packages/30/a4/54bc60e884aef3991fab6e751163320713cad33cbf99cd57c46836c39655/mapillary_tools-0.9.5.tar.gz
+[2023-06-16 08:18:33] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-16 08:18:33] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.1.9.tar.gz tmp/nestedaccess-0.2.0.tar.gz --markdown 20230616/n/nestedaccess/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-16 08:18:33] INFO root fetch - processPackages [my-chat-bot-builder]: executing diffoscope
+[2023-06-16 08:18:33] INFO root fetch - processPackages [my-chat-bot-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_chat_bot_builder-0.0.1.tar.gz tmp/my_chat_bot_builder-0.0.2.tar.gz --markdown 20230616/m/my-chat-bot-builder/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 08:18:33] INFO root fetch - processPackages [zen-models]: executing diffoscope
+[2023-06-16 08:18:33] INFO root fetch - processPackages [zen-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen-models-0.0.1.tar.gz tmp/zen_models-0.0.2.tar.gz --markdown 20230616/z/zen-models/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 08:18:33] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-06-16 08:18:33] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-06-16 08:18:33] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-06-16 08:18:33] INFO root fetch - processPackages [mapillary-tools]: executing diffoscope
+[2023-06-16 08:18:33] INFO root fetch - processPackages [mapillary-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapillary_tools-0.9.4.tar.gz tmp/mapillary_tools-0.9.5.tar.gz --markdown 20230616/m/mapillary-tools/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-16 08:18:34] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-06-16 08:18:34] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-06-16 08:18:34] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-16 08:18:34] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.1.9.tar.gz]
+[2023-06-16 08:18:34] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.2.0.tar.gz]
+[2023-06-16 08:18:34] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-16 08:18:34] INFO root fetch - processPackages [zen-models]: Remove: archive file [/home/abi/fetcher/tmp/zen-models-0.0.1.tar.gz]
+[2023-06-16 08:18:34] INFO root fetch - processPackages [zen-models]: Remove: archive file [/home/abi/fetcher/tmp/zen_models-0.0.2.tar.gz]
+[2023-06-16 08:18:34] INFO root fetch - main [MainThread]: End processing [zen-models]: success
+[2023-06-16 08:18:34] INFO root fetch - processPackages [my-chat-bot-builder]: Remove: archive file [/home/abi/fetcher/tmp/my_chat_bot_builder-0.0.1.tar.gz]
+[2023-06-16 08:18:34] INFO root fetch - processPackages [my-chat-bot-builder]: Remove: archive file [/home/abi/fetcher/tmp/my_chat_bot_builder-0.0.2.tar.gz]
+[2023-06-16 08:18:34] INFO root fetch - main [MainThread]: End processing [my-chat-bot-builder]: success
+[2023-06-16 08:18:34] INFO root fetch - processPackages [mapillary-tools]: Remove: archive file [/home/abi/fetcher/tmp/mapillary_tools-0.9.4.tar.gz]
+[2023-06-16 08:18:34] INFO root fetch - processPackages [mapillary-tools]: Remove: archive file [/home/abi/fetcher/tmp/mapillary_tools-0.9.5.tar.gz]
+[2023-06-16 08:18:34] INFO root fetch - main [MainThread]: End processing [mapillary-tools]: success
+[2023-06-16 08:18:35] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-06-16 08:18:35] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-06-16 08:18:35] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-06-16 08:18:35] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/01/8f/03545ff21231a99d4620e2c8cea78638225e661012da7e67c5f46c291a0d/experimaestro-0.9.9-py2.py3-none-any.whl
+[2023-06-16 08:18:36] INFO root fetch - processPackages [experimaestro]: executing diffoscope
+[2023-06-16 08:18:36] INFO root fetch - processPackages [experimaestro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip --markdown 20230616/e/experimaestro/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-16 08:18:39] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip]
+[2023-06-16 08:18:39] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip]
+[2023-06-16 08:18:39] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
+[2023-06-16 08:18:39] INFO root fetch - main [MainThread]: Store serial: [18527891]
