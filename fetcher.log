@@ -19372,3 +19372,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 11:32:25] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
 [2023-06-16 11:32:25] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-06-16 11:32:25] INFO root fetch - main [MainThread]: Store serial: [18530110]
+[2023-06-16 11:37:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530110]
+[2023-06-16 11:37:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 11:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certbot-dns-solidserver
+[2023-06-16 11:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taipy-core
+[2023-06-16 11:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taipy-templates
+[2023-06-16 11:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: html2django
+[2023-06-16 11:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lesscode-tool
+[2023-06-16 11:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: memv
+[2023-06-16 11:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepsearcheath
+[2023-06-16 11:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seaplane
+[2023-06-16 11:37:35] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-16 11:37:35] INFO root fetch - processPackages [memv]: New version: [0.0.2.4] Old Version: [0.0.2.3]
+[2023-06-16 11:37:35] INFO root fetch - processPackages [taipy-core]: New version: [2.3.0.dev4] Old Version: [2.3.0.dev3]
+[2023-06-16 11:37:35] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 11:37:35] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-16 11:37:35] INFO root fetch - processPackages [lesscode-tool]: Downloading https://files.pythonhosted.org/packages/ec/3b/c9cd99ede1d7066ae898e7ce12532e4e700c463fc448b5cc8056036f9bdc/lesscode_tool-0.0.8.tar.gz
+[2023-06-16 11:37:35] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/0a/fb/e3c61293571f8b6622f79cbea02ee5d78e55e2e5cc19a2b8acfe02662289/memv-0.0.2.3.tar.gz
+[2023-06-16 11:37:35] INFO root fetch - processPackages [taipy-core]: Downloading https://files.pythonhosted.org/packages/b0/92/5454ea824034a3bedd4d64e669b039dd75ad689df1d540e0ca11bfce221e/taipy-core-2.3.0.dev3.tar.gz
+[2023-06-16 11:37:35] INFO root fetch - processPackages [html2django]: New version: [1.0] Old Version: [0.2.0]
+[2023-06-16 11:37:35] WARNING root fetch - processPackages [taipy-templates]: Skipping, unable to determine old version
+[2023-06-16 11:37:35] INFO root fetch - main [MainThread]: End processing [taipy-templates] error
+[2023-06-16 11:37:35] INFO root fetch - processPackages [certbot-dns-solidserver]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 11:37:35] INFO root fetch - processPackages [deepsearcheath]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-16 11:37:35] INFO root fetch - processPackages [taipy-core]: Downloading https://files.pythonhosted.org/packages/d8/02/887fbe760dd43e1f095476125e2c5cc4d7d0ec0c06c5c425ea2102961d7b/taipy-core-2.3.0.dev4.tar.gz
+[2023-06-16 11:37:35] INFO root fetch - processPackages [html2django]: Downloading https://files.pythonhosted.org/packages/f1/fc/0bbcb348afb47ded79a4172fee62486857711c619e9c36d3f5ccc6872a3f/html2django-0.2.0.tar.gz
+[2023-06-16 11:37:35] INFO root fetch - processPackages [certbot-dns-solidserver]: Downloading https://files.pythonhosted.org/packages/cc/41/0232c4cb192b79b399e3cadf440b781e30c26fdfc3b92961bd85f918aa25/certbot-dns-solidserver-0.1.1.tar.gz
+[2023-06-16 11:37:35] INFO root fetch - processPackages [deepsearcheath]: Downloading https://files.pythonhosted.org/packages/93/76/ab91855850b1276426f2804d8a462fd353c2a999f706f5d0b9b9e99bc3b3/deepsearcheath-0.9.2-py3-none-any.whl
+[2023-06-16 11:37:35] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-16 11:37:35] INFO root fetch - processPackages [lesscode-tool]: Downloading https://files.pythonhosted.org/packages/96/a3/0a9a46370a4a8b0a9a4e8f479cdec3e5599d5cc5a6bcb07f73ce4bc15270/lesscode_tool-0.0.9.tar.gz
+[2023-06-16 11:37:35] INFO root fetch - processPackages [taipy-core]: executing diffoscope
+[2023-06-16 11:37:35] INFO root fetch - processPackages [taipy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-core-2.3.0.dev3.tar.gz tmp/taipy-core-2.3.0.dev4.tar.gz --markdown 20230616/t/taipy-core/2.3.0.dev3-2.3.0.dev4/diff.md --exclude *.pyd
+[2023-06-16 11:37:36] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-16 11:37:36] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/d9/f2/fb0e6cc1d4cdf66a93a84647f7d22da307e85e392c2389637ae02cb86604/memv-0.0.2.4.tar.gz
+[2023-06-16 11:37:36] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230616/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-16 11:37:36] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-06-16 11:37:36] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230616/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 11:37:36] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 11:37:36] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.2.3.tar.gz tmp/memv-0.0.2.4.tar.gz --markdown 20230616/m/memv/0.0.2.3-0.0.2.4/diff.md --exclude *.pyd
+[2023-06-16 11:37:36] INFO root fetch - processPackages [certbot-dns-solidserver]: Downloading https://files.pythonhosted.org/packages/1b/a1/44163bcede19dd2b0d36ff4f065528d058448d617adf2ffdf0cfb640d5f6/certbot-dns-solidserver-0.1.2.tar.gz
+[2023-06-16 11:37:36] INFO root fetch - processPackages [html2django]: Downloading https://files.pythonhosted.org/packages/66/64/023b0b39b668dea0f937168762a392d0be30090eb1e747c2acc1b381517c/html2django-1.0.tar.gz
+[2023-06-16 11:37:36] INFO root fetch - processPackages [certbot-dns-solidserver]: executing diffoscope
+[2023-06-16 11:37:36] INFO root fetch - processPackages [certbot-dns-solidserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-solidserver-0.1.1.tar.gz tmp/certbot-dns-solidserver-0.1.2.tar.gz --markdown 20230616/c/certbot-dns-solidserver/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 11:37:36] INFO root fetch - processPackages [html2django]: executing diffoscope
+[2023-06-16 11:37:36] INFO root fetch - processPackages [html2django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html2django-0.2.0.tar.gz tmp/html2django-1.0.tar.gz --markdown 20230616/h/html2django/0.2.0-1.0/diff.md --exclude *.pyd
+[2023-06-16 11:37:36] INFO root fetch - processPackages [deepsearcheath]: Downloading https://files.pythonhosted.org/packages/36/07/4344af013e4ad5ef36ee080eb4e1205385a500e124094b1127c622420efd/deepsearcheath-0.9.3-py3-none-any.whl
+[2023-06-16 11:37:36] INFO root fetch - processPackages [deepsearcheath]: executing diffoscope
+[2023-06-16 11:37:36] INFO root fetch - processPackages [deepsearcheath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearcheath-0.9.2-py3-none-any.whl.zip tmp/deepsearcheath-0.9.3-py3-none-any.whl.zip --markdown 20230616/d/deepsearcheath/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-16 11:37:37] INFO root fetch - processPackages [lesscode-tool]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tool-0.0.8.tar.gz]
+[2023-06-16 11:37:37] INFO root fetch - processPackages [lesscode-tool]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tool-0.0.9.tar.gz]
+[2023-06-16 11:37:37] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-06-16 11:37:37] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.3.tar.gz]
+[2023-06-16 11:37:37] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.4.tar.gz]
+[2023-06-16 11:37:37] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 11:37:37] INFO root fetch - processPackages [html2django]: Remove: archive file [/home/abi/fetcher/tmp/html2django-0.2.0.tar.gz]
+[2023-06-16 11:37:37] INFO root fetch - processPackages [html2django]: Remove: archive file [/home/abi/fetcher/tmp/html2django-1.0.tar.gz]
+[2023-06-16 11:37:37] INFO root fetch - main [MainThread]: End processing [html2django]: success
+[2023-06-16 11:37:37] INFO root fetch - processPackages [certbot-dns-solidserver]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-solidserver-0.1.1.tar.gz]
+[2023-06-16 11:37:37] INFO root fetch - processPackages [certbot-dns-solidserver]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-solidserver-0.1.2.tar.gz]
+[2023-06-16 11:37:37] INFO root fetch - main [MainThread]: End processing [certbot-dns-solidserver]: success
+[2023-06-16 11:37:37] INFO root fetch - processPackages [deepsearcheath]: Remove: archive file [/home/abi/fetcher/tmp/deepsearcheath-0.9.2-py3-none-any.whl.zip]
+[2023-06-16 11:37:37] INFO root fetch - processPackages [deepsearcheath]: Remove: archive file [/home/abi/fetcher/tmp/deepsearcheath-0.9.3-py3-none-any.whl.zip]
+[2023-06-16 11:37:37] INFO root fetch - main [MainThread]: End processing [deepsearcheath]: success
+[2023-06-16 11:37:38] INFO root fetch - processPackages [taipy-core]: Remove: archive file [/home/abi/fetcher/tmp/taipy-core-2.3.0.dev3.tar.gz]
+[2023-06-16 11:37:38] INFO root fetch - processPackages [taipy-core]: Remove: archive file [/home/abi/fetcher/tmp/taipy-core-2.3.0.dev4.tar.gz]
+[2023-06-16 11:37:38] INFO root fetch - main [MainThread]: End processing [taipy-core]: success
+[2023-06-16 11:37:38] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-16 11:37:38] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-16 11:37:38] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-16 11:37:38] INFO root fetch - main [MainThread]: Store serial: [18530142]
