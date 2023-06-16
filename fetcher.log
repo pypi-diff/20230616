@@ -10655,3 +10655,60 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 05:11:20] INFO root fetch - processPackages [squidpy]: Remove: archive file [/home/abi/fetcher/tmp/squidpy-1.3.0.tar.gz]
 [2023-06-16 05:11:20] INFO root fetch - main [MainThread]: End processing [squidpy]: success
 [2023-06-16 05:11:20] INFO root fetch - main [MainThread]: Store serial: [18526647]
+[2023-06-16 05:16:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526647]
+[2023-06-16 05:16:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-16 05:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-pipline
+[2023-06-16 05:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GANDLF
+[2023-06-16 05:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-radar
+[2023-06-16 05:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pp-project-pkg
+[2023-06-16 05:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-hdbcli
+[2023-06-16 05:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo9-addon-connector
+[2023-06-16 05:16:29] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306160314] Old Version: [1.0.202306160150]
+[2023-06-16 05:16:29] INFO root fetch - processPackages [cloud-radar]: New version: [0.8.1a0] Old Version: [0.8.0a1]
+[2023-06-16 05:16:29] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230616] Old Version: [0.0.17.dev20230615]
+[2023-06-16 05:16:29] INFO root fetch - processPackages [pytorch-pipline]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-06-16 05:16:29] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/cf/e0/43a224a10bcc737c0b8f11de4c0c128c2b6b697fc08a555401e266c828aa/pp_project_pkg-1.0.202306160150-py3-none-any.whl
+[2023-06-16 05:16:29] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/3c/fa/0b6b9ba59995039f41c899f56f1214436d035058da9d6a8e42fabe1dbda4/GANDLF-0.0.17.dev20230615.tar.gz
+[2023-06-16 05:16:29] INFO root fetch - processPackages [types-hdbcli]: New version: [2.17.0.0] Old Version: [2.16.0.0]
+[2023-06-16 05:16:29] INFO root fetch - processPackages [odoo9-addon-connector]: New version: [9.0.1.2.0.99.dev9] Old Version: [9.0.1.2.0.99.dev8]
+[2023-06-16 05:16:29] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/63/cf/0e30b0ecbc238abd11c03d176f1da97a9380f62888de176a442bff62a3fe/pytorch-pipline-0.1.1.tar.gz
+[2023-06-16 05:16:29] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/4b/8d/64b489ddf2e581b336c1a9e348976bbc3ec97fb8c3ae06483037f0634ccf/cloud_radar-0.8.0a1.tar.gz
+[2023-06-16 05:16:29] INFO root fetch - processPackages [types-hdbcli]: Downloading https://files.pythonhosted.org/packages/85/c9/08e3a943500ba0b38498147b8aff061a25db97bb91e2a7681e1df85c1dcb/types-hdbcli-2.16.0.0.tar.gz
+[2023-06-16 05:16:29] INFO root fetch - processPackages [odoo9-addon-connector]: Downloading https://files.pythonhosted.org/packages/71/d8/5915fd47545803fa997174a0719e88ea159b53fc3b130359580ed28e3772/odoo9_addon_connector-9.0.1.2.0.99.dev8-py2-none-any.whl
+[2023-06-16 05:16:29] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/81/43/fa358bb210d7634d6fe2df77fbed19f4b47ed18fb55030cc1ea55f21859a/pp_project_pkg-1.0.202306160314-py3-none-any.whl
+[2023-06-16 05:16:29] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/4d/0e/2aeac3f514ad12b1992b3de9455f250b965221ccc817d433bba0d26cd708/pytorch-pipline-0.2.1.tar.gz
+[2023-06-16 05:16:29] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-16 05:16:29] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306160150-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306160314-py3-none-any.whl.zip --markdown 20230616/p/pp-project-pkg/1.0.202306160150-1.0.202306160314/diff.md --exclude *.pyd
+[2023-06-16 05:16:29] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/18/86/d8a08b852549f7e003011c1b25d60202ece093058d11c0bf6f1bce696b0c/GANDLF-0.0.17.dev20230616.tar.gz
+[2023-06-16 05:16:29] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/00/87/3e2d75bd50b7f39389aa8a4f21d7b621d93069394addfd2fe874b4ee83e3/cloud_radar-0.8.1a0.tar.gz
+[2023-06-16 05:16:29] INFO root fetch - processPackages [pytorch-pipline]: executing diffoscope
+[2023-06-16 05:16:29] INFO root fetch - processPackages [pytorch-pipline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-pipline-0.1.1.tar.gz tmp/pytorch-pipline-0.2.1.tar.gz --markdown 20230616/p/pytorch-pipline/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-06-16 05:16:30] INFO root fetch - processPackages [cloud-radar]: executing diffoscope
+[2023-06-16 05:16:30] INFO root fetch - processPackages [cloud-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_radar-0.8.0a1.tar.gz tmp/cloud_radar-0.8.1a0.tar.gz --markdown 20230616/c/cloud-radar/0.8.0a1-0.8.1a0/diff.md --exclude *.pyd
+[2023-06-16 05:16:30] INFO root fetch - processPackages [types-hdbcli]: Downloading https://files.pythonhosted.org/packages/0e/76/4d6f4c4f82ee60fd070b6cf3c00cc827bc103f07c0c75fe57caf617af837/types-hdbcli-2.17.0.0.tar.gz
+[2023-06-16 05:16:30] INFO root fetch - processPackages [odoo9-addon-connector]: Downloading https://files.pythonhosted.org/packages/bf/46/3dea50a03eff6580b360609b0d0a4cfd4b5b3e5742972dc11654b205ace3/odoo9_addon_connector-9.0.1.2.0.99.dev9-py2-none-any.whl
+[2023-06-16 05:16:30] INFO root fetch - processPackages [types-hdbcli]: executing diffoscope
+[2023-06-16 05:16:30] INFO root fetch - processPackages [types-hdbcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-hdbcli-2.16.0.0.tar.gz tmp/types-hdbcli-2.17.0.0.tar.gz --markdown 20230616/t/types-hdbcli/2.16.0.0-2.17.0.0/diff.md --exclude *.pyd
+[2023-06-16 05:16:30] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-16 05:16:30] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230615.tar.gz tmp/GANDLF-0.0.17.dev20230616.tar.gz --markdown 20230616/G/GANDLF/0.0.17.dev20230615-0.0.17.dev20230616/diff.md --exclude *.pyd
+[2023-06-16 05:16:30] INFO root fetch - processPackages [odoo9-addon-connector]: executing diffoscope
+[2023-06-16 05:16:30] INFO root fetch - processPackages [odoo9-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_connector-9.0.1.2.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_connector-9.0.1.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-connector/9.0.1.2.0.99.dev8-9.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 05:16:30] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306160150-py3-none-any.whl.zip]
+[2023-06-16 05:16:30] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306160314-py3-none-any.whl.zip]
+[2023-06-16 05:16:30] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-16 05:16:31] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.8.0a1.tar.gz]
+[2023-06-16 05:16:31] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.8.1a0.tar.gz]
+[2023-06-16 05:16:31] INFO root fetch - main [MainThread]: End processing [cloud-radar]: success
+[2023-06-16 05:16:31] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.1.1.tar.gz]
+[2023-06-16 05:16:31] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.2.1.tar.gz]
+[2023-06-16 05:16:31] INFO root fetch - main [MainThread]: End processing [pytorch-pipline]: success
+[2023-06-16 05:16:31] INFO root fetch - processPackages [types-hdbcli]: Remove: archive file [/home/abi/fetcher/tmp/types-hdbcli-2.16.0.0.tar.gz]
+[2023-06-16 05:16:31] INFO root fetch - processPackages [types-hdbcli]: Remove: archive file [/home/abi/fetcher/tmp/types-hdbcli-2.17.0.0.tar.gz]
+[2023-06-16 05:16:31] INFO root fetch - main [MainThread]: End processing [types-hdbcli]: success
+[2023-06-16 05:16:32] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230615.tar.gz]
+[2023-06-16 05:16:32] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230616.tar.gz]
+[2023-06-16 05:16:32] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-16 05:16:32] INFO root fetch - processPackages [odoo9-addon-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_connector-9.0.1.2.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 05:16:32] INFO root fetch - processPackages [odoo9-addon-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_connector-9.0.1.2.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-16 05:16:32] INFO root fetch - main [MainThread]: End processing [odoo9-addon-connector]: success
+[2023-06-16 05:16:32] INFO root fetch - main [MainThread]: Store serial: [18526663]
