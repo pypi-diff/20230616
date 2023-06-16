@@ -17117,3 +17117,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 10:20:32] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.9.tar.gz]
 [2023-06-16 10:20:32] INFO root fetch - main [MainThread]: End processing [hello2]: success
 [2023-06-16 10:20:32] INFO root fetch - main [MainThread]: Store serial: [18529183]
+[2023-06-16 10:25:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18529183]
+[2023-06-16 10:25:42] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dramatiq-kafka
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssi-fctrading
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zipline-tej
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kingsoftcloud-sdk-python
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bio-pypage
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bagbag
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-local-exec
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rio-tiler
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-cisco-maintenance
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-barcodes-generator-abstract
+[2023-06-16 10:25:42] WARNING root fetch - processPackages [dramatiq-kafka]: Skipping, unable to determine old version
+[2023-06-16 10:25:42] INFO root fetch - processPackages [dramatiq-kafka]: Start processing: odoo-addon-barcodes-generator-product
+[2023-06-16 10:25:42] INFO root fetch - main [MainThread]: End processing [dramatiq-kafka] error
+[2023-06-16 10:25:42] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ssi-fctrading]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-16 10:25:42] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: New version: [16.0.3.0.0] Old Version: [16.0.1.0.2]
+[2023-06-16 10:25:42] WARNING root fetch - processPackages [bio-pypage]: Skipping, unable to determine old version
+[2023-06-16 10:25:42] INFO root fetch - processPackages [bio-pypage]: Start processing: openapi-spec-validator
+[2023-06-16 10:25:42] INFO root fetch - main [MainThread]: End processing [bio-pypage] error
+[2023-06-16 10:25:42] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.1]
+[2023-06-16 10:25:42] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-16 10:25:42] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-06-16 10:25:42] INFO root fetch - processPackages [rio-tiler]: New version: [5.0.0] Old Version: [4.1.9]
+[2023-06-16 10:25:42] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 10:25:42] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 10:25:42] INFO root fetch - processPackages [openapi-spec-validator]: New version: [0.6.0a2] Old Version: [0.6.0a1]
+[2023-06-16 10:25:42] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/b6/d5/9db67e5018cbb315231f1cbe55a86e64898b9ce0809ed5cc5d4632fc5c5c/cdktf-local-exec-0.2.8.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/7e/4b/ef6d5b6193050eee1a310d60e9c412edbc2cd3263ca18c169dae73ddaf49/ssi-fctrading-2.3.0.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: Downloading https://files.pythonhosted.org/packages/18/f8/1123c8595ed09c004bd63397a913c7db1cc89216492f2c3cf4233edfe7b1/odoo_addon_barcodes_generator_abstract-16.0.1.0.2-py3-none-any.whl
+[2023-06-16 10:25:42] INFO root fetch - processPackages [openapi-spec-validator]: Downloading https://files.pythonhosted.org/packages/cd/69/f17be3de82b1c4967c2fbe6458a36b9e35daecb79372f57806ae3b0745bd/openapi_spec_validator-0.6.0a1.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [rio-tiler]: Downloading https://files.pythonhosted.org/packages/f4/75/28263f0a3ff5649f2f8cd60df2f8b308f67fb92964e061791ce37603e929/rio_tiler-4.1.9.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/19/02/83e6ceb8de9cca722ee3e14572dc8001d4f7c34c4de404e7ca645de74bc4/cdktf-local-exec-0.2.9.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: Downloading https://files.pythonhosted.org/packages/1b/58/bc4b3050423c637403f84ef88b68d624007db7d4e81556ea7fe98ab0ea7f/odoo_addon_barcodes_generator_product-16.0.1.0.1-py3-none-any.whl
+[2023-06-16 10:25:42] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/e3/dd/263f2491013a2b5eb9c23c96c7b6295f980b47234508dd0b4199ff05f27e/kingsoftcloud-sdk-python-1.0.3.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/b6/bb/c04de8cae0f7bf2a37f3515b9731658f7929e056e44a5c68cde3fb7dcdcf/ssi-fctrading-2.3.1.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2023-06-16 10:25:42] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.2.8.tar.gz tmp/cdktf-local-exec-0.2.9.tar.gz --markdown 20230616/c/cdktf-local-exec/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 10:25:42] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-16 10:25:42] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230616/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 10:25:42] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-16 10:25:42] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230616/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-06-16 10:25:42] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 10:25:42] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 10:25:42] INFO root fetch - processPackages [openapi-spec-validator]: Downloading https://files.pythonhosted.org/packages/bf/d5/9adbc4972c5126377b38e94e8246448f60edf02c5f3063c15904b59184b3/openapi_spec_validator-0.6.0a2.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ssi-fctrading]: executing diffoscope
+[2023-06-16 10:25:42] INFO root fetch - processPackages [ssi-fctrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi-fctrading-2.3.0.tar.gz tmp/ssi-fctrading-2.3.1.tar.gz --markdown 20230616/s/ssi-fctrading/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-16 10:25:42] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: Downloading https://files.pythonhosted.org/packages/d4/14/9f3aa94240753e4097a0e9de65ac2bf752fc935630ae814044738522f0cb/odoo_addon_barcodes_generator_abstract-16.0.3.0.0-py3-none-any.whl
+[2023-06-16 10:25:42] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/7e/59/ad92e5c6c1b0524643e5d5b692848c71c48e0df6c39af1c5f697edf05ab5/kingsoftcloud-sdk-python-1.1.0.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: Downloading https://files.pythonhosted.org/packages/03/7d/459e0f40c3241623f5d59e24f7a4baf8efed7ba145b023b76d064d1bcd38/odoo_addon_barcodes_generator_product-16.0.2.0.0-py3-none-any.whl
+[2023-06-16 10:25:42] INFO root fetch - processPackages [rio-tiler]: Downloading https://files.pythonhosted.org/packages/8c/c9/f7e988585356e05266cb3a86f3f492ac81c3a0c71dfbda109452d545ee22/rio_tiler-5.0.0.tar.gz
+[2023-06-16 10:25:42] INFO root fetch - processPackages [openapi-spec-validator]: executing diffoscope
+[2023-06-16 10:25:42] INFO root fetch - processPackages [openapi-spec-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_spec_validator-0.6.0a1.tar.gz tmp/openapi_spec_validator-0.6.0a2.tar.gz --markdown 20230616/o/openapi-spec-validator/0.6.0a1-0.6.0a2/diff.md --exclude *.pyd
+[2023-06-16 10:25:42] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: executing diffoscope
+[2023-06-16 10:25:42] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_barcodes_generator_product-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_barcodes_generator_product-16.0.2.0.0-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-barcodes-generator-product/16.0.1.0.1-16.0.2.0.0/diff.md --exclude *.pyd
+[2023-06-16 10:25:42] INFO root fetch - processPackages [rio-tiler]: executing diffoscope
+[2023-06-16 10:25:42] INFO root fetch - processPackages [rio-tiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_tiler-4.1.9.tar.gz tmp/rio_tiler-5.0.0.tar.gz --markdown 20230616/r/rio-tiler/4.1.9-5.0.0/diff.md --exclude *.pyd
+[2023-06-16 10:25:42] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: executing diffoscope
+[2023-06-16 10:25:42] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingsoftcloud-sdk-python-1.0.3.tar.gz tmp/kingsoftcloud-sdk-python-1.1.0.tar.gz --markdown 20230616/k/kingsoftcloud-sdk-python/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-16 10:25:43] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: executing diffoscope
+[2023-06-16 10:25:43] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_barcodes_generator_abstract-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_barcodes_generator_abstract-16.0.3.0.0-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-barcodes-generator-abstract/16.0.1.0.2-16.0.3.0.0/diff.md --exclude *.pyd
+[2023-06-16 10:25:44] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-2.3.0.tar.gz]
+[2023-06-16 10:25:44] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-2.3.1.tar.gz]
+[2023-06-16 10:25:44] INFO root fetch - processPackages [ssi-fctrading]: Start processing: memv
+[2023-06-16 10:25:44] INFO root fetch - main [MainThread]: End processing [ssi-fctrading]: success
+[2023-06-16 10:25:44] INFO root fetch - processPackages [memv]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2023-06-16 10:25:44] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 10:25:44] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 10:25:44] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: biosmoother
+[2023-06-16 10:25:44] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 10:25:44] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/0e/be/d9cbba8e18b2f83b1d58e5a04001caf2d97e4379414b6c62a1bcce294571/memv-0.0.2.tar.gz
+[2023-06-16 10:25:44] WARNING root fetch - processPackages [biosmoother]: Skipping, unable to determine old version
+[2023-06-16 10:25:44] INFO root fetch - processPackages [biosmoother]: Start processing: quickfix-ch
+[2023-06-16 10:25:44] INFO root fetch - main [MainThread]: End processing [biosmoother] error
+[2023-06-16 10:25:44] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.2.8.tar.gz]
+[2023-06-16 10:25:44] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.2.9.tar.gz]
+[2023-06-16 10:25:44] INFO root fetch - processPackages [cdktf-local-exec]: Start processing: utillc
+[2023-06-16 10:25:44] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2023-06-16 10:25:44] WARNING root fetch - processPackages [quickfix-ch]: Skipping, unable to determine old version
+[2023-06-16 10:25:44] INFO root fetch - main [MainThread]: End processing [quickfix-ch] error
+[2023-06-16 10:25:44] INFO root fetch - processPackages [utillc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-16 10:25:44] INFO root fetch - processPackages [openapi-spec-validator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_spec_validator-0.6.0a1.tar.gz]
+[2023-06-16 10:25:44] INFO root fetch - processPackages [openapi-spec-validator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_spec_validator-0.6.0a2.tar.gz]
+[2023-06-16 10:25:44] INFO root fetch - main [MainThread]: End processing [openapi-spec-validator]: success
+[2023-06-16 10:25:44] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/e5/80/a87cfb04caa1564adc9cd326406e3a22703036f22a19e2941da2d0c8f78f/memv-0.0.2.1.tar.gz
+[2023-06-16 10:25:44] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_barcodes_generator_product-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-16 10:25:44] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_barcodes_generator_product-16.0.2.0.0-py3-none-any.whl.zip]
+[2023-06-16 10:25:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-barcodes-generator-product]: success
+[2023-06-16 10:25:44] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 10:25:44] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.2.tar.gz tmp/memv-0.0.2.1.tar.gz --markdown 20230616/m/memv/0.0.2-0.0.2.1/diff.md --exclude *.pyd
+[2023-06-16 10:25:44] INFO root fetch - processPackages [utillc]: Downloading https://files.pythonhosted.org/packages/cc/f6/8602a3365c5bdae211c3ac294519f44f09a48d78f82481686f04441605d1/utillc-0.9.8-py2.py3-none-any.whl
+[2023-06-16 10:25:45] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_barcodes_generator_abstract-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-16 10:25:45] INFO root fetch - processPackages [odoo-addon-barcodes-generator-abstract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_barcodes_generator_abstract-16.0.3.0.0-py3-none-any.whl.zip]
+[2023-06-16 10:25:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-barcodes-generator-abstract]: success
+[2023-06-16 10:25:45] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud-sdk-python-1.0.3.tar.gz]
+[2023-06-16 10:25:45] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud-sdk-python-1.1.0.tar.gz]
+[2023-06-16 10:25:45] INFO root fetch - main [MainThread]: End processing [kingsoftcloud-sdk-python]: success
+[2023-06-16 10:25:45] INFO root fetch - processPackages [utillc]: Downloading https://files.pythonhosted.org/packages/d8/3c/db840ab098014cd53956ab58f90e832f7dc4cd45fba1ebcbb74463d04f94/utillc-0.9.9-py2.py3-none-any.whl
+[2023-06-16 10:25:45] INFO root fetch - processPackages [utillc]: executing diffoscope
+[2023-06-16 10:25:45] INFO root fetch - processPackages [utillc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utillc-0.9.8-py2.py3-none-any.whl.zip tmp/utillc-0.9.9-py2.py3-none-any.whl.zip --markdown 20230616/u/utillc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-16 10:25:45] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-06-16 10:25:45] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-06-16 10:25:45] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-16 10:25:45] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-4.1.9.tar.gz]
+[2023-06-16 10:25:45] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-5.0.0.tar.gz]
+[2023-06-16 10:25:45] INFO root fetch - main [MainThread]: End processing [rio-tiler]: success
+[2023-06-16 10:25:46] INFO root fetch - processPackages [utillc]: Remove: archive file [/home/abi/fetcher/tmp/utillc-0.9.8-py2.py3-none-any.whl.zip]
+[2023-06-16 10:25:46] INFO root fetch - processPackages [utillc]: Remove: archive file [/home/abi/fetcher/tmp/utillc-0.9.9-py2.py3-none-any.whl.zip]
+[2023-06-16 10:25:46] INFO root fetch - main [MainThread]: End processing [utillc]: success
+[2023-06-16 10:25:48] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-16 10:25:48] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-16 10:25:48] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-16 10:26:39] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.tar.gz]
+[2023-06-16 10:26:39] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.1.tar.gz]
+[2023-06-16 10:26:39] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 10:26:39] INFO root fetch - main [MainThread]: Store serial: [18529234]
