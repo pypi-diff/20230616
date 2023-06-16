@@ -9452,3 +9452,73 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 03:51:12] INFO root fetch - processPackages [pypi-changes]: Remove: archive file [/home/abi/fetcher/tmp/pypi_changes-1.2.1.tar.gz]
 [2023-06-16 03:51:12] INFO root fetch - main [MainThread]: End processing [pypi-changes]: success
 [2023-06-16 03:51:12] INFO root fetch - main [MainThread]: Store serial: [18526113]
+[2023-06-16 03:56:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526113]
+[2023-06-16 03:56:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-16 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2023-06-16 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: d20-orm
+[2023-06-16 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frosty-dag
+[2023-06-16 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pp-project-pkg
+[2023-06-16 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Mensajes-Agudel
+[2023-06-16 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnata-plugin-runtime
+[2023-06-16 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PenguLogger
+[2023-06-16 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2023-06-16 03:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scikit-base
+[2023-06-16 03:56:21] WARNING root fetch - processPackages [Mensajes-Agudel]: Skipping, unable to determine old version
+[2023-06-16 03:56:21] INFO root fetch - main [MainThread]: End processing [Mensajes-Agudel] error
+[2023-06-16 03:56:21] INFO root fetch - processPackages [frosty-dag]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 03:56:21] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306160150] Old Version: [1.0.202306061654]
+[2023-06-16 03:56:21] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 03:56:21] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-16 03:56:21] WARNING root fetch - processPackages [PenguLogger]: Skipping, unable to determine old version
+[2023-06-16 03:56:21] INFO root fetch - processPackages [yplib]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-06-16 03:56:21] INFO root fetch - main [MainThread]: End processing [PenguLogger] error
+[2023-06-16 03:56:21] INFO root fetch - processPackages [scikit-base]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-16 03:56:21] INFO root fetch - processPackages [yplib]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-06-16 03:56:21] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-16 03:56:21] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-16 03:56:21] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/45/5b/ab77f49120b7bcac81ebe8b86e5eea58337d075ba894b186f309d698853f/yplib-1.4.7.tar.gz
+[2023-06-16 03:56:21] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/45/5b/ab77f49120b7bcac81ebe8b86e5eea58337d075ba894b186f309d698853f/yplib-1.4.7.tar.gz
+[2023-06-16 03:56:21] INFO root fetch - processPackages [frosty-dag]: Downloading https://files.pythonhosted.org/packages/e0/ea/6bc09f6bfb98be1506731fed0b1ef9602e83ba46c0a4f7871dfcdb105555/frosty-dag-0.0.1.tar.gz
+[2023-06-16 03:56:21] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/f2/7b/70e69bc6ed220543c33b627e742c421b80087d0c3a7d348ca61e4c947b92/pp_project_pkg-1.0.202306061654-py3-none-any.whl
+[2023-06-16 03:56:21] INFO root fetch - processPackages [scikit-base]: Downloading https://files.pythonhosted.org/packages/72/f5/1471787abf7a5950294488e3f4051fa66b3a089f586dffea3fe1e53fa51a/scikit-base-0.4.5.tar.gz
+[2023-06-16 03:56:21] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-16 03:56:21] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-16 03:56:21] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-16 03:56:21] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230616/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-16 03:56:21] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/58/a4/a54de9a4fc02a7c88438899e61baf29cb27228a71668d3ff65b7fa413f4d/yplib-1.4.8.tar.gz
+[2023-06-16 03:56:21] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/58/a4/a54de9a4fc02a7c88438899e61baf29cb27228a71668d3ff65b7fa413f4d/yplib-1.4.8.tar.gz
+[2023-06-16 03:56:21] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-16 03:56:21] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230616/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 03:56:21] INFO root fetch - processPackages [frosty-dag]: Downloading https://files.pythonhosted.org/packages/97/f1/0f2505a241363d56a16fc4082103a81cc4e058e7885367933229d0bdf969/frosty-dag-0.0.2.tar.gz
+[2023-06-16 03:56:21] INFO root fetch - processPackages [scikit-base]: Downloading https://files.pythonhosted.org/packages/6d/f8/53c99b013390a38d920de7163c8ae2a4899584c2f82deb9c725fdf8d20df/scikit-base-0.4.6.tar.gz
+[2023-06-16 03:56:21] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 03:56:21] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.4.7.tar.gz tmp/yplib-1.4.8.tar.gz --markdown 20230616/y/yplib/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-06-16 03:56:21] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 03:56:21] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.4.7.tar.gz tmp/yplib-1.4.8.tar.gz --markdown 20230616/y/yplib/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-06-16 03:56:21] INFO root fetch - processPackages [frosty-dag]: executing diffoscope
+[2023-06-16 03:56:21] INFO root fetch - processPackages [frosty-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frosty-dag-0.0.1.tar.gz tmp/frosty-dag-0.0.2.tar.gz --markdown 20230616/f/frosty-dag/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 03:56:21] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/cf/e0/43a224a10bcc737c0b8f11de4c0c128c2b6b697fc08a555401e266c828aa/pp_project_pkg-1.0.202306160150-py3-none-any.whl
+[2023-06-16 03:56:21] INFO root fetch - processPackages [scikit-base]: executing diffoscope
+[2023-06-16 03:56:21] INFO root fetch - processPackages [scikit-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-base-0.4.5.tar.gz tmp/scikit-base-0.4.6.tar.gz --markdown 20230616/s/scikit-base/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-16 03:56:21] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-16 03:56:21] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306061654-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306160150-py3-none-any.whl.zip --markdown 20230616/p/pp-project-pkg/1.0.202306061654-1.0.202306160150/diff.md --exclude *.pyd
+[2023-06-16 03:56:22] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.4.7.tar.gz]
+[2023-06-16 03:56:22] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.4.8.tar.gz]
+[2023-06-16 03:56:22] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 03:56:22] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 03:56:22] INFO root fetch - processPackages [frosty-dag]: Remove: archive file [/home/abi/fetcher/tmp/frosty-dag-0.0.1.tar.gz]
+[2023-06-16 03:56:22] INFO root fetch - processPackages [frosty-dag]: Remove: archive file [/home/abi/fetcher/tmp/frosty-dag-0.0.2.tar.gz]
+[2023-06-16 03:56:22] INFO root fetch - main [MainThread]: End processing [frosty-dag]: success
+[2023-06-16 03:56:23] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-16 03:56:23] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-16 03:56:23] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-16 03:56:23] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-16 03:56:23] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-16 03:56:23] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-16 03:56:23] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306061654-py3-none-any.whl.zip]
+[2023-06-16 03:56:23] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306160150-py3-none-any.whl.zip]
+[2023-06-16 03:56:23] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-16 03:56:23] INFO root fetch - processPackages [scikit-base]: Remove: archive file [/home/abi/fetcher/tmp/scikit-base-0.4.5.tar.gz]
+[2023-06-16 03:56:23] INFO root fetch - processPackages [scikit-base]: Remove: archive file [/home/abi/fetcher/tmp/scikit-base-0.4.6.tar.gz]
+[2023-06-16 03:56:23] INFO root fetch - main [MainThread]: End processing [scikit-base]: success
+[2023-06-16 03:56:23] INFO root fetch - main [MainThread]: Store serial: [18526150]
