@@ -16629,3 +16629,209 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 10:03:52] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.3.tar.gz]
 [2023-06-16 10:03:52] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-16 10:03:52] INFO root fetch - main [MainThread]: Store serial: [18528970]
+[2023-06-16 10:08:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528970]
+[2023-06-16 10:09:03] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tamaas
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-release-channel
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pvbm
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piplexed
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vocab-coverage
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lollms
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ssmv
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: struct-bias
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deepomatic-rpc-protobuf
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyglove
+[2023-06-16 10:09:03] INFO root fetch - processPackages [pvbm]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-06-16 10:09:03] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: New version: [16.0.2.4.0] Old Version: [16.0.2.3.0.1]
+[2023-06-16 10:09:03] INFO root fetch - processPackages [piplexed]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 10:09:03] INFO root fetch - processPackages [vocab-coverage]: New version: [0.4] Old Version: [0.3]
+[2023-06-16 10:09:03] INFO root fetch - processPackages [tamaas]: New version: [2.7.0rc1] Old Version: [2.6.0]
+[2023-06-16 10:09:03] INFO root fetch - processPackages [lollms]: New version: [1.1.90] Old Version: [1.1.9]
+[2023-06-16 10:09:03] INFO root fetch - processPackages [struct-bias]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-16 10:09:03] WARNING root fetch - processPackages [deepomatic-rpc-protobuf]: Skipping, unable to determine old version
+[2023-06-16 10:09:03] INFO root fetch - processPackages [deepomatic-rpc-protobuf]: Start processing: grizli
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ssmv]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-16 10:09:03] INFO root fetch - main [MainThread]: End processing [deepomatic-rpc-protobuf] error
+[2023-06-16 10:09:03] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230616] Old Version: [0.3.1.dev20230615]
+[2023-06-16 10:09:03] INFO root fetch - processPackages [vocab-coverage]: Downloading https://files.pythonhosted.org/packages/35/79/12659d7ba17c337908d1e2e572223bf12f3859a8405544c750a3201a160c/vocab-coverage-0.3.tar.gz
+[2023-06-16 10:09:03] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/ea/fb/05228079ce9247b549e1e302cb9bbe7f332028db91c449d73746a36ae078/odoo_addon_stock_release_channel-16.0.2.3.0.1-py3-none-any.whl
+[2023-06-16 10:09:03] INFO root fetch - processPackages [pvbm]: Downloading https://files.pythonhosted.org/packages/3d/8f/e18cdc714cdf05f211e9c5378d1b3282c695ba2293debad92c7969bb24df/pvbm-2.3.0.tar.gz
+[2023-06-16 10:09:03] INFO root fetch - processPackages [struct-bias]: Downloading https://files.pythonhosted.org/packages/0b/fb/6497fe81308a456b107bcb6c02061db3dccded940fd7846be97afd17cb26/struct-bias-1.2.2.tar.gz
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ssmv]: Downloading https://files.pythonhosted.org/packages/bc/eb/e9403838b9764533888620a64259c75a37fa16418659e7392d13462082e5/ssmv-0.1.2-cp37-abi3-win_amd64.whl
+[2023-06-16 10:09:03] INFO root fetch - processPackages [grizli]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-16 10:09:03] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/e7/7a/63b84a7e539cfe8145463749af63a3f75f12a6b22bf21a673c717e610fc6/lollms-1.1.9.tar.gz
+[2023-06-16 10:09:03] INFO root fetch - processPackages [tamaas]: Downloading https://files.pythonhosted.org/packages/5b/7a/b0ef5c0b7139045877c9fd986a39bc52708c0b9e8f73d42d26e14b19c3a6/tamaas-2.6.0-cp39-none-manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-16 10:09:03] INFO root fetch - processPackages [piplexed]: Downloading https://files.pythonhosted.org/packages/96/b0/ea7ff7e1a4c018e693d88745a7f0cd5f1063af1fd9f49a2a2911a77ccbbf/piplexed-0.1.0.tar.gz
+[2023-06-16 10:09:03] INFO root fetch - processPackages [vocab-coverage]: Downloading https://files.pythonhosted.org/packages/9b/df/1ebd1f2298feb52358ddf48054f321f4195a9aa5c77bef38c31734f6116e/vocab-coverage-0.4.tar.gz
+[2023-06-16 10:09:03] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/de/b3/2d27b880d9efcc237971c459eff969086101c4d5742e5f5120d914aa3e25/pyglove-0.3.1.dev20230615.tar.gz
+[2023-06-16 10:09:03] INFO root fetch - processPackages [pvbm]: Downloading https://files.pythonhosted.org/packages/b3/12/3efe33618671b34d36dd77bfc6d722e1428644cc6258ca680825a49175cc/pvbm-2.4.0.tar.gz
+[2023-06-16 10:09:03] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17354991>=10485760
+[2023-06-16 10:09:03] INFO root fetch - processPackages [lollms]: Start processing: micropython-esp-wifi-manager
+[2023-06-16 10:09:03] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/84/df/83a334a427624911a9ea0ca02069df1000b94b8d99278675fcb1a4751c73/grizli-1.8.8.tar.gz
+[2023-06-16 10:09:03] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-16 10:09:03] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/43/ef/a179d95f337a6318e97f0deae280c1033b5ae21bd75785eba43bcec60cca/odoo_addon_stock_release_channel-16.0.2.4.0-py3-none-any.whl
+[2023-06-16 10:09:03] INFO root fetch - processPackages [struct-bias]: Downloading https://files.pythonhosted.org/packages/99/89/52154581906f1cc718f56f980c62a7ab74c8f228905911a5c1fecfbc306c/struct-bias-1.2.3.tar.gz
+[2023-06-16 10:09:03] INFO root fetch - processPackages [vocab-coverage]: executing diffoscope
+[2023-06-16 10:09:03] INFO root fetch - processPackages [vocab-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocab-coverage-0.3.tar.gz tmp/vocab-coverage-0.4.tar.gz --markdown 20230616/v/vocab-coverage/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-16 10:09:03] INFO root fetch - processPackages [pvbm]: executing diffoscope
+[2023-06-16 10:09:03] INFO root fetch - processPackages [pvbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvbm-2.3.0.tar.gz tmp/pvbm-2.4.0.tar.gz --markdown 20230616/p/pvbm/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-06-16 10:09:03] INFO root fetch - processPackages [micropython-esp-wifi-manager]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-16 10:09:03] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: executing diffoscope
+[2023-06-16 10:09:03] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel-16.0.2.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel-16.0.2.4.0-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-stock-release-channel/16.0.2.3.0.1-16.0.2.4.0/diff.md --exclude *.pyd
+[2023-06-16 10:09:03] INFO root fetch - processPackages [struct-bias]: executing diffoscope
+[2023-06-16 10:09:03] INFO root fetch - processPackages [struct-bias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struct-bias-1.2.2.tar.gz tmp/struct-bias-1.2.3.tar.gz --markdown 20230616/s/struct-bias/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-16 10:09:03] INFO root fetch - processPackages [piplexed]: Downloading https://files.pythonhosted.org/packages/c7/56/8cd64e701af3df77ed4e3ef05f7a716593f6ae27e5f547782b2bd99ccb9e/piplexed-0.1.1.tar.gz
+[2023-06-16 10:09:03] INFO root fetch - processPackages [piplexed]: executing diffoscope
+[2023-06-16 10:09:03] INFO root fetch - processPackages [piplexed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piplexed-0.1.0.tar.gz tmp/piplexed-0.1.1.tar.gz --markdown 20230616/p/piplexed/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 10:09:03] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/20/17/bb6d60fc13e36f62b0301028b974dcfa670899d055f82714c3d0050f5c01/pyglove-0.3.1.dev20230616.tar.gz
+[2023-06-16 10:09:03] INFO root fetch - processPackages [tamaas]: Downloading https://files.pythonhosted.org/packages/78/43/98fee5cb704932323cfd4d0e0caae91083c5a3cb10b498a31ba583dac74f/tamaas-2.7.0rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+[2023-06-16 10:09:03] INFO root fetch - processPackages [ssmv]: Downloading https://files.pythonhosted.org/packages/74/82/9dc25c34d76a1ce23ab94bb51ea76a4aea21f3edd654bf3a7827de021c3b/ssmv-0.1.3-cp37-abi3-win_amd64.whl
+[2023-06-16 10:09:04] INFO root fetch - processPackages [micropython-esp-wifi-manager]: Downloading https://files.pythonhosted.org/packages/5c/da/7ddcbfc541cf7ab3b1042182be2e31f8496e6c0e9f16deb54a64e8563658/micropython-esp-wifi-manager-1.8.0.tar.gz
+[2023-06-16 10:09:04] INFO root fetch - processPackages [ssmv]: executing diffoscope
+[2023-06-16 10:09:04] INFO root fetch - processPackages [ssmv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssmv-0.1.2-cp37-abi3-win_amd64.whl.zip tmp/ssmv-0.1.3-cp37-abi3-win_amd64.whl.zip --markdown 20230616/s/ssmv/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-16 10:09:04] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-16 10:09:04] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230615.tar.gz tmp/pyglove-0.3.1.dev20230616.tar.gz --markdown 20230616/p/pyglove/0.3.1.dev20230615-0.3.1.dev20230616/diff.md --exclude *.pyd
+[2023-06-16 10:09:04] INFO root fetch - processPackages [tamaas]: executing diffoscope
+[2023-06-16 10:09:04] INFO root fetch - processPackages [tamaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tamaas-2.6.0-cp39-none-manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tamaas-2.7.0rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip --markdown 20230616/t/tamaas/2.6.0-2.7.0rc1/diff.md --exclude *.pyd
+[2023-06-16 10:09:04] INFO root fetch - processPackages [micropython-esp-wifi-manager]: Downloading https://files.pythonhosted.org/packages/26/69/5f47cdf1300bacfc026aaa8ebac4f0eedb6bec53e40d420e0c127a0ca974/micropython-esp-wifi-manager-1.9.0.tar.gz
+[2023-06-16 10:09:05] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/e1/f3/8d12e9615ea7469aa712ec22dea7bf95267fbba4b840d64b994e41f92b1d/grizli-1.8.9.tar.gz
+[2023-06-16 10:09:05] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.3.0.1-py3-none-any.whl.zip]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.4.0-py3-none-any.whl.zip]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Start processing: gardener-cicd-base
+[2023-06-16 10:09:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel]: success
+[2023-06-16 10:09:05] INFO root fetch - processPackages [micropython-esp-wifi-manager]: executing diffoscope
+[2023-06-16 10:09:05] INFO root fetch - processPackages [micropython-esp-wifi-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-esp-wifi-manager-1.8.0.tar.gz tmp/micropython-esp-wifi-manager-1.9.0.tar.gz --markdown 20230616/m/micropython-esp-wifi-manager/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-16 10:09:05] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2085.0] Old Version: [1.2084.0]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [vocab-coverage]: Remove: archive file [/home/abi/fetcher/tmp/vocab-coverage-0.3.tar.gz]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [vocab-coverage]: Remove: archive file [/home/abi/fetcher/tmp/vocab-coverage-0.4.tar.gz]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [vocab-coverage]: Start processing: gardener-cicd-cli
+[2023-06-16 10:09:05] INFO root fetch - main [MainThread]: End processing [vocab-coverage]: success
+[2023-06-16 10:09:05] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2085.0] Old Version: [1.2084.0]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [ssmv]: Remove: archive file [/home/abi/fetcher/tmp/ssmv-0.1.2-cp37-abi3-win_amd64.whl.zip]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [ssmv]: Remove: archive file [/home/abi/fetcher/tmp/ssmv-0.1.3-cp37-abi3-win_amd64.whl.zip]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [ssmv]: Start processing: gardener-cicd-dso
+[2023-06-16 10:09:05] INFO root fetch - main [MainThread]: End processing [ssmv]: success
+[2023-06-16 10:09:05] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2085.0] Old Version: [1.2084.0]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [pvbm]: Remove: archive file [/home/abi/fetcher/tmp/pvbm-2.3.0.tar.gz]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [pvbm]: Remove: archive file [/home/abi/fetcher/tmp/pvbm-2.4.0.tar.gz]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [pvbm]: Start processing: gardener-cicd-libs
+[2023-06-16 10:09:05] INFO root fetch - main [MainThread]: End processing [pvbm]: success
+[2023-06-16 10:09:05] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/49/e5/9e422542c68f0c55d8724eb25660ab771365cf3aae9cf7896f9f82384e87/gardener-cicd-base-1.2084.0.tar.gz
+[2023-06-16 10:09:05] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2085.0] Old Version: [1.2084.0]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [struct-bias]: Remove: archive file [/home/abi/fetcher/tmp/struct-bias-1.2.2.tar.gz]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [struct-bias]: Remove: archive file [/home/abi/fetcher/tmp/struct-bias-1.2.3.tar.gz]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [struct-bias]: Start processing: gardener-cicd-whd
+[2023-06-16 10:09:05] INFO root fetch - main [MainThread]: End processing [struct-bias]: success
+[2023-06-16 10:09:05] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/2c/ea/a992acfb92250a2c9bb535ab2bbec99cf9f8afbb636ff02cfe235f2ed2f6/gardener-cicd-cli-1.2084.0.tar.gz
+[2023-06-16 10:09:05] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2085.0] Old Version: [1.2084.0]
+[2023-06-16 10:09:05] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/3e/53/0046c129230750a29534e8abf10cde6a6de97dad7f976867b6b9221c5489/gardener-cicd-dso-1.2084.0.tar.gz
+[2023-06-16 10:09:05] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/f1/ae/43ac4c5e40295ebf3028b57f490ad562122f5d4d876717d3106ce226d0e7/gardener-cicd-whd-1.2084.0.tar.gz
+[2023-06-16 10:09:05] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ca/f5/27e073cc02eda30e18fc628a079316411fa62bf9d0eff4d2321c2f7dc740/gardener-cicd-libs-1.2084.0.tar.gz
+[2023-06-16 10:09:05] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/4c/3e/7e426701b68d58e4ed4f450303a8a79350ae6a4e0ae51b8fa1280ed85258/gardener-cicd-base-1.2085.0.tar.gz
+[2023-06-16 10:09:05] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/30/8a/f00335fe53d1fb0ba2faacefb02f5adb86b4ee31b346230ad2799a43004c/gardener-cicd-cli-1.2085.0.tar.gz
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/9b/25/e8d43258684223b2416b583f54813454850feeb4eb8c2333d70693011bc5/gardener-cicd-dso-1.2085.0.tar.gz
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2084.0.tar.gz tmp/gardener-cicd-base-1.2085.0.tar.gz --markdown 20230616/g/gardener-cicd-base/1.2084.0-1.2085.0/diff.md --exclude *.pyd
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2084.0.tar.gz tmp/gardener-cicd-cli-1.2085.0.tar.gz --markdown 20230616/g/gardener-cicd-cli/1.2084.0-1.2085.0/diff.md --exclude *.pyd
+[2023-06-16 10:09:06] INFO root fetch - processPackages [grizli]: executing diffoscope
+[2023-06-16 10:09:06] INFO root fetch - processPackages [grizli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizli-1.8.8.tar.gz tmp/grizli-1.8.9.tar.gz --markdown 20230616/g/grizli/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2084.0.tar.gz tmp/gardener-cicd-dso-1.2085.0.tar.gz --markdown 20230616/g/gardener-cicd-dso/1.2084.0-1.2085.0/diff.md --exclude *.pyd
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/b8/c2/2762eecd180c8379b208a5403c3e2a0a5f62d3442cae5b0fa709c47db852/gardener-cicd-whd-1.2085.0.tar.gz
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/14/fc/8a9d6d2284f61a410267a4eb35fcec6715b2318bdb582215a71da5c076d3/gardener-cicd-libs-1.2085.0.tar.gz
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2084.0.tar.gz tmp/gardener-cicd-whd-1.2085.0.tar.gz --markdown 20230616/g/gardener-cicd-whd/1.2084.0-1.2085.0/diff.md --exclude *.pyd
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2084.0.tar.gz tmp/gardener-cicd-libs-1.2085.0.tar.gz --markdown 20230616/g/gardener-cicd-libs/1.2084.0-1.2085.0/diff.md --exclude *.pyd
+[2023-06-16 10:09:06] INFO root fetch - processPackages [micropython-esp-wifi-manager]: Remove: archive file [/home/abi/fetcher/tmp/micropython-esp-wifi-manager-1.8.0.tar.gz]
+[2023-06-16 10:09:06] INFO root fetch - processPackages [micropython-esp-wifi-manager]: Remove: archive file [/home/abi/fetcher/tmp/micropython-esp-wifi-manager-1.9.0.tar.gz]
+[2023-06-16 10:09:06] INFO root fetch - processPackages [micropython-esp-wifi-manager]: Start processing: gardener-oci
+[2023-06-16 10:09:06] INFO root fetch - main [MainThread]: End processing [micropython-esp-wifi-manager]: success
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-06-16 10:09:06] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-06-16 10:09:07] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-06-16 10:09:07] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-06-16 10:09:07] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230616/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-06-16 10:09:07] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2084.0.tar.gz]
+[2023-06-16 10:09:07] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2085.0.tar.gz]
+[2023-06-16 10:09:07] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: zenroom
+[2023-06-16 10:09:07] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-06-16 10:09:07] INFO root fetch - processPackages [zenroom]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-06-16 10:09:07] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2084.0.tar.gz]
+[2023-06-16 10:09:07] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2085.0.tar.gz]
+[2023-06-16 10:09:07] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: memv
+[2023-06-16 10:09:07] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-06-16 10:09:07] WARNING root fetch - processPackages [memv]: Skipping, unable to determine old version
+[2023-06-16 10:09:07] INFO root fetch - processPackages [memv]: Start processing: fast-model-server
+[2023-06-16 10:09:07] INFO root fetch - main [MainThread]: End processing [memv] error
+[2023-06-16 10:09:07] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/61/23/196d3cf62da1ff7f834425eb1b5da252bde8b1dbeb03bce72000929e4954/zenroom-3.4.0.tar.gz
+[2023-06-16 10:09:07] INFO root fetch - processPackages [fast-model-server]: New version: [1.1.0.1] Old Version: [1.1.0.0]
+[2023-06-16 10:09:07] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2084.0.tar.gz]
+[2023-06-16 10:09:07] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2085.0.tar.gz]
+[2023-06-16 10:09:07] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: pg8000
+[2023-06-16 10:09:07] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-06-16 10:09:07] INFO root fetch - processPackages [pg8000]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-16 10:09:08] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25647222>=10485760
+[2023-06-16 10:09:08] INFO root fetch - processPackages [zenroom]: Start processing: rqalpha
+[2023-06-16 10:09:08] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-06-16 10:09:08] INFO root fetch - processPackages [rqalpha]: New version: [5.1.0] Old Version: [5.0.0]
+[2023-06-16 10:09:08] INFO root fetch - processPackages [fast-model-server]: Downloading https://files.pythonhosted.org/packages/2c/07/13b9c70b86aaad279e6ef4d3db9942305b2d1889ecd18a3d23f0cb530a14/fast_model_server-1.1.0.0-py2.py3-none-any.whl
+[2023-06-16 10:09:08] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2084.0.tar.gz]
+[2023-06-16 10:09:08] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2085.0.tar.gz]
+[2023-06-16 10:09:08] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: nucliadb-contributor-assets
+[2023-06-16 10:09:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-06-16 10:09:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post842] Old Version: [1.0.0.post841]
+[2023-06-16 10:09:08] INFO root fetch - processPackages [piplexed]: Remove: archive file [/home/abi/fetcher/tmp/piplexed-0.1.0.tar.gz]
+[2023-06-16 10:09:08] INFO root fetch - processPackages [piplexed]: Remove: archive file [/home/abi/fetcher/tmp/piplexed-0.1.1.tar.gz]
+[2023-06-16 10:09:08] INFO root fetch - processPackages [piplexed]: Start processing: nucliadb-contributor-assets
+[2023-06-16 10:09:08] INFO root fetch - main [MainThread]: End processing [piplexed]: success
+[2023-06-16 10:09:08] INFO root fetch - processPackages [pg8000]: Downloading https://files.pythonhosted.org/packages/65/e9/ec11aa94842e65712402367dde63c925ef6ed5bfa3491de9e4cda23530bc/pg8000-1.9.8.tar.gz
+[2023-06-16 10:09:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post842] Old Version: [1.0.0.post841]
+[2023-06-16 10:09:08] INFO root fetch - processPackages [rqalpha]: Downloading https://files.pythonhosted.org/packages/f0/ba/6095ac8edcecd19445be0acae9d7f790a081ae64afa2be79819f3fa870cb/rqalpha-5.0.0.tar.gz
+[2023-06-16 10:09:08] INFO root fetch - processPackages [fast-model-server]: Downloading https://files.pythonhosted.org/packages/7b/8b/ce93407638718fc631fd2717b5989f328ac0bb23d73d44ffa1720103e160/fast_model_server-1.1.0.1-py2.py3-none-any.whl
+[2023-06-16 10:09:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/6c/48/4c3396ddda9a20297088bcd310a642fb4d71d8eb05b730feef773eee2ae6/nucliadb_contributor_assets-1.0.0.post841-py3-none-any.whl
+[2023-06-16 10:09:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/6c/48/4c3396ddda9a20297088bcd310a642fb4d71d8eb05b730feef773eee2ae6/nucliadb_contributor_assets-1.0.0.post841-py3-none-any.whl
+[2023-06-16 10:09:08] INFO root fetch - processPackages [fast-model-server]: executing diffoscope
+[2023-06-16 10:09:08] INFO root fetch - processPackages [fast-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_model_server-1.1.0.0-py2.py3-none-any.whl.zip tmp/fast_model_server-1.1.0.1-py2.py3-none-any.whl.zip --markdown 20230616/f/fast-model-server/1.1.0.0-1.1.0.1/diff.md --exclude *.pyd
+[2023-06-16 10:09:08] INFO root fetch - processPackages [pg8000]: Downloading https://files.pythonhosted.org/packages/76/38/3c2b3384c447bdac7cd3f1155894dd6522935f7c923492baed5cc3d9b2bf/pg8000-1.9.9.tar.gz
+[2023-06-16 10:09:08] INFO root fetch - processPackages [rqalpha]: Downloading https://files.pythonhosted.org/packages/43/77/57311ca4eec9f9459080740764b8d8ea5b7ca2f526dae45efd89a3d54ad4/rqalpha-5.1.0.tar.gz
+[2023-06-16 10:09:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/5e/b7/a3ea24f0d8873930dd3c0950c11de58904cccb6b27e8b69e73c637db50b9/nucliadb_contributor_assets-1.0.0.post842-py3-none-any.whl
+[2023-06-16 10:09:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/5e/b7/a3ea24f0d8873930dd3c0950c11de58904cccb6b27e8b69e73c637db50b9/nucliadb_contributor_assets-1.0.0.post842-py3-none-any.whl
+[2023-06-16 10:09:08] INFO root fetch - processPackages [rqalpha]: executing diffoscope
+[2023-06-16 10:09:08] INFO root fetch - processPackages [rqalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqalpha-5.0.0.tar.gz tmp/rqalpha-5.1.0.tar.gz --markdown 20230616/r/rqalpha/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2023-06-16 10:09:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-16 10:09:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post841-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post842-py3-none-any.whl.zip --markdown 20230616/n/nucliadb-contributor-assets/1.0.0.post841-1.0.0.post842/diff.md --exclude *.pyd
+[2023-06-16 10:09:08] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-06-16 10:09:08] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-06-16 10:09:08] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-06-16 10:09:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-16 10:09:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post841-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post842-py3-none-any.whl.zip --markdown 20230616/n/nucliadb-contributor-assets/1.0.0.post841-1.0.0.post842/diff.md --exclude *.pyd
+[2023-06-16 10:09:09] INFO root fetch - processPackages [pg8000]: executing diffoscope
+[2023-06-16 10:09:09] INFO root fetch - processPackages [pg8000]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg8000-1.9.8.tar.gz tmp/pg8000-1.9.9.tar.gz --markdown 20230616/p/pg8000/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-16 10:09:09] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230615.tar.gz]
+[2023-06-16 10:09:09] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230616.tar.gz]
+[2023-06-16 10:09:09] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-16 10:09:09] INFO root fetch - processPackages [fast-model-server]: Remove: archive file [/home/abi/fetcher/tmp/fast_model_server-1.1.0.0-py2.py3-none-any.whl.zip]
+[2023-06-16 10:09:09] INFO root fetch - processPackages [fast-model-server]: Remove: archive file [/home/abi/fetcher/tmp/fast_model_server-1.1.0.1-py2.py3-none-any.whl.zip]
+[2023-06-16 10:09:09] INFO root fetch - main [MainThread]: End processing [fast-model-server]: success
+[2023-06-16 10:09:10] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2084.0.tar.gz]
+[2023-06-16 10:09:10] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2085.0.tar.gz]
+[2023-06-16 10:09:10] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-06-16 10:09:10] INFO root fetch - processPackages [pg8000]: Remove: archive file [/home/abi/fetcher/tmp/pg8000-1.9.8.tar.gz]
+[2023-06-16 10:09:10] INFO root fetch - processPackages [pg8000]: Remove: archive file [/home/abi/fetcher/tmp/pg8000-1.9.9.tar.gz]
+[2023-06-16 10:09:10] INFO root fetch - main [MainThread]: End processing [pg8000]: success
+[2023-06-16 10:09:10] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.8.8.tar.gz]
+[2023-06-16 10:09:10] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.8.9.tar.gz]
+[2023-06-16 10:09:10] INFO root fetch - main [MainThread]: End processing [grizli]: success
+[2023-06-16 10:09:12] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.0.0.tar.gz]
+[2023-06-16 10:09:12] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.1.0.tar.gz]
+[2023-06-16 10:09:12] INFO root fetch - main [MainThread]: End processing [rqalpha]: success
+[2023-06-16 10:09:23] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post841-py3-none-any.whl.zip]
+[2023-06-16 10:09:23] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post842-py3-none-any.whl.zip]
+[2023-06-16 10:09:23] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-16 10:09:23] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-16 10:09:28] INFO root fetch - processPackages [tamaas]: Remove: archive file [/home/abi/fetcher/tmp/tamaas-2.6.0-cp39-none-manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-16 10:09:28] INFO root fetch - processPackages [tamaas]: Remove: archive file [/home/abi/fetcher/tmp/tamaas-2.7.0rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip]
+[2023-06-16 10:09:28] INFO root fetch - main [MainThread]: End processing [tamaas]: success
+[2023-06-16 10:09:28] INFO root fetch - main [MainThread]: Store serial: [18529066]
