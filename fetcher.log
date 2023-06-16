@@ -10769,3 +10769,81 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 05:22:36] INFO root fetch - processPackages [omnata-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnata_cli-0.1.5.tar.gz]
 [2023-06-16 05:22:36] INFO root fetch - main [MainThread]: End processing [omnata-cli]: success
 [2023-06-16 05:22:36] INFO root fetch - main [MainThread]: Store serial: [18526685]
+[2023-06-16 05:27:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526685]
+[2023-06-16 05:27:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-16 05:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-magentoerpconnect
+[2023-06-16 05:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solldex-api-client
+[2023-06-16 05:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourcery-nightly
+[2023-06-16 05:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-chat-bot-builder
+[2023-06-16 05:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: function-schema
+[2023-06-16 05:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: konfuzio-sdk
+[2023-06-16 05:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: solldex-api-client
+[2023-06-16 05:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cq23
+[2023-06-16 05:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo11-addon-agreement
+[2023-06-16 05:27:47] INFO root fetch - processPackages [solldex-api-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-16 05:27:47] INFO root fetch - processPackages [function-schema]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-16 05:27:47] INFO root fetch - processPackages [my-chat-bot-builder]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 05:27:47] INFO root fetch - processPackages [solldex-api-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-16 05:27:47] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: New version: [8.0.3.0.0.99.dev99] Old Version: [8.0.3.0.0.99.dev98]
+[2023-06-16 05:27:47] INFO root fetch - processPackages [cq23]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-16 05:27:47] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-06-16 05:27:47] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/71/49/885441fff465f874c177af04fba402018f30ecf21c127b42139b3a096288/cq23-1.9.0.tar.gz
+[2023-06-16 05:27:47] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-06-16 05:27:47] INFO root fetch - processPackages [odoo11-addon-agreement]: New version: [11.0.0.1.0.99.dev80] Old Version: [11.0.0.1.0.99.dev79]
+[2023-06-16 05:27:47] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.3.1b9] Old Version: [1.3.1b8]
+[2023-06-16 05:27:47] INFO root fetch - processPackages [my-chat-bot-builder]: Downloading https://files.pythonhosted.org/packages/01/9e/c465e8e0ca37c1a86ab4f38b0c26ba4e11cf56965cc3e5dde954ec7c97a0/my_chat_bot_builder-0.0.1.tar.gz
+[2023-06-16 05:27:47] INFO root fetch - processPackages [function-schema]: Downloading https://files.pythonhosted.org/packages/91/30/942cf1e3418e335c72d7b6282847612c89f0c146b1bc7f8178dfb2a34d8f/function-schema-0.1.0.tar.gz
+[2023-06-16 05:27:47] INFO root fetch - processPackages [solldex-api-client]: Downloading https://files.pythonhosted.org/packages/f3/56/e26ccc3eec568371567069c1861c25b1b92d1a8ff019d1d6ded02aaee845/solldex-api-client-0.1.4.tar.gz
+[2023-06-16 05:27:47] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-06-16 05:27:47] INFO root fetch - processPackages [solldex-api-client]: Downloading https://files.pythonhosted.org/packages/f3/56/e26ccc3eec568371567069c1861c25b1b92d1a8ff019d1d6ded02aaee845/solldex-api-client-0.1.4.tar.gz
+[2023-06-16 05:27:47] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: Downloading https://files.pythonhosted.org/packages/ca/3e/4c137faab202d535afe62d150650274f3113494f50921b52376b49af1db3/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev98-py2-none-any.whl
+[2023-06-16 05:27:47] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/bb/92/5aebbb78c8920f648edfe2b42245025fcc022eaa86fcb7d0974c2b529f5d/cq23-1.9.1.tar.gz
+[2023-06-16 05:27:47] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-06-16 05:27:47] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230616/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-06-16 05:27:47] INFO root fetch - processPackages [odoo11-addon-agreement]: Downloading https://files.pythonhosted.org/packages/2f/94/28c85abea194f2d828108a68ec1b0f0047afef3e9b92b9e7aaf77b4b1364/odoo11_addon_agreement-11.0.0.1.0.99.dev79-py2.py3-none-any.whl
+[2023-06-16 05:27:47] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/29/18/ad9b7cf71f4ed9e14c12d1e096d050d07b94bd4dfb90329e967254028ab4/sourcery_nightly-1.3.1b8-py2.py3-none-win_amd64.whl
+[2023-06-16 05:27:47] INFO root fetch - processPackages [my-chat-bot-builder]: Downloading https://files.pythonhosted.org/packages/8c/da/ff11b44063aa1c8f69865a707a50087458e69e3bbdf07b3ba95a520fe426/my_chat_bot_builder-0.0.2.tar.gz
+[2023-06-16 05:27:47] INFO root fetch - processPackages [solldex-api-client]: Downloading https://files.pythonhosted.org/packages/0f/eb/30cee9212627b92d2e4cdf0df8f98e9ff64102b014cc438263c2ff6548ab/solldex-api-client-0.1.5.tar.gz
+[2023-06-16 05:27:47] INFO root fetch - processPackages [solldex-api-client]: Downloading https://files.pythonhosted.org/packages/0f/eb/30cee9212627b92d2e4cdf0df8f98e9ff64102b014cc438263c2ff6548ab/solldex-api-client-0.1.5.tar.gz
+[2023-06-16 05:27:47] INFO root fetch - processPackages [function-schema]: Downloading https://files.pythonhosted.org/packages/c9/2e/059107c6b65305324b8ba8fab7ced90857a00cee26c81017513f7c243a46/function_schema-0.2.0.tar.gz
+[2023-06-16 05:27:47] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-06-16 05:27:47] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-1.9.0.tar.gz tmp/cq23-1.9.1.tar.gz --markdown 20230616/c/cq23/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-16 05:27:47] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58876457>=10485760
+[2023-06-16 05:27:47] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-06-16 05:27:47] INFO root fetch - processPackages [my-chat-bot-builder]: executing diffoscope
+[2023-06-16 05:27:47] INFO root fetch - processPackages [my-chat-bot-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_chat_bot_builder-0.0.1.tar.gz tmp/my_chat_bot_builder-0.0.2.tar.gz --markdown 20230616/m/my-chat-bot-builder/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 05:27:47] INFO root fetch - processPackages [function-schema]: executing diffoscope
+[2023-06-16 05:27:47] INFO root fetch - processPackages [function-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function-schema-0.1.0.tar.gz tmp/function_schema-0.2.0.tar.gz --markdown 20230616/f/function-schema/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-16 05:27:47] INFO root fetch - processPackages [solldex-api-client]: executing diffoscope
+[2023-06-16 05:27:47] INFO root fetch - processPackages [solldex-api-client]: executing diffoscope
+[2023-06-16 05:27:47] INFO root fetch - processPackages [solldex-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solldex-api-client-0.1.4.tar.gz tmp/solldex-api-client-0.1.5.tar.gz --markdown 20230616/s/solldex-api-client/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-16 05:27:47] INFO root fetch - processPackages [solldex-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solldex-api-client-0.1.4.tar.gz tmp/solldex-api-client-0.1.5.tar.gz --markdown 20230616/s/solldex-api-client/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-16 05:27:47] INFO root fetch - processPackages [odoo11-addon-agreement]: Downloading https://files.pythonhosted.org/packages/77/0b/e96e608bd2d409dd1662ec76655d4bf26a8647744db884e109acf7e9972e/odoo11_addon_agreement-11.0.0.1.0.99.dev80-py2.py3-none-any.whl
+[2023-06-16 05:27:48] INFO root fetch - processPackages [odoo11-addon-agreement]: executing diffoscope
+[2023-06-16 05:27:48] INFO root fetch - processPackages [odoo11-addon-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_agreement-11.0.0.1.0.99.dev79-py2.py3-none-any.whl.zip tmp/odoo11_addon_agreement-11.0.0.1.0.99.dev80-py2.py3-none-any.whl.zip --markdown 20230616/o/odoo11-addon-agreement/11.0.0.1.0.99.dev79-11.0.0.1.0.99.dev80/diff.md --exclude *.pyd
+[2023-06-16 05:27:49] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-06-16 05:27:49] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-06-16 05:27:49] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-06-16 05:27:49] INFO root fetch - processPackages [my-chat-bot-builder]: Remove: archive file [/home/abi/fetcher/tmp/my_chat_bot_builder-0.0.1.tar.gz]
+[2023-06-16 05:27:49] INFO root fetch - processPackages [my-chat-bot-builder]: Remove: archive file [/home/abi/fetcher/tmp/my_chat_bot_builder-0.0.2.tar.gz]
+[2023-06-16 05:27:49] INFO root fetch - main [MainThread]: End processing [my-chat-bot-builder]: success
+[2023-06-16 05:27:49] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-1.9.0.tar.gz]
+[2023-06-16 05:27:49] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-1.9.1.tar.gz]
+[2023-06-16 05:27:49] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-06-16 05:27:49] INFO root fetch - processPackages [function-schema]: Remove: archive file [/home/abi/fetcher/tmp/function-schema-0.1.0.tar.gz]
+[2023-06-16 05:27:49] INFO root fetch - processPackages [function-schema]: Remove: archive file [/home/abi/fetcher/tmp/function_schema-0.2.0.tar.gz]
+[2023-06-16 05:27:49] INFO root fetch - main [MainThread]: End processing [function-schema]: success
+[2023-06-16 05:27:49] INFO root fetch - processPackages [solldex-api-client]: Remove: archive file [/home/abi/fetcher/tmp/solldex-api-client-0.1.4.tar.gz]
+[2023-06-16 05:27:49] INFO root fetch - processPackages [solldex-api-client]: Remove: archive file [/home/abi/fetcher/tmp/solldex-api-client-0.1.5.tar.gz]
+[2023-06-16 05:27:49] INFO root fetch - main [MainThread]: End processing [solldex-api-client]: success
+[2023-06-16 05:27:49] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: Downloading https://files.pythonhosted.org/packages/8c/df/e2903450ff8a8521d1ffe7f414b2c48a9ae22059b2f7e39c7ca578b500c2/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev99-py2-none-any.whl
+[2023-06-16 05:27:49] INFO root fetch - main [MainThread]: End processing [solldex-api-client]: success
+[2023-06-16 05:27:49] INFO root fetch - processPackages [odoo11-addon-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_agreement-11.0.0.1.0.99.dev79-py2.py3-none-any.whl.zip]
+[2023-06-16 05:27:49] INFO root fetch - processPackages [odoo11-addon-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_agreement-11.0.0.1.0.99.dev80-py2.py3-none-any.whl.zip]
+[2023-06-16 05:27:49] INFO root fetch - main [MainThread]: End processing [odoo11-addon-agreement]: success
+[2023-06-16 05:27:50] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: executing diffoscope
+[2023-06-16 05:27:50] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev98-py2-none-any.whl.zip tmp/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev99-py2-none-any.whl.zip --markdown 20230616/o/odoo8-addon-magentoerpconnect/8.0.3.0.0.99.dev98-8.0.3.0.0.99.dev99/diff.md --exclude *.pyd
+[2023-06-16 05:27:56] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev98-py2-none-any.whl.zip]
+[2023-06-16 05:27:56] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev99-py2-none-any.whl.zip]
+[2023-06-16 05:27:56] INFO root fetch - main [MainThread]: End processing [odoo8-addon-magentoerpconnect]: success
+[2023-06-16 05:27:56] INFO root fetch - main [MainThread]: Store serial: [18526717]
