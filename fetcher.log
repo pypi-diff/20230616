@@ -20988,3 +20988,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 12:57:59] INFO root fetch - processPackages [pyrfu]: Remove: archive file [/home/abi/fetcher/tmp/pyrfu-2.4.3.tar.gz]
 [2023-06-16 12:57:59] INFO root fetch - main [MainThread]: End processing [pyrfu]: success
 [2023-06-16 12:57:59] INFO root fetch - main [MainThread]: Store serial: [18530777]
+[2023-06-16 13:03:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530777]
+[2023-06-16 13:03:08] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-16 13:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haloop
+[2023-06-16 13:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: textnets
+[2023-06-16 13:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UComp
+[2023-06-16 13:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazysdk
+[2023-06-16 13:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xxtest
+[2023-06-16 13:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seaplane
+[2023-06-16 13:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nuovoLIRA
+[2023-06-16 13:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pyara
+[2023-06-16 13:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aacommpy
+[2023-06-16 13:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyavd
+[2023-06-16 13:03:08] INFO root fetch - processPackages [Pyara]: New version: [0.1.25] Old Version: [0.1.19]
+[2023-06-16 13:03:08] INFO root fetch - processPackages [UComp]: New version: [1.0.65] Old Version: [1.0.64]
+[2023-06-16 13:03:08] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 13:03:08] INFO root fetch - processPackages [nuovoLIRA]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-16 13:03:08] WARNING root fetch - processPackages [xxtest]: Skipping, unable to determine old version
+[2023-06-16 13:03:08] INFO root fetch - processPackages [xxtest]: Start processing: arxivai
+[2023-06-16 13:03:08] INFO root fetch - processPackages [aacommpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 13:03:08] INFO root fetch - main [MainThread]: End processing [xxtest] error
+[2023-06-16 13:03:08] INFO root fetch - processPackages [haloop]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 13:03:08] INFO root fetch - processPackages [textnets]: New version: [0.9.1] Old Version: [0.8.8]
+[2023-06-16 13:03:08] INFO root fetch - processPackages [pyavd]: New version: [4.0.0a2.dev2] Old Version: [4.0.0a2]
+[2023-06-16 13:03:08] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-16 13:03:09] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/96/a8/9b89be6d413d40f33680ee2ffa698372762662dfa5118ffd9a9963cb18bf/UComp-1.0.64.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [aacommpy]: Downloading https://files.pythonhosted.org/packages/cc/84/119419f68fa685857690cc3988e6a0509a9f8a40da053b9e158cc56e4f9b/aacommpy-0.1.8.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [nuovoLIRA]: Downloading https://files.pythonhosted.org/packages/d2/9c/1fd2d73a00dbad884affd893abbe09f11546f1202ac69a9e63bf87f68520/nuovoLIRA-0.2.0.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [arxivai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 13:03:09] INFO root fetch - processPackages [pyavd]: Downloading https://files.pythonhosted.org/packages/97/13/47d7b138bc29cd9f451b34cd8d3484e65f9a126666dba9eee4f7bd9bc5c5/pyavd-4.0.0a2-py3-none-any.whl
+[2023-06-16 13:03:09] INFO root fetch - processPackages [haloop]: Downloading https://files.pythonhosted.org/packages/70/7e/86b3039a321cd844b12e05a205bb4e7faf435027d6cdbee87ce9c24ff48e/haloop-0.0.8.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/ac/e5/93585692655c12a323fba78b7a2e02c39c3dcb8bd842a88313f8795685d7/Pyara-0.1.19.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [aacommpy]: Downloading https://files.pythonhosted.org/packages/14/6d/defc6d745b118f6b34275d3b3990a2a53be8d450e9ef0cec09d3ea855372/aacommpy-0.1.9.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [textnets]: Downloading https://files.pythonhosted.org/packages/92/26/35f64263f2da250514dffa825a02253953c37fb2ed60e443a42520207f00/textnets-0.8.8.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-06-16 13:03:09] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.8.tar.gz tmp/aacommpy-0.1.9.tar.gz --markdown 20230616/a/aacommpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 13:03:09] INFO root fetch - processPackages [nuovoLIRA]: Downloading https://files.pythonhosted.org/packages/aa/b0/df7464435b3ef8ada77eda1467f6c9c7dd1e7cf9fac714303e0061f10a31/nuovoLIRA-0.3.0.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [arxivai]: Downloading https://files.pythonhosted.org/packages/e1/2a/e14d8197ac444b660824efc96ad53058c0350101b717fa49eb0c015099d7/arxivai-0.0.8.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/49/3b/a3e87683f5fd47cc7392c31aae69d419ed158275419abb25991efc6fef86/UComp-1.0.65.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-06-16 13:03:09] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230616/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 13:03:09] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/95/4f/1abc055cf5f2eaf85b2b835822c34c6864a87cb86f2104a7805b8520a4ad/Pyara-0.1.25.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-16 13:03:09] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230616/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-16 13:03:09] INFO root fetch - processPackages [nuovoLIRA]: executing diffoscope
+[2023-06-16 13:03:09] INFO root fetch - processPackages [nuovoLIRA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuovoLIRA-0.2.0.tar.gz tmp/nuovoLIRA-0.3.0.tar.gz --markdown 20230616/n/nuovoLIRA/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-16 13:03:09] INFO root fetch - processPackages [pyavd]: Downloading https://files.pythonhosted.org/packages/df/7a/8124627e81f473fa61a0572f2db680c8daaf4f1e7e317ffab6b2b23bbc74/pyavd-4.0.0a2.dev2-py3-none-any.whl
+[2023-06-16 13:03:09] INFO root fetch - processPackages [haloop]: Downloading https://files.pythonhosted.org/packages/90/e6/835d0939febce3dd24e06f9147dc9f0b660e6924f861ba992caa3ad31e4b/haloop-0.0.9.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [textnets]: Downloading https://files.pythonhosted.org/packages/31/e7/57ad08dd6e9ae8b314bc82085ebf8fb14f0b30bf1d1a46edff7d59462f4b/textnets-0.9.1.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [Pyara]: executing diffoscope
+[2023-06-16 13:03:09] INFO root fetch - processPackages [Pyara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyara-0.1.19.tar.gz tmp/Pyara-0.1.25.tar.gz --markdown 20230616/P/Pyara/0.1.19-0.1.25/diff.md --exclude *.pyd
+[2023-06-16 13:03:09] INFO root fetch - processPackages [arxivai]: Downloading https://files.pythonhosted.org/packages/50/53/aac61452e0dd2d1eb59209b6cf623c394cecccd2f0e5f37c3586f04aa94c/arxivai-0.0.9.tar.gz
+[2023-06-16 13:03:09] INFO root fetch - processPackages [pyavd]: executing diffoscope
+[2023-06-16 13:03:09] INFO root fetch - processPackages [pyavd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyavd-4.0.0a2-py3-none-any.whl.zip tmp/pyavd-4.0.0a2.dev2-py3-none-any.whl.zip --markdown 20230616/p/pyavd/4.0.0a2-4.0.0a2.dev2/diff.md --exclude *.pyd
+[2023-06-16 13:03:09] INFO root fetch - processPackages [textnets]: executing diffoscope
+[2023-06-16 13:03:09] INFO root fetch - processPackages [textnets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textnets-0.8.8.tar.gz tmp/textnets-0.9.1.tar.gz --markdown 20230616/t/textnets/0.8.8-0.9.1/diff.md --exclude *.pyd
+[2023-06-16 13:03:09] INFO root fetch - processPackages [arxivai]: executing diffoscope
+[2023-06-16 13:03:09] INFO root fetch - processPackages [arxivai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxivai-0.0.8.tar.gz tmp/arxivai-0.0.9.tar.gz --markdown 20230616/a/arxivai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 13:03:09] INFO root fetch - processPackages [haloop]: executing diffoscope
+[2023-06-16 13:03:09] INFO root fetch - processPackages [haloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haloop-0.0.8.tar.gz tmp/haloop-0.0.9.tar.gz --markdown 20230616/h/haloop/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 13:03:10] INFO root fetch - processPackages [aacommpy]: Remove: archive file [/home/abi/fetcher/tmp/aacommpy-0.1.8.tar.gz]
+[2023-06-16 13:03:10] INFO root fetch - processPackages [aacommpy]: Remove: archive file [/home/abi/fetcher/tmp/aacommpy-0.1.9.tar.gz]
+[2023-06-16 13:03:10] INFO root fetch - processPackages [aacommpy]: Start processing: fortran-magic
+[2023-06-16 13:03:10] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-06-16 13:03:10] INFO root fetch - processPackages [fortran-magic]: New version: [0.8] Old Version: [0.7.1]
+[2023-06-16 13:03:10] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-16 13:03:10] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.64.tar.gz tmp/UComp-1.0.65.tar.gz --markdown 20230616/U/UComp/1.0.64-1.0.65/diff.md --exclude *.pyd
+[2023-06-16 13:03:10] INFO root fetch - processPackages [fortran-magic]: Downloading https://files.pythonhosted.org/packages/01/61/b0f5cfee8eae9943da75bc9da3bef688191030f379769109990cf0503127/fortran-magic-0.7.1.tar.gz
+[2023-06-16 13:03:11] INFO root fetch - processPackages [fortran-magic]: Downloading https://files.pythonhosted.org/packages/a3/30/a2f06c456501bf4a5f142e6fc635a87fcf21b0480653f87184b73f11da42/fortran-magic-0.8.tar.gz
+[2023-06-16 13:03:11] INFO root fetch - processPackages [nuovoLIRA]: Remove: archive file [/home/abi/fetcher/tmp/nuovoLIRA-0.2.0.tar.gz]
+[2023-06-16 13:03:11] INFO root fetch - processPackages [nuovoLIRA]: Remove: archive file [/home/abi/fetcher/tmp/nuovoLIRA-0.3.0.tar.gz]
+[2023-06-16 13:03:11] INFO root fetch - processPackages [nuovoLIRA]: Start processing: netbox-cisco-maintenance
+[2023-06-16 13:03:11] INFO root fetch - main [MainThread]: End processing [nuovoLIRA]: success
+[2023-06-16 13:03:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 13:03:11] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-06-16 13:03:11] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-06-16 13:03:11] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-06-16 13:03:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 13:03:11] INFO root fetch - processPackages [arxivai]: Remove: archive file [/home/abi/fetcher/tmp/arxivai-0.0.8.tar.gz]
+[2023-06-16 13:03:11] INFO root fetch - processPackages [arxivai]: Remove: archive file [/home/abi/fetcher/tmp/arxivai-0.0.9.tar.gz]
+[2023-06-16 13:03:11] INFO root fetch - main [MainThread]: End processing [arxivai]: success
+[2023-06-16 13:03:11] INFO root fetch - processPackages [fortran-magic]: executing diffoscope
+[2023-06-16 13:03:11] INFO root fetch - processPackages [fortran-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortran-magic-0.7.1.tar.gz tmp/fortran-magic-0.8.tar.gz --markdown 20230616/f/fortran-magic/0.7.1-0.8/diff.md --exclude *.pyd
+[2023-06-16 13:03:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 13:03:11] INFO root fetch - processPackages [haloop]: Remove: archive file [/home/abi/fetcher/tmp/haloop-0.0.8.tar.gz]
+[2023-06-16 13:03:11] INFO root fetch - processPackages [haloop]: Remove: archive file [/home/abi/fetcher/tmp/haloop-0.0.9.tar.gz]
+[2023-06-16 13:03:11] INFO root fetch - main [MainThread]: End processing [haloop]: success
+[2023-06-16 13:03:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 13:03:11] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 13:03:12] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-16 13:03:12] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-16 13:03:12] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-16 13:03:12] INFO root fetch - processPackages [textnets]: Remove: archive file [/home/abi/fetcher/tmp/textnets-0.8.8.tar.gz]
+[2023-06-16 13:03:12] INFO root fetch - processPackages [textnets]: Remove: archive file [/home/abi/fetcher/tmp/textnets-0.9.1.tar.gz]
+[2023-06-16 13:03:12] INFO root fetch - main [MainThread]: End processing [textnets]: success
+[2023-06-16 13:03:12] INFO root fetch - processPackages [fortran-magic]: Remove: archive file [/home/abi/fetcher/tmp/fortran-magic-0.7.1.tar.gz]
+[2023-06-16 13:03:12] INFO root fetch - processPackages [fortran-magic]: Remove: archive file [/home/abi/fetcher/tmp/fortran-magic-0.8.tar.gz]
+[2023-06-16 13:03:12] INFO root fetch - main [MainThread]: End processing [fortran-magic]: success
+[2023-06-16 13:03:12] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 13:03:12] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 13:03:12] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 13:03:14] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.64.tar.gz]
+[2023-06-16 13:03:14] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.65.tar.gz]
+[2023-06-16 13:03:14] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-16 13:03:14] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.19.tar.gz]
+[2023-06-16 13:03:14] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.25.tar.gz]
+[2023-06-16 13:03:14] INFO root fetch - main [MainThread]: End processing [Pyara]: success
+[2023-06-16 13:03:17] INFO root fetch - processPackages [pyavd]: Remove: archive file [/home/abi/fetcher/tmp/pyavd-4.0.0a2-py3-none-any.whl.zip]
+[2023-06-16 13:03:17] INFO root fetch - processPackages [pyavd]: Remove: archive file [/home/abi/fetcher/tmp/pyavd-4.0.0a2.dev2-py3-none-any.whl.zip]
+[2023-06-16 13:03:17] INFO root fetch - main [MainThread]: End processing [pyavd]: success
+[2023-06-16 13:03:17] INFO root fetch - main [MainThread]: Store serial: [18530826]
