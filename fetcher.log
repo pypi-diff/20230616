@@ -10508,3 +10508,99 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 05:00:50] INFO root fetch - processPackages [odoo9-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_account_mass_reconcile-9.0.1.0.0.99.dev98-py2-none-any.whl.zip]
 [2023-06-16 05:00:50] INFO root fetch - main [MainThread]: End processing [odoo9-addon-account-mass-reconcile]: success
 [2023-06-16 05:00:50] INFO root fetch - main [MainThread]: Store serial: [18526591]
+[2023-06-16 05:05:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526591]
+[2023-06-16 05:05:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-16 05:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kasa-crypt
+[2023-06-16 05:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalkpy
+[2023-06-16 05:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-devkit
+[2023-06-16 05:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo9-addon-account-banking-mandate
+[2023-06-16 05:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-account-payment-order
+[2023-06-16 05:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-base-extras
+[2023-06-16 05:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nv2a-debug
+[2023-06-16 05:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-account-banking-mandate
+[2023-06-16 05:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-account-payment-order
+[2023-06-16 05:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-banking-mandate
+[2023-06-16 05:05:59] INFO root fetch - processPackages [nv2a-debug]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 05:05:59] WARNING root fetch - processPackages [kasa-crypt]: Skipping, unable to determine old version
+[2023-06-16 05:05:59] INFO root fetch - processPackages [kasa-crypt]: Start processing: d20-orm
+[2023-06-16 05:05:59] INFO root fetch - main [MainThread]: End processing [kasa-crypt] error
+[2023-06-16 05:05:59] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 05:05:59] INFO root fetch - processPackages [streamlit-base-extras]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-16 05:05:59] INFO root fetch - processPackages [odoo9-addon-account-banking-mandate]: New version: [9.0.2.0.0.99.dev9] Old Version: [9.0.2.0.0.99.dev8]
+[2023-06-16 05:05:59] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-16 05:05:59] INFO root fetch - processPackages [odoo9-addon-account-payment-order]: New version: [9.0.1.4.0.99.dev9] Old Version: [9.0.1.4.0.99.dev8]
+[2023-06-16 05:05:59] INFO root fetch - processPackages [chalkpy]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-16 05:05:59] INFO root fetch - processPackages [nv2a-debug]: Downloading https://files.pythonhosted.org/packages/2e/88/6fa4ed0571f6ee0f5374b0ca6e64094ae1dbcb153e96ffb0ceae72ec89d1/nv2a_debug-0.1.1.tar.gz
+[2023-06-16 05:05:59] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/ba/f8/48c123c3f22d0ae525a7b4edbb61e0ea4be958779baf1093da7e2e92ca66/streamlit-base-extras-0.2.8.tar.gz
+[2023-06-16 05:05:59] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-16 05:05:59] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-16 05:05:59] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: New version: [14.0.2.0.4.dev3] Old Version: [14.0.2.0.4.dev2]
+[2023-06-16 05:05:59] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: New version: [12.0.2.0.3.99.dev8] Old Version: [12.0.2.0.3.99.dev7]
+[2023-06-16 05:05:59] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [16.0.1.0.2.7] Old Version: [16.0.1.0.2.6]
+[2023-06-16 05:05:59] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/bf/49/e3375f053e09a4cd26d81f171d794e29e6aa955303106ae677dbcf0e4143/chalkpy-2.9.0.tar.gz
+[2023-06-16 05:05:59] INFO root fetch - processPackages [odoo9-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/18/0c/142a76cb2901be1ca56f2d3b3997bfa9ac66da747249fdcaf77e02147224/odoo9_addon_account_payment_order-9.0.1.4.0.99.dev8-py2-none-any.whl
+[2023-06-16 05:05:59] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-16 05:05:59] INFO root fetch - processPackages [odoo9-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/60/77/233e95d9dd377747eaf0575c18aa6391c3b63293cb5dea59ef839b852d24/odoo9_addon_account_banking_mandate-9.0.2.0.0.99.dev8-py2-none-any.whl
+[2023-06-16 05:05:59] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/9f/86/43986893b7d3255a9ec46a8add5b31bb6cadf857fc714edad5634121fb84/odoo14_addon_account_payment_order-14.0.2.0.4.dev2-py3-none-any.whl
+[2023-06-16 05:05:59] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-16 05:05:59] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/fd/c0/fa5c3ae8961ae26054dc4b83c91df012b22cdf1179b57d88302c25a409da/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev7-py3-none-any.whl
+[2023-06-16 05:05:59] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/23/ad/5e2339bb5cfb40e819f37233ffde500aa5aa98535d1f288f73d3e1d50c1e/odoo_addon_account_banking_mandate-16.0.1.0.2.6-py3-none-any.whl
+[2023-06-16 05:06:00] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-16 05:06:00] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230616/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-16 05:06:00] INFO root fetch - processPackages [nv2a-debug]: Downloading https://files.pythonhosted.org/packages/e1/53/c5de601891d3c766a44e9fab7dd65d1d8d9332060d751c1d50bcbd3207b0/nv2a_debug-0.1.2.tar.gz
+[2023-06-16 05:06:00] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/57/6d/6c62cfb0160329d0de8745332c248a56f7813a2d7e0df64d54d326ce0773/streamlit-base-extras-0.2.9.tar.gz
+[2023-06-16 05:06:00] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/8b/e2/1ff8250c8bced8db94afd31dc21d72fb9d7b1c795faf36536e002abd6b08/chalkpy-2.9.1.tar.gz
+[2023-06-16 05:06:00] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-16 05:06:00] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230616/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 05:06:00] INFO root fetch - processPackages [nv2a-debug]: executing diffoscope
+[2023-06-16 05:06:00] INFO root fetch - processPackages [nv2a-debug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nv2a_debug-0.1.1.tar.gz tmp/nv2a_debug-0.1.2.tar.gz --markdown 20230616/n/nv2a-debug/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 05:06:00] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-16 05:06:00] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.0.tar.gz tmp/chalkpy-2.9.1.tar.gz --markdown 20230616/c/chalkpy/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/eb/c1/ec17b3175233569ea443f3943d8e2d10ebd5fdbadafbc5275710e6fd6ff5/odoo_addon_account_banking_mandate-16.0.1.0.2.7-py3-none-any.whl
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/5f/49/db410821cd3305b532943cf1b11a1109809f188670a1bec7975d18ac60a7/odoo14_addon_account_payment_order-14.0.2.0.4.dev3-py3-none-any.whl
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo9-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/2f/36/bd1b2e5b16ce4addb6a2a4c5f36d71ea3bbf98f7338851c98b39ea7b9c56/odoo9_addon_account_payment_order-9.0.1.4.0.99.dev9-py2-none-any.whl
+[2023-06-16 05:06:00] INFO root fetch - processPackages [streamlit-base-extras]: executing diffoscope
+[2023-06-16 05:06:00] INFO root fetch - processPackages [streamlit-base-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-base-extras-0.2.8.tar.gz tmp/streamlit-base-extras-0.2.9.tar.gz --markdown 20230616/s/streamlit-base-extras/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo9-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/1c/87/c74a247ecf1dffd90ba9f854fd55da0ffa40191833741f7b70a4ce896042/odoo9_addon_account_banking_mandate-9.0.2.0.0.99.dev9-py2-none-any.whl
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.6-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.7-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-account-banking-mandate/16.0.1.0.2.6-16.0.1.0.2.7/diff.md --exclude *.pyd
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: executing diffoscope
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_order-14.0.2.0.4.dev2-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_order-14.0.2.0.4.dev3-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-account-payment-order/14.0.2.0.4.dev2-14.0.2.0.4.dev3/diff.md --exclude *.pyd
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo9-addon-account-payment-order]: executing diffoscope
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo9-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_account_payment_order-9.0.1.4.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_account_payment_order-9.0.1.4.0.99.dev9-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-account-payment-order/9.0.1.4.0.99.dev8-9.0.1.4.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/b0/a4/39879a7fb490fc96bce98d61b5b4bdc973247c62c2d3a3cda4b67622ef8d/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev8-py3-none-any.whl
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo9-addon-account-banking-mandate]: executing diffoscope
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo9-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_account_banking_mandate-9.0.2.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_account_banking_mandate-9.0.2.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-account-banking-mandate/9.0.2.0.0.99.dev8-9.0.2.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: executing diffoscope
+[2023-06-16 05:06:00] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev8-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-account-banking-mandate/12.0.2.0.3.99.dev7-12.0.2.0.3.99.dev8/diff.md --exclude *.pyd
+[2023-06-16 05:06:01] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-16 05:06:01] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-16 05:06:01] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-16 05:06:01] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-16 05:06:01] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-16 05:06:01] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-16 05:06:02] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.6-py3-none-any.whl.zip]
+[2023-06-16 05:06:02] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.7-py3-none-any.whl.zip]
+[2023-06-16 05:06:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2023-06-16 05:06:02] INFO root fetch - processPackages [nv2a-debug]: Remove: archive file [/home/abi/fetcher/tmp/nv2a_debug-0.1.1.tar.gz]
+[2023-06-16 05:06:02] INFO root fetch - processPackages [nv2a-debug]: Remove: archive file [/home/abi/fetcher/tmp/nv2a_debug-0.1.2.tar.gz]
+[2023-06-16 05:06:02] INFO root fetch - main [MainThread]: End processing [nv2a-debug]: success
+[2023-06-16 05:06:02] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev7-py3-none-any.whl.zip]
+[2023-06-16 05:06:02] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev8-py3-none-any.whl.zip]
+[2023-06-16 05:06:02] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-banking-mandate]: success
+[2023-06-16 05:06:02] INFO root fetch - processPackages [odoo9-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_account_banking_mandate-9.0.2.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 05:06:02] INFO root fetch - processPackages [odoo9-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_account_banking_mandate-9.0.2.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-16 05:06:02] INFO root fetch - main [MainThread]: End processing [odoo9-addon-account-banking-mandate]: success
+[2023-06-16 05:06:02] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_order-14.0.2.0.4.dev2-py3-none-any.whl.zip]
+[2023-06-16 05:06:02] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_order-14.0.2.0.4.dev3-py3-none-any.whl.zip]
+[2023-06-16 05:06:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order]: success
+[2023-06-16 05:06:03] INFO root fetch - processPackages [odoo9-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_account_payment_order-9.0.1.4.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 05:06:03] INFO root fetch - processPackages [odoo9-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_account_payment_order-9.0.1.4.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-16 05:06:03] INFO root fetch - main [MainThread]: End processing [odoo9-addon-account-payment-order]: success
+[2023-06-16 05:06:03] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.8.tar.gz]
+[2023-06-16 05:06:03] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
+[2023-06-16 05:06:03] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
+[2023-06-16 05:06:06] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.0.tar.gz]
+[2023-06-16 05:06:06] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.1.tar.gz]
+[2023-06-16 05:06:06] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-16 05:06:06] INFO root fetch - main [MainThread]: Store serial: [18526628]
