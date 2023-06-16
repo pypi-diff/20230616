@@ -13751,3 +13751,106 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 08:18:39] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip]
 [2023-06-16 08:18:39] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
 [2023-06-16 08:18:39] INFO root fetch - main [MainThread]: Store serial: [18527891]
+[2023-06-16 08:23:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527891]
+[2023-06-16 08:23:48] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-16 08:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-pipline
+[2023-06-16 08:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-06-16 08:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nestedaccess
+[2023-06-16 08:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aspa
+[2023-06-16 08:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fsrs4anki-optimizer
+[2023-06-16 08:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-file-explorer
+[2023-06-16 08:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nestedaccess
+[2023-06-16 08:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: msl-package-manager
+[2023-06-16 08:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: EntroPy-Toolbox
+[2023-06-16 08:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: audiobook-tags
+[2023-06-16 08:23:48] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.24.2] Old Version: [3.24.1]
+[2023-06-16 08:23:48] INFO root fetch - processPackages [msl-package-manager]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-06-16 08:23:48] INFO root fetch - processPackages [nestedaccess]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-16 08:23:48] WARNING root fetch - processPackages [aspa]: Skipping, unable to determine old version
+[2023-06-16 08:23:48] INFO root fetch - processPackages [aspa]: Start processing: PyAlgoEngine
+[2023-06-16 08:23:48] INFO root fetch - main [MainThread]: End processing [aspa] error
+[2023-06-16 08:23:48] INFO root fetch - processPackages [pytorch-pipline]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-16 08:23:48] INFO root fetch - processPackages [django-file-explorer]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-16 08:23:48] INFO root fetch - processPackages [nestedaccess]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-16 08:23:48] WARNING root fetch - processPackages [audiobook-tags]: Skipping, unable to determine old version
+[2023-06-16 08:23:48] INFO root fetch - processPackages [audiobook-tags]: Start processing: shaku-database
+[2023-06-16 08:23:48] INFO root fetch - main [MainThread]: End processing [audiobook-tags] error
+[2023-06-16 08:23:48] WARNING root fetch - processPackages [EntroPy-Toolbox]: Skipping, unable to determine old version
+[2023-06-16 08:23:48] WARNING root fetch - processPackages [PyAlgoEngine]: Skipping, unable to determine old version
+[2023-06-16 08:23:48] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230616] Old Version: [1.6.1.dev20230614]
+[2023-06-16 08:23:48] INFO root fetch - processPackages [EntroPy-Toolbox]: Start processing: kalm
+[2023-06-16 08:23:48] INFO root fetch - main [MainThread]: End processing [EntroPy-Toolbox] error
+[2023-06-16 08:23:48] INFO root fetch - processPackages [PyAlgoEngine]: Start processing: ipyeos
+[2023-06-16 08:23:48] INFO root fetch - main [MainThread]: End processing [PyAlgoEngine] error
+[2023-06-16 08:23:48] INFO root fetch - processPackages [shaku-database]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-16 08:23:48] INFO root fetch - processPackages [ipyeos]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-16 08:23:48] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/4b/f6/2e2e75ecd7452bd7036a1a458422cf279f0545e580ed4095a0d4e75b8064/shaku-database-1.0.6.tar.gz
+[2023-06-16 08:23:48] INFO root fetch - processPackages [kalm]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-16 08:23:48] INFO root fetch - processPackages [ipyeos]: Downloading https://files.pythonhosted.org/packages/03/d9/81bda9a65bc26fca4126d682a43fc119a3371ac5ab567edb3a4f41956030/ipyeos-0.4.1.tar.gz
+[2023-06-16 08:23:48] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/92/2c/fa556465d2094358acb83746bcbace5bbcb69e28bd6f40dffbb8747f96a4/nestedaccess-0.2.1.tar.gz
+[2023-06-16 08:23:48] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/92/2c/fa556465d2094358acb83746bcbace5bbcb69e28bd6f40dffbb8747f96a4/nestedaccess-0.2.1.tar.gz
+[2023-06-16 08:23:48] INFO root fetch - processPackages [msl-package-manager]: Downloading https://files.pythonhosted.org/packages/f3/ef/36d4d5e0882155d9b000f6cbfc46edff056bc23b32a97be55f74edbc9b7c/msl-package-manager-2.5.2.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/a9/65/9edd539bdc1e63b5322db80406990b2bc541b3f8cd69fac143ae3c960256/fsrs4anki_optimizer-3.24.1.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/4d/0e/2aeac3f514ad12b1992b3de9455f250b965221ccc817d433bba0d26cd708/pytorch-pipline-0.2.1.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [django-file-explorer]: Downloading https://files.pythonhosted.org/packages/e8/d8/7fea416394db80ced65c6ac40f925a41fc22bfa3509e4c64d7ef56ce18cd/django-file-explorer-1.4.0.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/f9/18/807e79e8604a011eccbf6c6302f5749e023be2b14d9236c16c8a23339643/pretext-1.6.1.dev20230614.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/08/d6/afbd93ab17a860658e3f78d89626ca0ad442f18d7058216f69066b2b251d/kalm-0.6.8.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [ipyeos]: Downloading https://files.pythonhosted.org/packages/49/cd/a8a1847014bb5507b48d60f6bd8b96ea8ffb51159f2bc494f127362abb63/ipyeos-0.4.2.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/4c/ea/f64bb3c45fa6da4480d981bed4b8a48d19392fbd89b564924a7341288b4e/shaku-database-1.0.7.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/92/ea/a5fa4efabbe6dcbe1812a0e449ad985ff3f6bed6052aaa3cd10645667a98/nestedaccess-0.2.2.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/92/ea/a5fa4efabbe6dcbe1812a0e449ad985ff3f6bed6052aaa3cd10645667a98/nestedaccess-0.2.2.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/ca/66/eae02c9d6fadbdb131677a42bc5d59d32164eb4b042cb62fceb2d685ea0d/fsrs4anki_optimizer-3.24.2.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [ipyeos]: executing diffoscope
+[2023-06-16 08:23:49] INFO root fetch - processPackages [ipyeos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyeos-0.4.1.tar.gz tmp/ipyeos-0.4.2.tar.gz --markdown 20230616/i/ipyeos/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-16 08:23:49] INFO root fetch - processPackages [msl-package-manager]: Downloading https://files.pythonhosted.org/packages/5a/08/5dfb36909528d91061670f83b3c941d3a0186506b2044356c4d6af862dad/msl-package-manager-2.5.3.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [pytorch-pipline]: Downloading https://files.pythonhosted.org/packages/db/f7/598ff16e1956e34b3bdc83fcc0202f0d704a3d55a4128ae78afb113504bf/pytorch-pipline-0.2.2.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f3/ee/21230318a80577b7a92a016e6f1cf516735d553ff6164c13ff461de986aa/kalm-0.6.9.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [pytorch-pipline]: executing diffoscope
+[2023-06-16 08:23:49] INFO root fetch - processPackages [pytorch-pipline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-pipline-0.2.1.tar.gz tmp/pytorch-pipline-0.2.2.tar.gz --markdown 20230616/p/pytorch-pipline/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-16 08:23:49] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-06-16 08:23:49] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.24.1.tar.gz tmp/fsrs4anki_optimizer-3.24.2.tar.gz --markdown 20230616/f/fsrs4anki-optimizer/3.24.1-3.24.2/diff.md --exclude *.pyd
+[2023-06-16 08:23:49] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/57/ea/ba8d1daa7cac43effcda63bc8555cf0e1a8cc279831c9e7975ca89482978/pretext-1.6.1.dev20230616.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [shaku-database]: executing diffoscope
+[2023-06-16 08:23:49] INFO root fetch - processPackages [shaku-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaku-database-1.0.6.tar.gz tmp/shaku-database-1.0.7.tar.gz --markdown 20230616/s/shaku-database/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-16 08:23:49] INFO root fetch - processPackages [msl-package-manager]: executing diffoscope
+[2023-06-16 08:23:49] INFO root fetch - processPackages [msl-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msl-package-manager-2.5.2.tar.gz tmp/msl-package-manager-2.5.3.tar.gz --markdown 20230616/m/msl-package-manager/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-06-16 08:23:49] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-16 08:23:49] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.2.1.tar.gz tmp/nestedaccess-0.2.2.tar.gz --markdown 20230616/n/nestedaccess/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-16 08:23:49] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-16 08:23:49] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.2.1.tar.gz tmp/nestedaccess-0.2.2.tar.gz --markdown 20230616/n/nestedaccess/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-16 08:23:49] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-16 08:23:49] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.8.tar.gz tmp/kalm-0.6.9.tar.gz --markdown 20230616/k/kalm/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-16 08:23:49] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-16 08:23:49] INFO root fetch - processPackages [django-file-explorer]: Downloading https://files.pythonhosted.org/packages/0b/bf/7f42661f1b5d6103b52f2af846f5464408cce4303c1d73411764ccb7ac0f/django-file-explorer-1.5.0.tar.gz
+[2023-06-16 08:23:49] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230614.tar.gz tmp/pretext-1.6.1.dev20230616.tar.gz --markdown 20230616/p/pretext/1.6.1.dev20230614-1.6.1.dev20230616/diff.md --exclude *.pyd
+[2023-06-16 08:23:49] INFO root fetch - processPackages [django-file-explorer]: executing diffoscope
+[2023-06-16 08:23:49] INFO root fetch - processPackages [django-file-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-file-explorer-1.4.0.tar.gz tmp/django-file-explorer-1.5.0.tar.gz --markdown 20230616/d/django-file-explorer/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-16 08:23:51] INFO root fetch - processPackages [ipyeos]: Remove: archive file [/home/abi/fetcher/tmp/ipyeos-0.4.1.tar.gz]
+[2023-06-16 08:23:51] INFO root fetch - processPackages [ipyeos]: Remove: archive file [/home/abi/fetcher/tmp/ipyeos-0.4.2.tar.gz]
+[2023-06-16 08:23:51] INFO root fetch - main [MainThread]: End processing [ipyeos]: success
+[2023-06-16 08:23:51] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.2.1.tar.gz]
+[2023-06-16 08:23:51] INFO root fetch - processPackages [pytorch-pipline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pipline-0.2.2.tar.gz]
+[2023-06-16 08:23:51] INFO root fetch - main [MainThread]: End processing [pytorch-pipline]: success
+[2023-06-16 08:23:51] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.8.tar.gz]
+[2023-06-16 08:23:51] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.9.tar.gz]
+[2023-06-16 08:23:51] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-16 08:23:51] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.0.6.tar.gz]
+[2023-06-16 08:23:51] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.0.7.tar.gz]
+[2023-06-16 08:23:51] INFO root fetch - main [MainThread]: End processing [shaku-database]: success
+[2023-06-16 08:23:51] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.24.1.tar.gz]
+[2023-06-16 08:23:51] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.24.2.tar.gz]
+[2023-06-16 08:23:51] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-06-16 08:23:51] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.2.1.tar.gz]
+[2023-06-16 08:23:51] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.2.2.tar.gz]
+[2023-06-16 08:23:51] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-16 08:23:52] INFO root fetch - processPackages [msl-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/msl-package-manager-2.5.2.tar.gz]
+[2023-06-16 08:23:52] INFO root fetch - processPackages [msl-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/msl-package-manager-2.5.3.tar.gz]
+[2023-06-16 08:23:52] INFO root fetch - main [MainThread]: End processing [msl-package-manager]: success
+[2023-06-16 08:23:54] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230614.tar.gz]
+[2023-06-16 08:23:54] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230616.tar.gz]
+[2023-06-16 08:23:54] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-16 08:23:58] INFO root fetch - processPackages [django-file-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django-file-explorer-1.4.0.tar.gz]
+[2023-06-16 08:23:58] INFO root fetch - processPackages [django-file-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django-file-explorer-1.5.0.tar.gz]
+[2023-06-16 08:23:58] INFO root fetch - main [MainThread]: End processing [django-file-explorer]: success
+[2023-06-16 08:24:43] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-16 08:24:43] INFO root fetch - main [MainThread]: Store serial: [18527941]
