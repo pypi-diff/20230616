@@ -16348,3 +16348,168 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 09:52:24] INFO root fetch - processPackages [django-helpdesk]: Remove: archive file [/home/abi/fetcher/tmp/django-helpdesk-0.5.0.tar.gz]
 [2023-06-16 09:52:24] INFO root fetch - main [MainThread]: End processing [django-helpdesk]: success
 [2023-06-16 09:52:24] INFO root fetch - main [MainThread]: Store serial: [18528856]
+[2023-06-16 09:57:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528856]
+[2023-06-16 09:57:34] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-16 09:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo9-addon-website-portal-purchase
+[2023-06-16 09:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-website-event-register-free
+[2023-06-16 09:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo9-addon-website-portal-sale-v10
+[2023-06-16 09:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-website-slides
+[2023-06-16 09:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo8-addon-website-hr-contact
+[2023-06-16 09:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo8-addon-website-portal
+[2023-06-16 09:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fhir-kindling
+[2023-06-16 09:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-website-portal-purchase
+[2023-06-16 09:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo8-addon-website-portal-sale
+[2023-06-16 09:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fake-data-for-learning
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-hr-contact]: New version: [8.0.1.0.0.99.dev6] Old Version: [8.0.1.0.0.99.dev5]
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-slides]: New version: [8.0.2.0.1.99.dev9] Old Version: [8.0.2.0.1.99.dev8]
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: New version: [8.0.1.0.0.99.dev39] Old Version: [8.0.1.0.0.99.dev38]
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-portal]: New version: [8.0.1.0.0.99.dev38] Old Version: [8.0.1.0.0.99.dev37]
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo9-addon-website-portal-sale-v10]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-16 09:57:34] INFO root fetch - processPackages [fake-data-for-learning]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: New version: [8.0.1.0.0.99.dev35] Old Version: [8.0.1.0.0.99.dev34]
+[2023-06-16 09:57:34] INFO root fetch - processPackages [fhir-kindling]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-hr-contact]: Downloading https://files.pythonhosted.org/packages/7a/46/63c9973d78511a3a5fd308ef3c888abc72563435fb352992a52ec0e5091f/odoo8_addon_website_hr_contact-8.0.1.0.0.99.dev5-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: Downloading https://files.pythonhosted.org/packages/94/e3/95ca07322d6e164ed2f1425dd99f968b34d5a83d7912dc9c585b76987a9c/odoo9_addon_website_portal_purchase-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: Downloading https://files.pythonhosted.org/packages/cf/3c/ed3750272b8903f2b7e8fd2abd8c293e538913b12fb2770817e4aaff2545/odoo8_addon_website_portal_sale-8.0.1.0.0.99.dev38-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [fake-data-for-learning]: Downloading https://files.pythonhosted.org/packages/e6/e8/9976c5bd7d0113847da59b8073ff91b89a580f23bce78a30de9e3db39dd6/fake_data_for_learning-0.4.0.tar.gz
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-portal]: Downloading https://files.pythonhosted.org/packages/a1/76/34aaa3ce59182438f155bd267e81c6f715db07f9f30e60879a79fa16f46e/odoo8_addon_website_portal-8.0.1.0.0.99.dev37-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo9-addon-website-portal-sale-v10]: Downloading https://files.pythonhosted.org/packages/0c/69/4ef3e784fa05d6eed7b7eafa5270a4dbb2b18cfee8e6fcb9fd4a13471230/odoo9_addon_website_portal_sale_v10-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-slides]: Downloading https://files.pythonhosted.org/packages/db/73/bc846d26c50e08f2a11db15308de999701d2ef36e74b15a6254d448d2c0b/odoo8_addon_website_slides-8.0.2.0.1.99.dev8-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: Downloading https://files.pythonhosted.org/packages/61/0d/4ad93d5f8c18f249be43842cd890e29b4ef11a97a6c8dc341d3e965387a8/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [fhir-kindling]: Downloading https://files.pythonhosted.org/packages/04/55/af2585afe99d029a1656331e56292f6a97c099cc58dfbe08ac22530f8209/fhir_kindling-1.0.0a8.tar.gz
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Downloading https://files.pythonhosted.org/packages/e3/e8/11b8934f9c111c0e2c4b1400a5441baafc2fc0f5f58c9c6610321141f859/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev34-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-hr-contact]: Downloading https://files.pythonhosted.org/packages/76/ef/4a2c2005a4c317a98be0fa92ca801600996482f4ab8879c292bb220057ca/odoo8_addon_website_hr_contact-8.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [fake-data-for-learning]: Downloading https://files.pythonhosted.org/packages/46/c9/5deaae1e4ebaf6c33a90a9747f0148a05f999a3bd3494c4e7ddf3023f4da/fake_data_for_learning-0.4.1.tar.gz
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-portal]: Downloading https://files.pythonhosted.org/packages/13/ce/a3af540d0bdbb8c7246f5197d52c0ca9fd39deba60745343cf2770307a76/odoo8_addon_website_portal-8.0.1.0.0.99.dev38-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: Downloading https://files.pythonhosted.org/packages/64/10/f9d9ea4ece451efb4117c427c2da58cbe8e069a5e1a8f459731736bc6f06/odoo8_addon_website_portal_sale-8.0.1.0.0.99.dev39-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-hr-contact]: executing diffoscope
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-hr-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_hr_contact-8.0.1.0.0.99.dev5-py2-none-any.whl.zip tmp/odoo8_addon_website_hr_contact-8.0.1.0.0.99.dev6-py2-none-any.whl.zip --markdown 20230616/o/odoo8-addon-website-hr-contact/8.0.1.0.0.99.dev5-8.0.1.0.0.99.dev6/diff.md --exclude *.pyd
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: Downloading https://files.pythonhosted.org/packages/02/a7/9f2b9c0dd3dd0219d1cba073d6e0f481d5a9cf3f8e8c071238d4cbe0015a/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [fake-data-for-learning]: executing diffoscope
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: Downloading https://files.pythonhosted.org/packages/51/8f/f9e3a6a5d6bcbb6e68ab6524e06aaae33741c85fdc78d09eebb02b7b77ab/odoo9_addon_website_portal_purchase-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [fake-data-for-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_data_for_learning-0.4.0.tar.gz tmp/fake_data_for_learning-0.4.1.tar.gz --markdown 20230616/f/fake-data-for-learning/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo9-addon-website-portal-sale-v10]: Downloading https://files.pythonhosted.org/packages/09/75/8b2be570f32566de9922abea00b24c43bdbffdc0a86f64ca3fe075dffeaf/odoo9_addon_website_portal_sale_v10-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-16 09:57:34] INFO root fetch - processPackages [fhir-kindling]: Downloading https://files.pythonhosted.org/packages/28/c2/e5d5f8570bf83ea609986b43cf8956360b334d9026bc3f7a3dea3fbe9415/fhir_kindling-1.0.0a9.tar.gz
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-portal]: executing diffoscope
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_portal-8.0.1.0.0.99.dev37-py2-none-any.whl.zip tmp/odoo8_addon_website_portal-8.0.1.0.0.99.dev38-py2-none-any.whl.zip --markdown 20230616/o/odoo8-addon-website-portal/8.0.1.0.0.99.dev37-8.0.1.0.0.99.dev38/diff.md --exclude *.pyd
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: executing diffoscope
+[2023-06-16 09:57:34] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_portal_sale-8.0.1.0.0.99.dev38-py2-none-any.whl.zip tmp/odoo8_addon_website_portal_sale-8.0.1.0.0.99.dev39-py2-none-any.whl.zip --markdown 20230616/o/odoo8-addon-website-portal-sale/8.0.1.0.0.99.dev38-8.0.1.0.0.99.dev39/diff.md --exclude *.pyd
+[2023-06-16 09:57:35] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Downloading https://files.pythonhosted.org/packages/ae/ea/37ddd592cf91863e6478d8242b67c03994bfd4f69bdc2cc42acc21537c2c/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev35-py2-none-any.whl
+[2023-06-16 09:57:35] INFO root fetch - processPackages [fhir-kindling]: executing diffoscope
+[2023-06-16 09:57:35] INFO root fetch - processPackages [fhir-kindling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhir_kindling-1.0.0a8.tar.gz tmp/fhir_kindling-1.0.0a9.tar.gz --markdown 20230616/f/fhir-kindling/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-16 09:57:35] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: executing diffoscope
+[2023-06-16 09:57:35] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230616/o/odoo8-addon-website-event-register-free/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:57:35] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: executing diffoscope
+[2023-06-16 09:57:35] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev34-py2-none-any.whl.zip tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev35-py2-none-any.whl.zip --markdown 20230616/o/odoo8-addon-website-portal-purchase/8.0.1.0.0.99.dev34-8.0.1.0.0.99.dev35/diff.md --exclude *.pyd
+[2023-06-16 09:57:35] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: executing diffoscope
+[2023-06-16 09:57:35] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_website_portal_purchase-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_website_portal_purchase-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-website-portal-purchase/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:57:35] INFO root fetch - processPackages [odoo9-addon-website-portal-sale-v10]: executing diffoscope
+[2023-06-16 09:57:35] INFO root fetch - processPackages [odoo9-addon-website-portal-sale-v10]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_website_portal_sale_v10-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_website_portal_sale_v10-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-website-portal-sale-v10/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:57:35] INFO root fetch - processPackages [odoo8-addon-website-slides]: Downloading https://files.pythonhosted.org/packages/9f/ce/4a233360dfbbadf7571ab2ce56b8a846bac4677b5cc4245467711c98d8ae/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl
+[2023-06-16 09:57:36] INFO root fetch - processPackages [odoo8-addon-website-slides]: executing diffoscope
+[2023-06-16 09:57:36] INFO root fetch - processPackages [odoo8-addon-website-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl.zip --markdown 20230616/o/odoo8-addon-website-slides/8.0.2.0.1.99.dev8-8.0.2.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:57:36] INFO root fetch - processPackages [odoo8-addon-website-hr-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_hr_contact-8.0.1.0.0.99.dev5-py2-none-any.whl.zip]
+[2023-06-16 09:57:36] INFO root fetch - processPackages [odoo8-addon-website-hr-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_hr_contact-8.0.1.0.0.99.dev6-py2-none-any.whl.zip]
+[2023-06-16 09:57:36] INFO root fetch - processPackages [odoo8-addon-website-hr-contact]: Start processing: th2-grpc-lw-data-provider
+[2023-06-16 09:57:36] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-hr-contact]: success
+[2023-06-16 09:57:36] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5287554779]
+[2023-06-16 09:57:36] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/49/23/aea713479a26aa06a70487308e9220351fc85c9a8fbd3dc4e54bc3183aa1/th2_grpc_lw_data_provider-2.0.0.dev5287554779.tar.gz
+[2023-06-16 09:57:36] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-16 09:57:36] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-16 09:57:36] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5287554779.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230616/t/th2-grpc-lw-data-provider/2.0.0.dev5287554779-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-16 09:57:36] INFO root fetch - processPackages [odoo8-addon-website-portal]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_portal-8.0.1.0.0.99.dev37-py2-none-any.whl.zip]
+[2023-06-16 09:57:36] INFO root fetch - processPackages [odoo8-addon-website-portal]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_portal-8.0.1.0.0.99.dev38-py2-none-any.whl.zip]
+[2023-06-16 09:57:36] INFO root fetch - processPackages [odoo8-addon-website-portal]: Start processing: recnetpy
+[2023-06-16 09:57:36] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-portal]: success
+[2023-06-16 09:57:36] INFO root fetch - processPackages [recnetpy]: New version: [0.1.49] Old Version: [0.1.48]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [fhir-kindling]: Remove: archive file [/home/abi/fetcher/tmp/fhir_kindling-1.0.0a8.tar.gz]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [fhir-kindling]: Remove: archive file [/home/abi/fetcher/tmp/fhir_kindling-1.0.0a9.tar.gz]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [fhir-kindling]: Start processing: mctech-actuator
+[2023-06-16 09:57:37] INFO root fetch - main [MainThread]: End processing [fhir-kindling]: success
+[2023-06-16 09:57:37] WARNING root fetch - processPackages [mctech-actuator]: Skipping, unable to determine old version
+[2023-06-16 09:57:37] INFO root fetch - processPackages [mctech-actuator]: Start processing: mctech-cloud
+[2023-06-16 09:57:37] INFO root fetch - main [MainThread]: End processing [mctech-actuator] error
+[2023-06-16 09:57:37] INFO root fetch - processPackages [fake-data-for-learning]: Remove: archive file [/home/abi/fetcher/tmp/fake_data_for_learning-0.4.0.tar.gz]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [fake-data-for-learning]: Remove: archive file [/home/abi/fetcher/tmp/fake_data_for_learning-0.4.1.tar.gz]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [fake-data-for-learning]: Start processing: mctech-discovery
+[2023-06-16 09:57:37] INFO root fetch - main [MainThread]: End processing [fake-data-for-learning]: success
+[2023-06-16 09:57:37] INFO root fetch - processPackages [recnetpy]: Downloading https://files.pythonhosted.org/packages/c8/85/2e1e33d713260f9c5eb56f471c5dfd3f0eb371d8977270cc99c68f7270a6/recnetpy-0.1.48.tar.gz
+[2023-06-16 09:57:37] WARNING root fetch - processPackages [mctech-cloud]: Skipping, unable to determine old version
+[2023-06-16 09:57:37] INFO root fetch - processPackages [mctech-cloud]: Start processing: bn-keyword-extractor
+[2023-06-16 09:57:37] INFO root fetch - main [MainThread]: End processing [mctech-cloud] error
+[2023-06-16 09:57:37] WARNING root fetch - processPackages [mctech-discovery]: Skipping, unable to determine old version
+[2023-06-16 09:57:37] INFO root fetch - processPackages [mctech-discovery]: Start processing: bareunpy
+[2023-06-16 09:57:37] INFO root fetch - main [MainThread]: End processing [mctech-discovery] error
+[2023-06-16 09:57:37] INFO root fetch - processPackages [bn-keyword-extractor]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [bareunpy]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev34-py2-none-any.whl.zip]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev35-py2-none-any.whl.zip]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Start processing: pymince
+[2023-06-16 09:57:37] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-portal-purchase]: success
+[2023-06-16 09:57:37] INFO root fetch - processPackages [pymince]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [bn-keyword-extractor]: Downloading https://files.pythonhosted.org/packages/f0/66/c257479a6ac9e47cd69d0dd882cdd39746c9d40a2a225b3912d6d396cbba/bn_keyword_extractor-1.0.1.tar.gz
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_portal_sale-8.0.1.0.0.99.dev38-py2-none-any.whl.zip]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_portal_sale-8.0.1.0.0.99.dev39-py2-none-any.whl.zip]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo8-addon-website-portal-sale]: Start processing: vitaldb
+[2023-06-16 09:57:37] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-portal-sale]: success
+[2023-06-16 09:57:37] INFO root fetch - processPackages [bareunpy]: Downloading https://files.pythonhosted.org/packages/ac/16/cdade524e48ec06811910d0f9c702206c2765064dcea60d5250249c38d50/bareunpy-1.6.1.tar.gz
+[2023-06-16 09:57:37] INFO root fetch - processPackages [vitaldb]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_event_register_free-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo8-addon-website-event-register-free]: Start processing: cg
+[2023-06-16 09:57:37] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-event-register-free]: success
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_website_portal_purchase-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo9-addon-website-portal-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_website_portal_purchase-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-16 09:57:37] INFO root fetch - main [MainThread]: End processing [odoo9-addon-website-portal-purchase]: success
+[2023-06-16 09:57:37] INFO root fetch - processPackages [recnetpy]: Downloading https://files.pythonhosted.org/packages/88/46/a79296fc7e5c9eb8b878b29dfe56e070443f0b37927fad713c7bdd111c14/recnetpy-0.1.49.tar.gz
+[2023-06-16 09:57:37] INFO root fetch - processPackages [cg]: New version: [36.2.2] Old Version: [36.2.1]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [pymince]: Downloading https://files.pythonhosted.org/packages/c5/4a/1e79653f8fbe32fff14f3f64413dd01d686932848da8557eadfcfa19c276/pymince-2.7.0.tar.gz
+[2023-06-16 09:57:37] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/9e/dbbba0e5216f655e19f12b3632fd593164f5c72af78acbb79c26402099c5/cg-36.2.1.tar.gz
+[2023-06-16 09:57:37] INFO root fetch - processPackages [bn-keyword-extractor]: Downloading https://files.pythonhosted.org/packages/37/25/3a2a75f6aeaf3501d86005ef80165aba6378d72b90702172a9ea5ac7ab96/bn_keyword_extractor-1.0.2.tar.gz
+[2023-06-16 09:57:37] INFO root fetch - processPackages [vitaldb]: Downloading https://files.pythonhosted.org/packages/ff/c5/e6f730b596e81b08cf3b2bde683523ee5a5143c365cacea9e006960f7328/vitaldb-1.4.1-py3-none-any.whl
+[2023-06-16 09:57:37] INFO root fetch - processPackages [bareunpy]: Downloading https://files.pythonhosted.org/packages/f5/c0/b8ab532e55d777516b8e9919e84fb38cfb20e862fe6b754f6473707840fb/bareunpy-1.6.2.tar.gz
+[2023-06-16 09:57:37] INFO root fetch - processPackages [recnetpy]: executing diffoscope
+[2023-06-16 09:57:37] INFO root fetch - processPackages [recnetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recnetpy-0.1.48.tar.gz tmp/recnetpy-0.1.49.tar.gz --markdown 20230616/r/recnetpy/0.1.48-0.1.49/diff.md --exclude *.pyd
+[2023-06-16 09:57:37] INFO root fetch - processPackages [bareunpy]: executing diffoscope
+[2023-06-16 09:57:37] INFO root fetch - processPackages [bareunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bareunpy-1.6.1.tar.gz tmp/bareunpy-1.6.2.tar.gz --markdown 20230616/b/bareunpy/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-06-16 09:57:37] INFO root fetch - processPackages [bn-keyword-extractor]: executing diffoscope
+[2023-06-16 09:57:37] INFO root fetch - processPackages [bn-keyword-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bn_keyword_extractor-1.0.1.tar.gz tmp/bn_keyword_extractor-1.0.2.tar.gz --markdown 20230616/b/bn-keyword-extractor/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-16 09:57:37] INFO root fetch - processPackages [pymince]: Downloading https://files.pythonhosted.org/packages/a7/b9/38bdee0303ede4576eb03f2bc3d3f939be58e8263d673d3f8c2aade9580b/pymince-2.8.0.tar.gz
+[2023-06-16 09:57:37] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/4e/4f/b71ae3814a883b44539a3b550c1656bd3c1414a442f6176ea79d3e8326d8/cg-36.2.2.tar.gz
+[2023-06-16 09:57:37] INFO root fetch - processPackages [vitaldb]: Downloading https://files.pythonhosted.org/packages/95/2d/3eaaaa8dd8b1ba03501cff6632c37878b34824eda40e111b0d7fcc7bfb44/vitaldb-1.4.2-py3-none-any.whl
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo9-addon-website-portal-sale-v10]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_website_portal_sale_v10-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 09:57:37] INFO root fetch - processPackages [odoo9-addon-website-portal-sale-v10]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_website_portal_sale_v10-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-16 09:57:37] INFO root fetch - main [MainThread]: End processing [odoo9-addon-website-portal-sale-v10]: success
+[2023-06-16 09:57:37] INFO root fetch - processPackages [pymince]: executing diffoscope
+[2023-06-16 09:57:37] INFO root fetch - processPackages [pymince]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymince-2.7.0.tar.gz tmp/pymince-2.8.0.tar.gz --markdown 20230616/p/pymince/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-06-16 09:57:37] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-16 09:57:37] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.2.1.tar.gz tmp/cg-36.2.2.tar.gz --markdown 20230616/c/cg/36.2.1-36.2.2/diff.md --exclude *.pyd
+[2023-06-16 09:57:38] INFO root fetch - processPackages [vitaldb]: executing diffoscope
+[2023-06-16 09:57:38] INFO root fetch - processPackages [vitaldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vitaldb-1.4.1-py3-none-any.whl.zip tmp/vitaldb-1.4.2-py3-none-any.whl.zip --markdown 20230616/v/vitaldb/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-16 09:57:38] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5287554779.tar.gz]
+[2023-06-16 09:57:38] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-16 09:57:38] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-16 09:57:39] INFO root fetch - processPackages [odoo8-addon-website-slides]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 09:57:39] INFO root fetch - processPackages [odoo8-addon-website-slides]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl.zip]
+[2023-06-16 09:57:39] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-slides]: success
+[2023-06-16 09:57:39] INFO root fetch - processPackages [bareunpy]: Remove: archive file [/home/abi/fetcher/tmp/bareunpy-1.6.1.tar.gz]
+[2023-06-16 09:57:39] INFO root fetch - processPackages [bareunpy]: Remove: archive file [/home/abi/fetcher/tmp/bareunpy-1.6.2.tar.gz]
+[2023-06-16 09:57:39] INFO root fetch - main [MainThread]: End processing [bareunpy]: success
+[2023-06-16 09:57:39] INFO root fetch - processPackages [bn-keyword-extractor]: Remove: archive file [/home/abi/fetcher/tmp/bn_keyword_extractor-1.0.1.tar.gz]
+[2023-06-16 09:57:39] INFO root fetch - processPackages [bn-keyword-extractor]: Remove: archive file [/home/abi/fetcher/tmp/bn_keyword_extractor-1.0.2.tar.gz]
+[2023-06-16 09:57:39] INFO root fetch - main [MainThread]: End processing [bn-keyword-extractor]: success
+[2023-06-16 09:57:39] INFO root fetch - processPackages [vitaldb]: Remove: archive file [/home/abi/fetcher/tmp/vitaldb-1.4.1-py3-none-any.whl.zip]
+[2023-06-16 09:57:39] INFO root fetch - processPackages [vitaldb]: Remove: archive file [/home/abi/fetcher/tmp/vitaldb-1.4.2-py3-none-any.whl.zip]
+[2023-06-16 09:57:39] INFO root fetch - main [MainThread]: End processing [vitaldb]: success
+[2023-06-16 09:57:39] INFO root fetch - processPackages [pymince]: Remove: archive file [/home/abi/fetcher/tmp/pymince-2.7.0.tar.gz]
+[2023-06-16 09:57:39] INFO root fetch - processPackages [pymince]: Remove: archive file [/home/abi/fetcher/tmp/pymince-2.8.0.tar.gz]
+[2023-06-16 09:57:39] INFO root fetch - main [MainThread]: End processing [pymince]: success
+[2023-06-16 09:57:52] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.1.tar.gz]
+[2023-06-16 09:57:52] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.2.tar.gz]
+[2023-06-16 09:57:52] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-16 09:58:31] INFO root fetch - processPackages [recnetpy]: Remove: archive file [/home/abi/fetcher/tmp/recnetpy-0.1.48.tar.gz]
+[2023-06-16 09:58:31] INFO root fetch - processPackages [recnetpy]: Remove: archive file [/home/abi/fetcher/tmp/recnetpy-0.1.49.tar.gz]
+[2023-06-16 09:58:31] INFO root fetch - main [MainThread]: End processing [recnetpy]: success
+[2023-06-16 09:58:31] INFO root fetch - main [MainThread]: Store serial: [18528909]
