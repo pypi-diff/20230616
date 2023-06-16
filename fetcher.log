@@ -20815,3 +20815,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 12:42:17] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306161039-py3-none-any.whl.zip]
 [2023-06-16 12:42:17] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-16 12:42:17] INFO root fetch - main [MainThread]: Store serial: [18530715]
+[2023-06-16 12:47:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530715]
+[2023-06-16 12:47:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-16 12:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spiderx
+[2023-06-16 12:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ONE-api
+[2023-06-16 12:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rouver
+[2023-06-16 12:47:27] INFO root fetch - processPackages [ONE-api]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-16 12:47:27] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-06-16 12:47:27] INFO root fetch - processPackages [rouver]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-06-16 12:47:27] INFO root fetch - processPackages [ONE-api]: Downloading https://files.pythonhosted.org/packages/94/5b/77b0b58039544e1fcc8a313a81276052578dbae3041580bf5f1da2f2fe8f/ONE-api-2.0.0.tar.gz
+[2023-06-16 12:47:27] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-06-16 12:47:28] INFO root fetch - processPackages [rouver]: Downloading https://files.pythonhosted.org/packages/1f/6a/0480bc0498f3dcad24d6a6d60295ec48ced9cee4f3cb6acf2dac8eb6b827/rouver-2.6.1.tar.gz
+[2023-06-16 12:47:28] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-06-16 12:47:28] INFO root fetch - processPackages [ONE-api]: Downloading https://files.pythonhosted.org/packages/0c/81/fe75742f57ffa59d1a97cc483eb6d97d1339f2058c4547897dd544810827/ONE-api-2.1.0.tar.gz
+[2023-06-16 12:47:28] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-06-16 12:47:28] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230616/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-06-16 12:47:28] INFO root fetch - processPackages [ONE-api]: executing diffoscope
+[2023-06-16 12:47:28] INFO root fetch - processPackages [ONE-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ONE-api-2.0.0.tar.gz tmp/ONE-api-2.1.0.tar.gz --markdown 20230616/O/ONE-api/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-16 12:47:28] INFO root fetch - processPackages [rouver]: Downloading https://files.pythonhosted.org/packages/6f/92/1b3a2595b0fe26a8997f5052178c1e2c3ba04e3340e7dd58b7ba6bb08d52/rouver-2.6.2.tar.gz
+[2023-06-16 12:47:29] INFO root fetch - processPackages [rouver]: executing diffoscope
+[2023-06-16 12:47:29] INFO root fetch - processPackages [rouver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rouver-2.6.1.tar.gz tmp/rouver-2.6.2.tar.gz --markdown 20230616/r/rouver/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-06-16 12:47:29] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-06-16 12:47:29] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-06-16 12:47:29] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-06-16 12:47:29] INFO root fetch - processPackages [ONE-api]: Remove: archive file [/home/abi/fetcher/tmp/ONE-api-2.0.0.tar.gz]
+[2023-06-16 12:47:29] INFO root fetch - processPackages [ONE-api]: Remove: archive file [/home/abi/fetcher/tmp/ONE-api-2.1.0.tar.gz]
+[2023-06-16 12:47:29] INFO root fetch - main [MainThread]: End processing [ONE-api]: success
+[2023-06-16 12:47:30] INFO root fetch - processPackages [rouver]: Remove: archive file [/home/abi/fetcher/tmp/rouver-2.6.1.tar.gz]
+[2023-06-16 12:47:30] INFO root fetch - processPackages [rouver]: Remove: archive file [/home/abi/fetcher/tmp/rouver-2.6.2.tar.gz]
+[2023-06-16 12:47:30] INFO root fetch - main [MainThread]: End processing [rouver]: success
+[2023-06-16 12:47:30] INFO root fetch - main [MainThread]: Store serial: [18530721]
