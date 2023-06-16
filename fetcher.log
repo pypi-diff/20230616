@@ -9657,3 +9657,90 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 04:02:32] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.0b20230615.tar.gz]
 [2023-06-16 04:02:32] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
 [2023-06-16 04:02:32] INFO root fetch - main [MainThread]: Store serial: [18526200]
+[2023-06-16 04:07:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526200]
+[2023-06-16 04:07:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-16 04:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon
+[2023-06-16 04:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flaskz
+[2023-06-16 04:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.eda
+[2023-06-16 04:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycoparsec
+[2023-06-16 04:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-16 04:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: techbureau-symbol-sdk-python
+[2023-06-16 04:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dorado
+[2023-06-16 04:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dspawpy
+[2023-06-16 04:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omnata-plugin-devkit
+[2023-06-16 04:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlit-chat-foto
+[2023-06-16 04:07:42] INFO root fetch - processPackages [autogluon.eda]: New version: [0.8.0b20230615] Old Version: [0.8.0]
+[2023-06-16 04:07:42] INFO root fetch - processPackages [techbureau-symbol-sdk-python]: New version: [3.0.7.dev2] Old Version: [3.0.7.dev1]
+[2023-06-16 04:07:42] INFO root fetch - processPackages [pycoparsec]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 04:07:42] INFO root fetch - processPackages [flaskz]: New version: [1.6] Old Version: [1.5.3]
+[2023-06-16 04:07:42] INFO root fetch - processPackages [yplib]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-16 04:07:42] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-06-16 04:07:42] INFO root fetch - processPackages [dspawpy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-16 04:07:42] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 04:07:42] INFO root fetch - processPackages [autogluon]: New version: [0.8.0b20230615] Old Version: [0.8.0]
+[2023-06-16 04:07:42] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/28/c3/25ec9324622ba0dd720edcd3809a1c623c162133d247d2e22790624c723b/dorado-2.0.6.dev97.tar.gz
+[2023-06-16 04:07:42] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-16 04:07:42] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/58/a4/a54de9a4fc02a7c88438899e61baf29cb27228a71668d3ff65b7fa413f4d/yplib-1.4.8.tar.gz
+[2023-06-16 04:07:42] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/6a/48/93151c66ef7bc8baafacc095a0ff6fbb7843e7d9c346a149e81e34ac9822/autogluon.eda-0.8.0.tar.gz
+[2023-06-16 04:07:42] WARNING root fetch - processPackages [streamlit-chat-foto]: Skipping, unable to determine old version
+[2023-06-16 04:07:42] INFO root fetch - main [MainThread]: End processing [streamlit-chat-foto] error
+[2023-06-16 04:07:42] INFO root fetch - processPackages [pycoparsec]: Downloading https://files.pythonhosted.org/packages/f0/da/7ff3b64ffed4443cd025ae7fd2c4620479218f8c4bcc2bdb7da8152a84f9/pycoparsec-0.0.1.tar.gz
+[2023-06-16 04:07:42] INFO root fetch - processPackages [techbureau-symbol-sdk-python]: Downloading https://files.pythonhosted.org/packages/af/b1/73911473605adcf02afc14936245f49adde8bfc1175c20e0456893cca2af/techbureau-symbol-sdk-python-3.0.7.dev1.tar.gz
+[2023-06-16 04:07:42] INFO root fetch - processPackages [flaskz]: Downloading https://files.pythonhosted.org/packages/83/b8/fbead1deaa3a08c750bcf4d40aef732f01a685ed15ef101f8ff9b4693906/flaskz-1.5.3.tar.gz
+[2023-06-16 04:07:42] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/1e/a5/e07b3437026f263dcce13b08637e16300fa740979d28ed7cfe69a190d1d4/autogluon-0.8.0.tar.gz
+[2023-06-16 04:07:42] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-16 04:07:42] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/a1/29/4ac8bf30946be9f3c5ec52aa1f0ce876447faf16f07efb737cf452f686ce/dspawpy-0.9.8-py3-none-any.whl
+[2023-06-16 04:07:42] INFO root fetch - processPackages [dorado]: Downloading https://files.pythonhosted.org/packages/b9/2e/854512bc2085bd5738d74bd4b50e4a958e43ee3e802999c5402e429e6030/dorado-2.0.6.dev99.tar.gz
+[2023-06-16 04:07:42] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-16 04:07:42] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230616/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 04:07:43] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/25/dc/0fc3f4a9abb03712eba7937e1617395aa246cb1f7622612f74466d1ca3c8/yplib-1.4.9.tar.gz
+[2023-06-16 04:07:43] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-06-16 04:07:43] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230616/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-06-16 04:07:43] INFO root fetch - processPackages [pycoparsec]: Downloading https://files.pythonhosted.org/packages/ff/d5/23c6f8bbb77dad6f7d3fd8c77cef143f87a72ab7224136e387745c1f6d1a/pycoparsec-0.0.2.tar.gz
+[2023-06-16 04:07:43] INFO root fetch - processPackages [techbureau-symbol-sdk-python]: Downloading https://files.pythonhosted.org/packages/dd/c5/592e5ee56619796d0b1ecb719286e2d8c0575b2311b90f40103f9d7c69bf/techbureau-symbol-sdk-python-3.0.7.dev2.tar.gz
+[2023-06-16 04:07:43] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/6a/71/b01e345695bc0c08ceafed40a665a696dab5bb83d132d25cb02c0a7a11ff/autogluon.eda-0.8.0b20230615.tar.gz
+[2023-06-16 04:07:43] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/64/35/06b7215477cdd9c76bd4a12fc2ee01db6ca16dc7448d78f1ff0ca1ad1f9a/dspawpy-0.9.9-py3-none-any.whl
+[2023-06-16 04:07:43] INFO root fetch - processPackages [flaskz]: Downloading https://files.pythonhosted.org/packages/f8/3b/b39ba19689f12c6225c113b864950ec245108ca4da23d11c795daa1ffe1c/flaskz-1.6.tar.gz
+[2023-06-16 04:07:43] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 04:07:43] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.4.8.tar.gz tmp/yplib-1.4.9.tar.gz --markdown 20230616/y/yplib/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-16 04:07:43] INFO root fetch - processPackages [pycoparsec]: executing diffoscope
+[2023-06-16 04:07:43] INFO root fetch - processPackages [pycoparsec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycoparsec-0.0.1.tar.gz tmp/pycoparsec-0.0.2.tar.gz --markdown 20230616/p/pycoparsec/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 04:07:43] INFO root fetch - processPackages [techbureau-symbol-sdk-python]: executing diffoscope
+[2023-06-16 04:07:43] INFO root fetch - processPackages [techbureau-symbol-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techbureau-symbol-sdk-python-3.0.7.dev1.tar.gz tmp/techbureau-symbol-sdk-python-3.0.7.dev2.tar.gz --markdown 20230616/t/techbureau-symbol-sdk-python/3.0.7.dev1-3.0.7.dev2/diff.md --exclude *.pyd
+[2023-06-16 04:07:43] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-06-16 04:07:43] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.8.0.tar.gz tmp/autogluon.eda-0.8.0b20230615.tar.gz --markdown 20230616/a/autogluon.eda/0.8.0-0.8.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 04:07:43] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2023-06-16 04:07:43] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-0.9.8-py3-none-any.whl.zip tmp/dspawpy-0.9.9-py3-none-any.whl.zip --markdown 20230616/d/dspawpy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-16 04:07:43] INFO root fetch - processPackages [flaskz]: executing diffoscope
+[2023-06-16 04:07:43] INFO root fetch - processPackages [flaskz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaskz-1.5.3.tar.gz tmp/flaskz-1.6.tar.gz --markdown 20230616/f/flaskz/1.5.3-1.6/diff.md --exclude *.pyd
+[2023-06-16 04:07:43] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/2c/12/9f682429194d1fe9f4825cf65efef1f1d194a55abefe8790d92833babfa3/autogluon-0.8.0b20230615.tar.gz
+[2023-06-16 04:07:43] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-06-16 04:07:43] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.8.0.tar.gz tmp/autogluon-0.8.0b20230615.tar.gz --markdown 20230616/a/autogluon/0.8.0-0.8.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 04:07:44] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-16 04:07:44] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-16 04:07:44] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-16 04:07:44] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.4.8.tar.gz]
+[2023-06-16 04:07:44] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.4.9.tar.gz]
+[2023-06-16 04:07:44] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 04:07:44] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.0.tar.gz]
+[2023-06-16 04:07:44] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.0b20230615.tar.gz]
+[2023-06-16 04:07:44] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-06-16 04:07:45] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.0.tar.gz]
+[2023-06-16 04:07:45] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.0b20230615.tar.gz]
+[2023-06-16 04:07:45] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-06-16 04:07:45] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-0.9.8-py3-none-any.whl.zip]
+[2023-06-16 04:07:45] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-0.9.9-py3-none-any.whl.zip]
+[2023-06-16 04:07:45] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2023-06-16 04:07:45] INFO root fetch - processPackages [pycoparsec]: Remove: archive file [/home/abi/fetcher/tmp/pycoparsec-0.0.1.tar.gz]
+[2023-06-16 04:07:45] INFO root fetch - processPackages [pycoparsec]: Remove: archive file [/home/abi/fetcher/tmp/pycoparsec-0.0.2.tar.gz]
+[2023-06-16 04:07:45] INFO root fetch - main [MainThread]: End processing [pycoparsec]: success
+[2023-06-16 04:07:45] INFO root fetch - processPackages [flaskz]: Remove: archive file [/home/abi/fetcher/tmp/flaskz-1.5.3.tar.gz]
+[2023-06-16 04:07:45] INFO root fetch - processPackages [flaskz]: Remove: archive file [/home/abi/fetcher/tmp/flaskz-1.6.tar.gz]
+[2023-06-16 04:07:45] INFO root fetch - main [MainThread]: End processing [flaskz]: success
+[2023-06-16 04:07:45] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev97.tar.gz]
+[2023-06-16 04:07:45] INFO root fetch - processPackages [dorado]: Remove: archive file [/home/abi/fetcher/tmp/dorado-2.0.6.dev99.tar.gz]
+[2023-06-16 04:07:45] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-06-16 04:07:46] INFO root fetch - processPackages [techbureau-symbol-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/techbureau-symbol-sdk-python-3.0.7.dev1.tar.gz]
+[2023-06-16 04:07:46] INFO root fetch - processPackages [techbureau-symbol-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/techbureau-symbol-sdk-python-3.0.7.dev2.tar.gz]
+[2023-06-16 04:07:46] INFO root fetch - main [MainThread]: End processing [techbureau-symbol-sdk-python]: success
+[2023-06-16 04:07:46] INFO root fetch - main [MainThread]: Store serial: [18526233]
