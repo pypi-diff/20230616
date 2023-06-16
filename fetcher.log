@@ -21815,3 +21815,159 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-16 13:24:35] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
 [2023-06-16 13:24:35] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-06-16 13:24:35] INFO root fetch - main [MainThread]: Store serial: [18531009]
+[2023-06-16 13:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18531009]
+[2023-06-16 13:29:45] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-16 13:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: symbolicai
+[2023-06-16 13:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-maintenance
+[2023-06-16 13:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchrl-nightly
+[2023-06-16 13:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Weblate
+[2023-06-16 13:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchserve-nightly
+[2023-06-16 13:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-archiver-nightly
+[2023-06-16 13:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-workflow-archiver-nightly
+[2023-06-16 13:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-notifications-sdk-preview
+[2023-06-16 13:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vortex-api
+[2023-06-16 13:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tutor
+[2023-06-16 13:29:45] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-16 13:29:45] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-16 13:29:45] INFO root fetch - processPackages [Weblate]: New version: [4.9.1] Old Version: [4.9]
+[2023-06-16 13:29:45] INFO root fetch - processPackages [vortex-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-16 13:29:45] INFO root fetch - processPackages [tutor]: New version: [16.0.1] Old Version: [16.0.0]
+[2023-06-16 13:29:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 13:29:45] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.748] Old Version: [0.1.744]
+[2023-06-16 13:29:45] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-16 13:29:45] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-16 13:29:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 13:29:45] INFO root fetch - processPackages [tutor]: Downloading https://files.pythonhosted.org/packages/54/fe/e6aad3a6035acaff29c855cebeee2205439ef7d53962a71911d99a539d1b/tutor-16.0.0.tar.gz
+[2023-06-16 13:29:45] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-16 13:29:45] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-16 13:29:45] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-16 13:29:45] INFO root fetch - processPackages [Weblate]: Downloading https://files.pythonhosted.org/packages/1b/80/53ffb6a7757a493a187be7be0aa67e0606254c4f1eebdaff087cb49f09a2/Weblate-4.9.tar.gz
+[2023-06-16 13:29:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 13:29:45] INFO root fetch - processPackages [vortex-api]: Downloading https://files.pythonhosted.org/packages/7f/8f/fcb8765d20931ec1f02208431a58c499abc569114122647441fdc6bba55a/vortex_api-1.0.7.tar.gz
+[2023-06-16 13:29:45] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/6b/5e/d355822fa17a7cbd64223161d17789a273c4d7ff7d5ec14da1e3acb82d95/lusid-notifications-sdk-preview-0.1.744.tar.gz
+[2023-06-16 13:29:45] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-16 13:29:45] WARNING root fetch - processPackages [Weblate]: Skipping package: exceeds size limit 25286022>=10485760
+[2023-06-16 13:29:45] INFO root fetch - processPackages [Weblate]: Start processing: pydlutils
+[2023-06-16 13:29:45] INFO root fetch - main [MainThread]: End processing [Weblate] error
+[2023-06-16 13:29:45] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-16 13:29:45] INFO root fetch - processPackages [tutor]: Downloading https://files.pythonhosted.org/packages/0d/f2/deb4428a4605d91ee7f0806449885cc6224cd257663bd2e89293b3685982/tutor-16.0.1.tar.gz
+[2023-06-16 13:29:45] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-06-16 13:29:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 13:29:45] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 13:29:45] WARNING root fetch - processPackages [pydlutils]: Skipping, unable to determine old version
+[2023-06-16 13:29:45] INFO root fetch - processPackages [pydlutils]: Start processing: gfs-dynamical-core
+[2023-06-16 13:29:45] INFO root fetch - main [MainThread]: End processing [pydlutils] error
+[2023-06-16 13:29:45] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-16 13:29:45] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230616/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-16 13:29:45] INFO root fetch - processPackages [gfs-dynamical-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 13:29:45] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-16 13:29:45] INFO root fetch - processPackages [torchserve-nightly]: Start processing: aa-timezones
+[2023-06-16 13:29:45] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-16 13:29:45] INFO root fetch - processPackages [tutor]: executing diffoscope
+[2023-06-16 13:29:45] INFO root fetch - processPackages [tutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-16.0.0.tar.gz tmp/tutor-16.0.1.tar.gz --markdown 20230616/t/tutor/16.0.0-16.0.1/diff.md --exclude *.pyd
+[2023-06-16 13:29:45] INFO root fetch - processPackages [aa-timezones]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-16 13:29:45] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/3b/88/101e7c87a8d056c43a8fc2343ea5a24020bd6c62819390407e19c2e58b84/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl
+[2023-06-16 13:29:46] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-16 13:29:46] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f9/f5/09ccd82fede10f125070cb89da1ef03cf9e462b1c6093d3e258006ac6fc0/lusid-notifications-sdk-preview-0.1.748.tar.gz
+[2023-06-16 13:29:46] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-16 13:29:46] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230616/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-16 13:29:46] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-06-16 13:29:46] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.744.tar.gz tmp/lusid-notifications-sdk-preview-0.1.748.tar.gz --markdown 20230616/l/lusid-notifications-sdk-preview/0.1.744-0.1.748/diff.md --exclude *.pyd
+[2023-06-16 13:29:46] INFO root fetch - processPackages [vortex-api]: Downloading https://files.pythonhosted.org/packages/fd/b7/ed4e005b463f3495d5996b54b3a25228e3e7d142c2a42bf642e14eb6a672/vortex_api-1.0.8.tar.gz
+[2023-06-16 13:29:46] INFO root fetch - processPackages [gfs-dynamical-core]: Downloading https://files.pythonhosted.org/packages/27/74/e6cedf4b9d67d1f39c455316d838b4f95ffc158a1b616090a659532dda1d/gfs_dynamical_core-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-16 13:29:46] INFO root fetch - processPackages [vortex-api]: executing diffoscope
+[2023-06-16 13:29:46] INFO root fetch - processPackages [vortex-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vortex_api-1.0.7.tar.gz tmp/vortex_api-1.0.8.tar.gz --markdown 20230616/v/vortex-api/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-16 13:29:46] INFO root fetch - processPackages [aa-timezones]: Downloading https://files.pythonhosted.org/packages/90/72/88bc759140568bf7d91306163813ef64201dc6648be9177eb1ca5e033c79/aa-timezones-1.8.0.tar.gz
+[2023-06-16 13:29:46] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/b9/46/ce016b773818b01f9d3047ba111687f8b14fc64ca46b82b77f62c661e902/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl
+[2023-06-16 13:29:46] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-06-16 13:29:46] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip --markdown 20230616/t/torchrl-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-16 13:29:46] INFO root fetch - processPackages [aa-timezones]: Downloading https://files.pythonhosted.org/packages/42/6b/f45b4abe322578e7ddc2cba523837f7aa8c2f1b44f83f052c2c600ebf95b/aa_timezones-1.9.0.tar.gz
+[2023-06-16 13:29:46] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-06-16 13:29:47] INFO root fetch - processPackages [aa-timezones]: executing diffoscope
+[2023-06-16 13:29:47] INFO root fetch - processPackages [aa-timezones]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-timezones-1.8.0.tar.gz tmp/aa_timezones-1.9.0.tar.gz --markdown 20230616/a/aa-timezones/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-16 13:29:47] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: boost-loss
+[2023-06-16 13:29:47] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-16 13:29:47] INFO root fetch - processPackages [boost-loss]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: torchrec-nightly
+[2023-06-16 13:29:47] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 13:29:47] INFO root fetch - processPackages [boost-loss]: Downloading https://files.pythonhosted.org/packages/27/10/50cd0edcf7f5136c6a23e00339156a6dd7048e25646cf3e85f449247899f/boost_loss-0.1.0.tar.gz
+[2023-06-16 13:29:47] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [vortex-api]: Remove: archive file [/home/abi/fetcher/tmp/vortex_api-1.0.7.tar.gz]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [vortex-api]: Remove: archive file [/home/abi/fetcher/tmp/vortex_api-1.0.8.tar.gz]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [vortex-api]: Start processing: ezyquant
+[2023-06-16 13:29:47] INFO root fetch - main [MainThread]: End processing [vortex-api]: success
+[2023-06-16 13:29:47] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: winnie
+[2023-06-16 13:29:47] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-16 13:29:47] INFO root fetch - processPackages [ezyquant]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/91/c6/d57c712eef951e5889cc42cba904e3b4623c3618eea80e54f3153275a070/torchrec_nightly-2023.6.8-py39-none-any.whl
+[2023-06-16 13:29:47] INFO root fetch - processPackages [winnie]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [boost-loss]: Downloading https://files.pythonhosted.org/packages/f4/86/a75ace9ed6a2aa488a8248976523111825c7a7e2f6c8cdfd656835314a5f/boost_loss-0.1.1.tar.gz
+[2023-06-16 13:29:47] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-06-16 13:29:47] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230616/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 13:29:47] INFO root fetch - processPackages [boost-loss]: executing diffoscope
+[2023-06-16 13:29:47] INFO root fetch - processPackages [boost-loss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boost_loss-0.1.0.tar.gz tmp/boost_loss-0.1.1.tar.gz --markdown 20230616/b/boost-loss/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 13:29:47] INFO root fetch - processPackages [tutor]: Remove: archive file [/home/abi/fetcher/tmp/tutor-16.0.0.tar.gz]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [tutor]: Remove: archive file [/home/abi/fetcher/tmp/tutor-16.0.1.tar.gz]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [tutor]: Start processing: shipdataprocess
+[2023-06-16 13:29:47] INFO root fetch - main [MainThread]: End processing [tutor]: success
+[2023-06-16 13:29:47] INFO root fetch - processPackages [ezyquant]: Downloading https://files.pythonhosted.org/packages/c3/29/e16ac48c0056076fbec8a9c1b6b3f4f005ecf24abe9415d53ec7faffcb45/ezyquant-0.9.0.tar.gz
+[2023-06-16 13:29:47] INFO root fetch - processPackages [winnie]: Downloading https://files.pythonhosted.org/packages/c3/20/f3f1b29b2eb81430040c15b167cb0177f0d0fd1f2ce755cb350d3a0f04d5/winnie-0.0.1.tar.gz
+[2023-06-16 13:29:47] INFO root fetch - processPackages [shipdataprocess]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-16 13:29:47] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/04/c2/8bc2408f10b66a9f096323e663a67f541486c62d4a69e7cc8052175447e1/torchrec_nightly-2023.6.9-py39-none-any.whl
+[2023-06-16 13:29:47] INFO root fetch - processPackages [gfs-dynamical-core]: Downloading https://files.pythonhosted.org/packages/0e/54/969a86c8ebdf4ac854a47d8845bdcb970317a8a4a0c7ba1fb04fba0d705b/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-16 13:29:48] WARNING root fetch - processPackages [ezyquant]: Skipping package: exceeds size limit 14470112>=10485760
+[2023-06-16 13:29:48] INFO root fetch - processPackages [ezyquant]: Start processing: mtmtool
+[2023-06-16 13:29:48] INFO root fetch - main [MainThread]: End processing [ezyquant] error
+[2023-06-16 13:29:48] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-06-16 13:29:48] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.6.8-py39-none-any.whl.zip tmp/torchrec_nightly-2023.6.9-py39-none-any.whl.zip --markdown 20230616/t/torchrec-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-16 13:29:48] INFO root fetch - processPackages [mtmtool]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-16 13:29:48] INFO root fetch - processPackages [winnie]: Downloading https://files.pythonhosted.org/packages/97/26/0fe903e009fda62f91a5b7af215c65a3b0d5103c1184bdc7ccc9401bc8f3/winnie-0.0.2.tar.gz
+[2023-06-16 13:29:48] INFO root fetch - processPackages [shipdataprocess]: Downloading https://files.pythonhosted.org/packages/c0/f6/d544561d2bf838437f1be8c8856ddeba5885c20b673d30341352f6f3a634/shipdataprocess-0.7.0-py2.py3-none-any.whl
+[2023-06-16 13:29:48] INFO root fetch - processPackages [winnie]: executing diffoscope
+[2023-06-16 13:29:48] INFO root fetch - processPackages [winnie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winnie-0.0.1.tar.gz tmp/winnie-0.0.2.tar.gz --markdown 20230616/w/winnie/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 13:29:48] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/85/f1/620272711711c33956402c1e68aac912ddfd1c0cb41e470a2b9cd0a4ff18/mtmtool-1.2.6.tar.gz
+[2023-06-16 13:29:48] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/a1/fa/7057d4f1c1a5b3cfee4921b63c2eed01b283b4d36486c7069216a3c81528/mtmtool-1.2.7.tar.gz
+[2023-06-16 13:29:48] INFO root fetch - processPackages [shipdataprocess]: Downloading https://files.pythonhosted.org/packages/de/75/8f71c61ab54903fcac5e8047990a2381c679c5480ac09da159c3ee1e8506/shipdataprocess-0.7.1-py2.py3-none-any.whl
+[2023-06-16 13:29:48] INFO root fetch - processPackages [mtmtool]: executing diffoscope
+[2023-06-16 13:29:48] INFO root fetch - processPackages [mtmtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmtool-1.2.6.tar.gz tmp/mtmtool-1.2.7.tar.gz --markdown 20230616/m/mtmtool/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-16 13:29:48] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 13:29:48] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 13:29:48] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-06-16 13:29:48] INFO root fetch - processPackages [shipdataprocess]: executing diffoscope
+[2023-06-16 13:29:48] INFO root fetch - processPackages [shipdataprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipdataprocess-0.7.0-py2.py3-none-any.whl.zip tmp/shipdataprocess-0.7.1-py2.py3-none-any.whl.zip --markdown 20230616/s/shipdataprocess/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-16 13:29:48] INFO root fetch - processPackages [gfs-dynamical-core]: executing diffoscope
+[2023-06-16 13:29:48] INFO root fetch - processPackages [gfs-dynamical-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfs_dynamical_core-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230616/g/gfs-dynamical-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 13:29:49] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-06-16 13:29:49] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-06-16 13:29:49] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-06-16 13:29:49] INFO root fetch - processPackages [boost-loss]: Remove: archive file [/home/abi/fetcher/tmp/boost_loss-0.1.0.tar.gz]
+[2023-06-16 13:29:49] INFO root fetch - processPackages [boost-loss]: Remove: archive file [/home/abi/fetcher/tmp/boost_loss-0.1.1.tar.gz]
+[2023-06-16 13:29:49] INFO root fetch - main [MainThread]: End processing [boost-loss]: success
+[2023-06-16 13:29:49] INFO root fetch - processPackages [winnie]: Remove: archive file [/home/abi/fetcher/tmp/winnie-0.0.1.tar.gz]
+[2023-06-16 13:29:49] INFO root fetch - processPackages [winnie]: Remove: archive file [/home/abi/fetcher/tmp/winnie-0.0.2.tar.gz]
+[2023-06-16 13:29:49] INFO root fetch - main [MainThread]: End processing [winnie]: success
+[2023-06-16 13:29:49] INFO root fetch - processPackages [mtmtool]: Remove: archive file [/home/abi/fetcher/tmp/mtmtool-1.2.6.tar.gz]
+[2023-06-16 13:29:49] INFO root fetch - processPackages [mtmtool]: Remove: archive file [/home/abi/fetcher/tmp/mtmtool-1.2.7.tar.gz]
+[2023-06-16 13:29:49] INFO root fetch - main [MainThread]: End processing [mtmtool]: success
+[2023-06-16 13:29:49] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.744.tar.gz]
+[2023-06-16 13:29:49] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.748.tar.gz]
+[2023-06-16 13:29:49] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-06-16 13:29:50] INFO root fetch - processPackages [shipdataprocess]: Remove: archive file [/home/abi/fetcher/tmp/shipdataprocess-0.7.0-py2.py3-none-any.whl.zip]
+[2023-06-16 13:29:50] INFO root fetch - processPackages [shipdataprocess]: Remove: archive file [/home/abi/fetcher/tmp/shipdataprocess-0.7.1-py2.py3-none-any.whl.zip]
+[2023-06-16 13:29:50] INFO root fetch - main [MainThread]: End processing [shipdataprocess]: success
+[2023-06-16 13:29:50] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-16 13:29:50] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.9-py39-none-any.whl.zip]
+[2023-06-16 13:29:50] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-06-16 13:29:51] INFO root fetch - processPackages [aa-timezones]: Remove: archive file [/home/abi/fetcher/tmp/aa-timezones-1.8.0.tar.gz]
+[2023-06-16 13:29:51] INFO root fetch - processPackages [aa-timezones]: Remove: archive file [/home/abi/fetcher/tmp/aa_timezones-1.9.0.tar.gz]
+[2023-06-16 13:29:51] INFO root fetch - main [MainThread]: End processing [aa-timezones]: success
+[2023-06-16 13:30:12] INFO root fetch - processPackages [gfs-dynamical-core]: Remove: archive file [/home/abi/fetcher/tmp/gfs_dynamical_core-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-16 13:30:12] INFO root fetch - processPackages [gfs-dynamical-core]: Remove: archive file [/home/abi/fetcher/tmp/gfs_dynamical_core-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-16 13:30:12] INFO root fetch - main [MainThread]: End processing [gfs-dynamical-core]: success
+[2023-06-16 13:30:12] INFO root fetch - main [MainThread]: Store serial: [18531072]
