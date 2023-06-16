@@ -11730,3 +11730,90 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 06:10:56] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.0.8rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-06-16 06:10:56] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
 [2023-06-16 06:10:56] INFO root fetch - main [MainThread]: Store serial: [18527032]
+[2023-06-16 06:16:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527032]
+[2023-06-16 06:16:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-16 06:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yunhengwangtest
+[2023-06-16 06:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-hr-employee-calendar-planning
+[2023-06-16 06:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Java-Dependency-Manager
+[2023-06-16 06:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuroshape
+[2023-06-16 06:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kasa-crypt
+[2023-06-16 06:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Geode-Simplex
+[2023-06-16 06:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PySLOBS
+[2023-06-16 06:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyfi
+[2023-06-16 06:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Geode-Viewables
+[2023-06-16 06:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fast-agave
+[2023-06-16 06:16:06] INFO root fetch - processPackages [Java-Dependency-Manager]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-16 06:16:06] WARNING root fetch - processPackages [yunhengwangtest]: Skipping, unable to determine old version
+[2023-06-16 06:16:06] INFO root fetch - main [MainThread]: End processing [yunhengwangtest] error
+[2023-06-16 06:16:06] INFO root fetch - processPackages [kasa-crypt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 06:16:06] INFO root fetch - processPackages [PySLOBS]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-16 06:16:06] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-16 06:16:06] INFO root fetch - processPackages [hyfi]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-16 06:16:06] INFO root fetch - processPackages [fast-agave]: New version: [0.9.0.dev1] Old Version: [0.9.0.dev0]
+[2023-06-16 06:16:06] INFO root fetch - processPackages [neuroshape]: New version: [0.0.4.4] Old Version: [0.0.4.3.3]
+[2023-06-16 06:16:06] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/dd/7e/82ceeb2b1e66e72f1813e81aa79e8ac59cf295cb4770cda3e217dd9823b9/hyfi-0.6.0.tar.gz
+[2023-06-16 06:16:06] INFO root fetch - processPackages [fast-agave]: Downloading https://files.pythonhosted.org/packages/ca/78/5091fccfab34df4a319ce47800e8b8e49b4cb0e5649eff74dbbb6cd712e7/fast_agave-0.9.0.dev0.tar.gz
+[2023-06-16 06:16:06] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: New version: [15.0.1.1.7.1] Old Version: [15.0.1.1.7]
+[2023-06-16 06:16:06] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/57/90/d3a876c25afc15aa2f2e52af99cacc503598b25feff46e6237fe82ba78a3/neuroshape-0.0.4.3.3.tar.gz
+[2023-06-16 06:16:06] INFO root fetch - processPackages [Java-Dependency-Manager]: Downloading https://files.pythonhosted.org/packages/29/a2/f0ae34819fda6c928a4d7502d8ac5bf491b46203c1d52a76356e83822689/Java%20Dependency%20Manager-1.1.1.tar.gz
+[2023-06-16 06:16:06] INFO root fetch - processPackages [Geode-Viewables]: New version: [2.0.3rc1] Old Version: [2.0.3]
+[2023-06-16 06:16:06] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/71/fe/525adfc16647206017d2898a9f436996bc906ecd86240a5d0bac16555638/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl
+[2023-06-16 06:16:07] INFO root fetch - processPackages [PySLOBS]: Downloading https://files.pythonhosted.org/packages/d8/23/e770eddd7e12f750347d8b7e105e715ce56ec643aeab4170a720f49f8b8b/PySLOBS-2.0.2.tar.gz
+[2023-06-16 06:16:07] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/1f/dd/350569d7ae7dc81f9a8e955b52215ad724815bffeeefc2ae942701993d73/odoo_addon_hr_employee_calendar_planning-15.0.1.1.7-py3-none-any.whl
+[2023-06-16 06:16:07] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/32/b7/f53be1191e130d60d8464def017cdd66f96736aaad2a10eb63498745e345/hyfi-0.6.1.tar.gz
+[2023-06-16 06:16:07] INFO root fetch - processPackages [fast-agave]: Downloading https://files.pythonhosted.org/packages/a1/b9/9e6ecc020a77e7843d135b6b022307632bce7238fcf17e41676ef3a26a02/fast_agave-0.9.0.dev1.tar.gz
+[2023-06-16 06:16:07] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-16 06:16:07] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.6.0.tar.gz tmp/hyfi-0.6.1.tar.gz --markdown 20230616/h/hyfi/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-16 06:16:07] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/0b/f9/256b2ee0416fe5009999f3cf82c2e70e9984d9ba83695c74e3f23a036b01/neuroshape-0.0.4.4.tar.gz
+[2023-06-16 06:16:07] INFO root fetch - processPackages [Geode-Viewables]: Downloading https://files.pythonhosted.org/packages/94/97/0312d5bfb52cbfce48885fdda5741cb1b2b5382e743a4516de375a9be14f/Geode_Viewables-2.0.3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-16 06:16:07] INFO root fetch - processPackages [fast-agave]: executing diffoscope
+[2023-06-16 06:16:07] INFO root fetch - processPackages [fast-agave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_agave-0.9.0.dev0.tar.gz tmp/fast_agave-0.9.0.dev1.tar.gz --markdown 20230616/f/fast-agave/0.9.0.dev0-0.9.0.dev1/diff.md --exclude *.pyd
+[2023-06-16 06:16:07] INFO root fetch - processPackages [Java-Dependency-Manager]: Downloading https://files.pythonhosted.org/packages/b9/c7/8a003be8285d4163222ba63336336242a9647c8db1b747987f0e28fdd78d/Java%20Dependency%20Manager-1.1.2.tar.gz
+[2023-06-16 06:16:07] INFO root fetch - processPackages [kasa-crypt]: Downloading https://files.pythonhosted.org/packages/ef/19/6d77ce65a5848db39f8d96da5e81ba421035e97e4f885290500df17a1f93/kasa_crypt-0.1.0.tar.gz
+[2023-06-16 06:16:07] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/a5/13/c097e2e3309013d6768636061382effa2a33f8294c436eefb62a89f98182/odoo_addon_hr_employee_calendar_planning-15.0.1.1.7.1-py3-none-any.whl
+[2023-06-16 06:16:07] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-06-16 06:16:07] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.4.3.3.tar.gz tmp/neuroshape-0.0.4.4.tar.gz --markdown 20230616/n/neuroshape/0.0.4.3.3-0.0.4.4/diff.md --exclude *.pyd
+[2023-06-16 06:16:07] INFO root fetch - processPackages [Java-Dependency-Manager]: executing diffoscope
+[2023-06-16 06:16:07] INFO root fetch - processPackages [Java-Dependency-Manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Java Dependency Manager-1.1.1.tar.gz tmp/Java Dependency Manager-1.1.2.tar.gz --markdown 20230616/J/Java-Dependency-Manager/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-16 06:16:07] INFO root fetch - processPackages [PySLOBS]: Downloading https://files.pythonhosted.org/packages/eb/5f/ee66e42056abb394c86687a22aef2679ca38548529883ec1695c3a737803/PySLOBS-2.0.3.tar.gz
+[2023-06-16 06:16:07] INFO root fetch - processPackages [kasa-crypt]: Downloading https://files.pythonhosted.org/packages/a8/ca/bafab976787478a41ecbdedfac4335517e0087a2fec935d803b2ba49b79f/kasa_crypt-0.1.1.tar.gz
+[2023-06-16 06:16:07] INFO root fetch - processPackages [PySLOBS]: executing diffoscope
+[2023-06-16 06:16:07] INFO root fetch - processPackages [PySLOBS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySLOBS-2.0.2.tar.gz tmp/PySLOBS-2.0.3.tar.gz --markdown 20230616/P/PySLOBS/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-16 06:16:07] INFO root fetch - processPackages [kasa-crypt]: executing diffoscope
+[2023-06-16 06:16:07] INFO root fetch - processPackages [kasa-crypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kasa_crypt-0.1.0.tar.gz tmp/kasa_crypt-0.1.1.tar.gz --markdown 20230616/k/kasa-crypt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 06:16:07] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-06-16 06:16:07] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.7-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.7.1-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-hr-employee-calendar-planning/15.0.1.1.7-15.0.1.1.7.1/diff.md --exclude *.pyd
+[2023-06-16 06:16:07] INFO root fetch - processPackages [Geode-Viewables]: Downloading https://files.pythonhosted.org/packages/84/26/0d031e060c7888b770341d0b3246e367fcfedae804bee454b72aac082972/Geode_Viewables-2.0.3rc1-cp39-cp39-win_amd64.whl
+[2023-06-16 06:16:07] INFO root fetch - processPackages [Geode-Viewables]: executing diffoscope
+[2023-06-16 06:16:07] INFO root fetch - processPackages [Geode-Viewables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Viewables-2.0.3-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Viewables-2.0.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230616/G/Geode-Viewables/2.0.3-2.0.3rc1/diff.md --exclude *.pyd
+[2023-06-16 06:16:07] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/8f/99/93562b28a43421a18cd68c1a4e0a811721a99e39d3720642e78a9b79550b/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl
+[2023-06-16 06:16:08] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-06-16 06:16:08] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230616/G/Geode-Simplex/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-16 06:16:08] INFO root fetch - processPackages [Java-Dependency-Manager]: Remove: archive file [/home/abi/fetcher/tmp/Java Dependency Manager-1.1.1.tar.gz]
+[2023-06-16 06:16:08] INFO root fetch - processPackages [Java-Dependency-Manager]: Remove: archive file [/home/abi/fetcher/tmp/Java Dependency Manager-1.1.2.tar.gz]
+[2023-06-16 06:16:08] INFO root fetch - main [MainThread]: End processing [Java-Dependency-Manager]: success
+[2023-06-16 06:16:08] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.3.3.tar.gz]
+[2023-06-16 06:16:08] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.4.tar.gz]
+[2023-06-16 06:16:08] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
+[2023-06-16 06:16:09] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.6.0.tar.gz]
+[2023-06-16 06:16:09] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.6.1.tar.gz]
+[2023-06-16 06:16:09] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-16 06:16:09] INFO root fetch - processPackages [fast-agave]: Remove: archive file [/home/abi/fetcher/tmp/fast_agave-0.9.0.dev0.tar.gz]
+[2023-06-16 06:16:09] INFO root fetch - processPackages [fast-agave]: Remove: archive file [/home/abi/fetcher/tmp/fast_agave-0.9.0.dev1.tar.gz]
+[2023-06-16 06:16:09] INFO root fetch - main [MainThread]: End processing [fast-agave]: success
+[2023-06-16 06:16:09] INFO root fetch - processPackages [kasa-crypt]: Remove: archive file [/home/abi/fetcher/tmp/kasa_crypt-0.1.0.tar.gz]
+[2023-06-16 06:16:09] INFO root fetch - processPackages [kasa-crypt]: Remove: archive file [/home/abi/fetcher/tmp/kasa_crypt-0.1.1.tar.gz]
+[2023-06-16 06:16:09] INFO root fetch - main [MainThread]: End processing [kasa-crypt]: success
+[2023-06-16 06:16:09] INFO root fetch - processPackages [PySLOBS]: Remove: archive file [/home/abi/fetcher/tmp/PySLOBS-2.0.2.tar.gz]
+[2023-06-16 06:16:09] INFO root fetch - processPackages [PySLOBS]: Remove: archive file [/home/abi/fetcher/tmp/PySLOBS-2.0.3.tar.gz]
+[2023-06-16 06:16:09] INFO root fetch - main [MainThread]: End processing [PySLOBS]: success
+[2023-06-16 06:16:09] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.7-py3-none-any.whl.zip]
+[2023-06-16 06:16:09] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.7.1-py3-none-any.whl.zip]
+[2023-06-16 06:16:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-calendar-planning]: success
+[2023-06-16 06:16:09] INFO root fetch - processPackages [Geode-Viewables]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Viewables-2.0.3-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-16 06:16:09] INFO root fetch - processPackages [Geode-Viewables]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Viewables-2.0.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:16:09] INFO root fetch - main [MainThread]: End processing [Geode-Viewables]: success
+[2023-06-16 06:16:34] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:16:34] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:16:34] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-06-16 06:16:34] INFO root fetch - main [MainThread]: Store serial: [18527074]
