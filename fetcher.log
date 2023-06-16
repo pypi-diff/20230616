@@ -14109,3 +14109,144 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 08:35:19] INFO root fetch - processPackages [geolink2oereb]: Remove: archive file [/home/abi/fetcher/tmp/geolink2oereb-0.1.4.tar.gz]
 [2023-06-16 08:35:19] INFO root fetch - main [MainThread]: End processing [geolink2oereb]: success
 [2023-06-16 08:35:19] INFO root fetch - main [MainThread]: Store serial: [18528053]
+[2023-06-16 08:40:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528053]
+[2023-06-16 08:40:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-16 08:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indico-plugin-vc-zoom
+[2023-06-16 08:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openi-beta
+[2023-06-16 08:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datarangers-sdk-python
+[2023-06-16 08:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ar-filters
+[2023-06-16 08:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nestedaccess
+[2023-06-16 08:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyees
+[2023-06-16 08:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nestedaccess
+[2023-06-16 08:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vocab-coverage
+[2023-06-16 08:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: transformers-supporter
+[2023-06-16 08:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-sale-blanket-order
+[2023-06-16 08:40:28] INFO root fetch - processPackages [indico-plugin-vc-zoom]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-06-16 08:40:28] INFO root fetch - processPackages [pyees]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-16 08:40:28] INFO root fetch - processPackages [datarangers-sdk-python]: New version: [1.1.1] Old Version: [1.0.5]
+[2023-06-16 08:40:28] INFO root fetch - processPackages [openi-beta]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-16 08:40:28] WARNING root fetch - processPackages [vocab-coverage]: Skipping, unable to determine old version
+[2023-06-16 08:40:28] INFO root fetch - processPackages [vocab-coverage]: Start processing: big
+[2023-06-16 08:40:28] INFO root fetch - processPackages [nestedaccess]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-16 08:40:28] INFO root fetch - main [MainThread]: End processing [vocab-coverage] error
+[2023-06-16 08:40:28] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 08:40:28] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: New version: [12.0.1.0.2.99.dev9] Old Version: [12.0.1.0.2.99.dev8]
+[2023-06-16 08:40:28] INFO root fetch - processPackages [ar-filters]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-16 08:40:28] INFO root fetch - processPackages [nestedaccess]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-16 08:40:28] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/7d/a1/4f42b080da6cb1b9702a4b5652a7e9c781b873e83bbf0060483e975523b5/pyees-1.2.9.tar.gz
+[2023-06-16 08:40:28] INFO root fetch - processPackages [big]: New version: [0.9] Old Version: [0.8.3]
+[2023-06-16 08:40:28] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-06-16 08:40:28] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/10/93/3c7701daaea202717c4a47eebb0846ff043ab23133fc7e72e9af352f94f8/openi-beta-0.1.0.tar.gz
+[2023-06-16 08:40:28] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/2c/22/f5ffa6c4277d6756e5264765007924fca109f457371a9d804a7fc8440084/nestedaccess-0.2.4.tar.gz
+[2023-06-16 08:40:28] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/2c/22/f5ffa6c4277d6756e5264765007924fca109f457371a9d804a7fc8440084/nestedaccess-0.2.4.tar.gz
+[2023-06-16 08:40:28] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/cc/d9/3d347f8997b06fa0fb9cef0155642378ef9aef6f61a1d9f6764dfe8fa8e2/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev8-py3-none-any.whl
+[2023-06-16 08:40:29] INFO root fetch - processPackages [indico-plugin-vc-zoom]: Downloading https://files.pythonhosted.org/packages/1e/ac/bb0cf98f559dfe9ea99ebfc9d3c02e5d46b3e0daa3da84675207116ffec2/indico_plugin_vc_zoom-3.2.2-py3-none-any.whl
+[2023-06-16 08:40:29] INFO root fetch - processPackages [datarangers-sdk-python]: Downloading https://files.pythonhosted.org/packages/24/82/db8389699a7de771ce3beec5faff5104fccc572fec1564e675f9638fb8b8/datarangers-sdk-python-1.0.5.tar.gz
+[2023-06-16 08:40:29] INFO root fetch - processPackages [ar-filters]: Downloading https://files.pythonhosted.org/packages/ad/d7/b1c7e1db6442fbb87afa895440f692ac13f87c439ddc076e2506d567d8b3/ar_filters-0.0.2.tar.gz
+[2023-06-16 08:40:29] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/b6/b9/a730463cdd99478d695caf17c4a6d7ec55cb09518c5ffb22f7c8318cdd61/pyees-1.3.0.tar.gz
+[2023-06-16 08:40:29] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-06-16 08:40:29] INFO root fetch - processPackages [big]: Downloading https://files.pythonhosted.org/packages/52/ca/2b0fb16adcdddb6c7d9f6b30bdfa50c2e3d9bde0480bcf777ad7367d91e5/big-0.8.3.tar.gz
+[2023-06-16 08:40:29] INFO root fetch - processPackages [pyees]: executing diffoscope
+[2023-06-16 08:40:29] INFO root fetch - processPackages [pyees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyees-1.2.9.tar.gz tmp/pyees-1.3.0.tar.gz --markdown 20230616/p/pyees/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-16 08:40:29] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/d2/bd/e04efd6f7ac5c7419b2bbc11c5b72e8d205cb1258c4b7dba7f0c7c4f3082/openi-beta-0.1.1.tar.gz
+[2023-06-16 08:40:29] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/02/40/506f0c37f4b1e03fe2cd0b3f3992feeec0db1765d06d509d6f5d72ea89d7/nestedaccess-0.2.5.tar.gz
+[2023-06-16 08:40:29] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-06-16 08:40:29] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-0.1.0.tar.gz tmp/openi-beta-0.1.1.tar.gz --markdown 20230616/o/openi-beta/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 08:40:29] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/02/40/506f0c37f4b1e03fe2cd0b3f3992feeec0db1765d06d509d6f5d72ea89d7/nestedaccess-0.2.5.tar.gz
+[2023-06-16 08:40:29] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-16 08:40:29] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.2.4.tar.gz tmp/nestedaccess-0.2.5.tar.gz --markdown 20230616/n/nestedaccess/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-16 08:40:29] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/1e/45/6dbdb3eee4920a7de3bc5944fd8341d9b5bc029ad486041447963cf1f074/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev9-py3-none-any.whl
+[2023-06-16 08:40:29] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-06-16 08:40:29] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230616/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 08:40:29] INFO root fetch - processPackages [ar-filters]: Downloading https://files.pythonhosted.org/packages/f3/2d/3203bd7bd9235060f4889bb602d6ec8587ed1191b6f4adfd71c14d1b5532/ar_filters-0.0.3.tar.gz
+[2023-06-16 08:40:29] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-16 08:40:29] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.2.4.tar.gz tmp/nestedaccess-0.2.5.tar.gz --markdown 20230616/n/nestedaccess/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-16 08:40:29] INFO root fetch - processPackages [indico-plugin-vc-zoom]: Downloading https://files.pythonhosted.org/packages/b0/3f/ce303340419200adba700e6aaec89904ffcfd584f545f818ed30c818cca3/indico_plugin_vc_zoom-3.2.3-py3-none-any.whl
+[2023-06-16 08:40:29] INFO root fetch - processPackages [datarangers-sdk-python]: Downloading https://files.pythonhosted.org/packages/85/aa/7893794ea2a2708ded1c22e1f46a9aac8ca4f6d6d7d184660896ad8db2ee/datarangers_sdk_python-1.1.1-py3-none-any.whl
+[2023-06-16 08:40:29] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: executing diffoscope
+[2023-06-16 08:40:29] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-sale-blanket-order/12.0.1.0.2.99.dev8-12.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 08:40:29] INFO root fetch - processPackages [ar-filters]: executing diffoscope
+[2023-06-16 08:40:29] INFO root fetch - processPackages [ar-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_filters-0.0.2.tar.gz tmp/ar_filters-0.0.3.tar.gz --markdown 20230616/a/ar-filters/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-16 08:40:29] INFO root fetch - processPackages [datarangers-sdk-python]: executing diffoscope
+[2023-06-16 08:40:29] INFO root fetch - processPackages [datarangers-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarangers-sdk-python-1.0.5.tar.gz tmp/datarangers_sdk_python-1.1.1-py3-none-any.whl.zip --markdown 20230616/d/datarangers-sdk-python/1.0.5-1.1.1/diff.md --exclude *.pyd
+[2023-06-16 08:40:29] INFO root fetch - processPackages [indico-plugin-vc-zoom]: executing diffoscope
+[2023-06-16 08:40:29] INFO root fetch - processPackages [indico-plugin-vc-zoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_vc_zoom-3.2.2-py3-none-any.whl.zip tmp/indico_plugin_vc_zoom-3.2.3-py3-none-any.whl.zip --markdown 20230616/i/indico-plugin-vc-zoom/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-06-16 08:40:29] INFO root fetch - processPackages [big]: Downloading https://files.pythonhosted.org/packages/8a/5b/c4724d80d35dc273dca57fc4271d3061df55ca451d3e930e20b51cd64df8/big-0.9.tar.gz
+[2023-06-16 08:40:29] INFO root fetch - processPackages [big]: executing diffoscope
+[2023-06-16 08:40:29] INFO root fetch - processPackages [big]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/big-0.8.3.tar.gz tmp/big-0.9.tar.gz --markdown 20230616/b/big/0.8.3-0.9/diff.md --exclude *.pyd
+[2023-06-16 08:40:30] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.1.0.tar.gz]
+[2023-06-16 08:40:30] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.1.1.tar.gz]
+[2023-06-16 08:40:30] INFO root fetch - processPackages [openi-beta]: Start processing: pytorch-supporter
+[2023-06-16 08:40:30] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-06-16 08:40:30] INFO root fetch - processPackages [pytorch-supporter]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-06-16 08:40:30] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.2.4.tar.gz]
+[2023-06-16 08:40:30] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.2.5.tar.gz]
+[2023-06-16 08:40:30] INFO root fetch - processPackages [nestedaccess]: Start processing: yplib
+[2023-06-16 08:40:30] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-16 08:40:30] INFO root fetch - processPackages [yplib]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-16 08:40:30] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/6e/bd/df27d1e883f39929f1eda048f26aeef74588d10f4579831ad90c3178d19d/yplib-1.5.0.tar.gz
+[2023-06-16 08:40:31] INFO root fetch - processPackages [pytorch-supporter]: Downloading https://files.pythonhosted.org/packages/3a/01/1a4dfbf2f3b58c8b8c8636189052fb857579f2ae4546caa51d14cbbf2aa6/pytorch-supporter-0.0.16.tar.gz
+[2023-06-16 08:40:31] ERROR root fetch - processPackages [nestedaccess]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/nestedaccess-0.2.4.tar.gz does not exist
+
+[2023-06-16 08:40:31] INFO root fetch - processPackages [nestedaccess]: Start processing: ssi-fctrading
+[2023-06-16 08:40:31] INFO root fetch - main [MainThread]: End processing [nestedaccess] error
+[2023-06-16 08:40:31] INFO root fetch - processPackages [datarangers-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/datarangers-sdk-python-1.0.5.tar.gz]
+[2023-06-16 08:40:31] INFO root fetch - processPackages [datarangers-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/datarangers_sdk_python-1.1.1-py3-none-any.whl.zip]
+[2023-06-16 08:40:31] INFO root fetch - main [MainThread]: End processing [datarangers-sdk-python]: success
+[2023-06-16 08:40:31] INFO root fetch - processPackages [ssi-fctrading]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-16 08:40:31] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-06-16 08:40:31] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-06-16 08:40:31] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-06-16 08:40:31] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/0d/a3/94a891c127085ecfb5943b7d27859a8e305a1ae67b4be6d3bc04afdcba7b/ssi-fctrading-2.0.0.tar.gz
+[2023-06-16 08:40:31] INFO root fetch - processPackages [pytorch-supporter]: Downloading https://files.pythonhosted.org/packages/c2/79/94026be2b48248d556d5e06873679363975c91a3f339d6c66ebeae55a89c/pytorch-supporter-0.0.17.tar.gz
+[2023-06-16 08:40:31] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/cd/15/35721276e7e7ca6c77ae15e923c0d81811b104c89c160f81ebb844c783d3/yplib-1.5.1.tar.gz
+[2023-06-16 08:40:31] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/e0/30/d680660eadfc3da83a9bd0a9479f71718f2b06eec10d95bbb9a3a688c2fa/ssi-fctrading-2.1.0.tar.gz
+[2023-06-16 08:40:31] INFO root fetch - processPackages [ar-filters]: Remove: archive file [/home/abi/fetcher/tmp/ar_filters-0.0.2.tar.gz]
+[2023-06-16 08:40:31] INFO root fetch - processPackages [ar-filters]: Remove: archive file [/home/abi/fetcher/tmp/ar_filters-0.0.3.tar.gz]
+[2023-06-16 08:40:31] INFO root fetch - main [MainThread]: End processing [ar-filters]: success
+[2023-06-16 08:40:31] INFO root fetch - processPackages [ssi-fctrading]: executing diffoscope
+[2023-06-16 08:40:31] INFO root fetch - processPackages [ssi-fctrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi-fctrading-2.0.0.tar.gz tmp/ssi-fctrading-2.1.0.tar.gz --markdown 20230616/s/ssi-fctrading/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-16 08:40:31] INFO root fetch - processPackages [pytorch-supporter]: executing diffoscope
+[2023-06-16 08:40:31] INFO root fetch - processPackages [pytorch-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-supporter-0.0.16.tar.gz tmp/pytorch-supporter-0.0.17.tar.gz --markdown 20230616/p/pytorch-supporter/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-06-16 08:40:31] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev8-py3-none-any.whl.zip]
+[2023-06-16 08:40:31] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev9-py3-none-any.whl.zip]
+[2023-06-16 08:40:31] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-blanket-order]: success
+[2023-06-16 08:40:31] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 08:40:31] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.5.0.tar.gz tmp/yplib-1.5.1.tar.gz --markdown 20230616/y/yplib/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-16 08:40:31] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.2.9.tar.gz]
+[2023-06-16 08:40:31] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.3.0.tar.gz]
+[2023-06-16 08:40:31] INFO root fetch - main [MainThread]: End processing [pyees]: success
+[2023-06-16 08:40:31] INFO root fetch - processPackages [indico-plugin-vc-zoom]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_vc_zoom-3.2.2-py3-none-any.whl.zip]
+[2023-06-16 08:40:31] INFO root fetch - processPackages [indico-plugin-vc-zoom]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_vc_zoom-3.2.3-py3-none-any.whl.zip]
+[2023-06-16 08:40:31] INFO root fetch - main [MainThread]: End processing [indico-plugin-vc-zoom]: success
+[2023-06-16 08:40:32] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-2.0.0.tar.gz]
+[2023-06-16 08:40:32] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-2.1.0.tar.gz]
+[2023-06-16 08:40:32] INFO root fetch - main [MainThread]: End processing [ssi-fctrading]: success
+[2023-06-16 08:40:32] INFO root fetch - processPackages [pytorch-supporter]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-supporter-0.0.16.tar.gz]
+[2023-06-16 08:40:32] INFO root fetch - processPackages [pytorch-supporter]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-supporter-0.0.17.tar.gz]
+[2023-06-16 08:40:32] INFO root fetch - main [MainThread]: End processing [pytorch-supporter]: success
+[2023-06-16 08:40:32] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.0.tar.gz]
+[2023-06-16 08:40:32] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.1.tar.gz]
+[2023-06-16 08:40:32] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 08:40:33] INFO root fetch - processPackages [big]: Remove: archive file [/home/abi/fetcher/tmp/big-0.8.3.tar.gz]
+[2023-06-16 08:40:33] INFO root fetch - processPackages [big]: Remove: archive file [/home/abi/fetcher/tmp/big-0.9.tar.gz]
+[2023-06-16 08:40:33] INFO root fetch - main [MainThread]: End processing [big]: success
+[2023-06-16 08:40:33] INFO root fetch - main [MainThread]: Store serial: [18528095]
