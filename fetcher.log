@@ -22094,3 +22094,115 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-16 13:36:21] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-0.2.2.tar.gz]
 [2023-06-16 13:36:21] INFO root fetch - main [MainThread]: End processing [apideck]: success
 [2023-06-16 13:36:21] INFO root fetch - main [MainThread]: Store serial: [18531111]
+[2023-06-16 13:41:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18531111]
+[2023-06-16 13:41:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-16 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metnet
+[2023-06-16 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cubed
+[2023-06-16 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UComp
+[2023-06-16 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: papis-zotero
+[2023-06-16 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-nano
+[2023-06-16 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meteva-base
+[2023-06-16 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: morel
+[2023-06-16 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: UComp
+[2023-06-16 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: glasswall
+[2023-06-16 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FlexGet
+[2023-06-16 13:41:32] INFO root fetch - processPackages [papis-zotero]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 13:41:32] INFO root fetch - processPackages [morel]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-16 13:41:32] INFO root fetch - processPackages [UComp]: New version: [1.0.68] Old Version: [1.0.66]
+[2023-06-16 13:41:32] INFO root fetch - processPackages [cubed]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-16 13:41:32] INFO root fetch - processPackages [meteva-base]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-16 13:41:32] INFO root fetch - processPackages [UComp]: New version: [1.0.68] Old Version: [1.0.66]
+[2023-06-16 13:41:32] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230616] Old Version: [2.4.0b20230615]
+[2023-06-16 13:41:32] INFO root fetch - processPackages [glasswall]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-16 13:41:32] INFO root fetch - processPackages [metnet]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-06-16 13:41:32] INFO root fetch - processPackages [FlexGet]: New version: [3.7.6] Old Version: [3.7.5]
+[2023-06-16 13:41:32] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/44/0f/f49ce3a54412470bfa04a61269a1fe4ecd4a6dafbe731b9e6b60cb83b03b/morel-1.2.2.tar.gz
+[2023-06-16 13:41:32] INFO root fetch - processPackages [papis-zotero]: Downloading https://files.pythonhosted.org/packages/c7/ab/10982ca2855fd3c4af301b3b56a44e97ae9aaa4a5847d39749bb45dc9259/papis-zotero-0.1.1.linux-x86_64.tar.gz
+[2023-06-16 13:41:32] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/15/a5/deeaac80d796b9ff0882456104e8393c042969458fe27a12b38911f53f78/UComp-1.0.66.tar.gz
+[2023-06-16 13:41:32] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/15/a5/deeaac80d796b9ff0882456104e8393c042969458fe27a12b38911f53f78/UComp-1.0.66.tar.gz
+[2023-06-16 13:41:32] INFO root fetch - processPackages [cubed]: Downloading https://files.pythonhosted.org/packages/7a/fc/d8836a9bfd0bc9db366afad771ddfdf19cefdc4bd3ab09b3572edff898d4/cubed-0.7.0.tar.gz
+[2023-06-16 13:41:33] INFO root fetch - processPackages [meteva-base]: Downloading https://files.pythonhosted.org/packages/b2/7c/2f276dd59b1dfd64f23d7467b25276f049b16f04b6b6b502066595382ce2/meteva_base-0.1.4-py3-none-any.whl
+[2023-06-16 13:41:33] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/fe/19/2e880c70f15c01b16520201f509ebc5eeff9122838f3a2baf6697f08a424/bigdl_nano-2.4.0b20230615-py3-none-win_amd64.whl
+[2023-06-16 13:41:33] INFO root fetch - processPackages [metnet]: Downloading https://files.pythonhosted.org/packages/ca/a6/91af4c298e8ef7de92c8375ef031b1529bed30a3dbae573ff7eeab5db4b1/metnet-4.1.8.tar.gz
+[2023-06-16 13:41:33] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/db/3b/c0ec5093a8382fa780681d62c48abc40c8289c12423ca53de4464d405ab8/glasswall-0.2.8.tar.gz
+[2023-06-16 13:41:33] INFO root fetch - processPackages [FlexGet]: Downloading https://files.pythonhosted.org/packages/06/3f/876c83a87f480a6572096fcdcf90b53607a79aca2db8bbf331eaf938be98/FlexGet-3.7.5.tar.gz
+[2023-06-16 13:41:33] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/8a/67/a2584e666dadd904d4e8cc575134b6cd9339939010db4a33d77882608fe2/morel-1.2.3.tar.gz
+[2023-06-16 13:41:33] INFO root fetch - processPackages [morel]: executing diffoscope
+[2023-06-16 13:41:33] INFO root fetch - processPackages [morel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morel-1.2.2.tar.gz tmp/morel-1.2.3.tar.gz --markdown 20230616/m/morel/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-16 13:41:33] INFO root fetch - processPackages [cubed]: Downloading https://files.pythonhosted.org/packages/8e/15/3bb624b77fa4faae61f3f297cb9d74a43494e09b77f4008070c12898480d/cubed-0.8.0.tar.gz
+[2023-06-16 13:41:33] INFO root fetch - processPackages [papis-zotero]: Downloading https://files.pythonhosted.org/packages/4b/be/287d2fd72c54ad9d764fcb60d2a2812af820dbeeb3586842eee27241c821/papis-zotero-0.1.2.tar.gz
+[2023-06-16 13:41:33] INFO root fetch - processPackages [cubed]: executing diffoscope
+[2023-06-16 13:41:33] INFO root fetch - processPackages [cubed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubed-0.7.0.tar.gz tmp/cubed-0.8.0.tar.gz --markdown 20230616/c/cubed/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-16 13:41:33] INFO root fetch - processPackages [metnet]: Downloading https://files.pythonhosted.org/packages/85/bb/39cd852da81955e2bed9a14872ebc498732d15953d712c69749126d79f9e/metnet-4.1.9.tar.gz
+[2023-06-16 13:41:33] INFO root fetch - processPackages [papis-zotero]: executing diffoscope
+[2023-06-16 13:41:33] INFO root fetch - processPackages [papis-zotero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papis-zotero-0.1.1.linux-x86_64.tar.gz tmp/papis-zotero-0.1.2.tar.gz --markdown 20230616/p/papis-zotero/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 13:41:33] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/ae/3d/da3829d65ccab7df43fb3171c98dfcc4d8dd361140d5111b0b05758a4ee7/UComp-1.0.68.tar.gz
+[2023-06-16 13:41:33] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/ae/3d/da3829d65ccab7df43fb3171c98dfcc4d8dd361140d5111b0b05758a4ee7/UComp-1.0.68.tar.gz
+[2023-06-16 13:41:33] INFO root fetch - processPackages [metnet]: executing diffoscope
+[2023-06-16 13:41:33] INFO root fetch - processPackages [metnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metnet-4.1.8.tar.gz tmp/metnet-4.1.9.tar.gz --markdown 20230616/m/metnet/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-06-16 13:41:33] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/47/94/2dc924350a0e843ccbc4082cf1cb50ebbc50369449736f40cc255ea3364e/bigdl_nano-2.4.0b20230616-py3-none-win_amd64.whl
+[2023-06-16 13:41:33] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/41/3e/7e2dac6dfd98c5c44f58a4b4338f8beb0f9b4f56b8dedef7e5cdcbadbd85/glasswall-0.2.9.tar.gz
+[2023-06-16 13:41:33] INFO root fetch - processPackages [glasswall]: executing diffoscope
+[2023-06-16 13:41:33] INFO root fetch - processPackages [glasswall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glasswall-0.2.8.tar.gz tmp/glasswall-0.2.9.tar.gz --markdown 20230616/g/glasswall/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 13:41:34] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-16 13:41:34] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230615-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230616-py3-none-win_amd64.whl.zip --markdown 20230616/b/bigdl-nano/2.4.0b20230615-2.4.0b20230616/diff.md --exclude *.pyd
+[2023-06-16 13:41:34] INFO root fetch - processPackages [FlexGet]: Downloading https://files.pythonhosted.org/packages/b4/1a/f7f47a964a394ee3bae269fe84ab86592cd667f669ef3000dc6619c8dac4/FlexGet-3.7.6.tar.gz
+[2023-06-16 13:41:34] INFO root fetch - processPackages [FlexGet]: executing diffoscope
+[2023-06-16 13:41:34] INFO root fetch - processPackages [FlexGet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlexGet-3.7.5.tar.gz tmp/FlexGet-3.7.6.tar.gz --markdown 20230616/F/FlexGet/3.7.5-3.7.6/diff.md --exclude *.pyd
+[2023-06-16 13:41:34] INFO root fetch - processPackages [meteva-base]: Downloading https://files.pythonhosted.org/packages/2a/04/d36f4b83593f5e692caabe8c3e16f0f4eed647a254eebe3c28efe95e54eb/meteva_base-0.1.5-py3-none-any.whl
+[2023-06-16 13:41:34] INFO root fetch - processPackages [papis-zotero]: Remove: archive file [/home/abi/fetcher/tmp/papis-zotero-0.1.1.linux-x86_64.tar.gz]
+[2023-06-16 13:41:34] INFO root fetch - processPackages [papis-zotero]: Remove: archive file [/home/abi/fetcher/tmp/papis-zotero-0.1.2.tar.gz]
+[2023-06-16 13:41:34] INFO root fetch - processPackages [papis-zotero]: Start processing: taipy-core
+[2023-06-16 13:41:34] INFO root fetch - main [MainThread]: End processing [papis-zotero]: success
+[2023-06-16 13:41:34] INFO root fetch - processPackages [meteva-base]: executing diffoscope
+[2023-06-16 13:41:34] INFO root fetch - processPackages [meteva-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meteva_base-0.1.4-py3-none-any.whl.zip tmp/meteva_base-0.1.5-py3-none-any.whl.zip --markdown 20230616/m/meteva-base/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-16 13:41:34] INFO root fetch - processPackages [taipy-core]: New version: [2.3.0.dev6] Old Version: [2.3.0.dev5]
+[2023-06-16 13:41:34] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.2.2.tar.gz]
+[2023-06-16 13:41:34] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.2.3.tar.gz]
+[2023-06-16 13:41:34] INFO root fetch - processPackages [morel]: Start processing: tonpay
+[2023-06-16 13:41:34] INFO root fetch - main [MainThread]: End processing [morel]: success
+[2023-06-16 13:41:35] WARNING root fetch - processPackages [tonpay]: Skipping, unable to determine old version
+[2023-06-16 13:41:35] INFO root fetch - processPackages [tonpay]: Start processing: glue-jupyter
+[2023-06-16 13:41:35] INFO root fetch - main [MainThread]: End processing [tonpay] error
+[2023-06-16 13:41:35] INFO root fetch - processPackages [glue-jupyter]: New version: [0.9] Old Version: [0.8.1]
+[2023-06-16 13:41:35] INFO root fetch - processPackages [taipy-core]: Downloading https://files.pythonhosted.org/packages/1a/26/10d5214b874d377baf53da6988d4621e25647d753f46404d8b56134721b0/taipy-core-2.3.0.dev5.tar.gz
+[2023-06-16 13:41:35] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-16 13:41:35] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.66.tar.gz tmp/UComp-1.0.68.tar.gz --markdown 20230616/U/UComp/1.0.66-1.0.68/diff.md --exclude *.pyd
+[2023-06-16 13:41:35] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-16 13:41:35] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.66.tar.gz tmp/UComp-1.0.68.tar.gz --markdown 20230616/U/UComp/1.0.66-1.0.68/diff.md --exclude *.pyd
+[2023-06-16 13:41:35] INFO root fetch - processPackages [glue-jupyter]: Downloading https://files.pythonhosted.org/packages/0e/98/96e876cdb94555cb68ab97c57d455516379a21d382e35ba4085fd4868bf0/glue-jupyter-0.8.1.tar.gz
+[2023-06-16 13:41:35] INFO root fetch - processPackages [cubed]: Remove: archive file [/home/abi/fetcher/tmp/cubed-0.7.0.tar.gz]
+[2023-06-16 13:41:35] INFO root fetch - processPackages [cubed]: Remove: archive file [/home/abi/fetcher/tmp/cubed-0.8.0.tar.gz]
+[2023-06-16 13:41:35] INFO root fetch - main [MainThread]: End processing [cubed]: success
+[2023-06-16 13:41:35] INFO root fetch - processPackages [taipy-core]: Downloading https://files.pythonhosted.org/packages/67/d6/3246056a735c4f223d4084bfe0bce5ae6ab281119ab63cfb3751dd714bc5/taipy-core-2.3.0.dev6.tar.gz
+[2023-06-16 13:41:35] INFO root fetch - processPackages [metnet]: Remove: archive file [/home/abi/fetcher/tmp/metnet-4.1.8.tar.gz]
+[2023-06-16 13:41:35] INFO root fetch - processPackages [metnet]: Remove: archive file [/home/abi/fetcher/tmp/metnet-4.1.9.tar.gz]
+[2023-06-16 13:41:35] INFO root fetch - main [MainThread]: End processing [metnet]: success
+[2023-06-16 13:41:35] INFO root fetch - processPackages [taipy-core]: executing diffoscope
+[2023-06-16 13:41:35] INFO root fetch - processPackages [taipy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-core-2.3.0.dev5.tar.gz tmp/taipy-core-2.3.0.dev6.tar.gz --markdown 20230616/t/taipy-core/2.3.0.dev5-2.3.0.dev6/diff.md --exclude *.pyd
+[2023-06-16 13:41:35] INFO root fetch - processPackages [glue-jupyter]: Downloading https://files.pythonhosted.org/packages/8e/3f/49f4bd6e055f894bf9d05c703d4bae73d2a122cdac367ee2235ca1dab678/glue-jupyter-0.9.tar.gz
+[2023-06-16 13:41:35] INFO root fetch - processPackages [glue-jupyter]: executing diffoscope
+[2023-06-16 13:41:35] INFO root fetch - processPackages [glue-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue-jupyter-0.8.1.tar.gz tmp/glue-jupyter-0.9.tar.gz --markdown 20230616/g/glue-jupyter/0.8.1-0.9/diff.md --exclude *.pyd
+[2023-06-16 13:41:36] INFO root fetch - processPackages [glasswall]: Remove: archive file [/home/abi/fetcher/tmp/glasswall-0.2.8.tar.gz]
+[2023-06-16 13:41:36] INFO root fetch - processPackages [glasswall]: Remove: archive file [/home/abi/fetcher/tmp/glasswall-0.2.9.tar.gz]
+[2023-06-16 13:41:36] INFO root fetch - main [MainThread]: End processing [glasswall]: success
+[2023-06-16 13:41:37] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230615-py3-none-win_amd64.whl.zip]
+[2023-06-16 13:41:37] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230616-py3-none-win_amd64.whl.zip]
+[2023-06-16 13:41:37] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-16 13:41:37] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.1.4-py3-none-any.whl.zip]
+[2023-06-16 13:41:37] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.1.5-py3-none-any.whl.zip]
+[2023-06-16 13:41:37] INFO root fetch - main [MainThread]: End processing [meteva-base]: success
+[2023-06-16 13:41:38] INFO root fetch - processPackages [taipy-core]: Remove: archive file [/home/abi/fetcher/tmp/taipy-core-2.3.0.dev5.tar.gz]
+[2023-06-16 13:41:38] INFO root fetch - processPackages [taipy-core]: Remove: archive file [/home/abi/fetcher/tmp/taipy-core-2.3.0.dev6.tar.gz]
+[2023-06-16 13:41:38] INFO root fetch - main [MainThread]: End processing [taipy-core]: success
+[2023-06-16 13:41:38] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.66.tar.gz]
+[2023-06-16 13:41:38] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.68.tar.gz]
+[2023-06-16 13:41:38] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-16 13:41:38] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-16 13:41:39] INFO root fetch - processPackages [glue-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/glue-jupyter-0.8.1.tar.gz]
+[2023-06-16 13:41:39] INFO root fetch - processPackages [glue-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/glue-jupyter-0.9.tar.gz]
+[2023-06-16 13:41:39] INFO root fetch - main [MainThread]: End processing [glue-jupyter]: success
+[2023-06-16 13:41:45] INFO root fetch - processPackages [FlexGet]: Remove: archive file [/home/abi/fetcher/tmp/FlexGet-3.7.5.tar.gz]
+[2023-06-16 13:41:45] INFO root fetch - processPackages [FlexGet]: Remove: archive file [/home/abi/fetcher/tmp/FlexGet-3.7.6.tar.gz]
+[2023-06-16 13:41:45] INFO root fetch - main [MainThread]: End processing [FlexGet]: success
+[2023-06-16 13:41:45] INFO root fetch - main [MainThread]: Store serial: [18531153]
