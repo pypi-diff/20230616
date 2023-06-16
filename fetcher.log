@@ -20637,3 +20637,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 12:31:43] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
 [2023-06-16 12:31:43] INFO root fetch - main [MainThread]: End processing [syngen]: success
 [2023-06-16 12:31:43] INFO root fetch - main [MainThread]: Store serial: [18530583]
+[2023-06-16 12:36:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530583]
+[2023-06-16 12:36:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-16 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multipie
+[2023-06-16 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-resolve
+[2023-06-16 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamin_logger
+[2023-06-16 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ms-salesforce-api
+[2023-06-16 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geopyv
+[2023-06-16 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quarchCalibration
+[2023-06-16 12:36:52] INFO root fetch - processPackages [multipie]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-16 12:36:52] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-16 12:36:52] INFO root fetch - processPackages [quarchCalibration]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-16 12:36:52] INFO root fetch - processPackages [ms-salesforce-api]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-06-16 12:36:52] INFO root fetch - processPackages [lamin_logger]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-16 12:36:52] INFO root fetch - processPackages [geopyv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 12:36:52] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/56/de/060fd6da858a8e8bfadcc07a23629b32a77aadb9b7308f49ea136d092f67/ms_salesforce_api-1.1.0.tar.gz
+[2023-06-16 12:36:53] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/66/48/d4dbe2d819b2dccf94b61c10a9ebdc51b378417e49360c0f29edba80e323/multipie-1.1.8.tar.gz
+[2023-06-16 12:36:53] INFO root fetch - processPackages [quarchCalibration]: Downloading https://files.pythonhosted.org/packages/b1/0f/2f00b4d14a33460cd497d60593f78cc122139c1c7bec425c0449dae32ecb/quarchCalibration-1.1.4-py2.py3-none-any.whl
+[2023-06-16 12:36:53] INFO root fetch - processPackages [lamin_logger]: Downloading https://files.pythonhosted.org/packages/7e/c3/e5d57e2ba104dbc130791d4ae9b803e472e76dba75f97bc927926aa6448d/lamin_logger-0.5.1.tar.gz
+[2023-06-16 12:36:53] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/6c/9e/af6f377f0192a9e398ce2c77d779150bc577fae4a91ebe083a2b2d028f0b/pydantic_resolve-1.0.0.tar.gz
+[2023-06-16 12:36:53] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/59/cd/5c2cb6799fbf4df8b4ca611d25994ac3d2b2ef9ce0eb5cb7fe5555b1f774/geopyv-0.0.8.tar.gz
+[2023-06-16 12:36:53] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/78/43/99306808cb4c60be9ec7c586ffaae3d8a423f5ba496ab0117e7c1547d3a3/ms_salesforce_api-1.1.2.tar.gz
+[2023-06-16 12:36:53] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/3f/09/8f16f9db7b84265bf3ab114a2901f816570500e904a4b0f71548f65f6bd1/pydantic_resolve-1.1.0.tar.gz
+[2023-06-16 12:36:53] INFO root fetch - processPackages [lamin_logger]: Downloading https://files.pythonhosted.org/packages/e3/fd/3a2be7295a3238a21960edbc5e2ce5b67ae3166253d97489422a66c1531b/lamin_logger-0.5.2.tar.gz
+[2023-06-16 12:36:53] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2023-06-16 12:36:53] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-1.1.0.tar.gz tmp/ms_salesforce_api-1.1.2.tar.gz --markdown 20230616/m/ms-salesforce-api/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-06-16 12:36:53] INFO root fetch - processPackages [quarchCalibration]: Downloading https://files.pythonhosted.org/packages/7b/29/1ab8b338385049b30df3f95369844f32986320a1b1a946cdba58d3b222a2/quarchCalibration-1.1.5-py2.py3-none-any.whl
+[2023-06-16 12:36:53] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/9f/65/2be884ae50f72ca2932440104132e038f350e9a5992a7ce26c1a2212406c/multipie-1.1.9.tar.gz
+[2023-06-16 12:36:53] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-06-16 12:36:53] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.0.0.tar.gz tmp/pydantic_resolve-1.1.0.tar.gz --markdown 20230616/p/pydantic-resolve/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-16 12:36:53] INFO root fetch - processPackages [lamin_logger]: executing diffoscope
+[2023-06-16 12:36:53] INFO root fetch - processPackages [lamin_logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamin_logger-0.5.1.tar.gz tmp/lamin_logger-0.5.2.tar.gz --markdown 20230616/l/lamin_logger/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-16 12:36:53] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/76/fd/888bc0b2bd9d5003b90a509494f1d527befc7101dc39ed5d07d6f7ba03d0/geopyv-0.0.9.tar.gz
+[2023-06-16 12:36:53] INFO root fetch - processPackages [geopyv]: executing diffoscope
+[2023-06-16 12:36:53] INFO root fetch - processPackages [geopyv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopyv-0.0.8.tar.gz tmp/geopyv-0.0.9.tar.gz --markdown 20230616/g/geopyv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 12:36:53] INFO root fetch - processPackages [quarchCalibration]: executing diffoscope
+[2023-06-16 12:36:53] INFO root fetch - processPackages [quarchCalibration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarchCalibration-1.1.4-py2.py3-none-any.whl.zip tmp/quarchCalibration-1.1.5-py2.py3-none-any.whl.zip --markdown 20230616/q/quarchCalibration/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-16 12:36:54] INFO root fetch - processPackages [multipie]: executing diffoscope
+[2023-06-16 12:36:54] INFO root fetch - processPackages [multipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipie-1.1.8.tar.gz tmp/multipie-1.1.9.tar.gz --markdown 20230616/m/multipie/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-16 12:36:54] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-1.1.0.tar.gz]
+[2023-06-16 12:36:54] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-1.1.2.tar.gz]
+[2023-06-16 12:36:54] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2023-06-16 12:36:54] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.0.0.tar.gz]
+[2023-06-16 12:36:54] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.1.0.tar.gz]
+[2023-06-16 12:36:54] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-06-16 12:36:54] INFO root fetch - processPackages [lamin_logger]: Remove: archive file [/home/abi/fetcher/tmp/lamin_logger-0.5.1.tar.gz]
+[2023-06-16 12:36:54] INFO root fetch - processPackages [lamin_logger]: Remove: archive file [/home/abi/fetcher/tmp/lamin_logger-0.5.2.tar.gz]
+[2023-06-16 12:36:54] INFO root fetch - main [MainThread]: End processing [lamin_logger]: success
+[2023-06-16 12:36:55] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.8.tar.gz]
+[2023-06-16 12:36:55] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.9.tar.gz]
+[2023-06-16 12:36:55] INFO root fetch - main [MainThread]: End processing [geopyv]: success
+[2023-06-16 12:36:55] INFO root fetch - processPackages [quarchCalibration]: Remove: archive file [/home/abi/fetcher/tmp/quarchCalibration-1.1.4-py2.py3-none-any.whl.zip]
+[2023-06-16 12:36:55] INFO root fetch - processPackages [quarchCalibration]: Remove: archive file [/home/abi/fetcher/tmp/quarchCalibration-1.1.5-py2.py3-none-any.whl.zip]
+[2023-06-16 12:36:55] INFO root fetch - main [MainThread]: End processing [quarchCalibration]: success
+[2023-06-16 12:36:57] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.8.tar.gz]
+[2023-06-16 12:36:57] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.1.9.tar.gz]
+[2023-06-16 12:36:57] INFO root fetch - main [MainThread]: End processing [multipie]: success
+[2023-06-16 12:36:57] INFO root fetch - main [MainThread]: Store serial: [18530642]
