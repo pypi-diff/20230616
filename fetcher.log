@@ -9522,3 +9522,138 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 03:56:23] INFO root fetch - processPackages [scikit-base]: Remove: archive file [/home/abi/fetcher/tmp/scikit-base-0.4.6.tar.gz]
 [2023-06-16 03:56:23] INFO root fetch - main [MainThread]: End processing [scikit-base]: success
 [2023-06-16 03:56:23] INFO root fetch - main [MainThread]: Store serial: [18526150]
+[2023-06-16 04:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526150]
+[2023-06-16 04:01:33] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-16 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qsm-forward
+[2023-06-16 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adnuntius
+[2023-06-16 04:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spider-st
+[2023-06-16 04:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spithon
+[2023-06-16 04:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycoparsec
+[2023-06-16 04:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PenguLogger
+[2023-06-16 04:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Mensajes-Agudel
+[2023-06-16 04:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-ios-device
+[2023-06-16 04:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyidevice
+[2023-06-16 04:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlglot
+[2023-06-16 04:01:34] INFO root fetch - processPackages [PenguLogger]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-16 04:01:34] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 04:01:34] WARNING root fetch - processPackages [spithon]: Skipping, unable to determine old version
+[2023-06-16 04:01:34] INFO root fetch - processPackages [spithon]: Start processing: autogluon.common
+[2023-06-16 04:01:34] INFO root fetch - main [MainThread]: End processing [spithon] error
+[2023-06-16 04:01:34] INFO root fetch - processPackages [pyidevice]: New version: [2.3.32.4] Old Version: [2.3.32.3]
+[2023-06-16 04:01:34] INFO root fetch - processPackages [Mensajes-Agudel]: New version: [6.0] Old Version: [5.0]
+[2023-06-16 04:01:34] WARNING root fetch - processPackages [pycoparsec]: Skipping, unable to determine old version
+[2023-06-16 04:01:34] INFO root fetch - processPackages [pycoparsec]: Start processing: autogluon.core
+[2023-06-16 04:01:34] INFO root fetch - main [MainThread]: End processing [pycoparsec] error
+[2023-06-16 04:01:34] INFO root fetch - processPackages [adnuntius]: New version: [1.9] Old Version: [1.8]
+[2023-06-16 04:01:34] INFO root fetch - processPackages [py-ios-device]: New version: [2.3.32.4] Old Version: [2.3.32.2]
+[2023-06-16 04:01:34] INFO root fetch - processPackages [qsm-forward]: New version: [0.7] Old Version: [0.6]
+[2023-06-16 04:01:34] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-06-16 04:01:34] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [autogluon.common]: New version: [0.8.0b20230615] Old Version: [0.8.0]
+[2023-06-16 04:01:34] INFO root fetch - processPackages [autogluon.core]: New version: [0.8.0b20230615] Old Version: [0.8.0]
+[2023-06-16 04:01:34] INFO root fetch - processPackages [PenguLogger]: Downloading https://files.pythonhosted.org/packages/38/da/a62819baffacb70a726c4946a1b6eea0db0bd3a738c89ba84df0d8a97bf2/PenguLogger-0.1.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [pyidevice]: Downloading https://files.pythonhosted.org/packages/c0/4b/00bd7ab7d0316609d640d9ef967970e1505154eada65c6d67a0378140601/pyidevice-2.3.32.3.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [Mensajes-Agudel]: Downloading https://files.pythonhosted.org/packages/31/f3/f1e709390e54010a8c85bcb0a7dea0df322b332889a9ba1559dae45691e5/Mensajes-Agudel-5.0.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [py-ios-device]: Downloading https://files.pythonhosted.org/packages/92/bf/0f577ac1958b122b0e037c72bed2f71cc41b6507008b9b1c9b1b0cee953c/py_ios_device-2.3.32.2.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/1b/2f/ae4eb4f00a87ddb393c92b786dd907c31ef7f53473f91adcf5c0c9c766bc/autogluon.common-0.8.0.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/e2/35/28187b2b16a3b98646083d55260a75de7e90b74d24d2b816f5c6cbe28441/autogluon.core-0.8.0.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/95/6c/ca7b9580fd689c215d9ff24cf85027925466fd4a65c64bbf444e59b7de26/qsm-forward-0.6.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/5a/3e/9012077474db43a0f62e6fc05f786ce927dd892377b95713413e92728ef6/adnuntius-1.8.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [pyidevice]: Downloading https://files.pythonhosted.org/packages/a1/54/ce54acb660c42d1f51c93cba0f7d67b1f090943b31156a22be37ae5759c1/pyidevice-2.3.32.4.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [Mensajes-Agudel]: Downloading https://files.pythonhosted.org/packages/d2/31/5704b2e34c6a70859f9e7901d83103d16a26c59772d539682346858a23a9/Mensajes-Agudel-6.0.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/0c/e3/f89ccba1738a604469c0b774d916a0b164e6646bf73c2c8373d380346c1a/autogluon.common-0.8.0b20230615.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/e8/c1/90c682fae1ecd64fd24c4f75cccbc5c090978f0b2a9e0fa4d15b0cdc85a7/qsm-forward-0.7.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/64/4b/ce8701ca2d89eb7534f80a396544cf0ba93d714c1be9ff225f568ecd5257/autogluon.core-0.8.0b20230615.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [pyidevice]: executing diffoscope
+[2023-06-16 04:01:34] INFO root fetch - processPackages [pyidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyidevice-2.3.32.3.tar.gz tmp/pyidevice-2.3.32.4.tar.gz --markdown 20230616/p/pyidevice/2.3.32.3-2.3.32.4/diff.md --exclude *.pyd
+[2023-06-16 04:01:34] INFO root fetch - processPackages [py-ios-device]: Downloading https://files.pythonhosted.org/packages/9a/92/1fa5fa19dde3e0ff35b7202cf4bf5740fad5791d94bbb7fd11bcadec8180/py_ios_device-2.3.32.4.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [Mensajes-Agudel]: executing diffoscope
+[2023-06-16 04:01:34] INFO root fetch - processPackages [Mensajes-Agudel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mensajes-Agudel-5.0.tar.gz tmp/Mensajes-Agudel-6.0.tar.gz --markdown 20230616/M/Mensajes-Agudel/5.0-6.0/diff.md --exclude *.pyd
+[2023-06-16 04:01:34] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/82/88/5cc388342ae0a1ab0b55016b7972c6969ed66e149cdc355ddd477f8c86f9/adnuntius-1.9.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [PenguLogger]: Downloading https://files.pythonhosted.org/packages/81/bd/485fdf0260ad7144b26bca3f4ee46e1f18ccf1c86f8ca90c79da864cf2b1/PenguLogger-0.1.1-py3-none-any.whl
+[2023-06-16 04:01:34] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-06-16 04:01:34] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm-forward-0.6.tar.gz tmp/qsm-forward-0.7.tar.gz --markdown 20230616/q/qsm-forward/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-16 04:01:34] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-06-16 04:01:34] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.8.0.tar.gz tmp/autogluon.common-0.8.0b20230615.tar.gz --markdown 20230616/a/autogluon.common/0.8.0-0.8.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 04:01:34] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-06-16 04:01:34] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-06-16 04:01:34] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.8.0.tar.gz tmp/autogluon.core-0.8.0b20230615.tar.gz --markdown 20230616/a/autogluon.core/0.8.0-0.8.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 04:01:34] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-16 04:01:34] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230616/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 04:01:34] INFO root fetch - processPackages [PenguLogger]: executing diffoscope
+[2023-06-16 04:01:34] INFO root fetch - processPackages [PenguLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PenguLogger-0.1.tar.gz tmp/PenguLogger-0.1.1-py3-none-any.whl.zip --markdown 20230616/P/PenguLogger/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-16 04:01:34] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-06-16 04:01:34] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230616/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-06-16 04:01:34] INFO root fetch - processPackages [py-ios-device]: executing diffoscope
+[2023-06-16 04:01:34] INFO root fetch - processPackages [py-ios-device]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ios_device-2.3.32.2.tar.gz tmp/py_ios_device-2.3.32.4.tar.gz --markdown 20230616/p/py-ios-device/2.3.32.2-2.3.32.4/diff.md --exclude *.pyd
+[2023-06-16 04:01:35] INFO root fetch - processPackages [adnuntius]: executing diffoscope
+[2023-06-16 04:01:35] INFO root fetch - processPackages [adnuntius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnuntius-1.8.tar.gz tmp/adnuntius-1.9.tar.gz --markdown 20230616/a/adnuntius/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-16 04:01:36] INFO root fetch - processPackages [Mensajes-Agudel]: Remove: archive file [/home/abi/fetcher/tmp/Mensajes-Agudel-5.0.tar.gz]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [Mensajes-Agudel]: Remove: archive file [/home/abi/fetcher/tmp/Mensajes-Agudel-6.0.tar.gz]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [Mensajes-Agudel]: Start processing: autogluon.features
+[2023-06-16 04:01:36] INFO root fetch - main [MainThread]: End processing [Mensajes-Agudel]: success
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.features]: New version: [0.8.0b20230615] Old Version: [0.8.0]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/da/3b/ebb25fe16598fa63b2c74563e36566c302849dc7a8a94554d156b8948f39/autogluon.features-0.8.0.tar.gz
+[2023-06-16 04:01:36] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.6.tar.gz]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.7.tar.gz]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [qsm-forward]: Start processing: autogluon.tabular
+[2023-06-16 04:01:36] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.8.0b20230615] Old Version: [0.8.0]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.0.tar.gz]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.0b20230615.tar.gz]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.common]: Start processing: autogluon.multimodal
+[2023-06-16 04:01:36] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.8.0b20230615] Old Version: [0.7.1b20230614]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [PenguLogger]: Remove: archive file [/home/abi/fetcher/tmp/PenguLogger-0.1.tar.gz]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [PenguLogger]: Remove: archive file [/home/abi/fetcher/tmp/PenguLogger-0.1.1-py3-none-any.whl.zip]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [PenguLogger]: Start processing: autogluon.timeseries
+[2023-06-16 04:01:36] INFO root fetch - main [MainThread]: End processing [PenguLogger]: success
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/a4/65/372418fdc3b6eac6c75266f8b30c1012ead5165f01cedc586465d3f6faad/autogluon.tabular-0.8.0.tar.gz
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.8.0b20230615] Old Version: [0.7.1b20230614]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/ac/66/c8d59af8fe13463cf13d71ffccfe1a0eeb36b644d69e7de53649dde88e21/autogluon.multimodal-0.7.1b20230614.tar.gz
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/8e/1f/12147538c6f7837a30f09cd96a2a33341011a632d564d8e9d3a2ff705708/autogluon.features-0.8.0b20230615.tar.gz
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/c6/90/1053f7ca6d3385977f38e7e866b75f23a9987865512a4fabd76e2c081088/autogluon.timeseries-0.7.1b20230614.tar.gz
+[2023-06-16 04:01:36] INFO root fetch - processPackages [pyidevice]: Remove: archive file [/home/abi/fetcher/tmp/pyidevice-2.3.32.3.tar.gz]
+[2023-06-16 04:01:36] INFO root fetch - processPackages [pyidevice]: Remove: archive file [/home/abi/fetcher/tmp/pyidevice-2.3.32.4.tar.gz]
+[2023-06-16 04:01:36] INFO root fetch - main [MainThread]: End processing [pyidevice]: success
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.8.0.tar.gz tmp/autogluon.features-0.8.0b20230615.tar.gz --markdown 20230616/a/autogluon.features/0.8.0-0.8.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/9e/fe/429d983dd934dccd3e02326ee10d67bc487bcc66636e55295ecc9907588c/autogluon.multimodal-0.8.0b20230615.tar.gz
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/64/a1/a8a8e3434ac8e022c488af687746d09b422099ba65c2b661511918be2032/autogluon.timeseries-0.8.0b20230615.tar.gz
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/e8/31/f4c6bfec5a0b67634b8bef2fa0b7658041adc7b3fd28cc4a95b4d46b3340/autogluon.tabular-0.8.0b20230615.tar.gz
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.7.1b20230614.tar.gz tmp/autogluon.multimodal-0.8.0b20230615.tar.gz --markdown 20230616/a/autogluon.multimodal/0.7.1b20230614-0.8.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.7.1b20230614.tar.gz tmp/autogluon.timeseries-0.8.0b20230615.tar.gz --markdown 20230616/a/autogluon.timeseries/0.7.1b20230614-0.8.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-06-16 04:01:36] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.8.0.tar.gz tmp/autogluon.tabular-0.8.0b20230615.tar.gz --markdown 20230616/a/autogluon.tabular/0.8.0-0.8.0b20230615/diff.md --exclude *.pyd
+[2023-06-16 04:01:37] INFO root fetch - processPackages [adnuntius]: Remove: archive file [/home/abi/fetcher/tmp/adnuntius-1.8.tar.gz]
+[2023-06-16 04:01:37] INFO root fetch - processPackages [adnuntius]: Remove: archive file [/home/abi/fetcher/tmp/adnuntius-1.9.tar.gz]
+[2023-06-16 04:01:37] INFO root fetch - main [MainThread]: End processing [adnuntius]: success
+[2023-06-16 04:01:37] INFO root fetch - processPackages [py-ios-device]: Remove: archive file [/home/abi/fetcher/tmp/py_ios_device-2.3.32.2.tar.gz]
+[2023-06-16 04:01:37] INFO root fetch - processPackages [py-ios-device]: Remove: archive file [/home/abi/fetcher/tmp/py_ios_device-2.3.32.4.tar.gz]
+[2023-06-16 04:01:37] INFO root fetch - main [MainThread]: End processing [py-ios-device]: success
+[2023-06-16 04:01:38] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.7.1b20230614.tar.gz]
+[2023-06-16 04:01:38] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.0b20230615.tar.gz]
+[2023-06-16 04:01:38] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-06-16 04:01:38] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.0.tar.gz]
+[2023-06-16 04:01:38] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.0b20230615.tar.gz]
+[2023-06-16 04:01:38] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-06-16 04:01:38] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.7.1b20230614.tar.gz]
+[2023-06-16 04:01:38] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.0b20230615.tar.gz]
+[2023-06-16 04:01:38] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-06-16 04:01:38] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.0.tar.gz]
+[2023-06-16 04:01:38] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.0b20230615.tar.gz]
+[2023-06-16 04:01:38] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-06-16 04:01:39] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-06-16 04:01:39] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-06-16 04:01:39] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-06-16 04:01:51] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-16 04:01:51] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-16 04:01:51] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-16 04:02:32] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.0.tar.gz]
+[2023-06-16 04:02:32] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.0b20230615.tar.gz]
+[2023-06-16 04:02:32] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-06-16 04:02:32] INFO root fetch - main [MainThread]: Store serial: [18526200]
