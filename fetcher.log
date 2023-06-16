@@ -20238,3 +20238,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 12:09:21] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
 [2023-06-16 12:09:21] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-06-16 12:09:21] INFO root fetch - main [MainThread]: Store serial: [18530423]
+[2023-06-16 12:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530423]
+[2023-06-16 12:14:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-16 12:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: getmodelspec
+[2023-06-16 12:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memv
+[2023-06-16 12:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: predeployed-generator
+[2023-06-16 12:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dm-reverb-nightly
+[2023-06-16 12:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: memv
+[2023-06-16 12:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2023-06-16 12:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-interpolator
+[2023-06-16 12:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nevergrad
+[2023-06-16 12:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: memv
+[2023-06-16 12:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jykj
+[2023-06-16 12:14:30] INFO root fetch - processPackages [memv]: New version: [0.0.3.1] Old Version: [0.0.3.0]
+[2023-06-16 12:14:30] INFO root fetch - processPackages [predeployed-generator]: New version: [1.2.0b0] Old Version: [1.2.0a1]
+[2023-06-16 12:14:30] INFO root fetch - processPackages [memv]: New version: [0.0.3.1] Old Version: [0.0.3.0]
+[2023-06-16 12:14:30] WARNING root fetch - processPackages [simple-interpolator]: Skipping, unable to determine old version
+[2023-06-16 12:14:30] INFO root fetch - processPackages [simple-interpolator]: Start processing: simple-interpolator
+[2023-06-16 12:14:30] INFO root fetch - main [MainThread]: End processing [simple-interpolator] error
+[2023-06-16 12:14:30] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-16 12:14:30] INFO root fetch - processPackages [memv]: New version: [0.0.3.1] Old Version: [0.0.3.0]
+[2023-06-16 12:14:30] WARNING root fetch - processPackages [simple-interpolator]: Skipping, unable to determine old version
+[2023-06-16 12:14:30] INFO root fetch - main [MainThread]: End processing [simple-interpolator] error
+[2023-06-16 12:14:30] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-16 12:14:30] INFO root fetch - processPackages [predeployed-generator]: Downloading https://files.pythonhosted.org/packages/8c/06/574522debaeafff3948aa5516bcef4a2baefb3ac6667bbe0d3460066e3d8/predeployed-generator-1.2.0a1.tar.gz
+[2023-06-16 12:14:30] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/14/96/65aef7dc0583bb7e951643b68ef81ebbec492b803bad60c80ce2706d924b/memv-0.0.3.0.tar.gz
+[2023-06-16 12:14:31] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/14/96/65aef7dc0583bb7e951643b68ef81ebbec492b803bad60c80ce2706d924b/memv-0.0.3.0.tar.gz
+[2023-06-16 12:14:31] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-16 12:14:31] WARNING root fetch - processPackages [getmodelspec]: Skipping, unable to determine old version
+[2023-06-16 12:14:31] INFO root fetch - main [MainThread]: End processing [getmodelspec] error
+[2023-06-16 12:14:31] INFO root fetch - processPackages [nevergrad]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-16 12:14:31] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/14/96/65aef7dc0583bb7e951643b68ef81ebbec492b803bad60c80ce2706d924b/memv-0.0.3.0.tar.gz
+[2023-06-16 12:14:31] INFO root fetch - processPackages [jykj]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-16 12:14:31] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-16 12:14:31] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-16 12:14:31] INFO root fetch - processPackages [predeployed-generator]: Downloading https://files.pythonhosted.org/packages/59/ef/5f573c87d7f02a698ddc62e7e1e527193e405ec0dc0c71dff8fe3827eed8/predeployed-generator-1.2.0b0.tar.gz
+[2023-06-16 12:14:31] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-16 12:14:31] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230616/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-16 12:14:31] INFO root fetch - processPackages [nevergrad]: Downloading https://files.pythonhosted.org/packages/06/ea/2e1f13a237258c30444aa3573040ef81723f4442c58de4af476700e62797/nevergrad-0.6.0.tar.gz
+[2023-06-16 12:14:31] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/a2/1d/808dc9fc6e765a83aaf7d7add37c0e081a7a8d418cc3cdc16a86558ec32e/memv-0.0.3.1.tar.gz
+[2023-06-16 12:14:31] INFO root fetch - processPackages [jykj]: Downloading https://files.pythonhosted.org/packages/65/49/704a05df54abcb55ea991ed348f1c38afd87927349a0a1547299d12c9a20/jykj-0.0.3.tar.gz
+[2023-06-16 12:14:31] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/a2/1d/808dc9fc6e765a83aaf7d7add37c0e081a7a8d418cc3cdc16a86558ec32e/memv-0.0.3.1.tar.gz
+[2023-06-16 12:14:31] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/a2/1d/808dc9fc6e765a83aaf7d7add37c0e081a7a8d418cc3cdc16a86558ec32e/memv-0.0.3.1.tar.gz
+[2023-06-16 12:14:31] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-16 12:14:31] INFO root fetch - processPackages [predeployed-generator]: executing diffoscope
+[2023-06-16 12:14:31] INFO root fetch - processPackages [predeployed-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predeployed-generator-1.2.0a1.tar.gz tmp/predeployed-generator-1.2.0b0.tar.gz --markdown 20230616/p/predeployed-generator/1.2.0a1-1.2.0b0/diff.md --exclude *.pyd
+[2023-06-16 12:14:31] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 12:14:31] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.3.0.tar.gz tmp/memv-0.0.3.1.tar.gz --markdown 20230616/m/memv/0.0.3.0-0.0.3.1/diff.md --exclude *.pyd
+[2023-06-16 12:14:31] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 12:14:31] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.3.0.tar.gz tmp/memv-0.0.3.1.tar.gz --markdown 20230616/m/memv/0.0.3.0-0.0.3.1/diff.md --exclude *.pyd
+[2023-06-16 12:14:31] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 12:14:31] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.3.0.tar.gz tmp/memv-0.0.3.1.tar.gz --markdown 20230616/m/memv/0.0.3.0-0.0.3.1/diff.md --exclude *.pyd
+[2023-06-16 12:14:31] INFO root fetch - processPackages [jykj]: Downloading https://files.pythonhosted.org/packages/0c/2b/049e8caebee0cece44c6e30c1ace74f6dcdca9c389a19016ed400a8b0ecd/jykj-0.0.4.tar.gz
+[2023-06-16 12:14:31] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-16 12:14:31] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230616/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-16 12:14:31] INFO root fetch - processPackages [nevergrad]: Downloading https://files.pythonhosted.org/packages/00/3d/48a9a458669a6fb094a3ef79e0e6d491bcef3ade425ffa8b6ccd3afeb1a9/nevergrad-0.7.0.tar.gz
+[2023-06-16 12:14:31] INFO root fetch - processPackages [jykj]: executing diffoscope
+[2023-06-16 12:14:31] INFO root fetch - processPackages [jykj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jykj-0.0.3.tar.gz tmp/jykj-0.0.4.tar.gz --markdown 20230616/j/jykj/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-16 12:14:32] INFO root fetch - processPackages [nevergrad]: executing diffoscope
+[2023-06-16 12:14:32] INFO root fetch - processPackages [nevergrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nevergrad-0.6.0.tar.gz tmp/nevergrad-0.7.0.tar.gz --markdown 20230616/n/nevergrad/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-16 12:14:32] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.3.0.tar.gz]
+[2023-06-16 12:14:32] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.3.1.tar.gz]
+[2023-06-16 12:14:32] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 12:14:32] INFO root fetch - processPackages [predeployed-generator]: Remove: archive file [/home/abi/fetcher/tmp/predeployed-generator-1.2.0a1.tar.gz]
+[2023-06-16 12:14:32] INFO root fetch - processPackages [predeployed-generator]: Remove: archive file [/home/abi/fetcher/tmp/predeployed-generator-1.2.0b0.tar.gz]
+[2023-06-16 12:14:32] INFO root fetch - main [MainThread]: End processing [predeployed-generator]: success
+[2023-06-16 12:14:33] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 12:14:33] INFO root fetch - processPackages [jykj]: Remove: archive file [/home/abi/fetcher/tmp/jykj-0.0.3.tar.gz]
+[2023-06-16 12:14:33] INFO root fetch - processPackages [jykj]: Remove: archive file [/home/abi/fetcher/tmp/jykj-0.0.4.tar.gz]
+[2023-06-16 12:14:33] INFO root fetch - main [MainThread]: End processing [jykj]: success
+[2023-06-16 12:14:33] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 12:14:34] INFO root fetch - processPackages [nevergrad]: Remove: archive file [/home/abi/fetcher/tmp/nevergrad-0.6.0.tar.gz]
+[2023-06-16 12:14:34] INFO root fetch - processPackages [nevergrad]: Remove: archive file [/home/abi/fetcher/tmp/nevergrad-0.7.0.tar.gz]
+[2023-06-16 12:14:34] INFO root fetch - main [MainThread]: End processing [nevergrad]: success
+[2023-06-16 12:14:36] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-16 12:14:36] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-16 12:14:36] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-16 12:15:28] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-16 12:15:28] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-16 12:15:28] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-16 12:15:28] INFO root fetch - main [MainThread]: Store serial: [18530455]
