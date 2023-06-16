@@ -5365,3 +5365,90 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 02:53:52] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
 [2023-06-16 02:53:52] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-06-16 02:53:52] INFO root fetch - main [MainThread]: Store serial: [18524726]
+[2023-06-16 02:59:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18524726]
+[2023-06-16 02:59:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-16 02:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aspose-cells-python
+[2023-06-16 02:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spagrn
+[2023-06-16 02:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte
+[2023-06-16 02:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-databrew-cicd
+[2023-06-16 02:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gerk
+[2023-06-16 02:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-06-16 02:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: schem
+[2023-06-16 02:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi
+[2023-06-16 02:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gerk
+[2023-06-16 02:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlalchemy-celery-beat
+[2023-06-16 02:59:05] INFO root fetch - processPackages [aspose-cells-python]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-06-16 02:59:05] INFO root fetch - processPackages [gerk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-16 02:59:05] INFO root fetch - processPackages [sqlalchemy-celery-beat]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-16 02:59:05] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-16 02:59:05] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-16 02:59:05] INFO root fetch - processPackages [gerk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-16 02:59:05] INFO root fetch - processPackages [spagrn]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-16 02:59:05] INFO root fetch - processPackages [schem]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-16 02:59:05] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-06-16 02:59:05] INFO root fetch - processPackages [pulumi]: New version: [3.9.1] Old Version: [3.9.0a1627480147]
+[2023-06-16 02:59:05] INFO root fetch - processPackages [schem]: Downloading https://files.pythonhosted.org/packages/42/66/1f4d8683198245612ee7a5e2a5765967f8071b00874015ec0001a1923ae1/schem-0.9.6.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Downloading https://files.pythonhosted.org/packages/df/a0/fbf3edefb16e3885f98b98d566b73e6c4769d03631b1bb6199075dc520fd/sqlalchemy_celery_beat-0.4.4.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [spagrn]: Downloading https://files.pythonhosted.org/packages/82/15/3a0879485176792359622ab67f3916ca45c5c487b33d028d703e0f28cb4e/spagrn-1.0.4.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [gerk]: Downloading https://files.pythonhosted.org/packages/92/28/8ff45fac8892d28efb93e9823fdcaf53e92363b4ba51211ded4c51dd09fb/gerk-0.0.6.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [gerk]: Downloading https://files.pythonhosted.org/packages/92/28/8ff45fac8892d28efb93e9823fdcaf53e92363b4ba51211ded4c51dd09fb/gerk-0.0.6.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [aspose-cells-python]: Downloading https://files.pythonhosted.org/packages/d0/89/e7a39d910ebbc2f520995f0124704ca1fcf5145f00e54a8fbcfd20f34346/aspose_cells_python-23.5.0-py3-none-win_amd64.whl
+[2023-06-16 02:59:05] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [schem]: Downloading https://files.pythonhosted.org/packages/f9/61/b544fd79215110646193a4202e32076a3acdc4c3eb43e51932fc774a93a5/schem-0.9.7.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/86/e81db20648ca7b8fbc7fb663e6795bc30d94e7f71c35856cda04bb48fb84/pulumi-3.9.0a1627480147-py2.py3-none-any.whl
+[2023-06-16 02:59:05] INFO root fetch - processPackages [schem]: executing diffoscope
+[2023-06-16 02:59:05] INFO root fetch - processPackages [schem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schem-0.9.6.tar.gz tmp/schem-0.9.7.tar.gz --markdown 20230616/s/schem/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-16 02:59:05] WARNING root fetch - processPackages [aspose-cells-python]: Skipping package: exceeds size limit 54682340>=10485760
+[2023-06-16 02:59:05] INFO root fetch - main [MainThread]: End processing [aspose-cells-python] error
+[2023-06-16 02:59:05] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Downloading https://files.pythonhosted.org/packages/05/7f/8133a0c8a454e5f3e632d812a9c0f626ee810be2e9288769f287e7e0fca6/sqlalchemy_celery_beat-0.4.5.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [sqlalchemy-celery-beat]: executing diffoscope
+[2023-06-16 02:59:05] INFO root fetch - processPackages [sqlalchemy-celery-beat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_celery_beat-0.4.4.tar.gz tmp/sqlalchemy_celery_beat-0.4.5.tar.gz --markdown 20230616/s/sqlalchemy-celery-beat/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-16 02:59:05] INFO root fetch - processPackages [spagrn]: Downloading https://files.pythonhosted.org/packages/52/80/cbd30481631a09cafacb50f97f243b342e65a3718d7c5801c3db29361684/spagrn-1.0.5.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [gerk]: Downloading https://files.pythonhosted.org/packages/7e/11/69a5a6ef7cb630ca8fc9036ae7aec51e72aa19653c7e90a2ba2bd0ab9528/gerk-0.0.7.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-06-16 02:59:05] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230616/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-06-16 02:59:05] INFO root fetch - processPackages [gerk]: Downloading https://files.pythonhosted.org/packages/7e/11/69a5a6ef7cb630ca8fc9036ae7aec51e72aa19653c7e90a2ba2bd0ab9528/gerk-0.0.7.tar.gz
+[2023-06-16 02:59:05] INFO root fetch - processPackages [gerk]: executing diffoscope
+[2023-06-16 02:59:05] INFO root fetch - processPackages [gerk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gerk-0.0.6.tar.gz tmp/gerk-0.0.7.tar.gz --markdown 20230616/g/gerk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-16 02:59:05] INFO root fetch - processPackages [gerk]: executing diffoscope
+[2023-06-16 02:59:05] INFO root fetch - processPackages [gerk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gerk-0.0.6.tar.gz tmp/gerk-0.0.7.tar.gz --markdown 20230616/g/gerk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-16 02:59:06] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-06-16 02:59:06] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-16 02:59:06] INFO root fetch - processPackages [spagrn]: executing diffoscope
+[2023-06-16 02:59:06] INFO root fetch - processPackages [spagrn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spagrn-1.0.4.tar.gz tmp/spagrn-1.0.5.tar.gz --markdown 20230616/s/spagrn/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-16 02:59:06] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/ba/a5/2a7580020b4c5bf7a2141ea9a534e88935a103da4dff30a205e4afdfb95d/pulumi-3.9.1-py2.py3-none-any.whl
+[2023-06-16 02:59:06] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-06-16 02:59:06] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230616/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-16 02:59:06] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-16 02:59:06] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230616/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-16 02:59:06] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2023-06-16 02:59:06] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip --markdown 20230616/p/pulumi/3.9.0a1627480147-3.9.1/diff.md --exclude *.pyd
+[2023-06-16 02:59:07] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.4.4.tar.gz]
+[2023-06-16 02:59:07] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.4.5.tar.gz]
+[2023-06-16 02:59:07] INFO root fetch - main [MainThread]: End processing [sqlalchemy-celery-beat]: success
+[2023-06-16 02:59:07] INFO root fetch - processPackages [gerk]: Remove: archive file [/home/abi/fetcher/tmp/gerk-0.0.6.tar.gz]
+[2023-06-16 02:59:07] INFO root fetch - processPackages [gerk]: Remove: archive file [/home/abi/fetcher/tmp/gerk-0.0.7.tar.gz]
+[2023-06-16 02:59:07] INFO root fetch - main [MainThread]: End processing [gerk]: success
+[2023-06-16 02:59:07] INFO root fetch - processPackages [spagrn]: Remove: archive file [/home/abi/fetcher/tmp/spagrn-1.0.4.tar.gz]
+[2023-06-16 02:59:07] INFO root fetch - processPackages [spagrn]: Remove: archive file [/home/abi/fetcher/tmp/spagrn-1.0.5.tar.gz]
+[2023-06-16 02:59:07] INFO root fetch - main [MainThread]: End processing [spagrn]: success
+[2023-06-16 02:59:07] INFO root fetch - main [MainThread]: End processing [gerk]: success
+[2023-06-16 02:59:07] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-16 02:59:07] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-16 02:59:07] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-16 02:59:07] INFO root fetch - processPackages [schem]: Remove: archive file [/home/abi/fetcher/tmp/schem-0.9.6.tar.gz]
+[2023-06-16 02:59:07] INFO root fetch - processPackages [schem]: Remove: archive file [/home/abi/fetcher/tmp/schem-0.9.7.tar.gz]
+[2023-06-16 02:59:07] INFO root fetch - main [MainThread]: End processing [schem]: success
+[2023-06-16 02:59:08] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-06-16 02:59:08] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-06-16 02:59:08] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-06-16 02:59:12] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-06-16 02:59:12] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-06-16 02:59:12] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-06-16 03:00:01] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip]
+[2023-06-16 03:00:01] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip]
+[2023-06-16 03:00:01] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2023-06-16 03:00:01] INFO root fetch - main [MainThread]: Store serial: [18524756]
