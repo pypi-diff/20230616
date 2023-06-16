@@ -13027,3 +13027,11 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 07:23:08] INFO root fetch - processPackages [msl-loadlib]: Remove: archive file [/home/abi/fetcher/tmp/msl-loadlib-0.9.0.tar.gz]
 [2023-06-16 07:23:08] INFO root fetch - main [MainThread]: End processing [msl-loadlib]: success
 [2023-06-16 07:23:08] INFO root fetch - main [MainThread]: Store serial: [18527633]
+[2023-06-16 07:28:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527633]
+[2023-06-16 07:28:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-16 07:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-support-nightly
+[2023-06-16 07:28:19] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230615] Old Version: [0.4.4.dev20230614]
+[2023-06-16 07:28:19] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/37/d2/affea73a12f2313b29dc9ec67c881ee24139cd2b75960a879d7382ee3630/tflite_support_nightly-0.4.4.dev20230614-cp39-cp39-macosx_10_11_x86_64.whl
+[2023-06-16 07:28:19] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 58314509>=10485760
+[2023-06-16 07:28:19] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-06-16 07:28:19] INFO root fetch - main [MainThread]: Store serial: [18527637]
