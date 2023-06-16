@@ -5452,3 +5452,146 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 03:00:01] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip]
 [2023-06-16 03:00:01] INFO root fetch - main [MainThread]: End processing [pulumi]: success
 [2023-06-16 03:00:01] INFO root fetch - main [MainThread]: Store serial: [18524756]
+[2023-06-16 03:05:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18524756]
+[2023-06-16 03:05:09] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-16 03:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcap-protobuf-support
+[2023-06-16 03:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cartography
+[2023-06-16 03:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2023-06-16 03:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2023-06-16 03:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sns-notify
+[2023-06-16 03:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-skill-translation
+[2023-06-16 03:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-skill-camera
+[2023-06-16 03:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vscode-server-bin
+[2023-06-16 03:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: music-assistant-frontend
+[2023-06-16 03:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blin
+[2023-06-16 03:05:09] INFO root fetch - processPackages [mcap-protobuf-support]: New version: [0.3.0] Old Version: [0.0.9]
+[2023-06-16 03:05:09] INFO root fetch - processPackages [yplib]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-06-16 03:05:09] INFO root fetch - processPackages [cartography]: New version: [0.9.0] Old Version: [0.80.0]
+[2023-06-16 03:05:09] INFO root fetch - processPackages [vscode-server-bin]: New version: [1.79.2] Old Version: [1.79.0]
+[2023-06-16 03:05:09] INFO root fetch - processPackages [neon-skill-camera]: New version: [0.2.1a3] Old Version: [0.2.1a2]
+[2023-06-16 03:05:10] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 03:05:10] INFO root fetch - processPackages [blin]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-16 03:05:10] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-16 03:05:10] INFO root fetch - processPackages [neon-skill-translation]: New version: [0.3.1a3] Old Version: [0.3.1a2]
+[2023-06-16 03:05:10] INFO root fetch - processPackages [neon-skill-camera]: Downloading https://files.pythonhosted.org/packages/2e/56/67922255df7776e9a66b830886e7eee92d66db0134cbcb2dfcd4a8bba5ab/neon-skill-camera-0.2.1a2.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [music-assistant-frontend]: New version: [20230616.0] Old Version: [20230609.0]
+[2023-06-16 03:05:10] INFO root fetch - processPackages [neon-skill-translation]: Downloading https://files.pythonhosted.org/packages/e7/15/45ecfd839f679fab6d5911760b211989300d320ab798428cbf515316dfa8/neon-skill-translation-0.3.1a2.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [cartography]: Downloading https://files.pythonhosted.org/packages/c0/4a/fc8661df640a8eb1e226a9d0c4269295bc303f5fb5fa606f0d8ed0349695/cartography-0.80.0.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/81/fb/9a53715cfb0a220eb7c29b107a2deff296ef0163d7e4e793dc7cb4cb9de7/yplib-1.4.2.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [mcap-protobuf-support]: Downloading https://files.pythonhosted.org/packages/15/4b/a354b3702360afd3707eec4fcd81d90b7e19ae3d4e1deb95c412dbb14163/mcap-protobuf-support-0.0.9.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [vscode-server-bin]: Downloading https://files.pythonhosted.org/packages/cc/f2/8e406b714f7077ef3a245e06c1fcb5eafb89be8599c3bab7dceda1e1a0c0/vscode_server_bin-1.79.0-py3-none-any.whl
+[2023-06-16 03:05:10] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/b6/17/0d9d159f9b974b0b9632de1edffd493e5402b2b909fb23298f92f05cacf9/blin-0.0.1.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-16 03:05:10] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230616/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 03:05:10] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/68/ee/bbaeb71993d5a873e0326e817936b365829c06727a72905c4f608e168c8c/music_assistant_frontend-20230609.0-py3-none-any.whl
+[2023-06-16 03:05:10] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/87/19/9ed2489e36c169a232ceafaa387a32dfc497e5bfb2e97b5f5098a8484878/yplib-1.4.3.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [neon-skill-translation]: Downloading https://files.pythonhosted.org/packages/9b/5e/e2bd91785068d1186bc3078407aceb2c66dd73e59cb7ad2854b09723d70a/neon-skill-translation-0.3.1a3.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 03:05:10] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.4.2.tar.gz tmp/yplib-1.4.3.tar.gz --markdown 20230616/y/yplib/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-06-16 03:05:10] INFO root fetch - processPackages [cartography]: Downloading https://files.pythonhosted.org/packages/7f/d5/3c2223cf97c91e40b061ea40ddbfe85ed8faf4b3126699c78f4aa6b6b07d/cartography-0.9.0.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [neon-skill-camera]: Downloading https://files.pythonhosted.org/packages/d5/5c/e1c1540a5099819cd1bfa8c4d3389c35e644f1ede06d70ae440d345ea93e/neon-skill-camera-0.2.1a3.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [mcap-protobuf-support]: Downloading https://files.pythonhosted.org/packages/fd/c1/403ca8c8ecaf53e82f74dcf3b4bd797aed56794356e2c3708a350b8e150d/mcap-protobuf-support-0.3.0.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/cf/3a/7f03dd989d80cac14d44b1349f7d0ab7ea4d721c93adcfeddce83518a83f/blin-0.1.0.tar.gz
+[2023-06-16 03:05:10] INFO root fetch - processPackages [neon-skill-translation]: executing diffoscope
+[2023-06-16 03:05:10] INFO root fetch - processPackages [neon-skill-translation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-translation-0.3.1a2.tar.gz tmp/neon-skill-translation-0.3.1a3.tar.gz --markdown 20230616/n/neon-skill-translation/0.3.1a2-0.3.1a3/diff.md --exclude *.pyd
+[2023-06-16 03:05:10] INFO root fetch - processPackages [mcap-protobuf-support]: executing diffoscope
+[2023-06-16 03:05:10] INFO root fetch - processPackages [mcap-protobuf-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcap-protobuf-support-0.0.9.tar.gz tmp/mcap-protobuf-support-0.3.0.tar.gz --markdown 20230616/m/mcap-protobuf-support/0.0.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-16 03:05:10] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-16 03:05:10] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230616/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-16 03:05:10] INFO root fetch - processPackages [blin]: executing diffoscope
+[2023-06-16 03:05:10] INFO root fetch - processPackages [blin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blin-0.0.1.tar.gz tmp/blin-0.1.0.tar.gz --markdown 20230616/b/blin/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-16 03:05:10] INFO root fetch - processPackages [cartography]: executing diffoscope
+[2023-06-16 03:05:10] INFO root fetch - processPackages [cartography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartography-0.80.0.tar.gz tmp/cartography-0.9.0.tar.gz --markdown 20230616/c/cartography/0.80.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 03:05:10] INFO root fetch - processPackages [neon-skill-camera]: executing diffoscope
+[2023-06-16 03:05:10] INFO root fetch - processPackages [neon-skill-camera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-camera-0.2.1a2.tar.gz tmp/neon-skill-camera-0.2.1a3.tar.gz --markdown 20230616/n/neon-skill-camera/0.2.1a2-0.2.1a3/diff.md --exclude *.pyd
+[2023-06-16 03:05:10] WARNING root fetch - processPackages [vscode-server-bin]: Skipping package: exceeds size limit 55425874>=10485760
+[2023-06-16 03:05:10] INFO root fetch - processPackages [vscode-server-bin]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-16 03:05:10] INFO root fetch - main [MainThread]: End processing [vscode-server-bin] error
+[2023-06-16 03:05:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-16 03:05:10] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-16 03:05:10] ERROR root fetch - processPackages [neon-skill-camera]: Diffoscope failed: Error: error creating container storage: the container name "epic_zhukovsky" is already in use by "77fcf6ab0faa5149bd8b3ce1ba0a4d0f7709819724deeb3033707a8a13e6b398". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-16 03:05:10] INFO root fetch - processPackages [neon-skill-camera]: Start processing: lp-ap-tools
+[2023-06-16 03:05:10] INFO root fetch - main [MainThread]: End processing [neon-skill-camera] error
+[2023-06-16 03:05:10] INFO root fetch - processPackages [lp-ap-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-16 03:05:11] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/94/cc/6263100459f4f0ac23793ac9513c3cdb2149fac550c451ddd7658d0e8b30/music_assistant_frontend-20230616.0-py3-none-any.whl
+[2023-06-16 03:05:11] INFO root fetch - processPackages [lp-ap-tools]: Downloading https://files.pythonhosted.org/packages/5a/ea/31248b1406c84f57568dc5b94d3959f481af7b91209457e74393038b6bb3/lp_ap_tools-0.1.5-py3-none-any.whl
+[2023-06-16 03:05:11] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2023-06-16 03:05:11] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_assistant_frontend-20230609.0-py3-none-any.whl.zip tmp/music_assistant_frontend-20230616.0-py3-none-any.whl.zip --markdown 20230616/m/music-assistant-frontend/20230609.0-20230616.0/diff.md --exclude *.pyd
+[2023-06-16 03:05:11] INFO root fetch - processPackages [lp-ap-tools]: Downloading https://files.pythonhosted.org/packages/cc/64/4dc30fd14ae0de547914d8b2cbfd3b005bd87fd7b05d67cdf16d56de413c/lp_ap_tools-0.1.6.tar.gz
+[2023-06-16 03:05:11] INFO root fetch - processPackages [lp-ap-tools]: executing diffoscope
+[2023-06-16 03:05:11] INFO root fetch - processPackages [lp-ap-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lp_ap_tools-0.1.5-py3-none-any.whl.zip tmp/lp_ap_tools-0.1.6.tar.gz --markdown 20230616/l/lp-ap-tools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-16 03:05:11] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-06-16 03:05:11] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-06-16 03:05:11] INFO root fetch - processPackages [cdk-sns-notify]: Start processing: simple-aws-rds
+[2023-06-16 03:05:11] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-16 03:05:11] INFO root fetch - processPackages [simple-aws-rds]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-06-16 03:05:11] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-16 03:05:11] INFO root fetch - processPackages [simple-aws-rds]: Downloading https://files.pythonhosted.org/packages/44/f0/bf41f9c7198e0e0656908b4f2bf63f3014ece367a45396aa62d7a01781e2/simple_aws_rds-0.2.1.tar.gz
+[2023-06-16 03:05:11] INFO root fetch - processPackages [simple-aws-rds]: Downloading https://files.pythonhosted.org/packages/10/0e/e850257537083439d9d887b5dc6d06279754cb74865d5b517cc27db6dd59/simple_aws_rds-0.3.1.tar.gz
+[2023-06-16 03:05:11] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.4.2.tar.gz]
+[2023-06-16 03:05:11] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.4.3.tar.gz]
+[2023-06-16 03:05:11] INFO root fetch - processPackages [yplib]: Start processing: butter-backup
+[2023-06-16 03:05:11] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 03:05:11] INFO root fetch - processPackages [simple-aws-rds]: executing diffoscope
+[2023-06-16 03:05:11] INFO root fetch - processPackages [simple-aws-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_aws_rds-0.2.1.tar.gz tmp/simple_aws_rds-0.3.1.tar.gz --markdown 20230616/s/simple-aws-rds/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-06-16 03:05:11] INFO root fetch - processPackages [butter-backup]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-06-16 03:05:12] INFO root fetch - processPackages [blin]: Remove: archive file [/home/abi/fetcher/tmp/blin-0.0.1.tar.gz]
+[2023-06-16 03:05:12] INFO root fetch - processPackages [blin]: Remove: archive file [/home/abi/fetcher/tmp/blin-0.1.0.tar.gz]
+[2023-06-16 03:05:12] INFO root fetch - processPackages [blin]: Start processing: dbt-bigquery
+[2023-06-16 03:05:12] INFO root fetch - main [MainThread]: End processing [blin]: success
+[2023-06-16 03:05:12] INFO root fetch - processPackages [dbt-bigquery]: New version: [1.6.0b3] Old Version: [1.6.0b2]
+[2023-06-16 03:05:12] INFO root fetch - processPackages [mcap-protobuf-support]: Remove: archive file [/home/abi/fetcher/tmp/mcap-protobuf-support-0.0.9.tar.gz]
+[2023-06-16 03:05:12] INFO root fetch - processPackages [mcap-protobuf-support]: Remove: archive file [/home/abi/fetcher/tmp/mcap-protobuf-support-0.3.0.tar.gz]
+[2023-06-16 03:05:12] INFO root fetch - processPackages [mcap-protobuf-support]: Start processing: thermoextrap
+[2023-06-16 03:05:12] INFO root fetch - main [MainThread]: End processing [mcap-protobuf-support]: success
+[2023-06-16 03:05:12] INFO root fetch - processPackages [butter-backup]: Downloading https://files.pythonhosted.org/packages/7d/57/8b183c59ae12db8b22aeedb15720749d31040407f95fcb35e68700873135/butter_backup-3.2.0.tar.gz
+[2023-06-16 03:05:12] INFO root fetch - processPackages [thermoextrap]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-16 03:05:12] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/b5/e1/115512b936351ea5a0d69a3d92bc1470092e53c6fd2f76e38573e86b589e/dbt-bigquery-1.6.0b2.tar.gz
+[2023-06-16 03:05:12] INFO root fetch - processPackages [neon-skill-translation]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-translation-0.3.1a2.tar.gz]
+[2023-06-16 03:05:12] INFO root fetch - processPackages [neon-skill-translation]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-translation-0.3.1a3.tar.gz]
+[2023-06-16 03:05:12] INFO root fetch - main [MainThread]: End processing [neon-skill-translation]: success
+[2023-06-16 03:05:12] INFO root fetch - processPackages [thermoextrap]: Downloading https://files.pythonhosted.org/packages/11/68/6b3c3ba6da0f50ee255644bb4adb9f6d8314fdbf36e6f64598d946161402/thermoextrap-0.3.1.tar.gz
+[2023-06-16 03:05:12] INFO root fetch - processPackages [butter-backup]: Downloading https://files.pythonhosted.org/packages/56/94/06cee41a243c58b30b1e13d0749f7b85d7a3b14414970836868232f37488/butter_backup-3.3.0.tar.gz
+[2023-06-16 03:05:12] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-16 03:05:12] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230616/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-16 03:05:12] INFO root fetch - processPackages [lp-ap-tools]: Remove: archive file [/home/abi/fetcher/tmp/lp_ap_tools-0.1.5-py3-none-any.whl.zip]
+[2023-06-16 03:05:12] INFO root fetch - processPackages [lp-ap-tools]: Remove: archive file [/home/abi/fetcher/tmp/lp_ap_tools-0.1.6.tar.gz]
+[2023-06-16 03:05:12] INFO root fetch - main [MainThread]: End processing [lp-ap-tools]: success
+[2023-06-16 03:05:12] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/05/ca/5665aa192cb516736561c62d6ac57a32d7706d9306b5068378547b277e1d/dbt-bigquery-1.6.0b3.tar.gz
+[2023-06-16 03:05:12] INFO root fetch - processPackages [butter-backup]: executing diffoscope
+[2023-06-16 03:05:12] INFO root fetch - processPackages [butter-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/butter_backup-3.2.0.tar.gz tmp/butter_backup-3.3.0.tar.gz --markdown 20230616/b/butter-backup/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-06-16 03:05:12] INFO root fetch - processPackages [dbt-bigquery]: executing diffoscope
+[2023-06-16 03:05:12] INFO root fetch - processPackages [dbt-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-bigquery-1.6.0b2.tar.gz tmp/dbt-bigquery-1.6.0b3.tar.gz --markdown 20230616/d/dbt-bigquery/1.6.0b2-1.6.0b3/diff.md --exclude *.pyd
+[2023-06-16 03:05:12] INFO root fetch - processPackages [thermoextrap]: Downloading https://files.pythonhosted.org/packages/94/bb/077b46d0c0015d20b6de6d94cd622682110d6bd9c5e9c599a9e347599fba/thermoextrap-0.4.0.tar.gz
+[2023-06-16 03:05:12] INFO root fetch - processPackages [thermoextrap]: executing diffoscope
+[2023-06-16 03:05:12] INFO root fetch - processPackages [thermoextrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thermoextrap-0.3.1.tar.gz tmp/thermoextrap-0.4.0.tar.gz --markdown 20230616/t/thermoextrap/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-16 03:05:13] INFO root fetch - processPackages [simple-aws-rds]: Remove: archive file [/home/abi/fetcher/tmp/simple_aws_rds-0.2.1.tar.gz]
+[2023-06-16 03:05:13] INFO root fetch - processPackages [simple-aws-rds]: Remove: archive file [/home/abi/fetcher/tmp/simple_aws_rds-0.3.1.tar.gz]
+[2023-06-16 03:05:13] INFO root fetch - main [MainThread]: End processing [simple-aws-rds]: success
+[2023-06-16 03:05:13] INFO root fetch - processPackages [butter-backup]: Remove: archive file [/home/abi/fetcher/tmp/butter_backup-3.2.0.tar.gz]
+[2023-06-16 03:05:13] INFO root fetch - processPackages [butter-backup]: Remove: archive file [/home/abi/fetcher/tmp/butter_backup-3.3.0.tar.gz]
+[2023-06-16 03:05:13] INFO root fetch - main [MainThread]: End processing [butter-backup]: success
+[2023-06-16 03:05:13] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-16 03:05:13] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-16 03:05:13] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-16 03:05:14] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bigquery-1.6.0b2.tar.gz]
+[2023-06-16 03:05:14] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bigquery-1.6.0b3.tar.gz]
+[2023-06-16 03:05:14] INFO root fetch - main [MainThread]: End processing [dbt-bigquery]: success
+[2023-06-16 03:05:14] INFO root fetch - processPackages [thermoextrap]: Remove: archive file [/home/abi/fetcher/tmp/thermoextrap-0.3.1.tar.gz]
+[2023-06-16 03:05:14] INFO root fetch - processPackages [thermoextrap]: Remove: archive file [/home/abi/fetcher/tmp/thermoextrap-0.4.0.tar.gz]
+[2023-06-16 03:05:14] INFO root fetch - main [MainThread]: End processing [thermoextrap]: success
+[2023-06-16 03:05:16] INFO root fetch - processPackages [cartography]: Remove: archive file [/home/abi/fetcher/tmp/cartography-0.80.0.tar.gz]
+[2023-06-16 03:05:16] INFO root fetch - processPackages [cartography]: Remove: archive file [/home/abi/fetcher/tmp/cartography-0.9.0.tar.gz]
+[2023-06-16 03:05:16] INFO root fetch - main [MainThread]: End processing [cartography]: success
+[2023-06-16 03:05:31] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-06-16 03:05:31] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-06-16 03:05:31] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-16 03:05:41] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230609.0-py3-none-any.whl.zip]
+[2023-06-16 03:05:41] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230616.0-py3-none-any.whl.zip]
+[2023-06-16 03:05:41] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2023-06-16 03:05:41] INFO root fetch - main [MainThread]: Store serial: [18524806]
