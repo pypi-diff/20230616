@@ -18879,3 +18879,140 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 11:16:22] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.4.3.tar.gz]
 [2023-06-16 11:16:22] INFO root fetch - main [MainThread]: End processing [a2]: success
 [2023-06-16 11:16:22] INFO root fetch - main [MainThread]: Store serial: [18529917]
+[2023-06-16 11:21:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18529917]
+[2023-06-16 11:21:31] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-16 11:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oc-dltool
+[2023-06-16 11:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vdk-core
+[2023-06-16 11:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopahe
+[2023-06-16 11:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sharingiscaring
+[2023-06-16 11:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-06-16 11:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickfix-ch
+[2023-06-16 11:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tbp-nightly
+[2023-06-16 11:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ddadevops
+[2023-06-16 11:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: k8s-deployment-status
+[2023-06-16 11:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kgheartbeat
+[2023-06-16 11:21:31] INFO root fetch - processPackages [quickfix-ch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 11:21:31] INFO root fetch - processPackages [kgheartbeat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 11:21:31] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-06-16 11:21:31] INFO root fetch - processPackages [k8s-deployment-status]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-16 11:21:31] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-06-16 11:21:31] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-16 11:21:31] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-16 11:21:31] WARNING root fetch - processPackages [oc-dltool]: Skipping, unable to determine old version
+[2023-06-16 11:21:31] INFO root fetch - processPackages [oc-dltool]: Start processing: zh-langchain
+[2023-06-16 11:21:31] INFO root fetch - main [MainThread]: End processing [oc-dltool] error
+[2023-06-16 11:21:31] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-06-16 11:21:31] INFO root fetch - processPackages [kgheartbeat]: Downloading https://files.pythonhosted.org/packages/01/78/447ea7bbade7d6859b80962eb251537a020f837552b84e6edd3dcaa0cb0c/kgheartbeat-0.1.8.tar.gz
+[2023-06-16 11:21:31] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/53/53/8d5fbb694a5a27c3bfd85f47540af2476613fd26647dc23fb244cfb45e41/ddadevops-4.0.0.dev8.tar.gz
+[2023-06-16 11:21:31] INFO root fetch - processPackages [k8s-deployment-status]: Downloading https://files.pythonhosted.org/packages/b0/22/5f65734d32d13b16e7a9df41861a3b0aa8db3da56aa58fb0b8338b04026b/k8s_deployment_status-0.0.3.tar.gz
+[2023-06-16 11:21:31] INFO root fetch - processPackages [autopahe]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-06-16 11:21:31] INFO root fetch - processPackages [vdk-core]: New version: [0.3.902182978] Old Version: [0.3.901275455]
+[2023-06-16 11:21:31] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/ec/8c/18f997c3d361aa358776fa84dc75aa9ae090ce8fbc3f7099d41d86437e2e/sharingiscaring-0.2.8.tar.gz
+[2023-06-16 11:21:31] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-16 11:21:31] WARNING root fetch - processPackages [kgheartbeat]: Skipping package: exceeds size limit 15218972>=10485760
+[2023-06-16 11:21:31] INFO root fetch - processPackages [kgheartbeat]: Start processing: spanishconjugator
+[2023-06-16 11:21:31] INFO root fetch - main [MainThread]: End processing [kgheartbeat] error
+[2023-06-16 11:21:31] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/6e/62/87c789b6b829da90459f34df5072c74744581170756e930b64b6072050e6/quickfix-ch-0.0.1.tar.gz
+[2023-06-16 11:21:31] INFO root fetch - processPackages [zh-langchain]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-16 11:21:32] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [autopahe]: Downloading https://files.pythonhosted.org/packages/88/a9/a6fb98372a8d9380eba89ebd8f6e0392ab7f100e552975a3d17e5a9e0844/autopahe-0.4.0.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-16 11:21:32] INFO root fetch - processPackages [k8s-deployment-status]: Downloading https://files.pythonhosted.org/packages/fc/c5/c91588f1d824a7f6708077b4f3611ed88f39220a8fe8f99937ecef49d253/k8s_deployment_status-0.0.4.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/84/91/546cfa81467496a375bec0555d7856d3003abdf86b818fe0a2073d229bdc/vdk-core-0.3.901275455.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-16 11:21:32] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230616/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-06-16 11:21:32] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/1a/08/2cc64f9080402b648c61f955d3eef2148f5a01af49c6ca6905fe47939af0/ddadevops-4.0.0.dev9.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [zh-langchain]: Downloading https://files.pythonhosted.org/packages/d8/2d/1f6f4a6b05cceb920731f5e9d324562632262dc47285ea37faac45fd6064/zh-langchain-0.2.0.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [k8s-deployment-status]: executing diffoscope
+[2023-06-16 11:21:32] INFO root fetch - processPackages [k8s-deployment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8s_deployment_status-0.0.3.tar.gz tmp/k8s_deployment_status-0.0.4.tar.gz --markdown 20230616/k/k8s-deployment-status/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-16 11:21:32] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/3c/51/994c3bf1116cc8b6234cbdc78a444ab9f875f5c3ce1e11c36bc0b2cdfa0e/sharingiscaring-0.2.9.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [quickfix-ch]: Downloading https://files.pythonhosted.org/packages/da/1e/37e353347d0a2af14f1152916046c14d2f57d3fb8e064ea464bc11e45fb9/quickfix-ch-0.0.2.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-16 11:21:32] WARNING root fetch - processPackages [zh-langchain]: Skipping package: exceeds size limit 17370937>=10485760
+[2023-06-16 11:21:32] INFO root fetch - processPackages [zh-langchain]: Start processing: tablemaster
+[2023-06-16 11:21:32] INFO root fetch - main [MainThread]: End processing [zh-langchain] error
+[2023-06-16 11:21:32] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-06-16 11:21:32] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230616/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-06-16 11:21:32] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [tablemaster]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-16 11:21:32] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/02/bb/cf1f26fb5be2dae192cf2f76ab7ad6014ce18c49b4dd2704963584c3387b/vdk-core-0.3.902182978.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-06-16 11:21:32] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230616/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 11:21:32] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-16 11:21:32] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230616/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-16 11:21:32] INFO root fetch - processPackages [autopahe]: Downloading https://files.pythonhosted.org/packages/f6/b1/3dde41d69c05c79c72f1ffc21afa7d4d36e3110710b52eea74c19a805e67/autopahe-1.0.0.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/98/f2/c540be965a0f22629fdcd5a15691ae3a36badf9800a1c3cfc35a9d4382c3/tablemaster-1.1.0.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [autopahe]: executing diffoscope
+[2023-06-16 11:21:32] INFO root fetch - processPackages [autopahe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopahe-0.4.0.tar.gz tmp/autopahe-1.0.0.tar.gz --markdown 20230616/a/autopahe/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-16 11:21:32] INFO root fetch - processPackages [vdk-core]: executing diffoscope
+[2023-06-16 11:21:32] INFO root fetch - processPackages [vdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-core-0.3.901275455.tar.gz tmp/vdk-core-0.3.902182978.tar.gz --markdown 20230616/v/vdk-core/0.3.901275455-0.3.902182978/diff.md --exclude *.pyd
+[2023-06-16 11:21:32] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/a2/5b/d5cd133de0de4179deebcff412575603a1b3b32b17c8375a454e8e01244b/tablemaster-1.1.1.tar.gz
+[2023-06-16 11:21:32] INFO root fetch - processPackages [tablemaster]: executing diffoscope
+[2023-06-16 11:21:32] INFO root fetch - processPackages [tablemaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemaster-1.1.0.tar.gz tmp/tablemaster-1.1.1.tar.gz --markdown 20230616/t/tablemaster/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-16 11:21:32] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-16 11:21:32] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230616/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-16 11:21:33] INFO root fetch - processPackages [quickfix-ch]: executing diffoscope
+[2023-06-16 11:21:33] INFO root fetch - processPackages [quickfix-ch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfix-ch-0.0.1.tar.gz tmp/quickfix-ch-0.0.2.tar.gz --markdown 20230616/q/quickfix-ch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 11:21:33] INFO root fetch - processPackages [k8s-deployment-status]: Remove: archive file [/home/abi/fetcher/tmp/k8s_deployment_status-0.0.3.tar.gz]
+[2023-06-16 11:21:33] INFO root fetch - processPackages [k8s-deployment-status]: Remove: archive file [/home/abi/fetcher/tmp/k8s_deployment_status-0.0.4.tar.gz]
+[2023-06-16 11:21:33] INFO root fetch - processPackages [k8s-deployment-status]: Start processing: spanishconjugator
+[2023-06-16 11:21:33] INFO root fetch - main [MainThread]: End processing [k8s-deployment-status]: success
+[2023-06-16 11:21:33] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-16 11:21:34] INFO root fetch - processPackages [autopahe]: Remove: archive file [/home/abi/fetcher/tmp/autopahe-0.4.0.tar.gz]
+[2023-06-16 11:21:34] INFO root fetch - processPackages [autopahe]: Remove: archive file [/home/abi/fetcher/tmp/autopahe-1.0.0.tar.gz]
+[2023-06-16 11:21:34] INFO root fetch - processPackages [autopahe]: Start processing: netbox-cisco-maintenance
+[2023-06-16 11:21:34] INFO root fetch - main [MainThread]: End processing [autopahe]: success
+[2023-06-16 11:21:34] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-16 11:21:34] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230616/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-16 11:21:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 11:21:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 11:21:34] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-16 11:21:34] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-16 11:21:34] INFO root fetch - processPackages [spanishconjugator]: Start processing: memv
+[2023-06-16 11:21:34] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-16 11:21:34] INFO root fetch - processPackages [memv]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2023-06-16 11:21:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 11:21:34] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/e5/80/a87cfb04caa1564adc9cd326406e3a22703036f22a19e2941da2d0c8f78f/memv-0.0.2.1.tar.gz
+[2023-06-16 11:21:34] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.1.0.tar.gz]
+[2023-06-16 11:21:34] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.1.1.tar.gz]
+[2023-06-16 11:21:34] INFO root fetch - processPackages [tablemaster]: Start processing: ckanext-nhm
+[2023-06-16 11:21:34] INFO root fetch - main [MainThread]: End processing [tablemaster]: success
+[2023-06-16 11:21:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 11:21:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 11:21:34] INFO root fetch - processPackages [memv]: Downloading https://files.pythonhosted.org/packages/9b/6d/4f1c610e4aec7ae52381bdb5fd22103db1f281dfff94962bba1375172180/memv-0.0.2.2.tar.gz
+[2023-06-16 11:21:34] INFO root fetch - processPackages [memv]: executing diffoscope
+[2023-06-16 11:21:34] INFO root fetch - processPackages [memv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memv-0.0.2.1.tar.gz tmp/memv-0.0.2.2.tar.gz --markdown 20230616/m/memv/0.0.2.1-0.0.2.2/diff.md --exclude *.pyd
+[2023-06-16 11:21:34] INFO root fetch - processPackages [ckanext-nhm]: New version: [5.6.4] Old Version: [5.6.3]
+[2023-06-16 11:21:34] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev8.tar.gz]
+[2023-06-16 11:21:34] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev9.tar.gz]
+[2023-06-16 11:21:34] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-06-16 11:21:34] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.901275455.tar.gz]
+[2023-06-16 11:21:34] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.902182978.tar.gz]
+[2023-06-16 11:21:34] INFO root fetch - main [MainThread]: End processing [vdk-core]: success
+[2023-06-16 11:21:34] INFO root fetch - processPackages [ckanext-nhm]: Downloading https://files.pythonhosted.org/packages/b7/00/03eedb4b9600050466d741828dee6f91ec6287e76a1b9574f01ea4d2a128/ckanext-nhm-5.6.3.tar.gz
+[2023-06-16 11:21:34] WARNING root fetch - processPackages [ckanext-nhm]: Skipping package: exceeds size limit 29272829>=10485760
+[2023-06-16 11:21:34] INFO root fetch - main [MainThread]: End processing [ckanext-nhm] error
+[2023-06-16 11:21:34] ERROR root fetch - processPackages [spanishconjugator]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.998.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.999.tar.gz: No such file or directory
+
+[2023-06-16 11:21:34] INFO root fetch - main [MainThread]: End processing [spanishconjugator] error
+[2023-06-16 11:21:35] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.1.tar.gz]
+[2023-06-16 11:21:35] INFO root fetch - processPackages [memv]: Remove: archive file [/home/abi/fetcher/tmp/memv-0.0.2.2.tar.gz]
+[2023-06-16 11:21:35] INFO root fetch - main [MainThread]: End processing [memv]: success
+[2023-06-16 11:21:35] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 11:21:35] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 11:21:35] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 11:21:37] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.1.tar.gz]
+[2023-06-16 11:21:37] INFO root fetch - processPackages [quickfix-ch]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-ch-0.0.2.tar.gz]
+[2023-06-16 11:21:37] INFO root fetch - main [MainThread]: End processing [quickfix-ch]: success
+[2023-06-16 11:21:37] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-06-16 11:21:37] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-06-16 11:21:37] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-16 11:21:38] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.8.tar.gz]
+[2023-06-16 11:21:38] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.9.tar.gz]
+[2023-06-16 11:21:38] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-06-16 11:21:38] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-16 11:21:38] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-16 11:21:38] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-16 11:21:38] INFO root fetch - main [MainThread]: Store serial: [18529979]
