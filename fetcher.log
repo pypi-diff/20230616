@@ -17579,3 +17579,174 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 10:32:04] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.62.tar.gz]
 [2023-06-16 10:32:04] INFO root fetch - main [MainThread]: End processing [UComp]: success
 [2023-06-16 10:32:04] INFO root fetch - main [MainThread]: Store serial: [18529364]
+[2023-06-16 10:37:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18529364]
+[2023-06-16 10:37:14] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-16 10:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rcmt
+[2023-06-16 10:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NeoBase
+[2023-06-16 10:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-interpolator
+[2023-06-16 10:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: batcat
+[2023-06-16 10:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyroscope-io
+[2023-06-16 10:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CurrencyConverter
+[2023-06-16 10:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ssi-fctrading
+[2023-06-16 10:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tritony
+[2023-06-16 10:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rubpy
+[2023-06-16 10:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-gem
+[2023-06-16 10:37:14] INFO root fetch - processPackages [pyroscope-io]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-06-16 10:37:14] INFO root fetch - processPackages [ssi-fctrading]: New version: [2.4.0] Old Version: [2.3.1]
+[2023-06-16 10:37:14] INFO root fetch - processPackages [rcmt]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-16 10:37:14] WARNING root fetch - processPackages [simple-interpolator]: Skipping, unable to determine old version
+[2023-06-16 10:37:14] INFO root fetch - processPackages [simple-interpolator]: Start processing: IMDBTraktSyncer
+[2023-06-16 10:37:14] INFO root fetch - main [MainThread]: End processing [simple-interpolator] error
+[2023-06-16 10:37:14] INFO root fetch - processPackages [rubpy]: New version: [6.2.3] Old Version: [6.2.2]
+[2023-06-16 10:37:14] INFO root fetch - processPackages [django-gem]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-16 10:37:14] INFO root fetch - processPackages [NeoBase]: New version: [0.9] Old Version: [0.8]
+[2023-06-16 10:37:14] INFO root fetch - processPackages [tritony]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 10:37:14] INFO root fetch - processPackages [CurrencyConverter]: New version: [0.8.1] Old Version: [0.8]
+[2023-06-16 10:37:14] INFO root fetch - processPackages [batcat]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-16 10:37:14] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-16 10:37:14] INFO root fetch - processPackages [rcmt]: Downloading https://files.pythonhosted.org/packages/6f/ad/4410a812065ef977ee9de96fd708a424fd73a9daa14418aa20013a2fe26d/rcmt-0.8.2.tar.gz
+[2023-06-16 10:37:14] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/b6/bb/c04de8cae0f7bf2a37f3515b9731658f7929e056e44a5c68cde3fb7dcdcf/ssi-fctrading-2.3.1.tar.gz
+[2023-06-16 10:37:14] INFO root fetch - processPackages [django-gem]: Downloading https://files.pythonhosted.org/packages/95/bd/e6808805cb25a63d85c8f09d66032c839ec76cb97cba3b6a2cf9f49ab761/django_gem-1.0.5.tar.gz
+[2023-06-16 10:37:14] INFO root fetch - processPackages [batcat]: Downloading https://files.pythonhosted.org/packages/34/90/c16e909113d24eeccd35cb0523313e6ab678ae8722843db9fdff4d04b61f/batcat-0.2.8-py3-none-any.whl
+[2023-06-16 10:37:14] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/96/f5/43d47dc217329b34f7796e8196190829adb300183572afda03dedeb85971/IMDBTraktSyncer-1.4.0.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [pyroscope-io]: Downloading https://files.pythonhosted.org/packages/2e/98/f18cbab4df6eba30cad40af0f5c016b25faeaf9dc31afa74cde9a811aa17/pyroscope-io-0.8.3.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [CurrencyConverter]: Downloading https://files.pythonhosted.org/packages/5e/35/27a75584061a306b667745d40c3fd563c48adeff2a40d861a8681d789037/CurrencyConverter-0.8.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [django-gem]: Downloading https://files.pythonhosted.org/packages/17/ca/f35769394e34e246c58eca3b0fb73456137cdb28fb8816c7821eaea16e7f/django_gem-1.0.6.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/b4/53/4b4f01141b8169f2bc36cbab336187c93b3d7c513e01de94771feafd459d/NeoBase-0.8.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [rcmt]: Downloading https://files.pythonhosted.org/packages/82/74/ef060c3d38a23e642e7c6ae81e5a7bcc79a315a286c66cd42d65a7a931bc/rcmt-0.9.0.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/24/a5/0cad3d31d2866d33cbdd9780ef4fa3216c5fd8b64464a2f2cc4b28b06fa0/rubpy-6.2.2.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [django-gem]: executing diffoscope
+[2023-06-16 10:37:15] INFO root fetch - processPackages [django-gem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_gem-1.0.5.tar.gz tmp/django_gem-1.0.6.tar.gz --markdown 20230616/d/django-gem/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-16 10:37:15] INFO root fetch - processPackages [rcmt]: executing diffoscope
+[2023-06-16 10:37:15] INFO root fetch - processPackages [rcmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcmt-0.8.2.tar.gz tmp/rcmt-0.9.0.tar.gz --markdown 20230616/r/rcmt/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 10:37:15] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/7a/fc/3180805e917cb1be83f4db86b47a45bb8cd9fbe47960043f1ab5b657ce5e/IMDBTraktSyncer-1.4.1.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [tritony]: Downloading https://files.pythonhosted.org/packages/70/60/9fc6a361e800f1730aab0c4a9c20895110a5f994d5ac0659f9e963f0046d/tritony-0.0.8.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [batcat]: Downloading https://files.pythonhosted.org/packages/98/e1/ac8179e6a48fccbef4029d004f87e13b426023d4cb41d4d7b1201edb14ef/batcat-0.2.9-py3-none-any.whl
+[2023-06-16 10:37:15] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/5a/e6/2d2b13d5a4d52464e7fbcec65ef09362bd2d3fa144e9f3f01ead31daaa2e/ssi-fctrading-2.4.0.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2023-06-16 10:37:15] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDBTraktSyncer-1.4.0.tar.gz tmp/IMDBTraktSyncer-1.4.1.tar.gz --markdown 20230616/I/IMDBTraktSyncer/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-16 10:37:15] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/87/c3/758ae6a5925cbf3313af22a2910af0b400d6c5090b1738580c2391104cbc/rubpy-6.2.3.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [ssi-fctrading]: executing diffoscope
+[2023-06-16 10:37:15] INFO root fetch - processPackages [ssi-fctrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi-fctrading-2.3.1.tar.gz tmp/ssi-fctrading-2.4.0.tar.gz --markdown 20230616/s/ssi-fctrading/2.3.1-2.4.0/diff.md --exclude *.pyd
+[2023-06-16 10:37:15] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2023-06-16 10:37:15] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-6.2.2.tar.gz tmp/rubpy-6.2.3.tar.gz --markdown 20230616/r/rubpy/6.2.2-6.2.3/diff.md --exclude *.pyd
+[2023-06-16 10:37:15] INFO root fetch - processPackages [CurrencyConverter]: Downloading https://files.pythonhosted.org/packages/36/b4/05f3a72c2d767d2c59859c5a8b23d26fed36b34113c28cf49e4857093a79/CurrencyConverter-0.8.1.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [batcat]: executing diffoscope
+[2023-06-16 10:37:15] INFO root fetch - processPackages [batcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batcat-0.2.8-py3-none-any.whl.zip tmp/batcat-0.2.9-py3-none-any.whl.zip --markdown 20230616/b/batcat/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 10:37:15] INFO root fetch - processPackages [pyroscope-io]: Downloading https://files.pythonhosted.org/packages/c1/89/22464d554ccb686a8c37ce215c0c10079bb3345a92caad3d155c67fb6ec8/pyroscope-io-0.8.4.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [CurrencyConverter]: executing diffoscope
+[2023-06-16 10:37:15] INFO root fetch - processPackages [CurrencyConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CurrencyConverter-0.8.tar.gz tmp/CurrencyConverter-0.8.1.tar.gz --markdown 20230616/C/CurrencyConverter/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-06-16 10:37:15] INFO root fetch - processPackages [pyroscope-io]: executing diffoscope
+[2023-06-16 10:37:15] INFO root fetch - processPackages [pyroscope-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroscope-io-0.8.3.tar.gz tmp/pyroscope-io-0.8.4.tar.gz --markdown 20230616/p/pyroscope-io/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-06-16 10:37:15] INFO root fetch - processPackages [tritony]: Downloading https://files.pythonhosted.org/packages/b9/5a/0aa777fa6a1f64a7c09b2bc4a41826e501079840bb08776d1b61f206c778/tritony-0.0.9.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/1c/f1/8a7eff769f23a3a8cfc58c10f83fd688a54ca4051adf2fc99487632e3c4b/NeoBase-0.9.tar.gz
+[2023-06-16 10:37:15] INFO root fetch - processPackages [tritony]: executing diffoscope
+[2023-06-16 10:37:15] INFO root fetch - processPackages [tritony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritony-0.0.8.tar.gz tmp/tritony-0.0.9.tar.gz --markdown 20230616/t/tritony/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 10:37:15] INFO root fetch - processPackages [NeoBase]: executing diffoscope
+[2023-06-16 10:37:15] INFO root fetch - processPackages [NeoBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeoBase-0.8.tar.gz tmp/NeoBase-0.9.tar.gz --markdown 20230616/N/NeoBase/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-16 10:37:16] INFO root fetch - processPackages [django-gem]: Remove: archive file [/home/abi/fetcher/tmp/django_gem-1.0.5.tar.gz]
+[2023-06-16 10:37:16] INFO root fetch - processPackages [django-gem]: Remove: archive file [/home/abi/fetcher/tmp/django_gem-1.0.6.tar.gz]
+[2023-06-16 10:37:16] INFO root fetch - processPackages [django-gem]: Start processing: appsignal-beta
+[2023-06-16 10:37:16] INFO root fetch - main [MainThread]: End processing [django-gem]: success
+[2023-06-16 10:37:16] INFO root fetch - processPackages [appsignal-beta]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-16 10:37:16] INFO root fetch - processPackages [batcat]: Remove: archive file [/home/abi/fetcher/tmp/batcat-0.2.8-py3-none-any.whl.zip]
+[2023-06-16 10:37:16] INFO root fetch - processPackages [batcat]: Remove: archive file [/home/abi/fetcher/tmp/batcat-0.2.9-py3-none-any.whl.zip]
+[2023-06-16 10:37:16] INFO root fetch - processPackages [batcat]: Start processing: kotan
+[2023-06-16 10:37:16] INFO root fetch - main [MainThread]: End processing [batcat]: success
+[2023-06-16 10:37:16] INFO root fetch - processPackages [kotan]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-16 10:37:16] INFO root fetch - processPackages [appsignal-beta]: Downloading https://files.pythonhosted.org/packages/85/1c/ab6ba4b1db11fb83e2349919035cfbfe23298a881e98460a266ac3eff9b6/appsignal_beta-0.1.2-py3-none-musllinux_1_1_x86_64.whl
+[2023-06-16 10:37:17] INFO root fetch - processPackages [kotan]: Downloading https://files.pythonhosted.org/packages/07/fc/c3405a13b672064d5debf52c30e6481f4dc10ed7111bfcb99a656bdfad6f/kotan-1.0.1.tar.gz
+[2023-06-16 10:37:17] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-2.3.1.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-2.4.0.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [ssi-fctrading]: Start processing: pypipr
+[2023-06-16 10:37:17] INFO root fetch - main [MainThread]: End processing [ssi-fctrading]: success
+[2023-06-16 10:37:17] INFO root fetch - processPackages [kotan]: Downloading https://files.pythonhosted.org/packages/1f/74/0afc0a34839dc40a2499ece2f65ca6dfc734df2b63ed1f718f642ba16df5/kotan-1.1.0.tar.gz
+[2023-06-16 10:37:17] INFO root fetch - processPackages [kotan]: executing diffoscope
+[2023-06-16 10:37:17] INFO root fetch - processPackages [kotan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kotan-1.0.1.tar.gz tmp/kotan-1.1.0.tar.gz --markdown 20230616/k/kotan/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-16 10:37:17] INFO root fetch - processPackages [pyroscope-io]: Remove: archive file [/home/abi/fetcher/tmp/pyroscope-io-0.8.3.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [pyroscope-io]: Remove: archive file [/home/abi/fetcher/tmp/pyroscope-io-0.8.4.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [pyroscope-io]: Start processing: arfs
+[2023-06-16 10:37:17] INFO root fetch - main [MainThread]: End processing [pyroscope-io]: success
+[2023-06-16 10:37:17] INFO root fetch - processPackages [pypipr]: New version: [1.0.2] Old Version: [0.1.95]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.4.0.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.4.1.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [IMDBTraktSyncer]: Start processing: extrap
+[2023-06-16 10:37:17] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2023-06-16 10:37:17] INFO root fetch - processPackages [tritony]: Remove: archive file [/home/abi/fetcher/tmp/tritony-0.0.8.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [tritony]: Remove: archive file [/home/abi/fetcher/tmp/tritony-0.0.9.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [tritony]: Start processing: kw-job-orchestrator-prototype-dbmodels
+[2023-06-16 10:37:17] INFO root fetch - main [MainThread]: End processing [tritony]: success
+[2023-06-16 10:37:17] INFO root fetch - processPackages [arfs]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [CurrencyConverter]: Remove: archive file [/home/abi/fetcher/tmp/CurrencyConverter-0.8.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [CurrencyConverter]: Remove: archive file [/home/abi/fetcher/tmp/CurrencyConverter-0.8.1.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [CurrencyConverter]: Start processing: Slpapy
+[2023-06-16 10:37:17] INFO root fetch - main [MainThread]: End processing [CurrencyConverter]: success
+[2023-06-16 10:37:17] INFO root fetch - processPackages [Slpapy]: New version: [0.4.0] Old Version: [0.3.23]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [extrap]: New version: [4.1.0a2] Old Version: [4.0.4]
+[2023-06-16 10:37:17] WARNING root fetch - processPackages [kw-job-orchestrator-prototype-dbmodels]: Skipping, unable to determine old version
+[2023-06-16 10:37:17] INFO root fetch - processPackages [kw-job-orchestrator-prototype-dbmodels]: Start processing: sinricpro
+[2023-06-16 10:37:17] INFO root fetch - main [MainThread]: End processing [kw-job-orchestrator-prototype-dbmodels] error
+[2023-06-16 10:37:17] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/eb/a4/d5c32088be11f430c8f01c824a48e41bde550a7096b70df6079883db127d/Slpapy-0.3.23.tar.gz
+[2023-06-16 10:37:17] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/cd/92/2627aa7d9dfcdc2306a9d83e96d64504b80001fbb2c403722f7688b3352e/pypipr-0.1.95.tar.gz
+[2023-06-16 10:37:17] INFO root fetch - processPackages [rcmt]: Remove: archive file [/home/abi/fetcher/tmp/rcmt-0.8.2.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [rcmt]: Remove: archive file [/home/abi/fetcher/tmp/rcmt-0.9.0.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [rcmt]: Start processing: pandasklar
+[2023-06-16 10:37:17] INFO root fetch - main [MainThread]: End processing [rcmt]: success
+[2023-06-16 10:37:17] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/63/fb/160aa17fad7bd763ef194b73a68851457c9b30a30c1d5e3847086b4a7a0d/arfs-1.1.1.tar.gz
+[2023-06-16 10:37:17] INFO root fetch - processPackages [extrap]: Downloading https://files.pythonhosted.org/packages/d7/df/13c32ba899e148d1a7a7def14b702632896a2e6607efe430b39b7d46ff95/extrap-4.0.4.tar.gz
+[2023-06-16 10:37:17] INFO root fetch - processPackages [sinricpro]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [pandasklar]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/f3/7c/9a3b33c4b81ea39a52c218d179cbd7bbed6f2d448bf2d4e4a301aa31027d/Slpapy-0.4.0.tar.gz
+[2023-06-16 10:37:17] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-6.2.2.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-6.2.3.tar.gz]
+[2023-06-16 10:37:17] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2023-06-16 10:37:17] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-06-16 10:37:17] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.3.23.tar.gz tmp/Slpapy-0.4.0.tar.gz --markdown 20230616/S/Slpapy/0.3.23-0.4.0/diff.md --exclude *.pyd
+[2023-06-16 10:37:17] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/3c/7d/3d5e5f81486f5659de8c1b1ad8d67ac6ed2fbb7174fa6008684834fc9519/pypipr-1.0.2.tar.gz
+[2023-06-16 10:37:17] INFO root fetch - processPackages [sinricpro]: Downloading https://files.pythonhosted.org/packages/de/92/81bbecbc6e336152be3d443004e4c9d63ffe4ba735b298466909d558889d/sinricpro-2.7.1.tar.gz
+[2023-06-16 10:37:17] INFO root fetch - processPackages [pandasklar]: Downloading https://files.pythonhosted.org/packages/fa/ec/e9ac7de46fdc2f50d220bae3d0d6927e3ecb80c01fb27397765922a77e95/pandasklar-0.3.3.tar.gz
+[2023-06-16 10:37:17] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/bb/e7/ddf54047667607844cfae7b34132c5d624e3a8c8020eaec644fc9c322c7a/arfs-1.1.2.tar.gz
+[2023-06-16 10:37:17] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-16 10:37:17] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.95.tar.gz tmp/pypipr-1.0.2.tar.gz --markdown 20230616/p/pypipr/0.1.95-1.0.2/diff.md --exclude *.pyd
+[2023-06-16 10:37:18] INFO root fetch - processPackages [sinricpro]: Downloading https://files.pythonhosted.org/packages/e5/b9/82d742ca6f0be18b3487d7bceddde4f80d1706cb49805ac78a8697782939/sinricpro-2.7.2-py3-none-any.whl
+[2023-06-16 10:37:18] INFO root fetch - processPackages [pandasklar]: Downloading https://files.pythonhosted.org/packages/7d/9f/425c38252c66bdb1ed48f26ad022e8acc1fc525c145bc1e7988ef2314a91/pandasklar-0.3.4.tar.gz
+[2023-06-16 10:37:18] INFO root fetch - processPackages [appsignal-beta]: Downloading https://files.pythonhosted.org/packages/5f/26/b38a8c6aefca6c35b3b1e1b68fdcda66bc8e280a9741a1050420690e4879/appsignal_beta-0.1.3-py3-none-musllinux_1_1_x86_64.whl
+[2023-06-16 10:37:18] INFO root fetch - processPackages [sinricpro]: executing diffoscope
+[2023-06-16 10:37:18] INFO root fetch - processPackages [sinricpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinricpro-2.7.1.tar.gz tmp/sinricpro-2.7.2-py3-none-any.whl.zip --markdown 20230616/s/sinricpro/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-06-16 10:37:18] INFO root fetch - processPackages [pandasklar]: executing diffoscope
+[2023-06-16 10:37:18] INFO root fetch - processPackages [pandasklar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasklar-0.3.3.tar.gz tmp/pandasklar-0.3.4.tar.gz --markdown 20230616/p/pandasklar/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-16 10:37:18] INFO root fetch - processPackages [arfs]: executing diffoscope
+[2023-06-16 10:37:18] INFO root fetch - processPackages [arfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arfs-1.1.1.tar.gz tmp/arfs-1.1.2.tar.gz --markdown 20230616/a/arfs/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-16 10:37:18] INFO root fetch - processPackages [kotan]: Remove: archive file [/home/abi/fetcher/tmp/kotan-1.0.1.tar.gz]
+[2023-06-16 10:37:18] INFO root fetch - processPackages [kotan]: Remove: archive file [/home/abi/fetcher/tmp/kotan-1.1.0.tar.gz]
+[2023-06-16 10:37:18] INFO root fetch - main [MainThread]: End processing [kotan]: success
+[2023-06-16 10:37:18] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.8.tar.gz]
+[2023-06-16 10:37:18] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
+[2023-06-16 10:37:18] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
+[2023-06-16 10:37:18] INFO root fetch - processPackages [extrap]: Downloading https://files.pythonhosted.org/packages/2a/64/84850ccbc997803bbc4a8f0ca8e4d2de11a00e90b266506641d5f6609974/extrap-4.1.0a2.tar.gz
+[2023-06-16 10:37:18] INFO root fetch - processPackages [appsignal-beta]: executing diffoscope
+[2023-06-16 10:37:18] INFO root fetch - processPackages [appsignal-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsignal_beta-0.1.2-py3-none-musllinux_1_1_x86_64.whl.zip tmp/appsignal_beta-0.1.3-py3-none-musllinux_1_1_x86_64.whl.zip --markdown 20230616/a/appsignal-beta/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-16 10:37:18] INFO root fetch - processPackages [extrap]: executing diffoscope
+[2023-06-16 10:37:18] INFO root fetch - processPackages [extrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extrap-4.0.4.tar.gz tmp/extrap-4.1.0a2.tar.gz --markdown 20230616/e/extrap/4.0.4-4.1.0a2/diff.md --exclude *.pyd
+[2023-06-16 10:37:18] INFO root fetch - processPackages [Slpapy]: Remove: archive file [/home/abi/fetcher/tmp/Slpapy-0.3.23.tar.gz]
+[2023-06-16 10:37:18] INFO root fetch - processPackages [Slpapy]: Remove: archive file [/home/abi/fetcher/tmp/Slpapy-0.4.0.tar.gz]
+[2023-06-16 10:37:18] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-06-16 10:37:19] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-0.1.95.tar.gz]
+[2023-06-16 10:37:19] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.2.tar.gz]
+[2023-06-16 10:37:19] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-16 10:37:19] INFO root fetch - processPackages [sinricpro]: Remove: archive file [/home/abi/fetcher/tmp/sinricpro-2.7.1.tar.gz]
+[2023-06-16 10:37:19] INFO root fetch - processPackages [sinricpro]: Remove: archive file [/home/abi/fetcher/tmp/sinricpro-2.7.2-py3-none-any.whl.zip]
+[2023-06-16 10:37:19] INFO root fetch - main [MainThread]: End processing [sinricpro]: success
+[2023-06-16 10:37:19] INFO root fetch - processPackages [pandasklar]: Remove: archive file [/home/abi/fetcher/tmp/pandasklar-0.3.3.tar.gz]
+[2023-06-16 10:37:19] INFO root fetch - processPackages [pandasklar]: Remove: archive file [/home/abi/fetcher/tmp/pandasklar-0.3.4.tar.gz]
+[2023-06-16 10:37:19] INFO root fetch - main [MainThread]: End processing [pandasklar]: success
+[2023-06-16 10:37:21] INFO root fetch - processPackages [extrap]: Remove: archive file [/home/abi/fetcher/tmp/extrap-4.0.4.tar.gz]
+[2023-06-16 10:37:21] INFO root fetch - processPackages [extrap]: Remove: archive file [/home/abi/fetcher/tmp/extrap-4.1.0a2.tar.gz]
+[2023-06-16 10:37:21] INFO root fetch - main [MainThread]: End processing [extrap]: success
+[2023-06-16 10:37:21] INFO root fetch - processPackages [arfs]: Remove: archive file [/home/abi/fetcher/tmp/arfs-1.1.1.tar.gz]
+[2023-06-16 10:37:21] INFO root fetch - processPackages [arfs]: Remove: archive file [/home/abi/fetcher/tmp/arfs-1.1.2.tar.gz]
+[2023-06-16 10:37:21] INFO root fetch - main [MainThread]: End processing [arfs]: success
+[2023-06-16 10:37:37] INFO root fetch - processPackages [appsignal-beta]: Remove: archive file [/home/abi/fetcher/tmp/appsignal_beta-0.1.2-py3-none-musllinux_1_1_x86_64.whl.zip]
+[2023-06-16 10:37:37] INFO root fetch - processPackages [appsignal-beta]: Remove: archive file [/home/abi/fetcher/tmp/appsignal_beta-0.1.3-py3-none-musllinux_1_1_x86_64.whl.zip]
+[2023-06-16 10:37:37] INFO root fetch - main [MainThread]: End processing [appsignal-beta]: success
+[2023-06-16 10:37:37] INFO root fetch - main [MainThread]: Store serial: [18529436]
