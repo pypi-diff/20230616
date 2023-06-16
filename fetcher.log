@@ -18228,3 +18228,155 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 10:53:47] INFO root fetch - processPackages [djangocms-googlemap]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-googlemap-2.1.0.tar.gz]
 [2023-06-16 10:53:47] INFO root fetch - main [MainThread]: End processing [djangocms-googlemap]: success
 [2023-06-16 10:53:47] INFO root fetch - main [MainThread]: Store serial: [18529639]
+[2023-06-16 10:58:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18529639]
+[2023-06-16 10:58:57] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-16 10:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: k8s-deployment-status
+[2023-06-16 10:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-06-16 10:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pain001
+[2023-06-16 10:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dytnsapi20230101-py2
+[2023-06-16 10:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-api-call
+[2023-06-16 10:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-serve
+[2023-06-16 10:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-dytnsapi20230101
+[2023-06-16 10:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: currentscape
+[2023-06-16 10:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pdf-language-detector
+[2023-06-16 10:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quickstart-vdk
+[2023-06-16 10:58:57] INFO root fetch - processPackages [k8s-deployment-status]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-16 10:58:57] INFO root fetch - processPackages [pain001]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 10:58:57] WARNING root fetch - processPackages [alibabacloud-dytnsapi20230101-py2]: Skipping, unable to determine old version
+[2023-06-16 10:58:57] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101-py2]: Start processing: pytk-net
+[2023-06-16 10:58:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-dytnsapi20230101-py2] error
+[2023-06-16 10:58:57] INFO root fetch - processPackages [currentscape]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-16 10:58:57] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-16 10:58:57] INFO root fetch - processPackages [openai-api-call]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-16 10:58:57] INFO root fetch - processPackages [yplib]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-16 10:58:57] INFO root fetch - processPackages [pdf-language-detector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 10:58:57] INFO root fetch - processPackages [pytk-net]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-16 10:58:57] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.902182978.dev11525] Old Version: [0.2.901950667.dev11516]
+[2023-06-16 10:58:57] WARNING root fetch - processPackages [alibabacloud-dytnsapi20230101]: Skipping, unable to determine old version
+[2023-06-16 10:58:57] INFO root fetch - processPackages [alibabacloud-dytnsapi20230101]: Start processing: dipex
+[2023-06-16 10:58:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-dytnsapi20230101] error
+[2023-06-16 10:58:57] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-16 10:58:57] INFO root fetch - processPackages [pdf-language-detector]: Downloading https://files.pythonhosted.org/packages/a3/6e/35e5d693e79f99e1d329632fdd187916278d7aa9f55c68b38ac9042af127/pdf_language_detector-0.0.8.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/f2/b3/25488faf18f932957edf8d3f8352b2993da168cd24e5b506789f2359b237/quickstart-vdk-0.2.901950667.dev11516.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [k8s-deployment-status]: Downloading https://files.pythonhosted.org/packages/b0/22/5f65734d32d13b16e7a9df41861a3b0aa8db3da56aa58fb0b8338b04026b/k8s_deployment_status-0.0.3.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/db/a1/0e57792c2c600ef2adc0f53408ec9d96d61cc3b28b306b070a6f6538cee6/yplib-1.5.5.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [pain001]: Downloading https://files.pythonhosted.org/packages/4a/3d/d7e0138fb8e4374dd250c07d0545376b3f547ff00c3971b4eec2d3eca3d7/pain001-0.0.8.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [openai-api-call]: Downloading https://files.pythonhosted.org/packages/bf/a6/73216a5369ffb70218868489f45260665ea45c4cebf4a00862ff3ebd656d/openai_api_call-0.5.1.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/92/b6/8579536cde40eb7964407921ed275f227a591ce34f35c45faadd8c094150/currentscape-1.0.1.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/15/e9/50bf0f3b03378f0da151d370d671ec5abc2bc654d5172ed0d6fc1fe818a9/pytk_net-0.1.2.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [pdf-language-detector]: Downloading https://files.pythonhosted.org/packages/37/fa/3a45b976da8160b8bea11503a2e599bee0cd4ab770029841b5a8148286d5/pdf_language_detector-0.0.9.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/b3/10/573fb7cc68a2ad842475488d8b249c6753436f9f03184cada8969610ccf7/quickstart-vdk-0.2.902182978.dev11525.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-16 10:58:57] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230616/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-16 10:58:57] INFO root fetch - processPackages [k8s-deployment-status]: Downloading https://files.pythonhosted.org/packages/fc/c5/c91588f1d824a7f6708077b4f3611ed88f39220a8fe8f99937ecef49d253/k8s_deployment_status-0.0.4.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-06-16 10:58:57] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230616/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-16 10:58:57] INFO root fetch - processPackages [pdf-language-detector]: executing diffoscope
+[2023-06-16 10:58:57] INFO root fetch - processPackages [pdf-language-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_language_detector-0.0.8.tar.gz tmp/pdf_language_detector-0.0.9.tar.gz --markdown 20230616/p/pdf-language-detector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 10:58:57] INFO root fetch - processPackages [openai-api-call]: Downloading https://files.pythonhosted.org/packages/d8/66/04a3cf70a5122ee6ff79afd84aca9f7f0e7481b343711ec997b9b3b8df5c/openai_api_call-0.5.2.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-16 10:58:57] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.901950667.dev11516.tar.gz tmp/quickstart-vdk-0.2.902182978.dev11525.tar.gz --markdown 20230616/q/quickstart-vdk/0.2.901950667.dev11516-0.2.902182978.dev11525/diff.md --exclude *.pyd
+[2023-06-16 10:58:57] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e6/25/2eaf008e5add63f0f90d9e4df0e09391aa1e1846c50e8002093fdb3e8cf7/yplib-1.5.6.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/98/20/5f3030caef446bcde39cb3f41d4b98a69328a60b57ef57b75b3bb2b05abd/currentscape-1.0.2.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/ee/98/dc6f6e14a0e2ca7e802890e49490318636814f50305eafbc4ff7b11933b0/pytk_net-0.2.0.tar.gz
+[2023-06-16 10:58:57] INFO root fetch - processPackages [openai-api-call]: executing diffoscope
+[2023-06-16 10:58:57] INFO root fetch - processPackages [openai-api-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_api_call-0.5.1.tar.gz tmp/openai_api_call-0.5.2.tar.gz --markdown 20230616/o/openai-api-call/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-16 10:58:57] INFO root fetch - processPackages [k8s-deployment-status]: executing diffoscope
+[2023-06-16 10:58:57] INFO root fetch - processPackages [k8s-deployment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8s_deployment_status-0.0.3.tar.gz tmp/k8s_deployment_status-0.0.4.tar.gz --markdown 20230616/k/k8s-deployment-status/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-16 10:58:57] INFO root fetch - processPackages [currentscape]: executing diffoscope
+[2023-06-16 10:58:57] INFO root fetch - processPackages [currentscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currentscape-1.0.1.tar.gz tmp/currentscape-1.0.2.tar.gz --markdown 20230616/c/currentscape/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-16 10:58:57] INFO root fetch - processPackages [pytk-net]: executing diffoscope
+[2023-06-16 10:58:57] INFO root fetch - processPackages [pytk-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytk_net-0.1.2.tar.gz tmp/pytk_net-0.2.0.tar.gz --markdown 20230616/p/pytk-net/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-16 10:58:57] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 10:58:57] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.5.5.tar.gz tmp/yplib-1.5.6.tar.gz --markdown 20230616/y/yplib/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-06-16 10:58:58] INFO root fetch - processPackages [pain001]: Downloading https://files.pythonhosted.org/packages/dd/25/3eca8b1274384435ffb54b9a70f098888e7946583f195e055315bc9f82f8/pain001-0.0.9.tar.gz
+[2023-06-16 10:58:58] INFO root fetch - processPackages [pain001]: executing diffoscope
+[2023-06-16 10:58:58] INFO root fetch - processPackages [pain001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pain001-0.0.8.tar.gz tmp/pain001-0.0.9.tar.gz --markdown 20230616/p/pain001/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 10:58:59] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [langchain-serve]: Start processing: structured-pruning-adapters
+[2023-06-16 10:58:59] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-16 10:58:59] INFO root fetch - processPackages [structured-pruning-adapters]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [pdf-language-detector]: Remove: archive file [/home/abi/fetcher/tmp/pdf_language_detector-0.0.8.tar.gz]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [pdf-language-detector]: Remove: archive file [/home/abi/fetcher/tmp/pdf_language_detector-0.0.9.tar.gz]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [pdf-language-detector]: Start processing: feng-test
+[2023-06-16 10:58:59] INFO root fetch - main [MainThread]: End processing [pdf-language-detector]: success
+[2023-06-16 10:58:59] INFO root fetch - processPackages [structured-pruning-adapters]: Downloading https://files.pythonhosted.org/packages/a6/92/5134752889fd08bc72a2b6bae8ff068700e65b1b9e7069396a744db1bd62/structured-pruning-adapters-0.6.1.tar.gz
+[2023-06-16 10:58:59] INFO root fetch - processPackages [openai-api-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_api_call-0.5.1.tar.gz]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [openai-api-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_api_call-0.5.2.tar.gz]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [openai-api-call]: Start processing: kgheartbeat
+[2023-06-16 10:58:59] INFO root fetch - main [MainThread]: End processing [openai-api-call]: success
+[2023-06-16 10:58:59] WARNING root fetch - processPackages [feng-test]: Skipping, unable to determine old version
+[2023-06-16 10:58:59] INFO root fetch - processPackages [feng-test]: Start processing: gpt3discord
+[2023-06-16 10:58:59] INFO root fetch - main [MainThread]: End processing [feng-test] error
+[2023-06-16 10:58:59] INFO root fetch - processPackages [kgheartbeat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [k8s-deployment-status]: Remove: archive file [/home/abi/fetcher/tmp/k8s_deployment_status-0.0.3.tar.gz]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [k8s-deployment-status]: Remove: archive file [/home/abi/fetcher/tmp/k8s_deployment_status-0.0.4.tar.gz]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [k8s-deployment-status]: Start processing: hcai-nova-server-nightly
+[2023-06-16 10:58:59] INFO root fetch - main [MainThread]: End processing [k8s-deployment-status]: success
+[2023-06-16 10:58:59] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306060908] Old Version: [0.1.9.dev202306051512]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.901950667.dev11516.tar.gz]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.902182978.dev11525.tar.gz]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [quickstart-vdk]: Start processing: doxysphinx
+[2023-06-16 10:58:59] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-16 10:58:59] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [structured-pruning-adapters]: Downloading https://files.pythonhosted.org/packages/be/fe/ac7e5e7f70aa2181ae93fe8126af0695d47343ea1844e82ba1021d4f6ced/structured-pruning-adapters-0.6.2.tar.gz
+[2023-06-16 10:58:59] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/87/a7/6a453a13323cd23d58747ac82b2a78d39a008bc35fb4950e4ba9b79d8f28/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz
+[2023-06-16 10:58:59] INFO root fetch - processPackages [doxysphinx]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [kgheartbeat]: Downloading https://files.pythonhosted.org/packages/01/78/447ea7bbade7d6859b80962eb251537a020f837552b84e6edd3dcaa0cb0c/kgheartbeat-0.1.8.tar.gz
+[2023-06-16 10:58:59] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/4a/b0/7349a84c86940e5f8c8b22ef05d6ade85f6619aa27865d53025dd91feed9/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz
+[2023-06-16 10:58:59] WARNING root fetch - processPackages [kgheartbeat]: Skipping package: exceeds size limit 15218972>=10485760
+[2023-06-16 10:58:59] INFO root fetch - processPackages [kgheartbeat]: Start processing: ddadevops
+[2023-06-16 10:58:59] INFO root fetch - main [MainThread]: End processing [kgheartbeat] error
+[2023-06-16 10:58:59] INFO root fetch - processPackages [structured-pruning-adapters]: executing diffoscope
+[2023-06-16 10:58:59] INFO root fetch - processPackages [structured-pruning-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structured-pruning-adapters-0.6.1.tar.gz tmp/structured-pruning-adapters-0.6.2.tar.gz --markdown 20230616/s/structured-pruning-adapters/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-16 10:58:59] INFO root fetch - processPackages [gpt3discord]: Downloading https://files.pythonhosted.org/packages/37/05/2206aa04638856656febff14ed92b412dfe23dcbf520d5ae6b2e00bb94b8/gpt3discord-9.0.4.tar.gz
+[2023-06-16 10:58:59] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-16 10:58:59] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz --markdown 20230616/h/hcai-nova-server-nightly/0.1.9.dev202306051512-0.1.9.dev202306060908/diff.md --exclude *.pyd
+[2023-06-16 10:58:59] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.5.tar.gz]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.6.tar.gz]
+[2023-06-16 10:58:59] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 10:58:59] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-06-16 10:58:59] INFO root fetch - processPackages [doxysphinx]: Downloading https://files.pythonhosted.org/packages/4b/db/5a166555e84ad759bcade1f9e19360887a1bf2b12ed439bf727446bc7f55/doxysphinx-3.3.3.tar.gz
+[2023-06-16 10:59:00] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.1.2.tar.gz]
+[2023-06-16 10:59:00] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.2.0.tar.gz]
+[2023-06-16 10:59:00] INFO root fetch - main [MainThread]: End processing [pytk-net]: success
+[2023-06-16 10:59:00] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/53/53/8d5fbb694a5a27c3bfd85f47540af2476613fd26647dc23fb244cfb45e41/ddadevops-4.0.0.dev8.tar.gz
+[2023-06-16 10:59:00] INFO root fetch - processPackages [gpt3discord]: Downloading https://files.pythonhosted.org/packages/35/2f/7cad7be49486612c7af56839595bd1843092d25ac4d2d187a8f56624913a/gpt3discord-9.1.tar.gz
+[2023-06-16 10:59:00] INFO root fetch - processPackages [pain001]: Remove: archive file [/home/abi/fetcher/tmp/pain001-0.0.8.tar.gz]
+[2023-06-16 10:59:00] INFO root fetch - processPackages [pain001]: Remove: archive file [/home/abi/fetcher/tmp/pain001-0.0.9.tar.gz]
+[2023-06-16 10:59:00] INFO root fetch - main [MainThread]: End processing [pain001]: success
+[2023-06-16 10:59:00] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-06-16 10:59:00] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230616/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-06-16 10:59:00] INFO root fetch - processPackages [doxysphinx]: Downloading https://files.pythonhosted.org/packages/09/36/45efda830ddf075404fc763174e271e6dca14c450a1a183afea623da8400/doxysphinx-3.3.4.tar.gz
+[2023-06-16 10:59:00] INFO root fetch - processPackages [doxysphinx]: executing diffoscope
+[2023-06-16 10:59:00] INFO root fetch - processPackages [doxysphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doxysphinx-3.3.3.tar.gz tmp/doxysphinx-3.3.4.tar.gz --markdown 20230616/d/doxysphinx/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-06-16 10:59:00] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/1a/08/2cc64f9080402b648c61f955d3eef2148f5a01af49c6ca6905fe47939af0/ddadevops-4.0.0.dev9.tar.gz
+[2023-06-16 10:59:00] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-06-16 10:59:00] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230616/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-06-16 10:59:01] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz]
+[2023-06-16 10:59:01] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz]
+[2023-06-16 10:59:01] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-16 10:59:01] INFO root fetch - processPackages [structured-pruning-adapters]: Remove: archive file [/home/abi/fetcher/tmp/structured-pruning-adapters-0.6.1.tar.gz]
+[2023-06-16 10:59:01] INFO root fetch - processPackages [structured-pruning-adapters]: Remove: archive file [/home/abi/fetcher/tmp/structured-pruning-adapters-0.6.2.tar.gz]
+[2023-06-16 10:59:01] INFO root fetch - main [MainThread]: End processing [structured-pruning-adapters]: success
+[2023-06-16 10:59:01] INFO root fetch - processPackages [doxysphinx]: Remove: archive file [/home/abi/fetcher/tmp/doxysphinx-3.3.3.tar.gz]
+[2023-06-16 10:59:01] INFO root fetch - processPackages [doxysphinx]: Remove: archive file [/home/abi/fetcher/tmp/doxysphinx-3.3.4.tar.gz]
+[2023-06-16 10:59:01] INFO root fetch - main [MainThread]: End processing [doxysphinx]: success
+[2023-06-16 10:59:01] INFO root fetch - processPackages [gpt3discord]: Remove: archive file [/home/abi/fetcher/tmp/gpt3discord-9.0.4.tar.gz]
+[2023-06-16 10:59:01] INFO root fetch - processPackages [gpt3discord]: Remove: archive file [/home/abi/fetcher/tmp/gpt3discord-9.1.tar.gz]
+[2023-06-16 10:59:01] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-06-16 10:59:01] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev8.tar.gz]
+[2023-06-16 10:59:01] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev9.tar.gz]
+[2023-06-16 10:59:01] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-06-16 10:59:02] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.1.tar.gz]
+[2023-06-16 10:59:02] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.2.tar.gz]
+[2023-06-16 10:59:02] INFO root fetch - main [MainThread]: End processing [currentscape]: success
+[2023-06-16 10:59:03] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-06-16 10:59:03] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-06-16 10:59:03] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-06-16 10:59:03] INFO root fetch - main [MainThread]: Store serial: [18529707]
