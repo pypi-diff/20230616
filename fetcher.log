@@ -11913,3 +11913,77 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 06:22:07] INFO root fetch - processPackages [Geode-SimplexGeosciences]: Remove: archive file [/home/abi/fetcher/tmp/Geode_SimplexGeosciences-2.0.3rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-06-16 06:22:07] INFO root fetch - main [MainThread]: End processing [Geode-SimplexGeosciences]: success
 [2023-06-16 06:22:07] INFO root fetch - main [MainThread]: Store serial: [18527154]
+[2023-06-16 06:27:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527154]
+[2023-06-16 06:27:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-16 06:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-document-page-approval
+[2023-06-16 06:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2023-06-16 06:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kasa-crypt
+[2023-06-16 06:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-communication-callautomation
+[2023-06-16 06:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agixt
+[2023-06-16 06:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Geode-Implicit
+[2023-06-16 06:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: always-updates
+[2023-06-16 06:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kolibri-explore-plugin
+[2023-06-16 06:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stackoverflowapithingy
+[2023-06-16 06:27:20] WARNING root fetch - processPackages [azure-communication-callautomation]: Skipping, unable to determine old version
+[2023-06-16 06:27:20] INFO root fetch - main [MainThread]: End processing [azure-communication-callautomation] error
+[2023-06-16 06:27:20] INFO root fetch - processPackages [kasa-crypt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 06:27:20] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.1.0rc1] Old Version: [2.1.0]
+[2023-06-16 06:27:20] INFO root fetch - processPackages [odoo-addon-document-page-approval]: New version: [16.0.1.1.0.8] Old Version: [16.0.1.1.0.6]
+[2023-06-16 06:27:20] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.901950667.dev11516] Old Version: [0.2.901275455.dev11510]
+[2023-06-16 06:27:20] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-06-16 06:27:20] INFO root fetch - processPackages [stackoverflowapithingy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 06:27:20] INFO root fetch - processPackages [agixt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-16 06:27:20] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-16 06:27:20] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/ce/f9/31b5cbfd9a83d09f22e7a4a1bcfe80aa5ac42dcb7177d812abc4159b1f22/kolibri_explore_plugin-6.8.0-py2.py3-none-any.whl
+[2023-06-16 06:27:20] INFO root fetch - processPackages [stackoverflowapithingy]: Downloading https://files.pythonhosted.org/packages/b0/0e/63fa69a550e04b2c527dd72a7858dd7f2704fe024ac4f56c3e4352b4fd4d/stackoverflowapithingy-0.1.8.tar.gz
+[2023-06-16 06:27:20] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 17418137>=10485760
+[2023-06-16 06:27:20] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-06-16 06:27:20] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/72/f6/05aa84da4a4a92f60509327d99757c9f44d33c306ee6f42fdbbbf0dd5b69/agixt-1.2.8.tar.gz
+[2023-06-16 06:27:20] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/d7/3d/8696d109a88b2d1e4b33234726c2d1a1bfe58614547d55acc9988aac76fc/Geode_Implicit-2.1.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-16 06:27:20] INFO root fetch - processPackages [kasa-crypt]: Downloading https://files.pythonhosted.org/packages/a8/ca/bafab976787478a41ecbdedfac4335517e0087a2fec935d803b2ba49b79f/kasa_crypt-0.1.1.tar.gz
+[2023-06-16 06:27:20] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/14/4d/3de37eeabfa777c575d1f1e12225be97cd5b4b45a6613191b47da922a53d/odoo_addon_document_page_approval-16.0.1.1.0.6-py3-none-any.whl
+[2023-06-16 06:27:20] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/34/5d/f9a80c54ef35f7093f65add3e85af7f77af88e0894e21325489e60aa8ce0/quickstart-vdk-0.2.901275455.dev11510.tar.gz
+[2023-06-16 06:27:20] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-16 06:27:20] INFO root fetch - processPackages [stackoverflowapithingy]: Downloading https://files.pythonhosted.org/packages/c4/24/22118a013c991b6ca7fe5d77a6f93b8476a0494ca54c1edf5557aa860efa/stackoverflowapithingy-0.1.9.tar.gz
+[2023-06-16 06:27:20] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/ad/3a/7b239b1c21f484f09369851f21976facf1680c29f5c7c2993e0349cb6b1f/agixt-1.2.9.tar.gz
+[2023-06-16 06:27:20] INFO root fetch - processPackages [stackoverflowapithingy]: executing diffoscope
+[2023-06-16 06:27:20] INFO root fetch - processPackages [stackoverflowapithingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackoverflowapithingy-0.1.8.tar.gz tmp/stackoverflowapithingy-0.1.9.tar.gz --markdown 20230616/s/stackoverflowapithingy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 06:27:20] INFO root fetch - processPackages [kasa-crypt]: Downloading https://files.pythonhosted.org/packages/41/cc/d7e620eb41c5fa0ea78639262ca5de4935dfc23fdcb9a1b0729fa0406369/kasa_crypt-0.1.2.tar.gz
+[2023-06-16 06:27:20] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-16 06:27:20] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.8.tar.gz tmp/agixt-1.2.9.tar.gz --markdown 20230616/a/agixt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-16 06:27:20] INFO root fetch - processPackages [kasa-crypt]: executing diffoscope
+[2023-06-16 06:27:20] INFO root fetch - processPackages [kasa-crypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kasa_crypt-0.1.1.tar.gz tmp/kasa_crypt-0.1.2.tar.gz --markdown 20230616/k/kasa-crypt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 06:27:20] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-16 06:27:20] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/dc/19/bf57f9d9f013567d5516832d7582e5886f7030a62c54489270948eb95bd1/odoo_addon_document_page_approval-16.0.1.1.0.8-py3-none-any.whl
+[2023-06-16 06:27:20] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-16 06:27:20] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230616/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-16 06:27:20] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/f2/b3/25488faf18f932957edf8d3f8352b2993da168cd24e5b506789f2359b237/quickstart-vdk-0.2.901950667.dev11516.tar.gz
+[2023-06-16 06:27:20] INFO root fetch - processPackages [odoo-addon-document-page-approval]: executing diffoscope
+[2023-06-16 06:27:20] INFO root fetch - processPackages [odoo-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_approval-16.0.1.1.0.6-py3-none-any.whl.zip tmp/odoo_addon_document_page_approval-16.0.1.1.0.8-py3-none-any.whl.zip --markdown 20230616/o/odoo-addon-document-page-approval/16.0.1.1.0.6-16.0.1.1.0.8/diff.md --exclude *.pyd
+[2023-06-16 06:27:20] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/f7/9e/450b7b1c6903d960a96ab994fd360185f60c2a2a514ea7b4b8f4a7f8f6b6/Geode_Implicit-2.1.0rc1-cp39-cp39-win_amd64.whl
+[2023-06-16 06:27:20] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-16 06:27:20] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.901275455.dev11510.tar.gz tmp/quickstart-vdk-0.2.901950667.dev11516.tar.gz --markdown 20230616/q/quickstart-vdk/0.2.901275455.dev11510-0.2.901950667.dev11516/diff.md --exclude *.pyd
+[2023-06-16 06:27:21] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2023-06-16 06:27:21] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Implicit-2.1.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230616/G/Geode-Implicit/2.1.0-2.1.0rc1/diff.md --exclude *.pyd
+[2023-06-16 06:27:21] INFO root fetch - processPackages [stackoverflowapithingy]: Remove: archive file [/home/abi/fetcher/tmp/stackoverflowapithingy-0.1.8.tar.gz]
+[2023-06-16 06:27:21] INFO root fetch - processPackages [stackoverflowapithingy]: Remove: archive file [/home/abi/fetcher/tmp/stackoverflowapithingy-0.1.9.tar.gz]
+[2023-06-16 06:27:21] INFO root fetch - main [MainThread]: End processing [stackoverflowapithingy]: success
+[2023-06-16 06:27:22] INFO root fetch - processPackages [kasa-crypt]: Remove: archive file [/home/abi/fetcher/tmp/kasa_crypt-0.1.1.tar.gz]
+[2023-06-16 06:27:22] INFO root fetch - processPackages [kasa-crypt]: Remove: archive file [/home/abi/fetcher/tmp/kasa_crypt-0.1.2.tar.gz]
+[2023-06-16 06:27:22] INFO root fetch - main [MainThread]: End processing [kasa-crypt]: success
+[2023-06-16 06:27:22] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.901275455.dev11510.tar.gz]
+[2023-06-16 06:27:22] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.901950667.dev11516.tar.gz]
+[2023-06-16 06:27:22] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-16 06:27:22] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-16 06:27:22] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-16 06:27:22] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-16 06:27:22] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_approval-16.0.1.1.0.6-py3-none-any.whl.zip]
+[2023-06-16 06:27:22] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_approval-16.0.1.1.0.8-py3-none-any.whl.zip]
+[2023-06-16 06:27:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-approval]: success
+[2023-06-16 06:27:22] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.8.tar.gz]
+[2023-06-16 06:27:22] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
+[2023-06-16 06:27:22] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-16 06:27:23] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-16 06:27:23] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.1.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 06:27:23] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2023-06-16 06:27:23] INFO root fetch - main [MainThread]: Store serial: [18527194]
