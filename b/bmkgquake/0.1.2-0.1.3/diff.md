@@ -1,0 +1,122 @@
+# Comparing `tmp/bmkgquake-0.1.2.tar.gz` & `tmp/bmkgquake-0.1.3.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "bmkgquake-0.1.2.tar", last modified: Fri Jun 16 16:30:49 2023, max compression
++gzip compressed data, was "bmkgquake-0.1.3.tar", last modified: Fri Jun 16 17:00:30 2023, max compression
+```
+
+## Comparing `bmkgquake-0.1.2.tar` & `bmkgquake-0.1.3.tar`
+
+### file list
+
+```diff
+@@ -1,15 +1,15 @@
+-drwxrwxrwx   0        0        0        0 2023-06-16 16:30:49.563863 bmkgquake-0.1.2/
+--rw-rw-rw-   0        0        0    35823 2023-06-06 21:30:24.000000 bmkgquake-0.1.2/LICENSE
+--rw-rw-rw-   0        0        0     2290 2023-06-16 16:30:49.563863 bmkgquake-0.1.2/PKG-INFO
+--rw-rw-rw-   0        0        0     1573 2023-06-16 15:01:00.000000 bmkgquake-0.1.2/README.md
+-drwxrwxrwx   0        0        0        0 2023-06-16 16:30:49.548242 bmkgquake-0.1.2/bmkgquake/
+--rw-rw-rw-   0        0        0      151 2023-06-10 16:56:27.000000 bmkgquake-0.1.2/bmkgquake/__init__.py
+--rw-rw-rw-   0        0        0      453 2023-06-10 16:57:52.000000 bmkgquake-0.1.2/bmkgquake/display_data.py
+--rw-rw-rw-   0        0        0     1979 2023-06-10 17:56:17.000000 bmkgquake-0.1.2/bmkgquake/extract_data.py
+-drwxrwxrwx   0        0        0        0 2023-06-16 16:30:49.563863 bmkgquake-0.1.2/bmkgquake.egg-info/
+--rw-rw-rw-   0        0        0     2290 2023-06-16 16:30:49.000000 bmkgquake-0.1.2/bmkgquake.egg-info/PKG-INFO
+--rw-rw-rw-   0        0        0      232 2023-06-16 16:30:49.000000 bmkgquake-0.1.2/bmkgquake.egg-info/SOURCES.txt
+--rw-rw-rw-   0        0        0        1 2023-06-16 16:30:49.000000 bmkgquake-0.1.2/bmkgquake.egg-info/dependency_links.txt
+--rw-rw-rw-   0        0        0       10 2023-06-16 16:30:49.000000 bmkgquake-0.1.2/bmkgquake.egg-info/top_level.txt
+--rw-rw-rw-   0        0        0       42 2023-06-16 16:30:49.563863 bmkgquake-0.1.2/setup.cfg
+--rw-rw-rw-   0        0        0      957 2023-06-16 16:29:01.000000 bmkgquake-0.1.2/setup.py
++drwxrwxrwx   0        0        0        0 2023-06-16 17:00:30.378496 bmkgquake-0.1.3/
++-rw-rw-rw-   0        0        0    35823 2023-06-06 21:30:24.000000 bmkgquake-0.1.3/LICENSE
++-rw-rw-rw-   0        0        0     2290 2023-06-16 17:00:30.378496 bmkgquake-0.1.3/PKG-INFO
++-rw-rw-rw-   0        0        0     1573 2023-06-16 15:01:00.000000 bmkgquake-0.1.3/README.md
++drwxrwxrwx   0        0        0        0 2023-06-16 17:00:30.362852 bmkgquake-0.1.3/bmkgquake/
++-rw-rw-rw-   0        0        0      227 2023-06-16 16:58:09.000000 bmkgquake-0.1.3/bmkgquake/__init__.py
++-rw-rw-rw-   0        0        0      453 2023-06-10 16:57:52.000000 bmkgquake-0.1.3/bmkgquake/display_data.py
++-rw-rw-rw-   0        0        0     1979 2023-06-10 17:56:17.000000 bmkgquake-0.1.3/bmkgquake/extract_data.py
++drwxrwxrwx   0        0        0        0 2023-06-16 17:00:30.378496 bmkgquake-0.1.3/bmkgquake.egg-info/
++-rw-rw-rw-   0        0        0     2290 2023-06-16 17:00:30.000000 bmkgquake-0.1.3/bmkgquake.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0      232 2023-06-16 17:00:30.000000 bmkgquake-0.1.3/bmkgquake.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2023-06-16 17:00:30.000000 bmkgquake-0.1.3/bmkgquake.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0       10 2023-06-16 17:00:30.000000 bmkgquake-0.1.3/bmkgquake.egg-info/top_level.txt
++-rw-rw-rw-   0        0        0       42 2023-06-16 17:00:30.378496 bmkgquake-0.1.3/setup.cfg
++-rw-rw-rw-   0        0        0      957 2023-06-16 16:56:21.000000 bmkgquake-0.1.3/setup.py
+```
+
+### Comparing `bmkgquake-0.1.2/LICENSE` & `bmkgquake-0.1.3/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `bmkgquake-0.1.2/PKG-INFO` & `bmkgquake-0.1.3/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: bmkgquake
+-Version: 0.1.2
++Version: 0.1.3
+ Summary: This package provides a simple way to retrieve latest earthquake data in Indonesia from the official website of the Indonesian Meteorology, Climatology, and Geophysics Agency (BMKG)
+ Home-page: https://github.com/destin-stack/BMKGquake-fetcher-package
+ Author: Destin Erika Nawang Budiarti
+ Author-email: destinerikanb@gmail.com
+ Classifier: Programming Language :: Python :: 3
+ Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+ Classifier: Operating System :: OS Independent
+```
+
+### Comparing `bmkgquake-0.1.2/README.md` & `bmkgquake-0.1.3/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `bmkgquake-0.1.2/bmkgquake/extract_data.py` & `bmkgquake-0.1.3/bmkgquake/extract_data.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bmkgquake-0.1.2/bmkgquake.egg-info/PKG-INFO` & `bmkgquake-0.1.3/bmkgquake.egg-info/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: bmkgquake
+-Version: 0.1.2
++Version: 0.1.3
+ Summary: This package provides a simple way to retrieve latest earthquake data in Indonesia from the official website of the Indonesian Meteorology, Climatology, and Geophysics Agency (BMKG)
+ Home-page: https://github.com/destin-stack/BMKGquake-fetcher-package
+ Author: Destin Erika Nawang Budiarti
+ Author-email: destinerikanb@gmail.com
+ Classifier: Programming Language :: Python :: 3
+ Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+ Classifier: Operating System :: OS Independent
+```
+
+### Comparing `bmkgquake-0.1.2/setup.py` & `bmkgquake-0.1.3/setup.py`
+
+ * *Files 14% similar despite different names*
+
+```diff
+@@ -1,15 +1,15 @@
+ import setuptools
+ 
+ with open("README.md", "r", encoding="utf-8") as fh:
+     long_descriptions = fh.read()
+ 
+ setuptools.setup(
+     name="bmkgquake",
+-    version="0.1.2",
++    version="0.1.3",
+     author="Destin Erika Nawang Budiarti",
+     author_email="destinerikanb@gmail.com",
+     description="This package provides a simple way to retrieve latest earthquake data in Indonesia from the official website of the Indonesian Meteorology, Climatology, and Geophysics Agency (BMKG)",
+     long_description=long_descriptions,
+     long_description_content_type='text/markdown',
+     url="https://github.com/destin-stack/BMKGquake-fetcher-package",
+     classifiers=[
+```
+
