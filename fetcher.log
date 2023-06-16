@@ -13035,3 +13035,51 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 07:28:19] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 58314509>=10485760
 [2023-06-16 07:28:19] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
 [2023-06-16 07:28:19] INFO root fetch - main [MainThread]: Store serial: [18527637]
+[2023-06-16 07:33:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527637]
+[2023-06-16 07:33:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-16 07:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-06-16 07:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exergenics-etl
+[2023-06-16 07:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arch-github-package
+[2023-06-16 07:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autosmith
+[2023-06-16 07:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentinel-protobuf
+[2023-06-16 07:33:28] INFO root fetch - processPackages [sentinel-protobuf]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-16 07:33:28] INFO root fetch - processPackages [exergenics-etl]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-16 07:33:28] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-16 07:33:28] INFO root fetch - processPackages [arch-github-package]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 07:33:28] INFO root fetch - processPackages [autosmith]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-16 07:33:28] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-16 07:33:28] INFO root fetch - processPackages [sentinel-protobuf]: Downloading https://files.pythonhosted.org/packages/c7/8a/d7e2c675de63802dee6610e816a7e1baa9ba741e36895dc0c53e50e808ef/sentinel_protobuf-0.2.0.tar.gz
+[2023-06-16 07:33:28] INFO root fetch - processPackages [autosmith]: Downloading https://files.pythonhosted.org/packages/98/cd/e069a5c50fb22dae00fc42ca30c7374c1d3c38bcfff4e6b1b133fcd1c9b8/autosmith-0.0.1.tar.gz
+[2023-06-16 07:33:28] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/7b/99/99c12f1fd87b71712b95c95c91a6c8a7910379b6b58937153620924b44c4/exergenics-etl-1.2.0.tar.gz
+[2023-06-16 07:33:28] INFO root fetch - processPackages [arch-github-package]: Downloading https://files.pythonhosted.org/packages/c2/86/cd49fc069b9473c469802167f99287417a1b9eed8ee27f0f4593678cb3c4/arch_github_package-0.0.1.tar.gz
+[2023-06-16 07:33:28] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-16 07:33:28] INFO root fetch - processPackages [autosmith]: Downloading https://files.pythonhosted.org/packages/4e/92/a120ace915d6d26e2760d91b4fe90aedf316d5a0be973af8323e59437d62/autosmith-0.0.2.tar.gz
+[2023-06-16 07:33:28] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-16 07:33:28] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230616/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-16 07:33:28] INFO root fetch - processPackages [arch-github-package]: Downloading https://files.pythonhosted.org/packages/38/f9/5f5d60c3c58ae99901ad099573d7dd310d35225c3d562421ad006cb4913d/arch_github_package-0.0.2.tar.gz
+[2023-06-16 07:33:28] INFO root fetch - processPackages [autosmith]: executing diffoscope
+[2023-06-16 07:33:28] INFO root fetch - processPackages [autosmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosmith-0.0.1.tar.gz tmp/autosmith-0.0.2.tar.gz --markdown 20230616/a/autosmith/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 07:33:29] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/ef/f5/250984a0d867ff8b0ffe4e8303933192657dbc90d7c1eb0185d610ae9a99/exergenics-etl-1.3.0.tar.gz
+[2023-06-16 07:33:29] INFO root fetch - processPackages [exergenics-etl]: executing diffoscope
+[2023-06-16 07:33:29] INFO root fetch - processPackages [exergenics-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-etl-1.2.0.tar.gz tmp/exergenics-etl-1.3.0.tar.gz --markdown 20230616/e/exergenics-etl/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-16 07:33:29] INFO root fetch - processPackages [arch-github-package]: executing diffoscope
+[2023-06-16 07:33:29] INFO root fetch - processPackages [arch-github-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_github_package-0.0.1.tar.gz tmp/arch_github_package-0.0.2.tar.gz --markdown 20230616/a/arch-github-package/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-16 07:33:29] INFO root fetch - processPackages [sentinel-protobuf]: Downloading https://files.pythonhosted.org/packages/39/8f/867c65bbe43a4e3c5e6075a8780b07660006189cea441fd1e14a4bb06307/sentinel_protobuf-0.2.1.tar.gz
+[2023-06-16 07:33:29] INFO root fetch - processPackages [sentinel-protobuf]: executing diffoscope
+[2023-06-16 07:33:29] INFO root fetch - processPackages [sentinel-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinel_protobuf-0.2.0.tar.gz tmp/sentinel_protobuf-0.2.1.tar.gz --markdown 20230616/s/sentinel-protobuf/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-16 07:33:30] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-16 07:33:30] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-16 07:33:30] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-16 07:33:30] INFO root fetch - processPackages [autosmith]: Remove: archive file [/home/abi/fetcher/tmp/autosmith-0.0.1.tar.gz]
+[2023-06-16 07:33:30] INFO root fetch - processPackages [autosmith]: Remove: archive file [/home/abi/fetcher/tmp/autosmith-0.0.2.tar.gz]
+[2023-06-16 07:33:30] INFO root fetch - main [MainThread]: End processing [autosmith]: success
+[2023-06-16 07:33:30] INFO root fetch - processPackages [arch-github-package]: Remove: archive file [/home/abi/fetcher/tmp/arch_github_package-0.0.1.tar.gz]
+[2023-06-16 07:33:30] INFO root fetch - processPackages [arch-github-package]: Remove: archive file [/home/abi/fetcher/tmp/arch_github_package-0.0.2.tar.gz]
+[2023-06-16 07:33:30] INFO root fetch - main [MainThread]: End processing [arch-github-package]: success
+[2023-06-16 07:33:30] INFO root fetch - processPackages [exergenics-etl]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-etl-1.2.0.tar.gz]
+[2023-06-16 07:33:30] INFO root fetch - processPackages [exergenics-etl]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-etl-1.3.0.tar.gz]
+[2023-06-16 07:33:30] INFO root fetch - main [MainThread]: End processing [exergenics-etl]: success
+[2023-06-16 07:33:34] INFO root fetch - processPackages [sentinel-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_protobuf-0.2.0.tar.gz]
+[2023-06-16 07:33:34] INFO root fetch - processPackages [sentinel-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_protobuf-0.2.1.tar.gz]
+[2023-06-16 07:33:34] INFO root fetch - main [MainThread]: End processing [sentinel-protobuf]: success
+[2023-06-16 07:33:34] INFO root fetch - main [MainThread]: Store serial: [18527652]
