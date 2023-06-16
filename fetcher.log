@@ -15486,3 +15486,184 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 09:17:15] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev96-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-16 09:17:15] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
 [2023-06-16 09:17:15] INFO root fetch - main [MainThread]: Store serial: [18528442]
+[2023-06-16 09:22:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528442]
+[2023-06-16 09:22:43] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-16 09:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitlint-core
+[2023-06-16 09:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitlint
+[2023-06-16 09:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: struct-bias
+[2023-06-16 09:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: milvus
+[2023-06-16 09:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-stock-cycle-count
+[2023-06-16 09:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test-rest-api
+[2023-06-16 09:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-stock-cycle-count
+[2023-06-16 09:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anesthetic
+[2023-06-16 09:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xxtest0616
+[2023-06-16 09:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-clickzetta
+[2023-06-16 09:22:43] INFO root fetch - processPackages [struct-bias]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-16 09:22:43] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-06-16 09:22:43] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: New version: [12.0.1.1.1.99.dev9] Old Version: [12.0.1.1.1.99.dev8]
+[2023-06-16 09:22:43] INFO root fetch - processPackages [test-rest-api]: New version: [0.0.0.0.34] Old Version: [0.0.0.0.33]
+[2023-06-16 09:22:43] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-16 09:22:43] INFO root fetch - processPackages [milvus]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-16 09:22:43] INFO root fetch - processPackages [anesthetic]: New version: [2.0.0b9] Old Version: [2.0.0b7]
+[2023-06-16 09:22:43] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-16 09:22:43] INFO root fetch - processPackages [odoo13-addon-stock-cycle-count]: New version: [13.0.1.2.2.dev9] Old Version: [13.0.1.2.2.dev8]
+[2023-06-16 09:22:44] INFO root fetch - processPackages [struct-bias]: Downloading https://files.pythonhosted.org/packages/fd/54/9633f961542a41ebc0942a8fab269dd45c648bc31698d2ec7af8b8ee60d9/struct-bias-1.1.0.tar.gz
+[2023-06-16 09:22:44] ERROR root fetch - processPackages [xxtest0616]: Unable to get metadata: No such project 'xxtest0616'
+[2023-06-16 09:22:44] INFO root fetch - processPackages [xxtest0616]: Start processing: autoload-module
+[2023-06-16 09:22:44] INFO root fetch - main [MainThread]: End processing [xxtest0616] error
+[2023-06-16 09:22:44] INFO root fetch - processPackages [autoload-module]: New version: [2.0.0] Old Version: [1.7.2]
+[2023-06-16 09:22:44] INFO root fetch - processPackages [odoo13-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/07/98/23c81f2c10f830c24036f0c6c1a68df378d51840835d1080c5a811bcbfaa/odoo13_addon_stock_cycle_count-13.0.1.2.2.dev8-py3-none-any.whl
+[2023-06-16 09:22:44] INFO root fetch - processPackages [test-rest-api]: Downloading https://files.pythonhosted.org/packages/be/51/7cb68f7846019bbdc8f994378031bf0e3ddb087a4ec3c2abb2e0668e3adf/test_rest_api-0.0.0.0.33.tar.gz
+[2023-06-16 09:22:44] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-06-16 09:22:44] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-06-16 09:22:44] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/76/9e/0899d363053c0f73958109da0e748d4d285cf7a0277b6f7d99d384e33c26/odoo12_addon_stock_cycle_count-12.0.1.1.1.99.dev8-py3-none-any.whl
+[2023-06-16 09:22:44] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-06-16 09:22:44] INFO root fetch - processPackages [milvus]: Downloading https://files.pythonhosted.org/packages/74/79/82eb104d0874e919e431060222b01d189e9d2b0d656992b55ddc8646f873/milvus-2.2.8-py3-none-win_amd64.whl
+[2023-06-16 09:22:44] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/bb/ee/510009a21351f1f3cc40d53f647047eef65a83196f66a74bdcab71213051/anesthetic-2.0.0b7.tar.gz
+[2023-06-16 09:22:44] INFO root fetch - processPackages [autoload-module]: Downloading https://files.pythonhosted.org/packages/28/ac/7ad03252ceadb0880a95f545381814a5584b46c7b1423eafe01b229d66db/autoload-module-1.7.2.tar.gz
+[2023-06-16 09:22:44] INFO root fetch - processPackages [test-rest-api]: Downloading https://files.pythonhosted.org/packages/ef/f4/05a2a68ebe4a57c51c51c972bb9f9439011c00875a62e28863c20e3ec59b/test_rest_api-0.0.0.0.34.tar.gz
+[2023-06-16 09:22:44] INFO root fetch - processPackages [odoo13-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/f3/d4/3f5174851d826d228114af1d5e2538747dd5280eef97779cb83f8650eb01/odoo13_addon_stock_cycle_count-13.0.1.2.2.dev9-py3-none-any.whl
+[2023-06-16 09:22:44] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-06-16 09:22:44] INFO root fetch - processPackages [test-rest-api]: executing diffoscope
+[2023-06-16 09:22:44] INFO root fetch - processPackages [test-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_rest_api-0.0.0.0.33.tar.gz tmp/test_rest_api-0.0.0.0.34.tar.gz --markdown 20230616/t/test-rest-api/0.0.0.0.33-0.0.0.0.34/diff.md --exclude *.pyd
+[2023-06-16 09:22:44] INFO root fetch - processPackages [struct-bias]: Downloading https://files.pythonhosted.org/packages/b4/cd/0c3b4ae49c7a06a697a96bbeb203df51c50dec44ecb24060ca699733a4e0/struct-bias-1.2.0.tar.gz
+[2023-06-16 09:22:44] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-06-16 09:22:44] INFO root fetch - processPackages [autoload-module]: Downloading https://files.pythonhosted.org/packages/d2/c7/e23a010c86b0072ee801d093fc7d72a87dac1be6f36834c0412f8bbb7009/autoload_module-2.0.0.tar.gz
+[2023-06-16 09:22:44] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-16 09:22:44] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230616/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 09:22:44] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/32/11/99fd9f8aa355ba5088cb3133b63a6dd88754671b56d8b0f9af7be3d8c29a/odoo12_addon_stock_cycle_count-12.0.1.1.1.99.dev9-py3-none-any.whl
+[2023-06-16 09:22:44] INFO root fetch - processPackages [struct-bias]: executing diffoscope
+[2023-06-16 09:22:44] INFO root fetch - processPackages [struct-bias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struct-bias-1.1.0.tar.gz tmp/struct-bias-1.2.0.tar.gz --markdown 20230616/s/struct-bias/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-16 09:22:44] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-06-16 09:22:44] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230616/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:22:44] INFO root fetch - processPackages [autoload-module]: executing diffoscope
+[2023-06-16 09:22:44] INFO root fetch - processPackages [autoload-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoload-module-1.7.2.tar.gz tmp/autoload_module-2.0.0.tar.gz --markdown 20230616/a/autoload-module/1.7.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-16 09:22:44] INFO root fetch - processPackages [odoo13-addon-stock-cycle-count]: executing diffoscope
+[2023-06-16 09:22:44] INFO root fetch - processPackages [odoo13-addon-stock-cycle-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_stock_cycle_count-13.0.1.2.2.dev8-py3-none-any.whl.zip tmp/odoo13_addon_stock_cycle_count-13.0.1.2.2.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo13-addon-stock-cycle-count/13.0.1.2.2.dev8-13.0.1.2.2.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:22:44] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: executing diffoscope
+[2023-06-16 09:22:44] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_cycle_count-12.0.1.1.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_cycle_count-12.0.1.1.1.99.dev9-py3-none-any.whl.zip --markdown 20230616/o/odoo12-addon-stock-cycle-count/12.0.1.1.1.99.dev8-12.0.1.1.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 09:22:44] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-06-16 09:22:44] WARNING root fetch - processPackages [milvus]: Skipping package: exceeds size limit 38436908>=10485760
+[2023-06-16 09:22:44] INFO root fetch - processPackages [milvus]: Start processing: langconv
+[2023-06-16 09:22:44] INFO root fetch - main [MainThread]: End processing [milvus] error
+[2023-06-16 09:22:45] WARNING root fetch - processPackages [langconv]: Skipping, unable to determine old version
+[2023-06-16 09:22:45] INFO root fetch - processPackages [langconv]: Start processing: decore-Base
+[2023-06-16 09:22:45] INFO root fetch - main [MainThread]: End processing [langconv] error
+[2023-06-16 09:22:45] INFO root fetch - processPackages [decore-Base]: New version: [0.0.20] Old Version: [0.0.18]
+[2023-06-16 09:22:45] INFO root fetch - processPackages [decore-Base]: Downloading https://files.pythonhosted.org/packages/75/f7/231948ede48072f92e92ac92bd772ca80d1d024f417f6db1b934eff32a4b/decore_Base-0.0.18.tar.gz
+[2023-06-16 09:22:45] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/69/67/acd5153fe2efa969ee04ccb4079ccc1c108090ffab6b45ac362cbe2bf3b2/anesthetic-2.0.0b9.tar.gz
+[2023-06-16 09:22:45] INFO root fetch - processPackages [decore-Base]: Downloading https://files.pythonhosted.org/packages/0b/80/ac98ea8839795465899713d2f6f1da0643ba6cf5a5906b8e33936daddd78/decore_Base-0.0.20.tar.gz
+[2023-06-16 09:22:45] INFO root fetch - processPackages [decore-Base]: executing diffoscope
+[2023-06-16 09:22:45] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-06-16 09:22:45] INFO root fetch - processPackages [decore-Base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore_Base-0.0.18.tar.gz tmp/decore_Base-0.0.20.tar.gz --markdown 20230616/d/decore-Base/0.0.18-0.0.20/diff.md --exclude *.pyd
+[2023-06-16 09:22:45] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230616/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 09:22:45] INFO root fetch - processPackages [anesthetic]: executing diffoscope
+[2023-06-16 09:22:45] INFO root fetch - processPackages [anesthetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anesthetic-2.0.0b7.tar.gz tmp/anesthetic-2.0.0b9.tar.gz --markdown 20230616/a/anesthetic/2.0.0b7-2.0.0b9/diff.md --exclude *.pyd
+[2023-06-16 09:22:46] INFO root fetch - processPackages [struct-bias]: Remove: archive file [/home/abi/fetcher/tmp/struct-bias-1.1.0.tar.gz]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [struct-bias]: Remove: archive file [/home/abi/fetcher/tmp/struct-bias-1.2.0.tar.gz]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [struct-bias]: Start processing: qontract-reconcile
+[2023-06-16 09:22:46] INFO root fetch - main [MainThread]: End processing [struct-bias]: success
+[2023-06-16 09:22:46] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-16 09:22:46] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [dbt-clickzetta]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-16 09:22:46] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-16 09:22:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-16 09:22:46] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-16 09:22:46] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-16 09:22:46] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230616/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-16 09:22:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-16 09:22:46] INFO root fetch - processPackages [autoload-module]: Remove: archive file [/home/abi/fetcher/tmp/autoload-module-1.7.2.tar.gz]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [autoload-module]: Remove: archive file [/home/abi/fetcher/tmp/autoload_module-2.0.0.tar.gz]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [autoload-module]: Start processing: cowexcept
+[2023-06-16 09:22:46] INFO root fetch - main [MainThread]: End processing [autoload-module]: success
+[2023-06-16 09:22:46] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev8.tar.gz]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev9.tar.gz]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [gitlint-core]: Start processing: quao
+[2023-06-16 09:22:46] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-06-16 09:22:46] INFO root fetch - processPackages [cowexcept]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [quao]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/a0/97/97ee33d23bbeafd6063dcc5586406b4ed51a15385c72436b1efe3cc09c88/quao-0.2.4.tar.gz
+[2023-06-16 09:22:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-16 09:22:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230616/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 09:22:46] INFO root fetch - processPackages [cowexcept]: Downloading https://files.pythonhosted.org/packages/dc/67/c31858584d1517e3b79480c62c2b54e1d93da67a4ce8be47fc46b07b2d94/cowexcept-1.3.0.tar.gz
+[2023-06-16 09:22:46] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/19/2d/9d7fdd10bdfdd24bede9851540e5addba91ef2a32558bf28d9c72a39e2f7/quao-0.2.5.tar.gz
+[2023-06-16 09:22:46] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_cycle_count-12.0.1.1.1.99.dev8-py3-none-any.whl.zip]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_cycle_count-12.0.1.1.1.99.dev9-py3-none-any.whl.zip]
+[2023-06-16 09:22:46] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: Start processing: odoo14-addon-stock-request
+[2023-06-16 09:22:46] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-cycle-count]: success
+[2023-06-16 09:22:46] INFO root fetch - processPackages [odoo14-addon-stock-request]: New version: [14.0.1.6.3.dev2] Old Version: [14.0.1.6.3.dev1]
+[2023-06-16 09:22:47] INFO root fetch - processPackages [cowexcept]: Downloading https://files.pythonhosted.org/packages/71/22/d7ade9feed2b94cdf7cc3aabdbf9d4f232b34cb28cc24a3506c5077a12b5/cowexcept-1.3.1.tar.gz
+[2023-06-16 09:22:47] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-16 09:22:47] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.4.tar.gz tmp/quao-0.2.5.tar.gz --markdown 20230616/q/quao/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-16 09:22:47] INFO root fetch - processPackages [cowexcept]: executing diffoscope
+[2023-06-16 09:22:47] INFO root fetch - processPackages [cowexcept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cowexcept-1.3.0.tar.gz tmp/cowexcept-1.3.1.tar.gz --markdown 20230616/c/cowexcept/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-16 09:22:47] INFO root fetch - processPackages [test-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/test_rest_api-0.0.0.0.33.tar.gz]
+[2023-06-16 09:22:47] INFO root fetch - processPackages [test-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/test_rest_api-0.0.0.0.34.tar.gz]
+[2023-06-16 09:22:47] INFO root fetch - processPackages [test-rest-api]: Start processing: tfq-nightly
+[2023-06-16 09:22:47] INFO root fetch - main [MainThread]: End processing [test-rest-api]: success
+[2023-06-16 09:22:47] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/38/28/f1c77837137fe52bd4b7323704373b6fd46d741d6c81fdd0ad438f26213c/odoo14_addon_stock_request-14.0.1.6.3.dev1-py3-none-any.whl
+[2023-06-16 09:22:47] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230615] Old Version: [0.7.3.dev20230614]
+[2023-06-16 09:22:47] INFO root fetch - processPackages [odoo13-addon-stock-cycle-count]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_stock_cycle_count-13.0.1.2.2.dev8-py3-none-any.whl.zip]
+[2023-06-16 09:22:47] INFO root fetch - processPackages [odoo13-addon-stock-cycle-count]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_stock_cycle_count-13.0.1.2.2.dev9-py3-none-any.whl.zip]
+[2023-06-16 09:22:47] INFO root fetch - processPackages [odoo13-addon-stock-cycle-count]: Start processing: kiara-plugin.service
+[2023-06-16 09:22:47] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-cycle-count]: success
+[2023-06-16 09:22:47] INFO root fetch - processPackages [kiara-plugin.service]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-16 09:22:47] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/ff/65/4f709454d7bca47b2de685a4785007692cfe67363ad9b85c55c91164d1ee/tfq_nightly-0.7.3.dev20230614-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-16 09:22:47] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822718>=10485760
+[2023-06-16 09:22:47] INFO root fetch - processPackages [tfq-nightly]: Start processing: bamboo-pipeline
+[2023-06-16 09:22:47] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-16 09:22:47] INFO root fetch - processPackages [bamboo-pipeline]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-16 09:22:47] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/77/0f/aa59388939b7107ef5480a0671bc0a41d98e5438adeab5ad687cfb6979f2/odoo14_addon_stock_request-14.0.1.6.3.dev2-py3-none-any.whl
+[2023-06-16 09:22:47] INFO root fetch - processPackages [kiara-plugin.service]: Downloading https://files.pythonhosted.org/packages/e6/74/c79c1cb91e936b1b39e7c88bbf1dd4c99ffbd295ba18ad00703f5e2d2e38/kiara_plugin.service-0.4.0.tar.gz
+[2023-06-16 09:22:47] INFO root fetch - processPackages [odoo14-addon-stock-request]: executing diffoscope
+[2023-06-16 09:22:47] INFO root fetch - processPackages [odoo14-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_request-14.0.1.6.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_stock_request-14.0.1.6.3.dev2-py3-none-any.whl.zip --markdown 20230616/o/odoo14-addon-stock-request/14.0.1.6.3.dev1-14.0.1.6.3.dev2/diff.md --exclude *.pyd
+[2023-06-16 09:22:47] INFO root fetch - processPackages [bamboo-pipeline]: Downloading https://files.pythonhosted.org/packages/cb/a1/e46878c1a6b435969d65265f995a2459ffb09ce5484f4c21422152bec6f0/bamboo-pipeline-3.9.0.tar.gz
+[2023-06-16 09:22:47] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.8.2.tar.gz]
+[2023-06-16 09:22:47] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.9.0.tar.gz]
+[2023-06-16 09:22:47] INFO root fetch - processPackages [gitlint]: Start processing: langport
+[2023-06-16 09:22:47] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-06-16 09:22:47] INFO root fetch - processPackages [langport]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-16 09:22:47] INFO root fetch - processPackages [kiara-plugin.service]: Downloading https://files.pythonhosted.org/packages/12/d3/3e8739992cebe8321657159fd2d31c4196040101af22bac97b1cc03b043b/kiara_plugin.service-0.4.1.tar.gz
+[2023-06-16 09:22:47] INFO root fetch - processPackages [kiara-plugin.service]: executing diffoscope
+[2023-06-16 09:22:47] INFO root fetch - processPackages [kiara-plugin.service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.service-0.4.0.tar.gz tmp/kiara_plugin.service-0.4.1.tar.gz --markdown 20230616/k/kiara-plugin.service/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-16 09:22:47] INFO root fetch - processPackages [langport]: Downloading https://files.pythonhosted.org/packages/d1/05/7c283822644ca0da70ee1288881f86ebe70f523b3472fcb8623874581517/langport-0.0.4.tar.gz
+[2023-06-16 09:22:47] INFO root fetch - processPackages [bamboo-pipeline]: Downloading https://files.pythonhosted.org/packages/b0/27/cdec0ebe98fcd2295d04a6e01415de51666143e8424c3063c27d8f56d3f3/bamboo-pipeline-3.9.1.tar.gz
+[2023-06-16 09:22:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-16 09:22:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-16 09:22:48] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-16 09:22:48] INFO root fetch - processPackages [bamboo-pipeline]: executing diffoscope
+[2023-06-16 09:22:48] INFO root fetch - processPackages [bamboo-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamboo-pipeline-3.9.0.tar.gz tmp/bamboo-pipeline-3.9.1.tar.gz --markdown 20230616/b/bamboo-pipeline/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-16 09:22:48] INFO root fetch - processPackages [langport]: Downloading https://files.pythonhosted.org/packages/47/0a/96131c75d53c26d58829e05ed3644138fdbfa45977a49b87009539d4fd1a/langport-0.1.0.tar.gz
+[2023-06-16 09:22:48] INFO root fetch - processPackages [langport]: executing diffoscope
+[2023-06-16 09:22:48] INFO root fetch - processPackages [langport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langport-0.0.4.tar.gz tmp/langport-0.1.0.tar.gz --markdown 20230616/l/langport/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-16 09:22:48] INFO root fetch - processPackages [cowexcept]: Remove: archive file [/home/abi/fetcher/tmp/cowexcept-1.3.0.tar.gz]
+[2023-06-16 09:22:48] INFO root fetch - processPackages [cowexcept]: Remove: archive file [/home/abi/fetcher/tmp/cowexcept-1.3.1.tar.gz]
+[2023-06-16 09:22:48] INFO root fetch - main [MainThread]: End processing [cowexcept]: success
+[2023-06-16 09:22:48] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.4.tar.gz]
+[2023-06-16 09:22:48] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.5.tar.gz]
+[2023-06-16 09:22:48] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-16 09:22:49] INFO root fetch - processPackages [odoo14-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_request-14.0.1.6.3.dev1-py3-none-any.whl.zip]
+[2023-06-16 09:22:49] INFO root fetch - processPackages [odoo14-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_request-14.0.1.6.3.dev2-py3-none-any.whl.zip]
+[2023-06-16 09:22:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request]: success
+[2023-06-16 09:22:49] INFO root fetch - processPackages [kiara-plugin.service]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.service-0.4.0.tar.gz]
+[2023-06-16 09:22:49] INFO root fetch - processPackages [kiara-plugin.service]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.service-0.4.1.tar.gz]
+[2023-06-16 09:22:49] INFO root fetch - main [MainThread]: End processing [kiara-plugin.service]: success
+[2023-06-16 09:22:50] INFO root fetch - processPackages [langport]: Remove: archive file [/home/abi/fetcher/tmp/langport-0.0.4.tar.gz]
+[2023-06-16 09:22:50] INFO root fetch - processPackages [langport]: Remove: archive file [/home/abi/fetcher/tmp/langport-0.1.0.tar.gz]
+[2023-06-16 09:22:50] INFO root fetch - main [MainThread]: End processing [langport]: success
+[2023-06-16 09:22:50] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.0.0b7.tar.gz]
+[2023-06-16 09:22:50] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.0.0b9.tar.gz]
+[2023-06-16 09:22:50] INFO root fetch - main [MainThread]: End processing [anesthetic]: success
+[2023-06-16 09:22:51] INFO root fetch - processPackages [bamboo-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/bamboo-pipeline-3.9.0.tar.gz]
+[2023-06-16 09:22:51] INFO root fetch - processPackages [bamboo-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/bamboo-pipeline-3.9.1.tar.gz]
+[2023-06-16 09:22:51] INFO root fetch - main [MainThread]: End processing [bamboo-pipeline]: success
+[2023-06-16 09:22:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-16 09:22:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-16 09:22:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-16 09:23:00] INFO root fetch - processPackages [decore-Base]: Remove: archive file [/home/abi/fetcher/tmp/decore_Base-0.0.18.tar.gz]
+[2023-06-16 09:23:00] INFO root fetch - processPackages [decore-Base]: Remove: archive file [/home/abi/fetcher/tmp/decore_Base-0.0.20.tar.gz]
+[2023-06-16 09:23:00] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
+[2023-06-16 09:23:00] INFO root fetch - main [MainThread]: Store serial: [18528516]
