@@ -10712,3 +10712,60 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 05:16:32] INFO root fetch - processPackages [odoo9-addon-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_connector-9.0.1.2.0.99.dev9-py2-none-any.whl.zip]
 [2023-06-16 05:16:32] INFO root fetch - main [MainThread]: End processing [odoo9-addon-connector]: success
 [2023-06-16 05:16:32] INFO root fetch - main [MainThread]: Store serial: [18526663]
+[2023-06-16 05:21:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526663]
+[2023-06-16 05:21:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-16 05:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-cli
+[2023-06-16 05:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySupercell
+[2023-06-16 05:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kikyo
+[2023-06-16 05:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: code2gist
+[2023-06-16 05:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-github
+[2023-06-16 05:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: solldex-api-client
+[2023-06-16 05:21:41] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 05:21:41] INFO root fetch - processPackages [code2gist]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-16 05:21:41] INFO root fetch - processPackages [solldex-api-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-16 05:21:41] INFO root fetch - processPackages [kikyo]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-16 05:21:41] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: New version: [9.0.0] Old Version: [8.0.5]
+[2023-06-16 05:21:41] INFO root fetch - processPackages [omnata-cli]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-16 05:21:41] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-16 05:21:41] INFO root fetch - processPackages [solldex-api-client]: Downloading https://files.pythonhosted.org/packages/ed/c6/807f1ad71a02400633928b7a39aa1b377c7c6fe61079bf1559aeed09a52c/solldex-api-client-0.1.2.tar.gz
+[2023-06-16 05:21:41] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Downloading https://files.pythonhosted.org/packages/ea/00/58c8f8e70a0ecf9a5172582003f19714be9f607ba9ab6ed8fd7397a49cc6/cdktf-cdktf-provider-github-8.0.5.tar.gz
+[2023-06-16 05:21:41] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-16 05:21:41] INFO root fetch - processPackages [code2gist]: Downloading https://files.pythonhosted.org/packages/2f/53/77e5cea618bc6cbce0ee386d408e73762be3bf3f93fd33ac69a30275e025/code2gist-1.1.3.tar.gz
+[2023-06-16 05:21:41] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-16 05:21:41] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230616/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 05:21:41] INFO root fetch - processPackages [omnata-cli]: Downloading https://files.pythonhosted.org/packages/cc/41/2b917ae1a0e0c3d5b699d14b922dd4892cfd8a57019b9bf4233864a00b76/omnata_cli-0.1.4.tar.gz
+[2023-06-16 05:21:41] INFO root fetch - processPackages [solldex-api-client]: Downloading https://files.pythonhosted.org/packages/f5/71/07e802734f6ddd9a1452e011b3c56715700edf103604f22aa9b27734642d/solldex-api-client-0.1.3.tar.gz
+[2023-06-16 05:21:41] INFO root fetch - processPackages [kikyo]: Downloading https://files.pythonhosted.org/packages/87/46/c71a33a9e207c76ade05abb19970a671488174738425fd4fc772f0722d01/kikyo-0.9.1.tar.gz
+[2023-06-16 05:21:42] INFO root fetch - processPackages [solldex-api-client]: executing diffoscope
+[2023-06-16 05:21:42] INFO root fetch - processPackages [solldex-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solldex-api-client-0.1.2.tar.gz tmp/solldex-api-client-0.1.3.tar.gz --markdown 20230616/s/solldex-api-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-16 05:21:42] INFO root fetch - processPackages [code2gist]: Downloading https://files.pythonhosted.org/packages/ab/5b/721d6cc8ac07279c779d6a5df219eeb1c84cc7cd85561d2853a0830d3802/code2gist-1.1.4.tar.gz
+[2023-06-16 05:21:42] INFO root fetch - processPackages [code2gist]: executing diffoscope
+[2023-06-16 05:21:42] INFO root fetch - processPackages [code2gist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code2gist-1.1.3.tar.gz tmp/code2gist-1.1.4.tar.gz --markdown 20230616/c/code2gist/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-16 05:21:42] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Downloading https://files.pythonhosted.org/packages/38/a2/80bff1b032197c47ab6962d4b1d29a6d67d5326dd42db02455ba3ad60e14/cdktf-cdktf-provider-github-9.0.0.tar.gz
+[2023-06-16 05:21:42] INFO root fetch - processPackages [kikyo]: Downloading https://files.pythonhosted.org/packages/6c/8c/8da29e51448211a8f2af9a0adaed230adc516cc930c317436c1f1f3c3337/kikyo-0.9.2.tar.gz
+[2023-06-16 05:21:42] INFO root fetch - processPackages [omnata-cli]: Downloading https://files.pythonhosted.org/packages/f9/9b/913c375d4ba1cec03d206dd3200760e789f60c5c558ac06e125685213973/omnata_cli-0.1.5.tar.gz
+[2023-06-16 05:21:42] INFO root fetch - processPackages [kikyo]: executing diffoscope
+[2023-06-16 05:21:42] INFO root fetch - processPackages [kikyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kikyo-0.9.1.tar.gz tmp/kikyo-0.9.2.tar.gz --markdown 20230616/k/kikyo/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-16 05:21:42] INFO root fetch - processPackages [omnata-cli]: executing diffoscope
+[2023-06-16 05:21:42] INFO root fetch - processPackages [omnata-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_cli-0.1.4.tar.gz tmp/omnata_cli-0.1.5.tar.gz --markdown 20230616/o/omnata-cli/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-16 05:21:42] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: executing diffoscope
+[2023-06-16 05:21:42] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-github-8.0.5.tar.gz tmp/cdktf-cdktf-provider-github-9.0.0.tar.gz --markdown 20230616/c/cdktf-cdktf-provider-github/8.0.5-9.0.0/diff.md --exclude *.pyd
+[2023-06-16 05:21:43] INFO root fetch - processPackages [solldex-api-client]: Remove: archive file [/home/abi/fetcher/tmp/solldex-api-client-0.1.2.tar.gz]
+[2023-06-16 05:21:43] INFO root fetch - processPackages [solldex-api-client]: Remove: archive file [/home/abi/fetcher/tmp/solldex-api-client-0.1.3.tar.gz]
+[2023-06-16 05:21:43] INFO root fetch - main [MainThread]: End processing [solldex-api-client]: success
+[2023-06-16 05:21:43] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-16 05:21:43] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-16 05:21:43] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-16 05:21:43] INFO root fetch - processPackages [code2gist]: Remove: archive file [/home/abi/fetcher/tmp/code2gist-1.1.3.tar.gz]
+[2023-06-16 05:21:43] INFO root fetch - processPackages [code2gist]: Remove: archive file [/home/abi/fetcher/tmp/code2gist-1.1.4.tar.gz]
+[2023-06-16 05:21:43] INFO root fetch - main [MainThread]: End processing [code2gist]: success
+[2023-06-16 05:21:43] INFO root fetch - processPackages [kikyo]: Remove: archive file [/home/abi/fetcher/tmp/kikyo-0.9.1.tar.gz]
+[2023-06-16 05:21:43] INFO root fetch - processPackages [kikyo]: Remove: archive file [/home/abi/fetcher/tmp/kikyo-0.9.2.tar.gz]
+[2023-06-16 05:21:43] INFO root fetch - main [MainThread]: End processing [kikyo]: success
+[2023-06-16 05:21:44] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-github-8.0.5.tar.gz]
+[2023-06-16 05:21:44] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-github-9.0.0.tar.gz]
+[2023-06-16 05:21:44] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-github]: success
+[2023-06-16 05:22:36] INFO root fetch - processPackages [omnata-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnata_cli-0.1.4.tar.gz]
+[2023-06-16 05:22:36] INFO root fetch - processPackages [omnata-cli]: Remove: archive file [/home/abi/fetcher/tmp/omnata_cli-0.1.5.tar.gz]
+[2023-06-16 05:22:36] INFO root fetch - main [MainThread]: End processing [omnata-cli]: success
+[2023-06-16 05:22:36] INFO root fetch - main [MainThread]: Store serial: [18526685]
