@@ -19140,3 +19140,235 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 11:27:04] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post842-py3-none-any.whl.zip]
 [2023-06-16 11:27:04] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-06-16 11:27:04] INFO root fetch - main [MainThread]: Store serial: [18530022]
+[2023-06-16 11:32:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530022]
+[2023-06-16 11:32:13] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-16 11:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: renku
+[2023-06-16 11:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: isystem.connect
+[2023-06-16 11:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: renku-lock
+[2023-06-16 11:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hestia-earth-models
+[2023-06-16 11:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: validio-cli
+[2023-06-16 11:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: validio-sdk
+[2023-06-16 11:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: awsibox
+[2023-06-16 11:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-ns1
+[2023-06-16 11:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FreeplanIr
+[2023-06-16 11:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: continual-inference
+[2023-06-16 11:32:13] INFO root fetch - processPackages [awsibox]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-16 11:32:13] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/81/16/7639d519964eb8b8d3f9fe037f677f89d079848d38077a0ac86e43276220/awsibox-0.8.4.tar.gz
+[2023-06-16 11:32:13] INFO root fetch - processPackages [validio-cli]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-16 11:32:13] INFO root fetch - processPackages [validio-sdk]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-16 11:32:13] INFO root fetch - processPackages [FreeplanIr]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-16 11:32:13] INFO root fetch - processPackages [renku-lock]: New version: [2.5.0rc3] Old Version: [2.5.0rc2]
+[2023-06-16 11:32:13] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.1.0a1686906576] Old Version: [3.1.0a1683956569]
+[2023-06-16 11:32:13] INFO root fetch - processPackages [continual-inference]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-16 11:32:13] INFO root fetch - processPackages [hestia-earth-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-16 11:32:13] INFO root fetch - processPackages [renku]: New version: [2.5.0rc3] Old Version: [2.5.0rc2]
+[2023-06-16 11:32:13] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2023-06-16 11:32:14] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/a2/61/d19a2d7e01e8a5e0035eea49d6f5bdd2e224d17d89fe9ef0012f7ff05723/hestia-earth-models-0.9.0.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/19/7e/cf6b6deeb56c3502c5f88060dd74865869e29e1191ee11eb71b3f18ba673/pulumi_ns1-3.1.0a1683956569.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/2a/f3/58605a2a57fd686fd3f9ce529ccdea139548539c4fede80e618cf8f45d81/validio_cli-0.4.0.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [FreeplanIr]: Downloading https://files.pythonhosted.org/packages/95/f2/a76d0db05a1edc06b181b5c56e0a934871c851d41190ded3a43d626c84af/FreeplanIr-1.0.4.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [continual-inference]: Downloading https://files.pythonhosted.org/packages/48/7e/1f38ae17bba1b196691b06ff7f87592af44b9b50ecbe4964cb2866f3eaa2/continual-inference-1.2.2.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/af/ec/f8f5c8ac9561e32fae0fa99d3f8513ecea1a06589a710e3c7b283e697493/renku_lock-2.5.0rc2-py3-none-any.whl
+[2023-06-16 11:32:14] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/a8/47/0c51f4811d13fb6ef6fd9033f5cd1ff56536253bdf06c8c3d3f53daf78fd/validio_sdk-0.4.0.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/9e/d1/65d9edc2322ac6514144432de77041e7872e27339d9a3ae927985cdbd4f5/awsibox-0.8.5.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2023-06-16 11:32:14] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/a4/e3/2245a9dfb4b8eb72704d22ef6590ad2b523125c66d1f6276ad71756774db/renku-2.5.0rc2.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [awsibox]: executing diffoscope
+[2023-06-16 11:32:14] INFO root fetch - processPackages [awsibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsibox-0.8.4.tar.gz tmp/awsibox-0.8.5.tar.gz --markdown 20230616/a/awsibox/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-16 11:32:14] INFO root fetch - processPackages [continual-inference]: Downloading https://files.pythonhosted.org/packages/f1/62/1075ec917fcc27b5606c544e27424f9d66384076543279906f2987bbe71e/continual-inference-1.2.3.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [FreeplanIr]: Downloading https://files.pythonhosted.org/packages/e4/0d/10cfaaf02e9a7ce1730cdbcbfededd50f13bfcd70772e2f0549548abb71a/FreeplanIr-1.0.5.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/06/3c/c49cb4c4f0a90687150493a0588b7367e966e420e70854724e06a6524f4b/validio_cli-0.5.0.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/b4/f9/6792c2432e2bd1d5eefa2f5ba9d25fad0fd573278e23b9040cced9ae4a73/validio_sdk-0.5.0.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/95/8a/a6c7397d0826448e22503a82f38d9bafdec3ffac1b29c2f2d199b2df7e5e/pulumi_ns1-3.1.0a1686906576.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [FreeplanIr]: executing diffoscope
+[2023-06-16 11:32:14] INFO root fetch - processPackages [FreeplanIr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeplanIr-1.0.4.tar.gz tmp/FreeplanIr-1.0.5.tar.gz --markdown 20230616/F/FreeplanIr/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-16 11:32:14] INFO root fetch - processPackages [validio-sdk]: executing diffoscope
+[2023-06-16 11:32:14] INFO root fetch - processPackages [validio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_sdk-0.4.0.tar.gz tmp/validio_sdk-0.5.0.tar.gz --markdown 20230616/v/validio-sdk/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-16 11:32:14] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/4c/69/ed2ce57bce2b4d04ebef6414ed880e5b309ddd6b211902d5d1a95247d0f3/renku_lock-2.5.0rc3-py3-none-any.whl
+[2023-06-16 11:32:14] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2023-06-16 11:32:14] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.1.0a1683956569.tar.gz tmp/pulumi_ns1-3.1.0a1686906576.tar.gz --markdown 20230616/p/pulumi-ns1/3.1.0a1683956569-3.1.0a1686906576/diff.md --exclude *.pyd
+[2023-06-16 11:32:14] INFO root fetch - processPackages [continual-inference]: executing diffoscope
+[2023-06-16 11:32:14] INFO root fetch - processPackages [continual-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/continual-inference-1.2.2.tar.gz tmp/continual-inference-1.2.3.tar.gz --markdown 20230616/c/continual-inference/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-16 11:32:14] INFO root fetch - processPackages [validio-cli]: executing diffoscope
+[2023-06-16 11:32:14] INFO root fetch - processPackages [validio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_cli-0.4.0.tar.gz tmp/validio_cli-0.5.0.tar.gz --markdown 20230616/v/validio-cli/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-16 11:32:14] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/59/94/5b9b4317f8ae747ccffceb5debddd5d4f68a8aac6d6d53afb2ade6dbdfdb/hestia-earth-models-0.9.1.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [renku-lock]: executing diffoscope
+[2023-06-16 11:32:14] INFO root fetch - processPackages [renku-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku_lock-2.5.0rc2-py3-none-any.whl.zip tmp/renku_lock-2.5.0rc3-py3-none-any.whl.zip --markdown 20230616/r/renku-lock/2.5.0rc2-2.5.0rc3/diff.md --exclude *.pyd
+[2023-06-16 11:32:14] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/7b/af/b12333643e5fece20fdc690f0085fa3294eff02bec0008377e42c4ae9ea3/renku-2.5.0rc3.tar.gz
+[2023-06-16 11:32:14] INFO root fetch - processPackages [hestia-earth-models]: executing diffoscope
+[2023-06-16 11:32:14] INFO root fetch - processPackages [hestia-earth-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-models-0.9.0.tar.gz tmp/hestia-earth-models-0.9.1.tar.gz --markdown 20230616/h/hestia-earth-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-16 11:32:14] INFO root fetch - processPackages [renku]: executing diffoscope
+[2023-06-16 11:32:14] INFO root fetch - processPackages [renku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku-2.5.0rc2.tar.gz tmp/renku-2.5.0rc3.tar.gz --markdown 20230616/r/renku/2.5.0rc2-2.5.0rc3/diff.md --exclude *.pyd
+[2023-06-16 11:32:15] INFO root fetch - processPackages [FreeplanIr]: Remove: archive file [/home/abi/fetcher/tmp/FreeplanIr-1.0.4.tar.gz]
+[2023-06-16 11:32:15] INFO root fetch - processPackages [FreeplanIr]: Remove: archive file [/home/abi/fetcher/tmp/FreeplanIr-1.0.5.tar.gz]
+[2023-06-16 11:32:15] INFO root fetch - processPackages [FreeplanIr]: Start processing: ango
+[2023-06-16 11:32:15] INFO root fetch - main [MainThread]: End processing [FreeplanIr]: success
+[2023-06-16 11:32:15] INFO root fetch - processPackages [ango]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-16 11:32:15] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/e7/41/008b95f921f42319ba2fc0675970863304f844c516bc4041770ba9b6764a/ango-1.1.3.tar.gz
+[2023-06-16 11:32:16] INFO root fetch - processPackages [ango]: Downloading https://files.pythonhosted.org/packages/d0/dd/768f4365f03a21ad52ad5fef393cc7955fdaee1988a945480c976b62544d/ango-1.1.4.tar.gz
+[2023-06-16 11:32:16] INFO root fetch - processPackages [ango]: executing diffoscope
+[2023-06-16 11:32:16] INFO root fetch - processPackages [ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ango-1.1.3.tar.gz tmp/ango-1.1.4.tar.gz --markdown 20230616/a/ango/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-16 11:32:16] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1683956569.tar.gz]
+[2023-06-16 11:32:16] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1686906576.tar.gz]
+[2023-06-16 11:32:16] INFO root fetch - processPackages [pulumi-ns1]: Start processing: pycallibri-ecg
+[2023-06-16 11:32:16] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2023-06-16 11:32:16] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2023-06-16 11:32:16] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.4.0.tar.gz]
+[2023-06-16 11:32:16] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.5.0.tar.gz]
+[2023-06-16 11:32:16] INFO root fetch - processPackages [validio-cli]: Start processing: python-pdfbox-v2
+[2023-06-16 11:32:16] INFO root fetch - main [MainThread]: End processing [validio-cli]: success
+[2023-06-16 11:32:16] INFO root fetch - processPackages [renku-lock]: Remove: archive file [/home/abi/fetcher/tmp/renku_lock-2.5.0rc2-py3-none-any.whl.zip]
+[2023-06-16 11:32:16] INFO root fetch - processPackages [renku-lock]: Remove: archive file [/home/abi/fetcher/tmp/renku_lock-2.5.0rc3-py3-none-any.whl.zip]
+[2023-06-16 11:32:16] INFO root fetch - processPackages [renku-lock]: Start processing: imerit-ango
+[2023-06-16 11:32:16] INFO root fetch - main [MainThread]: End processing [renku-lock]: success
+[2023-06-16 11:32:16] INFO root fetch - processPackages [imerit-ango]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-16 11:32:16] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/61/48/73ac41ec19f4564eccded7c2152d1f7757aa579f6d434a6cce68357c3569/imerit-ango-1.1.5.tar.gz
+[2023-06-16 11:32:16] INFO root fetch - processPackages [python-pdfbox-v2]: New version: [2.0.28.4] Old Version: [2.0.28.3]
+[2023-06-16 11:32:16] INFO root fetch - processPackages [continual-inference]: Remove: archive file [/home/abi/fetcher/tmp/continual-inference-1.2.2.tar.gz]
+[2023-06-16 11:32:16] INFO root fetch - processPackages [continual-inference]: Remove: archive file [/home/abi/fetcher/tmp/continual-inference-1.2.3.tar.gz]
+[2023-06-16 11:32:16] INFO root fetch - processPackages [continual-inference]: Start processing: yunpancli
+[2023-06-16 11:32:16] INFO root fetch - main [MainThread]: End processing [continual-inference]: success
+[2023-06-16 11:32:16] INFO root fetch - processPackages [yunpancli]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-16 11:32:16] INFO root fetch - processPackages [yunpancli]: Downloading https://files.pythonhosted.org/packages/01/17/4ea9c1db743b7059938dcd9e73df51d06a93123d58e500979d015eb9c04d/yunpancli-0.0.6.tar.gz
+[2023-06-16 11:32:16] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/87/3d/02abff05e7bc1626d00c9b7430c4933606655115d4ad9f279cdefc663be3/imerit-ango-1.1.6.tar.gz
+[2023-06-16 11:32:16] WARNING root fetch - processPackages [pycallibri-ecg]: Skipping, unable to determine old version
+[2023-06-16 11:32:16] INFO root fetch - processPackages [pycallibri-ecg]: Start processing: stauth
+[2023-06-16 11:32:16] INFO root fetch - main [MainThread]: End processing [pycallibri-ecg] error
+[2023-06-16 11:32:16] INFO root fetch - processPackages [stauth]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 11:32:16] INFO root fetch - processPackages [python-pdfbox-v2]: Downloading https://files.pythonhosted.org/packages/1f/40/7ce22a00fc8de988b34643605ad7db32f5f754c00e3f161757ff40aea608/python-pdfbox-v2-2.0.28.3.tar.gz
+[2023-06-16 11:32:16] INFO root fetch - processPackages [stauth]: Downloading https://files.pythonhosted.org/packages/e6/01/b771d2629c628c34b96a54ee36c85245c7b06e592c1b7ce0f0e3c0a506ec/stauth-0.1.8.tar.gz
+[2023-06-16 11:32:16] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2023-06-16 11:32:16] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit-ango-1.1.5.tar.gz tmp/imerit-ango-1.1.6.tar.gz --markdown 20230616/i/imerit-ango/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-16 11:32:16] INFO root fetch - processPackages [yunpancli]: Downloading https://files.pythonhosted.org/packages/65/61/6cba7ec251ff748f3ebd2647caeed8089a1f8d83995ca14a1815f6d3f093/yunpancli-0.0.7.tar.gz
+[2023-06-16 11:32:16] INFO root fetch - processPackages [stauth]: Downloading https://files.pythonhosted.org/packages/74/8e/43995a5ac867d5a8a8db30867a6410fa5f8c681161710c23124f88fb10c4/stauth-0.1.9.tar.gz
+[2023-06-16 11:32:16] INFO root fetch - processPackages [yunpancli]: executing diffoscope
+[2023-06-16 11:32:16] INFO root fetch - processPackages [yunpancli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunpancli-0.0.6.tar.gz tmp/yunpancli-0.0.7.tar.gz --markdown 20230616/y/yunpancli/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-16 11:32:16] INFO root fetch - processPackages [stauth]: executing diffoscope
+[2023-06-16 11:32:16] INFO root fetch - processPackages [stauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stauth-0.1.8.tar.gz tmp/stauth-0.1.9.tar.gz --markdown 20230616/s/stauth/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 11:32:16] INFO root fetch - processPackages [python-pdfbox-v2]: Downloading https://files.pythonhosted.org/packages/0f/ea/988733129a5110a9acf402663dcf407121de5f27c27c6f73b476ed876a58/python-pdfbox-v2-2.0.28.4.tar.gz
+[2023-06-16 11:32:17] INFO root fetch - processPackages [python-pdfbox-v2]: executing diffoscope
+[2023-06-16 11:32:17] INFO root fetch - processPackages [python-pdfbox-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-pdfbox-v2-2.0.28.3.tar.gz tmp/python-pdfbox-v2-2.0.28.4.tar.gz --markdown 20230616/p/python-pdfbox-v2/2.0.28.3-2.0.28.4/diff.md --exclude *.pyd
+[2023-06-16 11:32:17] INFO root fetch - processPackages [ango]: Remove: archive file [/home/abi/fetcher/tmp/ango-1.1.3.tar.gz]
+[2023-06-16 11:32:17] INFO root fetch - processPackages [ango]: Remove: archive file [/home/abi/fetcher/tmp/ango-1.1.4.tar.gz]
+[2023-06-16 11:32:17] INFO root fetch - processPackages [ango]: Start processing: gpt-code-ui
+[2023-06-16 11:32:17] INFO root fetch - main [MainThread]: End processing [ango]: success
+[2023-06-16 11:32:17] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-06-16 11:32:17] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2023-06-16 11:32:17] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20230616/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2023-06-16 11:32:17] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.8.4.tar.gz]
+[2023-06-16 11:32:17] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.8.5.tar.gz]
+[2023-06-16 11:32:17] INFO root fetch - processPackages [awsibox]: Start processing: selis
+[2023-06-16 11:32:17] INFO root fetch - main [MainThread]: End processing [awsibox]: success
+[2023-06-16 11:32:17] INFO root fetch - processPackages [selis]: New version: [2.5] Old Version: [2.4]
+[2023-06-16 11:32:17] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/55/8c/6c53374030b12d35c4c955dd646e6d218de2c6c4b32eccc7458dc4d2772e/selis-2.4.tar.gz
+[2023-06-16 11:32:18] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/1b/16/56dff599afaa6d8111b19339f9a0981a6bd2b74597ef50db0b02d7d6624b/gpt_code_ui-0.42.8.tar.gz
+[2023-06-16 11:32:18] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit-ango-1.1.5.tar.gz]
+[2023-06-16 11:32:18] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit-ango-1.1.6.tar.gz]
+[2023-06-16 11:32:18] INFO root fetch - processPackages [imerit-ango]: Start processing: awsibox
+[2023-06-16 11:32:18] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2023-06-16 11:32:18] INFO root fetch - processPackages [awsibox]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-16 11:32:18] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/22/1c/d2f03ac13e398ac31af460fd0a881b77afd23c14269af4bc236772bf4c8a/awsibox-0.8.6.tar.gz
+[2023-06-16 11:32:18] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/97/07/958c4e2a49f3225be6de458f4017728a17abc7b51a31183b7d657ea286f8/selis-2.5.tar.gz
+[2023-06-16 11:32:18] INFO root fetch - processPackages [yunpancli]: Remove: archive file [/home/abi/fetcher/tmp/yunpancli-0.0.6.tar.gz]
+[2023-06-16 11:32:18] INFO root fetch - processPackages [yunpancli]: Remove: archive file [/home/abi/fetcher/tmp/yunpancli-0.0.7.tar.gz]
+[2023-06-16 11:32:18] INFO root fetch - processPackages [yunpancli]: Start processing: intersight
+[2023-06-16 11:32:18] INFO root fetch - main [MainThread]: End processing [yunpancli]: success
+[2023-06-16 11:32:18] INFO root fetch - processPackages [stauth]: Remove: archive file [/home/abi/fetcher/tmp/stauth-0.1.8.tar.gz]
+[2023-06-16 11:32:18] INFO root fetch - processPackages [stauth]: Remove: archive file [/home/abi/fetcher/tmp/stauth-0.1.9.tar.gz]
+[2023-06-16 11:32:18] INFO root fetch - processPackages [stauth]: Start processing: k8s-deployment-status
+[2023-06-16 11:32:18] INFO root fetch - main [MainThread]: End processing [stauth]: success
+[2023-06-16 11:32:18] INFO root fetch - processPackages [k8s-deployment-status]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-16 11:32:18] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-16 11:32:18] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-2.4.tar.gz tmp/selis-2.5.tar.gz --markdown 20230616/s/selis/2.4-2.5/diff.md --exclude *.pyd
+[2023-06-16 11:32:18] INFO root fetch - processPackages [intersight]: New version: [1.0.9.6484] Old Version: [1.0.9.6207]
+[2023-06-16 11:32:18] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/15/cb/776d616d575589143b3d91acbd1d7e649055f85a8e1cd2c321c0514c1cfa/gpt_code_ui-0.42.9.tar.gz
+[2023-06-16 11:32:18] INFO root fetch - processPackages [k8s-deployment-status]: Downloading https://files.pythonhosted.org/packages/fc/c5/c91588f1d824a7f6708077b4f3611ed88f39220a8fe8f99937ecef49d253/k8s_deployment_status-0.0.4.tar.gz
+[2023-06-16 11:32:18] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-06-16 11:32:18] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230616/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-06-16 11:32:18] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/ff/6e/e1476c2d601dccb2c7b6e1e053f941e02e224c17489a47975c45b09ed164/awsibox-0.8.7.tar.gz
+[2023-06-16 11:32:18] INFO root fetch - processPackages [intersight]: Downloading https://files.pythonhosted.org/packages/ff/40/daaa754993e7cb8462afdc89a9772328cc5717951e766da83fa93944e043/intersight-1.0.9.6207.tar.gz
+[2023-06-16 11:32:18] INFO root fetch - processPackages [k8s-deployment-status]: Downloading https://files.pythonhosted.org/packages/70/28/530726fb4af2b3a3922449e70da39fe4fd0f48101ad83f4c3058d0963922/k8s_deployment_status-0.0.5.tar.gz
+[2023-06-16 11:32:18] INFO root fetch - processPackages [k8s-deployment-status]: executing diffoscope
+[2023-06-16 11:32:18] INFO root fetch - processPackages [k8s-deployment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8s_deployment_status-0.0.4.tar.gz tmp/k8s_deployment_status-0.0.5.tar.gz --markdown 20230616/k/k8s-deployment-status/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-16 11:32:18] INFO root fetch - processPackages [awsibox]: executing diffoscope
+[2023-06-16 11:32:18] INFO root fetch - processPackages [awsibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsibox-0.8.6.tar.gz tmp/awsibox-0.8.7.tar.gz --markdown 20230616/a/awsibox/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-16 11:32:19] WARNING root fetch - processPackages [intersight]: Skipping package: exceeds size limit 16195201>=10485760
+[2023-06-16 11:32:19] INFO root fetch - processPackages [intersight]: Start processing: h5torch
+[2023-06-16 11:32:19] INFO root fetch - main [MainThread]: End processing [intersight] error
+[2023-06-16 11:32:19] INFO root fetch - processPackages [python-pdfbox-v2]: Remove: archive file [/home/abi/fetcher/tmp/python-pdfbox-v2-2.0.28.3.tar.gz]
+[2023-06-16 11:32:19] INFO root fetch - processPackages [python-pdfbox-v2]: Remove: archive file [/home/abi/fetcher/tmp/python-pdfbox-v2-2.0.28.4.tar.gz]
+[2023-06-16 11:32:19] INFO root fetch - processPackages [python-pdfbox-v2]: Start processing: netbox-cisco-maintenance
+[2023-06-16 11:32:19] INFO root fetch - main [MainThread]: End processing [python-pdfbox-v2]: success
+[2023-06-16 11:32:19] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 11:32:19] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-16 11:32:19] INFO root fetch - processPackages [h5torch]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-16 11:32:19] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/36/61/db227025ce63809f803a3fe44062bf026321f24f9aa12a99bf348ae574ca/netbox-cisco-maintenance-0.0.99.tar.gz
+[2023-06-16 11:32:19] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.0.tar.gz]
+[2023-06-16 11:32:19] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
+[2023-06-16 11:32:19] INFO root fetch - processPackages [hestia-earth-models]: Start processing: bagbag
+[2023-06-16 11:32:19] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
+[2023-06-16 11:32:19] INFO root fetch - processPackages [h5torch]: Downloading https://files.pythonhosted.org/packages/14/cc/3d727026befda6a55b2a9907eb40ea1927fcbf6767bae95caa288f773012/h5torch-0.2.1.tar.gz
+[2023-06-16 11:32:19] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-06-16 11:32:19] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-06-16 11:32:19] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 11:32:19] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 11:32:19] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-2.4.tar.gz]
+[2023-06-16 11:32:19] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-2.5.tar.gz]
+[2023-06-16 11:32:19] INFO root fetch - processPackages [selis]: Start processing: netbox-cisco-maintenance
+[2023-06-16 11:32:19] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-16 11:32:19] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-16 11:32:19] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-06-16 11:32:19] INFO root fetch - processPackages [h5torch]: Downloading https://files.pythonhosted.org/packages/73/f9/198226d0ab60a03064143ea516dcd6327c931641e939c79e136ee2eae9ae/h5torch-0.2.2.tar.gz
+[2023-06-16 11:32:19] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-16 11:32:19] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.98.tar.gz tmp/netbox-cisco-maintenance-0.0.99.tar.gz --markdown 20230616/n/netbox-cisco-maintenance/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-16 11:32:19] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-16 11:32:19] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230616/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-06-16 11:32:20] INFO root fetch - processPackages [h5torch]: executing diffoscope
+[2023-06-16 11:32:20] INFO root fetch - processPackages [h5torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5torch-0.2.1.tar.gz tmp/h5torch-0.2.2.tar.gz --markdown 20230616/h/h5torch/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-16 11:32:20] INFO root fetch - processPackages [gpt-code-ui]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_ui-0.42.8.tar.gz]
+[2023-06-16 11:32:20] INFO root fetch - processPackages [gpt-code-ui]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_ui-0.42.9.tar.gz]
+[2023-06-16 11:32:20] INFO root fetch - processPackages [gpt-code-ui]: Start processing: pedestal-inference
+[2023-06-16 11:32:20] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-06-16 11:32:20] INFO root fetch - processPackages [k8s-deployment-status]: Remove: archive file [/home/abi/fetcher/tmp/k8s_deployment_status-0.0.4.tar.gz]
+[2023-06-16 11:32:20] INFO root fetch - processPackages [k8s-deployment-status]: Remove: archive file [/home/abi/fetcher/tmp/k8s_deployment_status-0.0.5.tar.gz]
+[2023-06-16 11:32:20] INFO root fetch - processPackages [k8s-deployment-status]: Start processing: searchkit
+[2023-06-16 11:32:20] INFO root fetch - main [MainThread]: End processing [k8s-deployment-status]: success
+[2023-06-16 11:32:20] INFO root fetch - processPackages [pedestal-inference]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-16 11:32:20] INFO root fetch - processPackages [searchkit]: New version: [0.2.7.post2] Old Version: [0.2.7.post1]
+[2023-06-16 11:32:20] INFO root fetch - processPackages [pedestal-inference]: Downloading https://files.pythonhosted.org/packages/e5/a3/a1d7b869519d16cad7d16eb737aed38a254bdb0e37b3035b3466148c6481/pedestal-inference-0.1.0.tar.gz
+[2023-06-16 11:32:20] INFO root fetch - processPackages [pedestal-inference]: Downloading https://files.pythonhosted.org/packages/ba/4d/c70234c78d5a41ca5d4f129046cce85251bef0c60b992e8a21dd5b170f3a/pedestal-inference-0.2.0.tar.gz
+[2023-06-16 11:32:20] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.4.0.tar.gz]
+[2023-06-16 11:32:20] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.5.0.tar.gz]
+[2023-06-16 11:32:20] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
+[2023-06-16 11:32:20] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/69/85/7b179964aeab643e358417bf72816687dd871481934732e984d76cf8cea1/searchkit-0.2.7.post1.tar.gz
+[2023-06-16 11:32:20] INFO root fetch - processPackages [pedestal-inference]: executing diffoscope
+[2023-06-16 11:32:20] INFO root fetch - processPackages [pedestal-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pedestal-inference-0.1.0.tar.gz tmp/pedestal-inference-0.2.0.tar.gz --markdown 20230616/p/pedestal-inference/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-16 11:32:21] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-16 11:32:21] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.99.tar.gz]
+[2023-06-16 11:32:21] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 11:32:21] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/8f/3d/5669d7bd5add2b3c9549a6107fbaf95f6dd63522869da2491035a7b012d5/searchkit-0.2.7.post2.tar.gz
+[2023-06-16 11:32:21] INFO root fetch - processPackages [searchkit]: executing diffoscope
+[2023-06-16 11:32:21] INFO root fetch - processPackages [searchkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchkit-0.2.7.post1.tar.gz tmp/searchkit-0.2.7.post2.tar.gz --markdown 20230616/s/searchkit/0.2.7.post1-0.2.7.post2/diff.md --exclude *.pyd
+[2023-06-16 11:32:21] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2023-06-16 11:32:21] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2023-06-16 11:32:21] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2023-06-16 11:32:21] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-16 11:32:22] INFO root fetch - processPackages [pedestal-inference]: Remove: archive file [/home/abi/fetcher/tmp/pedestal-inference-0.1.0.tar.gz]
+[2023-06-16 11:32:22] INFO root fetch - processPackages [pedestal-inference]: Remove: archive file [/home/abi/fetcher/tmp/pedestal-inference-0.2.0.tar.gz]
+[2023-06-16 11:32:22] INFO root fetch - main [MainThread]: End processing [pedestal-inference]: success
+[2023-06-16 11:32:22] INFO root fetch - processPackages [searchkit]: Remove: archive file [/home/abi/fetcher/tmp/searchkit-0.2.7.post1.tar.gz]
+[2023-06-16 11:32:22] INFO root fetch - processPackages [searchkit]: Remove: archive file [/home/abi/fetcher/tmp/searchkit-0.2.7.post2.tar.gz]
+[2023-06-16 11:32:22] INFO root fetch - main [MainThread]: End processing [searchkit]: success
+[2023-06-16 11:32:22] INFO root fetch - processPackages [h5torch]: Remove: archive file [/home/abi/fetcher/tmp/h5torch-0.2.1.tar.gz]
+[2023-06-16 11:32:22] INFO root fetch - processPackages [h5torch]: Remove: archive file [/home/abi/fetcher/tmp/h5torch-0.2.2.tar.gz]
+[2023-06-16 11:32:22] INFO root fetch - main [MainThread]: End processing [h5torch]: success
+[2023-06-16 11:32:24] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.8.6.tar.gz]
+[2023-06-16 11:32:24] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.8.7.tar.gz]
+[2023-06-16 11:32:24] INFO root fetch - main [MainThread]: End processing [awsibox]: success
+[2023-06-16 11:32:25] INFO root fetch - processPackages [renku]: Remove: archive file [/home/abi/fetcher/tmp/renku-2.5.0rc2.tar.gz]
+[2023-06-16 11:32:25] INFO root fetch - processPackages [renku]: Remove: archive file [/home/abi/fetcher/tmp/renku-2.5.0rc3.tar.gz]
+[2023-06-16 11:32:25] INFO root fetch - main [MainThread]: End processing [renku]: success
+[2023-06-16 11:32:25] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-06-16 11:32:25] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-06-16 11:32:25] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-16 11:32:25] INFO root fetch - main [MainThread]: Store serial: [18530110]
