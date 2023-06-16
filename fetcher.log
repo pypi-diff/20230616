@@ -10334,3 +10334,51 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 04:44:45] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0a3.tar.gz]
 [2023-06-16 04:44:45] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
 [2023-06-16 04:44:45] INFO root fetch - main [MainThread]: Store serial: [18526464]
+[2023-06-16 04:49:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526464]
+[2023-06-16 04:49:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-16 04:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wom-py
+[2023-06-16 04:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Nuitka-winsvc
+[2023-06-16 04:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magicfunc
+[2023-06-16 04:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: changepoint
+[2023-06-16 04:49:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: centaur-client
+[2023-06-16 04:49:55] INFO root fetch - processPackages [wom-py]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-16 04:49:55] INFO root fetch - processPackages [centaur-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 04:49:55] INFO root fetch - processPackages [magicfunc]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-16 04:49:55] INFO root fetch - processPackages [Nuitka-winsvc]: New version: [1.6.3] Old Version: [1.6]
+[2023-06-16 04:49:55] INFO root fetch - processPackages [changepoint]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-16 04:49:55] INFO root fetch - processPackages [centaur-client]: Downloading https://files.pythonhosted.org/packages/ad/cf/33d6ff6adb0b136e33f1a555a84dfa4f310b2d5b1effbda38f296f6595a2/centaur_client-0.0.8-py3-none-any.whl
+[2023-06-16 04:49:56] INFO root fetch - processPackages [wom-py]: Downloading https://files.pythonhosted.org/packages/4f/92/1b204d6821304b3860a310920394358930d10ab9f54723b779b0d0044cc5/wom_py-0.4.1.tar.gz
+[2023-06-16 04:49:56] INFO root fetch - processPackages [magicfunc]: Downloading https://files.pythonhosted.org/packages/f6/e3/0f871a872b4b91fb55c1b4937e61114b9e33a42ef469a30f199cbf968c69/magicfunc-1.0.0.tar.gz
+[2023-06-16 04:49:56] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/17/56/6086e07f9ad6fb25dab888b341d71a636c6c8b26ad028d8f134b23c0067c/Nuitka-winsvc-1.6.tar.gz
+[2023-06-16 04:49:56] INFO root fetch - processPackages [changepoint]: Downloading https://files.pythonhosted.org/packages/f1/29/c6c72bfa95cc227a0cd5375adc863a59bb6ad6a808a0fc15d84bb195e04b/changepoint-0.2.0-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl
+[2023-06-16 04:49:56] INFO root fetch - processPackages [centaur-client]: Downloading https://files.pythonhosted.org/packages/b0/4c/80b5644d67d4af2ba625f26c73c40b72ae2ec5c4d8150165e7401294d0c2/centaur_client-0.0.9-py3-none-any.whl
+[2023-06-16 04:49:56] INFO root fetch - processPackages [wom-py]: Downloading https://files.pythonhosted.org/packages/54/83/5c13358c2cd48120c489c37e53073776d56f5d70203275d8799e2b359773/wom_py-0.4.2.tar.gz
+[2023-06-16 04:49:56] INFO root fetch - processPackages [magicfunc]: Downloading https://files.pythonhosted.org/packages/b6/34/2bab803ad4c350817178ba93fc93c849293861e9201b8fad11f2c12c3664/magicfunc-1.0.1.tar.gz
+[2023-06-16 04:49:56] INFO root fetch - processPackages [centaur-client]: executing diffoscope
+[2023-06-16 04:49:56] INFO root fetch - processPackages [centaur-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centaur_client-0.0.8-py3-none-any.whl.zip tmp/centaur_client-0.0.9-py3-none-any.whl.zip --markdown 20230616/c/centaur-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 04:49:56] INFO root fetch - processPackages [wom-py]: executing diffoscope
+[2023-06-16 04:49:56] INFO root fetch - processPackages [wom-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wom_py-0.4.1.tar.gz tmp/wom_py-0.4.2.tar.gz --markdown 20230616/w/wom-py/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-16 04:49:56] INFO root fetch - processPackages [magicfunc]: executing diffoscope
+[2023-06-16 04:49:56] INFO root fetch - processPackages [magicfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicfunc-1.0.0.tar.gz tmp/magicfunc-1.0.1.tar.gz --markdown 20230616/m/magicfunc/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-16 04:49:56] INFO root fetch - processPackages [changepoint]: Downloading https://files.pythonhosted.org/packages/65/b1/4e2e2f9de928f85d1a4fab78e276c08c49b4828e45f271a3bf4afe48c619/changepoint-0.3.0-cp38-none-win_amd64.whl
+[2023-06-16 04:49:56] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/98/44/115a906ca8174dacb9dfc9d7796664d2229042ebef561639aaf7ecc335fd/Nuitka-winsvc-1.6.3.tar.gz
+[2023-06-16 04:49:56] INFO root fetch - processPackages [Nuitka-winsvc]: executing diffoscope
+[2023-06-16 04:49:56] INFO root fetch - processPackages [Nuitka-winsvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-winsvc-1.6.tar.gz tmp/Nuitka-winsvc-1.6.3.tar.gz --markdown 20230616/N/Nuitka-winsvc/1.6-1.6.3/diff.md --exclude *.pyd
+[2023-06-16 04:49:56] INFO root fetch - processPackages [changepoint]: executing diffoscope
+[2023-06-16 04:49:56] INFO root fetch - processPackages [changepoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changepoint-0.2.0-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip tmp/changepoint-0.3.0-cp38-none-win_amd64.whl.zip --markdown 20230616/c/changepoint/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-16 04:49:57] INFO root fetch - processPackages [magicfunc]: Remove: archive file [/home/abi/fetcher/tmp/magicfunc-1.0.0.tar.gz]
+[2023-06-16 04:49:57] INFO root fetch - processPackages [magicfunc]: Remove: archive file [/home/abi/fetcher/tmp/magicfunc-1.0.1.tar.gz]
+[2023-06-16 04:49:57] INFO root fetch - main [MainThread]: End processing [magicfunc]: success
+[2023-06-16 04:49:57] INFO root fetch - processPackages [centaur-client]: Remove: archive file [/home/abi/fetcher/tmp/centaur_client-0.0.8-py3-none-any.whl.zip]
+[2023-06-16 04:49:57] INFO root fetch - processPackages [centaur-client]: Remove: archive file [/home/abi/fetcher/tmp/centaur_client-0.0.9-py3-none-any.whl.zip]
+[2023-06-16 04:49:57] INFO root fetch - main [MainThread]: End processing [centaur-client]: success
+[2023-06-16 04:49:57] INFO root fetch - processPackages [wom-py]: Remove: archive file [/home/abi/fetcher/tmp/wom_py-0.4.1.tar.gz]
+[2023-06-16 04:49:57] INFO root fetch - processPackages [wom-py]: Remove: archive file [/home/abi/fetcher/tmp/wom_py-0.4.2.tar.gz]
+[2023-06-16 04:49:57] INFO root fetch - main [MainThread]: End processing [wom-py]: success
+[2023-06-16 04:49:58] INFO root fetch - processPackages [changepoint]: Remove: archive file [/home/abi/fetcher/tmp/changepoint-0.2.0-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip]
+[2023-06-16 04:49:58] INFO root fetch - processPackages [changepoint]: Remove: archive file [/home/abi/fetcher/tmp/changepoint-0.3.0-cp38-none-win_amd64.whl.zip]
+[2023-06-16 04:49:58] INFO root fetch - main [MainThread]: End processing [changepoint]: success
+[2023-06-16 04:50:25] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.6.tar.gz]
+[2023-06-16 04:50:25] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.6.3.tar.gz]
+[2023-06-16 04:50:25] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
+[2023-06-16 04:50:25] INFO root fetch - main [MainThread]: Store serial: [18526520]
