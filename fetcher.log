@@ -20571,3 +20571,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 12:26:29] INFO root fetch - processPackages [aws-lambda-powertools]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_powertools-2.9.1.tar.gz]
 [2023-06-16 12:26:29] INFO root fetch - main [MainThread]: End processing [aws-lambda-powertools]: success
 [2023-06-16 12:26:29] INFO root fetch - main [MainThread]: Store serial: [18530562]
+[2023-06-16 12:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18530562]
+[2023-06-16 12:31:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-16 12:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arch-github-package
+[2023-06-16 12:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syngen
+[2023-06-16 12:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-interpolator
+[2023-06-16 12:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plot-data
+[2023-06-16 12:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dqfit
+[2023-06-16 12:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elasticai-creator
+[2023-06-16 12:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: weaverbird
+[2023-06-16 12:31:39] INFO root fetch - processPackages [arch-github-package]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-16 12:31:39] INFO root fetch - processPackages [elasticai-creator]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-06-16 12:31:39] INFO root fetch - processPackages [simple-interpolator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 12:31:39] INFO root fetch - processPackages [plot-data]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-06-16 12:31:39] INFO root fetch - processPackages [dqfit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 12:31:39] INFO root fetch - processPackages [syngen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 12:31:39] INFO root fetch - processPackages [weaverbird]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-06-16 12:31:39] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/d1/5c/1a07748f97870290d6219c56768425459aa1519f941153183894348fc83a/syngen-0.1.8.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [plot-data]: Downloading https://files.pythonhosted.org/packages/f5/97/88a721d0d6c1136ebbf372e962fb09f9351a66e3df60534183e048807066/plot_data-0.8.5.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/a0/64/b855ee784384ae6721761d941267e21b40718bf7ccac221b078d41dc5c18/simple-interpolator-0.0.8.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [arch-github-package]: Downloading https://files.pythonhosted.org/packages/af/1a/bbdf05a48861cb5571a4925760f391d4428d40c5e89953c076383c2d2526/arch_github_package-0.0.3.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/f4/f4/3c8441508e7e4c9f560d0bb8bfbfc64a417b96a55a09af93424946816450/elasticai.creator-0.7.0.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [dqfit]: Downloading https://files.pythonhosted.org/packages/b9/7d/fdfbb908f2f231e9e5f17c8dc3e451afe7abb273b668a8f31bdfca8e2e2b/dqfit-0.0.8.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/13/d4/a67794d24aede09e2291acd8527a2687b1bb832998e72426432346f1c29b/weaverbird-0.8.9.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [simple-interpolator]: Downloading https://files.pythonhosted.org/packages/e9/e2/3b92c8fefdfb5b2cec392920d4593723f20f7a86907a0e0bfccfb43ef1d3/simple-interpolator-0.0.9.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [plot-data]: Downloading https://files.pythonhosted.org/packages/81/3d/cfa1a3804b97d4a1d5d69b1c148fc999d8e5b2ec19dc1d579f9d605f86d0/plot_data-0.9.0.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/1c/ec/09634635304cfe54bd538c9f136477113b28b8b56e10596aec3cf678573a/syngen-0.1.9.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [simple-interpolator]: executing diffoscope
+[2023-06-16 12:31:39] INFO root fetch - processPackages [simple-interpolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-interpolator-0.0.8.tar.gz tmp/simple-interpolator-0.0.9.tar.gz --markdown 20230616/s/simple-interpolator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 12:31:39] INFO root fetch - processPackages [plot-data]: executing diffoscope
+[2023-06-16 12:31:39] INFO root fetch - processPackages [plot-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plot_data-0.8.5.tar.gz tmp/plot_data-0.9.0.tar.gz --markdown 20230616/p/plot-data/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 12:31:39] INFO root fetch - processPackages [arch-github-package]: Downloading https://files.pythonhosted.org/packages/84/94/b459d3c3723b8c469a16a5be598e768c6ca08d572a2817135f1ed10d4430/arch_github_package-0.0.4.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-06-16 12:31:39] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.8.tar.gz tmp/syngen-0.1.9.tar.gz --markdown 20230616/s/syngen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 12:31:39] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/41/00/ecf6fd2903be8cf829d89408464d3338913631ab10066e0541a95b004b45/elasticai.creator-0.9.0.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/7d/6c/1b304fa798ee7d82dbc5bc587a90653cc03647f25d1c498a0020b52a5f78/weaverbird-0.9.0.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [arch-github-package]: executing diffoscope
+[2023-06-16 12:31:39] INFO root fetch - processPackages [arch-github-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_github_package-0.0.3.tar.gz tmp/arch_github_package-0.0.4.tar.gz --markdown 20230616/a/arch-github-package/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-16 12:31:39] INFO root fetch - processPackages [dqfit]: Downloading https://files.pythonhosted.org/packages/15/19/a6da27ff61b48934a7e118ad617812c44301b79f71bc59a98447de9a89fc/dqfit-0.0.9.tar.gz
+[2023-06-16 12:31:39] INFO root fetch - processPackages [weaverbird]: executing diffoscope
+[2023-06-16 12:31:39] INFO root fetch - processPackages [weaverbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaverbird-0.8.9.tar.gz tmp/weaverbird-0.9.0.tar.gz --markdown 20230616/w/weaverbird/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 12:31:40] INFO root fetch - processPackages [elasticai-creator]: executing diffoscope
+[2023-06-16 12:31:40] INFO root fetch - processPackages [elasticai-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticai.creator-0.7.0.tar.gz tmp/elasticai.creator-0.9.0.tar.gz --markdown 20230616/e/elasticai-creator/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 12:31:40] INFO root fetch - processPackages [dqfit]: executing diffoscope
+[2023-06-16 12:31:40] INFO root fetch - processPackages [dqfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqfit-0.0.8.tar.gz tmp/dqfit-0.0.9.tar.gz --markdown 20230616/d/dqfit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 12:31:40] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.0.8.tar.gz]
+[2023-06-16 12:31:40] INFO root fetch - processPackages [simple-interpolator]: Remove: archive file [/home/abi/fetcher/tmp/simple-interpolator-0.0.9.tar.gz]
+[2023-06-16 12:31:40] INFO root fetch - main [MainThread]: End processing [simple-interpolator]: success
+[2023-06-16 12:31:41] INFO root fetch - processPackages [arch-github-package]: Remove: archive file [/home/abi/fetcher/tmp/arch_github_package-0.0.3.tar.gz]
+[2023-06-16 12:31:41] INFO root fetch - processPackages [arch-github-package]: Remove: archive file [/home/abi/fetcher/tmp/arch_github_package-0.0.4.tar.gz]
+[2023-06-16 12:31:41] INFO root fetch - main [MainThread]: End processing [arch-github-package]: success
+[2023-06-16 12:31:41] INFO root fetch - processPackages [dqfit]: Remove: archive file [/home/abi/fetcher/tmp/dqfit-0.0.8.tar.gz]
+[2023-06-16 12:31:41] INFO root fetch - processPackages [dqfit]: Remove: archive file [/home/abi/fetcher/tmp/dqfit-0.0.9.tar.gz]
+[2023-06-16 12:31:41] INFO root fetch - main [MainThread]: End processing [dqfit]: success
+[2023-06-16 12:31:41] INFO root fetch - processPackages [plot-data]: Remove: archive file [/home/abi/fetcher/tmp/plot_data-0.8.5.tar.gz]
+[2023-06-16 12:31:41] INFO root fetch - processPackages [plot-data]: Remove: archive file [/home/abi/fetcher/tmp/plot_data-0.9.0.tar.gz]
+[2023-06-16 12:31:41] INFO root fetch - main [MainThread]: End processing [plot-data]: success
+[2023-06-16 12:31:41] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.8.9.tar.gz]
+[2023-06-16 12:31:41] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.9.0.tar.gz]
+[2023-06-16 12:31:41] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
+[2023-06-16 12:31:41] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.7.0.tar.gz]
+[2023-06-16 12:31:41] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.9.0.tar.gz]
+[2023-06-16 12:31:41] INFO root fetch - main [MainThread]: End processing [elasticai-creator]: success
+[2023-06-16 12:31:43] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.8.tar.gz]
+[2023-06-16 12:31:43] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
+[2023-06-16 12:31:43] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-06-16 12:31:43] INFO root fetch - main [MainThread]: Store serial: [18530583]
