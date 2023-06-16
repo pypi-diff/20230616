@@ -13155,3 +13155,51 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 07:38:58] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-16 07:38:58] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-16 07:38:58] INFO root fetch - main [MainThread]: Store serial: [18527681]
+[2023-06-16 07:44:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18527681]
+[2023-06-16 07:44:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-16 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: queryandprocessdatautility
+[2023-06-16 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kangforecast
+[2023-06-16 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo9-addon-base-partner-merge
+[2023-06-16 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plothist
+[2023-06-16 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: popari
+[2023-06-16 07:44:07] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-16 07:44:07] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-16 07:44:07] INFO root fetch - processPackages [plothist]: New version: [0.2] Old Version: [0.1]
+[2023-06-16 07:44:07] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 07:44:07] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-16 07:44:07] INFO root fetch - processPackages [popari]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-16 07:44:07] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/41/bc/a49e61a427a4c161c2104c44df568eeabbf910ab3b9887d43a3df32acb0a/plothist-0.1.tar.gz
+[2023-06-16 07:44:07] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: Downloading https://files.pythonhosted.org/packages/dc/04/9b500aab09eafe36af82662a4bc1dc5dea5029fb8bd38afeeafb1493038c/odoo9_addon_base_partner_merge-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-16 07:44:08] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-06-16 07:44:08] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-16 07:44:08] INFO root fetch - processPackages [popari]: Downloading https://files.pythonhosted.org/packages/65/f5/68787d0eb687fa6534508cde4244cf24659ad0a55bb61543bda2f0768e5b/popari-0.0.8.tar.gz
+[2023-06-16 07:44:08] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-16 07:44:08] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230616/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-16 07:44:08] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: Downloading https://files.pythonhosted.org/packages/07/78/dc25b396ad747952b618f43fdd61da47efad0aa1aa9767c54507f8d39837/odoo9_addon_base_partner_merge-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-16 07:44:08] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/fe/67/00bf5248ab67b105605fa583cb054f92e00a8c0d93e14374844df288bf26/plothist-0.2.tar.gz
+[2023-06-16 07:44:08] INFO root fetch - processPackages [popari]: Downloading https://files.pythonhosted.org/packages/32/90/548a88df5e1bb4876e07dc08dd3a6dcdf5c38aa7475663db4eb10bb88caf/popari-0.0.9.tar.gz
+[2023-06-16 07:44:08] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-06-16 07:44:08] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-06-16 07:44:08] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230616/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 07:44:08] INFO root fetch - processPackages [popari]: executing diffoscope
+[2023-06-16 07:44:08] INFO root fetch - processPackages [popari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popari-0.0.8.tar.gz tmp/popari-0.0.9.tar.gz --markdown 20230616/p/popari/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-16 07:44:08] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: executing diffoscope
+[2023-06-16 07:44:08] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_base_partner_merge-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_base_partner_merge-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-base-partner-merge/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-16 07:44:08] INFO root fetch - processPackages [plothist]: executing diffoscope
+[2023-06-16 07:44:08] INFO root fetch - processPackages [plothist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plothist-0.1.tar.gz tmp/plothist-0.2.tar.gz --markdown 20230616/p/plothist/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-16 07:44:09] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.8.tar.gz]
+[2023-06-16 07:44:09] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.9.tar.gz]
+[2023-06-16 07:44:09] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-16 07:44:09] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-06-16 07:44:09] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-06-16 07:44:09] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-06-16 07:44:09] INFO root fetch - processPackages [popari]: Remove: archive file [/home/abi/fetcher/tmp/popari-0.0.8.tar.gz]
+[2023-06-16 07:44:09] INFO root fetch - processPackages [popari]: Remove: archive file [/home/abi/fetcher/tmp/popari-0.0.9.tar.gz]
+[2023-06-16 07:44:09] INFO root fetch - main [MainThread]: End processing [popari]: success
+[2023-06-16 07:44:10] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_base_partner_merge-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 07:44:10] INFO root fetch - processPackages [odoo9-addon-base-partner-merge]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_base_partner_merge-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-16 07:44:10] INFO root fetch - main [MainThread]: End processing [odoo9-addon-base-partner-merge]: success
+[2023-06-16 07:44:10] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.1.tar.gz]
+[2023-06-16 07:44:10] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.2.tar.gz]
+[2023-06-16 07:44:10] INFO root fetch - main [MainThread]: End processing [plothist]: success
+[2023-06-16 07:44:10] INFO root fetch - main [MainThread]: Store serial: [18527698]
