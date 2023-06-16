@@ -16198,3 +16198,153 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-16 09:46:11] INFO root fetch - processPackages [ssmv]: Remove: archive file [/home/abi/fetcher/tmp/ssmv-0.1.2-cp37-abi3-win_amd64.whl.zip]
 [2023-06-16 09:46:11] INFO root fetch - main [MainThread]: End processing [ssmv]: success
 [2023-06-16 09:46:11] INFO root fetch - main [MainThread]: Store serial: [18528797]
+[2023-06-16 09:51:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18528797]
+[2023-06-16 09:51:21] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssmv
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aifunc
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dea-tools
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eventiq
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hxeva
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pvbm
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Akatosh
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyterhub-ltiauthenticator
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly-cpu
+[2023-06-16 09:51:21] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev97] Old Version: [0.2.8.dev96]
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ssmv]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-16 09:51:21] INFO root fetch - processPackages [aifunc]: New version: [0.5.0] Old Version: [0.4.6]
+[2023-06-16 09:51:21] INFO root fetch - processPackages [pvbm]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-16 09:51:21] INFO root fetch - processPackages [eventiq]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-16 09:51:21] WARNING root fetch - processPackages [hxeva]: Skipping, unable to determine old version
+[2023-06-16 09:51:21] INFO root fetch - processPackages [hxeva]: Start processing: odoo8-addon-website-snippet-contact-form
+[2023-06-16 09:51:21] INFO root fetch - main [MainThread]: End processing [hxeva] error
+[2023-06-16 09:51:21] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-16 09:51:21] INFO root fetch - processPackages [Akatosh]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-16 09:51:21] INFO root fetch - processPackages [cg]: New version: [36.2.2] Old Version: [36.2.1]
+[2023-06-16 09:51:21] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230616] Old Version: [2.14.0.dev20230615]
+[2023-06-16 09:51:21] INFO root fetch - processPackages [odoo8-addon-website-snippet-contact-form]: New version: [8.0.1.0.0.99.dev37] Old Version: [8.0.1.0.0.99.dev36]
+[2023-06-16 09:51:21] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/a5/8f/e6c38c4a30e34e27c73d390677fb69b536831fdf18ceac5323ec7e5952f2/dea-tools-0.2.8.dev96.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/9e/dbbba0e5216f655e19f12b3632fd593164f5c72af78acbb79c26402099c5/cg-36.2.1.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/8c/b1/bdb8932fd684711f7c87500f9bd8b4e073fbd2627141fdba7b3259186ffe/aifunc-0.4.6.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ssmv]: Downloading https://files.pythonhosted.org/packages/04/33/7c7ebd872cf5d56bbe6016f48e3ccfd2ca4eb05165fdfd52220abe5b58fd/ssmv-0.1.1-cp37-abi3-win_amd64.whl
+[2023-06-16 09:51:21] INFO root fetch - processPackages [pvbm]: Downloading https://files.pythonhosted.org/packages/ff/31/c8fadab38441b5bfff530609b531cea5b312d17c5a09c464239d600feee7/pvbm-2.2.0.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/90/a3/cb1bacaf8d97248e075185987fd4455791309421ee2873607737275ef34e/eventiq-0.1.8.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/25/70/6d8dd67be52f6dd05b6110ee38c5dbb8f563ca385bebab2b43f897f0b814/Akatosh-1.7.0.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: Downloading https://files.pythonhosted.org/packages/4a/67/5813b6cc3b8b768eafb0815fada7c2390967150d5d34208e1ecbbe68f5d5/jupyterhub_ltiauthenticator-1.5.1.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/5d/82/f70524091ef33a59c71b4c0fdce5e51cc893cc484c5bb0a04168f2d76e23/tf_nightly_cpu-2.14.0.dev20230615-cp39-cp39-win_amd64.whl
+[2023-06-16 09:51:21] INFO root fetch - processPackages [odoo8-addon-website-snippet-contact-form]: Downloading https://files.pythonhosted.org/packages/34/8e/a63d1936b26e3992e04aacabb16074932fc043e61d961f38447c3a8f4894/odoo8_addon_website_snippet_contact_form-8.0.1.0.0.99.dev36-py2-none-any.whl
+[2023-06-16 09:51:21] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/6c/a2/54f9080291998aff375fbdeae573a4329cd884f655a27302bbcdf010cc6d/dea-tools-0.2.8.dev97.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/be/65/c130e70de10247194d121bb90877e549cc3b2afe4a2299532e1924e770a1/aifunc-0.5.0.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-06-16 09:51:21] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev96.tar.gz tmp/dea-tools-0.2.8.dev97.tar.gz --markdown 20230616/d/dea-tools/0.2.8.dev96-0.2.8.dev97/diff.md --exclude *.pyd
+[2023-06-16 09:51:21] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/3f/c1/e77befb958dbd71ccf8e6ea0999b283589030bf8950a4ed602728101e591/Akatosh-1.7.1.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [pvbm]: Downloading https://files.pythonhosted.org/packages/3d/8f/e18cdc714cdf05f211e9c5378d1b3282c695ba2293debad92c7969bb24df/pvbm-2.3.0.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [ssmv]: Downloading https://files.pythonhosted.org/packages/bc/eb/e9403838b9764533888620a64259c75a37fa16418659e7392d13462082e5/ssmv-0.1.2-cp37-abi3-win_amd64.whl
+[2023-06-16 09:51:21] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-06-16 09:51:21] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-1.7.0.tar.gz tmp/Akatosh-1.7.1.tar.gz --markdown 20230616/A/Akatosh/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-16 09:51:21] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-16 09:51:21] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.4.6.tar.gz tmp/aifunc-0.5.0.tar.gz --markdown 20230616/a/aifunc/0.4.6-0.5.0/diff.md --exclude *.pyd
+[2023-06-16 09:51:21] INFO root fetch - processPackages [pvbm]: executing diffoscope
+[2023-06-16 09:51:21] INFO root fetch - processPackages [pvbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvbm-2.2.0.tar.gz tmp/pvbm-2.3.0.tar.gz --markdown 20230616/p/pvbm/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-16 09:51:21] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/d9/70/b75adec1b4c90b8e8555825ef7ddb7424e1c7503f0fd8961247e4f1b66d9/eventiq-0.1.9.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: Downloading https://files.pythonhosted.org/packages/b4/fb/b7301d9a85240f7198db89bd54d35cfb6601c60693a1b871746118e09123/jupyterhub_ltiauthenticator-1.6.0.tar.gz
+[2023-06-16 09:51:21] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/bd/98/2b6096466376acc3e375703ff02a5e7120372175c2a89b04b6f85dea54e6/tf_nightly_cpu-2.14.0.dev20230616-cp39-cp39-win_amd64.whl
+[2023-06-16 09:51:21] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: executing diffoscope
+[2023-06-16 09:51:21] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub_ltiauthenticator-1.5.1.tar.gz tmp/jupyterhub_ltiauthenticator-1.6.0.tar.gz --markdown 20230616/j/jupyterhub-ltiauthenticator/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-16 09:51:21] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/4e/4f/b71ae3814a883b44539a3b550c1656bd3c1414a442f6176ea79d3e8326d8/cg-36.2.2.tar.gz
+[2023-06-16 09:51:22] INFO root fetch - processPackages [eventiq]: executing diffoscope
+[2023-06-16 09:51:22] INFO root fetch - processPackages [eventiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventiq-0.1.8.tar.gz tmp/eventiq-0.1.9.tar.gz --markdown 20230616/e/eventiq/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-16 09:51:22] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-16 09:51:22] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230615-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230616-cp39-cp39-win_amd64.whl.zip --markdown 20230616/t/tf-nightly-cpu/2.14.0.dev20230615-2.14.0.dev20230616/diff.md --exclude *.pyd
+[2023-06-16 09:51:22] INFO root fetch - processPackages [ssmv]: executing diffoscope
+[2023-06-16 09:51:22] INFO root fetch - processPackages [ssmv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssmv-0.1.1-cp37-abi3-win_amd64.whl.zip tmp/ssmv-0.1.2-cp37-abi3-win_amd64.whl.zip --markdown 20230616/s/ssmv/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-16 09:51:22] INFO root fetch - processPackages [odoo8-addon-website-snippet-contact-form]: Downloading https://files.pythonhosted.org/packages/b5/87/90b712e42a58f040e726f2d03bb96a4a4e10cfa987df1afed808a0961b60/odoo8_addon_website_snippet_contact_form-8.0.1.0.0.99.dev37-py2-none-any.whl
+[2023-06-16 09:51:22] INFO root fetch - processPackages [odoo8-addon-website-snippet-contact-form]: executing diffoscope
+[2023-06-16 09:51:22] INFO root fetch - processPackages [odoo8-addon-website-snippet-contact-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_snippet_contact_form-8.0.1.0.0.99.dev36-py2-none-any.whl.zip tmp/odoo8_addon_website_snippet_contact_form-8.0.1.0.0.99.dev37-py2-none-any.whl.zip --markdown 20230616/o/odoo8-addon-website-snippet-contact-form/8.0.1.0.0.99.dev36-8.0.1.0.0.99.dev37/diff.md --exclude *.pyd
+[2023-06-16 09:51:22] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-16 09:51:22] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.2.1.tar.gz tmp/cg-36.2.2.tar.gz --markdown 20230616/c/cg/36.2.1-36.2.2/diff.md --exclude *.pyd
+[2023-06-16 09:51:23] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.4.6.tar.gz]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.5.0.tar.gz]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [aifunc]: Start processing: django-helpdesk
+[2023-06-16 09:51:23] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-16 09:51:23] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-1.7.0.tar.gz]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-1.7.1.tar.gz]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [Akatosh]: Start processing: processingtools
+[2023-06-16 09:51:23] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-06-16 09:51:23] INFO root fetch - processPackages [django-helpdesk]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [processingtools]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230615-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230616-cp39-cp39-win_amd64.whl.zip]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: overhave
+[2023-06-16 09:51:23] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-16 09:51:23] INFO root fetch - processPackages [overhave]: New version: [3.9.0] Old Version: [3.8.4]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/35/d2/ab3a72dd99318a4ecf97364c7c67b8903528d6443e59e69d0e5cb8aa6d76/overhave-3.8.4.tar.gz
+[2023-06-16 09:51:23] INFO root fetch - processPackages [django-helpdesk]: Downloading https://files.pythonhosted.org/packages/3c/00/e240eaed53d9cb9eb97669ce7a4172a7e67a48a7f857780b2e3da6fedb68/django-helpdesk-0.4.1.tar.gz
+[2023-06-16 09:51:23] INFO root fetch - processPackages [processingtools]: Downloading https://files.pythonhosted.org/packages/e1/df/b24c35ba5f0bec75a0b1a9fd4da1858025c3a8dc0ca1e6abf75c43d69bef/processingtools-0.2.8.tar.gz
+[2023-06-16 09:51:23] INFO root fetch - processPackages [ssmv]: Remove: archive file [/home/abi/fetcher/tmp/ssmv-0.1.1-cp37-abi3-win_amd64.whl.zip]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [ssmv]: Remove: archive file [/home/abi/fetcher/tmp/ssmv-0.1.2-cp37-abi3-win_amd64.whl.zip]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [ssmv]: Start processing: rabe-cridlib
+[2023-06-16 09:51:23] INFO root fetch - main [MainThread]: End processing [ssmv]: success
+[2023-06-16 09:51:23] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/53/af/c768a33320940cbb4d2e9af53d090268fc9eb0b87bed8e10c081c668f698/overhave-3.9.0.tar.gz
+[2023-06-16 09:51:23] INFO root fetch - processPackages [pvbm]: Remove: archive file [/home/abi/fetcher/tmp/pvbm-2.2.0.tar.gz]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [pvbm]: Remove: archive file [/home/abi/fetcher/tmp/pvbm-2.3.0.tar.gz]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [pvbm]: Start processing: resc-helm-wizard
+[2023-06-16 09:51:23] INFO root fetch - main [MainThread]: End processing [pvbm]: success
+[2023-06-16 09:51:23] INFO root fetch - processPackages [rabe-cridlib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-06-16 09:51:23] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-3.8.4.tar.gz tmp/overhave-3.9.0.tar.gz --markdown 20230616/o/overhave/3.8.4-3.9.0/diff.md --exclude *.pyd
+[2023-06-16 09:51:23] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub_ltiauthenticator-1.5.1.tar.gz]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub_ltiauthenticator-1.6.0.tar.gz]
+[2023-06-16 09:51:23] INFO root fetch - processPackages [jupyterhub-ltiauthenticator]: Start processing: odoo9-addon-website-portal-contact
+[2023-06-16 09:51:23] INFO root fetch - main [MainThread]: End processing [jupyterhub-ltiauthenticator]: success
+[2023-06-16 09:51:23] INFO root fetch - processPackages [resc-helm-wizard]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-16 09:51:24] INFO root fetch - processPackages [odoo9-addon-website-portal-contact]: New version: [9.0.1.0.0.99.dev8] Old Version: [9.0.1.0.0.99.dev7]
+[2023-06-16 09:51:24] INFO root fetch - processPackages [rabe-cridlib]: Downloading https://files.pythonhosted.org/packages/a7/18/ed0fc17b87961f68e107cc40ce8d5dfe01408796304c8c581209cac8f168/rabe_cridlib-0.8.0.tar.gz
+[2023-06-16 09:51:24] INFO root fetch - processPackages [odoo8-addon-website-snippet-contact-form]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_snippet_contact_form-8.0.1.0.0.99.dev36-py2-none-any.whl.zip]
+[2023-06-16 09:51:24] INFO root fetch - processPackages [odoo8-addon-website-snippet-contact-form]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_snippet_contact_form-8.0.1.0.0.99.dev37-py2-none-any.whl.zip]
+[2023-06-16 09:51:24] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-snippet-contact-form]: success
+[2023-06-16 09:51:24] INFO root fetch - processPackages [resc-helm-wizard]: Downloading https://files.pythonhosted.org/packages/a2/fa/b38dd794b1e2a3572186bba4590ae31eea914202f76ae218be3567400f42/resc_helm_wizard-1.0.4.tar.gz
+[2023-06-16 09:51:24] INFO root fetch - processPackages [odoo9-addon-website-portal-contact]: Downloading https://files.pythonhosted.org/packages/52/d6/a618b108d2331534fbd2015022f4cdc6672f4dd7f37f0c1ad893904b9012/odoo9_addon_website_portal_contact-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-16 09:51:24] INFO root fetch - processPackages [processingtools]: Downloading https://files.pythonhosted.org/packages/d4/f2/d0f2d8f7c3ee50f7aac0a94ec8c7d01e8098b8937608a9435926e031d34e/processingtools-0.2.9-py3-none-any.whl
+[2023-06-16 09:51:24] INFO root fetch - processPackages [resc-helm-wizard]: Downloading https://files.pythonhosted.org/packages/81/00/8b9348656d6dbd80a61b81c373038e751302973b6126e903ce32728ebd0e/resc_helm_wizard-1.0.5.tar.gz
+[2023-06-16 09:51:24] INFO root fetch - processPackages [rabe-cridlib]: Downloading https://files.pythonhosted.org/packages/e5/62/6970ce467b68609211ca982a9b28abe5ac5604a5ee1bec7a6726f07ee106/rabe_cridlib-0.9.0.tar.gz
+[2023-06-16 09:51:24] INFO root fetch - processPackages [resc-helm-wizard]: executing diffoscope
+[2023-06-16 09:51:24] INFO root fetch - processPackages [resc-helm-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_helm_wizard-1.0.4.tar.gz tmp/resc_helm_wizard-1.0.5.tar.gz --markdown 20230616/r/resc-helm-wizard/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-16 09:51:24] INFO root fetch - processPackages [rabe-cridlib]: executing diffoscope
+[2023-06-16 09:51:24] INFO root fetch - processPackages [rabe-cridlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabe_cridlib-0.8.0.tar.gz tmp/rabe_cridlib-0.9.0.tar.gz --markdown 20230616/r/rabe-cridlib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-16 09:51:24] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev96.tar.gz]
+[2023-06-16 09:51:24] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev97.tar.gz]
+[2023-06-16 09:51:24] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-06-16 09:51:24] INFO root fetch - processPackages [processingtools]: executing diffoscope
+[2023-06-16 09:51:24] INFO root fetch - processPackages [processingtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processingtools-0.2.8.tar.gz tmp/processingtools-0.2.9-py3-none-any.whl.zip --markdown 20230616/p/processingtools/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-16 09:51:24] INFO root fetch - processPackages [odoo9-addon-website-portal-contact]: Downloading https://files.pythonhosted.org/packages/6a/a5/f193bd6e6fd1cef823f84dcc7493577b1bf318eccae64aab2063ba4396d9/odoo9_addon_website_portal_contact-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-16 09:51:25] INFO root fetch - processPackages [odoo9-addon-website-portal-contact]: executing diffoscope
+[2023-06-16 09:51:25] INFO root fetch - processPackages [odoo9-addon-website-portal-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_website_portal_contact-9.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_website_portal_contact-9.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230616/o/odoo9-addon-website-portal-contact/9.0.1.0.0.99.dev7-9.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-16 09:51:25] INFO root fetch - processPackages [eventiq]: Remove: archive file [/home/abi/fetcher/tmp/eventiq-0.1.8.tar.gz]
+[2023-06-16 09:51:25] INFO root fetch - processPackages [eventiq]: Remove: archive file [/home/abi/fetcher/tmp/eventiq-0.1.9.tar.gz]
+[2023-06-16 09:51:25] INFO root fetch - main [MainThread]: End processing [eventiq]: success
+[2023-06-16 09:51:25] INFO root fetch - processPackages [django-helpdesk]: Downloading https://files.pythonhosted.org/packages/90/12/55fed84f7b21a4a0cd38997633534515e395a20c5db1a4bca5304894781b/django-helpdesk-0.5.0.tar.gz
+[2023-06-16 09:51:25] INFO root fetch - processPackages [resc-helm-wizard]: Remove: archive file [/home/abi/fetcher/tmp/resc_helm_wizard-1.0.4.tar.gz]
+[2023-06-16 09:51:25] INFO root fetch - processPackages [resc-helm-wizard]: Remove: archive file [/home/abi/fetcher/tmp/resc_helm_wizard-1.0.5.tar.gz]
+[2023-06-16 09:51:25] INFO root fetch - main [MainThread]: End processing [resc-helm-wizard]: success
+[2023-06-16 09:51:25] INFO root fetch - processPackages [rabe-cridlib]: Remove: archive file [/home/abi/fetcher/tmp/rabe_cridlib-0.8.0.tar.gz]
+[2023-06-16 09:51:25] INFO root fetch - processPackages [rabe-cridlib]: Remove: archive file [/home/abi/fetcher/tmp/rabe_cridlib-0.9.0.tar.gz]
+[2023-06-16 09:51:25] INFO root fetch - main [MainThread]: End processing [rabe-cridlib]: success
+[2023-06-16 09:51:25] INFO root fetch - processPackages [processingtools]: Remove: archive file [/home/abi/fetcher/tmp/processingtools-0.2.8.tar.gz]
+[2023-06-16 09:51:25] INFO root fetch - processPackages [processingtools]: Remove: archive file [/home/abi/fetcher/tmp/processingtools-0.2.9-py3-none-any.whl.zip]
+[2023-06-16 09:51:25] INFO root fetch - main [MainThread]: End processing [processingtools]: success
+[2023-06-16 09:51:26] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-3.8.4.tar.gz]
+[2023-06-16 09:51:26] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-3.9.0.tar.gz]
+[2023-06-16 09:51:26] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-06-16 09:51:26] INFO root fetch - processPackages [django-helpdesk]: executing diffoscope
+[2023-06-16 09:51:26] INFO root fetch - processPackages [django-helpdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-helpdesk-0.4.1.tar.gz tmp/django-helpdesk-0.5.0.tar.gz --markdown 20230616/d/django-helpdesk/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-16 09:51:26] INFO root fetch - processPackages [odoo9-addon-website-portal-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_website_portal_contact-9.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-16 09:51:26] INFO root fetch - processPackages [odoo9-addon-website-portal-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_website_portal_contact-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-16 09:51:26] INFO root fetch - main [MainThread]: End processing [odoo9-addon-website-portal-contact]: success
+[2023-06-16 09:51:34] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.1.tar.gz]
+[2023-06-16 09:51:34] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.2.2.tar.gz]
+[2023-06-16 09:51:34] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-16 09:52:24] INFO root fetch - processPackages [django-helpdesk]: Remove: archive file [/home/abi/fetcher/tmp/django-helpdesk-0.4.1.tar.gz]
+[2023-06-16 09:52:24] INFO root fetch - processPackages [django-helpdesk]: Remove: archive file [/home/abi/fetcher/tmp/django-helpdesk-0.5.0.tar.gz]
+[2023-06-16 09:52:24] INFO root fetch - main [MainThread]: End processing [django-helpdesk]: success
+[2023-06-16 09:52:24] INFO root fetch - main [MainThread]: Store serial: [18528856]
