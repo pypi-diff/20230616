@@ -10038,3 +10038,66 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 04:28:48] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
 [2023-06-16 04:28:48] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-06-16 04:28:48] INFO root fetch - main [MainThread]: Store serial: [18526346]
+[2023-06-16 04:33:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526346]
+[2023-06-16 04:33:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-16 04:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gridgraph-importer
+[2023-06-16 04:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xyz-util
+[2023-06-16 04:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-24
+[2023-06-16 04:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: falconjsonio
+[2023-06-16 04:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zepben.eas
+[2023-06-16 04:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytextcon
+[2023-06-16 04:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metlo-python-agent-bindings-common
+[2023-06-16 04:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atlassian-jwt-auth
+[2023-06-16 04:33:57] INFO root fetch - processPackages [pytextcon]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-16 04:33:57] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-16 04:33:57] INFO root fetch - processPackages [falconjsonio]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-16 04:33:57] INFO root fetch - processPackages [zepben.eas]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2023-06-16 04:33:57] INFO root fetch - processPackages [xyz-util]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-16 04:33:57] INFO root fetch - processPackages [pytextcon]: Downloading https://files.pythonhosted.org/packages/37/25/625079a7cc156466bdf95d998e3ad4675d9286a5c2d0d2231af140b311c8/pytextcon-0.1.3.tar.gz
+[2023-06-16 04:33:57] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-16 04:33:57] INFO root fetch - processPackages [xyz-util]: Downloading https://files.pythonhosted.org/packages/5d/0c/872a400eecaa55ee1697fd5e7eb3b7506b46370cd086e8cb4e3a1b5217de/xyz_util-0.7.8-py3-none-any.whl
+[2023-06-16 04:33:57] INFO root fetch - processPackages [falconjsonio]: Downloading https://files.pythonhosted.org/packages/0e/fe/36c3c365865a3f22941b1cedde2eacb1a87680c64e81873b8fd172c96168/falconjsonio-1.0.3.tar.gz
+[2023-06-16 04:33:57] WARNING root fetch - processPackages [gridgraph-importer]: Skipping, unable to determine old version
+[2023-06-16 04:33:57] INFO root fetch - main [MainThread]: End processing [gridgraph-importer] error
+[2023-06-16 04:33:57] INFO root fetch - processPackages [atlassian-jwt-auth]: New version: [9.0.0] Old Version: [8.0.2]
+[2023-06-16 04:33:57] WARNING root fetch - processPackages [metlo-python-agent-bindings-common]: Skipping, unable to determine old version
+[2023-06-16 04:33:57] INFO root fetch - main [MainThread]: End processing [metlo-python-agent-bindings-common] error
+[2023-06-16 04:33:57] INFO root fetch - processPackages [zepben.eas]: Downloading https://files.pythonhosted.org/packages/cd/86/8ed9e9b02166ad4cd86f58ad280766f9a66a641256471505c1ad241f9d69/zepben.eas-0.9.0b2-py3-none-any.whl
+[2023-06-16 04:33:57] INFO root fetch - processPackages [xyz-util]: Downloading https://files.pythonhosted.org/packages/18/21/740885711ec8b1b2af373a45be8f3107f48dff754a7f0ae735e1f705908e/xyz_util-0.7.9-py3-none-any.whl
+[2023-06-16 04:33:57] INFO root fetch - processPackages [pytextcon]: Downloading https://files.pythonhosted.org/packages/6f/4a/1018bb35c6e900f6f341954893266eff7fc6e41231a80eb5381f04c2fe83/pytextcon-0.1.4.tar.gz
+[2023-06-16 04:33:57] INFO root fetch - processPackages [atlassian-jwt-auth]: Downloading https://files.pythonhosted.org/packages/3e/80/616bef86563e08d9e509d21402ab281971721ddcf9c23ef2bc9f9c7d3e29/atlassian-jwt-auth-8.0.2.tar.gz
+[2023-06-16 04:33:57] INFO root fetch - processPackages [falconjsonio]: Downloading https://files.pythonhosted.org/packages/e3/4f/1ed41869343b2903935e2c9d12ddd3c93194ec0d163be15aba4697d8cf0b/falconjsonio-1.0.4.tar.gz
+[2023-06-16 04:33:57] INFO root fetch - processPackages [xyz-util]: executing diffoscope
+[2023-06-16 04:33:57] INFO root fetch - processPackages [xyz-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_util-0.7.8-py3-none-any.whl.zip tmp/xyz_util-0.7.9-py3-none-any.whl.zip --markdown 20230616/x/xyz-util/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-16 04:33:57] INFO root fetch - processPackages [pytextcon]: executing diffoscope
+[2023-06-16 04:33:57] INFO root fetch - processPackages [pytextcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytextcon-0.1.3.tar.gz tmp/pytextcon-0.1.4.tar.gz --markdown 20230616/p/pytextcon/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-16 04:33:58] INFO root fetch - processPackages [falconjsonio]: executing diffoscope
+[2023-06-16 04:33:58] INFO root fetch - processPackages [falconjsonio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falconjsonio-1.0.3.tar.gz tmp/falconjsonio-1.0.4.tar.gz --markdown 20230616/f/falconjsonio/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-16 04:33:58] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-16 04:33:58] INFO root fetch - processPackages [zepben.eas]: Downloading https://files.pythonhosted.org/packages/8f/52/b5a51093c22f12076137bc2fe4570258049dab12adf191eb5f39388b8f22/zepben.eas-0.9.0b3-py3-none-any.whl
+[2023-06-16 04:33:58] INFO root fetch - processPackages [atlassian-jwt-auth]: Downloading https://files.pythonhosted.org/packages/c4/87/782a9434abd5bf611d6fea023d96b1eb77da40cc06ddfbcb75d73201215c/atlassian-jwt-auth-9.0.0.tar.gz
+[2023-06-16 04:33:58] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-16 04:33:58] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230616/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-16 04:33:58] INFO root fetch - processPackages [atlassian-jwt-auth]: executing diffoscope
+[2023-06-16 04:33:58] INFO root fetch - processPackages [atlassian-jwt-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlassian-jwt-auth-8.0.2.tar.gz tmp/atlassian-jwt-auth-9.0.0.tar.gz --markdown 20230616/a/atlassian-jwt-auth/8.0.2-9.0.0/diff.md --exclude *.pyd
+[2023-06-16 04:33:58] INFO root fetch - processPackages [zepben.eas]: executing diffoscope
+[2023-06-16 04:33:58] INFO root fetch - processPackages [zepben.eas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.eas-0.9.0b2-py3-none-any.whl.zip tmp/zepben.eas-0.9.0b3-py3-none-any.whl.zip --markdown 20230616/z/zepben.eas/0.9.0b2-0.9.0b3/diff.md --exclude *.pyd
+[2023-06-16 04:33:59] INFO root fetch - processPackages [pytextcon]: Remove: archive file [/home/abi/fetcher/tmp/pytextcon-0.1.3.tar.gz]
+[2023-06-16 04:33:59] INFO root fetch - processPackages [pytextcon]: Remove: archive file [/home/abi/fetcher/tmp/pytextcon-0.1.4.tar.gz]
+[2023-06-16 04:33:59] INFO root fetch - main [MainThread]: End processing [pytextcon]: success
+[2023-06-16 04:33:59] INFO root fetch - processPackages [xyz-util]: Remove: archive file [/home/abi/fetcher/tmp/xyz_util-0.7.8-py3-none-any.whl.zip]
+[2023-06-16 04:33:59] INFO root fetch - processPackages [xyz-util]: Remove: archive file [/home/abi/fetcher/tmp/xyz_util-0.7.9-py3-none-any.whl.zip]
+[2023-06-16 04:33:59] INFO root fetch - main [MainThread]: End processing [xyz-util]: success
+[2023-06-16 04:33:59] INFO root fetch - processPackages [falconjsonio]: Remove: archive file [/home/abi/fetcher/tmp/falconjsonio-1.0.3.tar.gz]
+[2023-06-16 04:33:59] INFO root fetch - processPackages [falconjsonio]: Remove: archive file [/home/abi/fetcher/tmp/falconjsonio-1.0.4.tar.gz]
+[2023-06-16 04:33:59] INFO root fetch - main [MainThread]: End processing [falconjsonio]: success
+[2023-06-16 04:33:59] INFO root fetch - processPackages [zepben.eas]: Remove: archive file [/home/abi/fetcher/tmp/zepben.eas-0.9.0b2-py3-none-any.whl.zip]
+[2023-06-16 04:33:59] INFO root fetch - processPackages [zepben.eas]: Remove: archive file [/home/abi/fetcher/tmp/zepben.eas-0.9.0b3-py3-none-any.whl.zip]
+[2023-06-16 04:33:59] INFO root fetch - main [MainThread]: End processing [zepben.eas]: success
+[2023-06-16 04:33:59] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-16 04:33:59] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-16 04:33:59] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-16 04:33:59] INFO root fetch - processPackages [atlassian-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/atlassian-jwt-auth-8.0.2.tar.gz]
+[2023-06-16 04:33:59] INFO root fetch - processPackages [atlassian-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/atlassian-jwt-auth-9.0.0.tar.gz]
+[2023-06-16 04:33:59] INFO root fetch - main [MainThread]: End processing [atlassian-jwt-auth]: success
+[2023-06-16 04:33:59] INFO root fetch - main [MainThread]: Store serial: [18526380]
