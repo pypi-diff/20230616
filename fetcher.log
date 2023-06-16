@@ -10604,3 +10604,54 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-16 05:06:06] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.1.tar.gz]
 [2023-06-16 05:06:06] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-06-16 05:06:06] INFO root fetch - main [MainThread]: Store serial: [18526628]
+[2023-06-16 05:11:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18526628]
+[2023-06-16 05:11:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-16 05:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mindspore-lite
+[2023-06-16 05:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: d20-orm
+[2023-06-16 05:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssi-fctrading
+[2023-06-16 05:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2023-06-16 05:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitopenlib
+[2023-06-16 05:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: squidpy
+[2023-06-16 05:11:15] WARNING root fetch - processPackages [mindspore-lite]: Skipping, unable to determine old version
+[2023-06-16 05:11:15] INFO root fetch - main [MainThread]: End processing [mindspore-lite] error
+[2023-06-16 05:11:15] INFO root fetch - processPackages [yplib]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-06-16 05:11:15] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-16 05:11:15] INFO root fetch - processPackages [ssi-fctrading]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-06-16 05:11:15] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-06-16 05:11:15] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/25/dc/0fc3f4a9abb03712eba7937e1617395aa246cb1f7622612f74466d1ca3c8/yplib-1.4.9.tar.gz
+[2023-06-16 05:11:15] INFO root fetch - processPackages [squidpy]: New version: [1.3.0] Old Version: [1.2.3]
+[2023-06-16 05:11:15] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/a2/a7/37e3e4711a1904b587acf4e1f712c5da36982ada8d35f720d7cee4727670/ssi-fctrading-0.1.1.tar.gz
+[2023-06-16 05:11:15] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-16 05:11:15] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/48/74/590f5be409b770795c16d674e400c8995a8061e00d4e779cd4a7be76b06d/gitopenlib-0.2.7.28.tar.gz
+[2023-06-16 05:11:15] INFO root fetch - processPackages [squidpy]: Downloading https://files.pythonhosted.org/packages/4c/2d/d5bd745f45be2a6f238ffe23a5f9d4539df21cf980379d07bfbe4311e32f/squidpy-1.2.3.tar.gz
+[2023-06-16 05:11:15] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-16 05:11:15] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/6e/bd/df27d1e883f39929f1eda048f26aeef74588d10f4579831ad90c3178d19d/yplib-1.5.0.tar.gz
+[2023-06-16 05:11:15] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/95/54/4a4292733061b582887b760f5ab036ac4b7f126b55956419de3015c0a1fa/gitopenlib-0.2.8.28.tar.gz
+[2023-06-16 05:11:15] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/87/1a/11d692e253666d048dd2aff9d57d4d6103f118ab9113460ff74eaa09dab4/ssi-fctrading-1.0.0.tar.gz
+[2023-06-16 05:11:15] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-16 05:11:15] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230616/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-16 05:11:15] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-16 05:11:15] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.4.9.tar.gz tmp/yplib-1.5.0.tar.gz --markdown 20230616/y/yplib/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-06-16 05:11:15] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-06-16 05:11:15] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230616/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-06-16 05:11:15] INFO root fetch - processPackages [ssi-fctrading]: executing diffoscope
+[2023-06-16 05:11:15] INFO root fetch - processPackages [ssi-fctrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi-fctrading-0.1.1.tar.gz tmp/ssi-fctrading-1.0.0.tar.gz --markdown 20230616/s/ssi-fctrading/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-16 05:11:15] INFO root fetch - processPackages [squidpy]: Downloading https://files.pythonhosted.org/packages/97/0f/d17c21cacd848f0b8d22d26a2d476572d7064bf1160818aa68ef95e36fa1/squidpy-1.3.0.tar.gz
+[2023-06-16 05:11:16] INFO root fetch - processPackages [squidpy]: executing diffoscope
+[2023-06-16 05:11:16] INFO root fetch - processPackages [squidpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230616:/home/abi/fetcher/20230616:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squidpy-1.2.3.tar.gz tmp/squidpy-1.3.0.tar.gz --markdown 20230616/s/squidpy/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2023-06-16 05:11:16] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.4.9.tar.gz]
+[2023-06-16 05:11:16] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.5.0.tar.gz]
+[2023-06-16 05:11:16] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-16 05:11:16] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-16 05:11:16] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-16 05:11:16] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-16 05:11:17] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.7.28.tar.gz]
+[2023-06-16 05:11:17] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
+[2023-06-16 05:11:17] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-06-16 05:11:17] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-0.1.1.tar.gz]
+[2023-06-16 05:11:17] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-1.0.0.tar.gz]
+[2023-06-16 05:11:17] INFO root fetch - main [MainThread]: End processing [ssi-fctrading]: success
+[2023-06-16 05:11:20] INFO root fetch - processPackages [squidpy]: Remove: archive file [/home/abi/fetcher/tmp/squidpy-1.2.3.tar.gz]
+[2023-06-16 05:11:20] INFO root fetch - processPackages [squidpy]: Remove: archive file [/home/abi/fetcher/tmp/squidpy-1.3.0.tar.gz]
+[2023-06-16 05:11:20] INFO root fetch - main [MainThread]: End processing [squidpy]: success
+[2023-06-16 05:11:20] INFO root fetch - main [MainThread]: Store serial: [18526647]
